@@ -1,0 +1,198 @@
+#!/bin/bash
+#
+#
+#
+OAS_FILES=../openapi-data/oasFilesJson/*
+LOG_FILES_DIRECTORY=../openapi-data/analysis/
+LOG_FILES=../openapi-data/analysis/*
+
+run_openisbt () {
+	for f in $OAS_FILES
+	do
+  	filename=${f##*/} 
+  	echo -e  "Running MatchingTool on file: \t  $filename"
+		java -jar openISBTBackend/build/libs/matchingTool-1.0-SNAPSHOT-all.jar -s $f -d resources/patternConfigs/amitExperiment.json -o >$LOG_FILES_DIRECTORY$filename	
+	done
+}
+
+count_resources () {
+	local counter=0
+	cat $1 | while read line
+	do
+		counter=$((counter+1))
+		local chars=$(echo $line | grep "\-\-\-\-\-\-\-\-\-\-\-\-"| wc -m )
+		if [ $chars -gt 1 ];then
+			counter=$((counter -3))
+			echo $counter;
+		fi
+	done
+}
+
+select_resources () {
+	local counter=$(count_resources $1)
+	cat $1 | head -n $((counter+2)) | tail -n $counter| while read line
+	do 
+	echo $line | cut -c 57- 
+	done
+}
+
+extract_supported () {
+	local counter=0
+	cat $1 | while read line
+	do
+		local helper=1
+		lines=$(cat $1 | wc -l )
+		local counter=$((counter+1))
+		local chars=$(echo $line | grep "Supported resource mappings:"| wc -m )
+		if [ $chars -gt 1 ];then
+			helper=$((counter))
+			condition=$(cat $1 | tail -n $((lines-helper)) | wc -l )
+			if [ $condition -gt 1 ];then
+				cat $1 | tail -n $((lines-helper))
+			fi
+		fi
+	done
+}
+
+remove_corrupt_files () {
+	removed=0
+	for f in $LOG_FILES
+	do
+		filename=${f##*/} 
+		local path=$(find $LOG_FILES_DIRECTORY -empty -name $filename)
+		if [ "$path" != "" ];then
+			echo -e  "File is empty and will be removed: \t $f"	
+			removed=$((removed+1))
+			rm $f
+		else
+			local HEAD=$( head -n 1 $f |grep "Will overwrite mapping file")
+  		local TAIL=$( tail -n 1 $f |grep "Done.")
+			if [[ "$HEAD" == "" || "$TAIL" == "" ]];then
+			echo -e  "File has wrong format and will be removed: \t $f"	
+			removed=$((removed+1))
+			rm $f
+		fi
+	fi
+	done
+	echo $removed were removed as they are corrupted
+}
+
+
+remove_pet_store_apis () {
+	local removed=0
+	for f in $LOG_FILES
+	do
+		select_resources $f >helperFile
+		paths=$(cat helperFile | tr -d '\012' )
+		if [ "$paths" == "/pet/user/store/inventory/store/order" ];then
+			removed=$((removed+1))
+			echo -e "File is default petstore and will be removed: \t $f"
+			rm $f
+		fi
+	done
+	rm helperFile
+	echo "$removed default Petstore Files were removed"
+}
+
+
+remove_oauth_apis () {
+	local removed=0
+	for f in $LOG_FILES
+	do
+		select_resources $f >helperFile
+		paths=$(cat helperFile | tr -d '\012' )
+		if [ "$paths" == "/example/ping" ];then
+			removed=$((removed+1))
+			echo -e "File is default OAuth API and will be removed: \t $f"
+			rm $f
+		fi
+	done
+	rm helperFile
+	echo "$removed default OAuth Files were removed"
+}
+
+
+
+remove_iot_apis () {
+	local removed=0
+	for f in $LOG_FILES
+	do
+		select_resources $f >helperFile
+		paths=$(cat helperFile | tr -d '\012' )
+		if [ "$paths" == "/devices/zones/temperature/lightingSummary/lighting/switches/{deviceId}/lighting/dimmers/{deviceId}/{value}" ];then
+			removed=$((removed+1))
+			echo -e "File is default IOT API and will be removed: \t $f"
+			rm $f
+		fi
+	done
+	rm helperFile
+	echo "$removed default IOT Files were removed"
+}
+
+
+determine_full_supported_apis () {
+	ALL_SUPPORTED_APIS=0
+	ALL_APIS=$( ls -l $FILES | wc -l) 
+	echo $ALL_SUPPORTED_APIS APIs are fully supported
+	echo $ALL_APIS APIs available
+	for f in $LOG_FILES
+	do
+		if [ $(extract_supported $f | wc -m ) -gt 1 ];then
+		resources=$(count_resources $f)
+ 		supported=$(extract_supported $f | grep "Resource Mapping for" | wc -l)
+ 			if [ $resources -eq $supported ];then
+				ALL_SUPPORTED_APIS=$((ALL_SUPPORTED_APIS+1))
+				echo -e "has $resources resources and $supported are supported: \t $f"
+			fi
+		fi 	
+	done
+	echo $ALL_SUPPORTED_APIS APIs are fully supported
+	echo $ALL_APIS APIs available
+	difference=0$( bc -q <<< scale=4\;$ALL_SUPPORTED_APIS/$ALL_APIS )
+	echo difference $difference
+}
+
+list_available_operations () {
+	cat $1 | grep "mapping.Mapper"| grep "Mapping\|Pattern\|Operation" | grep "Pattern" 
+}
+
+list_supported_operations () {
+	cat $1 | grep "mapping.Mapper"| grep "Mapping\|Pattern\|Operation" | grep "Operation"
+}
+
+determine_supported_operations () {
+	ALL_SUPPORTED_OPERATIONS=0
+	ALL_OPERATIONS=0
+	for f in $LOG_FILES
+	do
+		local supported=$(list_supported_operations $f| wc -l)
+		local available=$(list_available_operations $f| wc -l)
+		ALL_SUPPORTED_OPERATIONS=$((ALL_SUPPORTED_OPERATIONS+supported))
+		ALL_OPERATIONS=$((ALL_OPERATIONS+available))
+		echo -e "$supported of $available operations are supported in: \t $f"
+	done
+	echo All supported operations count $ALL_SUPPORTED_OPERATIONS
+	echo all available operations count $ALL_OPERATIONS
+	difference=0$( bc -q <<< scale=4\;$ALL_SUPPORTED_OPERATIONS/$ALL_OPERATIONS )
+	echo difference $difference
+}
+
+get_patterns_results () {
+	cat $1 | grep "mapping.Mapper"| grep "Mapping\|Pattern\|Operation"
+}
+
+determine_candidates () {
+	f=../openapi-data/analysis/232_*
+	get_patterns_results $f
+}
+
+
+echo "hello World"
+#run_openisbt
+#remove_oauth_apis
+#remove_iot_api
+#remove_pet_store
+#remove_corrupt_files 
+#determine_full_supported_apis
+determine_supported_operations
+determine_candidates
