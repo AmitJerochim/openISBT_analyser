@@ -80,13 +80,13 @@ usage () {
 	echo "Usage:"
 	echo -e "\t -h, --help \t \t \t --> display usage information and exits"
 	echo -e "\t -f, --file\t \t \t --> specify a log file(always required)"
-	echo -e "\t --count-resources\t \t -->  "
-	echo -e "\t --select-resources\t \t -->  "
-	echo -e "\t --extract-supported\t \t -->  "
-	echo -e "\t --list-available-operations\t -->  "
-	echo -e "\t --list-supported-operations\t -->  "
-
+	echo -e "\t --count-resources\t \t --> returns the number of resources of an api"
+	echo -e "\t --select-resources\t \t -->  lists all resources of an api"
+	echo -e "\t --extract-supported\t \t -->  extract the part of the log file full supported resources"
+	echo -e "\t --list-available-operations\t lists all available operations-->  "
+	echo -e "\t --list-supported-operations\t lists all supported operations-->  "
 }
+
 while [ "$1" != "" ]; do
 	 	case $1 in 
 			-h | --help)
