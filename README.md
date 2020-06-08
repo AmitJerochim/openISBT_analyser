@@ -4,7 +4,7 @@
 
 The openISBT_analyser is a bash programm to collect log data produced by openISBT, clean up this data and measure coverage criteria as described in my thesis.
 
-##Quick start
+## Quick start
 
 ```console
 foo@bar:~# apt install git
