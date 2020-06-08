@@ -88,7 +88,7 @@ if [ "$LOG_FILES" == "" ];then
 fi
 
 if [ "$CMD" == "" ];then
-	echo "no function specified. use options to specify a function, e.g., --remove-corrupt-files"
+	echo "no function specified. use options to specify a function, e.g., --determine-supported-operations"
 	exit 1
 fi
 
