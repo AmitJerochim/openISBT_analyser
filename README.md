@@ -18,26 +18,19 @@ open main.sh with an editor of your choice:
 and set the following variables depending on your own directory structure:
 ```console
 #!/bin/bash
-#
+
 #setup the path for a directory containing openAPI 3.0 files in json format.
 #don't use slash at the end of the file: ../oasFiles instead of ../oasFiles/
-#
 OAS_FILES=../openapi-data/oasFilesJson
 
-#
 #setup the path for a directory where your Logging files should be saved
 #don't use slash at the end of the file: ../logFiles instead of ../logFiles/
-#
 LOG_FILES_DIRECTORY=./log_files
 
-#
 #setup the path for a pattern configuration file
-#
 PATTERN_CONFIG_FILE=../openISBT/resources/patternConfigs/amitExperiment.json
 
-#
 #setup the path for openISBT root directory
-#
 OPENISBT_ROOT_DIRECTORY=../openISBT
 
 ```
