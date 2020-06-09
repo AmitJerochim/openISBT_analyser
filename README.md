@@ -2,7 +2,7 @@
 
 [openISBT](https://github.com/martingrambow/openISBT "openISBT") is a Benchmark tool to test REST service based on its openAPI3.0 interface description.
 
-The openISBT_analyser is a bash programm to collect log data produced by openISBT, clean up this data and measure coverage criteria as described in my thesis.
+The openISBT_analyser is a commandline tool written in bash to collect log data produced by openISBT, clean up this data and measure coverage criteria as described in my thesis.
 
 ## Quick start
 
@@ -42,13 +42,13 @@ you can run the script using:
 
 ## Structure
 The openISBT_analyser contains five bash script files.
--  run_openisbt.sh
--  clean_data.sh
--  helper_functions.sh
+- run_openisbt.sh
+- clean_data.sh
+- helper_functions.sh
 - analyse_apis.sh
 - main.sh
 
-The main.sh script just states directory variables and runs the other scripts in a sequential order which could be changed.
+The main.sh script just states directory paths and runs the other scripts in a sequential order which could be customised depending on own needs.
 
 
 ##  Usage
@@ -67,12 +67,12 @@ It needs the folloging options to run successfully.
 ```console
 foo@bar:~/openISBT_analyser# ./run_openisbt.sh --help
 Usage:
-	 -h, --help                                           --> display usage information and exits
+	 -h, --help                        --> display usage information and exits
 	 To run this script all options below are required:
-	 --log-files-directory                      --> specify a directory containing logfiles
-	 --oas-files-directory                     --> specify a directory containing oas Files
-	 --openisbt-root-directory          --> specify the root directory of the openISBT project
-	 --pattern-config-file                     --> specify a patten configuration file
+	 --log-files-directory             --> specify a directory containing logfiles
+	 --oas-files-directory             --> specify a directory containing oas Files
+	 --openisbt-root-directory         --> specify the root directory of the openISBT project
+	 --pattern-config-file             --> specify a patten configuration file
 ```
 ##### clean_data.sh
 clean data removes unwanted files which have the wrong format or implement toy apis. It is only possible to run it with one cleaning method as used in main.sh. removing corrupt data using the --remove-corrupt-files option should be done first.
@@ -93,9 +93,9 @@ clean data removes unwanted files which have the wrong format or implement toy a
 ```console
 foo@bar:~/openISBT_analyser# ./analyse_apis.sh --help
 Usage:
-	 -h, --help                                                      --> display usage information and exits
-	 --directory                                                   --> specify a directory containing logfiles(always required)                                  
-	 --determine-full-supported-apis       --> analyse method to run
+	 -h, --help                        --> display usage information and exits
+	 --directory                       --> specify a directory containing logfiles(always required)                                  
+	 --determine-full-supported-apis   --> analyse method to run
 	 --determine-supported-operations  --> analyse method to run
 ```
 ##### helper_functions.sh
