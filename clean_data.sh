@@ -2,6 +2,8 @@
 #
 #
 #
+OAS_FILES_DIRECTORY=""
+OAS_FILES=""
 LOG_FILES_DIRECTORY=""
 LOG_FILES=""
 CMD=""
@@ -10,12 +12,13 @@ remove_corrupt_files () {
 	removed=0
 	for f in $LOG_FILES
 	do
-		filename=${f##*/} 
+		filename=${f##*/}
 		local path=$(find $LOG_FILES_DIRECTORY -empty -name $filename)
 		if [ "$path" != "" ];then
 			echo -e  "File is empty and will be removed: \t $f"	
 			removed=$((removed+1))
 			rm $f
+			rm $OAS_FILES_DIRECTORY/$filename.json
 		else
 			local HEAD=$( head -n 1 $f |grep "Will overwrite mapping file")
   		local TAIL=$( tail -n 1 $f |grep "Done.")
@@ -23,10 +26,11 @@ remove_corrupt_files () {
 			echo -e  "File has wrong format and will be removed: \t $f"	
 			removed=$((removed+1))
 			rm $f
+			rm $OAS_FILES_DIRECTORY/$filename.json
 		fi
 	fi
 	done
-	echo $removed were removed as they are corrupted
+	echo $removed files were removed because they are corrupted
 }
 
 
@@ -34,12 +38,15 @@ remove_petstore_apis () {
 	local removed=0
 	for f in $LOG_FILES
 	do
+
+		filename=${f##*/}
 		./helper_functions.sh --select-resources -f $f >helperFile
 		paths=$(cat helperFile | tr -d '\012' )
 		if [ "$paths" == "/pet/user/store/inventory/store/order" ];then
 			removed=$((removed+1))
 			echo -e "File is default petstore and will be removed: \t $f"
 			rm $f
+			rm $OAS_FILES_DIRECTORY/$filename.json
 		fi
 	done
 	rm helperFile
@@ -51,12 +58,14 @@ remove_oauth_apis () {
 	local removed=0
 	for f in $LOG_FILES
 	do
+		filename=${f##*/}
 		./helper_functions.sh --select-resources -f $f >helperFile
 		paths=$(cat helperFile | tr -d '\012' )
 		if [ "$paths" == "/example/ping" ];then
 			removed=$((removed+1))
 			echo -e "File is default OAuth API and will be removed: \t $f"
 			rm $f
+			rm $OAS_FILES_DIRECTORY/$filename.json
 		fi
 	done
 	rm helperFile
@@ -69,12 +78,14 @@ remove_iot_apis () {
 	local removed=0
 	for f in $LOG_FILES
 	do
+		filename=${f##*/}
 		./helper_functions.sh --select-resources -f $f >helperFile
 		paths=$(cat helperFile | tr -d '\012' )
 		if [ "$paths" == "/devices/zones/temperature/lightingSummary/lighting/switches/{deviceId}/lighting/dimmers/{deviceId}/{value}" ];then
 			removed=$((removed+1))
 			echo -e "File is default IOT API and will be removed: \t $f"
 			rm $f
+			rm $OAS_FILES_DIRECTORY/$filename.json
 		fi
 	done
 	rm helperFile
@@ -85,7 +96,8 @@ remove_iot_apis () {
 usage () {
 echo "Usage:"
 echo -e "\t -h, --help \t \t --> display usage information and exits"
-echo -e "\t --directory\t \t --> specify a directory containing logfiles(always required)"
+echo -e "\t --log-files-directory\t --> specify a directory containing log files(always required)"
+echo -e "\t --oas-files-directory\t --> specify a directory containing oas files(always required)"
 echo -e "\t --remove-corrupt-files\t --> data cleaning method to run"
 echo -e "\t --remove-oauth-apis\t --> data cleaning method to run"
 echo -e "\t --remove-petstore-apis\t --> data cleaning method to run"
@@ -98,7 +110,11 @@ while [ "$1" != "" ]; do
 			-h | --help )
 				usage
 				exit;;
-		  --directory )
+		  --oas-files-directory )
+				shift
+				OAS_FILES_DIRECTORY=$1
+				OAS_FILES=$1/*;;
+		  --log-files-directory )
 				shift
 				LOG_FILES_DIRECTORY=$1
 				LOG_FILES=$1/*;;
@@ -111,14 +127,19 @@ while [ "$1" != "" ]; do
 			--remove-iot-apis ) 
 				CMD="remove-iot-apis";;
 			*)
-				echo function does not exists in clear_data.sh
+				echo -e "invalid option:\t $1\t  Use --help to get usage manual"
 				exit 1;;
 	esac
   shift
 done
 
+if [ "$OAS_FILES" == "" ];then
+	echo "no oas files directory specified. To specify a directory containing log files use --oas-files-directory"
+	exit 1
+fi
+
 if [ "$LOG_FILES" == "" ];then
-	echo "no directory specified. To specify a directory containing log files use --directory"
+	echo "no log files directory specified. To specify a directory containing log files use --log-files-directory"
 	exit 1
 fi
 
