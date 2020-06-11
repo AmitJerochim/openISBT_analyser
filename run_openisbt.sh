@@ -3,30 +3,28 @@
 #
 #
 OAS_FILES=""
+OAS_FILES_DIRECTORY=""
 LOG_FILES_DIRECTORY=""
 LOG_FILES=""
 PATTERN_CONFIG_FILE=""
-OPENISBT_ROOT_DIRECTORY=""
-#
-#mit realpath vor der durchfuehrung des java alle relative in absolute pfade umwandeln
-#mit pwd merken wo man ist vor der durchfuehrung. Dann zu openISBT navigieren und nach der durchführung zurueck.
-#Dann mit parameter methode implementieren
-#
+MATCHING_TOOL_JAR=""
+
 setup_paths () {
 	OAS_FILES=$(realpath $OAS_FILES)
+	OAS_FILES_DIRECTORY=$(realpath $OAS_FILES_DIRECTORY)
 	LOG_FILES_DIRECTORY=$(realpath $LOG_FILES_DIRECTORY)
 	LOG_FILES=$(realpath $LOG_FILES)
 	PATTERN_CONFIG_FILE=$(realpath $PATTERN_CONFIG_FILE)
-	OPENISBT_ROOT_DIRECTORY=$(realpath $OPENISBT_ROOT_DIRECTORY)
+	MATCHING_TOOL_JAR=$(realpath $MATCHING_TOOL_JAR)
 }
 
 run_openisbt () {
 	setup_paths
 	for f in $OAS_FILES
 	do
-  	filename=${f##*/} 
-  	echo -e  "Running MatchingTool on file: \t  $filename"
-		java -jar $OPENISBT_ROOT_DIRECTORY/openISBTBackend/build/libs/matchingTool-1.0-SNAPSHOT-all.jar -s $f -d $PATTERN_CONFIG_FILE -o >$LOG_FILES_DIRECTORY/$filename	
+		filename=$(echo ${f##*/}| sed -e 's/.json//')
+  	echo -e  "Running MatchingTool on file: \t  $filename.json"
+		java -jar $MATCHING_TOOL_JAR -s $f -d $PATTERN_CONFIG_FILE -o >$LOG_FILES_DIRECTORY/$filename	
 	done
 }
 
@@ -37,7 +35,7 @@ echo -e "\t -h, --help \t \t \t --> display usage information and exits"
 echo -e "\t To run this script all options below are required:"
 echo -e "\t --log-files-directory\t \t --> specify a directory containing logfiles"
 echo -e "\t --oas-files-directory\t \t --> specify a directory containing oas Files"
-echo -e "\t --openisbt-root-directory\t --> specify the root directory of the openISBT project"
+echo -e "\t --matching-tool-jar --> specify a jar file to run the openISBT matching tool"
 echo -e "\t --pattern-config-file\t \t --> specify a patten configuration file"
 }
 
@@ -52,10 +50,11 @@ while [ "$1" != "" ]; do
 				LOG_FILES=$1/*;;
 			--oas-files-directory )
 				shift
+				OAS_FILES_DIRECTORY=$1
 				OAS_FILES=$1/*;;
-			--openisbt-root-directory )
+			--matching-tool-jar )
 				shift
-				OPENISBT_ROOT_DIRECTORY=$1;;
+				MATCHING_TOOL_JAR=$1;;
 			--pattern-config-file )
 				shift
 				PATTERN_CONFIG_FILE=$1;;
@@ -78,7 +77,7 @@ if [ "$OAS_FILES" == "" ];then
 	exit 1
 fi
 
-if [ "$OPENISBT_ROOT_DIRECTORY" == "" ];then
+if [ "$MATCHING_TOOL_JAR" == "" ];then
 	echo "no project root directory directory specified. use --openisbt-root-directory to specify a directory."
 	exit 1
 fi
