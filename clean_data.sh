@@ -33,6 +33,36 @@ remove_corrupt_files () {
 	echo $removed files were removed because they are corrupted
 }
 
+remove_short_files () {
+	removed=0
+	for f in $OAS_FILES
+	do
+		local length=$(cat $f | wc -l)
+		if [ $length -le 100 ];then
+			filename=${f##*/}
+			echo -e  "OAS FILE is too short and will be removed: \t $filename"	
+			removed=$((removed+1))
+			rm $f
+		fi
+	done
+	echo $removed files were removed because the OAS definition was too short
+}
+
+remove_insufficient_oas_files () {
+	removed=0
+	for f in $OAS_FILES
+	do
+		local output=$(node oas_reader.js $f| grep "ERROR occured while processing OAS FILE" )
+		if [ "$output" != "" ];then
+			filename=${f##*/}
+			echo -e  "oas_reader.js can not process file. Removing file: \t $filename"	
+			removed=$((removed+1))
+			rm $f
+		fi
+	done
+	echo $removed files were removed because they could not be processed
+}
+
 
 remove_petstore_apis () {
 	local removed=0
@@ -95,14 +125,17 @@ remove_iot_apis () {
 
 usage () {
 echo "Usage:"
-echo -e "\t -h, --help \t \t --> display usage information and exits"
-echo -e "\t --log-files-directory\t --> specify a directory containing log files(always required)"
-echo -e "\t --oas-files-directory\t --> specify a directory containing oas files(always required)"
-echo -e "\t --remove-corrupt-files\t --> data cleaning method to run"
-echo -e "\t --remove-oauth-apis\t --> data cleaning method to run"
-echo -e "\t --remove-petstore-apis\t --> data cleaning method to run"
-echo -e "\t --remove-iot-apis\t --> data cleaning method to run"
+echo -e "\t -h, --help \t \t \t\t--> display usage information and exits"
+echo -e "\t --log-files-directory\t \t\t--> specify a directory containing log files(always required)"
+echo -e "\t --oas-files-directory\t \t\t--> specify a directory containing oas files(always required)"
+echo -e "\t --remove-corrupt-files\t \t\t--> removes log files that are corrupt "
+echo -e "\t --remove-insufficient-oas-files \t--> removes oas files that can not be processed by oas_reader.js"
+echo -e "\t --remove-short-files\t \t\t--> removes oas files that are very short"
+echo -e "\t --remove-oauth-apis\t \t\t--> removes predefined example api"
+echo -e "\t --remove-petstore-apis\t \t\t--> removes predefined example api"
+echo -e "\t --remove-iot-apis\t \t\t--> removes predefined example api"
 }
+
 
 
 while [ "$1" != "" ]; do
@@ -120,6 +153,10 @@ while [ "$1" != "" ]; do
 				LOG_FILES=$1/*;;
 			--remove-corrupt-files )
 				CMD="remove-corrupt-files";;
+			--remove-insufficient-oas-files )
+				CMD="remove-insufficient-oas-files";;
+			--remove-short-files )
+				CMD="remove-short-files";;
 			--remove-oauth-apis )
 				CMD="remove-oauth-apis";;
 			--remove-petstore-apis )
@@ -148,13 +185,19 @@ if [ "$CMD" == "" ];then
 	exit 1
 fi
 
+
+
 case $CMD in
 	remove-corrupt-files )
 		remove_corrupt_files;;	
+	remove-insufficient-oas-files )
+		remove_insufficient_oas_files;;	
+	remove-short-files )
+		remove_short_files;;	
 	remove-oauth-apis )
 			remove_oauth_apis;;
-	 remove-petstore-apis)
+	 remove-petstore-apis )
 			remove_petstore_apis;;
-	 remove-iot-apis)
+	 remove-iot-apis )
 			 remove_iot_apis;;
 esac
