@@ -19,12 +19,21 @@ setup_paths () {
 }
 
 run_openisbt () {
+	echo "" >errors.log
 	setup_paths
 	for f in $OAS_FILES
 	do
+		touch err.log
 		filename=$(echo ${f##*/}| sed -e 's/.json//')
   	echo -e  "Running MatchingTool on file: \t  $filename.json"
-		java -jar $MATCHING_TOOL_JAR -s $f -d $PATTERN_CONFIG_FILE -o >$LOG_FILES_DIRECTORY/$filename	
+		java -jar $MATCHING_TOOL_JAR -s $f -d $PATTERN_CONFIG_FILE -o 1>$LOG_FILES_DIRECTORY/$filename 2>err.log	
+		err=$(cat err.log)
+		if [ "$err" != "" ];then
+			echo -e "Exception occured while processing file:\t $filename.json" >>errors.log
+			echo $err >>errors.log
+			echo "" >>errors.log
+		fi 	
+		rm err.log
 	done
 }
 
