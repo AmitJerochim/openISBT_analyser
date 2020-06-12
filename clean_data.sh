@@ -49,18 +49,28 @@ remove_short_files () {
 }
 
 remove_insufficient_oas_files () {
-	removed=0
+	threwError=0
+	zeroOperations=0
 	for f in $OAS_FILES
 	do
-		local output=$(node oas_reader.js $f| grep "ERROR occured while processing OAS FILE" )
-		if [ "$output" != "" ];then
-			filename=${f##*/}
+		filename=${f##*/}
+		node oas_reader.js $f >helperFile
+		error=$( cat helperFile| grep "ERROR occured while processing OAS FILE" )
+		if [ "$error" != "" ];then
 			echo -e  "oas_reader.js can not process file. Removing file: \t $filename"	
-			removed=$((removed+1))
+			threwError=$((threwError+1))
 			rm $f
 		fi
+		noOperations=$(cat helperFile| head -n 1 |sed 's/Available Operations:\t//' )
+		if [ "$noOperations" == "0" ];then
+			echo -e  "No operations found. Removing file: \t $filename"	
+			zeroOperations=$((zeroOperations+1))
+			rm $f
+		fi
+	rm helperFile
 	done
-	echo $removed files were removed because they could not be processed
+	echo $threwError files were removed because they could not be processed
+	echo $zeroOperations files were removed because they have no operations
 }
 
 
