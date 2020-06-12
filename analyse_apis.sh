@@ -2,6 +2,7 @@
 #
 #
 #
+OAS_FILES_DIRECTORY=""
 OAS_FILES=""
 LOG_FILES_DIRECTORY=""
 LOG_FILES=""
@@ -9,18 +10,18 @@ LOG_FILES=""
 determine_full_supported_apis () {
 	ALL_SUPPORTED_APIS=0
 	ALL_APIS=$( ls -l  $LOG_FILES | wc -l) 
-	echo $ALL_SUPPORTED_APIS APIs are fully supported
-	echo $ALL_APIS APIs available
-	for f in $LOG_FILES
-	do
-		if [ $( ./helper_functions.sh --extract-supported --file $f | wc -m ) -gt 1 ];then
-		resources=$( ./helper_functions.sh --count-resources --file $f)
- 		supported=$( ./helper_functions.sh --extract-supported -f $f | grep "Resource Mapping for" | wc -l)
- 			if [ $resources -eq $supported ];then
-				ALL_SUPPORTED_APIS=$((ALL_SUPPORTED_APIS+1))
-				echo -e "has $resources resources and $supported are supported: \t $f"
-			fi
-		fi 	
+	for logFile in $LOG_FILES
+	do	
+ 		filename=${logFile##*/} 
+		oasFile=$OAS_FILES_DIRECTORY/$filename.json
+		local supported=$(./helper_functions.sh --list-supported-operations --file $logFile | wc -l)
+		local available=$(./helper_functions.sh --count-available-operations --file $oasFile)
+		
+		if [ "$supported" -eq "$available" ];then
+			echo -e "$supported of $available operations supported \t $filename"
+			ALL_SUPPORTED_APIS=$((ALL_SUPPORTED_APIS+1))
+			echo $ALL_SUPPORTED_APIS
+		fi
 	done
 	echo $ALL_SUPPORTED_APIS APIs are fully supported
 	echo $ALL_APIS APIs available
@@ -31,10 +32,12 @@ determine_full_supported_apis () {
 determine_supported_operations () {
 	ALL_SUPPORTED_OPERATIONS=0
 	ALL_OPERATIONS=0
+	
 	for f in $LOG_FILES
 	do
+  	filename=${f##*/} 
 		local supported=$( ./helper_functions.sh --list-supported-operations --file $f| wc -l)
-		local available=$( ./helper_functions.sh --list-available-operations -f $f| wc -l)
+		local available=$( ./helper_functions.sh --list-available-operations -f $f )
 		ALL_SUPPORTED_OPERATIONS=$((ALL_SUPPORTED_OPERATIONS+supported))
 		ALL_OPERATIONS=$((ALL_OPERATIONS+available))
 		echo -e "$supported of $available operations are supported in: \t $f"
@@ -57,7 +60,8 @@ determine_candidates () {
 usage () {
 echo "Usage:"
 echo -e "\t -h, --help \t \t \t \t --> display usage information and exits"
-echo -e "\t --directory\t \t \t \t --> specify a directory containing logfiles(always required)"
+echo -e "\t --log-files-directory\t \t \t \t --> specify a directory containing log files(always required)"
+echo -e "\t --oas-files-directory\t \t \t \t --> specify a directory containing oas files(always required)"
 echo -e "\t --determine-full-supported-apis\t --> analyse method to run"
 echo -e "\t --determine-supported-operations\t --> analyse method to run"
 }
@@ -67,10 +71,14 @@ while [ "$1" != "" ]; do
 			-h | --help )
 				usage
 				exit;;
-		  --directory )
+		  --log-files-directory )
 				shift
 				LOG_FILES_DIRECTORY=$1
 				LOG_FILES=$1/*;;
+			--oas-files-directory )
+				shift
+				OAS_FILES_DIRECTORY=$1
+				OAS_FILES=$1/*;;
 			--determine-supported-operations )
 				CMD="determine-supported-operations";;
 			--determine-full-supported-apis )
@@ -83,7 +91,12 @@ while [ "$1" != "" ]; do
 done
 
 if [ "$LOG_FILES" == "" ];then
-	echo "no directory specified. To specify a directory containing log files use --directory"
+	echo "no log files directory specified. To specify a directory containing log files use --log-files-directory"
+	exit 1
+fi
+
+if [ "$OAS_FILES" == "" ];then
+	echo "no oas files directory specified. To specify a directory containing log files use --oas-files-directory"
 	exit 1
 fi
 

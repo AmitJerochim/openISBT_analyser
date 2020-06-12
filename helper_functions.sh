@@ -45,46 +45,29 @@ extract_supported () {
 }
 
 
-list_available_operations_bak () {
-	cat $1 | grep "mapping.Mapper"| grep "Mapping\|Pattern\|Operation" | grep "Pattern" 
-}
-
-list_supported_operations_bak () {
-	cat $1 | grep "mapping.Mapper"| grep "Mapping\|Pattern\|Operation" | grep "Operation"
-}
-
-
 list_available_operations () {
-	cat $1 | grep "mapping.Mapper"| grep "Mapping\|Pattern\|Operation" | grep "Pattern" 
+	node oas_reader.js $1 | grep "get\|post\|fetch\|put\|delete\|head\|options\|connect\|trace" 
+}
+
+count_available_operations () {
+	node oas_reader.js $1 | head -n 1 |sed 's/Available Operations:\t//'   
 }
 
 list_supported_operations () {
-	cat $1 | grep "mapping.Mapper"| grep "Mapping\|Pattern\|Operation" | grep "Pattern\|Operation" >helperFile
-	local LINE_COUNTER=0
-  local PREV_LINE=""
-	cat helperFile|while read line
-	do
-		IS_FIRST=$(echo $PREV_LINE | grep "Operation" )
-		IS_OPERATION=$(echo $line | grep "Operation" )
-		#echo $IS_FIRST
-#		LINE_COUNTER=$((LINE_COUNTER+1))
-		if [[ "$IS_FIRST" == "" ]] && [[ "$IS_OPERATION" != "" ]];then
-			echo $line
-		fi
-		PREV_LINE=$line
-	done
-	rm helperFile
+	cat $1 | grep "mapping.Mapper"| grep "Mapping\|Pattern\|Operation" | grep "Operation" 
 }
+
 
 usage () {
 	echo "Usage:"
 	echo -e "\t -h, --help \t \t \t --> display usage information and exits"
-	echo -e "\t -f, --file\t \t \t --> specify a log file(always required)"
-	echo -e "\t --count-resources\t \t --> returns the number of resources of an api"
-	echo -e "\t --select-resources\t \t -->  lists all resources of an api"
-	echo -e "\t --extract-supported\t \t -->  extract the part of the log file full supported resources"
-	echo -e "\t --list-available-operations\t lists all available operations-->  "
-	echo -e "\t --list-supported-operations\t lists all supported operations-->  "
+	echo -e "\t -f, --file\t \t \t --> specify a log file or oas file(always required)"
+	echo -e "\t --count-resources\t \t --> returns the number of resources of an api (requires log file)"
+	echo -e "\t --select-resources\t \t -->  lists all resources of an api (requires log file)"
+	echo -e "\t --extract-supported\t \t -->  extract the part of the log file full supported resources (requires log file)"
+	echo -e "\t --list-available-operations\t --> lists all available operations (requires oas file) "
+	echo -e "\t --count-available-operations\t --> counts all available operations (requires oas file) "
+	echo -e "\t --list-supported-operations\t --> lists all supported operations (requires log file) "
 }
 
 while [ "$1" != "" ]; do
@@ -105,6 +88,8 @@ while [ "$1" != "" ]; do
 				CMD="list-available-operations";;
 			--list-supported-operations )
 				CMD="list-supported-operations";;	
+			--count-available-operations )
+				CMD="count-available-operations";;
 			*)
 				echo function does not exists in helper_functions.sh
 				exit 1;;
@@ -133,4 +118,6 @@ case $CMD in
 			list_available_operations $FILE;;
 	list-supported-operations )	
 			list_supported_operations $FILE;;
+	count-available-operations )
+			count_available_operations $FILE;;
 esac
