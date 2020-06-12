@@ -1,6 +1,15 @@
 const fs = require("fs");
-
-OAS_FILE_PATH = process.argv[2];
+const scriptName = "oas_reader.js"
+let OUTPUT=""
+try{
+	OAS_FILE_PATH = process.argv[2];
+	if ( typeof OAS_FILE_PATH === 'undefined' ){ 
+		throw scriptName + ": ERROR occured while processing OAS FILE:\t require Path to file as argument." 
+	}
+}catch(err){
+	console.log(err)
+	process.exit()
+}
 
 const isNestedResource = (resource) => {
 	let length = resource.length
@@ -32,10 +41,32 @@ const returnTopLevelPath = (path)=>{
 		}
 	}
 }	
+let contents; 
+try{
+	contents = fs.readFileSync(OAS_FILE_PATH, 'utf8');
+}catch(err){
+	console.log( scriptName+":  ERROR occured while processing OAS FILE:\t fs:couldn't read file:\t" + OAS_FILE_PATH) 
+	process.exit()
+}
 
-const contents = fs.readFileSync(OAS_FILE_PATH, 'utf8');
-const oas_file = JSON.parse(contents)
-const paths = oas_file.paths
+let oas_file; 
+try{
+	oas_file = JSON.parse(contents)
+}catch(err){
+	console.log( scriptName+": ERROR occured while processing OAS FILE:\t invalid json file:\t" + OAS_FILE_PATH) 
+	process.exit()
+}
+
+let paths;
+try{
+	paths = oas_file.paths
+	if(typeof paths === 'undefined'){
+		throw  scriptName+": ERROR occured while processing OAS FILE:\t file does not define paths:\t" + OAS_FILE_PATH
+	}
+}catch(err){
+	console.log(err)
+	process.exit()
+}
 
 const countAvailableMethods = (paths) =>{
 	let counter=0;
@@ -50,9 +81,9 @@ const countAvailableMethods = (paths) =>{
 			});
 		}
 	});
-	console.log("Available Operations:\t" + counter)
+	OUTPUT+="Available Operations:\t" + counter;
+	//console.log("Available Operations:\t" + counter)
 }
-
 
 const readAvailableMethods = (paths) =>{
   let apiMapperObject = {}
@@ -72,21 +103,26 @@ const readAvailableMethods = (paths) =>{
 			});
 		}
 	});
-
 	return apiMapperObject
 }
 
 const printAvailableMethods = (apiObject) => {
 	Object.keys( apiObject ).forEach( function( path ) {
 		path_replaced = path.replace("__slash__", "/")
-		apiObject[path].forEach( elem => console.log(elem +"\t" +path_replaced) )
+		apiObject[path].forEach( elem => {
+			OUTPUT+= "\n" + elem +"\t" +path_replaced
+			//console.log(elem +"\t" +path_replaced) )
+		});	
 	});
 }
 
-
-
-let apiObject= readAvailableMethods(paths)
-countAvailableMethods(paths) 
-printAvailableMethods(apiObject);
-
+try{
+	let apiObject= readAvailableMethods(paths)
+	countAvailableMethods(paths) 
+	printAvailableMethods(apiObject);
+	console.log(OUTPUT)
+}catch(err){
+	console.log( scriptName+": ERROR occured while processing OAS FILE:\t  printing summary filed:\t" + OAS_FILE_PATH) 
+	process.exit();
+}
 
