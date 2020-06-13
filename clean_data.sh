@@ -74,62 +74,40 @@ remove_insufficient_oas_files () {
 }
 
 
-remove_petstore_apis () {
-	local removed=0
-	for f in $LOG_FILES
-	do
-
-		filename=${f##*/}
-		./helper_functions.sh --select-resources -f $f >helperFile
-		paths=$(cat helperFile | tr -d '\012' )
-		if [ "$paths" == "/pet/user/store/inventory/store/order" ];then
-			removed=$((removed+1))
-			echo -e "File is default petstore and will be removed: \t $f"
-			rm $f
-			rm $OAS_FILES_DIRECTORY/$filename.json
-		fi
-	done
-	rm helperFile
-	echo "$removed default Petstore Files were removed"
-}
 
 
-remove_oauth_apis () {
-	local removed=0
+remove_sample_apis () {
+	local removed_outh_apis=0
+	local removed_petstore_apis=0
+	local removed_iot_apis=0
 	for f in $LOG_FILES
 	do
 		filename=${f##*/}
 		./helper_functions.sh --select-resources -f $f >helperFile
 		paths=$(cat helperFile | tr -d '\012' )
 		if [ "$paths" == "/example/ping" ];then
-			removed=$((removed+1))
+			removed_outh_apis=$((removed_outh_apis+1))
 			echo -e "File is default OAuth API and will be removed: \t $f"
 			rm $f
 			rm $OAS_FILES_DIRECTORY/$filename.json
 		fi
-	done
-	rm helperFile
-	echo "$removed default OAuth Files were removed"
-}
-
-
-
-remove_iot_apis () {
-	local removed=0
-	for f in $LOG_FILES
-	do
-		filename=${f##*/}
-		./helper_functions.sh --select-resources -f $f >helperFile
-		paths=$(cat helperFile | tr -d '\012' )
 		if [ "$paths" == "/devices/zones/temperature/lightingSummary/lighting/switches/{deviceId}/lighting/dimmers/{deviceId}/{value}" ];then
-			removed=$((removed+1))
+			removed_iot_apis=$((removed_iot_apis+1))
 			echo -e "File is default IOT API and will be removed: \t $f"
+			rm $f
+			rm $OAS_FILES_DIRECTORY/$filename.json
+		fi
+		if [ "$paths" == "/pet/user/store/inventory/store/order" ];then
+			removed_petstore_apis=$((removed_petstore_apis+1))
+			echo -e "File is default petstore and will be removed: \t $f"
 			rm $f
 			rm $OAS_FILES_DIRECTORY/$filename.json
 		fi
 	done
 	rm helperFile
-	echo "$removed default IOT Files were removed"
+	echo "$removed_outh_apis default OAuth Files were removed"
+	echo "$removed_iot_apis default IOT Files were removed"
+	echo "$removed_petstore_apis default petstore Files were removed"
 }
 
 
@@ -141,9 +119,7 @@ echo -e "\t --oas-files-directory\t \t\t--> specify a directory containing oas f
 echo -e "\t --remove-corrupt-files\t \t\t--> removes log files that are corrupt "
 echo -e "\t --remove-insufficient-oas-files \t--> removes oas files that can not be processed by oas_reader.js"
 echo -e "\t --remove-short-files\t \t\t--> removes oas files that are very short"
-echo -e "\t --remove-oauth-apis\t \t\t--> removes predefined example api"
-echo -e "\t --remove-petstore-apis\t \t\t--> removes predefined example api"
-echo -e "\t --remove-iot-apis\t \t\t--> removes predefined example api"
+echo -e "\t --remove-sample-apis\t \t\t--> removes predefined example api"
 }
 
 
@@ -167,12 +143,8 @@ while [ "$1" != "" ]; do
 				CMD="remove-insufficient-oas-files";;
 			--remove-short-files )
 				CMD="remove-short-files";;
-			--remove-oauth-apis )
-				CMD="remove-oauth-apis";;
-			--remove-petstore-apis )
-				CMD="remove-petstore-apis";;
-			--remove-iot-apis ) 
-				CMD="remove-iot-apis";;
+			--remove-sample-apis )
+				CMD="remove-sample-apis";;
 			*)
 				echo -e "invalid option:\t $1\t  Use --help to get usage manual"
 				exit 1;;
@@ -204,10 +176,6 @@ case $CMD in
 		remove_insufficient_oas_files;;	
 	remove-short-files )
 		remove_short_files;;	
-	remove-oauth-apis )
-			remove_oauth_apis;;
-	 remove-petstore-apis )
-			remove_petstore_apis;;
-	 remove-iot-apis )
-			 remove_iot_apis;;
+	remove-sample-apis )
+			remove_sample_apis;;
 esac
