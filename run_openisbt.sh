@@ -19,6 +19,7 @@ setup_paths () {
 }
 
 run_openisbt () {
+	touch mapping.json
 	echo "" >errors.log
 	setup_paths
 	for f in $OAS_FILES
