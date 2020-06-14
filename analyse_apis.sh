@@ -38,22 +38,25 @@ determine_full_supported_apis () {
 }
 
 determine_supported_operations () {
-	all_supported_operations=0
-	all_operations=0
-	
-	for f in $log_files
+	ALL_SUPPORTED_OPERATIONS=0
+	ALL_OPERATIONS_WITHOUT_SUBRESOURCES=0
+	ALL_OPERATIONS_INCLUDING_SUBRESOURCES=0
+	for logFile in $LOG_FILES
 	do
-  	filename=${f##*/} 
-		local supported=$( ./helper_functions.sh --list-supported-operations --file $f| wc -l)
-		local available=$( ./helper_functions.sh --list-available-operations -f $f )
-		all_supported_operations=$((all_supported_operations+supported))
-		all_operations=$((all_operations+available))
-		echo -e "$supported of $available operations are supported in: \t $f"
+  	filename=${logFile##*/} 
+		oasFile=$OAS_FILES_DIRECTORY/$filename.json
+		local available_subresource_operations=$( node oas_reader.js $oasFile "true" |  head -n 1 |sed 's/Available Operations:\t//'   )
+		local supported=$(./helper_functions.sh --list-supported-operations --file $logFile | wc -l)
+		local available_toplevel_operations=$(./helper_functions.sh --count-available-operations --file $oasFile)
+		ALL_SUPPORTED_OPERATIONS=$((ALL_SUPPORTED_OPERATIONS+supported))
+		ALL_OPERATIONS_WITHOUT_SUBRESOURCES=$((ALL_OPERATIONS_WITHOUT_SUBRESOURCES+available_toplevel_operations))
+		ALL_OPERATIONS_INCLUDING_SUBRESOURCES=$((ALL_OPERATIONS_INCLUDING_SUBRESOURCES+available_subresource_operations+available_toplevel_operations))
+		echo -e "Supports $supported of $available_toplevel_operations Toplevel and $available_subresource_operations Sub-resource operations:\t $filename"
 	done
-	echo all supported operations count $all_supported_operations
-	echo all available operations count $all_operations
-	difference=0$( bc -q <<< scale=4\;$all_supported_operations/$all_operations )
-	echo difference $difference
+	difference_counting_subresources=0$( bc -q <<< scale=4\;$ALL_SUPPORTED_OPERATIONS/$ALL_OPERATIONS_INCLUDING_SUBRESOURCES)
+	difference_ignoring_subresources=0$( bc -q <<< scale=4\;$ALL_SUPPORTED_OPERATIONS/$ALL_OPERATIONS_WITHOUT_SUBRESOURCES)
+	echo coverage criteria: supported-operations ignoring sub-resources $difference_ignoring_subresources
+	echo coverage criteria: supported-operations considering sub-resources $difference_counting_subresources
 }
 
 get_patterns_results () {
