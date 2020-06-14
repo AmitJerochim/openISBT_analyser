@@ -9,6 +9,7 @@ LOG_FILES=""
 
 determine_full_supported_apis () {
 	ALL_SUPPORTED_APIS=0
+	COUNT_NO_SUBRESOURCES=0
 	ALL_APIS=$( ls -l  $LOG_FILES | wc -l) 
 	for logFile in $LOG_FILES
 	do	
@@ -16,40 +17,47 @@ determine_full_supported_apis () {
 		oasFile=$OAS_FILES_DIRECTORY/$filename.json
 		local supported=$(./helper_functions.sh --list-supported-operations --file $logFile | wc -l)
 		local available=$(./helper_functions.sh --count-available-operations --file $oasFile)
-		
+		local no_subresources=""
 		if [ "$supported" -eq "$available" ];then
-			echo -e "$supported of $available operations supported \t $filename"
+			local subresource_operations=$( node oas_reader.js $oasFile "true" |  head -n 1 |sed 's/Available Operations:\t//'   )
+			if [ "$subresource_operations" -eq 0 ]; then
+				no_subresources="*"
+				COUNT_NO_SUBRESOURCES=$((COUNT_NO_SUBRESOURCES+1))
+			fi
+			echo -e "$supported of $available operations supported$no_subresources\t $filename"
 			ALL_SUPPORTED_APIS=$((ALL_SUPPORTED_APIS+1))
-			echo $ALL_SUPPORTED_APIS
 		fi
 	done
-	echo $ALL_SUPPORTED_APIS APIs are fully supported
-	echo $ALL_APIS APIs available
-	difference=0$( bc -q <<< scale=4\;$ALL_SUPPORTED_APIS/$ALL_APIS )
-	echo difference $difference
+	echo $ALL_SUPPORTED_APIS apis are fully supported
+	echo $COUNT_NO_SUBRESOURCES of the supported apis do not have sub-resources
+	echo $ALL_APIS apis available
+	difference_counting_subresources=0$( bc -q <<< scale=4\;$COUNT_NO_SUBRESOURCES/$ALL_APIS)
+	difference_ignoring_subresources=0$( bc -q <<< scale=4\;$ALL_SUPPORTED_APIS/$ALL_APIS)
+	echo coverage criteria: full-supported-apis ignoring sub-resources $difference_ignoring_subresources
+	echo coverage criteria: full-supported-apis considering sub-resources $difference_counting_subresources
 }
 
 determine_supported_operations () {
-	ALL_SUPPORTED_OPERATIONS=0
-	ALL_OPERATIONS=0
+	all_supported_operations=0
+	all_operations=0
 	
-	for f in $LOG_FILES
+	for f in $log_files
 	do
   	filename=${f##*/} 
 		local supported=$( ./helper_functions.sh --list-supported-operations --file $f| wc -l)
 		local available=$( ./helper_functions.sh --list-available-operations -f $f )
-		ALL_SUPPORTED_OPERATIONS=$((ALL_SUPPORTED_OPERATIONS+supported))
-		ALL_OPERATIONS=$((ALL_OPERATIONS+available))
+		all_supported_operations=$((all_supported_operations+supported))
+		all_operations=$((all_operations+available))
 		echo -e "$supported of $available operations are supported in: \t $f"
 	done
-	echo All supported operations count $ALL_SUPPORTED_OPERATIONS
-	echo all available operations count $ALL_OPERATIONS
-	difference=0$( bc -q <<< scale=4\;$ALL_SUPPORTED_OPERATIONS/$ALL_OPERATIONS )
+	echo all supported operations count $all_supported_operations
+	echo all available operations count $all_operations
+	difference=0$( bc -q <<< scale=4\;$all_supported_operations/$all_operations )
 	echo difference $difference
 }
 
 get_patterns_results () {
-	cat $1 | grep "mapping.Mapper"| grep "Mapping\|Pattern\|Operation"
+	cat $1 | grep "mapping.mapper"| grep "mapping\|pattern\|operation"
 }
 
 determine_candidates () {
@@ -58,7 +66,7 @@ determine_candidates () {
 }
 
 usage () {
-echo "Usage:"
+echo "usage:"
 echo -e "\t -h, --help \t \t \t \t --> display usage information and exits"
 echo -e "\t --log-files-directory\t \t \t \t --> specify a directory containing log files(always required)"
 echo -e "\t --oas-files-directory\t \t \t \t --> specify a directory containing oas files(always required)"
