@@ -8,6 +8,7 @@ LOG_FILES_DIRECTORY=""
 LOG_FILES=""
 PATTERN_CONFIG_FILE=""
 MATCHING_TOOL_JAR=""
+LOGGINGS=""
 
 setup_paths () {
 	OAS_FILES=$(realpath $OAS_FILES)
@@ -16,11 +17,12 @@ setup_paths () {
 	LOG_FILES=$(realpath $LOG_FILES)
 	PATTERN_CONFIG_FILE=$(realpath $PATTERN_CONFIG_FILE)
 	MATCHING_TOOL_JAR=$(realpath $MATCHING_TOOL_JAR)
+	LOGGINGS=$(realpath $LOGGINGS)
 }
 
 run_openisbt () {
 	touch mapping.json
-	echo "" >errors.log
+	echo "" >$LOGGINGS/errors.log
 	setup_paths
 	for f in $OAS_FILES
 	do
@@ -30,9 +32,9 @@ run_openisbt () {
 		java -jar $MATCHING_TOOL_JAR -s $f -d $PATTERN_CONFIG_FILE -o 1>$LOG_FILES_DIRECTORY/$filename 2>err.log	
 		err=$(cat err.log)
 		if [ "$err" != "" ];then
-			echo -e "Exception occured while processing file:\t $filename.json" >>errors.log
-			echo $err >>errors.log
-			echo "" >>errors.log
+			echo -e "Exception occured while processing file:\t $filename.json" >>$LOGGINGS/errors.log
+			echo $err >>$LOGGINGS/errors.log
+			echo "" >>$LOGGINGS/errors.log
 		fi 	
 		rm err.log
 	done
@@ -47,6 +49,7 @@ echo -e "\t --log-files-directory\t \t --> specify a directory containing logfil
 echo -e "\t --oas-files-directory\t \t --> specify a directory containing oas Files"
 echo -e "\t --matching-tool-jar --> specify a jar file to run the openISBT matching tool"
 echo -e "\t --pattern-config-file\t \t --> specify a patten configuration file"
+echo -e "\t --loggings-directory\t \t --> specify a logging directory"
 }
 
 while [ "$1" != "" ]; do
@@ -68,6 +71,9 @@ while [ "$1" != "" ]; do
 			--pattern-config-file )
 				shift
 				PATTERN_CONFIG_FILE=$1;;
+			--loggings-directory )
+				shift
+				LOGGINGS=$1;;
 			*)
 				echo option does not exist. use -h or --help to check the usage manual.
 				exit 1;;
@@ -94,6 +100,11 @@ fi
 
 if [ "$PATTERN_CONFIG_FILE" == "" ];then
 	echo "no pattern config file specified. use --pattern-config-file to specify a file."
+	exit 1
+fi
+
+if [ "$LOGGINGS" == "" ];then
+	echo "no loggings directory specified specified. use --loggings-directory"
 	exit 1
 fi
 
