@@ -1,10 +1,26 @@
 const fs = require("fs");
 const scriptName = "oas_reader.js"
 let OUTPUT=""
+let subresource_required = false;
+
 try{
 	OAS_FILE_PATH = process.argv[2];
 	if ( typeof OAS_FILE_PATH === 'undefined' ){ 
 		throw scriptName + ": ERROR occured while processing OAS FILE:\t require Path to file as argument." 
+	}
+}catch(err){
+	console.log(err)
+	process.exit()
+}
+
+try{
+	RETURN_SUBRESOURCES = process.argv[3];
+	if ( typeof RETURN_SUBRESOURCES !== 'undefined' ){ 
+		if ( RETURN_SUBRESOURCES.toLowerCase() === 'true' ){
+		subresource_required = true;  
+		}else{
+			throw scriptName + ": ERROR occured while processing OAS FILE:\t second argument is optional but should be 'true' to retrieve only subresources." 
+		}
 	}
 }catch(err){
 	console.log(err)
@@ -72,7 +88,11 @@ const countAvailableMethods = (paths) =>{
 	let counter=0;
 	Object.keys( paths ).forEach(function( pathName ) {
   	let path = paths[pathName];
-		if (!isNestedResource(pathName)){
+		let isNested = isNestedResource(pathName)	
+		if(subresource_required === false){
+			isNested = !isNested
+		}
+		if (isNested){
 			Object.keys( path ).forEach( function( methodName ) {
 				let method = path[methodName];
 				if (method[ "deprecated" ] !== true ){
@@ -85,7 +105,7 @@ const countAvailableMethods = (paths) =>{
 	//console.log("Available Operations:\t" + counter)
 }
 
-const readAvailableMethods = (paths) =>{
+const readAvailableMethodsForToplevelResources = (paths) =>{
   let apiMapperObject = {}
 	Object.keys( paths ).forEach(function( pathName ) {
 		if (!isNestedResource(pathName)){
@@ -106,7 +126,37 @@ const readAvailableMethods = (paths) =>{
 	return apiMapperObject
 }
 
-const printAvailableMethods = (apiObject) => {
+const readAvailableMethodsForSubResources = (paths) =>{
+  let apiMapperObject = {}
+	Object.keys( paths ).forEach(function( pathName ) {
+		if (isNestedResource(pathName)){
+			let pathNameReplaced = pathName.replace("/", "__slash__")
+			pathNameReplaced = pathNameReplaced.replace("{", "__opening_brackets__")
+			pathNameReplaced = pathNameReplaced.replace("}", "__closing_brackets__")
+			if (typeof apiMapperObject[pathNameReplaced] === 'undefined'){
+				apiMapperObject[pathNameReplaced] = []
+			} 
+  		let path = paths[pathName];
+			Object.keys( path ).forEach( function( methodName ) {
+				let method = path[methodName];
+				if (method[ "deprecated" ] !== true ){
+					apiMapperObject[pathNameReplaced].push(methodName)
+				}
+			});
+		}
+	});
+	return apiMapperObject
+}
+
+const readAvailableMethods = (paths) => {
+	if( subresource_required){
+		return readAvailableMethodsForSubResources( paths ) 
+	}else{
+	  return readAvailableMethodsForToplevelResources( paths ) 
+	} 
+}
+
+const printAvailableMethodsForToplevelRources = (apiObject) => {
 	Object.keys( apiObject ).forEach( function( path ) {
 		path_replaced = path.replace("__slash__", "/")
 		apiObject[path].forEach( elem => {
@@ -116,12 +166,33 @@ const printAvailableMethods = (apiObject) => {
 	});
 }
 
+const printAvailableMethodsForSubresources = (apiObject) => {
+	Object.keys( apiObject ).forEach( function( path ) {
+		let path_replaced = path.replace("__slash__", "/")
+		path_replaced = path_replaced.replace("__opening_brackets__", "{")
+		path_replaced = path_replaced.replace("__closing_brackets__", "}")
+		apiObject[path].forEach( elem => {
+			OUTPUT+= "\n" + elem +"\t" +path_replaced
+			//console.log(elem +"\t" +path_replaced) )
+		});	
+	});
+}
+
+const printAvailableMethods = (apiObject) => {
+	if( subresource_required){
+		printAvailableMethodsForSubresources( apiObject ) 
+	}else{
+		printAvailableMethodsForToplevelRources( apiObject ) 
+	}
+}
+
 try{
 	let apiObject= readAvailableMethods(paths)
 	countAvailableMethods(paths) 
 	printAvailableMethods(apiObject);
 	console.log(OUTPUT)
 }catch(err){
+	console.log(err)
 	console.log( scriptName+": ERROR occured while processing OAS FILE:\t  printing summary filed:\t" + OAS_FILE_PATH) 
 	process.exit();
 }
