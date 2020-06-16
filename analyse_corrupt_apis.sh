@@ -20,8 +20,8 @@ print_csv () {
 	echo -e "Toplevel-Operations;Subresource-Operations;Sum-Toplevel-Operations;Sum-Subresource-Operations;Sum-All-Operations;Current-OAS-File"
 	cat $1 | while read line
 	do 
-		TOPLEVEL_OPERATIONS=$( ./helper_functions.sh --count-available-operations -f $line )
-		SUBRESOURCE_OPERATIONS=$( node oas_reader.js $line 'true' |  head -n 1 |sed 's/Available Operations:\t//'   )
+		TOPLEVEL_OPERATIONS=$( ./helper_functions.sh --count-available-toplevel-operations -f $line )
+		SUBRESOURCE_OPERATIONS=$( ./helper_functions.sh --count-available-subresource-operations --file $line)
 		ALL_SUBRESOURCE_OPERATIONS=$((ALL_SUBRESOURCE_OPERATIONS+SUBRESOURCE_OPERATIONS))
 		ALL_TOPLEVEL_OPERATIONS=$((ALL_TOPLEVEL_OPERATIONS+TOPLEVEL_OPERATIONS))
 		ALL_OPERATIONS=$((ALL_OPERATIONS+TOPLEVEL_OPERATIONS+SUBRESOURCE_OPERATIONS))

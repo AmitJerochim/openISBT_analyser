@@ -24,9 +24,11 @@ run_openisbt () {
 	touch mapping.json
 	echo "" >$LOGGINGS/errors.log
 	setup_paths
+	processed=0
 	for f in $OAS_FILES
 	do
 		touch err.log
+		processed=$((processed+1))
 		filename=$(echo ${f##*/}| sed -e 's/.json//')
   	echo -e  "Running MatchingTool on file: \t  $filename.json"
 		java -jar $MATCHING_TOOL_JAR -s $f -d $PATTERN_CONFIG_FILE -o 1>$LOG_FILES_DIRECTORY/$filename 2>err.log	
@@ -38,6 +40,7 @@ run_openisbt () {
 		fi 	
 		rm err.log
 	done
+	echo -e "PROCESSING SUMMARY:\trun openISBT on:\t$processed" 
 }
 
 

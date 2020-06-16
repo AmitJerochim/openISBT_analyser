@@ -6,10 +6,16 @@ rm -rf ./log_files/*
 cp -r  ../openapi-data/oasFiles.bak.bak  ../openapi-data/oasFiles
 rm -f errors.log
 rm -f mapping.json
-rm -f evaluate_corrupt_apis.csv
 rm -rf ./loggings
 mkdir loggings
+cp -r oas_reader_output loggings/oas_reader_output
 
+
+#rm ../openapi-data/oasFiles/*
+#cp -r  ../openapi-data/oasFiles.bak.bak/000*  ../openapi-data/oasFiles
+#cp -r  ../openapi-data/oasFiles.bak.bak/002*  ../openapi-data/oasFiles
+#cp -r  ../openapi-data/oasFiles.bak.bak/006*  ../openapi-data/oasFiles
+#cp -r  ../openapi-data/oasFiles.bak.bak/201*  ../openapi-data/oasFiles
 #setup the path for a directory containing openAPI 3.0 files in json format.
 #	don't use slash at the end of the file: ../oasFiles instead of ../oasFiles/
 OAS_FILES_DIRECTORY=../openapi-data/oasFiles
@@ -29,6 +35,9 @@ LOGGINGS=./loggings
 cp -r $OAS_FILES_DIRECTORY $OAS_FILES_DIRECTORY.bak
 OAS_FILES_DIRECTORY_BAK=$OAS_FILES_DIRECTORY.bak
 
+#./read_oas_files.sh
+
+
 echo "">$LOGGINGS/record_processing.log
 ./clean_data.sh --oas-files-directory $OAS_FILES_DIRECTORY --log-files-directory $LOG_FILES_DIRECTORY --remove-short-files >>$LOGGINGS/record_processing.log
 
@@ -47,3 +56,5 @@ echo "">$LOGGINGS/record_processing.log
 ./analyse_corrupt_apis.sh --analyse-files-that-cause-exceptions --log-file $LOGGINGS/errors.log --oas-files-directory $OAS_FILES_DIRECTORY_BAK >$LOGGINGS/evaluate_apis_that_cause_exception.csv
 
 ./analyse_corrupt_apis.sh --analyse-files-with-only-subresources --log-file $LOGGINGS/record_processing.log --oas-files-directory $OAS_FILES_DIRECTORY_BAK >$LOGGINGS/evaluate_apis_with_only_subresources.csv
+
+./summarize.sh

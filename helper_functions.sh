@@ -4,6 +4,43 @@
 #
 FILE=""
 CMD=""
+LOGGINGS=loggings
+list_available_operations () {
+	node oas_reader.js $1 | grep "get\|post\|fetch\|put\|delete\|head\|options\|connect\|trace" 
+}
+
+count_available_toplevel_operations () {
+	f=$1
+	filename=${f##*/}
+	path=$LOGGINGS/oas_reader_output/toplevel/$filename
+	cat $path | head -n 1 |sed 's/Available Operations:\t//'   
+}
+
+count_available_subresource_operations () {
+	f=$1
+	filename=${f##*/}
+	path=$LOGGINGS/oas_reader_output/subresource/$filename
+	cat $path | head -n 1 |sed 's/Available Operations:\t//'   
+}
+
+print_toplevel_summary () {
+	f=$1
+	filename=${f##*/}
+	path=$LOGGINGS/oas_reader_output/toplevel/$filename
+	cat $path
+}
+
+print_subresource_summary () {
+	f=$1
+	filename=${f##*/}
+	path=$LOGGINGS/oas_reader_output/subresource/$filename
+	cat $path
+}
+
+list_supported_operations () {
+	cat $1 | grep "mapping.Mapper"| grep "Mapping\|Pattern\|Operation" | grep "Operation" 
+}
+
 
 count_resources () {
 	local counter=0
@@ -26,36 +63,23 @@ select_resources () {
 	done
 }
 
-extract_supported () {
-	local counter=0
-	cat $1 | while read line
-	do
-		local helper=1
-		lines=$(cat $1 | wc -l )
-		local counter=$((counter+1))
-		local chars=$(echo $line | grep "Supported resource mappings:"| wc -m )
-		if [ $chars -gt 1 ];then
-			helper=$((counter))
-			condition=$(cat $1 | tail -n $((lines-helper)) | wc -l )
-			if [ $condition -gt 1 ];then
-				cat $1 | tail -n $((lines-helper))
-			fi
-		fi
-	done
-}
-
-
-list_available_operations () {
-	node oas_reader.js $1 | grep "get\|post\|fetch\|put\|delete\|head\|options\|connect\|trace" 
-}
-
-count_available_operations () {
-	node oas_reader.js $1 | head -n 1 |sed 's/Available Operations:\t//'   
-}
-
-list_supported_operations () {
-	cat $1 | grep "mapping.Mapper"| grep "Mapping\|Pattern\|Operation" | grep "Operation" 
-}
+#extract_supported () {
+#	local counter=0
+#	cat $1 | while read line
+#	do
+#		local helper=1
+#		lines=$(cat $1 | wc -l )
+#		local counter=$((counter+1))
+#		local chars=$(echo $line | grep "Supported resource mappings:"| wc -m )
+#		if [ $chars -gt 1 ];then
+#			helper=$((counter))
+#			condition=$(cat $1 | tail -n $((lines-helper)) | wc -l )
+#			if [ $condition -gt 1 ];then
+#				cat $1 | tail -n $((lines-helper))
+#			fi
+#		fi
+#	done
+#}
 
 
 usage () {
@@ -82,16 +106,22 @@ while [ "$1" != "" ]; do
 				CMD="count-resources";;
 			--select-resources )
 				CMD="select-resources";;
-			--extract-supported )
-				CMD="extract-supported";;
+#			--extract-supported )
+#				CMD="extract-supported";;
 			--list-available-operations )
 				CMD="list-available-operations";;
 			--list-supported-operations )
 				CMD="list-supported-operations";;	
-			--count-available-operations )
-				CMD="count-available-operations";;
+			--count-available-subresource-operations )
+				CMD="count-available-subresource-operations";;
+			--count-available-toplevel-operations )
+				CMD="count-available-toplevel-operations";;
+			--print-toplevel-summary )
+				CMD="print-toplevel-summary";;
+			--print-subresource-summary )
+				CMD="print-subresource-summary";;
 			*)
-				echo function does not exists in helper_functions.sh
+				echo option does not exist. you may use --helpt for further information
 				exit 1;;
 	esac
   shift
@@ -112,12 +142,18 @@ case $CMD in
 			count_resources $FILE;;	
 	select-resources )
 			select_resources $FILE;;
-	extract-supported )
-			extract_supported $FILE;;
+#	extract-supported )
+#			extract_supported $FILE;;
 	list-available-operations )
 			list_available_operations $FILE;;
 	list-supported-operations )	
 			list_supported_operations $FILE;;
-	count-available-operations )
-			count_available_operations $FILE;;
+	count-available-toplevel-operations )
+			count_available_toplevel_operations $FILE;;
+	count-available-subresource-operations )
+			count_available_subresource_operations $FILE;;
+	print-subresource-summary )
+			print_subresource_summary $FILE;;
+	print-toplevel-summary )
+			print_toplevel_summary $FILE;;
 esac

@@ -30,7 +30,7 @@ remove_corrupt_files () {
 		fi
 	fi
 	done
-	echo $removed files were removed because they are corrupted
+	echo -e "PROCESSING SUMMARY:\tcaused exceptions:\t$removed"
 }
 
 remove_short_files () {
@@ -45,7 +45,7 @@ remove_short_files () {
 			rm $f
 		fi
 	done
-	echo $removed files were removed because the OAS definition was too short
+	echo -e "PROCESSING SUMMARY:\tToo short OAS Files\t$removed"
 }
 
 remove_insufficient_oas_files () {
@@ -54,14 +54,14 @@ remove_insufficient_oas_files () {
 	for f in $OAS_FILES
 	do
 		filename=${f##*/}
-		node oas_reader.js $f >helperFile
+		./helper_functions.sh --print-toplevel-summary --file $f >helperFile
 		error=$( cat helperFile| grep "ERROR occured while processing OAS FILE" )
 		if [ "$error" != "" ];then
 			echo -e  "oas_reader.js can not process file. Removing file: \t $filename"	
 			threwError=$((threwError+1))
 			rm $f
 		fi
-		noOperations=$(cat helperFile| head -n 1 |sed 's/Available Operations:\t//' )
+		noOperations=$(./helper_functions.sh --count-available-toplevel-operations -f $f)
 		if [ "$noOperations" == "0" ];then
 			echo -e  "No operations found. Removing file: \t $filename"	
 			zeroOperations=$((zeroOperations+1))
@@ -69,8 +69,8 @@ remove_insufficient_oas_files () {
 		fi
 	rm helperFile
 	done
-	echo $threwError files were removed because they could not be processed
-	echo $zeroOperations files were removed because they have no operations
+	echo -e "PROCESSING SUMMARY:\tcouldn't be processed:\t$threwError"
+	echo -e "PROCESSING SUMMARY:\tno toplevel-operations:\t$zeroOperations"
 }
 
 
@@ -105,9 +105,9 @@ remove_sample_apis () {
 		fi
 	done
 	rm helperFile
-	echo "$removed_outh_apis default OAuth Files were removed"
-	echo "$removed_iot_apis default IOT Files were removed"
-	echo "$removed_petstore_apis default petstore Files were removed"
+	echo -e "PROCESSING SUMMARY:\tremoved oauth apis\t$removed_outh_apis"
+	echo -e "PROCESSING SUMMARY:\tremoved iot apis\t$removed_iot_apis"
+	echo -e "PROCESSING SUMMARY:\tremoved petstore apis\t$removed_petstore_apis"
 }
 
 

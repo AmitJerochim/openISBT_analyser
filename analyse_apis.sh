@@ -16,10 +16,10 @@ determine_full_supported_apis () {
  		filename=${logFile##*/} 
 		oasFile=$OAS_FILES_DIRECTORY/$filename.json
 		local supported=$(./helper_functions.sh --list-supported-operations --file $logFile | wc -l)
-		local available=$(./helper_functions.sh --count-available-operations --file $oasFile)
+		local available=$(./helper_functions.sh --count-available-toplevel-operations --file $oasFile)
 		local no_subresources=""
 		if [ "$supported" -eq "$available" ];then
-			local subresource_operations=$( node oas_reader.js $oasFile "true" |  head -n 1 |sed 's/Available Operations:\t//'   )
+			local subresource_operations=$(./helper_functions.sh --count-available-subresource-operations --file $oasFile)
 			if [ "$subresource_operations" -eq 0 ]; then
 				no_subresources="*"
 				COUNT_NO_SUBRESOURCES=$((COUNT_NO_SUBRESOURCES+1))
@@ -28,16 +28,18 @@ determine_full_supported_apis () {
 			ALL_SUPPORTED_APIS=$((ALL_SUPPORTED_APIS+1))
 		fi
 	done
-	echo $ALL_SUPPORTED_APIS apis are fully supported
-	echo $COUNT_NO_SUBRESOURCES of the supported apis do not have sub-resources
-	echo $ALL_APIS apis available
+	echo -e "MEASUREMENT SUMMARY:\twe ran the measurement on a set of apis with set size:\t\t\t$ALL_APIS"
+	echo -e "MEASUREMENT SUMMARY:\tapis are fully supported ignoring sub-resources:\t\t\t$ALL_SUPPORTED_APIS"
+	echo -e "MEASUREMENT SUMMARY:\tNOTICE: * indicates an file that does not define operations on subresources"
+	echo -e "MEASUREMENT SUMMARY:\tapis are fully supported considering sub-resources:\t\t\t$COUNT_NO_SUBRESOURCES"
 	difference_counting_subresources=0$( bc -q <<< scale=4\;$COUNT_NO_SUBRESOURCES/$ALL_APIS)
 	difference_ignoring_subresources=0$( bc -q <<< scale=4\;$ALL_SUPPORTED_APIS/$ALL_APIS)
-	echo coverage criteria: full-supported-apis ignoring sub-resources $difference_ignoring_subresources
-	echo coverage criteria: full-supported-apis considering sub-resources $difference_counting_subresources
+	echo -e "MEASUREMENT SUMMARY:\tcoverage criteria: full-supported-apis ignoring sub-resources\t\t$difference_ignoring_subresources"
+	echo -e "MEASUREMENT SUMMARY:\tcoverage criteria: full-supported-apis considering sub-resources\t$difference_counting_subresources"
 }
 
 determine_supported_operations () {
+	ALL_APIS=$(ls -l $LOG_FILES | wc -l )
 	ALL_SUPPORTED_OPERATIONS=0
 	ALL_OPERATIONS_WITHOUT_SUBRESOURCES=0
 	ALL_OPERATIONS_INCLUDING_SUBRESOURCES=0
@@ -45,9 +47,9 @@ determine_supported_operations () {
 	do
   	filename=${logFile##*/} 
 		oasFile=$OAS_FILES_DIRECTORY/$filename.json
-		local available_subresource_operations=$( node oas_reader.js $oasFile "true" |  head -n 1 |sed 's/Available Operations:\t//'   )
+		local available_subresource_operations=$(./helper_functions.sh --count-available-subresource-operations --file $oasFile)
 		local supported=$(./helper_functions.sh --list-supported-operations --file $logFile | wc -l)
-		local available_toplevel_operations=$(./helper_functions.sh --count-available-operations --file $oasFile)
+		local available_toplevel_operations=$(./helper_functions.sh --count-available-toplevel-operations --file $oasFile)
 		ALL_SUPPORTED_OPERATIONS=$((ALL_SUPPORTED_OPERATIONS+supported))
 		ALL_OPERATIONS_WITHOUT_SUBRESOURCES=$((ALL_OPERATIONS_WITHOUT_SUBRESOURCES+available_toplevel_operations))
 		ALL_OPERATIONS_INCLUDING_SUBRESOURCES=$((ALL_OPERATIONS_INCLUDING_SUBRESOURCES+available_subresource_operations+available_toplevel_operations))
@@ -55,18 +57,14 @@ determine_supported_operations () {
 	done
 	difference_counting_subresources=0$( bc -q <<< scale=4\;$ALL_SUPPORTED_OPERATIONS/$ALL_OPERATIONS_INCLUDING_SUBRESOURCES)
 	difference_ignoring_subresources=0$( bc -q <<< scale=4\;$ALL_SUPPORTED_OPERATIONS/$ALL_OPERATIONS_WITHOUT_SUBRESOURCES)
-	echo coverage criteria: supported-operations ignoring sub-resources $difference_ignoring_subresources
-	echo coverage criteria: supported-operations considering sub-resources $difference_counting_subresources
+  echo  -e "MEASUREMENT SUMMARY:\twe ran the measurement on the following amount of files:\t\t$ALL_APIS"
+	echo  -e "MEASUREMENT SUMMARY:\tall supported operations:\t\t\t\t\t\t$ALL_SUPPORTED_OPERATIONS"
+	echo  -e "MEASUREMENT SUMMARY:\tall available operations ignoring operations on sub-resource:\t\t$ALL_OPERATIONS_WITHOUT_SUBRESOURCES"
+	echo  -e "MEASUREMENT SUMMARY:\tall available operations including operations on sub-resource:\t\t$ALL_OPERATIONS_INCLUDING_SUBRESOURCES"
+	echo  -e "MEASUREMENT SUMMARY:\tcoverage criteria: supported-operations ignoring sub-resources:\t\t$difference_ignoring_subresources"
+	echo  -e "MEASUREMENT SUMMARY:\tcoverage criteria: supported-operations considering sub-resources:\t$difference_counting_subresources"
 }
 
-get_patterns_results () {
-	cat $1 | grep "mapping.mapper"| grep "mapping\|pattern\|operation"
-}
-
-determine_candidates () {
-	f=../openapi-data/analysis/232_*
-	get_patterns_results $f
-}
 
 usage () {
 echo "usage:"
