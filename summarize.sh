@@ -9,7 +9,7 @@ echo "#################################" >>$SUMMARY
 echo -e "\n" >>$SUMMARY
 
 echo "PROCESSING SUMMARY:" >>$SUMMARY
-echo -e "PROCESSING SUMMARY\tInput file we process:\t$(ls -l $OAS_FILES_BAK/* | wc -l)" >helperFile
+echo -e "PROCESSING SUMMARY\tProcessed input files:\t$(ls -l $OAS_FILES_BAK/* | wc -l)" >helperFile
 cat $LOGGINGS/record_processing.log |grep "PROCESSING SUMMARY" >>helperFile
 sed $'s/^/\\t/' helperFile >helperFile2
 cat helperFile2 >>$SUMMARY
