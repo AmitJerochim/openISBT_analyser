@@ -77,6 +77,7 @@ remove_insufficient_oas_files () {
 
 
 remove_sample_apis () {
+	local removed_simple_apis=0
 	local removed_outh_apis=0
 	local removed_petstore_apis=0
 	local removed_iot_apis=0
@@ -85,6 +86,12 @@ remove_sample_apis () {
 		filename=${f##*/}
 		./helper_functions.sh --select-resources -f $f >helperFile
 		paths=$(cat helperFile | tr -d '\012' )
+		if [ "$paths" == "/inventory" ];then
+			removed_simple_apis=$((removed_simple_apis+1))
+			echo -e "File is default Simple API and will be removed: \t $f"
+			rm $f
+			rm $OAS_FILES_DIRECTORY/$filename.json
+		fi
 		if [ "$paths" == "/example/ping" ];then
 			removed_outh_apis=$((removed_outh_apis+1))
 			echo -e "File is default OAuth API and will be removed: \t $f"
@@ -105,6 +112,7 @@ remove_sample_apis () {
 		fi
 	done
 	rm helperFile
+	echo -e "PROCESSING SUMMARY:\tremoved simple apis\t$removed_simple_apis"
 	echo -e "PROCESSING SUMMARY:\tremoved oauth apis\t$removed_outh_apis"
 	echo -e "PROCESSING SUMMARY:\tremoved iot apis\t$removed_iot_apis"
 	echo -e "PROCESSING SUMMARY:\tremoved petstore apis\t$removed_petstore_apis"
