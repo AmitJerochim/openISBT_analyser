@@ -1,0 +1,43 @@
+#################################
+### Summary of the experiment ###
+#################################
+
+
+PROCESSING SUMMARY:
+	PROCESSING SUMMARY	Processed input files:	2069
+	PROCESSING SUMMARY:	Too short OAS Files	297
+	PROCESSING SUMMARY:	couldn't be processed:	0
+	PROCESSING SUMMARY:	no toplevel-operations:	49
+	PROCESSING SUMMARY:	run openISBT on:	1723
+	PROCESSING SUMMARY:	caused exceptions:	342
+	PROCESSING SUMMARY:	removed simple apis	75
+	PROCESSING SUMMARY:	removed oauth apis	0
+	PROCESSING SUMMARY:	removed iot apis	7
+	PROCESSING SUMMARY:	removed petstore apis	55
+
+MEASUREMENT: determine-full-supported-apis
+	MEASUREMENT SUMMARY:	we ran the measurement on a set of apis with set size:			1244
+	MEASUREMENT SUMMARY:	apis are fully supported ignoring sub-resources:			477
+	MEASUREMENT SUMMARY:	apis are fully supported considering sub-resources:			372
+	MEASUREMENT SUMMARY:	coverage criteria: full-supported-apis ignoring sub-resources		0.3834
+	MEASUREMENT SUMMARY:	coverage criteria: full-supported-apis considering sub-resources	0.2990
+
+MEASUREMENT: determine-supported-operations
+	MEASUREMENT SUMMARY:	we ran the measurement on the following amount of files:		1244
+	MEASUREMENT SUMMARY:	all supported operations:						10690
+	MEASUREMENT SUMMARY:	all available operations ignoring operations on sub-resource:		14398
+	MEASUREMENT SUMMARY:	all available operations including operations on sub-resource:		18112
+	MEASUREMENT SUMMARY:	coverage criteria: supported-operations ignoring sub-resources:		0.7424
+	MEASUREMENT SUMMARY:	coverage criteria: supported-operations considering sub-resources:	0.5902
+
+ADDITIONAL MEASUREMENT: evaluate_apis that threw exception
+	ADDITIONAL MEASURMENT SUMMARY:	all Files where exception was thrown:		 342
+	ADDITIONAL MEASURMENT SUMMARY:	sum of operations on toplevel-resources:	 7118
+	ADDITIONAL MEASURMENT SUMMARY:	sum of operations on sub-resources:		 3148
+	ADDITIONAL MEASURMENT SUMMARY:	sum of operations on all resources:		 10266
+
+ADDITIONAL MEASUREMENT: evaluate_apis with only sub-resources
+	ADDITIONAL MEASURMENT SUMMARY:	all Files without toplevel-resources:		 49
+	ADDITIONAL MEASURMENT SUMMARY:	sum of operations on toplevel-resources:	 0
+	ADDITIONAL MEASURMENT SUMMARY:	sum of operations on sub-resources:		 527
+	ADDITIONAL MEASURMENT SUMMARY:	sum of operations on all resources:		 527
