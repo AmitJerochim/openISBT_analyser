@@ -34,8 +34,8 @@ determine_full_supported_apis () {
 	echo -e "MEASUREMENT SUMMARY:\tapis are fully supported considering sub-resources:\t\t\t$COUNT_NO_SUBRESOURCES"
 	difference_counting_subresources=0$( bc -q <<< scale=4\;$COUNT_NO_SUBRESOURCES/$ALL_APIS)
 	difference_ignoring_subresources=0$( bc -q <<< scale=4\;$ALL_SUPPORTED_APIS/$ALL_APIS)
-	echo -e "MEASUREMENT SUMMARY:\tcoverage criteria: full-supported-apis ignoring sub-resources\t\t$difference_ignoring_subresources"
-	echo -e "MEASUREMENT SUMMARY:\tcoverage criteria: full-supported-apis considering sub-resources\t$difference_counting_subresources"
+	echo -e "MEASUREMENT SUMMARY:\tcoverage criteria: full-supported-apis ignoring sub-resources:\t\t$difference_ignoring_subresources"
+	echo -e "MEASUREMENT SUMMARY:\tcoverage criteria: full-supported-apis considering sub-resources:\t$difference_counting_subresources"
 }
 
 determine_supported_operations () {
