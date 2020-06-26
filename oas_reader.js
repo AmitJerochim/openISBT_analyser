@@ -30,12 +30,41 @@ try{
 const isNestedResource = (resource) => {
 	let length = resource.length
 	let idx = resource.indexOf("}")
-	if(resource.charAt(1) === '{') {
-		resource = resource.substring( idx + 1, length - 1 )
+	if (idx === -1){ return false;
+ 	}else if(resource.charAt(1) === '{') {
+		resource = resource.substring( idx + 1, length)
 		idx = resource.indexOf("}")
-	}	
-	return idx !== -1 && idx < length - 1;
+			if(idx === -1) {return false;
+			}else{ return true;}
+		}else{	
+		return idx < length - 1;
+	}
 }
+/*
+let path="/hallo"
+console.log(path +": \t" + isNestedResource(path) )
+
+path="/hallo/hallo"
+console.log(path +": \t" + isNestedResource(path) )
+
+path="/{hallo}/hallo"
+console.log(path +": \t" + isNestedResource(path) )
+
+path="/{id}/hallo/{id}/hallo"
+console.log(path +": \t" + isNestedResource(path) )
+
+path="/{id}/hallo/{id}"
+console.log(path +": \t" + isNestedResource(path) )
+
+path="/hallo/{hallo}"
+console.log(path +": \t" + isNestedResource(path) )
+
+path="/hallo/hallo"
+console.log(path +": \t" + isNestedResource(path) )
+
+path="/hallo/hallo"
+console.log(path +": \t" + isNestedResource(path) )
+*/
 
 const returnTopLevelPath = (path)=>{
 	let length = path.length
@@ -43,6 +72,7 @@ const returnTopLevelPath = (path)=>{
 	let idx_closingBrackets = path.indexOf("}")
 	let toplevel = ''
 	let sublevel = ''
+
 	if(idx_openingBrackets < 0){return path}
 	if(idx_openingBrackets > 1){ return path.substring( 0, idx_openingBrackets - 1) }
 	if(idx_openingBrackets === 1){
@@ -83,6 +113,7 @@ try{
 	console.log(err)
 	process.exit()
 }
+
 
 const countAvailableMethods = (paths) =>{
 	let counter=0;
@@ -196,4 +227,6 @@ try{
 	console.log( scriptName+": ERROR occured while processing OAS FILE:\t  printing summary filed:\t" + OAS_FILE_PATH) 
 	process.exit();
 }
+
+
 
