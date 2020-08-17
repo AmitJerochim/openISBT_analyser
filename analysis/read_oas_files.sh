@@ -1,7 +1,7 @@
 #!/bin/bash
 
-LOGGINGS=loggings
-OAS_FILES=../openapi-data/oasFiles/*
+LOGGINGS=../loggings
+OAS_FILES=../../openapi-data/oasFiles/*
 
 read_oas_files () {
 	mkdir -p $LOGGINGS/oas_reader_output/toplevel/

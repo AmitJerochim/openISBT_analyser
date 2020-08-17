@@ -73,6 +73,31 @@ remove_insufficient_oas_files () {
 	echo -e "PROCESSING SUMMARY:\tno toplevel-operations:\t$zeroOperations"
 }
 
+remove_not_standard_files () {
+	notStandard=0
+	for f in $OAS_FILES
+	do
+		filename=${f##*/}
+#    echo $f
+#		cat ../loggings/oas_reader_output/toplevel/$filename>helperFile
+		./helper_functions.sh --print-toplevel-summary --file $f >helperFile
+#		cat helperFile
+		empty=$( cat helperFile |sed '/^Available Operations:.*/d' | sed '/^get.*/d' |sed '/^post.*/d' |sed '/^head.*/d' |sed '/^put.*/d'  |sed '/^patch.*/d'  |sed '/^delete.*/d'  |sed '/^options.*/d'  |sed '/^trace.*/d' )
+#		cat helperFile | sed '/^get.*/d' |sed '/^post.*/d' |sed '/^head.*/d' |sed '/^put.*/d'  |sed '/^patch.*/d'  |sed '/^delete.*/d'  |sed '/^options.*/d'  |sed '/^trace.*/d' >helperFile1 
+#		cat helperFile1
+#		containsBad=$(cat helperFile | grep -i -E " parameter")
+	#	cat helperFile | grep -i -E "^parameter"
+		if [ "$empty" != "" ];then
+			echo -e  "valid but unusual OAS file. Removing file: \t $filename"	
+			notStandard=$((notStandard+1))
+			rm -rf $f
+		fi		
+#		if [ "$containsBad" != "" ];then
+#			isUnusual=1
+#		fi
+	done
+	echo -e "PROCESSING SUMMARY:\tunusual file structure:\t$notStandard"
+}
 
 
 
@@ -99,7 +124,7 @@ remove_sample_apis () {
 			rm $OAS_FILES_DIRECTORY/$filename.json
 		fi
 		if [ "$paths" == "/devices/zones/temperature/lightingSummary/lighting/switches/{deviceId}/lighting/dimmers/{deviceId}/{value}" ];then
-			removed_iot_apis=$((removed_iot_apis+1))
+			REmoved_iot_apis=$((removed_iot_apis+1))
 			echo -e "File is default IOT API and will be removed: \t $f"
 			rm $f
 			rm $OAS_FILES_DIRECTORY/$filename.json
@@ -153,6 +178,8 @@ while [ "$1" != "" ]; do
 				CMD="remove-short-files";;
 			--remove-sample-apis )
 				CMD="remove-sample-apis";;
+			--remove-not-standard-files )
+				CMD="remove-not-standard-files";;
 			*)
 				echo -e "invalid option:\t $1\t  Use --help to get usage manual"
 				exit 1;;
@@ -186,4 +213,7 @@ case $CMD in
 		remove_short_files;;	
 	remove-sample-apis )
 			remove_sample_apis;;
+	remove-not-standard-files )
+			remove_not_standard_files;;
+
 esac

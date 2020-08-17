@@ -1,8 +1,8 @@
 #!/bin/bash
 
-LOGGINGS=loggings
+LOGGINGS=../loggings
 SUMMARY=$LOGGINGS/summary.log
-OAS_FILES_BAK=../openapi-data/oasFiles.bak
+OAS_FILES_BAK=../../openapi-data/oasFiles.bak
 echo "#################################" >$SUMMARY
 echo "### Summary of the experiment ###" >>$SUMMARY
 echo "#################################" >>$SUMMARY

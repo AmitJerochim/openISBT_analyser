@@ -4,7 +4,7 @@
 #
 FILE=""
 CMD=""
-LOGGINGS=loggings
+LOGGINGS=../loggings
 list_available_operations () {
 	node oas_reader.js $1 | grep "get\|post\|fetch\|put\|delete\|head\|options\|connect\|trace" 
 }
