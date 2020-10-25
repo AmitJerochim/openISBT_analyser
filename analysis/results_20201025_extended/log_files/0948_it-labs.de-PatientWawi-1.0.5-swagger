@@ -1,0 +1,126 @@
+Will overwrite mapping file
+2020-10-25 21:07:53.430 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:07:53.431 [main] INFO  mapping.Mapper - -> /hospital
+2020-10-25 21:07:53.431 [main] INFO  mapping.Mapper - -> /users
+2020-10-25 21:07:53.431 [main] INFO  mapping.Mapper - -> /pharmacy
+2020-10-25 21:07:53.432 [main] INFO  mapping.Mapper - -> /nursingHome
+2020-10-25 21:07:53.432 [main] INFO  mapping.Mapper - -> /nursingService
+2020-10-25 21:07:53.432 [main] INFO  mapping.Mapper - -> /doctor
+2020-10-25 21:07:53.432 [main] INFO  mapping.Mapper - -> /region
+2020-10-25 21:07:53.432 [main] INFO  mapping.Mapper - -> /patient/customerMapping
+2020-10-25 21:07:53.432 [main] INFO  mapping.Mapper - -> /patient
+2020-10-25 21:07:53.432 [main] INFO  mapping.Mapper - -> /payer
+2020-10-25 21:07:53.432 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:07:53.447 [main] INFO  mapping.Mapper - Resource Mapping for /hospital:
+2020-10-25 21:07:53.448 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:53.448 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:53.448 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:53.448 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:07:53.448 [main] INFO  mapping.Mapper -       Operation: READ path=/hospital/{_id}
+2020-10-25 21:07:53.448 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:53.448 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:53.448 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:53.448 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:53.448 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:53.452 [main] INFO  mapping.Mapper - Resource Mapping for /users:
+2020-10-25 21:07:53.452 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:53.452 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:53.452 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:53.452 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:07:53.452 [main] INFO  mapping.Mapper -       Operation: READ path=/users/{_id}
+2020-10-25 21:07:53.452 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:53.452 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:53.452 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:53.453 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:53.453 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:53.456 [main] INFO  mapping.Mapper - Resource Mapping for /pharmacy:
+2020-10-25 21:07:53.457 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:53.457 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:53.457 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:53.457 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:07:53.457 [main] INFO  mapping.Mapper -       Operation: READ path=/pharmacy/{_id}
+2020-10-25 21:07:53.457 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:53.457 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:53.457 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:53.457 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:53.457 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:53.461 [main] INFO  mapping.Mapper - Resource Mapping for /nursingHome:
+2020-10-25 21:07:53.461 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:53.461 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:53.461 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:53.461 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:07:53.461 [main] INFO  mapping.Mapper -       Operation: READ path=/nursingHome/{_id}
+2020-10-25 21:07:53.461 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:53.461 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:53.461 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:53.461 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:53.461 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:53.465 [main] INFO  mapping.Mapper - Resource Mapping for /nursingService:
+2020-10-25 21:07:53.465 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:53.465 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:53.465 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:53.465 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:07:53.465 [main] INFO  mapping.Mapper -       Operation: READ path=/nursingService/{_id}
+2020-10-25 21:07:53.465 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:53.465 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:53.465 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:53.465 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:53.465 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:53.469 [main] INFO  mapping.Mapper - Resource Mapping for /doctor:
+2020-10-25 21:07:53.469 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:53.469 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:53.469 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:53.469 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:07:53.469 [main] INFO  mapping.Mapper -       Operation: READ path=/doctor/{_id}
+2020-10-25 21:07:53.469 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:53.470 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:53.470 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:53.470 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:53.470 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:53.473 [main] INFO  mapping.Mapper - Resource Mapping for /region:
+2020-10-25 21:07:53.473 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:53.473 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:53.473 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:53.473 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:07:53.473 [main] INFO  mapping.Mapper -       Operation: READ path=/region/{_id}
+2020-10-25 21:07:53.473 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:53.473 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:53.473 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:53.473 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:53.473 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:53.474 [main] INFO  mapping.Mapper - Resource Mapping for /patient/customerMapping:
+2020-10-25 21:07:53.474 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:53.474 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:53.474 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:53.474 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:53.474 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:53.474 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:53.474 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:53.474 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:53.474 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:53.483 [main] INFO  mapping.Mapper - Resource Mapping for /patient:
+2020-10-25 21:07:53.483 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:53.483 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:53.483 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:53.484 [main] INFO  mapping.Mapper -       Operation: CREATE path=/patient
+2020-10-25 21:07:53.484 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:53.484 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:53.484 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:53.484 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:07:53.484 [main] INFO  mapping.Mapper -       Operation: SCAN path=/patient
+2020-10-25 21:07:53.484 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:07:53.484 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/patient
+2020-10-25 21:07:53.484 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:53.487 [main] INFO  mapping.Mapper - Resource Mapping for /payer:
+2020-10-25 21:07:53.487 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:53.487 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:53.487 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:53.487 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:07:53.487 [main] INFO  mapping.Mapper -       Operation: READ path=/payer/{_id}
+2020-10-25 21:07:53.487 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:53.487 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:53.487 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:53.487 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:53.487 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:53.488 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:07:53.495 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

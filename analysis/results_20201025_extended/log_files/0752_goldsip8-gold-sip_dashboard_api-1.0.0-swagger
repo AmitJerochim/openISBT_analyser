@@ -1,0 +1,146 @@
+Will overwrite mapping file
+2020-10-25 21:06:47.341 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:06:47.342 [main] INFO  mapping.Mapper - -> /admin/searchbullionrates
+2020-10-25 21:06:47.342 [main] INFO  mapping.Mapper - -> /admin/bullionbanks
+2020-10-25 21:06:47.342 [main] INFO  mapping.Mapper - -> /admin/bullions
+2020-10-25 21:06:47.342 [main] INFO  mapping.Mapper - -> /admin/jewelers
+2020-10-25 21:06:47.342 [main] INFO  mapping.Mapper - -> /admin/vaults
+2020-10-25 21:06:47.342 [main] INFO  mapping.Mapper - -> /admin/orders
+2020-10-25 21:06:47.342 [main] INFO  mapping.Mapper - -> /admin/partners
+2020-10-25 21:06:47.342 [main] INFO  mapping.Mapper - -> /admin/bullionrates
+2020-10-25 21:06:47.343 [main] INFO  mapping.Mapper - -> /admin/searchorders
+2020-10-25 21:06:47.343 [main] INFO  mapping.Mapper - -> /admin/inventoryitems
+2020-10-25 21:06:47.343 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:06:47.352 [main] INFO  mapping.Mapper - Resource Mapping for /admin/searchbullionrates:
+2020-10-25 21:06:47.353 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:47.353 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:47.353 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:47.353 [main] INFO  mapping.Mapper -       Operation: CREATE path=/admin/searchbullionrates
+2020-10-25 21:06:47.353 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:47.353 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:47.353 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:47.353 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:47.353 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:47.353 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:47.370 [main] INFO  mapping.Mapper - Resource Mapping for /admin/bullionbanks:
+2020-10-25 21:06:47.370 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:47.371 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:47.371 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:47.371 [main] INFO  mapping.Mapper -       Operation: CREATE path=/admin/bullionbanks
+2020-10-25 21:06:47.371 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:06:47.371 [main] INFO  mapping.Mapper -       Operation: READ path=/admin/bullionbanks/{bullionBankId}
+2020-10-25 21:06:47.371 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:47.371 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:47.371 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:06:47.371 [main] INFO  mapping.Mapper -       Operation: SCAN path=/admin/bullionbanks
+2020-10-25 21:06:47.371 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:06:47.371 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/admin/bullionbanks/{bullionBankId}
+2020-10-25 21:06:47.371 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:47.377 [main] INFO  mapping.Mapper - Resource Mapping for /admin/bullions:
+2020-10-25 21:06:47.377 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:47.377 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:47.377 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:47.377 [main] INFO  mapping.Mapper -       Operation: CREATE path=/admin/bullions
+2020-10-25 21:06:47.377 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:47.377 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:47.377 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:47.377 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:06:47.377 [main] INFO  mapping.Mapper -       Operation: SCAN path=/admin/bullions
+2020-10-25 21:06:47.377 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:06:47.377 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/admin/bullions
+2020-10-25 21:06:47.377 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:06:47.378 [main] INFO  mapping.Mapper -       Operation: DELETE path=/admin/bullions
+2020-10-25 21:06:47.386 [main] INFO  mapping.Mapper - Resource Mapping for /admin/jewelers:
+2020-10-25 21:06:47.387 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:47.387 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:47.387 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:47.387 [main] INFO  mapping.Mapper -       Operation: CREATE path=/admin/jewelers
+2020-10-25 21:06:47.387 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:06:47.387 [main] INFO  mapping.Mapper -       Operation: READ path=/admin/jewelers/{jewelerId}
+2020-10-25 21:06:47.387 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:47.387 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:47.387 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:06:47.387 [main] INFO  mapping.Mapper -       Operation: SCAN path=/admin/jewelers
+2020-10-25 21:06:47.387 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:06:47.387 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/admin/jewelers/{jewelerId}
+2020-10-25 21:06:47.387 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:47.395 [main] INFO  mapping.Mapper - Resource Mapping for /admin/vaults:
+2020-10-25 21:06:47.395 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:47.395 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:47.395 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:47.395 [main] INFO  mapping.Mapper -       Operation: CREATE path=/admin/vaults
+2020-10-25 21:06:47.395 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:06:47.395 [main] INFO  mapping.Mapper -       Operation: READ path=/admin/vaults/{vaultId}
+2020-10-25 21:06:47.395 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:47.395 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:47.395 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:06:47.395 [main] INFO  mapping.Mapper -       Operation: SCAN path=/admin/vaults
+2020-10-25 21:06:47.396 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:06:47.396 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/admin/vaults/{vaultId}
+2020-10-25 21:06:47.396 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:47.398 [main] INFO  mapping.Mapper - Resource Mapping for /admin/orders:
+2020-10-25 21:06:47.398 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:47.398 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:47.398 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:06:47.398 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:06:47.398 [main] INFO  mapping.Mapper -       Operation: READ path=/admin/orders/{orderId}
+2020-10-25 21:06:47.398 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:47.399 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:47.399 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:47.399 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:47.399 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:47.408 [main] INFO  mapping.Mapper - Resource Mapping for /admin/partners:
+2020-10-25 21:06:47.408 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:47.408 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:47.408 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:47.408 [main] INFO  mapping.Mapper -       Operation: CREATE path=/admin/partners
+2020-10-25 21:06:47.408 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:47.408 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:47.408 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:06:47.408 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/admin/partners/{partnerCode}
+2020-10-25 21:06:47.408 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:06:47.409 [main] INFO  mapping.Mapper -       Operation: SCAN path=/admin/partners
+2020-10-25 21:06:47.409 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:06:47.409 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/admin/partners/{partnerCode}
+2020-10-25 21:06:47.409 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:47.413 [main] INFO  mapping.Mapper - Resource Mapping for /admin/bullionrates:
+2020-10-25 21:06:47.414 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:47.414 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:47.414 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:47.414 [main] INFO  mapping.Mapper -       Operation: CREATE path=/admin/bullionrates
+2020-10-25 21:06:47.414 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:47.414 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:47.414 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:47.414 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:06:47.414 [main] INFO  mapping.Mapper -       Operation: SCAN path=/admin/bullionrates/{id}
+2020-10-25 21:06:47.414 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:06:47.414 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/admin/bullionrates/{id}
+2020-10-25 21:06:47.414 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:06:47.414 [main] INFO  mapping.Mapper -       Operation: DELETE path=/admin/bullionrates/{id}
+2020-10-25 21:06:47.416 [main] INFO  mapping.Mapper - Resource Mapping for /admin/searchorders:
+2020-10-25 21:06:47.417 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:47.417 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:47.417 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:47.417 [main] INFO  mapping.Mapper -       Operation: CREATE path=/admin/searchorders
+2020-10-25 21:06:47.417 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:47.417 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:47.417 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:47.417 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:47.417 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:47.417 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:47.423 [main] INFO  mapping.Mapper - Resource Mapping for /admin/inventoryitems:
+2020-10-25 21:06:47.424 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:47.424 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:47.424 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:47.424 [main] INFO  mapping.Mapper -       Operation: CREATE path=/admin/inventoryitems
+2020-10-25 21:06:47.424 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:06:47.424 [main] INFO  mapping.Mapper -       Operation: READ path=/admin/inventoryitems/{inventoryItemId}
+2020-10-25 21:06:47.424 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:47.424 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:47.424 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:06:47.424 [main] INFO  mapping.Mapper -       Operation: SCAN path=/admin/inventoryitems
+2020-10-25 21:06:47.424 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:06:47.424 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/admin/inventoryitems/{inventoryItemId}
+2020-10-25 21:06:47.424 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:47.424 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:06:47.432 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

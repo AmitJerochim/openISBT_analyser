@@ -1,0 +1,53 @@
+Will overwrite mapping file
+2020-10-25 21:04:10.908 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:04:10.910 [main] INFO  mapping.Mapper - -> /v1/message
+2020-10-25 21:04:10.910 [main] INFO  mapping.Mapper - -> /v2/message
+2020-10-25 21:04:10.910 [main] INFO  mapping.Mapper - -> /v1/authenticate
+2020-10-25 21:04:10.910 [main] INFO  mapping.Mapper - -> /v1/authenticate/jwt
+2020-10-25 21:04:10.910 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:04:10.921 [main] INFO  mapping.Mapper - Resource Mapping for /v1/message:
+2020-10-25 21:04:10.921 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:04:10.921 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:04:10.921 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:04:10.921 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/message/{apikey}
+2020-10-25 21:04:10.921 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:04:10.921 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:04:10.921 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:04:10.921 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:04:10.921 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:04:10.921 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:04:10.925 [main] INFO  mapping.Mapper - Resource Mapping for /v2/message:
+2020-10-25 21:04:10.926 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:04:10.926 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:04:10.926 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:04:10.926 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v2/message/{apikey}
+2020-10-25 21:04:10.926 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:04:10.926 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:04:10.926 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:04:10.926 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:04:10.926 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:04:10.926 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:04:10.928 [main] INFO  mapping.Mapper - Resource Mapping for /v1/authenticate:
+2020-10-25 21:04:10.929 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:04:10.929 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:04:10.929 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:04:10.929 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/authenticate
+2020-10-25 21:04:10.929 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:04:10.929 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:04:10.929 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:04:10.929 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:04:10.929 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:04:10.929 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:04:10.931 [main] INFO  mapping.Mapper - Resource Mapping for /v1/authenticate/jwt:
+2020-10-25 21:04:10.931 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:04:10.931 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:04:10.931 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:04:10.931 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:04:10.932 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:04:10.932 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:04:10.932 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:04:10.932 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:04:10.932 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:04:10.932 [main] INFO  mapping.Mapper -       Operation: DELETE path=/v1/authenticate/jwt
+2020-10-25 21:04:10.932 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:04:10.937 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

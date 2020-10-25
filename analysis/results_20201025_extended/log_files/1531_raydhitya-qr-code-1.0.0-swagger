@@ -1,0 +1,65 @@
+Will overwrite mapping file
+2020-10-25 21:11:22.895 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:11:22.897 [main] INFO  mapping.Mapper - -> /qris/transaction
+2020-10-25 21:11:22.897 [main] INFO  mapping.Mapper - -> /transaction
+2020-10-25 21:11:22.897 [main] INFO  mapping.Mapper - -> /qris
+2020-10-25 21:11:22.897 [main] INFO  mapping.Mapper - -> /merchant
+2020-10-25 21:11:22.897 [main] INFO  mapping.Mapper - -> /gopay
+2020-10-25 21:11:22.897 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:11:22.908 [main] INFO  mapping.Mapper - Resource Mapping for /qris/transaction:
+2020-10-25 21:11:22.908 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:11:22.908 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:11:22.908 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:11:22.908 [main] INFO  mapping.Mapper -       Operation: CREATE path=/qris/transaction
+2020-10-25 21:11:22.908 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:11:22.908 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:11:22.908 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:11:22.908 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:11:22.908 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:11:22.908 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:11:22.912 [main] INFO  mapping.Mapper - Resource Mapping for /transaction:
+2020-10-25 21:11:22.912 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:11:22.912 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:11:22.912 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:11:22.913 [main] INFO  mapping.Mapper -       Operation: CREATE path=/transaction
+2020-10-25 21:11:22.913 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:11:22.913 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:11:22.913 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:11:22.913 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:11:22.913 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:11:22.913 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:11:22.923 [main] INFO  mapping.Mapper - Resource Mapping for /qris:
+2020-10-25 21:11:22.924 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:11:22.924 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:11:22.924 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:11:22.924 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:11:22.924 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:11:22.924 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:11:22.924 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/qris/{tref}
+2020-10-25 21:11:22.924 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:11:22.924 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:11:22.924 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:11:22.927 [main] INFO  mapping.Mapper - Resource Mapping for /merchant:
+2020-10-25 21:11:22.927 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:11:22.927 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:11:22.927 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:11:22.927 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:11:22.927 [main] INFO  mapping.Mapper -       Operation: READ path=/merchant/{crossReferenceId}
+2020-10-25 21:11:22.927 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:11:22.927 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:11:22.927 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:11:22.927 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:11:22.927 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:11:22.933 [main] INFO  mapping.Mapper - Resource Mapping for /gopay:
+2020-10-25 21:11:22.933 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:11:22.934 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:11:22.934 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:11:22.934 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:11:22.934 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:11:22.934 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:11:22.934 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/gopay/{tref}
+2020-10-25 21:11:22.934 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:11:22.934 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:11:22.934 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:11:22.934 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:11:22.940 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

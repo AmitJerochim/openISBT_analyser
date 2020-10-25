@@ -1,0 +1,183 @@
+Will overwrite mapping file
+2020-10-25 21:07:08.324 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:07:08.325 [main] INFO  mapping.Mapper - -> /used-car-video
+2020-10-25 21:07:08.325 [main] INFO  mapping.Mapper - -> /dealership-total-inventory
+2020-10-25 21:07:08.326 [main] INFO  mapping.Mapper - -> /image
+2020-10-25 21:07:08.326 [main] INFO  mapping.Mapper - -> /login
+2020-10-25 21:07:08.326 [main] INFO  mapping.Mapper - -> /image-number
+2020-10-25 21:07:08.326 [main] INFO  mapping.Mapper - -> /separated-work-order
+2020-10-25 21:07:08.326 [main] INFO  mapping.Mapper - -> /arrange-images
+2020-10-25 21:07:08.326 [main] INFO  mapping.Mapper - -> /car-lookup
+2020-10-25 21:07:08.326 [main] INFO  mapping.Mapper - -> /used-car-image
+2020-10-25 21:07:08.326 [main] INFO  mapping.Mapper - -> /dealership
+2020-10-25 21:07:08.326 [main] INFO  mapping.Mapper - -> /video
+2020-10-25 21:07:08.326 [main] INFO  mapping.Mapper - -> /video-upload-path
+2020-10-25 21:07:08.326 [main] INFO  mapping.Mapper - -> /used-work-order
+2020-10-25 21:07:08.326 [main] INFO  mapping.Mapper - -> /arrange-used-images
+2020-10-25 21:07:08.326 [main] INFO  mapping.Mapper - -> /used-car-lookup
+2020-10-25 21:07:08.326 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:07:08.336 [main] INFO  mapping.Mapper - Resource Mapping for /used-car-video:
+2020-10-25 21:07:08.336 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:08.336 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:08.336 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:08.336 [main] INFO  mapping.Mapper -       Operation: CREATE path=/used-car-video
+2020-10-25 21:07:08.336 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:08.336 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:08.336 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:08.336 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:08.336 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:08.336 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:08.339 [main] INFO  mapping.Mapper - Resource Mapping for /dealership-total-inventory:
+2020-10-25 21:07:08.339 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:08.340 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:08.340 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:08.340 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:08.340 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:08.340 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:08.340 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:07:08.340 [main] INFO  mapping.Mapper -       Operation: SCAN path=/dealership-total-inventory
+2020-10-25 21:07:08.340 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:08.340 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:08.344 [main] INFO  mapping.Mapper - Resource Mapping for /image:
+2020-10-25 21:07:08.344 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:08.344 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:08.344 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:08.344 [main] INFO  mapping.Mapper -       Operation: CREATE path=/image
+2020-10-25 21:07:08.344 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:08.344 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:08.344 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:08.344 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:08.344 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:08.344 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:08.347 [main] INFO  mapping.Mapper - Resource Mapping for /login:
+2020-10-25 21:07:08.347 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:08.347 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:08.347 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:08.347 [main] INFO  mapping.Mapper -       Operation: CREATE path=/login
+2020-10-25 21:07:08.347 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:08.347 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:08.347 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:08.347 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:08.347 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:08.347 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:08.349 [main] INFO  mapping.Mapper - Resource Mapping for /image-number:
+2020-10-25 21:07:08.350 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:08.350 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:08.350 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:08.350 [main] INFO  mapping.Mapper -       Operation: CREATE path=/image-number
+2020-10-25 21:07:08.350 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:08.350 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:08.350 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:08.350 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:08.350 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:08.350 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:08.356 [main] INFO  mapping.Mapper - Resource Mapping for /separated-work-order:
+2020-10-25 21:07:08.357 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:08.357 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:08.357 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:08.357 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:07:08.357 [main] INFO  mapping.Mapper -       Operation: READ path=/separated-work-order/{fileId}
+2020-10-25 21:07:08.357 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:08.357 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:08.357 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:08.357 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:08.357 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:08.360 [main] INFO  mapping.Mapper - Resource Mapping for /arrange-images:
+2020-10-25 21:07:08.360 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:08.360 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:08.360 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:08.360 [main] INFO  mapping.Mapper -       Operation: CREATE path=/arrange-images
+2020-10-25 21:07:08.360 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:08.360 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:08.360 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:08.360 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:08.360 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:08.360 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:08.361 [main] INFO  mapping.Mapper - Resource Mapping for /car-lookup:
+2020-10-25 21:07:08.361 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:08.361 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:08.361 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:08.361 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:08.361 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:08.361 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:08.361 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:08.361 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:08.361 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:08.363 [main] INFO  mapping.Mapper - Resource Mapping for /used-car-image:
+2020-10-25 21:07:08.364 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:08.364 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:08.364 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:08.364 [main] INFO  mapping.Mapper -       Operation: CREATE path=/used-car-image
+2020-10-25 21:07:08.364 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:08.364 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:08.364 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:08.364 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:08.364 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:08.364 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:08.369 [main] INFO  mapping.Mapper - Resource Mapping for /dealership:
+2020-10-25 21:07:08.369 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:08.369 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:08.369 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:08.369 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:08.369 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:08.369 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:07:08.369 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/dealership/{dealershipId}
+2020-10-25 21:07:08.369 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:07:08.369 [main] INFO  mapping.Mapper -       Operation: SCAN path=/dealership
+2020-10-25 21:07:08.369 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:08.369 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:08.372 [main] INFO  mapping.Mapper - Resource Mapping for /video:
+2020-10-25 21:07:08.372 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:08.372 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:08.372 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:08.373 [main] INFO  mapping.Mapper -       Operation: CREATE path=/video
+2020-10-25 21:07:08.373 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:08.373 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:08.373 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:08.373 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:08.373 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:08.373 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:08.374 [main] INFO  mapping.Mapper - Resource Mapping for /video-upload-path:
+2020-10-25 21:07:08.374 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:08.374 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:08.374 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:08.374 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:08.374 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:08.374 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:08.374 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:08.374 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:08.374 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:08.376 [main] INFO  mapping.Mapper - Resource Mapping for /used-work-order:
+2020-10-25 21:07:08.376 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:08.376 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:08.377 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:08.377 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:07:08.377 [main] INFO  mapping.Mapper -       Operation: READ path=/used-work-order/{fileId}
+2020-10-25 21:07:08.377 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:08.377 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:08.377 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:08.377 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:08.377 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:08.379 [main] INFO  mapping.Mapper - Resource Mapping for /arrange-used-images:
+2020-10-25 21:07:08.379 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:08.379 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:08.379 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:08.379 [main] INFO  mapping.Mapper -       Operation: CREATE path=/arrange-used-images
+2020-10-25 21:07:08.379 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:08.379 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:08.379 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:08.379 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:08.379 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:08.379 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:08.380 [main] INFO  mapping.Mapper - Resource Mapping for /used-car-lookup:
+2020-10-25 21:07:08.380 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:08.380 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:08.380 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:08.380 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:08.380 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:08.380 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:08.380 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:08.380 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:08.380 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:08.381 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:07:08.388 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

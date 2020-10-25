@@ -1,0 +1,41 @@
+Will overwrite mapping file
+2020-10-25 21:14:30.250 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:14:30.251 [main] INFO  mapping.Mapper - -> /documents
+2020-10-25 21:14:30.252 [main] INFO  mapping.Mapper - -> /health
+2020-10-25 21:14:30.252 [main] INFO  mapping.Mapper - -> /folders
+2020-10-25 21:14:30.252 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:14:30.273 [main] INFO  mapping.Mapper - Resource Mapping for /documents:
+2020-10-25 21:14:30.273 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:30.273 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:30.273 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:14:30.273 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:30.273 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:30.273 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:14:30.273 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/documents/{id}
+2020-10-25 21:14:30.273 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:14:30.273 [main] INFO  mapping.Mapper -       Operation: SCAN path=/documents
+2020-10-25 21:14:30.274 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:30.274 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:30.274 [main] INFO  mapping.Mapper - Resource Mapping for /health:
+2020-10-25 21:14:30.274 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:30.274 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:30.274 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:14:30.274 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:30.274 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:30.274 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:30.274 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:14:30.274 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:30.274 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:30.277 [main] INFO  mapping.Mapper - Resource Mapping for /folders:
+2020-10-25 21:14:30.277 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:30.277 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:30.277 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:14:30.277 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:30.277 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:30.277 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:30.277 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:14:30.277 [main] INFO  mapping.Mapper -       Operation: SCAN path=/folders
+2020-10-25 21:14:30.277 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:30.277 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:30.277 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:14:30.282 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

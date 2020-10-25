@@ -1,0 +1,92 @@
+Will overwrite mapping file
+2020-10-25 21:05:47.451 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:05:47.452 [main] INFO  mapping.Mapper - -> /users
+2020-10-25 21:05:47.452 [main] INFO  mapping.Mapper - -> /states
+2020-10-25 21:05:47.453 [main] INFO  mapping.Mapper - -> /users/me
+2020-10-25 21:05:47.453 [main] INFO  mapping.Mapper - -> /users/me/last-states
+2020-10-25 21:05:47.453 [main] INFO  mapping.Mapper - -> /sessions
+2020-10-25 21:05:47.453 [main] INFO  mapping.Mapper - -> /states/csv
+2020-10-25 21:05:47.453 [main] INFO  mapping.Mapper - -> /users/me/password
+2020-10-25 21:05:47.453 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:05:47.472 [main] INFO  mapping.Mapper - Resource Mapping for /users:
+2020-10-25 21:05:47.472 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:47.472 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:47.472 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:47.472 [main] INFO  mapping.Mapper -       Operation: CREATE path=/users
+2020-10-25 21:05:47.472 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:47.472 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:47.472 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:47.472 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:05:47.472 [main] INFO  mapping.Mapper -       Operation: SCAN path=/users
+2020-10-25 21:05:47.472 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:47.472 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:05:47.472 [main] INFO  mapping.Mapper -       Operation: DELETE path=/users/{user_id}
+2020-10-25 21:05:47.475 [main] INFO  mapping.Mapper - Resource Mapping for /states:
+2020-10-25 21:05:47.476 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:47.476 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:47.476 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:47.476 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:47.476 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:47.476 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:47.476 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:47.476 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:47.476 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/states
+2020-10-25 21:05:47.476 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:47.478 [main] INFO  mapping.Mapper - Resource Mapping for /users/me:
+2020-10-25 21:05:47.478 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:47.478 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:47.478 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:47.478 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:47.478 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:47.478 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:47.478 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:05:47.479 [main] INFO  mapping.Mapper -       Operation: SCAN path=/users/me
+2020-10-25 21:05:47.479 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:47.479 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:47.481 [main] INFO  mapping.Mapper - Resource Mapping for /users/me/last-states:
+2020-10-25 21:05:47.481 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:47.481 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:47.481 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:47.481 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:47.481 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:47.481 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:47.481 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:05:47.481 [main] INFO  mapping.Mapper -       Operation: SCAN path=/users/me/last-states
+2020-10-25 21:05:47.481 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:47.481 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:47.486 [main] INFO  mapping.Mapper - Resource Mapping for /sessions:
+2020-10-25 21:05:47.486 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:47.486 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:47.486 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:47.486 [main] INFO  mapping.Mapper -       Operation: CREATE path=/sessions
+2020-10-25 21:05:47.486 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:47.486 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:47.486 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:47.486 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:47.486 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:47.486 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:05:47.486 [main] INFO  mapping.Mapper -       Operation: DELETE path=/sessions/{session_id}
+2020-10-25 21:05:47.488 [main] INFO  mapping.Mapper - Resource Mapping for /states/csv:
+2020-10-25 21:05:47.488 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:47.488 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:47.488 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:47.488 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:47.488 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:47.488 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:47.488 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:47.488 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:47.489 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/states/csv
+2020-10-25 21:05:47.489 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:47.490 [main] INFO  mapping.Mapper - Resource Mapping for /users/me/password:
+2020-10-25 21:05:47.490 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:47.490 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:47.490 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:47.490 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:47.491 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:47.491 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:47.491 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:47.491 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:47.491 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/users/me/password
+2020-10-25 21:05:47.491 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:47.491 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:05:47.496 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

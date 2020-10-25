@@ -1,0 +1,29 @@
+Will overwrite mapping file
+2020-10-25 21:04:00.769 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:04:00.771 [main] INFO  mapping.Mapper - -> /ultimaubicacion
+2020-10-25 21:04:00.771 [main] INFO  mapping.Mapper - -> /unidades
+2020-10-25 21:04:00.771 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:04:00.781 [main] INFO  mapping.Mapper - Resource Mapping for /ultimaubicacion:
+2020-10-25 21:04:00.782 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:04:00.782 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:04:00.782 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:04:00.782 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:04:00.782 [main] INFO  mapping.Mapper -       Operation: READ path=/ultimaubicacion/{id_unidad}
+2020-10-25 21:04:00.782 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:04:00.782 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:04:00.782 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:04:00.782 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:04:00.782 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:04:00.785 [main] INFO  mapping.Mapper - Resource Mapping for /unidades:
+2020-10-25 21:04:00.785 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:04:00.786 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:04:00.786 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:04:00.786 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:04:00.786 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:04:00.786 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:04:00.786 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:04:00.786 [main] INFO  mapping.Mapper -       Operation: SCAN path=/unidades
+2020-10-25 21:04:00.786 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:04:00.786 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:04:00.786 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:04:00.791 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

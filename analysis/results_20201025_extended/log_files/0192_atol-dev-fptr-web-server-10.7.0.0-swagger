@@ -1,0 +1,250 @@
+Will overwrite mapping file
+2020-10-25 21:03:25.986 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:03:25.988 [main] INFO  mapping.Mapper - -> /api/v2/devices
+2020-10-25 21:03:25.988 [main] INFO  mapping.Mapper - -> /api/v2/requests
+2020-10-25 21:03:25.988 [main] INFO  mapping.Mapper - -> /api/v2/serverInfo
+2020-10-25 21:03:25.988 [main] INFO  mapping.Mapper - -> /api/v2/getRequestsQueueStatus
+2020-10-25 21:03:25.988 [main] INFO  mapping.Mapper - -> /api/v2/operations/queryIncomeTotals
+2020-10-25 21:03:25.988 [main] INFO  mapping.Mapper - -> /api/v2/operations/queryDeviceInfo
+2020-10-25 21:03:25.988 [main] INFO  mapping.Mapper - -> /api/v2/operations/queryFnStatus
+2020-10-25 21:03:25.988 [main] INFO  mapping.Mapper - -> /api/v2/operations/queryDeviceStatus
+2020-10-25 21:03:25.988 [main] INFO  mapping.Mapper - -> /api/v2/operations/queryShiftStatus
+2020-10-25 21:03:25.988 [main] INFO  mapping.Mapper - -> /api/v2/utils/mapping
+2020-10-25 21:03:25.988 [main] INFO  mapping.Mapper - -> /api/v2/settings
+2020-10-25 21:03:25.989 [main] INFO  mapping.Mapper - -> /api/v2/utils/deviceParametersStruct
+2020-10-25 21:03:25.989 [main] INFO  mapping.Mapper - -> /api/v2/operations/queryFnInfo
+2020-10-25 21:03:25.989 [main] INFO  mapping.Mapper - -> /api/v2/setDefaultDevice
+2020-10-25 21:03:25.989 [main] INFO  mapping.Mapper - -> /api/v2/operations/queryOfdExchangeStatus
+2020-10-25 21:03:25.989 [main] INFO  mapping.Mapper - -> /api/v2/operations/queryOutcomeTotals
+2020-10-25 21:03:25.989 [main] INFO  mapping.Mapper - -> /api/v2/activateDevice
+2020-10-25 21:03:25.989 [main] INFO  mapping.Mapper - -> /api/v2/deactivateDevice
+2020-10-25 21:03:25.989 [main] INFO  mapping.Mapper - -> /api/v2/operations/queryShiftTotals
+2020-10-25 21:03:25.989 [main] INFO  mapping.Mapper - -> /api/v2/operations/queryReceiptTotals
+2020-10-25 21:03:25.989 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:03:26.043 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/devices:
+2020-10-25 21:03:26.043 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:26.043 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:26.043 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:03:26.043 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/v2/devices
+2020-10-25 21:03:26.043 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:26.043 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:26.044 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:03:26.044 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/api/v2/devices/{deviceID}
+2020-10-25 21:03:26.044 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:03:26.044 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/v2/devices
+2020-10-25 21:03:26.044 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:03:26.044 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/v2/devices/{deviceID}
+2020-10-25 21:03:26.044 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:03:26.044 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/v2/devices/{deviceID}
+2020-10-25 21:03:26.051 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/requests:
+2020-10-25 21:03:26.051 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:26.051 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:26.052 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:03:26.052 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/v2/requests
+2020-10-25 21:03:26.052 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:03:26.052 [main] INFO  mapping.Mapper -       Operation: READ path=/api/v2/requests/{uuid}
+2020-10-25 21:03:26.052 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:26.052 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:26.052 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:26.052 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:26.052 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:03:26.052 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/v2/requests/{uuid}
+2020-10-25 21:03:26.053 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/serverInfo:
+2020-10-25 21:03:26.053 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:26.053 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:26.053 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:03:26.053 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:26.053 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:26.053 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:26.054 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:26.054 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:26.054 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:26.056 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/getRequestsQueueStatus:
+2020-10-25 21:03:26.057 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:26.057 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:26.057 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:03:26.057 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:26.057 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:26.057 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:03:26.057 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/api/v2/getRequestsQueueStatus
+2020-10-25 21:03:26.057 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:26.057 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:26.057 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:26.059 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/operations/queryIncomeTotals:
+2020-10-25 21:03:26.059 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:26.059 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:26.059 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:03:26.059 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/v2/operations/queryIncomeTotals
+2020-10-25 21:03:26.059 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:26.059 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:26.060 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:26.060 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:26.060 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:26.060 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:26.061 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/operations/queryDeviceInfo:
+2020-10-25 21:03:26.062 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:26.062 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:26.062 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:03:26.062 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/v2/operations/queryDeviceInfo
+2020-10-25 21:03:26.062 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:26.062 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:26.062 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:26.062 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:26.062 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:26.062 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:26.064 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/operations/queryFnStatus:
+2020-10-25 21:03:26.064 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:26.064 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:26.064 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:03:26.064 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/v2/operations/queryFnStatus
+2020-10-25 21:03:26.064 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:26.064 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:26.064 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:26.064 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:26.064 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:26.064 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:26.066 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/operations/queryDeviceStatus:
+2020-10-25 21:03:26.066 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:26.066 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:26.066 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:03:26.066 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/v2/operations/queryDeviceStatus
+2020-10-25 21:03:26.066 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:26.066 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:26.067 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:26.067 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:26.067 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:26.067 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:26.069 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/operations/queryShiftStatus:
+2020-10-25 21:03:26.069 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:26.069 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:26.069 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:03:26.069 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/v2/operations/queryShiftStatus
+2020-10-25 21:03:26.069 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:26.069 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:26.069 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:26.069 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:26.069 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:26.069 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:26.071 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/utils/mapping:
+2020-10-25 21:03:26.071 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:26.071 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:26.071 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:03:26.071 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:26.071 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:26.071 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:26.071 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:26.071 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:26.071 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:26.075 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/settings:
+2020-10-25 21:03:26.075 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:26.075 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:26.075 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:03:26.075 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:26.075 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:26.075 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:03:26.075 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/api/v2/settings
+2020-10-25 21:03:26.075 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:26.075 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:03:26.075 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/v2/settings
+2020-10-25 21:03:26.075 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:26.079 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/utils/deviceParametersStruct:
+2020-10-25 21:03:26.079 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:26.080 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:26.080 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:03:26.080 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:26.080 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:26.080 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:03:26.080 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/api/v2/utils/deviceParametersStruct
+2020-10-25 21:03:26.080 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:26.080 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:26.080 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:26.081 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/operations/queryFnInfo:
+2020-10-25 21:03:26.082 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:26.082 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:26.082 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:03:26.082 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/v2/operations/queryFnInfo
+2020-10-25 21:03:26.082 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:26.082 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:26.082 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:26.082 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:26.082 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:26.082 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:26.084 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/setDefaultDevice:
+2020-10-25 21:03:26.084 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:26.084 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:26.084 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:03:26.084 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/v2/setDefaultDevice
+2020-10-25 21:03:26.084 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:26.084 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:26.085 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:26.085 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:26.085 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:26.085 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:26.086 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/operations/queryOfdExchangeStatus:
+2020-10-25 21:03:26.086 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:26.086 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:26.087 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:03:26.087 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/v2/operations/queryOfdExchangeStatus
+2020-10-25 21:03:26.087 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:26.087 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:26.087 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:26.087 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:26.087 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:26.087 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:26.088 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/operations/queryOutcomeTotals:
+2020-10-25 21:03:26.089 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:26.089 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:26.089 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:03:26.089 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/v2/operations/queryOutcomeTotals
+2020-10-25 21:03:26.089 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:26.089 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:26.089 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:26.089 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:26.089 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:26.089 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:26.091 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/activateDevice:
+2020-10-25 21:03:26.091 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:26.091 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:26.091 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:03:26.091 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/v2/activateDevice
+2020-10-25 21:03:26.091 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:26.091 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:26.091 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:26.091 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:26.091 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:26.091 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:26.093 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/deactivateDevice:
+2020-10-25 21:03:26.093 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:26.093 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:26.093 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:03:26.094 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/v2/deactivateDevice
+2020-10-25 21:03:26.094 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:26.094 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:26.094 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:26.094 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:26.094 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:26.094 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:26.095 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/operations/queryShiftTotals:
+2020-10-25 21:03:26.095 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:26.095 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:26.096 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:03:26.096 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/v2/operations/queryShiftTotals
+2020-10-25 21:03:26.096 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:26.096 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:26.096 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:26.096 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:26.096 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:26.096 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:26.097 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/operations/queryReceiptTotals:
+2020-10-25 21:03:26.098 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:26.098 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:26.098 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:03:26.098 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/v2/operations/queryReceiptTotals
+2020-10-25 21:03:26.098 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:26.098 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:26.098 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:26.098 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:26.098 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:26.098 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:26.098 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:03:26.111 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

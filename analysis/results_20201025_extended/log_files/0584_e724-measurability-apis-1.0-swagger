@@ -1,0 +1,64 @@
+Will overwrite mapping file
+2020-10-25 21:05:46.082 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:05:46.083 [main] INFO  mapping.Mapper - -> /get_observed_schema
+2020-10-25 21:05:46.083 [main] INFO  mapping.Mapper - -> /store_validated_schema
+2020-10-25 21:05:46.084 [main] INFO  mapping.Mapper - -> /get_validated_schema
+2020-10-25 21:05:46.084 [main] INFO  mapping.Mapper - -> /search_event_codes
+2020-10-25 21:05:46.084 [main] INFO  mapping.Mapper - -> /stats
+2020-10-25 21:05:46.084 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:05:46.096 [main] INFO  mapping.Mapper - Resource Mapping for /get_observed_schema:
+2020-10-25 21:05:46.097 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:46.097 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:46.097 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:46.097 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:46.097 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:46.097 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:05:46.097 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/get_observed_schema
+2020-10-25 21:05:46.097 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:46.097 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:46.097 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:46.102 [main] INFO  mapping.Mapper - Resource Mapping for /store_validated_schema:
+2020-10-25 21:05:46.102 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:46.102 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:46.102 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:46.102 [main] INFO  mapping.Mapper -       Operation: CREATE path=/store_validated_schema
+2020-10-25 21:05:46.102 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:46.102 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:46.102 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:46.102 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:46.103 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:46.103 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:46.105 [main] INFO  mapping.Mapper - Resource Mapping for /get_validated_schema:
+2020-10-25 21:05:46.106 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:46.106 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:46.106 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:46.106 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:46.106 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:46.106 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:05:46.106 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/get_validated_schema
+2020-10-25 21:05:46.106 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:46.106 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:46.106 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:46.109 [main] INFO  mapping.Mapper - Resource Mapping for /search_event_codes:
+2020-10-25 21:05:46.109 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:46.109 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:46.109 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:46.109 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:46.109 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:46.109 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:46.109 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:05:46.109 [main] INFO  mapping.Mapper -       Operation: SCAN path=/search_event_codes
+2020-10-25 21:05:46.109 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:46.109 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:46.110 [main] INFO  mapping.Mapper - Resource Mapping for /stats:
+2020-10-25 21:05:46.110 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:46.110 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:46.110 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:46.110 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:46.110 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:46.110 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:46.110 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:46.110 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:46.110 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:46.110 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:05:46.116 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,197 @@
+Will overwrite mapping file
+2020-10-25 21:05:20.184 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:05:20.185 [main] INFO  mapping.Mapper - -> /account/reset
+2020-10-25 21:05:20.186 [main] INFO  mapping.Mapper - -> /cat/images/liked
+2020-10-25 21:05:20.186 [main] INFO  mapping.Mapper - -> /cat/comment
+2020-10-25 21:05:20.186 [main] INFO  mapping.Mapper - -> /account/profile
+2020-10-25 21:05:20.186 [main] INFO  mapping.Mapper - -> /competition/upload
+2020-10-25 21:05:20.186 [main] INFO  mapping.Mapper - -> /account/create
+2020-10-25 21:05:20.186 [main] INFO  mapping.Mapper - -> /cat/upload
+2020-10-25 21:05:20.186 [main] INFO  mapping.Mapper - -> /cat/info
+2020-10-25 21:05:20.186 [main] INFO  mapping.Mapper - -> /cat/unlike
+2020-10-25 21:05:20.186 [main] INFO  mapping.Mapper - -> /competition/info
+2020-10-25 21:05:20.186 [main] INFO  mapping.Mapper - -> /cat/count
+2020-10-25 21:05:20.186 [main] INFO  mapping.Mapper - -> /account/login
+2020-10-25 21:05:20.186 [main] INFO  mapping.Mapper - -> /cat/info/name
+2020-10-25 21:05:20.186 [main] INFO  mapping.Mapper - -> /cat/like
+2020-10-25 21:05:20.186 [main] INFO  mapping.Mapper - -> /cat/images
+2020-10-25 21:05:20.186 [main] INFO  mapping.Mapper - -> /competition/list
+2020-10-25 21:05:20.186 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:05:20.197 [main] INFO  mapping.Mapper - Resource Mapping for /account/reset:
+2020-10-25 21:05:20.197 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:20.197 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:20.197 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:20.197 [main] INFO  mapping.Mapper -       Operation: CREATE path=/account/reset
+2020-10-25 21:05:20.197 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:20.197 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:20.197 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:20.197 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:20.197 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:20.197 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:20.200 [main] INFO  mapping.Mapper - Resource Mapping for /cat/images/liked:
+2020-10-25 21:05:20.200 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:20.200 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:20.200 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:20.201 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:20.201 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:20.201 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:20.201 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:05:20.201 [main] INFO  mapping.Mapper -       Operation: SCAN path=/cat/images/liked
+2020-10-25 21:05:20.201 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:20.201 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:20.207 [main] INFO  mapping.Mapper - Resource Mapping for /cat/comment:
+2020-10-25 21:05:20.207 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:20.207 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:20.207 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:20.207 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cat/comment/{catId}
+2020-10-25 21:05:20.207 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:20.207 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:20.207 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:20.207 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:05:20.207 [main] INFO  mapping.Mapper -       Operation: SCAN path=/cat/comment/{catImageId}
+2020-10-25 21:05:20.207 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:20.207 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:20.212 [main] INFO  mapping.Mapper - Resource Mapping for /account/profile:
+2020-10-25 21:05:20.212 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:20.212 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:20.212 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:20.212 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:20.212 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:20.212 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:20.213 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:20.213 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:20.213 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:20.216 [main] INFO  mapping.Mapper - Resource Mapping for /competition/upload:
+2020-10-25 21:05:20.216 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:20.216 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:20.216 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:20.216 [main] INFO  mapping.Mapper -       Operation: CREATE path=/competition/upload
+2020-10-25 21:05:20.216 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:20.216 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:20.216 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:20.217 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:20.217 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:20.217 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:20.220 [main] INFO  mapping.Mapper - Resource Mapping for /account/create:
+2020-10-25 21:05:20.220 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:20.220 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:20.220 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:20.220 [main] INFO  mapping.Mapper -       Operation: CREATE path=/account/create
+2020-10-25 21:05:20.220 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:20.220 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:20.220 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:20.220 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:20.220 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:20.220 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:20.223 [main] INFO  mapping.Mapper - Resource Mapping for /cat/upload:
+2020-10-25 21:05:20.223 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:20.223 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:20.223 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:20.223 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cat/upload
+2020-10-25 21:05:20.223 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:20.223 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:20.223 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:20.223 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:20.223 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:20.224 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:20.230 [main] INFO  mapping.Mapper - Resource Mapping for /cat/info:
+2020-10-25 21:05:20.230 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:20.230 [main] INFO  mapping.Mapper -   Pattern INF, supported=true, requests=0:
+2020-10-25 21:05:20.230 [main] INFO  mapping.Mapper -       Operation: INFO path=/cat/info
+2020-10-25 21:05:20.230 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:20.230 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:20.230 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:20.230 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:20.231 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:20.231 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:20.231 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:20.233 [main] INFO  mapping.Mapper - Resource Mapping for /cat/unlike:
+2020-10-25 21:05:20.233 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:20.233 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:20.233 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:20.233 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cat/unlike/{catImageId}
+2020-10-25 21:05:20.233 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:20.233 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:20.233 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:20.233 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:20.233 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:20.233 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:20.240 [main] INFO  mapping.Mapper - Resource Mapping for /competition/info:
+2020-10-25 21:05:20.241 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:20.241 [main] INFO  mapping.Mapper -   Pattern INF, supported=true, requests=0:
+2020-10-25 21:05:20.241 [main] INFO  mapping.Mapper -       Operation: INFO path=/competition/info/{id}
+2020-10-25 21:05:20.241 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:20.241 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:20.241 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:20.241 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:20.241 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:20.241 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:20.241 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:20.243 [main] INFO  mapping.Mapper - Resource Mapping for /cat/count:
+2020-10-25 21:05:20.243 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:20.243 [main] INFO  mapping.Mapper -   Pattern INF, supported=true, requests=0:
+2020-10-25 21:05:20.243 [main] INFO  mapping.Mapper -       Operation: INFO path=/cat/count
+2020-10-25 21:05:20.243 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:20.243 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:20.243 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:20.243 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:20.243 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:20.243 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:20.243 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:20.245 [main] INFO  mapping.Mapper - Resource Mapping for /account/login:
+2020-10-25 21:05:20.245 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:20.245 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:20.245 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:20.245 [main] INFO  mapping.Mapper -       Operation: CREATE path=/account/login
+2020-10-25 21:05:20.245 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:20.245 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:20.245 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:20.245 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:20.245 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:20.245 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:20.250 [main] INFO  mapping.Mapper - Resource Mapping for /cat/info/name:
+2020-10-25 21:05:20.251 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:20.251 [main] INFO  mapping.Mapper -   Pattern INF, supported=true, requests=0:
+2020-10-25 21:05:20.251 [main] INFO  mapping.Mapper -       Operation: INFO path=/cat/info/name
+2020-10-25 21:05:20.251 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:20.251 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:20.251 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:20.251 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:20.251 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:20.251 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:20.251 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:20.253 [main] INFO  mapping.Mapper - Resource Mapping for /cat/like:
+2020-10-25 21:05:20.253 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:20.253 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:20.253 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:20.253 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cat/like/{catImageId}
+2020-10-25 21:05:20.253 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:20.253 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:20.253 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:20.253 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:20.253 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:20.253 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:20.255 [main] INFO  mapping.Mapper - Resource Mapping for /cat/images:
+2020-10-25 21:05:20.255 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:20.255 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:20.255 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:20.255 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:20.255 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:20.255 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:20.255 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:05:20.255 [main] INFO  mapping.Mapper -       Operation: SCAN path=/cat/images
+2020-10-25 21:05:20.255 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:20.255 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:20.257 [main] INFO  mapping.Mapper - Resource Mapping for /competition/list:
+2020-10-25 21:05:20.257 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:20.257 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:20.257 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:20.257 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:20.257 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:20.257 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:20.257 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:05:20.257 [main] INFO  mapping.Mapper -       Operation: SCAN path=/competition/list
+2020-10-25 21:05:20.257 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:20.257 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:20.257 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:05:20.278 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,608 @@
+Will overwrite mapping file
+2020-10-25 21:07:01.283 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:07:01.285 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/OrderActor/lastOrderSummary
+2020-10-25 21:07:01.285 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/RetrievePageContentActor/getPageContent
+2020-10-25 21:07:01.285 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/PromotionalActor/removePromoCode
+2020-10-25 21:07:01.285 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/ProductCatalogActor/browseAllProducts
+2020-10-25 21:07:01.285 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/ShippingGroupActor/getDeliveryOptions
+2020-10-25 21:07:01.285 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/ProductCatalogActor/micrService
+2020-10-25 21:07:01.285 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/OrderActor/submitOrder
+2020-10-25 21:07:01.286 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/CartModifierActor/removeOrderItem
+2020-10-25 21:07:01.286 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/CartModifierActor/updateOrder
+2020-10-25 21:07:01.286 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/UserProfileActor/validateUserAddress
+2020-10-25 21:07:01.286 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/OrderActor/holdReleaseOrder
+2020-10-25 21:07:01.286 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/UserProfileActor/switchProfile
+2020-10-25 21:07:01.286 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/InstitutionMasterActor/integratedInstitution
+2020-10-25 21:07:01.286 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/OrderActor/rerunOrder
+2020-10-25 21:07:01.286 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/RetrievePageContentActor/autoSuggestions
+2020-10-25 21:07:01.286 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/ShippingGroupActor/setBillingAddress
+2020-10-25 21:07:01.286 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/InstitutionMasterActor/institution
+2020-10-25 21:07:01.286 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/UserProfileActor/userCreation
+2020-10-25 21:07:01.286 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/ProductCatalogActor/products
+2020-10-25 21:07:01.286 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/OrderActor/generatePaymentToken
+2020-10-25 21:07:01.286 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/OrderActor/viewOrder
+2020-10-25 21:07:01.286 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/UserProfileActor/resetPassword
+2020-10-25 21:07:01.286 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/CartModifierActor/getOrderPrice
+2020-10-25 21:07:01.286 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/UserProfileActor/updateUser
+2020-10-25 21:07:01.286 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/ProductCatalogActor/pridemarkService
+2020-10-25 21:07:01.286 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/CartModifierActor/addCardToOrder
+2020-10-25 21:07:01.286 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/CartModifierActor/changeQuantity
+2020-10-25 21:07:01.287 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/UserProfileActor/userRegistration
+2020-10-25 21:07:01.287 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/OrderActor/orderHistory
+2020-10-25 21:07:01.287 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/OrderActor/refundOrder
+2020-10-25 21:07:01.287 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/InstitutionMasterActor/validateIntegratedInstitution
+2020-10-25 21:07:01.287 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/ShippingGroupActor/setShippingMethod
+2020-10-25 21:07:01.287 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/OrderActor/searchOrder
+2020-10-25 21:07:01.287 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/ShippingGroupActor/setShippingAddress
+2020-10-25 21:07:01.287 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/UserProfileActor/userLogin
+2020-10-25 21:07:01.287 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/CartModifierActor/updateOrderEmail
+2020-10-25 21:07:01.287 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/UserProfileActor/checkPasswordLink
+2020-10-25 21:07:01.287 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/OrderActor/cartSummary
+2020-10-25 21:07:01.287 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/OrderActor/reOrderCCS
+2020-10-25 21:07:01.287 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/UserProfileActor/sendForgotLoginEmail
+2020-10-25 21:07:01.287 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/ProductDetailsActor/productDetails
+2020-10-25 21:07:01.287 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/UserProfileActor/sendResetPasswordEmail
+2020-10-25 21:07:01.287 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/UserProfileActor/userNameLookup
+2020-10-25 21:07:01.287 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/UserProfileActor/userLogout
+2020-10-25 21:07:01.287 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/ProductDetailsActor/productLookup
+2020-10-25 21:07:01.287 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/OrderActor/cancelOrder
+2020-10-25 21:07:01.287 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/UserProfileActor/userSearch
+2020-10-25 21:07:01.287 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/ProductCatalogActor/catalog
+2020-10-25 21:07:01.288 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/AddressBookActor/validateAddress
+2020-10-25 21:07:01.288 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/PromotionalActor/applyPromoCode
+2020-10-25 21:07:01.288 [main] INFO  mapping.Mapper - -> /services/UGCSendFilesToServer
+2020-10-25 21:07:01.288 [main] INFO  mapping.Mapper - -> /rest/model/com/hcrc/rest/service/OrderActor/viewAnonymousOrderDetails
+2020-10-25 21:07:01.288 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:07:01.299 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/OrderActor/lastOrderSummary:
+2020-10-25 21:07:01.299 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.299 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.299 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:01.299 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.299 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.300 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.300 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.300 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.300 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.301 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/RetrievePageContentActor/getPageContent:
+2020-10-25 21:07:01.301 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.301 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.302 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:01.302 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.302 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.302 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.302 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.302 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.302 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.308 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/PromotionalActor/removePromoCode:
+2020-10-25 21:07:01.308 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.308 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.308 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.308 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/PromotionalActor/removePromoCode
+2020-10-25 21:07:01.308 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.308 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.308 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.308 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.308 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.308 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.309 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/ProductCatalogActor/browseAllProducts:
+2020-10-25 21:07:01.309 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.310 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.310 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:01.310 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.310 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.310 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.310 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.310 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.310 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.321 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/ShippingGroupActor/getDeliveryOptions:
+2020-10-25 21:07:01.321 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.321 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.321 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:01.321 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.321 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.321 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.321 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.321 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.321 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.324 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/ProductCatalogActor/micrService:
+2020-10-25 21:07:01.324 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.324 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.324 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:01.324 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.325 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.325 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.325 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.325 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.325 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.331 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/OrderActor/submitOrder:
+2020-10-25 21:07:01.331 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.331 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.331 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.331 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/OrderActor/submitOrder
+2020-10-25 21:07:01.331 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.331 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.331 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.331 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.331 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.331 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.336 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/CartModifierActor/removeOrderItem:
+2020-10-25 21:07:01.336 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.336 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.336 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.336 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/CartModifierActor/removeOrderItem
+2020-10-25 21:07:01.336 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.336 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.336 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.336 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.336 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.336 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.342 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/CartModifierActor/updateOrder:
+2020-10-25 21:07:01.343 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.343 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.343 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.343 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/CartModifierActor/updateOrder
+2020-10-25 21:07:01.343 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.343 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.343 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.343 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.343 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.343 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.348 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/UserProfileActor/validateUserAddress:
+2020-10-25 21:07:01.348 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.348 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.348 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.348 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/UserProfileActor/validateUserAddress
+2020-10-25 21:07:01.348 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.348 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.348 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.349 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.349 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.349 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.350 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/OrderActor/holdReleaseOrder:
+2020-10-25 21:07:01.350 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.350 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.350 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:01.350 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.350 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.351 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.351 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.351 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.351 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.355 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/UserProfileActor/switchProfile:
+2020-10-25 21:07:01.355 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.355 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.355 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.355 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/UserProfileActor/switchProfile
+2020-10-25 21:07:01.355 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.355 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.355 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.355 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.355 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.355 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.359 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/InstitutionMasterActor/integratedInstitution:
+2020-10-25 21:07:01.359 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.359 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.359 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.359 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/InstitutionMasterActor/integratedInstitution
+2020-10-25 21:07:01.359 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.359 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.360 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.360 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.360 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.360 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.361 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/OrderActor/rerunOrder:
+2020-10-25 21:07:01.361 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.361 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.361 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:01.361 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.361 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.362 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.362 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.362 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.362 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.363 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/RetrievePageContentActor/autoSuggestions:
+2020-10-25 21:07:01.363 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.363 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.363 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:01.363 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.363 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.363 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.363 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.363 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.363 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.365 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/ShippingGroupActor/setBillingAddress:
+2020-10-25 21:07:01.366 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.366 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.366 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.366 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/ShippingGroupActor/setBillingAddress
+2020-10-25 21:07:01.366 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.366 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.366 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.366 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.366 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.366 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.368 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/InstitutionMasterActor/institution:
+2020-10-25 21:07:01.368 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.368 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.368 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.368 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/InstitutionMasterActor/institution
+2020-10-25 21:07:01.369 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.369 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.369 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.369 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.369 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.369 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.370 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/UserProfileActor/userCreation:
+2020-10-25 21:07:01.370 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.370 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.370 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:01.370 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.370 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.370 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.370 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.370 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.370 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.371 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/ProductCatalogActor/products:
+2020-10-25 21:07:01.371 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.371 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.371 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:01.371 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.371 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.371 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.371 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.371 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.371 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.373 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/OrderActor/generatePaymentToken:
+2020-10-25 21:07:01.373 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.373 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.373 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:01.373 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.374 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=true, requests=0:
+2020-10-25 21:07:01.374 [main] INFO  mapping.Mapper -       Operation: AUTHENTICATE path=/rest/model/com/hcrc/rest/service/OrderActor/generatePaymentToken
+2020-10-25 21:07:01.374 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.374 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.374 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.374 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.374 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/OrderActor/viewOrder:
+2020-10-25 21:07:01.374 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.374 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.374 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:01.374 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.374 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.374 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.374 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.375 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.375 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.377 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/UserProfileActor/resetPassword:
+2020-10-25 21:07:01.377 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.377 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.377 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.377 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/UserProfileActor/resetPassword
+2020-10-25 21:07:01.377 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.377 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.377 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.377 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.377 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.377 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.380 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/CartModifierActor/getOrderPrice:
+2020-10-25 21:07:01.380 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.380 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.380 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.380 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/CartModifierActor/getOrderPrice
+2020-10-25 21:07:01.380 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.380 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.380 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.380 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.380 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.380 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.382 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/UserProfileActor/updateUser:
+2020-10-25 21:07:01.382 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.382 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.382 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.383 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/UserProfileActor/updateUser
+2020-10-25 21:07:01.383 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.383 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.383 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.383 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.383 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.383 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.383 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/ProductCatalogActor/pridemarkService:
+2020-10-25 21:07:01.383 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.383 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.383 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:01.383 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.383 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.383 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.383 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.383 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.383 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.386 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/CartModifierActor/addCardToOrder:
+2020-10-25 21:07:01.386 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.386 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.386 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.386 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/CartModifierActor/addCardToOrder
+2020-10-25 21:07:01.386 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.386 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.386 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.386 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.386 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.386 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.388 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/CartModifierActor/changeQuantity:
+2020-10-25 21:07:01.388 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.388 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.388 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.388 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/CartModifierActor/changeQuantity
+2020-10-25 21:07:01.388 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.388 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.388 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.388 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.388 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.388 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.390 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/UserProfileActor/userRegistration:
+2020-10-25 21:07:01.391 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.391 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.391 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.391 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/UserProfileActor/userRegistration
+2020-10-25 21:07:01.391 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.391 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.391 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.391 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.391 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.391 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.391 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/OrderActor/orderHistory:
+2020-10-25 21:07:01.391 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.391 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.392 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:01.392 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.392 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.392 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.392 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.392 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.392 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.392 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/OrderActor/refundOrder:
+2020-10-25 21:07:01.392 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.392 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.392 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:01.392 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.392 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.392 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.392 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.392 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.392 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.394 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/InstitutionMasterActor/validateIntegratedInstitution:
+2020-10-25 21:07:01.394 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.394 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.395 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.395 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/InstitutionMasterActor/validateIntegratedInstitution
+2020-10-25 21:07:01.395 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.395 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.395 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.395 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.395 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.395 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.396 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/ShippingGroupActor/setShippingMethod:
+2020-10-25 21:07:01.397 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.397 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.397 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.397 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/ShippingGroupActor/setShippingMethod
+2020-10-25 21:07:01.397 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.397 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.397 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.397 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.397 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.397 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.397 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/OrderActor/searchOrder:
+2020-10-25 21:07:01.397 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.397 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.397 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:01.397 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.398 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.398 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.398 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.398 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.398 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.399 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/ShippingGroupActor/setShippingAddress:
+2020-10-25 21:07:01.400 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.400 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.400 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.400 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/ShippingGroupActor/setShippingAddress
+2020-10-25 21:07:01.400 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.400 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.400 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.400 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.400 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.400 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.401 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/UserProfileActor/userLogin:
+2020-10-25 21:07:01.402 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.402 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.402 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.402 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/UserProfileActor/userLogin
+2020-10-25 21:07:01.402 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.402 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.402 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.402 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.402 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.402 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.403 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/CartModifierActor/updateOrderEmail:
+2020-10-25 21:07:01.404 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.404 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.404 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.404 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/CartModifierActor/updateOrderEmail
+2020-10-25 21:07:01.404 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.404 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.404 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.404 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.404 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.404 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.405 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/UserProfileActor/checkPasswordLink:
+2020-10-25 21:07:01.405 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.406 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.406 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.406 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/UserProfileActor/checkPasswordLink
+2020-10-25 21:07:01.406 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.406 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.406 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.406 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.406 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.406 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.406 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/OrderActor/cartSummary:
+2020-10-25 21:07:01.406 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.406 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.406 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:01.406 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.406 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.406 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.406 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.406 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.406 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.407 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/OrderActor/reOrderCCS:
+2020-10-25 21:07:01.407 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.407 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.407 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:01.407 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.407 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.407 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.407 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.407 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.407 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.409 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/UserProfileActor/sendForgotLoginEmail:
+2020-10-25 21:07:01.409 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.409 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.409 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.409 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/UserProfileActor/sendForgotLoginEmail
+2020-10-25 21:07:01.409 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.409 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.409 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.409 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.409 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.409 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.409 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/ProductDetailsActor/productDetails:
+2020-10-25 21:07:01.409 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.409 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.409 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:01.409 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.409 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.410 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.410 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.410 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.410 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.411 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/UserProfileActor/sendResetPasswordEmail:
+2020-10-25 21:07:01.411 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.411 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.411 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.411 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/UserProfileActor/sendResetPasswordEmail
+2020-10-25 21:07:01.411 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.411 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.411 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.411 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.411 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.411 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.413 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/UserProfileActor/userNameLookup:
+2020-10-25 21:07:01.413 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.413 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.413 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:01.413 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.413 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.413 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:07:01.413 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/rest/model/com/hcrc/rest/service/UserProfileActor/userNameLookup
+2020-10-25 21:07:01.413 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.413 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.413 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.414 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/UserProfileActor/userLogout:
+2020-10-25 21:07:01.414 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.414 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.414 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.414 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/UserProfileActor/userLogout
+2020-10-25 21:07:01.414 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.414 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.414 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.414 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.414 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.414 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.415 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/ProductDetailsActor/productLookup:
+2020-10-25 21:07:01.415 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.415 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.415 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:01.415 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.415 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.415 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.415 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.415 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.415 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.417 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/OrderActor/cancelOrder:
+2020-10-25 21:07:01.417 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.417 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.417 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.417 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/OrderActor/cancelOrder
+2020-10-25 21:07:01.417 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.417 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.417 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.417 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.417 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.417 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.418 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/UserProfileActor/userSearch:
+2020-10-25 21:07:01.418 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.418 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.418 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:01.418 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.418 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.418 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.418 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.418 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.418 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.418 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/ProductCatalogActor/catalog:
+2020-10-25 21:07:01.418 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.418 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.418 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:01.418 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.418 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.418 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.418 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.418 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.418 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.420 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/AddressBookActor/validateAddress:
+2020-10-25 21:07:01.420 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.420 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.420 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.420 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/AddressBookActor/validateAddress
+2020-10-25 21:07:01.420 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.420 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.420 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.420 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.420 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.420 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.422 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/PromotionalActor/applyPromoCode:
+2020-10-25 21:07:01.422 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.422 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.422 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.422 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/PromotionalActor/applyPromoCode
+2020-10-25 21:07:01.422 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.422 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.422 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.422 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.423 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.423 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.424 [main] INFO  mapping.Mapper - Resource Mapping for /services/UGCSendFilesToServer:
+2020-10-25 21:07:01.424 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.424 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.424 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.424 [main] INFO  mapping.Mapper -       Operation: CREATE path=/services/UGCSendFilesToServer
+2020-10-25 21:07:01.424 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.424 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.424 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.425 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.425 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.425 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.426 [main] INFO  mapping.Mapper - Resource Mapping for /rest/model/com/hcrc/rest/service/OrderActor/viewAnonymousOrderDetails:
+2020-10-25 21:07:01.426 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:01.426 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:01.427 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:07:01.427 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/model/com/hcrc/rest/service/OrderActor/viewAnonymousOrderDetails
+2020-10-25 21:07:01.427 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:01.427 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:01.427 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:01.427 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:01.427 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:01.427 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:01.427 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:07:01.441 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

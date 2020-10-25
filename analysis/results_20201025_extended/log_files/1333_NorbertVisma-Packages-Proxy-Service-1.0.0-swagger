@@ -1,0 +1,60 @@
+Will overwrite mapping file
+2020-10-25 21:10:05.656 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:10:05.658 [main] INFO  mapping.Mapper - -> /users
+2020-10-25 21:10:05.658 [main] INFO  mapping.Mapper - -> /webhook/build
+2020-10-25 21:10:05.658 [main] INFO  mapping.Mapper - -> /packages
+2020-10-25 21:10:05.658 [main] INFO  mapping.Mapper - -> /packages.json
+2020-10-25 21:10:05.658 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:10:05.687 [main] INFO  mapping.Mapper - Resource Mapping for /users:
+2020-10-25 21:10:05.688 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:05.688 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:05.688 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:10:05.688 [main] INFO  mapping.Mapper -       Operation: CREATE path=/users
+2020-10-25 21:10:05.688 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:10:05.688 [main] INFO  mapping.Mapper -       Operation: READ path=/users/{userId}
+2020-10-25 21:10:05.688 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:05.688 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:05.688 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:10:05.688 [main] INFO  mapping.Mapper -       Operation: SCAN path=/users
+2020-10-25 21:10:05.688 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:10:05.688 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/users/{userId}
+2020-10-25 21:10:05.689 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:10:05.689 [main] INFO  mapping.Mapper -       Operation: DELETE path=/users/{userId}
+2020-10-25 21:10:05.695 [main] INFO  mapping.Mapper - Resource Mapping for /webhook/build:
+2020-10-25 21:10:05.696 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:05.696 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:05.696 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:10:05.696 [main] INFO  mapping.Mapper -       Operation: CREATE path=/webhook/build
+2020-10-25 21:10:05.696 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:05.696 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:05.696 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:05.696 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:05.696 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:05.696 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:05.709 [main] INFO  mapping.Mapper - Resource Mapping for /packages:
+2020-10-25 21:10:05.710 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:05.710 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:05.710 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:10:05.710 [main] INFO  mapping.Mapper -       Operation: CREATE path=/packages
+2020-10-25 21:10:05.710 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:10:05.710 [main] INFO  mapping.Mapper -       Operation: READ path=/packages/{packageId}
+2020-10-25 21:10:05.710 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:05.710 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:05.710 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:10:05.710 [main] INFO  mapping.Mapper -       Operation: SCAN path=/packages
+2020-10-25 21:10:05.710 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:10:05.710 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/packages/{packageId}
+2020-10-25 21:10:05.710 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:10:05.710 [main] INFO  mapping.Mapper -       Operation: DELETE path=/packages/{packageId}
+2020-10-25 21:10:05.711 [main] INFO  mapping.Mapper - Resource Mapping for /packages.json:
+2020-10-25 21:10:05.711 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:05.711 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:05.711 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:10:05.711 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:05.711 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:05.711 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:05.711 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:05.711 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:05.711 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:05.711 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:10:05.717 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,53 @@
+Will overwrite mapping file
+2020-10-25 21:13:50.952 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:13:50.953 [main] INFO  mapping.Mapper - -> /digitization/status
+2020-10-25 21:13:50.953 [main] INFO  mapping.Mapper - -> /digitization/results
+2020-10-25 21:13:50.953 [main] INFO  mapping.Mapper - -> /digitization/request
+2020-10-25 21:13:50.953 [main] INFO  mapping.Mapper - -> /digitization/results/file
+2020-10-25 21:13:50.953 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:13:50.974 [main] INFO  mapping.Mapper - Resource Mapping for /digitization/status:
+2020-10-25 21:13:50.974 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:13:50.974 [main] INFO  mapping.Mapper -   Pattern INF, supported=true, requests=0:
+2020-10-25 21:13:50.974 [main] INFO  mapping.Mapper -       Operation: INFO path=/digitization/status/{referenceNumber}
+2020-10-25 21:13:50.974 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:13:50.974 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:13:50.974 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:13:50.974 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:13:50.974 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:13:50.974 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:13:50.974 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:13:50.977 [main] INFO  mapping.Mapper - Resource Mapping for /digitization/results:
+2020-10-25 21:13:50.978 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:13:50.978 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:13:50.978 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:13:50.978 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:13:50.978 [main] INFO  mapping.Mapper -       Operation: READ path=/digitization/results/{referenceNumber}
+2020-10-25 21:13:50.978 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:13:50.978 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:13:50.978 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:13:50.978 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:13:50.978 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:13:50.981 [main] INFO  mapping.Mapper - Resource Mapping for /digitization/request:
+2020-10-25 21:13:50.982 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:13:50.982 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:13:50.982 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:13:50.982 [main] INFO  mapping.Mapper -       Operation: CREATE path=/digitization/request
+2020-10-25 21:13:50.982 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:13:50.982 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:13:50.982 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:13:50.982 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:13:50.982 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:13:50.982 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:13:50.984 [main] INFO  mapping.Mapper - Resource Mapping for /digitization/results/file:
+2020-10-25 21:13:50.985 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:13:50.985 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:13:50.985 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:13:50.985 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:13:50.985 [main] INFO  mapping.Mapper -       Operation: READ path=/digitization/results/file/{fileId}
+2020-10-25 21:13:50.985 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:13:50.985 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:13:50.985 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:13:50.985 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:13:50.985 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:13:50.985 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:13:50.990 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,56 @@
+Will overwrite mapping file
+2020-10-25 21:12:31.789 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:12:31.791 [main] INFO  mapping.Mapper - -> /api/v1/account
+2020-10-25 21:12:31.791 [main] INFO  mapping.Mapper - -> /api/v1/videodata
+2020-10-25 21:12:31.791 [main] INFO  mapping.Mapper - -> /api/v1/login
+2020-10-25 21:12:31.791 [main] INFO  mapping.Mapper - -> /api/v1/video
+2020-10-25 21:12:31.791 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:12:31.825 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/account:
+2020-10-25 21:12:31.826 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:12:31.826 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:12:31.826 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:12:31.826 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/v1/account
+2020-10-25 21:12:31.826 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:12:31.826 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:12:31.826 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:12:31.826 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/api/v1/account/{email}
+2020-10-25 21:12:31.827 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:12:31.827 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:12:31.827 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/v1/account
+2020-10-25 21:12:31.827 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:12:31.838 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/videodata:
+2020-10-25 21:12:31.838 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:12:31.838 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:12:31.838 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:12:31.838 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:12:31.838 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:12:31.838 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:12:31.839 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/api/v1/videodata
+2020-10-25 21:12:31.839 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/api/v1/videodata/{date}
+2020-10-25 21:12:31.839 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:12:31.839 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:12:31.839 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:12:31.843 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/login:
+2020-10-25 21:12:31.843 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:12:31.843 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:12:31.844 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:12:31.844 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/v1/login
+2020-10-25 21:12:31.844 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:12:31.844 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:12:31.844 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:12:31.844 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:12:31.844 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:12:31.844 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:12:31.853 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/video:
+2020-10-25 21:12:31.854 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:12:31.854 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:12:31.854 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:12:31.854 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:12:31.854 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:12:31.854 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:12:31.854 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/api/v1/video/{id}
+2020-10-25 21:12:31.854 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:12:31.854 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:12:31.854 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:12:31.854 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:12:31.861 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

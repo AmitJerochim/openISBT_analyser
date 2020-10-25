@@ -1,0 +1,66 @@
+Will overwrite mapping file
+2020-10-25 21:01:49.253 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:01:49.255 [main] INFO  mapping.Mapper - -> /v3/equipment
+2020-10-25 21:01:49.255 [main] INFO  mapping.Mapper - -> /v3/login
+2020-10-25 21:01:49.255 [main] INFO  mapping.Mapper - -> /v3/project/folder
+2020-10-25 21:01:49.255 [main] INFO  mapping.Mapper - -> /v3/bug
+2020-10-25 21:01:49.255 [main] INFO  mapping.Mapper - -> /v3/pwd/_forget
+2020-10-25 21:01:49.255 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:01:49.281 [main] INFO  mapping.Mapper - Resource Mapping for /v3/equipment:
+2020-10-25 21:01:49.281 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:49.281 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:49.281 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:49.281 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v3/equipment
+2020-10-25 21:01:49.281 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:49.281 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:49.282 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:01:49.282 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/v3/equipment/{ID}
+2020-10-25 21:01:49.282 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:49.282 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:49.282 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:49.285 [main] INFO  mapping.Mapper - Resource Mapping for /v3/login:
+2020-10-25 21:01:49.285 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:49.285 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:49.285 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:49.285 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v3/login
+2020-10-25 21:01:49.285 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:49.285 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:49.285 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:49.285 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:49.285 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:49.285 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:49.288 [main] INFO  mapping.Mapper - Resource Mapping for /v3/project/folder:
+2020-10-25 21:01:49.288 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:49.288 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:49.288 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:49.288 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v3/project/folder
+2020-10-25 21:01:49.288 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:49.288 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:49.288 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:49.288 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:49.288 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:49.288 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:49.291 [main] INFO  mapping.Mapper - Resource Mapping for /v3/bug:
+2020-10-25 21:01:49.291 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:49.291 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:49.291 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:49.291 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v3/bug
+2020-10-25 21:01:49.291 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:49.291 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:49.291 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:49.291 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:49.291 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:49.291 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:49.293 [main] INFO  mapping.Mapper - Resource Mapping for /v3/pwd/_forget:
+2020-10-25 21:01:49.293 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:49.293 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:49.293 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:49.293 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v3/pwd/_forget
+2020-10-25 21:01:49.293 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:49.294 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:49.294 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:49.294 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:49.294 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:49.294 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:49.294 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:01:49.299 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

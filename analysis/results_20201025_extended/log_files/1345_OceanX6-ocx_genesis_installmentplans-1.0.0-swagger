@@ -1,0 +1,29 @@
+Will overwrite mapping file
+2020-10-25 21:10:12.297 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:10:12.299 [main] INFO  mapping.Mapper - -> /installmentPlans
+2020-10-25 21:10:12.299 [main] INFO  mapping.Mapper - -> /installmentPlans/brand
+2020-10-25 21:10:12.299 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:10:12.314 [main] INFO  mapping.Mapper - Resource Mapping for /installmentPlans:
+2020-10-25 21:10:12.314 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:12.315 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:12.315 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:10:12.315 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:10:12.315 [main] INFO  mapping.Mapper -       Operation: READ path=/installmentPlans/{installmentPlanCode}
+2020-10-25 21:10:12.315 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:12.315 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:12.315 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:12.315 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:12.315 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:12.319 [main] INFO  mapping.Mapper - Resource Mapping for /installmentPlans/brand:
+2020-10-25 21:10:12.319 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:12.319 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:12.319 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:10:12.319 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:10:12.319 [main] INFO  mapping.Mapper -       Operation: READ path=/installmentPlans/brand/{brandId}
+2020-10-25 21:10:12.319 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:12.319 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:12.319 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:12.319 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:12.319 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:12.319 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:10:12.325 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,94 @@
+Will overwrite mapping file
+2020-10-25 21:08:37.948 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:08:37.949 [main] INFO  mapping.Mapper - -> /event-data/logbook
+2020-10-25 21:08:37.949 [main] INFO  mapping.Mapper - -> /device-management/streams
+2020-10-25 21:08:37.949 [main] INFO  mapping.Mapper - -> /enrolled-management/people
+2020-10-25 21:08:37.949 [main] INFO  mapping.Mapper - -> /count-data/counters
+2020-10-25 21:08:37.949 [main] INFO  mapping.Mapper - -> /device-management/locations
+2020-10-25 21:08:37.949 [main] INFO  mapping.Mapper - -> /enrolled-management/tags
+2020-10-25 21:08:37.949 [main] INFO  mapping.Mapper - -> /video-data/clips
+2020-10-25 21:08:37.949 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:08:37.963 [main] INFO  mapping.Mapper - Resource Mapping for /event-data/logbook:
+2020-10-25 21:08:37.963 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:37.963 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:37.963 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:37.963 [main] INFO  mapping.Mapper -       Operation: CREATE path=/event-data/logbook
+2020-10-25 21:08:37.963 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:37.963 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:37.963 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:37.963 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:37.963 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:37.963 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:37.966 [main] INFO  mapping.Mapper - Resource Mapping for /device-management/streams:
+2020-10-25 21:08:37.966 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:37.966 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:37.966 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:37.966 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:37.966 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:37.966 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:37.966 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:37.966 [main] INFO  mapping.Mapper -       Operation: SCAN path=/device-management/streams
+2020-10-25 21:08:37.966 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:37.967 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:37.977 [main] INFO  mapping.Mapper - Resource Mapping for /enrolled-management/people:
+2020-10-25 21:08:37.978 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:37.978 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:37.978 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:37.978 [main] INFO  mapping.Mapper -       Operation: CREATE path=/enrolled-management/people
+2020-10-25 21:08:37.978 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:37.978 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:37.978 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:37.978 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:37.978 [main] INFO  mapping.Mapper -       Operation: SCAN path=/enrolled-management/people
+2020-10-25 21:08:37.978 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:08:37.978 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/enrolled-management/people/{enrolledId}
+2020-10-25 21:08:37.978 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:08:37.978 [main] INFO  mapping.Mapper -       Operation: DELETE path=/enrolled-management/people/{enrolledId}
+2020-10-25 21:08:37.983 [main] INFO  mapping.Mapper - Resource Mapping for /count-data/counters:
+2020-10-25 21:08:37.983 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:37.983 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:37.983 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:37.983 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:37.983 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:37.983 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:37.983 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:37.983 [main] INFO  mapping.Mapper -       Operation: SCAN path=/count-data/counters
+2020-10-25 21:08:37.983 [main] INFO  mapping.Mapper -       Operation: SCAN path=/count-data/counters/{counterId}
+2020-10-25 21:08:37.983 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:37.984 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:37.985 [main] INFO  mapping.Mapper - Resource Mapping for /device-management/locations:
+2020-10-25 21:08:37.986 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:37.986 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:37.986 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:37.986 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:37.986 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:37.986 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:37.986 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:37.986 [main] INFO  mapping.Mapper -       Operation: SCAN path=/device-management/locations
+2020-10-25 21:08:37.986 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:37.986 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:37.988 [main] INFO  mapping.Mapper - Resource Mapping for /enrolled-management/tags:
+2020-10-25 21:08:37.988 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:37.988 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:37.988 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:37.988 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:37.988 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:37.988 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:37.988 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:37.988 [main] INFO  mapping.Mapper -       Operation: SCAN path=/enrolled-management/tags
+2020-10-25 21:08:37.988 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:37.988 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:37.992 [main] INFO  mapping.Mapper - Resource Mapping for /video-data/clips:
+2020-10-25 21:08:37.993 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:37.993 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:37.993 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:37.993 [main] INFO  mapping.Mapper -       Operation: CREATE path=/video-data/clips
+2020-10-25 21:08:37.993 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:37.993 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:37.993 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:37.993 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:37.993 [main] INFO  mapping.Mapper -       Operation: SCAN path=/video-data/clips
+2020-10-25 21:08:37.993 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:37.993 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:37.993 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:08:37.999 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,52 @@
+Will overwrite mapping file
+2020-10-25 21:06:44.208 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:06:44.209 [main] INFO  mapping.Mapper - -> /pci-compliance/v1/merchant
+2020-10-25 21:06:44.209 [main] INFO  mapping.Mapper - -> /pci-compliance/v1/opt-out
+2020-10-25 21:06:44.210 [main] INFO  mapping.Mapper - -> /pci-compliance/v1
+2020-10-25 21:06:44.210 [main] INFO  mapping.Mapper - -> /pci-compliance/v1/billing-exclusion
+2020-10-25 21:06:44.210 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:06:44.219 [main] INFO  mapping.Mapper - Resource Mapping for /pci-compliance/v1/merchant:
+2020-10-25 21:06:44.220 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:44.220 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:44.220 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:44.220 [main] INFO  mapping.Mapper -       Operation: CREATE path=/pci-compliance/v1/merchant
+2020-10-25 21:06:44.220 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:44.220 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:44.220 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:44.220 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:44.220 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:44.220 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:44.228 [main] INFO  mapping.Mapper - Resource Mapping for /pci-compliance/v1/opt-out:
+2020-10-25 21:06:44.228 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:44.228 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:44.228 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:44.228 [main] INFO  mapping.Mapper -       Operation: CREATE path=/pci-compliance/v1/opt-out
+2020-10-25 21:06:44.228 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:44.228 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:44.229 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:44.229 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:44.229 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:44.229 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:44.229 [main] INFO  mapping.Mapper - Resource Mapping for /pci-compliance/v1:
+2020-10-25 21:06:44.229 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:44.229 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:44.229 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:06:44.229 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:44.229 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:44.229 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:44.229 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:44.229 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:44.229 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:44.234 [main] INFO  mapping.Mapper - Resource Mapping for /pci-compliance/v1/billing-exclusion:
+2020-10-25 21:06:44.234 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:44.234 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:44.234 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:44.234 [main] INFO  mapping.Mapper -       Operation: CREATE path=/pci-compliance/v1/billing-exclusion
+2020-10-25 21:06:44.234 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:44.234 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:44.234 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:44.234 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:44.234 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:44.234 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:44.235 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:06:44.241 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

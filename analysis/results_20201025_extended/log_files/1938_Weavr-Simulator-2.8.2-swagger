@@ -1,0 +1,109 @@
+Will overwrite mapping file
+2020-10-25 21:14:18.686 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:14:18.688 [main] INFO  mapping.Mapper - -> /cards
+2020-10-25 21:14:18.688 [main] INFO  mapping.Mapper - -> /secure_session/anon_tokenize
+2020-10-25 21:14:18.688 [main] INFO  mapping.Mapper - -> /secure_session/tokenize
+2020-10-25 21:14:18.688 [main] INFO  mapping.Mapper - -> /cards/purchase
+2020-10-25 21:14:18.688 [main] INFO  mapping.Mapper - -> /consumers
+2020-10-25 21:14:18.688 [main] INFO  mapping.Mapper - -> /accounts/deposit
+2020-10-25 21:14:18.688 [main] INFO  mapping.Mapper - -> /secure_session/detokenize
+2020-10-25 21:14:18.688 [main] INFO  mapping.Mapper - -> /accounts
+2020-10-25 21:14:18.688 [main] INFO  mapping.Mapper - -> /corporates
+2020-10-25 21:14:18.688 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:14:18.693 [main] INFO  mapping.Mapper - Resource Mapping for /cards:
+2020-10-25 21:14:18.693 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:18.693 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:18.693 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:14:18.693 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:18.693 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:18.693 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:18.693 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:14:18.693 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:18.693 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:18.700 [main] INFO  mapping.Mapper - Resource Mapping for /secure_session/anon_tokenize:
+2020-10-25 21:14:18.700 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:18.700 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:18.700 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:14:18.701 [main] INFO  mapping.Mapper -       Operation: CREATE path=/secure_session/anon_tokenize
+2020-10-25 21:14:18.701 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:18.701 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:18.701 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:18.701 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:14:18.701 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:18.701 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:18.705 [main] INFO  mapping.Mapper - Resource Mapping for /secure_session/tokenize:
+2020-10-25 21:14:18.705 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:18.705 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:18.705 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:14:18.705 [main] INFO  mapping.Mapper -       Operation: CREATE path=/secure_session/tokenize
+2020-10-25 21:14:18.705 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:18.705 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:18.705 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:18.705 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:14:18.705 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:18.705 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:18.709 [main] INFO  mapping.Mapper - Resource Mapping for /cards/purchase:
+2020-10-25 21:14:18.709 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:18.709 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:18.709 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:14:18.709 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cards/purchase
+2020-10-25 21:14:18.709 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:18.709 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:18.709 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:18.709 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:14:18.709 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:18.709 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:18.710 [main] INFO  mapping.Mapper - Resource Mapping for /consumers:
+2020-10-25 21:14:18.710 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:18.710 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:18.710 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:14:18.710 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:18.710 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:18.710 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:18.710 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:14:18.710 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:18.710 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:18.713 [main] INFO  mapping.Mapper - Resource Mapping for /accounts/deposit:
+2020-10-25 21:14:18.714 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:18.714 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:18.714 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:14:18.714 [main] INFO  mapping.Mapper -       Operation: CREATE path=/accounts/deposit
+2020-10-25 21:14:18.714 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:18.714 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:18.714 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:18.714 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:14:18.714 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:18.714 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:18.717 [main] INFO  mapping.Mapper - Resource Mapping for /secure_session/detokenize:
+2020-10-25 21:14:18.717 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:18.717 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:18.718 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:14:18.718 [main] INFO  mapping.Mapper -       Operation: CREATE path=/secure_session/detokenize
+2020-10-25 21:14:18.718 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:18.718 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:18.718 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:18.718 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:14:18.718 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:18.718 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:18.718 [main] INFO  mapping.Mapper - Resource Mapping for /accounts:
+2020-10-25 21:14:18.718 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:18.718 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:18.718 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:14:18.718 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:18.718 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:18.718 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:18.718 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:14:18.719 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:18.719 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:18.719 [main] INFO  mapping.Mapper - Resource Mapping for /corporates:
+2020-10-25 21:14:18.719 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:18.719 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:18.719 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:14:18.719 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:18.719 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:18.719 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:18.719 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:14:18.719 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:18.719 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:18.719 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:14:18.726 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,53 @@
+Will overwrite mapping file
+2020-10-25 21:06:02.116 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:06:02.117 [main] INFO  mapping.Mapper - -> /rest/middleware/v1/linesOfBusiness
+2020-10-25 21:06:02.118 [main] INFO  mapping.Mapper - -> /rest/middleware/v1/contacts
+2020-10-25 21:06:02.118 [main] INFO  mapping.Mapper - -> /rest/middleware/v1/plans
+2020-10-25 21:06:02.118 [main] INFO  mapping.Mapper - -> /rest/middleware/v1/employer
+2020-10-25 21:06:02.118 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:06:02.126 [main] INFO  mapping.Mapper - Resource Mapping for /rest/middleware/v1/linesOfBusiness:
+2020-10-25 21:06:02.127 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:02.127 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:02.127 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:06:02.127 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:02.127 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:02.127 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:02.127 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:06:02.127 [main] INFO  mapping.Mapper -       Operation: SCAN path=/rest/middleware/v1/linesOfBusiness/{employerKey}
+2020-10-25 21:06:02.127 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:02.127 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:02.131 [main] INFO  mapping.Mapper - Resource Mapping for /rest/middleware/v1/contacts:
+2020-10-25 21:06:02.131 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:02.131 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:02.131 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:06:02.131 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:02.131 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:02.131 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:02.131 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:06:02.131 [main] INFO  mapping.Mapper -       Operation: SCAN path=/rest/middleware/v1/contacts
+2020-10-25 21:06:02.132 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:02.132 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:02.135 [main] INFO  mapping.Mapper - Resource Mapping for /rest/middleware/v1/plans:
+2020-10-25 21:06:02.135 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:02.135 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:02.135 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:06:02.135 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:02.135 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:02.135 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:02.135 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:06:02.135 [main] INFO  mapping.Mapper -       Operation: SCAN path=/rest/middleware/v1/plans/{employerKey}
+2020-10-25 21:06:02.135 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:02.135 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:02.138 [main] INFO  mapping.Mapper - Resource Mapping for /rest/middleware/v1/employer:
+2020-10-25 21:06:02.138 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:02.138 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:02.138 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:06:02.138 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:06:02.138 [main] INFO  mapping.Mapper -       Operation: READ path=/rest/middleware/v1/employer/{employerKey}
+2020-10-25 21:06:02.138 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:02.138 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:02.138 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:02.138 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:02.138 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:02.138 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:06:02.143 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,30 @@
+Will overwrite mapping file
+2020-10-25 21:05:21.699 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:05:21.701 [main] INFO  mapping.Mapper - -> /users
+2020-10-25 21:05:21.701 [main] INFO  mapping.Mapper - -> /channels
+2020-10-25 21:05:21.701 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:05:21.711 [main] INFO  mapping.Mapper - Resource Mapping for /users:
+2020-10-25 21:05:21.711 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:21.711 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:21.712 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:21.712 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:21.712 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:21.712 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:21.712 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:05:21.712 [main] INFO  mapping.Mapper -       Operation: SCAN path=/users
+2020-10-25 21:05:21.712 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:21.712 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:21.720 [main] INFO  mapping.Mapper - Resource Mapping for /channels:
+2020-10-25 21:05:21.721 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:21.721 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:21.721 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:21.721 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:21.721 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:21.721 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:21.721 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:05:21.721 [main] INFO  mapping.Mapper -       Operation: SCAN path=/channels
+2020-10-25 21:05:21.721 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:21.721 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/channels
+2020-10-25 21:05:21.721 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:21.721 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:05:21.726 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

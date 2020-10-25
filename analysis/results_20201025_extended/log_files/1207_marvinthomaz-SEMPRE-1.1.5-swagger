@@ -1,0 +1,21 @@
+Will overwrite mapping file
+2020-10-25 21:09:22.657 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:09:22.659 [main] INFO  mapping.Mapper - -> /aplicacoes
+2020-10-25 21:09:22.659 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:09:22.688 [main] INFO  mapping.Mapper - Resource Mapping for /aplicacoes:
+2020-10-25 21:09:22.688 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:22.688 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:22.689 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:09:22.689 [main] INFO  mapping.Mapper -       Operation: CREATE path=/aplicacoes
+2020-10-25 21:09:22.689 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:09:22.689 [main] INFO  mapping.Mapper -       Operation: READ path=/aplicacoes/{nomeAplicacao}
+2020-10-25 21:09:22.689 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:22.689 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:22.689 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:09:22.689 [main] INFO  mapping.Mapper -       Operation: SCAN path=/aplicacoes
+2020-10-25 21:09:22.689 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:09:22.689 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/aplicacoes/{idAplicacao}
+2020-10-25 21:09:22.689 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:09:22.689 [main] INFO  mapping.Mapper -       Operation: DELETE path=/aplicacoes/{idAplicacao}
+2020-10-25 21:09:22.690 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:09:22.696 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

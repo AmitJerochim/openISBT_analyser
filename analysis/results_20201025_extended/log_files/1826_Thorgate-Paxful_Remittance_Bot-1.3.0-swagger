@@ -1,0 +1,40 @@
+Will overwrite mapping file
+2020-10-25 21:13:38.027 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:13:38.028 [main] INFO  mapping.Mapper - -> /api/remittance
+2020-10-25 21:13:38.028 [main] INFO  mapping.Mapper - -> /api/healthcheck
+2020-10-25 21:13:38.028 [main] INFO  mapping.Mapper - -> /api/start
+2020-10-25 21:13:38.028 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:13:38.045 [main] INFO  mapping.Mapper - Resource Mapping for /api/remittance:
+2020-10-25 21:13:38.046 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:13:38.046 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:13:38.046 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:13:38.046 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:13:38.046 [main] INFO  mapping.Mapper -       Operation: READ path=/api/remittance/{remittance_trade_id}
+2020-10-25 21:13:38.046 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:13:38.046 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:13:38.046 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:13:38.046 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:13:38.046 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:13:38.047 [main] INFO  mapping.Mapper - Resource Mapping for /api/healthcheck:
+2020-10-25 21:13:38.047 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:13:38.047 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:13:38.047 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:13:38.047 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:13:38.047 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:13:38.047 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:13:38.047 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:13:38.047 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:13:38.047 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:13:38.051 [main] INFO  mapping.Mapper - Resource Mapping for /api/start:
+2020-10-25 21:13:38.051 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:13:38.051 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:13:38.051 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:13:38.051 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/start
+2020-10-25 21:13:38.051 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:13:38.051 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:13:38.051 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:13:38.052 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:13:38.052 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:13:38.052 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:13:38.052 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:13:38.057 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

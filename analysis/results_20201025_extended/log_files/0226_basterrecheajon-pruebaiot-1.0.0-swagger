@@ -1,0 +1,88 @@
+Will overwrite mapping file
+2020-10-25 21:03:38.337 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:03:38.338 [main] INFO  mapping.Mapper - -> /devices
+2020-10-25 21:03:38.338 [main] INFO  mapping.Mapper - -> /zones
+2020-10-25 21:03:38.338 [main] INFO  mapping.Mapper - -> /lighting/switches
+2020-10-25 21:03:38.338 [main] INFO  mapping.Mapper - -> /temperature
+2020-10-25 21:03:38.338 [main] INFO  mapping.Mapper - -> /lightingSummary
+2020-10-25 21:03:38.338 [main] INFO  mapping.Mapper - -> /temperature/forecast
+2020-10-25 21:03:38.338 [main] INFO  mapping.Mapper - -> /lighting/dimmers
+2020-10-25 21:03:38.338 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:03:38.351 [main] INFO  mapping.Mapper - Resource Mapping for /devices:
+2020-10-25 21:03:38.352 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:38.352 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:38.352 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:03:38.352 [main] INFO  mapping.Mapper -       Operation: CREATE path=/devices
+2020-10-25 21:03:38.352 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:38.352 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:38.352 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:38.352 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:03:38.352 [main] INFO  mapping.Mapper -       Operation: SCAN path=/devices
+2020-10-25 21:03:38.352 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:38.352 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:38.355 [main] INFO  mapping.Mapper - Resource Mapping for /zones:
+2020-10-25 21:03:38.355 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:38.355 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:38.355 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:03:38.355 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:38.355 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:38.355 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:38.355 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:03:38.355 [main] INFO  mapping.Mapper -       Operation: SCAN path=/zones
+2020-10-25 21:03:38.355 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:38.355 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:38.362 [main] INFO  mapping.Mapper - Resource Mapping for /lighting/switches:
+2020-10-25 21:03:38.362 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:38.362 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:38.362 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:03:38.362 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:03:38.362 [main] INFO  mapping.Mapper -       Operation: READ path=/lighting/switches/{deviceId}
+2020-10-25 21:03:38.362 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:38.362 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:38.362 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:38.362 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:38.362 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:38.366 [main] INFO  mapping.Mapper - Resource Mapping for /temperature:
+2020-10-25 21:03:38.366 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:38.366 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:38.366 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:03:38.366 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:03:38.366 [main] INFO  mapping.Mapper -       Operation: READ path=/temperature/{zoneId}
+2020-10-25 21:03:38.367 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:38.367 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:38.367 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:38.367 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:38.367 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:38.367 [main] INFO  mapping.Mapper - Resource Mapping for /lightingSummary:
+2020-10-25 21:03:38.367 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:38.367 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:38.367 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:03:38.367 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:38.367 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:38.367 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:38.368 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:38.368 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:38.368 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:38.370 [main] INFO  mapping.Mapper - Resource Mapping for /temperature/forecast:
+2020-10-25 21:03:38.370 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:38.370 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:38.371 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:03:38.371 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:03:38.371 [main] INFO  mapping.Mapper -       Operation: READ path=/temperature/forecast/{days}
+2020-10-25 21:03:38.371 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:38.371 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:38.371 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:38.371 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:38.371 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:38.371 [main] INFO  mapping.Mapper - Resource Mapping for /lighting/dimmers:
+2020-10-25 21:03:38.371 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:38.371 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:38.371 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:03:38.371 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:38.371 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:38.371 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:38.371 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:38.371 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:38.371 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:38.372 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:03:38.377 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,77 @@
+Will overwrite mapping file
+2020-10-25 21:10:20.527 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:10:20.529 [main] INFO  mapping.Mapper - -> /check-status
+2020-10-25 21:10:20.529 [main] INFO  mapping.Mapper - -> /get-province
+2020-10-25 21:10:20.529 [main] INFO  mapping.Mapper - -> /get-sub-district
+2020-10-25 21:10:20.529 [main] INFO  mapping.Mapper - -> /get-location
+2020-10-25 21:10:20.529 [main] INFO  mapping.Mapper - -> /get-district
+2020-10-25 21:10:20.529 [main] INFO  mapping.Mapper - -> /insert-mkis
+2020-10-25 21:10:20.529 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:10:20.555 [main] INFO  mapping.Mapper - Resource Mapping for /check-status:
+2020-10-25 21:10:20.555 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:20.556 [main] INFO  mapping.Mapper -   Pattern INF, supported=true, requests=0:
+2020-10-25 21:10:20.556 [main] INFO  mapping.Mapper -       Operation: INFO path=/check-status/{amazonId}
+2020-10-25 21:10:20.556 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:10:20.556 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:20.556 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:20.556 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:20.556 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:20.556 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:20.556 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:20.559 [main] INFO  mapping.Mapper - Resource Mapping for /get-province:
+2020-10-25 21:10:20.560 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:20.560 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:20.560 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:10:20.560 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:20.560 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:20.560 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:20.560 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:10:20.560 [main] INFO  mapping.Mapper -       Operation: SCAN path=/get-province
+2020-10-25 21:10:20.560 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:20.560 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:20.565 [main] INFO  mapping.Mapper - Resource Mapping for /get-sub-district:
+2020-10-25 21:10:20.565 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:20.565 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:20.565 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:10:20.565 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:20.565 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:20.565 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:20.565 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:10:20.565 [main] INFO  mapping.Mapper -       Operation: SCAN path=/get-sub-district/{districtId}
+2020-10-25 21:10:20.565 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:20.566 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:20.569 [main] INFO  mapping.Mapper - Resource Mapping for /get-location:
+2020-10-25 21:10:20.569 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:20.569 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:20.570 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:10:20.570 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:20.570 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:20.570 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:20.570 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:10:20.570 [main] INFO  mapping.Mapper -       Operation: SCAN path=/get-location
+2020-10-25 21:10:20.570 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:20.570 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:20.574 [main] INFO  mapping.Mapper - Resource Mapping for /get-district:
+2020-10-25 21:10:20.574 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:20.574 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:20.574 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:10:20.574 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:20.574 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:20.574 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:20.574 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:10:20.574 [main] INFO  mapping.Mapper -       Operation: SCAN path=/get-district/{provinceId}
+2020-10-25 21:10:20.575 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:20.575 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:20.580 [main] INFO  mapping.Mapper - Resource Mapping for /insert-mkis:
+2020-10-25 21:10:20.580 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:20.580 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:20.580 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:10:20.580 [main] INFO  mapping.Mapper -       Operation: CREATE path=/insert-mkis
+2020-10-25 21:10:20.580 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:20.580 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:20.581 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:20.581 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:20.581 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:20.581 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:20.581 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:10:20.589 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,45 @@
+Will overwrite mapping file
+2020-10-25 21:11:19.339 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:11:19.341 [main] INFO  mapping.Mapper - -> /health
+2020-10-25 21:11:19.341 [main] INFO  mapping.Mapper - -> /settlements
+2020-10-25 21:11:19.341 [main] INFO  mapping.Mapper - -> /settlementWindows
+2020-10-25 21:11:19.341 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:11:19.346 [main] INFO  mapping.Mapper - Resource Mapping for /health:
+2020-10-25 21:11:19.346 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:11:19.346 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:11:19.346 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:11:19.346 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:11:19.346 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:11:19.346 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:11:19.347 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:11:19.347 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:11:19.347 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:11:19.365 [main] INFO  mapping.Mapper - Resource Mapping for /settlements:
+2020-10-25 21:11:19.366 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:11:19.366 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:11:19.366 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:11:19.366 [main] INFO  mapping.Mapper -       Operation: CREATE path=/settlements
+2020-10-25 21:11:19.366 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:11:19.366 [main] INFO  mapping.Mapper -       Operation: READ path=/settlements/{id}
+2020-10-25 21:11:19.366 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:11:19.366 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:11:19.366 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:11:19.366 [main] INFO  mapping.Mapper -       Operation: SCAN path=/settlements
+2020-10-25 21:11:19.366 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:11:19.366 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/settlements/{id}
+2020-10-25 21:11:19.366 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:11:19.373 [main] INFO  mapping.Mapper - Resource Mapping for /settlementWindows:
+2020-10-25 21:11:19.373 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:11:19.373 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:11:19.373 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:11:19.373 [main] INFO  mapping.Mapper -       Operation: CREATE path=/settlementWindows/{id}
+2020-10-25 21:11:19.373 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:11:19.373 [main] INFO  mapping.Mapper -       Operation: READ path=/settlementWindows/{id}
+2020-10-25 21:11:19.373 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:11:19.373 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:11:19.373 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:11:19.373 [main] INFO  mapping.Mapper -       Operation: SCAN path=/settlementWindows
+2020-10-25 21:11:19.373 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:11:19.374 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:11:19.374 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:11:19.379 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

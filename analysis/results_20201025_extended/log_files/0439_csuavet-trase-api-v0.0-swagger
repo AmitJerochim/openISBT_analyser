@@ -1,0 +1,77 @@
+Will overwrite mapping file
+2020-10-25 21:04:57.846 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:04:57.847 [main] INFO  mapping.Mapper - -> /traders/names/default/group
+2020-10-25 21:04:57.847 [main] INFO  mapping.Mapper - -> /traders/names/default/trader
+2020-10-25 21:04:57.847 [main] INFO  mapping.Mapper - -> /traders/names/synonyms
+2020-10-25 21:04:57.847 [main] INFO  mapping.Mapper - -> /traders/hierarchy
+2020-10-25 21:04:57.847 [main] INFO  mapping.Mapper - -> /traders/hierarchy/groups
+2020-10-25 21:04:57.847 [main] INFO  mapping.Mapper - -> /traders
+2020-10-25 21:04:57.848 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:04:57.858 [main] INFO  mapping.Mapper - Resource Mapping for /traders/names/default/group:
+2020-10-25 21:04:57.859 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:04:57.859 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:04:57.859 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:04:57.859 [main] INFO  mapping.Mapper -       Operation: CREATE path=/traders/names/default/group
+2020-10-25 21:04:57.859 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:04:57.859 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:04:57.859 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:04:57.859 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:04:57.859 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:04:57.859 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:04:57.863 [main] INFO  mapping.Mapper - Resource Mapping for /traders/names/default/trader:
+2020-10-25 21:04:57.863 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:04:57.863 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:04:57.863 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:04:57.863 [main] INFO  mapping.Mapper -       Operation: CREATE path=/traders/names/default/trader
+2020-10-25 21:04:57.863 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:04:57.863 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:04:57.863 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:04:57.863 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:04:57.863 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:04:57.863 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:04:57.867 [main] INFO  mapping.Mapper - Resource Mapping for /traders/names/synonyms:
+2020-10-25 21:04:57.867 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:04:57.867 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:04:57.867 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:04:57.867 [main] INFO  mapping.Mapper -       Operation: CREATE path=/traders/names/synonyms
+2020-10-25 21:04:57.867 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:04:57.867 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:04:57.867 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:04:57.867 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:04:57.867 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:04:57.868 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:04:57.879 [main] INFO  mapping.Mapper - Resource Mapping for /traders/hierarchy:
+2020-10-25 21:04:57.879 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:04:57.879 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:04:57.879 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:04:57.879 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:04:57.879 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:04:57.879 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:04:57.879 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/traders/hierarchy/{country}
+2020-10-25 21:04:57.879 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:04:57.879 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:04:57.879 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:04:57.882 [main] INFO  mapping.Mapper - Resource Mapping for /traders/hierarchy/groups:
+2020-10-25 21:04:57.882 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:04:57.882 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:04:57.883 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:04:57.883 [main] INFO  mapping.Mapper -       Operation: CREATE path=/traders/hierarchy/groups
+2020-10-25 21:04:57.883 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:04:57.883 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:04:57.883 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:04:57.883 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:04:57.883 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:04:57.883 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:04:57.886 [main] INFO  mapping.Mapper - Resource Mapping for /traders:
+2020-10-25 21:04:57.886 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:04:57.886 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:04:57.886 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:04:57.886 [main] INFO  mapping.Mapper -       Operation: CREATE path=/traders
+2020-10-25 21:04:57.886 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:04:57.886 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:04:57.886 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:04:57.886 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:04:57.886 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:04:57.886 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:04:57.887 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:04:57.892 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,101 @@
+Will overwrite mapping file
+2020-10-25 21:05:40.192 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:05:40.193 [main] INFO  mapping.Mapper - -> /get/departamentos-organizacion
+2020-10-25 21:05:40.194 [main] INFO  mapping.Mapper - -> /post/empleados
+2020-10-25 21:05:40.194 [main] INFO  mapping.Mapper - -> /get/empleados
+2020-10-25 21:05:40.194 [main] INFO  mapping.Mapper - -> /post/departamentos
+2020-10-25 21:05:40.194 [main] INFO  mapping.Mapper - -> /delete/empleados
+2020-10-25 21:05:40.194 [main] INFO  mapping.Mapper - -> /get/departamentos
+2020-10-25 21:05:40.194 [main] INFO  mapping.Mapper - -> /get/empleados-departamento
+2020-10-25 21:05:40.194 [main] INFO  mapping.Mapper - -> /delete/departamentos
+2020-10-25 21:05:40.194 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:05:40.203 [main] INFO  mapping.Mapper - Resource Mapping for /get/departamentos-organizacion:
+2020-10-25 21:05:40.204 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:40.204 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:40.204 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:40.204 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:40.204 [main] INFO  mapping.Mapper -       Operation: READ path=/get/departamentos-organizacion/{idOrg}
+2020-10-25 21:05:40.204 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:40.204 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:40.204 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:40.204 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:40.204 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:40.207 [main] INFO  mapping.Mapper - Resource Mapping for /post/empleados:
+2020-10-25 21:05:40.208 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:40.208 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:40.208 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:40.208 [main] INFO  mapping.Mapper -       Operation: CREATE path=/post/empleados
+2020-10-25 21:05:40.208 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:40.208 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:40.208 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:40.208 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:40.208 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:40.208 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:40.215 [main] INFO  mapping.Mapper - Resource Mapping for /get/empleados:
+2020-10-25 21:05:40.215 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:40.215 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:40.215 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:40.215 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:40.215 [main] INFO  mapping.Mapper -       Operation: READ path=/get/empleados/{id}
+2020-10-25 21:05:40.215 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:40.215 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:40.215 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:40.215 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:40.215 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:40.219 [main] INFO  mapping.Mapper - Resource Mapping for /post/departamentos:
+2020-10-25 21:05:40.219 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:40.219 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:40.219 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:40.219 [main] INFO  mapping.Mapper -       Operation: CREATE path=/post/departamentos
+2020-10-25 21:05:40.219 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:40.219 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:40.219 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:40.219 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:40.219 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:40.219 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:40.221 [main] INFO  mapping.Mapper - Resource Mapping for /delete/empleados:
+2020-10-25 21:05:40.222 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:40.222 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:40.222 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:40.222 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:40.222 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:40.222 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:40.222 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:40.222 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:40.222 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:05:40.222 [main] INFO  mapping.Mapper -       Operation: DELETE path=/delete/empleados/{id}
+2020-10-25 21:05:40.224 [main] INFO  mapping.Mapper - Resource Mapping for /get/departamentos:
+2020-10-25 21:05:40.224 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:40.224 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:40.224 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:40.225 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:40.225 [main] INFO  mapping.Mapper -       Operation: READ path=/get/departamentos/{id}
+2020-10-25 21:05:40.225 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:40.225 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:40.225 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:40.225 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:40.225 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:40.227 [main] INFO  mapping.Mapper - Resource Mapping for /get/empleados-departamento:
+2020-10-25 21:05:40.227 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:40.227 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:40.227 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:40.227 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:40.227 [main] INFO  mapping.Mapper -       Operation: READ path=/get/empleados-departamento/{idDep}
+2020-10-25 21:05:40.227 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:40.228 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:40.228 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:40.228 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:40.228 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:40.230 [main] INFO  mapping.Mapper - Resource Mapping for /delete/departamentos:
+2020-10-25 21:05:40.230 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:40.230 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:40.230 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:40.230 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:40.230 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:40.230 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:40.230 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:40.230 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:40.230 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:05:40.230 [main] INFO  mapping.Mapper -       Operation: DELETE path=/delete/departamentos/{id}
+2020-10-25 21:05:40.230 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:05:40.236 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

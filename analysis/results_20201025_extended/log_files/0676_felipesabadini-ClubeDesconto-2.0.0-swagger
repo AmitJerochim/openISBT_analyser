@@ -1,0 +1,294 @@
+Will overwrite mapping file
+2020-10-25 21:06:20.812 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:06:20.813 [main] INFO  mapping.Mapper - -> /produto/imagem
+2020-10-25 21:06:20.813 [main] INFO  mapping.Mapper - -> /transacao/documento
+2020-10-25 21:06:20.814 [main] INFO  mapping.Mapper - -> /venda
+2020-10-25 21:06:20.814 [main] INFO  mapping.Mapper - -> /autenticacao
+2020-10-25 21:06:20.814 [main] INFO  mapping.Mapper - -> /autenticacao/refresh
+2020-10-25 21:06:20.814 [main] INFO  mapping.Mapper - -> /produto
+2020-10-25 21:06:20.814 [main] INFO  mapping.Mapper - -> /oferta
+2020-10-25 21:06:20.814 [main] INFO  mapping.Mapper - -> /contrato
+2020-10-25 21:06:20.814 [main] INFO  mapping.Mapper - -> /loja/imagem
+2020-10-25 21:06:20.814 [main] INFO  mapping.Mapper - -> /clube-desconto
+2020-10-25 21:06:20.814 [main] INFO  mapping.Mapper - -> /transacao
+2020-10-25 21:06:20.814 [main] INFO  mapping.Mapper - -> /panfleto
+2020-10-25 21:06:20.814 [main] INFO  mapping.Mapper - -> /transacao/saque
+2020-10-25 21:06:20.814 [main] INFO  mapping.Mapper - -> /transacao/cnpj
+2020-10-25 21:06:20.814 [main] INFO  mapping.Mapper - -> /transacao/ponto
+2020-10-25 21:06:20.814 [main] INFO  mapping.Mapper - -> /autenticacao/token-integracao
+2020-10-25 21:06:20.814 [main] INFO  mapping.Mapper - -> /loja
+2020-10-25 21:06:20.814 [main] INFO  mapping.Mapper - -> /panfleto/arquivo
+2020-10-25 21:06:20.814 [main] INFO  mapping.Mapper - -> /notificacao
+2020-10-25 21:06:20.814 [main] INFO  mapping.Mapper - -> /relatorio-link
+2020-10-25 21:06:20.814 [main] INFO  mapping.Mapper - -> /usuario/alterar-senha
+2020-10-25 21:06:20.814 [main] INFO  mapping.Mapper - -> /transacao/cashback
+2020-10-25 21:06:20.815 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:06:20.827 [main] INFO  mapping.Mapper - Resource Mapping for /produto/imagem:
+2020-10-25 21:06:20.827 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:20.827 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:20.827 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:06:20.828 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:06:20.828 [main] INFO  mapping.Mapper -       Operation: READ path=/produto/imagem/{identificacao}
+2020-10-25 21:06:20.828 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:20.828 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:20.828 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:20.828 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:20.828 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:20.837 [main] INFO  mapping.Mapper - Resource Mapping for /transacao/documento:
+2020-10-25 21:06:20.837 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:20.837 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:20.837 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:06:20.837 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:06:20.837 [main] INFO  mapping.Mapper -       Operation: READ path=/transacao/documento/{documento}
+2020-10-25 21:06:20.837 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:20.837 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:20.837 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:20.837 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:20.837 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:20.843 [main] INFO  mapping.Mapper - Resource Mapping for /venda:
+2020-10-25 21:06:20.843 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:20.843 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:20.843 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:20.844 [main] INFO  mapping.Mapper -       Operation: CREATE path=/venda
+2020-10-25 21:06:20.844 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:20.844 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:20.844 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:20.844 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:06:20.844 [main] INFO  mapping.Mapper -       Operation: SCAN path=/venda
+2020-10-25 21:06:20.844 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:20.844 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:20.846 [main] INFO  mapping.Mapper - Resource Mapping for /autenticacao:
+2020-10-25 21:06:20.847 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:20.847 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:20.847 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:20.847 [main] INFO  mapping.Mapper -       Operation: CREATE path=/autenticacao
+2020-10-25 21:06:20.847 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:20.847 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:20.847 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:20.847 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:20.847 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:20.847 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:20.849 [main] INFO  mapping.Mapper - Resource Mapping for /autenticacao/refresh:
+2020-10-25 21:06:20.849 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:20.849 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:20.849 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:06:20.849 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:20.849 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:20.850 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:20.850 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:20.850 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:06:20.850 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/autenticacao/refresh/{tokenAtualizacao}
+2020-10-25 21:06:20.850 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:20.861 [main] INFO  mapping.Mapper - Resource Mapping for /produto:
+2020-10-25 21:06:20.861 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:20.861 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:20.861 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:20.862 [main] INFO  mapping.Mapper -       Operation: CREATE path=/produto
+2020-10-25 21:06:20.862 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:06:20.862 [main] INFO  mapping.Mapper -       Operation: READ path=/produto/{id}
+2020-10-25 21:06:20.862 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:20.862 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:20.862 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:06:20.862 [main] INFO  mapping.Mapper -       Operation: SCAN path=/produto
+2020-10-25 21:06:20.862 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:06:20.862 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/produto/{id}
+2020-10-25 21:06:20.862 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:06:20.862 [main] INFO  mapping.Mapper -       Operation: DELETE path=/produto/{id}
+2020-10-25 21:06:20.874 [main] INFO  mapping.Mapper - Resource Mapping for /oferta:
+2020-10-25 21:06:20.875 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:20.875 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:20.875 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:20.875 [main] INFO  mapping.Mapper -       Operation: CREATE path=/oferta
+2020-10-25 21:06:20.875 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:06:20.875 [main] INFO  mapping.Mapper -       Operation: READ path=/oferta/{id}
+2020-10-25 21:06:20.875 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:20.875 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:20.875 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:06:20.875 [main] INFO  mapping.Mapper -       Operation: SCAN path=/oferta
+2020-10-25 21:06:20.875 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:06:20.875 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/oferta/{id}
+2020-10-25 21:06:20.875 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:06:20.875 [main] INFO  mapping.Mapper -       Operation: DELETE path=/oferta/{id}
+2020-10-25 21:06:20.879 [main] INFO  mapping.Mapper - Resource Mapping for /contrato:
+2020-10-25 21:06:20.879 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:20.879 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:20.879 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:20.880 [main] INFO  mapping.Mapper -       Operation: CREATE path=/contrato
+2020-10-25 21:06:20.880 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:20.880 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:20.880 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:20.880 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:20.880 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:06:20.880 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/contrato
+2020-10-25 21:06:20.880 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:06:20.880 [main] INFO  mapping.Mapper -       Operation: DELETE path=/contrato
+2020-10-25 21:06:20.881 [main] INFO  mapping.Mapper - Resource Mapping for /loja/imagem:
+2020-10-25 21:06:20.882 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:20.882 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:20.882 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:06:20.882 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:06:20.882 [main] INFO  mapping.Mapper -       Operation: READ path=/loja/imagem/{identificacao}
+2020-10-25 21:06:20.882 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:20.882 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:20.882 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:20.882 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:20.882 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:20.889 [main] INFO  mapping.Mapper - Resource Mapping for /clube-desconto:
+2020-10-25 21:06:20.889 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:20.889 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:20.889 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:20.889 [main] INFO  mapping.Mapper -       Operation: CREATE path=/clube-desconto
+2020-10-25 21:06:20.889 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:06:20.889 [main] INFO  mapping.Mapper -       Operation: READ path=/clube-desconto/{id}
+2020-10-25 21:06:20.889 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:20.889 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:20.889 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:20.889 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:06:20.889 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/clube-desconto/{id}
+2020-10-25 21:06:20.889 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:06:20.889 [main] INFO  mapping.Mapper -       Operation: DELETE path=/clube-desconto
+2020-10-25 21:06:20.890 [main] INFO  mapping.Mapper - Resource Mapping for /transacao:
+2020-10-25 21:06:20.890 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:20.890 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:20.890 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:06:20.890 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:20.890 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:20.890 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:20.890 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:20.890 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:20.890 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:20.898 [main] INFO  mapping.Mapper - Resource Mapping for /panfleto:
+2020-10-25 21:06:20.899 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:20.899 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:20.899 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:20.899 [main] INFO  mapping.Mapper -       Operation: CREATE path=/panfleto
+2020-10-25 21:06:20.899 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:06:20.899 [main] INFO  mapping.Mapper -       Operation: READ path=/panfleto/{id}
+2020-10-25 21:06:20.899 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:20.899 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:20.899 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:06:20.899 [main] INFO  mapping.Mapper -       Operation: SCAN path=/panfleto
+2020-10-25 21:06:20.899 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:06:20.899 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/panfleto/{id}
+2020-10-25 21:06:20.899 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:06:20.899 [main] INFO  mapping.Mapper -       Operation: DELETE path=/panfleto/{id}
+2020-10-25 21:06:20.902 [main] INFO  mapping.Mapper - Resource Mapping for /transacao/saque:
+2020-10-25 21:06:20.903 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:20.903 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:20.903 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:20.903 [main] INFO  mapping.Mapper -       Operation: CREATE path=/transacao/saque/{documento}
+2020-10-25 21:06:20.903 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:20.903 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:20.903 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:20.903 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:20.903 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:20.903 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:20.906 [main] INFO  mapping.Mapper - Resource Mapping for /transacao/cnpj:
+2020-10-25 21:06:20.907 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:20.907 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:20.907 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:06:20.907 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:06:20.907 [main] INFO  mapping.Mapper -       Operation: READ path=/transacao/cnpj/{cnpj}
+2020-10-25 21:06:20.907 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:20.907 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:20.907 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:20.907 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:20.907 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:20.910 [main] INFO  mapping.Mapper - Resource Mapping for /transacao/ponto:
+2020-10-25 21:06:20.910 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:20.910 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:20.910 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:06:20.910 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:06:20.910 [main] INFO  mapping.Mapper -       Operation: READ path=/transacao/ponto/{documento}
+2020-10-25 21:06:20.910 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:20.910 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:20.910 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:20.910 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:20.910 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:20.912 [main] INFO  mapping.Mapper - Resource Mapping for /autenticacao/token-integracao:
+2020-10-25 21:06:20.912 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:20.912 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:20.912 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:06:20.912 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:20.912 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:20.912 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:20.912 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:20.912 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:06:20.912 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/autenticacao/token-integracao
+2020-10-25 21:06:20.912 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:20.921 [main] INFO  mapping.Mapper - Resource Mapping for /loja:
+2020-10-25 21:06:20.921 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:20.922 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:20.922 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:20.922 [main] INFO  mapping.Mapper -       Operation: CREATE path=/loja
+2020-10-25 21:06:20.922 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:06:20.922 [main] INFO  mapping.Mapper -       Operation: READ path=/loja/{id}
+2020-10-25 21:06:20.922 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:20.922 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:20.922 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:06:20.922 [main] INFO  mapping.Mapper -       Operation: SCAN path=/loja
+2020-10-25 21:06:20.922 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:06:20.922 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/loja/{id}
+2020-10-25 21:06:20.922 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:06:20.922 [main] INFO  mapping.Mapper -       Operation: DELETE path=/loja/{id}
+2020-10-25 21:06:20.923 [main] INFO  mapping.Mapper - Resource Mapping for /panfleto/arquivo:
+2020-10-25 21:06:20.924 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:20.924 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:20.924 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:06:20.924 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:06:20.924 [main] INFO  mapping.Mapper -       Operation: READ path=/panfleto/arquivo/{identificacao}
+2020-10-25 21:06:20.924 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:20.924 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:20.924 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:20.924 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:20.924 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:20.925 [main] INFO  mapping.Mapper - Resource Mapping for /notificacao:
+2020-10-25 21:06:20.925 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:20.925 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:20.925 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:20.925 [main] INFO  mapping.Mapper -       Operation: CREATE path=/notificacao
+2020-10-25 21:06:20.925 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:20.925 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:20.925 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:20.925 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:20.925 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:20.926 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:20.934 [main] INFO  mapping.Mapper - Resource Mapping for /relatorio-link:
+2020-10-25 21:06:20.935 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:20.935 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:20.935 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:20.935 [main] INFO  mapping.Mapper -       Operation: CREATE path=/relatorio-link
+2020-10-25 21:06:20.935 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:06:20.935 [main] INFO  mapping.Mapper -       Operation: READ path=/relatorio-link/{id}
+2020-10-25 21:06:20.935 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:20.935 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:20.935 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:06:20.935 [main] INFO  mapping.Mapper -       Operation: SCAN path=/relatorio-link
+2020-10-25 21:06:20.935 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:06:20.935 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/relatorio-link/{id}
+2020-10-25 21:06:20.935 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:06:20.936 [main] INFO  mapping.Mapper -       Operation: DELETE path=/relatorio-link/{id}
+2020-10-25 21:06:20.938 [main] INFO  mapping.Mapper - Resource Mapping for /usuario/alterar-senha:
+2020-10-25 21:06:20.938 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:20.938 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:20.938 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:06:20.938 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:20.938 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:20.938 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:20.938 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:20.938 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:06:20.938 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/usuario/alterar-senha
+2020-10-25 21:06:20.938 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:20.941 [main] INFO  mapping.Mapper - Resource Mapping for /transacao/cashback:
+2020-10-25 21:06:20.941 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:20.941 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:20.941 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:06:20.941 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:06:20.941 [main] INFO  mapping.Mapper -       Operation: READ path=/transacao/cashback/{documento}
+2020-10-25 21:06:20.941 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:20.941 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:20.941 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:20.941 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:20.941 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:20.942 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:06:20.953 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

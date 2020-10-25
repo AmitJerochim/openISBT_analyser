@@ -1,0 +1,99 @@
+Will overwrite mapping file
+2020-10-25 21:03:46.654 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:03:46.656 [main] INFO  mapping.Mapper - -> /Appointments/UpcommingAppointments
+2020-10-25 21:03:46.656 [main] INFO  mapping.Mapper - -> /Appointments/AvailableAppointmentTimes
+2020-10-25 21:03:46.656 [main] INFO  mapping.Mapper - -> /Appointments/CancelAppointment
+2020-10-25 21:03:46.656 [main] INFO  mapping.Mapper - -> /Appointments/AvailableBookings
+2020-10-25 21:03:46.656 [main] INFO  mapping.Mapper - -> /Appointments/RescheduleAppointment
+2020-10-25 21:03:46.656 [main] INFO  mapping.Mapper - -> /Appointments/Login
+2020-10-25 21:03:46.656 [main] INFO  mapping.Mapper - -> /Appointments/BookAppointment
+2020-10-25 21:03:46.656 [main] INFO  mapping.Mapper - -> /Appointments/Appointment
+2020-10-25 21:03:46.656 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:03:46.660 [main] INFO  mapping.Mapper - Resource Mapping for /Appointments/UpcommingAppointments:
+2020-10-25 21:03:46.660 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:46.661 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:46.661 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:03:46.661 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:46.661 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:46.661 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:46.661 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:46.661 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:46.661 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:46.666 [main] INFO  mapping.Mapper - Resource Mapping for /Appointments/AvailableAppointmentTimes:
+2020-10-25 21:03:46.666 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:46.666 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:46.666 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:03:46.666 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:03:46.667 [main] INFO  mapping.Mapper -       Operation: READ path=/Appointments/AvailableAppointmentTimes/{appointmentTypeID}
+2020-10-25 21:03:46.667 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:46.667 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:46.667 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:46.667 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:46.667 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:46.670 [main] INFO  mapping.Mapper - Resource Mapping for /Appointments/CancelAppointment:
+2020-10-25 21:03:46.670 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:46.670 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:46.670 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:03:46.670 [main] INFO  mapping.Mapper -       Operation: CREATE path=/Appointments/CancelAppointment/{appointmentID}
+2020-10-25 21:03:46.671 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:46.671 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:46.671 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:46.671 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:46.671 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:46.671 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:46.671 [main] INFO  mapping.Mapper - Resource Mapping for /Appointments/AvailableBookings:
+2020-10-25 21:03:46.672 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:46.672 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:46.672 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:03:46.672 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:46.672 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:46.672 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:46.672 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:46.672 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:46.672 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:46.676 [main] INFO  mapping.Mapper - Resource Mapping for /Appointments/RescheduleAppointment:
+2020-10-25 21:03:46.676 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:46.676 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:46.676 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:03:46.676 [main] INFO  mapping.Mapper -       Operation: CREATE path=/Appointments/RescheduleAppointment
+2020-10-25 21:03:46.676 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:46.676 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:46.676 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:46.676 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:46.676 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:46.676 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:46.679 [main] INFO  mapping.Mapper - Resource Mapping for /Appointments/Login:
+2020-10-25 21:03:46.680 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:46.680 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:46.680 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:03:46.680 [main] INFO  mapping.Mapper -       Operation: CREATE path=/Appointments/Login
+2020-10-25 21:03:46.680 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:46.680 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:46.680 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:46.680 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:46.680 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:46.680 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:46.684 [main] INFO  mapping.Mapper - Resource Mapping for /Appointments/BookAppointment:
+2020-10-25 21:03:46.685 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:46.685 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:46.685 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:03:46.685 [main] INFO  mapping.Mapper -       Operation: CREATE path=/Appointments/BookAppointment
+2020-10-25 21:03:46.685 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:46.685 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:46.685 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:46.685 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:46.685 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:46.685 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:46.688 [main] INFO  mapping.Mapper - Resource Mapping for /Appointments/Appointment:
+2020-10-25 21:03:46.688 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:46.688 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:46.688 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:03:46.688 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:03:46.688 [main] INFO  mapping.Mapper -       Operation: READ path=/Appointments/Appointment/{appointmentID}
+2020-10-25 21:03:46.688 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:46.688 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:46.688 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:46.688 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:46.688 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:46.688 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:03:46.697 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

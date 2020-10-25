@@ -1,0 +1,63 @@
+Will overwrite mapping file
+2020-10-25 21:08:44.339 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:08:44.340 [main] INFO  mapping.Mapper - -> /api/promotions
+2020-10-25 21:08:44.340 [main] INFO  mapping.Mapper - -> /api/promotions/jobs
+2020-10-25 21:08:44.340 [main] INFO  mapping.Mapper - -> /launch
+2020-10-25 21:08:44.340 [main] INFO  mapping.Mapper - -> /api/promotions/referral
+2020-10-25 21:08:44.340 [main] INFO  mapping.Mapper - -> /api/unsubscribe
+2020-10-25 21:08:44.340 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:08:44.345 [main] INFO  mapping.Mapper - Resource Mapping for /api/promotions:
+2020-10-25 21:08:44.345 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:44.345 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:44.345 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:44.345 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:44.345 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:44.345 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:44.345 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:44.345 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:44.345 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:44.350 [main] INFO  mapping.Mapper - Resource Mapping for /api/promotions/jobs:
+2020-10-25 21:08:44.350 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:44.350 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:44.350 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:44.350 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:44.350 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:44.350 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:44.350 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:44.350 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:44.350 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:44.356 [main] INFO  mapping.Mapper - Resource Mapping for /launch:
+2020-10-25 21:08:44.356 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:44.356 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:44.356 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:44.356 [main] INFO  mapping.Mapper -       Operation: CREATE path=/launch
+2020-10-25 21:08:44.356 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:44.356 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:44.356 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:44.356 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:44.356 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:44.356 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:44.360 [main] INFO  mapping.Mapper - Resource Mapping for /api/promotions/referral:
+2020-10-25 21:08:44.360 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:44.360 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:44.360 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:44.360 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/promotions/referral
+2020-10-25 21:08:44.360 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:44.360 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:44.360 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:44.360 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:44.360 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:44.360 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:44.363 [main] INFO  mapping.Mapper - Resource Mapping for /api/unsubscribe:
+2020-10-25 21:08:44.363 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:44.363 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:44.363 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:44.363 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/unsubscribe
+2020-10-25 21:08:44.363 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:44.363 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:44.363 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:44.364 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:44.364 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:44.364 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:44.364 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:08:44.369 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

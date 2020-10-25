@@ -1,0 +1,19 @@
+Will overwrite mapping file
+2020-10-25 21:12:37.965 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:12:37.967 [main] INFO  mapping.Mapper - -> /status_pages
+2020-10-25 21:12:37.967 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:12:38.004 [main] INFO  mapping.Mapper - Resource Mapping for /status_pages:
+2020-10-25 21:12:38.004 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:12:38.004 [main] INFO  mapping.Mapper -   Pattern INF, supported=true, requests=0:
+2020-10-25 21:12:38.004 [main] INFO  mapping.Mapper -       Operation: INFO path=/status_pages/{hub_subdomain}
+2020-10-25 21:12:38.004 [main] INFO  mapping.Mapper -       Operation: INFO path=/status_pages
+2020-10-25 21:12:38.004 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:12:38.004 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:12:38.004 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:12:38.004 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:12:38.004 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:12:38.004 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:12:38.005 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/status_pages/{hub_subdomain}
+2020-10-25 21:12:38.005 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:12:38.005 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:12:38.009 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

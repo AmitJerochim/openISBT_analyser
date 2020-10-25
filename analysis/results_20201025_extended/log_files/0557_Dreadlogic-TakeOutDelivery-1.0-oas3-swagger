@@ -1,0 +1,120 @@
+Will overwrite mapping file
+2020-10-25 21:05:36.429 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:05:36.430 [main] INFO  mapping.Mapper - -> /menuSectionItem
+2020-10-25 21:05:36.431 [main] INFO  mapping.Mapper - -> /menuSectionItemOption
+2020-10-25 21:05:36.431 [main] INFO  mapping.Mapper - -> /location
+2020-10-25 21:05:36.431 [main] INFO  mapping.Mapper - -> /franchise
+2020-10-25 21:05:36.431 [main] INFO  mapping.Mapper - -> /menu
+2020-10-25 21:05:36.431 [main] INFO  mapping.Mapper - -> /menuSection
+2020-10-25 21:05:36.431 [main] INFO  mapping.Mapper - -> /business
+2020-10-25 21:05:36.431 [main] INFO  mapping.Mapper - -> /menuType
+2020-10-25 21:05:36.431 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:05:36.443 [main] INFO  mapping.Mapper - Resource Mapping for /menuSectionItem:
+2020-10-25 21:05:36.443 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:36.443 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:36.443 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:36.443 [main] INFO  mapping.Mapper -       Operation: CREATE path=/menuSectionItem
+2020-10-25 21:05:36.444 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:36.444 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:36.444 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:36.444 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:05:36.444 [main] INFO  mapping.Mapper -       Operation: SCAN path=/menuSectionItem
+2020-10-25 21:05:36.444 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:36.444 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/menuSectionItem
+2020-10-25 21:05:36.444 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:36.449 [main] INFO  mapping.Mapper - Resource Mapping for /menuSectionItemOption:
+2020-10-25 21:05:36.449 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:36.449 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:36.449 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:36.449 [main] INFO  mapping.Mapper -       Operation: CREATE path=/menuSectionItemOption
+2020-10-25 21:05:36.449 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:36.450 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:36.450 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:36.450 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:05:36.450 [main] INFO  mapping.Mapper -       Operation: SCAN path=/menuSectionItemOption
+2020-10-25 21:05:36.450 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:36.450 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/menuSectionItemOption
+2020-10-25 21:05:36.450 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:36.460 [main] INFO  mapping.Mapper - Resource Mapping for /location:
+2020-10-25 21:05:36.461 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:36.461 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:36.461 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:36.461 [main] INFO  mapping.Mapper -       Operation: CREATE path=/location
+2020-10-25 21:05:36.461 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:36.461 [main] INFO  mapping.Mapper -       Operation: READ path=/location/{locationId}
+2020-10-25 21:05:36.461 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:36.461 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:36.461 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:05:36.461 [main] INFO  mapping.Mapper -       Operation: SCAN path=/location
+2020-10-25 21:05:36.461 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:36.461 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/location
+2020-10-25 21:05:36.461 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:36.467 [main] INFO  mapping.Mapper - Resource Mapping for /franchise:
+2020-10-25 21:05:36.467 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:36.467 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:36.467 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:36.467 [main] INFO  mapping.Mapper -       Operation: CREATE path=/franchise
+2020-10-25 21:05:36.467 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:36.467 [main] INFO  mapping.Mapper -       Operation: READ path=/franchise/{franchiseId}
+2020-10-25 21:05:36.467 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:36.467 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:36.467 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:05:36.467 [main] INFO  mapping.Mapper -       Operation: SCAN path=/franchise
+2020-10-25 21:05:36.467 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:36.467 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/franchise
+2020-10-25 21:05:36.467 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:36.471 [main] INFO  mapping.Mapper - Resource Mapping for /menu:
+2020-10-25 21:05:36.471 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:36.471 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:36.471 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:36.471 [main] INFO  mapping.Mapper -       Operation: CREATE path=/menu
+2020-10-25 21:05:36.472 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:36.472 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:36.472 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:36.472 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:05:36.472 [main] INFO  mapping.Mapper -       Operation: SCAN path=/menu
+2020-10-25 21:05:36.472 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:36.472 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/menu
+2020-10-25 21:05:36.472 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:36.476 [main] INFO  mapping.Mapper - Resource Mapping for /menuSection:
+2020-10-25 21:05:36.476 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:36.476 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:36.476 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:36.476 [main] INFO  mapping.Mapper -       Operation: CREATE path=/menuSection
+2020-10-25 21:05:36.476 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:36.476 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:36.476 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:36.476 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:05:36.476 [main] INFO  mapping.Mapper -       Operation: SCAN path=/menuSection
+2020-10-25 21:05:36.476 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:36.476 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/menuSection
+2020-10-25 21:05:36.476 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:36.493 [main] INFO  mapping.Mapper - Resource Mapping for /business:
+2020-10-25 21:05:36.493 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:36.493 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:36.493 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:36.493 [main] INFO  mapping.Mapper -       Operation: CREATE path=/business
+2020-10-25 21:05:36.493 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:36.493 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:36.493 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:05:36.493 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/business/{businessId}
+2020-10-25 21:05:36.493 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:05:36.493 [main] INFO  mapping.Mapper -       Operation: SCAN path=/business
+2020-10-25 21:05:36.493 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:36.494 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/business
+2020-10-25 21:05:36.494 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:36.498 [main] INFO  mapping.Mapper - Resource Mapping for /menuType:
+2020-10-25 21:05:36.498 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:36.498 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:36.498 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:36.498 [main] INFO  mapping.Mapper -       Operation: CREATE path=/menuType
+2020-10-25 21:05:36.499 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:36.499 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:36.499 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:36.499 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:05:36.499 [main] INFO  mapping.Mapper -       Operation: SCAN path=/menuType
+2020-10-25 21:05:36.499 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:36.499 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/menuType
+2020-10-25 21:05:36.499 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:36.499 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:05:36.505 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

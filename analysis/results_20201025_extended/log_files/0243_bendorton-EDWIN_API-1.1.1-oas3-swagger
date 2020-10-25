@@ -1,0 +1,134 @@
+Will overwrite mapping file
+2020-10-25 21:03:46.150 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:03:46.151 [main] INFO  mapping.Mapper - -> /user
+2020-10-25 21:03:46.151 [main] INFO  mapping.Mapper - -> /alert
+2020-10-25 21:03:46.151 [main] INFO  mapping.Mapper - -> /alert/emails
+2020-10-25 21:03:46.151 [main] INFO  mapping.Mapper - -> /user/admin
+2020-10-25 21:03:46.151 [main] INFO  mapping.Mapper - -> /group
+2020-10-25 21:03:46.151 [main] INFO  mapping.Mapper - -> /user/admin/list
+2020-10-25 21:03:46.151 [main] INFO  mapping.Mapper - -> /camera
+2020-10-25 21:03:46.151 [main] INFO  mapping.Mapper - -> /camera/list
+2020-10-25 21:03:46.151 [main] INFO  mapping.Mapper - -> /alert/list
+2020-10-25 21:03:46.151 [main] INFO  mapping.Mapper - -> /camera/get/ip
+2020-10-25 21:03:46.151 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:03:46.170 [main] INFO  mapping.Mapper - Resource Mapping for /user:
+2020-10-25 21:03:46.171 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:46.171 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:46.171 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:03:46.171 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:46.171 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:46.171 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:03:46.171 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/user/{userId}
+2020-10-25 21:03:46.171 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:46.171 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:03:46.171 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/user/{userId}
+2020-10-25 21:03:46.171 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:46.177 [main] INFO  mapping.Mapper - Resource Mapping for /alert:
+2020-10-25 21:03:46.177 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:46.177 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:46.177 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:03:46.177 [main] INFO  mapping.Mapper -       Operation: CREATE path=/alert
+2020-10-25 21:03:46.177 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:46.177 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:46.177 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:46.177 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:46.177 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:03:46.177 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/alert
+2020-10-25 21:03:46.177 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:46.179 [main] INFO  mapping.Mapper - Resource Mapping for /alert/emails:
+2020-10-25 21:03:46.179 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:46.180 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:46.180 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:03:46.180 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:46.180 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:46.180 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:46.180 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:03:46.180 [main] INFO  mapping.Mapper -       Operation: SCAN path=/alert/emails/{cameraId}
+2020-10-25 21:03:46.180 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:46.180 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:46.189 [main] INFO  mapping.Mapper - Resource Mapping for /user/admin:
+2020-10-25 21:03:46.189 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:46.189 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:46.189 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:03:46.189 [main] INFO  mapping.Mapper -       Operation: CREATE path=/user/admin
+2020-10-25 21:03:46.189 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:46.189 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:46.189 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:03:46.189 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/user/admin/{userId}
+2020-10-25 21:03:46.189 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:46.189 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:03:46.189 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/user/admin
+2020-10-25 21:03:46.189 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:03:46.189 [main] INFO  mapping.Mapper -       Operation: DELETE path=/user/admin
+2020-10-25 21:03:46.194 [main] INFO  mapping.Mapper - Resource Mapping for /group:
+2020-10-25 21:03:46.194 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:46.194 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:46.194 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:03:46.194 [main] INFO  mapping.Mapper -       Operation: CREATE path=/group
+2020-10-25 21:03:46.194 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:46.194 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:46.194 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:46.194 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:46.194 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:03:46.194 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/group
+2020-10-25 21:03:46.194 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:03:46.194 [main] INFO  mapping.Mapper -       Operation: DELETE path=/group
+2020-10-25 21:03:46.196 [main] INFO  mapping.Mapper - Resource Mapping for /user/admin/list:
+2020-10-25 21:03:46.196 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:46.196 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:46.196 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:03:46.196 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:46.196 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:46.196 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:46.196 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:03:46.197 [main] INFO  mapping.Mapper -       Operation: SCAN path=/user/admin/list/{groupId}
+2020-10-25 21:03:46.197 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:46.197 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:46.204 [main] INFO  mapping.Mapper - Resource Mapping for /camera:
+2020-10-25 21:03:46.204 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:46.204 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:46.204 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:03:46.204 [main] INFO  mapping.Mapper -       Operation: CREATE path=/camera
+2020-10-25 21:03:46.204 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:03:46.204 [main] INFO  mapping.Mapper -       Operation: READ path=/camera/{cameraId}
+2020-10-25 21:03:46.204 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:46.204 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:46.204 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:46.204 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:03:46.204 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/camera
+2020-10-25 21:03:46.204 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:03:46.205 [main] INFO  mapping.Mapper -       Operation: DELETE path=/camera
+2020-10-25 21:03:46.206 [main] INFO  mapping.Mapper - Resource Mapping for /camera/list:
+2020-10-25 21:03:46.206 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:46.206 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:46.206 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:03:46.206 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:46.206 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:46.206 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:46.206 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:03:46.207 [main] INFO  mapping.Mapper -       Operation: SCAN path=/camera/list/{userId}
+2020-10-25 21:03:46.207 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:46.207 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:46.208 [main] INFO  mapping.Mapper - Resource Mapping for /alert/list:
+2020-10-25 21:03:46.208 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:46.208 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:46.208 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:03:46.208 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:46.208 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:46.208 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:46.208 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:03:46.208 [main] INFO  mapping.Mapper -       Operation: SCAN path=/alert/list/{cameraId}
+2020-10-25 21:03:46.208 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:46.208 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:46.209 [main] INFO  mapping.Mapper - Resource Mapping for /camera/get/ip:
+2020-10-25 21:03:46.209 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:03:46.209 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:03:46.209 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:03:46.209 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:03:46.209 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:03:46.209 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:03:46.209 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:03:46.209 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:03:46.209 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:03:46.209 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:03:46.216 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

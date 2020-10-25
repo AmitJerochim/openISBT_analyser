@@ -1,0 +1,90 @@
+Will overwrite mapping file
+2020-10-25 21:02:43.795 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:02:43.797 [main] INFO  mapping.Mapper - -> /api/v1/profiles/sorted
+2020-10-25 21:02:43.797 [main] INFO  mapping.Mapper - -> /api/v1/geo/city
+2020-10-25 21:02:43.797 [main] INFO  mapping.Mapper - -> /api/v1/categories/country
+2020-10-25 21:02:43.797 [main] INFO  mapping.Mapper - -> /api/v1/categories/tag
+2020-10-25 21:02:43.797 [main] INFO  mapping.Mapper - -> /api/v1/categories/search
+2020-10-25 21:02:43.797 [main] INFO  mapping.Mapper - -> /api/v1/geo/country
+2020-10-25 21:02:43.797 [main] INFO  mapping.Mapper - -> /api/v1/categories/tree
+2020-10-25 21:02:43.797 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:02:43.807 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/profiles/sorted:
+2020-10-25 21:02:43.807 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:02:43.807 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:02:43.807 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:02:43.807 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:02:43.807 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:02:43.807 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:02:43.807 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:02:43.807 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/v1/profiles/sorted
+2020-10-25 21:02:43.807 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:02:43.807 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:02:43.811 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/geo/city:
+2020-10-25 21:02:43.811 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:02:43.811 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:02:43.811 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:02:43.811 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:02:43.811 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:02:43.811 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:02:43.811 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:02:43.811 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/v1/geo/city/{countrycode}
+2020-10-25 21:02:43.811 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:02:43.811 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:02:43.814 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/categories/country:
+2020-10-25 21:02:43.814 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:02:43.815 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:02:43.815 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:02:43.815 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:02:43.815 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:02:43.815 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:02:43.815 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:02:43.815 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/v1/categories/country
+2020-10-25 21:02:43.815 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:02:43.815 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:02:43.819 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/categories/tag:
+2020-10-25 21:02:43.819 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:02:43.819 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:02:43.819 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:02:43.819 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:02:43.819 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:02:43.819 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:02:43.819 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:02:43.819 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/v1/categories/tag
+2020-10-25 21:02:43.819 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:02:43.819 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:02:43.822 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/categories/search:
+2020-10-25 21:02:43.822 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:02:43.822 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:02:43.822 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:02:43.822 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:02:43.822 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:02:43.822 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:02:43.822 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:02:43.822 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/v1/categories/search
+2020-10-25 21:02:43.823 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:02:43.823 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:02:43.825 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/geo/country:
+2020-10-25 21:02:43.825 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:02:43.825 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:02:43.825 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:02:43.825 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:02:43.825 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:02:43.825 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:02:43.825 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:02:43.825 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/v1/geo/country
+2020-10-25 21:02:43.825 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:02:43.825 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:02:43.831 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/categories/tree:
+2020-10-25 21:02:43.831 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:02:43.831 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:02:43.831 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:02:43.831 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/v1/categories/tree
+2020-10-25 21:02:43.831 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:02:43.831 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:02:43.831 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:02:43.831 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:02:43.831 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/v1/categories/tree
+2020-10-25 21:02:43.831 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:02:43.831 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:02:43.832 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:02:43.837 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

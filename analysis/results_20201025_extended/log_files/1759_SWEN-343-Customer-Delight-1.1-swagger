@@ -1,0 +1,65 @@
+Will overwrite mapping file
+2020-10-25 21:12:45.128 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:12:45.130 [main] INFO  mapping.Mapper - -> /ticket/edit
+2020-10-25 21:12:45.130 [main] INFO  mapping.Mapper - -> /ticket
+2020-10-25 21:12:45.130 [main] INFO  mapping.Mapper - -> /tickets
+2020-10-25 21:12:45.130 [main] INFO  mapping.Mapper - -> /ticket/setStatus
+2020-10-25 21:12:45.130 [main] INFO  mapping.Mapper - -> /ticket/initStatus
+2020-10-25 21:12:45.130 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:12:45.141 [main] INFO  mapping.Mapper - Resource Mapping for /ticket/edit:
+2020-10-25 21:12:45.141 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:12:45.141 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:12:45.141 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:12:45.141 [main] INFO  mapping.Mapper -       Operation: CREATE path=/ticket/edit/{id}
+2020-10-25 21:12:45.141 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:12:45.141 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:12:45.141 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:12:45.141 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:12:45.141 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:12:45.141 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:12:45.142 [main] INFO  mapping.Mapper - Resource Mapping for /ticket:
+2020-10-25 21:12:45.142 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:12:45.142 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:12:45.142 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:12:45.142 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:12:45.142 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:12:45.142 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:12:45.142 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:12:45.142 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:12:45.142 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:12:45.149 [main] INFO  mapping.Mapper - Resource Mapping for /tickets:
+2020-10-25 21:12:45.150 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:12:45.150 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:12:45.150 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:12:45.150 [main] INFO  mapping.Mapper -       Operation: CREATE path=/tickets
+2020-10-25 21:12:45.150 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:12:45.150 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:12:45.150 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:12:45.150 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:12:45.150 [main] INFO  mapping.Mapper -       Operation: SCAN path=/tickets
+2020-10-25 21:12:45.150 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:12:45.150 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:12:45.154 [main] INFO  mapping.Mapper - Resource Mapping for /ticket/setStatus:
+2020-10-25 21:12:45.154 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:12:45.154 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:12:45.154 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:12:45.154 [main] INFO  mapping.Mapper -       Operation: CREATE path=/ticket/setStatus/{id}
+2020-10-25 21:12:45.154 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:12:45.154 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:12:45.154 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:12:45.154 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:12:45.154 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:12:45.154 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:12:45.158 [main] INFO  mapping.Mapper - Resource Mapping for /ticket/initStatus:
+2020-10-25 21:12:45.158 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:12:45.158 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:12:45.158 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:12:45.159 [main] INFO  mapping.Mapper -       Operation: CREATE path=/ticket/initStatus/{id}
+2020-10-25 21:12:45.159 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:12:45.159 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:12:45.159 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:12:45.159 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:12:45.159 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:12:45.159 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:12:45.159 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:12:45.165 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

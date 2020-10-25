@@ -1,0 +1,66 @@
+Will overwrite mapping file
+2020-10-25 21:05:30.211 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:05:30.212 [main] INFO  mapping.Mapper - -> /restricted-contexts
+2020-10-25 21:05:30.212 [main] INFO  mapping.Mapper - -> /contributors
+2020-10-25 21:05:30.213 [main] INFO  mapping.Mapper - -> /matching-contexts
+2020-10-25 21:05:30.213 [main] INFO  mapping.Mapper - -> /notices
+2020-10-25 21:05:30.213 [main] INFO  mapping.Mapper - -> /subscriptions
+2020-10-25 21:05:30.213 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:05:30.220 [main] INFO  mapping.Mapper - Resource Mapping for /restricted-contexts:
+2020-10-25 21:05:30.221 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:30.221 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:30.221 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:30.221 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:30.221 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:30.221 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:30.221 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:05:30.221 [main] INFO  mapping.Mapper -       Operation: SCAN path=/restricted-contexts
+2020-10-25 21:05:30.221 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:30.221 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:30.235 [main] INFO  mapping.Mapper - Resource Mapping for /contributors:
+2020-10-25 21:05:30.236 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:30.236 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:30.236 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:30.236 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:30.236 [main] INFO  mapping.Mapper -       Operation: READ path=/contributors/{contributorId}
+2020-10-25 21:05:30.236 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:30.236 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:30.236 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:05:30.236 [main] INFO  mapping.Mapper -       Operation: SCAN path=/contributors
+2020-10-25 21:05:30.236 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:30.236 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:30.239 [main] INFO  mapping.Mapper - Resource Mapping for /matching-contexts:
+2020-10-25 21:05:30.239 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:30.239 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:30.239 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:30.239 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:30.239 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:30.239 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:30.239 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:05:30.240 [main] INFO  mapping.Mapper -       Operation: SCAN path=/matching-contexts
+2020-10-25 21:05:30.240 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:30.240 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:30.243 [main] INFO  mapping.Mapper - Resource Mapping for /notices:
+2020-10-25 21:05:30.243 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:30.243 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:30.243 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:30.243 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:30.243 [main] INFO  mapping.Mapper -       Operation: READ path=/notices/{noticeId}
+2020-10-25 21:05:30.243 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:30.243 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:30.243 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:30.243 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:30.243 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:30.247 [main] INFO  mapping.Mapper - Resource Mapping for /subscriptions:
+2020-10-25 21:05:30.247 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:30.247 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:30.247 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:30.247 [main] INFO  mapping.Mapper -       Operation: CREATE path=/subscriptions/{extensionId}
+2020-10-25 21:05:30.247 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:30.247 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:30.247 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:30.247 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:30.248 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:30.248 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:30.248 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:05:30.253 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

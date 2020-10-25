@@ -1,0 +1,41 @@
+Will overwrite mapping file
+2020-10-25 21:05:04.917 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:05:04.918 [main] INFO  mapping.Mapper - -> /returns
+2020-10-25 21:05:04.918 [main] INFO  mapping.Mapper - -> /customers
+2020-10-25 21:05:04.918 [main] INFO  mapping.Mapper - -> /orders/getReturnableItems
+2020-10-25 21:05:04.919 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:05:04.936 [main] INFO  mapping.Mapper - Resource Mapping for /returns:
+2020-10-25 21:05:04.936 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:04.936 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:04.936 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:04.936 [main] INFO  mapping.Mapper -       Operation: CREATE path=/returns
+2020-10-25 21:05:04.936 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:04.936 [main] INFO  mapping.Mapper -       Operation: READ path=/returns/{id}
+2020-10-25 21:05:04.936 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:04.936 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:04.936 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:04.936 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:04.936 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:04.937 [main] INFO  mapping.Mapper - Resource Mapping for /customers:
+2020-10-25 21:05:04.937 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:04.937 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:04.937 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:05:04.937 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:04.937 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:04.937 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:04.937 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:04.937 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:04.937 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:04.940 [main] INFO  mapping.Mapper - Resource Mapping for /orders/getReturnableItems:
+2020-10-25 21:05:04.940 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:04.940 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:04.940 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:04.940 [main] INFO  mapping.Mapper -       Operation: CREATE path=/orders/getReturnableItems
+2020-10-25 21:05:04.940 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:04.940 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:04.940 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:04.940 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:04.940 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:04.941 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:04.941 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:05:04.947 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

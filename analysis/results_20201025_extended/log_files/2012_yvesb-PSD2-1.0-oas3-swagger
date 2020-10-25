@@ -1,0 +1,80 @@
+Will overwrite mapping file
+2020-10-25 21:14:46.233 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:14:46.235 [main] INFO  mapping.Mapper - -> /v1
+2020-10-25 21:14:46.235 [main] INFO  mapping.Mapper - -> /v1/card-accounts
+2020-10-25 21:14:46.235 [main] INFO  mapping.Mapper - -> /v1/consents
+2020-10-25 21:14:46.235 [main] INFO  mapping.Mapper - -> /v1/accounts
+2020-10-25 21:14:46.235 [main] INFO  mapping.Mapper - -> /v1/signing-baskets
+2020-10-25 21:14:46.235 [main] INFO  mapping.Mapper - -> /v1/funds-confirmations
+2020-10-25 21:14:46.236 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:14:46.241 [main] INFO  mapping.Mapper - Resource Mapping for /v1:
+2020-10-25 21:14:46.242 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:46.242 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:46.242 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:14:46.242 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:46.242 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:46.242 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:46.242 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:14:46.242 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:46.242 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:46.266 [main] INFO  mapping.Mapper - Resource Mapping for /v1/card-accounts:
+2020-10-25 21:14:46.266 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:46.266 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:46.266 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:14:46.266 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:14:46.266 [main] INFO  mapping.Mapper -       Operation: READ path=/v1/card-accounts/{account-id}
+2020-10-25 21:14:46.266 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:46.266 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:46.266 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:14:46.266 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:46.267 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:46.279 [main] INFO  mapping.Mapper - Resource Mapping for /v1/consents:
+2020-10-25 21:14:46.280 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:46.280 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:46.280 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:14:46.280 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/consents
+2020-10-25 21:14:46.280 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:14:46.280 [main] INFO  mapping.Mapper -       Operation: READ path=/v1/consents/{consentId}
+2020-10-25 21:14:46.280 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:46.280 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:46.280 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:14:46.280 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:46.280 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:14:46.280 [main] INFO  mapping.Mapper -       Operation: DELETE path=/v1/consents/{consentId}
+2020-10-25 21:14:46.290 [main] INFO  mapping.Mapper - Resource Mapping for /v1/accounts:
+2020-10-25 21:14:46.290 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:46.290 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:46.290 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:14:46.290 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:14:46.290 [main] INFO  mapping.Mapper -       Operation: READ path=/v1/accounts/{account-id}
+2020-10-25 21:14:46.290 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:46.290 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:46.290 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:14:46.290 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:46.290 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:46.298 [main] INFO  mapping.Mapper - Resource Mapping for /v1/signing-baskets:
+2020-10-25 21:14:46.299 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:46.299 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:46.299 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:14:46.299 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/signing-baskets
+2020-10-25 21:14:46.299 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:14:46.299 [main] INFO  mapping.Mapper -       Operation: READ path=/v1/signing-baskets/{basketId}
+2020-10-25 21:14:46.299 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:46.299 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:46.299 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:14:46.299 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:46.299 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:14:46.299 [main] INFO  mapping.Mapper -       Operation: DELETE path=/v1/signing-baskets/{basketId}
+2020-10-25 21:14:46.302 [main] INFO  mapping.Mapper - Resource Mapping for /v1/funds-confirmations:
+2020-10-25 21:14:46.302 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:46.302 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:46.302 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:14:46.302 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/funds-confirmations
+2020-10-25 21:14:46.302 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:46.302 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:46.302 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:46.302 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:14:46.302 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:46.302 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:46.302 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:14:46.308 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

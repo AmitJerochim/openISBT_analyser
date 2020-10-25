@@ -1,0 +1,65 @@
+Will overwrite mapping file
+2020-10-25 21:06:10.193 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:06:10.194 [main] INFO  mapping.Mapper - -> /api/integracao/v2/ordemderecebimento
+2020-10-25 21:06:10.194 [main] INFO  mapping.Mapper - -> /api/integracao/v2/estabelecimento
+2020-10-25 21:06:10.194 [main] INFO  mapping.Mapper - -> /api/integracao/v2/produto
+2020-10-25 21:06:10.194 [main] INFO  mapping.Mapper - -> /api/integracao/v2/custo
+2020-10-25 21:06:10.194 [main] INFO  mapping.Mapper - -> /api/integracao/v2/login
+2020-10-25 21:06:10.194 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:06:10.205 [main] INFO  mapping.Mapper - Resource Mapping for /api/integracao/v2/ordemderecebimento:
+2020-10-25 21:06:10.205 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:10.205 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:10.205 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:10.205 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/integracao/v2/ordemderecebimento
+2020-10-25 21:06:10.205 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:10.205 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:10.205 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:10.206 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:10.206 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:10.206 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:10.209 [main] INFO  mapping.Mapper - Resource Mapping for /api/integracao/v2/estabelecimento:
+2020-10-25 21:06:10.209 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:10.209 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:10.209 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:10.209 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/integracao/v2/estabelecimento
+2020-10-25 21:06:10.209 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:10.209 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:10.209 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:10.210 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:10.210 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:10.210 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:10.213 [main] INFO  mapping.Mapper - Resource Mapping for /api/integracao/v2/produto:
+2020-10-25 21:06:10.213 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:10.213 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:10.213 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:10.213 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/integracao/v2/produto
+2020-10-25 21:06:10.213 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:10.213 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:10.213 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:10.214 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:10.214 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:10.214 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:10.217 [main] INFO  mapping.Mapper - Resource Mapping for /api/integracao/v2/custo:
+2020-10-25 21:06:10.217 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:10.217 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:10.217 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:10.217 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/integracao/v2/custo/{idEstabelecimento}
+2020-10-25 21:06:10.217 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:10.218 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:10.218 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:10.218 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:10.218 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:10.218 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:10.220 [main] INFO  mapping.Mapper - Resource Mapping for /api/integracao/v2/login:
+2020-10-25 21:06:10.221 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:06:10.221 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:06:10.221 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:06:10.221 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/integracao/v2/login
+2020-10-25 21:06:10.221 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:06:10.221 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:06:10.221 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:06:10.221 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:06:10.221 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:06:10.221 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:06:10.221 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:06:10.227 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

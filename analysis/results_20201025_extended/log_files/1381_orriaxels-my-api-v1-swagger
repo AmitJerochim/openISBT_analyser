@@ -1,0 +1,104 @@
+Will overwrite mapping file
+2020-10-25 21:10:26.848 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:10:26.850 [main] INFO  mapping.Mapper - -> /api/players/overallworstteammates
+2020-10-25 21:10:26.850 [main] INFO  mapping.Mapper - -> /api/values
+2020-10-25 21:10:26.850 [main] INFO  mapping.Mapper - -> /api/games
+2020-10-25 21:10:26.850 [main] INFO  mapping.Mapper - -> /api/players
+2020-10-25 21:10:26.850 [main] INFO  mapping.Mapper - -> /api/gameinfo
+2020-10-25 21:10:26.850 [main] INFO  mapping.Mapper - -> /api/players/bestteammate
+2020-10-25 21:10:26.850 [main] INFO  mapping.Mapper - -> /api/players/worstteammate
+2020-10-25 21:10:26.850 [main] INFO  mapping.Mapper - -> /api/players/overallbestteammates
+2020-10-25 21:10:26.850 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:10:26.856 [main] INFO  mapping.Mapper - Resource Mapping for /api/players/overallworstteammates:
+2020-10-25 21:10:26.856 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:26.856 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:26.856 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:10:26.856 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:26.856 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:26.856 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:26.856 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:26.856 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:26.856 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:26.860 [main] INFO  mapping.Mapper - Resource Mapping for /api/values:
+2020-10-25 21:10:26.860 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:26.860 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:26.860 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:10:26.860 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:26.860 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:26.860 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:26.860 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:10:26.861 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/values
+2020-10-25 21:10:26.861 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:26.861 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:26.870 [main] INFO  mapping.Mapper - Resource Mapping for /api/games:
+2020-10-25 21:10:26.870 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:26.870 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:26.870 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:10:26.870 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/games
+2020-10-25 21:10:26.870 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:10:26.870 [main] INFO  mapping.Mapper -       Operation: READ path=/api/games/{id}
+2020-10-25 21:10:26.870 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:26.870 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:26.870 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:10:26.870 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/games
+2020-10-25 21:10:26.870 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:26.870 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:26.883 [main] INFO  mapping.Mapper - Resource Mapping for /api/players:
+2020-10-25 21:10:26.883 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:26.883 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:26.883 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:10:26.883 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/players
+2020-10-25 21:10:26.883 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:10:26.883 [main] INFO  mapping.Mapper -       Operation: READ path=/api/players/{id}
+2020-10-25 21:10:26.883 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:26.883 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:26.883 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:26.883 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:10:26.883 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/players/{id}
+2020-10-25 21:10:26.884 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:10:26.884 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/players/{id}
+2020-10-25 21:10:26.886 [main] INFO  mapping.Mapper - Resource Mapping for /api/gameinfo:
+2020-10-25 21:10:26.887 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:26.887 [main] INFO  mapping.Mapper -   Pattern INF, supported=true, requests=0:
+2020-10-25 21:10:26.887 [main] INFO  mapping.Mapper -       Operation: INFO path=/api/gameinfo
+2020-10-25 21:10:26.887 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:10:26.887 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:26.887 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:26.887 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:26.887 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:26.887 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:26.887 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:26.890 [main] INFO  mapping.Mapper - Resource Mapping for /api/players/bestteammate:
+2020-10-25 21:10:26.890 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:26.890 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:26.890 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:10:26.890 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:10:26.890 [main] INFO  mapping.Mapper -       Operation: READ path=/api/players/bestteammate/{pid}
+2020-10-25 21:10:26.891 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:26.891 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:26.891 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:26.891 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:26.891 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:26.893 [main] INFO  mapping.Mapper - Resource Mapping for /api/players/worstteammate:
+2020-10-25 21:10:26.893 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:26.893 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:26.893 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:10:26.893 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:10:26.893 [main] INFO  mapping.Mapper -       Operation: READ path=/api/players/worstteammate/{pid}
+2020-10-25 21:10:26.893 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:26.893 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:26.893 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:26.893 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:26.893 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:26.894 [main] INFO  mapping.Mapper - Resource Mapping for /api/players/overallbestteammates:
+2020-10-25 21:10:26.894 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:26.894 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:26.894 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:10:26.894 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:26.894 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:26.894 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:26.894 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:26.894 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:26.894 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:26.894 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:10:26.901 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

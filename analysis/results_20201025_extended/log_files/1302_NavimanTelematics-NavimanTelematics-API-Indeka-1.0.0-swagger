@@ -1,0 +1,89 @@
+Will overwrite mapping file
+2020-10-25 21:09:54.093 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:09:54.094 [main] INFO  mapping.Mapper - -> /getProtocolsBetweenDates-indeka-truck
+2020-10-25 21:09:54.095 [main] INFO  mapping.Mapper - -> /getLastProtocol-indeka-truck
+2020-10-25 21:09:54.095 [main] INFO  mapping.Mapper - -> /getLastProtocol-indeka-truck-pdfDocument
+2020-10-25 21:09:54.095 [main] INFO  mapping.Mapper - -> /getAllVehicleProtocolsBetweenDates-indeka
+2020-10-25 21:09:54.095 [main] INFO  mapping.Mapper - -> /getProtocolsBetweenDates-indeka-trailor
+2020-10-25 21:09:54.095 [main] INFO  mapping.Mapper - -> /getLastProtocol-indeka-trailor-pdfDocument
+2020-10-25 21:09:54.095 [main] INFO  mapping.Mapper - -> /getLastProtocol-indeka-trailor
+2020-10-25 21:09:54.095 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:09:54.104 [main] INFO  mapping.Mapper - Resource Mapping for /getProtocolsBetweenDates-indeka-truck:
+2020-10-25 21:09:54.105 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:54.105 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:54.105 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:09:54.105 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:09:54.105 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:54.105 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:54.105 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:09:54.105 [main] INFO  mapping.Mapper -       Operation: SCAN path=/getProtocolsBetweenDates-indeka-truck/{params}
+2020-10-25 21:09:54.105 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:09:54.105 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:09:54.108 [main] INFO  mapping.Mapper - Resource Mapping for /getLastProtocol-indeka-truck:
+2020-10-25 21:09:54.108 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:54.108 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:54.108 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:09:54.108 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:09:54.108 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:54.109 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:54.109 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:09:54.109 [main] INFO  mapping.Mapper -       Operation: SCAN path=/getLastProtocol-indeka-truck/{truckId}
+2020-10-25 21:09:54.109 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:09:54.109 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:09:54.112 [main] INFO  mapping.Mapper - Resource Mapping for /getLastProtocol-indeka-truck-pdfDocument:
+2020-10-25 21:09:54.112 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:54.112 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:54.112 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:09:54.112 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:09:54.112 [main] INFO  mapping.Mapper -       Operation: READ path=/getLastProtocol-indeka-truck-pdfDocument/{truckId}
+2020-10-25 21:09:54.112 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:54.112 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:54.112 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:09:54.112 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:09:54.112 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:09:54.115 [main] INFO  mapping.Mapper - Resource Mapping for /getAllVehicleProtocolsBetweenDates-indeka:
+2020-10-25 21:09:54.115 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:54.115 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:54.115 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:09:54.115 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:09:54.115 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:54.115 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:54.116 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:09:54.116 [main] INFO  mapping.Mapper -       Operation: SCAN path=/getAllVehicleProtocolsBetweenDates-indeka/{params}
+2020-10-25 21:09:54.116 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:09:54.116 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:09:54.118 [main] INFO  mapping.Mapper - Resource Mapping for /getProtocolsBetweenDates-indeka-trailor:
+2020-10-25 21:09:54.119 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:54.119 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:54.119 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:09:54.119 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:09:54.119 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:54.119 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:54.119 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:09:54.119 [main] INFO  mapping.Mapper -       Operation: SCAN path=/getProtocolsBetweenDates-indeka-trailor/{params}
+2020-10-25 21:09:54.119 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:09:54.119 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:09:54.122 [main] INFO  mapping.Mapper - Resource Mapping for /getLastProtocol-indeka-trailor-pdfDocument:
+2020-10-25 21:09:54.122 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:54.122 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:54.122 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:09:54.122 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:09:54.122 [main] INFO  mapping.Mapper -       Operation: READ path=/getLastProtocol-indeka-trailor-pdfDocument/{trailorId}
+2020-10-25 21:09:54.122 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:54.122 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:54.122 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:09:54.122 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:09:54.122 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:09:54.124 [main] INFO  mapping.Mapper - Resource Mapping for /getLastProtocol-indeka-trailor:
+2020-10-25 21:09:54.125 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:54.125 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:54.125 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:09:54.125 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:09:54.125 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:54.125 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:54.125 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:09:54.125 [main] INFO  mapping.Mapper -       Operation: SCAN path=/getLastProtocol-indeka-trailor/{trailorId}
+2020-10-25 21:09:54.125 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:09:54.125 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:09:54.125 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:09:54.131 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

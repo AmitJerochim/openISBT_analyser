@@ -1,0 +1,65 @@
+Will overwrite mapping file
+2020-10-25 21:01:57.924 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:01:57.925 [main] INFO  mapping.Mapper - -> /api/track-event
+2020-10-25 21:01:57.925 [main] INFO  mapping.Mapper - -> /api/authenticate
+2020-10-25 21:01:57.925 [main] INFO  mapping.Mapper - -> /api/password-reset
+2020-10-25 21:01:57.925 [main] INFO  mapping.Mapper - -> /api/user
+2020-10-25 21:01:57.925 [main] INFO  mapping.Mapper - -> /api/password-forgot
+2020-10-25 21:01:57.925 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:01:57.933 [main] INFO  mapping.Mapper - Resource Mapping for /api/track-event:
+2020-10-25 21:01:57.933 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:57.934 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:57.934 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:57.934 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/track-event
+2020-10-25 21:01:57.934 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:57.934 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:57.934 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:57.934 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:57.934 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:57.934 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:57.937 [main] INFO  mapping.Mapper - Resource Mapping for /api/authenticate:
+2020-10-25 21:01:57.937 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:57.937 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:57.937 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:57.937 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/authenticate
+2020-10-25 21:01:57.937 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:57.937 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:57.937 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:57.937 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:57.937 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:57.937 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:57.940 [main] INFO  mapping.Mapper - Resource Mapping for /api/password-reset:
+2020-10-25 21:01:57.941 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:57.941 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:57.941 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:57.941 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/password-reset
+2020-10-25 21:01:57.941 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:57.941 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:57.941 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:57.941 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:57.941 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:57.941 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:57.944 [main] INFO  mapping.Mapper - Resource Mapping for /api/user:
+2020-10-25 21:01:57.944 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:57.944 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:57.944 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:57.944 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/user
+2020-10-25 21:01:57.944 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:57.944 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:57.944 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:57.944 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:57.944 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:57.944 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:57.947 [main] INFO  mapping.Mapper - Resource Mapping for /api/password-forgot:
+2020-10-25 21:01:57.947 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:57.947 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:57.947 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:57.947 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/password-forgot
+2020-10-25 21:01:57.947 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:57.947 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:57.947 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:57.947 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:57.947 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:57.947 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:57.948 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:01:57.953 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

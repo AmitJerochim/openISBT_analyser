@@ -1,0 +1,89 @@
+Will overwrite mapping file
+2020-10-25 21:10:16.532 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:10:16.533 [main] INFO  mapping.Mapper - -> /client-orders/references
+2020-10-25 21:10:16.534 [main] INFO  mapping.Mapper - -> /voucher-types
+2020-10-25 21:10:16.534 [main] INFO  mapping.Mapper - -> /gift-cards/activations
+2020-10-25 21:10:16.534 [main] INFO  mapping.Mapper - -> /client-orders/vouchers
+2020-10-25 21:10:16.534 [main] INFO  mapping.Mapper - -> /gift-card-types
+2020-10-25 21:10:16.534 [main] INFO  mapping.Mapper - -> /gift-cards/refunds
+2020-10-25 21:10:16.534 [main] INFO  mapping.Mapper - -> /client-orders/gift-cards
+2020-10-25 21:10:16.534 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:10:16.547 [main] INFO  mapping.Mapper - Resource Mapping for /client-orders/references:
+2020-10-25 21:10:16.548 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:16.548 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:16.548 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:10:16.548 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:10:16.548 [main] INFO  mapping.Mapper -       Operation: READ path=/client-orders/references/{reference}
+2020-10-25 21:10:16.548 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:16.548 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:16.548 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:16.548 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:16.548 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:16.551 [main] INFO  mapping.Mapper - Resource Mapping for /voucher-types:
+2020-10-25 21:10:16.551 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:16.551 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:16.551 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:10:16.551 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:16.551 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:16.551 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:16.551 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:10:16.551 [main] INFO  mapping.Mapper -       Operation: SCAN path=/voucher-types
+2020-10-25 21:10:16.551 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:16.551 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:16.556 [main] INFO  mapping.Mapper - Resource Mapping for /gift-cards/activations:
+2020-10-25 21:10:16.556 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:16.556 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:16.556 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:10:16.556 [main] INFO  mapping.Mapper -       Operation: CREATE path=/gift-cards/activations
+2020-10-25 21:10:16.556 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:16.556 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:16.556 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:16.556 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:16.556 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:16.556 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:16.560 [main] INFO  mapping.Mapper - Resource Mapping for /client-orders/vouchers:
+2020-10-25 21:10:16.560 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:16.560 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:16.560 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:10:16.561 [main] INFO  mapping.Mapper -       Operation: CREATE path=/client-orders/vouchers
+2020-10-25 21:10:16.561 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:16.561 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:16.561 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:16.561 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:16.561 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:16.561 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:16.563 [main] INFO  mapping.Mapper - Resource Mapping for /gift-card-types:
+2020-10-25 21:10:16.563 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:16.563 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:16.563 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:10:16.563 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:16.563 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:16.563 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:16.563 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:10:16.563 [main] INFO  mapping.Mapper -       Operation: SCAN path=/gift-card-types
+2020-10-25 21:10:16.563 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:16.563 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:16.567 [main] INFO  mapping.Mapper - Resource Mapping for /gift-cards/refunds:
+2020-10-25 21:10:16.567 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:16.567 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:16.567 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:10:16.567 [main] INFO  mapping.Mapper -       Operation: CREATE path=/gift-cards/refunds
+2020-10-25 21:10:16.567 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:16.567 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:16.567 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:16.567 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:16.567 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:16.568 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:16.571 [main] INFO  mapping.Mapper - Resource Mapping for /client-orders/gift-cards:
+2020-10-25 21:10:16.571 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:16.571 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:16.571 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:10:16.571 [main] INFO  mapping.Mapper -       Operation: CREATE path=/client-orders/gift-cards
+2020-10-25 21:10:16.571 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:16.571 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:16.571 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:16.571 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:16.571 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:16.571 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:16.572 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:10:16.577 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

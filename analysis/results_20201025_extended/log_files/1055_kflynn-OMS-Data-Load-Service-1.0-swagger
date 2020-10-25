@@ -1,0 +1,21 @@
+Will overwrite mapping file
+2020-10-25 21:08:30.707 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:08:30.709 [main] INFO  mapping.Mapper - -> /load-endpoints
+2020-10-25 21:08:30.709 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:08:30.730 [main] INFO  mapping.Mapper - Resource Mapping for /load-endpoints:
+2020-10-25 21:08:30.730 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:30.730 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:30.730 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:30.730 [main] INFO  mapping.Mapper -       Operation: CREATE path=/load-endpoints
+2020-10-25 21:08:30.730 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:08:30.730 [main] INFO  mapping.Mapper -       Operation: READ path=/load-endpoints/{endpointID}
+2020-10-25 21:08:30.730 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:30.730 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:30.730 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:30.730 [main] INFO  mapping.Mapper -       Operation: SCAN path=/load-endpoints
+2020-10-25 21:08:30.730 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:08:30.730 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/load-endpoints/{endpointID}
+2020-10-25 21:08:30.731 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:08:30.731 [main] INFO  mapping.Mapper -       Operation: DELETE path=/load-endpoints/{endpointID}
+2020-10-25 21:08:30.731 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:08:30.735 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

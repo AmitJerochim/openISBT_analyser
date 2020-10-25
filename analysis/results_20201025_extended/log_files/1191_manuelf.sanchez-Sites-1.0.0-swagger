@@ -1,0 +1,22 @@
+Will overwrite mapping file
+2020-10-25 21:09:16.284 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:09:16.285 [main] INFO  mapping.Mapper - -> /sites
+2020-10-25 21:09:16.285 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:09:16.318 [main] INFO  mapping.Mapper - Resource Mapping for /sites:
+2020-10-25 21:09:16.319 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:16.319 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:16.319 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:09:16.319 [main] INFO  mapping.Mapper -       Operation: CREATE path=/sites
+2020-10-25 21:09:16.319 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:09:16.319 [main] INFO  mapping.Mapper -       Operation: READ path=/sites/{code}
+2020-10-25 21:09:16.319 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:16.319 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:16.319 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:09:16.319 [main] INFO  mapping.Mapper -       Operation: SCAN path=/sites
+2020-10-25 21:09:16.319 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:09:16.319 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/sites
+2020-10-25 21:09:16.319 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:09:16.319 [main] INFO  mapping.Mapper -       Operation: DELETE path=/sites/{code}
+2020-10-25 21:09:16.319 [main] INFO  mapping.Mapper -       Operation: DELETE path=/sites
+2020-10-25 21:09:16.320 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:09:16.324 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

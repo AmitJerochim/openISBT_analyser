@@ -1,0 +1,20 @@
+Will overwrite mapping file
+2020-10-25 21:14:03.460 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:14:03.462 [main] INFO  mapping.Mapper - -> /cadastro/anexo
+2020-10-25 21:14:03.462 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:14:03.485 [main] INFO  mapping.Mapper - Resource Mapping for /cadastro/anexo:
+2020-10-25 21:14:03.485 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:03.485 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:03.485 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:14:03.485 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cadastro/anexo
+2020-10-25 21:14:03.485 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:14:03.485 [main] INFO  mapping.Mapper -       Operation: READ path=/cadastro/anexo/{anexoID}
+2020-10-25 21:14:03.485 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:03.486 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:03.486 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:14:03.486 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:14:03.486 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/cadastro/anexo/{anexoID}
+2020-10-25 21:14:03.486 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:14:03.486 [main] INFO  mapping.Mapper -       Operation: DELETE path=/cadastro/anexo/{anexoID}
+2020-10-25 21:14:03.486 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:14:03.490 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

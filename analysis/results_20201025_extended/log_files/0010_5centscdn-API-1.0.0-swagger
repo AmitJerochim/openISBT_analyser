@@ -1,0 +1,522 @@
+Will overwrite mapping file
+2020-10-25 21:01:47.035 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:01:47.036 [main] INFO  mapping.Mapper - -> /streams/record
+2020-10-25 21:01:47.036 [main] INFO  mapping.Mapper - -> /streams/abr
+2020-10-25 21:01:47.036 [main] INFO  mapping.Mapper - -> /zones/reports/vod/push
+2020-10-25 21:01:47.036 [main] INFO  mapping.Mapper - -> /zones/vod/pull/new
+2020-10-25 21:01:47.036 [main] INFO  mapping.Mapper - -> /zones/reports/http/pull
+2020-10-25 21:01:47.037 [main] INFO  mapping.Mapper - -> /streams/push/servers
+2020-10-25 21:01:47.037 [main] INFO  mapping.Mapper - -> /zones/http/push
+2020-10-25 21:01:47.037 [main] INFO  mapping.Mapper - -> /streams/publish
+2020-10-25 21:01:47.037 [main] INFO  mapping.Mapper - -> /streams/timeshift
+2020-10-25 21:01:47.037 [main] INFO  mapping.Mapper - -> /account/ssl
+2020-10-25 21:01:47.037 [main] INFO  mapping.Mapper - -> /streams/scheduledplaylist
+2020-10-25 21:01:47.037 [main] INFO  mapping.Mapper - -> /zones/reports/http/record
+2020-10-25 21:01:47.037 [main] INFO  mapping.Mapper - -> /streams/push
+2020-10-25 21:01:47.037 [main] INFO  mapping.Mapper - -> /streams/restream
+2020-10-25 21:01:47.037 [main] INFO  mapping.Mapper - -> /zones/vod/push
+2020-10-25 21:01:47.037 [main] INFO  mapping.Mapper - -> /zones/http/pull/new
+2020-10-25 21:01:47.037 [main] INFO  mapping.Mapper - -> /zones/reports/http/push
+2020-10-25 21:01:47.037 [main] INFO  mapping.Mapper - -> /zones/reports/vod/pull
+2020-10-25 21:01:47.037 [main] INFO  mapping.Mapper - -> /streams/restream/servers
+2020-10-25 21:01:47.037 [main] INFO  mapping.Mapper - -> /streams/timeshift/parents
+2020-10-25 21:01:47.037 [main] INFO  mapping.Mapper - -> /streams/push/new
+2020-10-25 21:01:47.037 [main] INFO  mapping.Mapper - -> /streams/reports/on/os
+2020-10-25 21:01:47.037 [main] INFO  mapping.Mapper - -> /zones/http/pull
+2020-10-25 21:01:47.037 [main] INFO  mapping.Mapper - -> /zones
+2020-10-25 21:01:47.037 [main] INFO  mapping.Mapper - -> /zones/vod/pull
+2020-10-25 21:01:47.038 [main] INFO  mapping.Mapper - -> /streams/abr/new
+2020-10-25 21:01:47.038 [main] INFO  mapping.Mapper - -> /streams/scheduledplaylist/new
+2020-10-25 21:01:47.038 [main] INFO  mapping.Mapper - -> /streams/timeshift/new
+2020-10-25 21:01:47.038 [main] INFO  mapping.Mapper - -> /streams/reports/on/stats
+2020-10-25 21:01:47.038 [main] INFO  mapping.Mapper - -> /streams/reports/on/cache
+2020-10-25 21:01:47.038 [main] INFO  mapping.Mapper - -> /streams/reports/on/visitors
+2020-10-25 21:01:47.038 [main] INFO  mapping.Mapper - -> /streams/publish/new
+2020-10-25 21:01:47.038 [main] INFO  mapping.Mapper - -> /streams/reports/on/countries
+2020-10-25 21:01:47.038 [main] INFO  mapping.Mapper - -> /streams/restream/new
+2020-10-25 21:01:47.038 [main] INFO  mapping.Mapper - -> /streams/reports/on/topreferrers
+2020-10-25 21:01:47.038 [main] INFO  mapping.Mapper - -> /streams/reports/on/topfiles
+2020-10-25 21:01:47.038 [main] INFO  mapping.Mapper - -> /zones/vod/push/new
+2020-10-25 21:01:47.038 [main] INFO  mapping.Mapper - -> /zones/http/push/new
+2020-10-25 21:01:47.038 [main] INFO  mapping.Mapper - -> /account/ssl/new
+2020-10-25 21:01:47.038 [main] INFO  mapping.Mapper - -> /streams
+2020-10-25 21:01:47.038 [main] INFO  mapping.Mapper - -> /streams/reports/on/statuscodes
+2020-10-25 21:01:47.039 [main] INFO  mapping.Mapper - -> /streams/reports/on/browsers
+2020-10-25 21:01:47.039 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:01:47.063 [main] INFO  mapping.Mapper - Resource Mapping for /streams/record:
+2020-10-25 21:01:47.063 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.063 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.063 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.063 [main] INFO  mapping.Mapper -       Operation: CREATE path=/streams/record/{streamid}
+2020-10-25 21:01:47.063 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:01:47.063 [main] INFO  mapping.Mapper -       Operation: READ path=/streams/record/{streamid}
+2020-10-25 21:01:47.063 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.063 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.063 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.063 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.063 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:01:47.064 [main] INFO  mapping.Mapper -       Operation: DELETE path=/streams/record/{streamid}
+2020-10-25 21:01:47.071 [main] INFO  mapping.Mapper - Resource Mapping for /streams/abr:
+2020-10-25 21:01:47.071 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.071 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.071 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.071 [main] INFO  mapping.Mapper -       Operation: CREATE path=/streams/abr/{streamid}
+2020-10-25 21:01:47.071 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:01:47.071 [main] INFO  mapping.Mapper -       Operation: READ path=/streams/abr/{streamid}
+2020-10-25 21:01:47.072 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.072 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.072 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.072 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.072 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:01:47.072 [main] INFO  mapping.Mapper -       Operation: DELETE path=/streams/abr/{streamid}
+2020-10-25 21:01:47.075 [main] INFO  mapping.Mapper - Resource Mapping for /zones/reports/vod/push:
+2020-10-25 21:01:47.076 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.076 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.076 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:01:47.076 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.076 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.076 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.076 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.076 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.076 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.088 [main] INFO  mapping.Mapper - Resource Mapping for /zones/vod/pull/new:
+2020-10-25 21:01:47.089 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.089 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.089 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.089 [main] INFO  mapping.Mapper -       Operation: CREATE path=/zones/vod/pull/new
+2020-10-25 21:01:47.089 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.089 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.089 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.089 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.089 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.089 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.092 [main] INFO  mapping.Mapper - Resource Mapping for /zones/reports/http/pull:
+2020-10-25 21:01:47.092 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.092 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.092 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:01:47.092 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.092 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.092 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.092 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.092 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.092 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.095 [main] INFO  mapping.Mapper - Resource Mapping for /streams/push/servers:
+2020-10-25 21:01:47.095 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.095 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.095 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:01:47.095 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.095 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.095 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.095 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.095 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.095 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.104 [main] INFO  mapping.Mapper - Resource Mapping for /zones/http/push:
+2020-10-25 21:01:47.104 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.104 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.104 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.104 [main] INFO  mapping.Mapper -       Operation: CREATE path=/zones/http/push/{zoneid}
+2020-10-25 21:01:47.104 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:01:47.104 [main] INFO  mapping.Mapper -       Operation: READ path=/zones/http/push/{zoneid}
+2020-10-25 21:01:47.104 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.104 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.104 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.105 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.105 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:01:47.105 [main] INFO  mapping.Mapper -       Operation: DELETE path=/zones/http/push/{zoneid}
+2020-10-25 21:01:47.111 [main] INFO  mapping.Mapper - Resource Mapping for /streams/publish:
+2020-10-25 21:01:47.112 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.112 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.112 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.112 [main] INFO  mapping.Mapper -       Operation: CREATE path=/streams/publish/{streamid}
+2020-10-25 21:01:47.112 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:01:47.112 [main] INFO  mapping.Mapper -       Operation: READ path=/streams/publish/{streamid}
+2020-10-25 21:01:47.112 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.112 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.112 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.112 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.112 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:01:47.112 [main] INFO  mapping.Mapper -       Operation: DELETE path=/streams/publish/{streamid}
+2020-10-25 21:01:47.120 [main] INFO  mapping.Mapper - Resource Mapping for /streams/timeshift:
+2020-10-25 21:01:47.120 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.120 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.120 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.120 [main] INFO  mapping.Mapper -       Operation: CREATE path=/streams/timeshift/{streamid}
+2020-10-25 21:01:47.120 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:01:47.120 [main] INFO  mapping.Mapper -       Operation: READ path=/streams/timeshift/{streamid}
+2020-10-25 21:01:47.120 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.120 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.120 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.120 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.120 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:01:47.120 [main] INFO  mapping.Mapper -       Operation: DELETE path=/streams/timeshift/{streamid}
+2020-10-25 21:01:47.125 [main] INFO  mapping.Mapper - Resource Mapping for /account/ssl:
+2020-10-25 21:01:47.125 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.125 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.125 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.125 [main] INFO  mapping.Mapper -       Operation: CREATE path=/account/ssl/{sslcertid}
+2020-10-25 21:01:47.125 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:01:47.125 [main] INFO  mapping.Mapper -       Operation: READ path=/account/ssl/{sslcertid}
+2020-10-25 21:01:47.125 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.125 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.125 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.125 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.125 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.131 [main] INFO  mapping.Mapper - Resource Mapping for /streams/scheduledplaylist:
+2020-10-25 21:01:47.131 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.131 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.131 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.131 [main] INFO  mapping.Mapper -       Operation: CREATE path=/streams/scheduledplaylist/{streamid}
+2020-10-25 21:01:47.131 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:01:47.131 [main] INFO  mapping.Mapper -       Operation: READ path=/streams/scheduledplaylist/{streamid}
+2020-10-25 21:01:47.131 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.132 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.132 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.132 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.132 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:01:47.132 [main] INFO  mapping.Mapper -       Operation: DELETE path=/streams/scheduledplaylist/{streamid}
+2020-10-25 21:01:47.135 [main] INFO  mapping.Mapper - Resource Mapping for /zones/reports/http/record:
+2020-10-25 21:01:47.135 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.135 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.135 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:01:47.135 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.135 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.135 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.135 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.135 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.135 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.140 [main] INFO  mapping.Mapper - Resource Mapping for /streams/push:
+2020-10-25 21:01:47.140 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.140 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.140 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.140 [main] INFO  mapping.Mapper -       Operation: CREATE path=/streams/push/{streamid}
+2020-10-25 21:01:47.140 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:01:47.140 [main] INFO  mapping.Mapper -       Operation: READ path=/streams/push/{streamid}
+2020-10-25 21:01:47.140 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.140 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.140 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.140 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.141 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:01:47.141 [main] INFO  mapping.Mapper -       Operation: DELETE path=/streams/push/{streamid}
+2020-10-25 21:01:47.146 [main] INFO  mapping.Mapper - Resource Mapping for /streams/restream:
+2020-10-25 21:01:47.146 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.146 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.146 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.146 [main] INFO  mapping.Mapper -       Operation: CREATE path=/streams/restream/{streamid}
+2020-10-25 21:01:47.146 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:01:47.146 [main] INFO  mapping.Mapper -       Operation: READ path=/streams/restream/{streamid}
+2020-10-25 21:01:47.146 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.146 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.146 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.146 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.146 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:01:47.146 [main] INFO  mapping.Mapper -       Operation: DELETE path=/streams/restream/{streamid}
+2020-10-25 21:01:47.151 [main] INFO  mapping.Mapper - Resource Mapping for /zones/vod/push:
+2020-10-25 21:01:47.151 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.151 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.151 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.151 [main] INFO  mapping.Mapper -       Operation: CREATE path=/zones/vod/push/{zoneid}
+2020-10-25 21:01:47.151 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:01:47.151 [main] INFO  mapping.Mapper -       Operation: READ path=/zones/vod/push/{zoneid}
+2020-10-25 21:01:47.151 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.151 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.151 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.151 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.151 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:01:47.151 [main] INFO  mapping.Mapper -       Operation: DELETE path=/zones/vod/push/{zoneid}
+2020-10-25 21:01:47.155 [main] INFO  mapping.Mapper - Resource Mapping for /zones/http/pull/new:
+2020-10-25 21:01:47.156 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.156 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.156 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.156 [main] INFO  mapping.Mapper -       Operation: CREATE path=/zones/http/pull/new
+2020-10-25 21:01:47.156 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.156 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.156 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.156 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.156 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.156 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.157 [main] INFO  mapping.Mapper - Resource Mapping for /zones/reports/http/push:
+2020-10-25 21:01:47.157 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.157 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.157 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:01:47.157 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.157 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.157 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.157 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.157 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.157 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.158 [main] INFO  mapping.Mapper - Resource Mapping for /zones/reports/vod/pull:
+2020-10-25 21:01:47.158 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.158 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.158 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:01:47.158 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.158 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.159 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.159 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.159 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.159 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.161 [main] INFO  mapping.Mapper - Resource Mapping for /streams/restream/servers:
+2020-10-25 21:01:47.161 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.161 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.161 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:01:47.161 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.161 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.161 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.161 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.161 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.161 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.164 [main] INFO  mapping.Mapper - Resource Mapping for /streams/timeshift/parents:
+2020-10-25 21:01:47.164 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.164 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.164 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:01:47.164 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.164 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.164 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.164 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.164 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.164 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.172 [main] INFO  mapping.Mapper - Resource Mapping for /streams/push/new:
+2020-10-25 21:01:47.172 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.172 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.172 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.172 [main] INFO  mapping.Mapper -       Operation: CREATE path=/streams/push/new
+2020-10-25 21:01:47.172 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.172 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.172 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.172 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.172 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.172 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.177 [main] INFO  mapping.Mapper - Resource Mapping for /streams/reports/on/os:
+2020-10-25 21:01:47.178 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.178 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.178 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.178 [main] INFO  mapping.Mapper -       Operation: CREATE path=/streams/reports/on/os
+2020-10-25 21:01:47.178 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.178 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.178 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.178 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.178 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.178 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.183 [main] INFO  mapping.Mapper - Resource Mapping for /zones/http/pull:
+2020-10-25 21:01:47.184 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.184 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.184 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.184 [main] INFO  mapping.Mapper -       Operation: CREATE path=/zones/http/pull/{zoneid}
+2020-10-25 21:01:47.184 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:01:47.184 [main] INFO  mapping.Mapper -       Operation: READ path=/zones/http/pull/{zoneid}
+2020-10-25 21:01:47.184 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.184 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.184 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.184 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.184 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:01:47.184 [main] INFO  mapping.Mapper -       Operation: DELETE path=/zones/http/pull/{zoneid}
+2020-10-25 21:01:47.185 [main] INFO  mapping.Mapper - Resource Mapping for /zones:
+2020-10-25 21:01:47.186 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.186 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.186 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:01:47.186 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.186 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.186 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.186 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.186 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.186 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.191 [main] INFO  mapping.Mapper - Resource Mapping for /zones/vod/pull:
+2020-10-25 21:01:47.191 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.191 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.191 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.191 [main] INFO  mapping.Mapper -       Operation: CREATE path=/zones/vod/pull/{zoneid}
+2020-10-25 21:01:47.191 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:01:47.191 [main] INFO  mapping.Mapper -       Operation: READ path=/zones/vod/pull/{zoneid}
+2020-10-25 21:01:47.191 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.191 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.191 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.191 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.191 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:01:47.191 [main] INFO  mapping.Mapper -       Operation: DELETE path=/zones/vod/pull/{zoneid}
+2020-10-25 21:01:47.195 [main] INFO  mapping.Mapper - Resource Mapping for /streams/abr/new:
+2020-10-25 21:01:47.195 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.195 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.195 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.195 [main] INFO  mapping.Mapper -       Operation: CREATE path=/streams/abr/new
+2020-10-25 21:01:47.195 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.195 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.195 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.195 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.195 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.196 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.200 [main] INFO  mapping.Mapper - Resource Mapping for /streams/scheduledplaylist/new:
+2020-10-25 21:01:47.200 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.200 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.200 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.200 [main] INFO  mapping.Mapper -       Operation: CREATE path=/streams/scheduledplaylist/new
+2020-10-25 21:01:47.200 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.200 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.200 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.200 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.200 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.200 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.204 [main] INFO  mapping.Mapper - Resource Mapping for /streams/timeshift/new:
+2020-10-25 21:01:47.204 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.204 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.204 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.204 [main] INFO  mapping.Mapper -       Operation: CREATE path=/streams/timeshift/new
+2020-10-25 21:01:47.204 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.204 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.204 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.204 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.204 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.204 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.207 [main] INFO  mapping.Mapper - Resource Mapping for /streams/reports/on/stats:
+2020-10-25 21:01:47.207 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.207 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.207 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.207 [main] INFO  mapping.Mapper -       Operation: CREATE path=/streams/reports/on/stats
+2020-10-25 21:01:47.207 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.207 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.208 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.208 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.208 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.208 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.211 [main] INFO  mapping.Mapper - Resource Mapping for /streams/reports/on/cache:
+2020-10-25 21:01:47.211 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.211 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.211 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.211 [main] INFO  mapping.Mapper -       Operation: CREATE path=/streams/reports/on/cache
+2020-10-25 21:01:47.211 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.211 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.211 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.211 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.211 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.211 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.216 [main] INFO  mapping.Mapper - Resource Mapping for /streams/reports/on/visitors:
+2020-10-25 21:01:47.216 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.216 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.216 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.216 [main] INFO  mapping.Mapper -       Operation: CREATE path=/streams/reports/on/visitors
+2020-10-25 21:01:47.216 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.216 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.216 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.216 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.216 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.216 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.219 [main] INFO  mapping.Mapper - Resource Mapping for /streams/publish/new:
+2020-10-25 21:01:47.219 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.219 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.219 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.219 [main] INFO  mapping.Mapper -       Operation: CREATE path=/streams/publish/new
+2020-10-25 21:01:47.219 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.219 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.219 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.219 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.219 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.220 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.222 [main] INFO  mapping.Mapper - Resource Mapping for /streams/reports/on/countries:
+2020-10-25 21:01:47.222 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.222 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.222 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.222 [main] INFO  mapping.Mapper -       Operation: CREATE path=/streams/reports/on/countries
+2020-10-25 21:01:47.222 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.222 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.222 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.222 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.222 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.222 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.227 [main] INFO  mapping.Mapper - Resource Mapping for /streams/restream/new:
+2020-10-25 21:01:47.227 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.227 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.227 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.227 [main] INFO  mapping.Mapper -       Operation: CREATE path=/streams/restream/new
+2020-10-25 21:01:47.227 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.227 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.227 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.227 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.227 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.227 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.230 [main] INFO  mapping.Mapper - Resource Mapping for /streams/reports/on/topreferrers:
+2020-10-25 21:01:47.230 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.230 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.230 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.230 [main] INFO  mapping.Mapper -       Operation: CREATE path=/streams/reports/on/topreferrers
+2020-10-25 21:01:47.230 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.230 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.230 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.230 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.230 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.230 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.232 [main] INFO  mapping.Mapper - Resource Mapping for /streams/reports/on/topfiles:
+2020-10-25 21:01:47.233 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.233 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.233 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.233 [main] INFO  mapping.Mapper -       Operation: CREATE path=/streams/reports/on/topfiles
+2020-10-25 21:01:47.233 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.233 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.233 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.233 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.233 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.233 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.236 [main] INFO  mapping.Mapper - Resource Mapping for /zones/vod/push/new:
+2020-10-25 21:01:47.236 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.236 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.236 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.236 [main] INFO  mapping.Mapper -       Operation: CREATE path=/zones/vod/push/new
+2020-10-25 21:01:47.236 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.236 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.236 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.236 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.236 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.236 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.239 [main] INFO  mapping.Mapper - Resource Mapping for /zones/http/push/new:
+2020-10-25 21:01:47.239 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.239 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.239 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.239 [main] INFO  mapping.Mapper -       Operation: CREATE path=/zones/http/push/new
+2020-10-25 21:01:47.239 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.239 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.239 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.239 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.239 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.239 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.242 [main] INFO  mapping.Mapper - Resource Mapping for /account/ssl/new:
+2020-10-25 21:01:47.242 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.242 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.242 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.242 [main] INFO  mapping.Mapper -       Operation: CREATE path=/account/ssl/new
+2020-10-25 21:01:47.242 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.242 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.242 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.242 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.242 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.242 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.244 [main] INFO  mapping.Mapper - Resource Mapping for /streams:
+2020-10-25 21:01:47.244 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.244 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.244 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:01:47.244 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.244 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.244 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.244 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.244 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.244 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.248 [main] INFO  mapping.Mapper - Resource Mapping for /streams/reports/on/statuscodes:
+2020-10-25 21:01:47.248 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.248 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.248 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.248 [main] INFO  mapping.Mapper -       Operation: CREATE path=/streams/reports/on/statuscodes
+2020-10-25 21:01:47.248 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.248 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.248 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.248 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.248 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.248 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.251 [main] INFO  mapping.Mapper - Resource Mapping for /streams/reports/on/browsers:
+2020-10-25 21:01:47.251 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:01:47.251 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:01:47.251 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:01:47.251 [main] INFO  mapping.Mapper -       Operation: CREATE path=/streams/reports/on/browsers
+2020-10-25 21:01:47.251 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:01:47.251 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:01:47.251 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:01:47.251 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:01:47.251 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:01:47.251 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:01:47.252 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:01:47.274 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

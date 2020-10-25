@@ -1,0 +1,33 @@
+Will overwrite mapping file
+2020-10-25 21:02:24.798 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:02:24.800 [main] INFO  mapping.Mapper - -> /posts
+2020-10-25 21:02:24.800 [main] INFO  mapping.Mapper - -> /comments
+2020-10-25 21:02:24.800 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:02:24.826 [main] INFO  mapping.Mapper - Resource Mapping for /posts:
+2020-10-25 21:02:24.826 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:02:24.826 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:02:24.826 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:02:24.826 [main] INFO  mapping.Mapper -       Operation: CREATE path=/posts
+2020-10-25 21:02:24.826 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:02:24.826 [main] INFO  mapping.Mapper -       Operation: READ path=/posts/{id}
+2020-10-25 21:02:24.826 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:02:24.826 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:02:24.826 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:02:24.827 [main] INFO  mapping.Mapper -       Operation: SCAN path=/posts
+2020-10-25 21:02:24.827 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:02:24.827 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/posts/{id}
+2020-10-25 21:02:24.827 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:02:24.827 [main] INFO  mapping.Mapper -       Operation: DELETE path=/posts/{id}
+2020-10-25 21:02:24.830 [main] INFO  mapping.Mapper - Resource Mapping for /comments:
+2020-10-25 21:02:24.831 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:02:24.831 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:02:24.831 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:02:24.831 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:02:24.831 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:02:24.831 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:02:24.831 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:02:24.831 [main] INFO  mapping.Mapper -       Operation: SCAN path=/comments
+2020-10-25 21:02:24.831 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:02:24.831 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:02:24.831 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:02:24.835 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

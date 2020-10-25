@@ -1,0 +1,115 @@
+Will overwrite mapping file
+2020-10-25 21:10:28.410 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:10:28.411 [main] INFO  mapping.Mapper - -> /dms/objects
+2020-10-25 21:10:28.411 [main] INFO  mapping.Mapper - -> /admin/schema
+2020-10-25 21:10:28.411 [main] INFO  mapping.Mapper - -> /admin/schema/validate
+2020-10-25 21:10:28.411 [main] INFO  mapping.Mapper - -> /dms/schema/native
+2020-10-25 21:10:28.411 [main] INFO  mapping.Mapper - -> /dms/objects/search
+2020-10-25 21:10:28.411 [main] INFO  mapping.Mapper - -> /sandbox/renditions/pdf
+2020-10-25 21:10:28.411 [main] INFO  mapping.Mapper - -> /sandbox/renditions/text
+2020-10-25 21:10:28.411 [main] INFO  mapping.Mapper - -> /sandbox/renditions/slide
+2020-10-25 21:10:28.411 [main] INFO  mapping.Mapper - -> /sandbox/renditions/extract
+2020-10-25 21:10:28.412 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:10:28.432 [main] INFO  mapping.Mapper - Resource Mapping for /dms/objects:
+2020-10-25 21:10:28.433 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:28.433 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:28.433 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:10:28.433 [main] INFO  mapping.Mapper -       Operation: CREATE path=/dms/objects
+2020-10-25 21:10:28.433 [main] INFO  mapping.Mapper -       Operation: CREATE path=/dms/objects/{objectId}
+2020-10-25 21:10:28.433 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:10:28.433 [main] INFO  mapping.Mapper -       Operation: READ path=/dms/objects/{objectId}
+2020-10-25 21:10:28.433 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:28.433 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:28.433 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:28.433 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:28.433 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:10:28.433 [main] INFO  mapping.Mapper -       Operation: DELETE path=/dms/objects/{objectId}
+2020-10-25 21:10:28.436 [main] INFO  mapping.Mapper - Resource Mapping for /admin/schema:
+2020-10-25 21:10:28.436 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:28.436 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:28.436 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:10:28.436 [main] INFO  mapping.Mapper -       Operation: CREATE path=/admin/schema
+2020-10-25 21:10:28.436 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:28.437 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:28.437 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:28.437 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:28.437 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:28.437 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:28.439 [main] INFO  mapping.Mapper - Resource Mapping for /admin/schema/validate:
+2020-10-25 21:10:28.439 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:28.440 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:28.440 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:10:28.440 [main] INFO  mapping.Mapper -       Operation: CREATE path=/admin/schema/validate
+2020-10-25 21:10:28.440 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:28.440 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:28.440 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:28.440 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:28.440 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:28.440 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:28.440 [main] INFO  mapping.Mapper - Resource Mapping for /dms/schema/native:
+2020-10-25 21:10:28.440 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:28.440 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:28.440 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:10:28.441 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:28.441 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:28.441 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:28.441 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:28.441 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:28.441 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:28.443 [main] INFO  mapping.Mapper - Resource Mapping for /dms/objects/search:
+2020-10-25 21:10:28.444 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:28.444 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:28.444 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:10:28.444 [main] INFO  mapping.Mapper -       Operation: CREATE path=/dms/objects/search
+2020-10-25 21:10:28.444 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:28.444 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:28.444 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:28.444 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:28.444 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:28.444 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:28.446 [main] INFO  mapping.Mapper - Resource Mapping for /sandbox/renditions/pdf:
+2020-10-25 21:10:28.446 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:28.446 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:28.446 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:10:28.446 [main] INFO  mapping.Mapper -       Operation: CREATE path=/sandbox/renditions/pdf
+2020-10-25 21:10:28.446 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:28.446 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:28.446 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:28.446 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:28.446 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:28.446 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:28.448 [main] INFO  mapping.Mapper - Resource Mapping for /sandbox/renditions/text:
+2020-10-25 21:10:28.448 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:28.449 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:28.449 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:10:28.449 [main] INFO  mapping.Mapper -       Operation: CREATE path=/sandbox/renditions/text
+2020-10-25 21:10:28.449 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:28.449 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:28.449 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:28.449 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:28.449 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:28.449 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:28.451 [main] INFO  mapping.Mapper - Resource Mapping for /sandbox/renditions/slide:
+2020-10-25 21:10:28.451 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:28.451 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:28.451 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:10:28.451 [main] INFO  mapping.Mapper -       Operation: CREATE path=/sandbox/renditions/slide
+2020-10-25 21:10:28.451 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:28.451 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:28.451 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:28.451 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:28.451 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:28.451 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:28.453 [main] INFO  mapping.Mapper - Resource Mapping for /sandbox/renditions/extract:
+2020-10-25 21:10:28.453 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:28.453 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:28.453 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:10:28.453 [main] INFO  mapping.Mapper -       Operation: CREATE path=/sandbox/renditions/extract
+2020-10-25 21:10:28.453 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:28.454 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:28.454 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:28.454 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:28.454 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:28.454 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:28.454 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:10:28.460 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

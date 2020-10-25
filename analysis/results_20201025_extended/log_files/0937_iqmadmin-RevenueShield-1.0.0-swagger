@@ -1,0 +1,53 @@
+Will overwrite mapping file
+2020-10-25 21:07:49.987 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:07:49.988 [main] INFO  mapping.Mapper - -> /unpaidfarenotice
+2020-10-25 21:07:49.988 [main] INFO  mapping.Mapper - -> /courtcase
+2020-10-25 21:07:49.988 [main] INFO  mapping.Mapper - -> /penaltyfarenotice
+2020-10-25 21:07:49.988 [main] INFO  mapping.Mapper - -> /payment/save
+2020-10-25 21:07:49.988 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:07:50.011 [main] INFO  mapping.Mapper - Resource Mapping for /unpaidfarenotice:
+2020-10-25 21:07:50.011 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:50.011 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:50.011 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:50.011 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:50.011 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:50.012 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:07:50.012 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/unpaidfarenotice/{number}
+2020-10-25 21:07:50.012 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:50.012 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:50.012 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:50.022 [main] INFO  mapping.Mapper - Resource Mapping for /courtcase:
+2020-10-25 21:07:50.023 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:50.023 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:50.023 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:50.023 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:50.023 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:50.023 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:07:50.023 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/courtcase/{number}
+2020-10-25 21:07:50.023 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:50.023 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:50.023 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:50.033 [main] INFO  mapping.Mapper - Resource Mapping for /penaltyfarenotice:
+2020-10-25 21:07:50.033 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:50.033 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:50.033 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:50.033 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:50.033 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:50.033 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:07:50.033 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/penaltyfarenotice/{number}
+2020-10-25 21:07:50.033 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:50.033 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:07:50.033 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:50.037 [main] INFO  mapping.Mapper - Resource Mapping for /payment/save:
+2020-10-25 21:07:50.038 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:07:50.038 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:07:50.038 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:07:50.038 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:07:50.038 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:07:50.038 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:07:50.038 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:07:50.038 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:07:50.038 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/payment/save
+2020-10-25 21:07:50.038 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:07:50.038 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:07:50.043 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

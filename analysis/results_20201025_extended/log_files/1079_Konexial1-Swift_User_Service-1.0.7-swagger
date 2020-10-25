@@ -1,0 +1,998 @@
+Will overwrite mapping file
+2020-10-25 21:08:38.973 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:08:38.975 [main] INFO  mapping.Mapper - -> /v1/tower/users_locations
+2020-10-25 21:08:38.975 [main] INFO  mapping.Mapper - -> /v1/tower/user_profile
+2020-10-25 21:08:38.975 [main] INFO  mapping.Mapper - -> /v1/tower/ifta/fetch_fuel_receipts
+2020-10-25 21:08:38.975 [main] INFO  mapping.Mapper - -> /v1/tower/load/carrier_details
+2020-10-25 21:08:38.975 [main] INFO  mapping.Mapper - -> /v1/tower/login
+2020-10-25 21:08:38.975 [main] INFO  mapping.Mapper - -> /v1/tower/logout
+2020-10-25 21:08:38.975 [main] INFO  mapping.Mapper - -> /v1/tower/power_units
+2020-10-25 21:08:38.976 [main] INFO  mapping.Mapper - -> /v1/tower/trailers
+2020-10-25 21:08:38.976 [main] INFO  mapping.Mapper - -> /v1/tower/ifta/fetch/
+2020-10-25 21:08:38.976 [main] INFO  mapping.Mapper - -> /v1/tower/eld_logs/update_status
+2020-10-25 21:08:38.976 [main] INFO  mapping.Mapper - -> /v1/tower/loads
+2020-10-25 21:08:38.976 [main] INFO  mapping.Mapper - -> /v1/tower/user_notifications
+2020-10-25 21:08:38.976 [main] INFO  mapping.Mapper - -> /v1/tower/user_notifications/mark_as_read
+2020-10-25 21:08:38.976 [main] INFO  mapping.Mapper - -> /v1/tower/fetch_fuel_report_by_users
+2020-10-25 21:08:38.976 [main] INFO  mapping.Mapper - -> /v1/tower/requestlogs/search/
+2020-10-25 21:08:38.976 [main] INFO  mapping.Mapper - -> /v1/tower/locks
+2020-10-25 21:08:38.976 [main] INFO  mapping.Mapper - -> /v1/tower/service_offers
+2020-10-25 21:08:38.976 [main] INFO  mapping.Mapper - -> /v1/tower/udr_report/assign_log
+2020-10-25 21:08:38.976 [main] INFO  mapping.Mapper - -> /v1/loads
+2020-10-25 21:08:38.977 [main] INFO  mapping.Mapper - -> /v1/tower/edit_load
+2020-10-25 21:08:38.977 [main] INFO  mapping.Mapper - -> /v1/tower/violation
+2020-10-25 21:08:38.977 [main] INFO  mapping.Mapper - -> /v1/tower/hierarchy_items/search
+2020-10-25 21:08:38.977 [main] INFO  mapping.Mapper - -> /v1/tower/customers
+2020-10-25 21:08:38.977 [main] INFO  mapping.Mapper - -> /v1/tower/users
+2020-10-25 21:08:38.977 [main] INFO  mapping.Mapper - -> /v1/tower/fuel/fetch_carrier/
+2020-10-25 21:08:38.977 [main] INFO  mapping.Mapper - -> /v1/tower/hierarchy_items
+2020-10-25 21:08:38.977 [main] INFO  mapping.Mapper - -> /v1/tower/fuel/create_carrier/
+2020-10-25 21:08:38.977 [main] INFO  mapping.Mapper - -> /v1/tower/fuel/delete_carrier
+2020-10-25 21:08:38.977 [main] INFO  mapping.Mapper - -> /v1/tower/carrier
+2020-10-25 21:08:38.977 [main] INFO  mapping.Mapper - -> /v1/tower/fetch_dvir
+2020-10-25 21:08:38.977 [main] INFO  mapping.Mapper - -> /v1/tower/user
+2020-10-25 21:08:38.978 [main] INFO  mapping.Mapper - -> /v1/tower/carrier/fetch
+2020-10-25 21:08:38.978 [main] INFO  mapping.Mapper - -> /v1/tower/load
+2020-10-25 21:08:38.978 [main] INFO  mapping.Mapper - -> /v1/tower/user_notifications/count
+2020-10-25 21:08:38.978 [main] INFO  mapping.Mapper - -> /v1/tower/hierarchy_levels
+2020-10-25 21:08:38.978 [main] INFO  mapping.Mapper - -> /v1/tower/user_notifications/mark_all_as_read
+2020-10-25 21:08:38.978 [main] INFO  mapping.Mapper - -> /v1/tower/global_settings
+2020-10-25 21:08:38.978 [main] INFO  mapping.Mapper - -> /internal/fuel_locations/sync
+2020-10-25 21:08:38.978 [main] INFO  mapping.Mapper - -> /v1/tower/subscriptions
+2020-10-25 21:08:38.978 [main] INFO  mapping.Mapper - -> /v1/tower/load/notes
+2020-10-25 21:08:38.978 [main] INFO  mapping.Mapper - -> /v1/tower/forget_password
+2020-10-25 21:08:38.978 [main] INFO  mapping.Mapper - -> /v1/loads/histories
+2020-10-25 21:08:38.978 [main] INFO  mapping.Mapper - -> /v1/tower/load_location
+2020-10-25 21:08:38.978 [main] INFO  mapping.Mapper - -> /v1/tower/carriers
+2020-10-25 21:08:38.979 [main] INFO  mapping.Mapper - -> /v1/tower/fmcsa_fetch
+2020-10-25 21:08:38.979 [main] INFO  mapping.Mapper - -> /v1/tower/fuel_receipts
+2020-10-25 21:08:38.979 [main] INFO  mapping.Mapper - -> /v1/violation
+2020-10-25 21:08:38.979 [main] INFO  mapping.Mapper - -> /v1/tower/fetch_fuel_report
+2020-10-25 21:08:38.979 [main] INFO  mapping.Mapper - -> /v1/tower/users/count
+2020-10-25 21:08:38.979 [main] INFO  mapping.Mapper - -> /v1/tower/configure/demo_data
+2020-10-25 21:08:38.979 [main] INFO  mapping.Mapper - -> /v1/tower/requestlogs
+2020-10-25 21:08:38.979 [main] INFO  mapping.Mapper - -> /v1/tower/locks/activities
+2020-10-25 21:08:38.979 [main] INFO  mapping.Mapper - -> /v1/tower/domain_search
+2020-10-25 21:08:38.979 [main] INFO  mapping.Mapper - -> /v1/tower/fuel/carrier_transactions
+2020-10-25 21:08:38.979 [main] INFO  mapping.Mapper - -> /v1/state_reverse_geocode
+2020-10-25 21:08:38.979 [main] INFO  mapping.Mapper - -> /v1/tower/reset_password
+2020-10-25 21:08:38.979 [main] INFO  mapping.Mapper - -> /v1/tower/ifta/available_quarters/
+2020-10-25 21:08:38.980 [main] INFO  mapping.Mapper - -> /v1/tower/ifta/create_fuel_receipt
+2020-10-25 21:08:38.980 [main] INFO  mapping.Mapper - -> /v1/tower/create_notification
+2020-10-25 21:08:38.980 [main] INFO  mapping.Mapper - -> /v1/tower/fuel_calculation
+2020-10-25 21:08:38.980 [main] INFO  mapping.Mapper - -> /v1/logout
+2020-10-25 21:08:38.980 [main] INFO  mapping.Mapper - -> /internal/send_push
+2020-10-25 21:08:38.980 [main] INFO  mapping.Mapper - -> /v1/tower/configure/demo_dynamic_data
+2020-10-25 21:08:38.980 [main] INFO  mapping.Mapper - -> /v1/tower/carrier/
+2020-10-25 21:08:38.980 [main] INFO  mapping.Mapper - -> /v1/tower/lock_locations
+2020-10-25 21:08:38.980 [main] INFO  mapping.Mapper - -> /v1/tower/users_activity
+2020-10-25 21:08:38.980 [main] INFO  mapping.Mapper - -> /v1/login
+2020-10-25 21:08:38.980 [main] INFO  mapping.Mapper - -> /v1/tower/ifta/carrier/trucks
+2020-10-25 21:08:38.980 [main] INFO  mapping.Mapper - -> /v1/tower/ifta/tax_rate
+2020-10-25 21:08:38.980 [main] INFO  mapping.Mapper - -> /v1/tower/user_password
+2020-10-25 21:08:38.980 [main] INFO  mapping.Mapper - -> /v1/tower/image_upload
+2020-10-25 21:08:38.981 [main] INFO  mapping.Mapper - -> /v1/tower/fuel_report
+2020-10-25 21:08:38.981 [main] INFO  mapping.Mapper - -> /v1/fuel_locations
+2020-10-25 21:08:38.981 [main] INFO  mapping.Mapper - -> /v1/tower/tax_rates
+2020-10-25 21:08:38.981 [main] INFO  mapping.Mapper - -> /v1/tower/data_for_pdf
+2020-10-25 21:08:38.981 [main] INFO  mapping.Mapper - -> /v1/tower/carriers/
+2020-10-25 21:08:38.981 [main] INFO  mapping.Mapper - -> /v1/tower/udr_report/logs
+2020-10-25 21:08:38.981 [main] INFO  mapping.Mapper - -> /v1/loads/dispatched
+2020-10-25 21:08:38.981 [main] INFO  mapping.Mapper - -> /v1/tower/sign_up
+2020-10-25 21:08:38.981 [main] INFO  mapping.Mapper - -> /v1/tower/configure/demo_setup
+2020-10-25 21:08:38.981 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:08:39.003 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/users_locations:
+2020-10-25 21:08:39.003 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.003 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.003 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.003 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.003 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.003 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.003 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.003 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/users_locations/{id}
+2020-10-25 21:08:39.003 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/users_locations
+2020-10-25 21:08:39.003 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.004 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.009 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/user_profile:
+2020-10-25 21:08:39.010 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.010 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.010 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.010 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.010 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.010 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.010 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.010 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:08:39.010 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/v1/tower/user_profile
+2020-10-25 21:08:39.010 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.019 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/ifta/fetch_fuel_receipts:
+2020-10-25 21:08:39.019 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.019 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.019 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.020 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.020 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.020 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.020 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.020 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.020 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.023 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/load/carrier_details:
+2020-10-25 21:08:39.023 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.023 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.023 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.023 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.023 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.023 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.023 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.023 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.023 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.026 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/login:
+2020-10-25 21:08:39.026 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.026 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.026 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.026 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/login
+2020-10-25 21:08:39.026 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.026 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.026 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.027 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.027 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.027 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.029 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/logout:
+2020-10-25 21:08:39.029 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.030 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.030 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.030 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.030 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.030 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.030 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.030 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.030 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:08:39.030 [main] INFO  mapping.Mapper -       Operation: DELETE path=/v1/tower/logout
+2020-10-25 21:08:39.040 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/power_units:
+2020-10-25 21:08:39.040 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.040 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.040 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.041 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/power_units
+2020-10-25 21:08:39.041 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.041 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.041 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.041 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.041 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/power_units/{id}
+2020-10-25 21:08:39.041 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/power_units
+2020-10-25 21:08:39.041 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:08:39.041 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/v1/tower/power_units/{id}
+2020-10-25 21:08:39.041 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:08:39.041 [main] INFO  mapping.Mapper -       Operation: DELETE path=/v1/tower/power_units/{id}
+2020-10-25 21:08:39.050 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/trailers:
+2020-10-25 21:08:39.050 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.051 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.051 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.051 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/trailers
+2020-10-25 21:08:39.051 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.051 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.051 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.051 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.051 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/trailers
+2020-10-25 21:08:39.051 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/trailers/{id}
+2020-10-25 21:08:39.051 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:08:39.051 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/v1/tower/trailers/{id}
+2020-10-25 21:08:39.051 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:08:39.051 [main] INFO  mapping.Mapper -       Operation: DELETE path=/v1/tower/trailers/{id}
+2020-10-25 21:08:39.055 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/ifta/fetch/:
+2020-10-25 21:08:39.055 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.055 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.055 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.055 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.055 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.055 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.055 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.055 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/ifta/fetch/
+2020-10-25 21:08:39.055 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.055 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.058 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/eld_logs/update_status:
+2020-10-25 21:08:39.058 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.058 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.058 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.058 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/eld_logs/update_status
+2020-10-25 21:08:39.058 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.058 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.058 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.059 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.059 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.059 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.061 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/loads:
+2020-10-25 21:08:39.062 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.062 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.062 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.062 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.062 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.062 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.062 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.062 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/loads
+2020-10-25 21:08:39.062 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.062 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.065 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/user_notifications:
+2020-10-25 21:08:39.065 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.065 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.065 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.065 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.065 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.065 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.065 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.065 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/user_notifications
+2020-10-25 21:08:39.065 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.065 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.068 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/user_notifications/mark_as_read:
+2020-10-25 21:08:39.068 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.068 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.068 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.068 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.068 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.068 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.068 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.068 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:08:39.068 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/v1/tower/user_notifications/mark_as_read
+2020-10-25 21:08:39.068 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.071 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/fetch_fuel_report_by_users:
+2020-10-25 21:08:39.071 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.071 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.071 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.071 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.071 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.071 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.071 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.071 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/fetch_fuel_report_by_users
+2020-10-25 21:08:39.071 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.071 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.073 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/requestlogs/search/:
+2020-10-25 21:08:39.073 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.073 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.074 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.074 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.074 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.074 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.074 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.074 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/requestlogs/search/
+2020-10-25 21:08:39.074 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.074 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.081 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/locks:
+2020-10-25 21:08:39.082 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.082 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.082 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.082 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/locks
+2020-10-25 21:08:39.082 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.082 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.082 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.082 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.082 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/locks
+2020-10-25 21:08:39.082 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/locks/{id}
+2020-10-25 21:08:39.082 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:08:39.082 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/v1/tower/locks/{id}
+2020-10-25 21:08:39.082 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:08:39.082 [main] INFO  mapping.Mapper -       Operation: DELETE path=/v1/tower/locks/{id}
+2020-10-25 21:08:39.090 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/service_offers:
+2020-10-25 21:08:39.090 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.090 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.090 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.090 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/service_offers
+2020-10-25 21:08:39.090 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.090 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.090 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.090 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.090 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/service_offers
+2020-10-25 21:08:39.090 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/service_offers/{id}
+2020-10-25 21:08:39.090 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:08:39.090 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/v1/tower/service_offers/{id}
+2020-10-25 21:08:39.090 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:08:39.090 [main] INFO  mapping.Mapper -       Operation: DELETE path=/v1/tower/service_offers/{id}
+2020-10-25 21:08:39.092 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/udr_report/assign_log:
+2020-10-25 21:08:39.093 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.093 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.093 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.093 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/udr_report/assign_log
+2020-10-25 21:08:39.093 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.093 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.093 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.093 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.093 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.093 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.096 [main] INFO  mapping.Mapper - Resource Mapping for /v1/loads:
+2020-10-25 21:08:39.096 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.096 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.096 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.096 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.096 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.096 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.096 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.096 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/loads
+2020-10-25 21:08:39.096 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.096 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.099 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/edit_load:
+2020-10-25 21:08:39.100 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.100 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.100 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.100 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/edit_load
+2020-10-25 21:08:39.100 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.100 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.100 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.100 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.100 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.100 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.103 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/violation:
+2020-10-25 21:08:39.103 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.103 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.103 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.103 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.103 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.103 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.103 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.103 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/violation
+2020-10-25 21:08:39.103 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.103 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.106 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/hierarchy_items/search:
+2020-10-25 21:08:39.106 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.106 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.106 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.106 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.106 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.106 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.106 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.106 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/hierarchy_items/search
+2020-10-25 21:08:39.106 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.106 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.114 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/customers:
+2020-10-25 21:08:39.114 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.114 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.114 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.115 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/customers
+2020-10-25 21:08:39.115 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.115 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.115 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.115 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.115 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/customers/{id}
+2020-10-25 21:08:39.115 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/customers
+2020-10-25 21:08:39.115 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:08:39.115 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/v1/tower/customers/{id}
+2020-10-25 21:08:39.115 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:08:39.115 [main] INFO  mapping.Mapper -       Operation: DELETE path=/v1/tower/customers/{id}
+2020-10-25 21:08:39.117 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/users:
+2020-10-25 21:08:39.117 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.117 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.117 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.117 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.117 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.117 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.117 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.117 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/users
+2020-10-25 21:08:39.117 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.117 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.120 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/fuel/fetch_carrier/:
+2020-10-25 21:08:39.120 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.120 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.120 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.120 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.120 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.120 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.120 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.120 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/fuel/fetch_carrier/
+2020-10-25 21:08:39.120 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.120 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.128 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/hierarchy_items:
+2020-10-25 21:08:39.128 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.128 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.128 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.128 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/hierarchy_items
+2020-10-25 21:08:39.128 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.128 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.128 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.128 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.128 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/hierarchy_items/{id}
+2020-10-25 21:08:39.128 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/hierarchy_items
+2020-10-25 21:08:39.128 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:08:39.128 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/v1/tower/hierarchy_items/{id}
+2020-10-25 21:08:39.128 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:08:39.128 [main] INFO  mapping.Mapper -       Operation: DELETE path=/v1/tower/hierarchy_items/{id}
+2020-10-25 21:08:39.130 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/fuel/create_carrier/:
+2020-10-25 21:08:39.131 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.131 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.131 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.131 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/fuel/create_carrier/
+2020-10-25 21:08:39.131 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.131 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.131 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.131 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.131 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.131 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.133 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/fuel/delete_carrier:
+2020-10-25 21:08:39.133 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.133 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.133 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.133 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.133 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.133 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.133 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.133 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.133 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:08:39.133 [main] INFO  mapping.Mapper -       Operation: DELETE path=/v1/tower/fuel/delete_carrier/{id}
+2020-10-25 21:08:39.134 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/carrier:
+2020-10-25 21:08:39.134 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.134 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.134 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.134 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.134 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.134 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.134 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.135 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.135 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.138 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/fetch_dvir:
+2020-10-25 21:08:39.138 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.138 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.138 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.138 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.138 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.138 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.138 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.138 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/fetch_dvir
+2020-10-25 21:08:39.138 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.138 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.144 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/user:
+2020-10-25 21:08:39.144 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.144 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.144 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.145 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.145 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.145 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:08:39.145 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/v1/tower/user
+2020-10-25 21:08:39.145 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/v1/tower/user/{id}
+2020-10-25 21:08:39.145 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.145 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.145 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.147 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/carrier/fetch:
+2020-10-25 21:08:39.147 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.147 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.147 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.147 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:08:39.147 [main] INFO  mapping.Mapper -       Operation: READ path=/v1/tower/carrier/fetch/{id}
+2020-10-25 21:08:39.147 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.148 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.148 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.148 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.148 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.154 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/load:
+2020-10-25 21:08:39.154 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.155 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.155 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.155 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/load
+2020-10-25 21:08:39.155 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.155 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.155 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:08:39.155 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/v1/tower/load/{id}
+2020-10-25 21:08:39.155 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.155 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.155 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:08:39.155 [main] INFO  mapping.Mapper -       Operation: DELETE path=/v1/tower/load/{id}
+2020-10-25 21:08:39.157 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/user_notifications/count:
+2020-10-25 21:08:39.157 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.157 [main] INFO  mapping.Mapper -   Pattern INF, supported=true, requests=0:
+2020-10-25 21:08:39.157 [main] INFO  mapping.Mapper -       Operation: INFO path=/v1/tower/user_notifications/count
+2020-10-25 21:08:39.157 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.157 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.157 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.157 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.157 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.157 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.157 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.165 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/hierarchy_levels:
+2020-10-25 21:08:39.165 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.165 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.165 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.165 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/hierarchy_levels
+2020-10-25 21:08:39.165 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.165 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.165 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.165 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.165 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/hierarchy_levels/{id}
+2020-10-25 21:08:39.165 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/hierarchy_levels
+2020-10-25 21:08:39.165 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:08:39.165 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/v1/tower/hierarchy_levels/{id}
+2020-10-25 21:08:39.165 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:08:39.165 [main] INFO  mapping.Mapper -       Operation: DELETE path=/v1/tower/hierarchy_levels/{id}
+2020-10-25 21:08:39.167 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/user_notifications/mark_all_as_read:
+2020-10-25 21:08:39.167 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.168 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.168 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.168 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.168 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.168 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.168 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.168 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:08:39.168 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/v1/tower/user_notifications/mark_all_as_read
+2020-10-25 21:08:39.168 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.171 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/global_settings:
+2020-10-25 21:08:39.171 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.171 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.171 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.171 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/global_settings
+2020-10-25 21:08:39.171 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.171 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.171 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:08:39.171 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/v1/tower/global_settings
+2020-10-25 21:08:39.171 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.171 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.171 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.173 [main] INFO  mapping.Mapper - Resource Mapping for /internal/fuel_locations/sync:
+2020-10-25 21:08:39.173 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.173 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.173 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.173 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.173 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.173 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.173 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.173 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.173 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.178 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/subscriptions:
+2020-10-25 21:08:39.178 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.178 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.178 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.179 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/subscriptions
+2020-10-25 21:08:39.179 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.179 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.179 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.179 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.179 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/subscriptions
+2020-10-25 21:08:39.179 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:08:39.179 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/v1/tower/subscriptions/{id}
+2020-10-25 21:08:39.179 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.182 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/load/notes:
+2020-10-25 21:08:39.182 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.182 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.182 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.182 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/load/notes/{id}
+2020-10-25 21:08:39.182 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.182 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.182 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.182 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.182 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.182 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:08:39.182 [main] INFO  mapping.Mapper -       Operation: DELETE path=/v1/tower/load/notes/{id}
+2020-10-25 21:08:39.184 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/forget_password:
+2020-10-25 21:08:39.185 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.185 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.185 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.185 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/forget_password
+2020-10-25 21:08:39.185 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.185 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.185 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.185 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.185 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.185 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.187 [main] INFO  mapping.Mapper - Resource Mapping for /v1/loads/histories:
+2020-10-25 21:08:39.187 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.187 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.187 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.187 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.187 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.187 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.187 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.187 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/loads/histories
+2020-10-25 21:08:39.187 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.187 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.191 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/load_location:
+2020-10-25 21:08:39.191 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.191 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.191 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.191 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/load_location
+2020-10-25 21:08:39.191 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:08:39.191 [main] INFO  mapping.Mapper -       Operation: READ path=/v1/tower/load_location/{geohash}
+2020-10-25 21:08:39.191 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.191 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.191 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.191 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.191 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.195 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/carriers:
+2020-10-25 21:08:39.195 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.195 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.195 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.195 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/carriers/{id}
+2020-10-25 21:08:39.195 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/carriers
+2020-10-25 21:08:39.195 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.195 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.195 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.195 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.195 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.195 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.198 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/fmcsa_fetch:
+2020-10-25 21:08:39.199 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.199 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.199 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.199 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:08:39.199 [main] INFO  mapping.Mapper -       Operation: READ path=/v1/tower/fmcsa_fetch/{fmcsa_id}
+2020-10-25 21:08:39.199 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.199 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.199 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.199 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/fmcsa_fetch
+2020-10-25 21:08:39.199 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.199 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.203 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/fuel_receipts:
+2020-10-25 21:08:39.203 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.203 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.203 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.203 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:08:39.203 [main] INFO  mapping.Mapper -       Operation: READ path=/v1/tower/fuel_receipts/{id}
+2020-10-25 21:08:39.203 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.203 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.203 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.203 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:08:39.203 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/v1/tower/fuel_receipts/{id}
+2020-10-25 21:08:39.203 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:08:39.203 [main] INFO  mapping.Mapper -       Operation: DELETE path=/v1/tower/fuel_receipts/{id}
+2020-10-25 21:08:39.206 [main] INFO  mapping.Mapper - Resource Mapping for /v1/violation:
+2020-10-25 21:08:39.206 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.206 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.206 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.206 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/violation
+2020-10-25 21:08:39.206 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.206 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.206 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.206 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.206 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.206 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.208 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/fetch_fuel_report:
+2020-10-25 21:08:39.209 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.209 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.209 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.209 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.209 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.209 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.209 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.209 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/fetch_fuel_report
+2020-10-25 21:08:39.209 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.209 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.211 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/users/count:
+2020-10-25 21:08:39.211 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.211 [main] INFO  mapping.Mapper -   Pattern INF, supported=true, requests=0:
+2020-10-25 21:08:39.211 [main] INFO  mapping.Mapper -       Operation: INFO path=/v1/tower/users/count
+2020-10-25 21:08:39.211 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.211 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.211 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.211 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.211 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.211 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.211 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.213 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/configure/demo_data:
+2020-10-25 21:08:39.213 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.213 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.213 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.213 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/configure/demo_data
+2020-10-25 21:08:39.213 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.213 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.213 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.213 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.213 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.213 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.221 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/requestlogs:
+2020-10-25 21:08:39.221 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.221 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.221 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.221 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.221 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.221 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:08:39.221 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/v1/tower/requestlogs/{id}
+2020-10-25 21:08:39.221 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.221 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.221 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.223 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/locks/activities:
+2020-10-25 21:08:39.223 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.223 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.223 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.223 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.223 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.223 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.223 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.223 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.223 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.225 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/domain_search:
+2020-10-25 21:08:39.225 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.225 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.225 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.225 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.225 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.225 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.225 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.225 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/domain_search
+2020-10-25 21:08:39.225 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.225 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.229 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/fuel/carrier_transactions:
+2020-10-25 21:08:39.229 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.229 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.229 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.229 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.229 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.229 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.229 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.229 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/fuel/carrier_transactions/{id}
+2020-10-25 21:08:39.229 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.229 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.230 [main] INFO  mapping.Mapper - Resource Mapping for /v1/state_reverse_geocode:
+2020-10-25 21:08:39.231 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.231 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.231 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.231 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.231 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.231 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.231 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.231 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.231 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.233 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/reset_password:
+2020-10-25 21:08:39.233 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.233 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.233 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.233 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/reset_password
+2020-10-25 21:08:39.233 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.233 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.233 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.233 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.233 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.233 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.235 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/ifta/available_quarters/:
+2020-10-25 21:08:39.235 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.235 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.235 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.235 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.235 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.235 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.235 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.235 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/ifta/available_quarters/
+2020-10-25 21:08:39.235 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.235 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.237 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/ifta/create_fuel_receipt:
+2020-10-25 21:08:39.237 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.237 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.237 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.237 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/ifta/create_fuel_receipt
+2020-10-25 21:08:39.237 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.237 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.237 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.237 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.237 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.237 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.240 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/create_notification:
+2020-10-25 21:08:39.240 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.240 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.240 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.240 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/create_notification
+2020-10-25 21:08:39.240 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.240 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.240 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.240 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.240 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.240 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.241 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/fuel_calculation:
+2020-10-25 21:08:39.241 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.241 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.241 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.241 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.241 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.241 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.241 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.241 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.241 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.243 [main] INFO  mapping.Mapper - Resource Mapping for /v1/logout:
+2020-10-25 21:08:39.243 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.243 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.243 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.243 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.243 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.243 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.243 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.243 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.243 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:08:39.243 [main] INFO  mapping.Mapper -       Operation: DELETE path=/v1/logout
+2020-10-25 21:08:39.245 [main] INFO  mapping.Mapper - Resource Mapping for /internal/send_push:
+2020-10-25 21:08:39.245 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.245 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.245 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.245 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.245 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.245 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.245 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.245 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:08:39.245 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/internal/send_push
+2020-10-25 21:08:39.245 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.247 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/configure/demo_dynamic_data:
+2020-10-25 21:08:39.247 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.247 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.247 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.247 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/configure/demo_dynamic_data
+2020-10-25 21:08:39.247 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.247 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.247 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.247 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.247 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.247 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.249 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/carrier/:
+2020-10-25 21:08:39.249 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.249 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.249 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.249 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.249 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.249 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.249 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.249 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.249 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:08:39.249 [main] INFO  mapping.Mapper -       Operation: DELETE path=/v1/tower/carrier/
+2020-10-25 21:08:39.251 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/lock_locations:
+2020-10-25 21:08:39.251 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.251 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.251 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.251 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.251 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.251 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.251 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.251 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/lock_locations
+2020-10-25 21:08:39.251 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.251 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.252 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/users_activity:
+2020-10-25 21:08:39.253 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.253 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.253 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.253 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.253 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.253 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.253 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.253 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/users_activity
+2020-10-25 21:08:39.253 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.253 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.255 [main] INFO  mapping.Mapper - Resource Mapping for /v1/login:
+2020-10-25 21:08:39.255 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.255 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.255 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.255 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/login
+2020-10-25 21:08:39.255 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.255 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.255 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.255 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.255 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.255 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.256 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/ifta/carrier/trucks:
+2020-10-25 21:08:39.256 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.257 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.257 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.257 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.257 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.257 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.257 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.257 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/ifta/carrier/trucks
+2020-10-25 21:08:39.257 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.257 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.259 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/ifta/tax_rate:
+2020-10-25 21:08:39.259 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.259 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.259 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.259 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/ifta/tax_rate
+2020-10-25 21:08:39.259 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.259 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.259 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.259 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.259 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.259 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.261 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/user_password:
+2020-10-25 21:08:39.261 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.261 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.261 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.261 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/user_password
+2020-10-25 21:08:39.261 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.261 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.261 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.261 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.261 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.261 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.263 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/image_upload:
+2020-10-25 21:08:39.263 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.263 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.263 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.263 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/image_upload
+2020-10-25 21:08:39.263 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.263 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.263 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.263 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.263 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.263 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.265 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/fuel_report:
+2020-10-25 21:08:39.265 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.265 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.265 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.265 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/fuel_report
+2020-10-25 21:08:39.265 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.265 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.265 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.265 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.265 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.265 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.267 [main] INFO  mapping.Mapper - Resource Mapping for /v1/fuel_locations:
+2020-10-25 21:08:39.267 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.267 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.267 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.267 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.267 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.267 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.267 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.267 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/fuel_locations
+2020-10-25 21:08:39.267 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.267 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.269 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/tax_rates:
+2020-10-25 21:08:39.269 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.269 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.269 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.269 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.269 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.269 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.269 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.269 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/tax_rates
+2020-10-25 21:08:39.269 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.269 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.271 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/data_for_pdf:
+2020-10-25 21:08:39.271 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.271 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.271 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.271 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.271 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.271 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.271 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.271 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.271 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.273 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/carriers/:
+2020-10-25 21:08:39.273 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.273 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.273 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.273 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.273 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.273 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.273 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.273 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/carriers/
+2020-10-25 21:08:39.273 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.273 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.275 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/udr_report/logs:
+2020-10-25 21:08:39.275 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.275 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.275 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.275 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.275 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.276 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.276 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.276 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/tower/udr_report/logs
+2020-10-25 21:08:39.276 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.276 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.278 [main] INFO  mapping.Mapper - Resource Mapping for /v1/loads/dispatched:
+2020-10-25 21:08:39.278 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.278 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.278 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:39.278 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.278 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.278 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.278 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:39.278 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/loads/dispatched
+2020-10-25 21:08:39.278 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.278 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.280 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/sign_up:
+2020-10-25 21:08:39.280 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.280 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.280 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.280 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/sign_up
+2020-10-25 21:08:39.280 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.280 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.280 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.280 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.280 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.280 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.282 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tower/configure/demo_setup:
+2020-10-25 21:08:39.282 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:39.282 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:39.282 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:39.282 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tower/configure/demo_setup
+2020-10-25 21:08:39.282 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:39.282 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:39.282 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:39.282 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:39.282 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:39.282 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:39.283 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:08:39.301 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

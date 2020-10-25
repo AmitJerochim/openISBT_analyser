@@ -1,0 +1,137 @@
+Will overwrite mapping file
+2020-10-25 21:09:51.348 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:09:51.349 [main] INFO  mapping.Mapper - -> /POST/setNewUserAddr
+2020-10-25 21:09:51.349 [main] INFO  mapping.Mapper - -> /POST/addConsentForm
+2020-10-25 21:09:51.349 [main] INFO  mapping.Mapper - -> /POST/SignConsentForm
+2020-10-25 21:09:51.349 [main] INFO  mapping.Mapper - -> /POST/getOldUserAddr
+2020-10-25 21:09:51.349 [main] INFO  mapping.Mapper - -> /POST/updateConsentFormContract
+2020-10-25 21:09:51.349 [main] INFO  mapping.Mapper - -> /POST/deployUserConsentFormContract
+2020-10-25 21:09:51.349 [main] INFO  mapping.Mapper - -> /POST/ConsentFormHash
+2020-10-25 21:09:51.350 [main] INFO  mapping.Mapper - -> /POST/getConsentForm
+2020-10-25 21:09:51.350 [main] INFO  mapping.Mapper - -> /POST/base64SHA3
+2020-10-25 21:09:51.350 [main] INFO  mapping.Mapper - -> /POST/getConsentFormContract
+2020-10-25 21:09:51.350 [main] INFO  mapping.Mapper - -> /POST/deployConsentFormContract
+2020-10-25 21:09:51.350 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:09:51.360 [main] INFO  mapping.Mapper - Resource Mapping for /POST/setNewUserAddr:
+2020-10-25 21:09:51.360 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:51.360 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:51.360 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:09:51.360 [main] INFO  mapping.Mapper -       Operation: CREATE path=/POST/setNewUserAddr
+2020-10-25 21:09:51.360 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:09:51.360 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:51.360 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:51.360 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:09:51.360 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:09:51.361 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:09:51.364 [main] INFO  mapping.Mapper - Resource Mapping for /POST/addConsentForm:
+2020-10-25 21:09:51.364 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:51.364 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:51.365 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:09:51.365 [main] INFO  mapping.Mapper -       Operation: CREATE path=/POST/addConsentForm
+2020-10-25 21:09:51.365 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:09:51.365 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:51.365 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:51.365 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:09:51.365 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:09:51.365 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:09:51.368 [main] INFO  mapping.Mapper - Resource Mapping for /POST/SignConsentForm:
+2020-10-25 21:09:51.368 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:51.369 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:51.369 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:09:51.369 [main] INFO  mapping.Mapper -       Operation: CREATE path=/POST/SignConsentForm
+2020-10-25 21:09:51.369 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:09:51.369 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:51.369 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:51.369 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:09:51.369 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:09:51.369 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:09:51.372 [main] INFO  mapping.Mapper - Resource Mapping for /POST/getOldUserAddr:
+2020-10-25 21:09:51.372 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:51.372 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:51.372 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:09:51.372 [main] INFO  mapping.Mapper -       Operation: CREATE path=/POST/getOldUserAddr
+2020-10-25 21:09:51.373 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:09:51.373 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:51.373 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:51.373 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:09:51.373 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:09:51.373 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:09:51.376 [main] INFO  mapping.Mapper - Resource Mapping for /POST/updateConsentFormContract:
+2020-10-25 21:09:51.376 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:51.376 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:51.376 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:09:51.376 [main] INFO  mapping.Mapper -       Operation: CREATE path=/POST/updateConsentFormContract
+2020-10-25 21:09:51.376 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:09:51.376 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:51.376 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:51.376 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:09:51.377 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:09:51.377 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:09:51.378 [main] INFO  mapping.Mapper - Resource Mapping for /POST/deployUserConsentFormContract:
+2020-10-25 21:09:51.379 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:51.379 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:51.379 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:09:51.379 [main] INFO  mapping.Mapper -       Operation: CREATE path=/POST/deployUserConsentFormContract
+2020-10-25 21:09:51.379 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:09:51.379 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:51.379 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:51.379 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:09:51.379 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:09:51.379 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:09:51.382 [main] INFO  mapping.Mapper - Resource Mapping for /POST/ConsentFormHash:
+2020-10-25 21:09:51.382 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:51.382 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:51.382 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:09:51.382 [main] INFO  mapping.Mapper -       Operation: CREATE path=/POST/ConsentFormHash
+2020-10-25 21:09:51.382 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:09:51.382 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:51.382 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:51.382 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:09:51.382 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:09:51.382 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:09:51.385 [main] INFO  mapping.Mapper - Resource Mapping for /POST/getConsentForm:
+2020-10-25 21:09:51.385 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:51.385 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:51.385 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:09:51.385 [main] INFO  mapping.Mapper -       Operation: CREATE path=/POST/getConsentForm
+2020-10-25 21:09:51.385 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:09:51.385 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:51.385 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:51.385 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:09:51.386 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:09:51.386 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:09:51.388 [main] INFO  mapping.Mapper - Resource Mapping for /POST/base64SHA3:
+2020-10-25 21:09:51.388 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:51.389 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:51.389 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:09:51.389 [main] INFO  mapping.Mapper -       Operation: CREATE path=/POST/base64SHA3
+2020-10-25 21:09:51.389 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:09:51.389 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:51.389 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:51.389 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:09:51.389 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:09:51.389 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:09:51.391 [main] INFO  mapping.Mapper - Resource Mapping for /POST/getConsentFormContract:
+2020-10-25 21:09:51.392 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:51.392 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:51.392 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:09:51.392 [main] INFO  mapping.Mapper -       Operation: CREATE path=/POST/getConsentFormContract
+2020-10-25 21:09:51.392 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:09:51.392 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:51.392 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:51.392 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:09:51.392 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:09:51.392 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:09:51.394 [main] INFO  mapping.Mapper - Resource Mapping for /POST/deployConsentFormContract:
+2020-10-25 21:09:51.394 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:51.394 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:51.394 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:09:51.395 [main] INFO  mapping.Mapper -       Operation: CREATE path=/POST/deployConsentFormContract
+2020-10-25 21:09:51.395 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:09:51.395 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:51.395 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:51.395 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:09:51.395 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:09:51.395 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:09:51.395 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:09:51.402 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

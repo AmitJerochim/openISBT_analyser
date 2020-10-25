@@ -1,0 +1,44 @@
+Will overwrite mapping file
+2020-10-25 21:08:09.941 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:08:09.942 [main] INFO  mapping.Mapper - -> /idgenerator
+2020-10-25 21:08:09.942 [main] INFO  mapping.Mapper - -> /idgenerator/list
+2020-10-25 21:08:09.942 [main] INFO  mapping.Mapper - -> /idgenerator/nextid
+2020-10-25 21:08:09.942 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:08:09.972 [main] INFO  mapping.Mapper - Resource Mapping for /idgenerator:
+2020-10-25 21:08:09.972 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:09.972 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:09.972 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:09.972 [main] INFO  mapping.Mapper -       Operation: CREATE path=/idgenerator
+2020-10-25 21:08:09.972 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:09.972 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:09.972 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:08:09.972 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/idgenerator/{id}
+2020-10-25 21:08:09.972 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:09.972 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:08:09.972 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/idgenerator
+2020-10-25 21:08:09.973 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:08:09.973 [main] INFO  mapping.Mapper -       Operation: DELETE path=/idgenerator/{id}
+2020-10-25 21:08:09.975 [main] INFO  mapping.Mapper - Resource Mapping for /idgenerator/list:
+2020-10-25 21:08:09.976 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:09.976 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:09.976 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:09.976 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:09.976 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:09.976 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:09.976 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:09.976 [main] INFO  mapping.Mapper -       Operation: SCAN path=/idgenerator/list
+2020-10-25 21:08:09.976 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:09.976 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:09.979 [main] INFO  mapping.Mapper - Resource Mapping for /idgenerator/nextid:
+2020-10-25 21:08:09.979 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:09.979 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:09.979 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:09.979 [main] INFO  mapping.Mapper -       Operation: CREATE path=/idgenerator/nextid
+2020-10-25 21:08:09.980 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:09.980 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:09.980 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:09.980 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:09.980 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:09.980 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:09.980 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:08:09.985 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

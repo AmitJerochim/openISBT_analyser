@@ -1,0 +1,65 @@
+Will overwrite mapping file
+2020-10-25 21:10:33.399 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:10:33.400 [main] INFO  mapping.Mapper - -> /project
+2020-10-25 21:10:33.400 [main] INFO  mapping.Mapper - -> /menu
+2020-10-25 21:10:33.401 [main] INFO  mapping.Mapper - -> /document
+2020-10-25 21:10:33.401 [main] INFO  mapping.Mapper - -> /coordinate
+2020-10-25 21:10:33.401 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:10:33.420 [main] INFO  mapping.Mapper - Resource Mapping for /project:
+2020-10-25 21:10:33.421 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:33.421 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:33.421 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:10:33.421 [main] INFO  mapping.Mapper -       Operation: CREATE path=/project
+2020-10-25 21:10:33.421 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:10:33.421 [main] INFO  mapping.Mapper -       Operation: READ path=/project/{code}
+2020-10-25 21:10:33.421 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:33.421 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:33.421 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:33.421 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:10:33.421 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/project/{code}
+2020-10-25 21:10:33.421 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:10:33.421 [main] INFO  mapping.Mapper -       Operation: DELETE path=/project/{code}
+2020-10-25 21:10:33.429 [main] INFO  mapping.Mapper - Resource Mapping for /menu:
+2020-10-25 21:10:33.430 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:33.430 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:33.430 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:10:33.430 [main] INFO  mapping.Mapper -       Operation: CREATE path=/menu
+2020-10-25 21:10:33.430 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:10:33.430 [main] INFO  mapping.Mapper -       Operation: READ path=/menu/{id}
+2020-10-25 21:10:33.430 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:33.430 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:33.430 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:33.430 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:10:33.430 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/menu/{id}
+2020-10-25 21:10:33.430 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:10:33.430 [main] INFO  mapping.Mapper -       Operation: DELETE path=/menu/{id}
+2020-10-25 21:10:33.437 [main] INFO  mapping.Mapper - Resource Mapping for /document:
+2020-10-25 21:10:33.437 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:33.437 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:33.437 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:10:33.437 [main] INFO  mapping.Mapper -       Operation: CREATE path=/document
+2020-10-25 21:10:33.437 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:10:33.437 [main] INFO  mapping.Mapper -       Operation: READ path=/document/{id}
+2020-10-25 21:10:33.438 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:33.438 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:33.438 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:33.438 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:10:33.438 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/document/{id}
+2020-10-25 21:10:33.438 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:10:33.438 [main] INFO  mapping.Mapper -       Operation: DELETE path=/document/{id}
+2020-10-25 21:10:33.444 [main] INFO  mapping.Mapper - Resource Mapping for /coordinate:
+2020-10-25 21:10:33.444 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:33.444 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:33.444 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:10:33.444 [main] INFO  mapping.Mapper -       Operation: CREATE path=/coordinate
+2020-10-25 21:10:33.444 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:10:33.444 [main] INFO  mapping.Mapper -       Operation: READ path=/coordinate/{countryCode}
+2020-10-25 21:10:33.444 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:33.444 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:33.444 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:33.444 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:10:33.444 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/coordinate/{countryCode}
+2020-10-25 21:10:33.445 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:10:33.445 [main] INFO  mapping.Mapper -       Operation: DELETE path=/coordinate/{countryCode}
+2020-10-25 21:10:33.445 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:10:33.449 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

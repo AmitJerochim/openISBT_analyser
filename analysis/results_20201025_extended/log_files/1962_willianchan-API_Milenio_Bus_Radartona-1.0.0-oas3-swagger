@@ -1,0 +1,160 @@
+Will overwrite mapping file
+2020-10-25 21:14:27.665 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:14:27.666 [main] INFO  mapping.Mapper - -> /v1/GetRadaresLote
+2020-10-25 21:14:27.666 [main] INFO  mapping.Mapper - -> /v1/GetAcuraciaIdentificacaoRadares
+2020-10-25 21:14:27.666 [main] INFO  mapping.Mapper - -> /v1/GetDistanciaViagem
+2020-10-25 21:14:27.666 [main] INFO  mapping.Mapper - -> /v1/GetVelocidadeMediaTrajeto
+2020-10-25 21:14:27.666 [main] INFO  mapping.Mapper - -> /v1/GetPerfilVelocidadesRadar
+2020-10-25 21:14:27.666 [main] INFO  mapping.Mapper - -> /v1/Login/GetToken
+2020-10-25 21:14:27.666 [main] INFO  mapping.Mapper - -> /v1/GetViagens
+2020-10-25 21:14:27.666 [main] INFO  mapping.Mapper - -> /v1/GetLocalizacaoRadares
+2020-10-25 21:14:27.666 [main] INFO  mapping.Mapper - -> /v1/GetInfracoesRadares
+2020-10-25 21:14:27.666 [main] INFO  mapping.Mapper - -> /v1/GetRadaresTipoEnquadramento
+2020-10-25 21:14:27.667 [main] INFO  mapping.Mapper - -> /v1/GetTipoVeiculosRadares
+2020-10-25 21:14:27.667 [main] INFO  mapping.Mapper - -> /v1/GetTrajetos
+2020-10-25 21:14:27.667 [main] INFO  mapping.Mapper - -> /v1/GetFluxoVeiculosRadares
+2020-10-25 21:14:27.667 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:14:27.677 [main] INFO  mapping.Mapper - Resource Mapping for /v1/GetRadaresLote:
+2020-10-25 21:14:27.677 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:27.677 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:27.677 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:14:27.677 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:27.677 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:27.677 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:27.677 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:14:27.677 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/GetRadaresLote
+2020-10-25 21:14:27.677 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:27.677 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:27.680 [main] INFO  mapping.Mapper - Resource Mapping for /v1/GetAcuraciaIdentificacaoRadares:
+2020-10-25 21:14:27.680 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:27.680 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:27.680 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:14:27.680 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:27.680 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:27.681 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:27.681 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:14:27.681 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/GetAcuraciaIdentificacaoRadares
+2020-10-25 21:14:27.681 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:27.681 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:27.683 [main] INFO  mapping.Mapper - Resource Mapping for /v1/GetDistanciaViagem:
+2020-10-25 21:14:27.684 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:27.684 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:27.684 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:14:27.684 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:27.684 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:27.684 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:27.684 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:14:27.684 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/GetDistanciaViagem
+2020-10-25 21:14:27.684 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:27.684 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:27.687 [main] INFO  mapping.Mapper - Resource Mapping for /v1/GetVelocidadeMediaTrajeto:
+2020-10-25 21:14:27.687 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:27.687 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:27.687 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:14:27.687 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:27.687 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:27.687 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:27.687 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:14:27.687 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/GetVelocidadeMediaTrajeto
+2020-10-25 21:14:27.687 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:27.687 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:27.690 [main] INFO  mapping.Mapper - Resource Mapping for /v1/GetPerfilVelocidadesRadar:
+2020-10-25 21:14:27.690 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:27.690 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:27.690 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:14:27.690 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:27.690 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:27.690 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:27.690 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:14:27.690 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/GetPerfilVelocidadesRadar
+2020-10-25 21:14:27.690 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:27.690 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:27.691 [main] INFO  mapping.Mapper - Resource Mapping for /v1/Login/GetToken:
+2020-10-25 21:14:27.691 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:27.691 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:27.691 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:14:27.691 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:27.691 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:27.691 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:27.691 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:14:27.691 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:27.691 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:27.694 [main] INFO  mapping.Mapper - Resource Mapping for /v1/GetViagens:
+2020-10-25 21:14:27.694 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:27.694 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:27.694 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:14:27.694 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:27.694 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:27.694 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:27.694 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:14:27.694 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/GetViagens
+2020-10-25 21:14:27.694 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:27.695 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:27.697 [main] INFO  mapping.Mapper - Resource Mapping for /v1/GetLocalizacaoRadares:
+2020-10-25 21:14:27.698 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:27.698 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:27.698 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:14:27.698 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:27.698 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:27.698 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:27.698 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:14:27.698 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/GetLocalizacaoRadares
+2020-10-25 21:14:27.698 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:27.698 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:27.701 [main] INFO  mapping.Mapper - Resource Mapping for /v1/GetInfracoesRadares:
+2020-10-25 21:14:27.702 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:27.702 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:27.702 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:14:27.702 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:27.702 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:27.702 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:27.702 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:14:27.702 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/GetInfracoesRadares
+2020-10-25 21:14:27.702 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:27.702 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:27.704 [main] INFO  mapping.Mapper - Resource Mapping for /v1/GetRadaresTipoEnquadramento:
+2020-10-25 21:14:27.704 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:27.704 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:27.704 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:14:27.704 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:27.704 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:27.704 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:27.704 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:14:27.704 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/GetRadaresTipoEnquadramento
+2020-10-25 21:14:27.705 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:27.705 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:27.707 [main] INFO  mapping.Mapper - Resource Mapping for /v1/GetTipoVeiculosRadares:
+2020-10-25 21:14:27.707 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:27.707 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:27.707 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:14:27.707 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:27.707 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:27.707 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:27.707 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:14:27.707 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/GetTipoVeiculosRadares
+2020-10-25 21:14:27.707 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:27.707 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:27.709 [main] INFO  mapping.Mapper - Resource Mapping for /v1/GetTrajetos:
+2020-10-25 21:14:27.709 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:27.709 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:27.709 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:14:27.709 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:27.709 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:27.710 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:27.710 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:14:27.710 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/GetTrajetos
+2020-10-25 21:14:27.710 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:27.710 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:27.712 [main] INFO  mapping.Mapper - Resource Mapping for /v1/GetFluxoVeiculosRadares:
+2020-10-25 21:14:27.712 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:14:27.712 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:14:27.712 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:14:27.712 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:14:27.712 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:14:27.712 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:14:27.712 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:14:27.712 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/GetFluxoVeiculosRadares
+2020-10-25 21:14:27.712 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:14:27.712 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:14:27.712 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:14:27.720 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

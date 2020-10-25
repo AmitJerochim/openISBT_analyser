@@ -1,0 +1,61 @@
+Will overwrite mapping file
+2020-10-25 21:08:07.381 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:08:07.382 [main] INFO  mapping.Mapper - -> /flights
+2020-10-25 21:08:07.383 [main] INFO  mapping.Mapper - -> /tournaments
+2020-10-25 21:08:07.383 [main] INFO  mapping.Mapper - -> /players
+2020-10-25 21:08:07.383 [main] INFO  mapping.Mapper - -> /days
+2020-10-25 21:08:07.383 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:08:07.403 [main] INFO  mapping.Mapper - Resource Mapping for /flights:
+2020-10-25 21:08:07.403 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:07.404 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:07.404 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:07.404 [main] INFO  mapping.Mapper -       Operation: CREATE path=/flights
+2020-10-25 21:08:07.404 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:08:07.404 [main] INFO  mapping.Mapper -       Operation: READ path=/flights/{id}
+2020-10-25 21:08:07.404 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:07.404 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:07.404 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:07.404 [main] INFO  mapping.Mapper -       Operation: SCAN path=/flights
+2020-10-25 21:08:07.404 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:08:07.404 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/flights/{id}
+2020-10-25 21:08:07.404 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:07.412 [main] INFO  mapping.Mapper - Resource Mapping for /tournaments:
+2020-10-25 21:08:07.412 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:07.412 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:07.412 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:07.412 [main] INFO  mapping.Mapper -       Operation: CREATE path=/tournaments
+2020-10-25 21:08:07.412 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:08:07.412 [main] INFO  mapping.Mapper -       Operation: READ path=/tournaments/{id}
+2020-10-25 21:08:07.412 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:07.412 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:07.412 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:07.412 [main] INFO  mapping.Mapper -       Operation: SCAN path=/tournaments
+2020-10-25 21:08:07.412 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:08:07.412 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/tournaments/{id}
+2020-10-25 21:08:07.412 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:07.422 [main] INFO  mapping.Mapper - Resource Mapping for /players:
+2020-10-25 21:08:07.422 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:07.422 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:07.422 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:07.422 [main] INFO  mapping.Mapper -       Operation: CREATE path=/players
+2020-10-25 21:08:07.422 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:07.422 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:07.422 [main] INFO  mapping.Mapper -   Pattern VAL, supported=true, requests=0:
+2020-10-25 21:08:07.422 [main] INFO  mapping.Mapper -       Operation: VALIDATE path=/players/{id}
+2020-10-25 21:08:07.422 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:07.422 [main] INFO  mapping.Mapper -       Operation: SCAN path=/players
+2020-10-25 21:08:07.422 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:08:07.422 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/players/{id}
+2020-10-25 21:08:07.422 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:07.423 [main] INFO  mapping.Mapper - Resource Mapping for /days:
+2020-10-25 21:08:07.423 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:07.423 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:07.423 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:08:07.423 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:08:07.423 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:07.423 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:07.423 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:07.423 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:08:07.423 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:08:07.423 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:08:07.428 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,81 @@
+Will overwrite mapping file
+2020-10-25 21:09:09.550 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:09:09.551 [main] INFO  mapping.Mapper - -> /zendesk/search
+2020-10-25 21:09:09.551 [main] INFO  mapping.Mapper - -> /notification
+2020-10-25 21:09:09.551 [main] INFO  mapping.Mapper - -> /zendesk/ticket
+2020-10-25 21:09:09.551 [main] INFO  mapping.Mapper - -> /zendesk/users
+2020-10-25 21:09:09.551 [main] INFO  mapping.Mapper - -> /zendesk/user
+2020-10-25 21:09:09.552 [main] INFO  mapping.Mapper - -> /email
+2020-10-25 21:09:09.552 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:09:09.561 [main] INFO  mapping.Mapper - Resource Mapping for /zendesk/search:
+2020-10-25 21:09:09.562 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:09.562 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:09.562 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:09:09.562 [main] INFO  mapping.Mapper -       Operation: CREATE path=/zendesk/search
+2020-10-25 21:09:09.562 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:09:09.562 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:09.562 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:09.562 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:09:09.562 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:09:09.562 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:09:09.566 [main] INFO  mapping.Mapper - Resource Mapping for /notification:
+2020-10-25 21:09:09.566 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:09.566 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:09.566 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:09:09.566 [main] INFO  mapping.Mapper -       Operation: CREATE path=/notification
+2020-10-25 21:09:09.566 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:09:09.566 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:09.566 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:09.567 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:09:09.567 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:09:09.567 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:09:09.579 [main] INFO  mapping.Mapper - Resource Mapping for /zendesk/ticket:
+2020-10-25 21:09:09.579 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:09.579 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:09.579 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:09:09.579 [main] INFO  mapping.Mapper -       Operation: CREATE path=/zendesk/ticket
+2020-10-25 21:09:09.579 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:09:09.579 [main] INFO  mapping.Mapper -       Operation: READ path=/zendesk/ticket/{ticket_id}
+2020-10-25 21:09:09.579 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:09.579 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:09.579 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:09:09.580 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:09:09.580 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/zendesk/ticket/{ticket_id}
+2020-10-25 21:09:09.580 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:09:09.580 [main] INFO  mapping.Mapper -       Operation: DELETE path=/zendesk/ticket/{ticket_id}
+2020-10-25 21:09:09.582 [main] INFO  mapping.Mapper - Resource Mapping for /zendesk/users:
+2020-10-25 21:09:09.582 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:09.582 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:09.582 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:09:09.582 [main] INFO  mapping.Mapper -       Operation: CREATE path=/zendesk/users
+2020-10-25 21:09:09.582 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:09:09.582 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:09.582 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:09.583 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:09:09.583 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:09:09.583 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:09:09.587 [main] INFO  mapping.Mapper - Resource Mapping for /zendesk/user:
+2020-10-25 21:09:09.587 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:09.587 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:09.587 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:09:09.587 [main] INFO  mapping.Mapper -       Operation: CREATE path=/zendesk/user
+2020-10-25 21:09:09.587 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:09:09.587 [main] INFO  mapping.Mapper -       Operation: READ path=/zendesk/user/{user_id}
+2020-10-25 21:09:09.587 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:09.587 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:09.587 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:09:09.587 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:09:09.587 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:09:09.589 [main] INFO  mapping.Mapper - Resource Mapping for /email:
+2020-10-25 21:09:09.590 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:09:09.590 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:09:09.590 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:09:09.590 [main] INFO  mapping.Mapper -       Operation: CREATE path=/email
+2020-10-25 21:09:09.590 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:09:09.590 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:09:09.590 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:09:09.590 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:09:09.590 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:09:09.590 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:09:09.590 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:09:09.597 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

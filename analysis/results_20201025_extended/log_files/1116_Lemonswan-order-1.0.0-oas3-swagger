@@ -1,0 +1,20 @@
+Will overwrite mapping file
+2020-10-25 21:08:51.901 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:08:51.903 [main] INFO  mapping.Mapper - -> /order
+2020-10-25 21:08:51.903 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:08:51.927 [main] INFO  mapping.Mapper - Resource Mapping for /order:
+2020-10-25 21:08:51.927 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:51.927 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:51.927 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:51.927 [main] INFO  mapping.Mapper -       Operation: CREATE path=/order
+2020-10-25 21:08:51.927 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:08:51.927 [main] INFO  mapping.Mapper -       Operation: READ path=/order/{orderID}
+2020-10-25 21:08:51.927 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:51.927 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:51.927 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:08:51.927 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:08:51.927 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/order/{orderID}
+2020-10-25 21:08:51.927 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:08:51.927 [main] INFO  mapping.Mapper -       Operation: DELETE path=/order/{orderID}
+2020-10-25 21:08:51.928 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:08:51.931 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

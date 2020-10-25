@@ -1,0 +1,116 @@
+Will overwrite mapping file
+2020-10-25 21:05:54.880 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:05:54.881 [main] INFO  mapping.Mapper - -> /x12/validate
+2020-10-25 21:05:54.882 [main] INFO  mapping.Mapper - -> /edifact/validate
+2020-10-25 21:05:54.882 [main] INFO  mapping.Mapper - -> /x12/ack
+2020-10-25 21:05:54.882 [main] INFO  mapping.Mapper - -> /models
+2020-10-25 21:05:54.882 [main] INFO  mapping.Mapper - -> /edifact/ack
+2020-10-25 21:05:54.882 [main] INFO  mapping.Mapper - -> /x12/read
+2020-10-25 21:05:54.882 [main] INFO  mapping.Mapper - -> /edifact/read
+2020-10-25 21:05:54.882 [main] INFO  mapping.Mapper - -> /x12/write
+2020-10-25 21:05:54.882 [main] INFO  mapping.Mapper - -> /edifact/write
+2020-10-25 21:05:54.882 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:05:54.893 [main] INFO  mapping.Mapper - Resource Mapping for /x12/validate:
+2020-10-25 21:05:54.894 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:54.894 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:54.894 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:54.894 [main] INFO  mapping.Mapper -       Operation: CREATE path=/x12/validate
+2020-10-25 21:05:54.894 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:54.894 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:54.894 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:54.894 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:54.894 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:54.894 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:54.899 [main] INFO  mapping.Mapper - Resource Mapping for /edifact/validate:
+2020-10-25 21:05:54.899 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:54.899 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:54.899 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:54.899 [main] INFO  mapping.Mapper -       Operation: CREATE path=/edifact/validate
+2020-10-25 21:05:54.899 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:54.899 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:54.899 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:54.899 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:54.899 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:54.899 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:54.904 [main] INFO  mapping.Mapper - Resource Mapping for /x12/ack:
+2020-10-25 21:05:54.905 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:54.905 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:54.905 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:54.905 [main] INFO  mapping.Mapper -       Operation: CREATE path=/x12/ack
+2020-10-25 21:05:54.905 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:54.905 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:54.905 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:54.905 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:54.905 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:54.905 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:54.916 [main] INFO  mapping.Mapper - Resource Mapping for /models:
+2020-10-25 21:05:54.916 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:54.916 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:54.916 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:54.917 [main] INFO  mapping.Mapper -       Operation: CREATE path=/models
+2020-10-25 21:05:54.917 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:54.917 [main] INFO  mapping.Mapper -       Operation: READ path=/models/{id}
+2020-10-25 21:05:54.917 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:54.917 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:54.917 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:05:54.917 [main] INFO  mapping.Mapper -       Operation: SCAN path=/models
+2020-10-25 21:05:54.917 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:54.917 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:05:54.917 [main] INFO  mapping.Mapper -       Operation: DELETE path=/models/{id}
+2020-10-25 21:05:54.921 [main] INFO  mapping.Mapper - Resource Mapping for /edifact/ack:
+2020-10-25 21:05:54.921 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:54.921 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:54.921 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:54.921 [main] INFO  mapping.Mapper -       Operation: CREATE path=/edifact/ack
+2020-10-25 21:05:54.921 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:54.921 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:54.921 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:54.921 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:54.921 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:54.921 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:54.924 [main] INFO  mapping.Mapper - Resource Mapping for /x12/read:
+2020-10-25 21:05:54.924 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:54.924 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:54.924 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:54.924 [main] INFO  mapping.Mapper -       Operation: CREATE path=/x12/read
+2020-10-25 21:05:54.924 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:54.924 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:54.924 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:54.924 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:54.925 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:54.925 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:54.928 [main] INFO  mapping.Mapper - Resource Mapping for /edifact/read:
+2020-10-25 21:05:54.928 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:54.928 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:54.928 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:54.928 [main] INFO  mapping.Mapper -       Operation: CREATE path=/edifact/read
+2020-10-25 21:05:54.928 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:54.928 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:54.928 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:54.928 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:54.928 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:54.928 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:54.931 [main] INFO  mapping.Mapper - Resource Mapping for /x12/write:
+2020-10-25 21:05:54.931 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:54.932 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:54.932 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:54.932 [main] INFO  mapping.Mapper -       Operation: CREATE path=/x12/write
+2020-10-25 21:05:54.932 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:54.932 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:54.932 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:54.932 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:54.932 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:54.932 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:54.935 [main] INFO  mapping.Mapper - Resource Mapping for /edifact/write:
+2020-10-25 21:05:54.935 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:54.935 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:54.935 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:54.935 [main] INFO  mapping.Mapper -       Operation: CREATE path=/edifact/write
+2020-10-25 21:05:54.935 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:54.936 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:54.936 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:54.936 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:54.936 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:05:54.936 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:05:54.936 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:05:54.942 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

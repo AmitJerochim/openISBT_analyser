@@ -1,0 +1,30 @@
+Will overwrite mapping file
+2020-10-25 21:10:05.229 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:10:05.231 [main] INFO  mapping.Mapper - -> /organisation
+2020-10-25 21:10:05.231 [main] INFO  mapping.Mapper - -> /certificate/validate
+2020-10-25 21:10:05.231 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:10:05.243 [main] INFO  mapping.Mapper - Resource Mapping for /organisation:
+2020-10-25 21:10:05.243 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:05.243 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:05.243 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:10:05.243 [main] INFO  mapping.Mapper -       Operation: CREATE path=/organisation/{OrganisationType}
+2020-10-25 21:10:05.243 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:10:05.243 [main] INFO  mapping.Mapper -       Operation: READ path=/organisation/{OrganisationType}
+2020-10-25 21:10:05.243 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:05.243 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:05.243 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:05.244 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:05.244 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:05.245 [main] INFO  mapping.Mapper - Resource Mapping for /certificate/validate:
+2020-10-25 21:10:05.246 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:10:05.246 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:10:05.246 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:10:05.246 [main] INFO  mapping.Mapper -       Operation: CREATE path=/certificate/validate
+2020-10-25 21:10:05.246 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:10:05.246 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:10:05.246 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:10:05.246 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:10:05.246 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:10:05.246 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:10:05.246 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:10:05.251 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

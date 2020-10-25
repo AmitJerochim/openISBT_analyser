@@ -1,0 +1,37 @@
+Will overwrite mapping file
+2020-10-25 21:08:17.318 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:08:17.319 [main] INFO  mapping.Mapper - -> /api/Payload
+2020-10-25 21:08:17.319 [main] INFO  mapping.Mapper - -> /api/Topic
+2020-10-25 21:08:17.319 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:08:17.341 [main] INFO  mapping.Mapper - Resource Mapping for /api/Payload:
+2020-10-25 21:08:17.342 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:17.342 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:17.342 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:17.342 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/Payload
+2020-10-25 21:08:17.342 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:08:17.342 [main] INFO  mapping.Mapper -       Operation: READ path=/api/Payload/{id}
+2020-10-25 21:08:17.342 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:17.342 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:17.342 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:17.342 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/Payload
+2020-10-25 21:08:17.342 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:08:17.342 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/Payload/{id}
+2020-10-25 21:08:17.342 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:08:17.342 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/Payload/{id}
+2020-10-25 21:08:17.352 [main] INFO  mapping.Mapper - Resource Mapping for /api/Topic:
+2020-10-25 21:08:17.352 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:08:17.353 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:08:17.353 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:08:17.353 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/Topic
+2020-10-25 21:08:17.353 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:08:17.353 [main] INFO  mapping.Mapper -       Operation: READ path=/api/Topic/{id}
+2020-10-25 21:08:17.353 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:08:17.353 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:08:17.353 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:08:17.353 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/Topic
+2020-10-25 21:08:17.353 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:08:17.353 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/Topic/{id}
+2020-10-25 21:08:17.353 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:08:17.353 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/Topic/{id}
+2020-10-25 21:08:17.353 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:08:17.358 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

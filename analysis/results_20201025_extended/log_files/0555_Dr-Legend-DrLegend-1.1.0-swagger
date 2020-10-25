@@ -1,0 +1,261 @@
+Will overwrite mapping file
+2020-10-25 21:05:35.329 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:05:35.330 [main] INFO  mapping.Mapper - -> /records/paul_bible
+2020-10-25 21:05:35.330 [main] INFO  mapping.Mapper - -> /records/paul_gallery
+2020-10-25 21:05:35.330 [main] INFO  mapping.Mapper - -> /records/user_device_details
+2020-10-25 21:05:35.330 [main] INFO  mapping.Mapper - -> /records/users
+2020-10-25 21:05:35.330 [main] INFO  mapping.Mapper - -> /records/paul_app_informations
+2020-10-25 21:05:35.330 [main] INFO  mapping.Mapper - -> /records/paul_setting
+2020-10-25 21:05:35.330 [main] INFO  mapping.Mapper - -> /records/paul_blog
+2020-10-25 21:05:35.330 [main] INFO  mapping.Mapper - -> /records/paul_about_us
+2020-10-25 21:05:35.330 [main] INFO  mapping.Mapper - -> /records/paul_invite
+2020-10-25 21:05:35.331 [main] INFO  mapping.Mapper - -> /records/paul_chapters
+2020-10-25 21:05:35.331 [main] INFO  mapping.Mapper - -> /records/paul_category
+2020-10-25 21:05:35.331 [main] INFO  mapping.Mapper - -> /records/paul_event
+2020-10-25 21:05:35.331 [main] INFO  mapping.Mapper - -> /records/paul_youtube_video
+2020-10-25 21:05:35.331 [main] INFO  mapping.Mapper - -> /records/paul_prayer
+2020-10-25 21:05:35.331 [main] INFO  mapping.Mapper - -> /records/todays_blessings
+2020-10-25 21:05:35.331 [main] INFO  mapping.Mapper - -> /records/paul_admin_users
+2020-10-25 21:05:35.331 [main] INFO  mapping.Mapper - -> /records/paul_audio_album
+2020-10-25 21:05:35.331 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:05:35.358 [main] INFO  mapping.Mapper - Resource Mapping for /records/paul_bible:
+2020-10-25 21:05:35.359 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:35.359 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:35.359 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:35.359 [main] INFO  mapping.Mapper -       Operation: CREATE path=/records/paul_bible
+2020-10-25 21:05:35.359 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:35.359 [main] INFO  mapping.Mapper -       Operation: READ path=/records/paul_bible/{id}
+2020-10-25 21:05:35.359 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:35.359 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:35.359 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:35.359 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:35.359 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/records/paul_bible/{id}
+2020-10-25 21:05:35.359 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:05:35.359 [main] INFO  mapping.Mapper -       Operation: DELETE path=/records/paul_bible/{id}
+2020-10-25 21:05:35.365 [main] INFO  mapping.Mapper - Resource Mapping for /records/paul_gallery:
+2020-10-25 21:05:35.365 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:35.365 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:35.365 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:35.365 [main] INFO  mapping.Mapper -       Operation: CREATE path=/records/paul_gallery
+2020-10-25 21:05:35.365 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:35.365 [main] INFO  mapping.Mapper -       Operation: READ path=/records/paul_gallery/{id}
+2020-10-25 21:05:35.365 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:35.365 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:35.365 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:35.365 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:35.365 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/records/paul_gallery/{id}
+2020-10-25 21:05:35.366 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:05:35.366 [main] INFO  mapping.Mapper -       Operation: DELETE path=/records/paul_gallery/{id}
+2020-10-25 21:05:35.371 [main] INFO  mapping.Mapper - Resource Mapping for /records/user_device_details:
+2020-10-25 21:05:35.371 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:35.371 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:35.371 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:35.371 [main] INFO  mapping.Mapper -       Operation: CREATE path=/records/user_device_details
+2020-10-25 21:05:35.371 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:35.371 [main] INFO  mapping.Mapper -       Operation: READ path=/records/user_device_details/{id}
+2020-10-25 21:05:35.371 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:35.371 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:35.371 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:35.372 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:35.372 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/records/user_device_details/{id}
+2020-10-25 21:05:35.372 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:05:35.372 [main] INFO  mapping.Mapper -       Operation: DELETE path=/records/user_device_details/{id}
+2020-10-25 21:05:35.377 [main] INFO  mapping.Mapper - Resource Mapping for /records/users:
+2020-10-25 21:05:35.377 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:35.377 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:35.377 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:35.377 [main] INFO  mapping.Mapper -       Operation: CREATE path=/records/users
+2020-10-25 21:05:35.377 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:35.377 [main] INFO  mapping.Mapper -       Operation: READ path=/records/users/{id}
+2020-10-25 21:05:35.378 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:35.378 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:35.378 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:35.378 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:35.378 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/records/users/{id}
+2020-10-25 21:05:35.378 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:05:35.378 [main] INFO  mapping.Mapper -       Operation: DELETE path=/records/users/{id}
+2020-10-25 21:05:35.385 [main] INFO  mapping.Mapper - Resource Mapping for /records/paul_app_informations:
+2020-10-25 21:05:35.386 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:35.386 [main] INFO  mapping.Mapper -   Pattern INF, supported=true, requests=0:
+2020-10-25 21:05:35.386 [main] INFO  mapping.Mapper -       Operation: INFO path=/records/paul_app_informations/{id}
+2020-10-25 21:05:35.386 [main] INFO  mapping.Mapper -       Operation: INFO path=/records/paul_app_informations
+2020-10-25 21:05:35.386 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:35.386 [main] INFO  mapping.Mapper -       Operation: CREATE path=/records/paul_app_informations
+2020-10-25 21:05:35.386 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:05:35.386 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:35.386 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:35.386 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:35.386 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:35.386 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/records/paul_app_informations/{id}
+2020-10-25 21:05:35.386 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:05:35.386 [main] INFO  mapping.Mapper -       Operation: DELETE path=/records/paul_app_informations/{id}
+2020-10-25 21:05:35.391 [main] INFO  mapping.Mapper - Resource Mapping for /records/paul_setting:
+2020-10-25 21:05:35.391 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:35.391 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:35.391 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:35.391 [main] INFO  mapping.Mapper -       Operation: CREATE path=/records/paul_setting
+2020-10-25 21:05:35.391 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:35.391 [main] INFO  mapping.Mapper -       Operation: READ path=/records/paul_setting/{id}
+2020-10-25 21:05:35.391 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:35.391 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:35.391 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:35.391 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:35.391 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/records/paul_setting/{id}
+2020-10-25 21:05:35.391 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:05:35.391 [main] INFO  mapping.Mapper -       Operation: DELETE path=/records/paul_setting/{id}
+2020-10-25 21:05:35.396 [main] INFO  mapping.Mapper - Resource Mapping for /records/paul_blog:
+2020-10-25 21:05:35.396 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:35.396 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:35.396 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:35.396 [main] INFO  mapping.Mapper -       Operation: CREATE path=/records/paul_blog
+2020-10-25 21:05:35.396 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:35.396 [main] INFO  mapping.Mapper -       Operation: READ path=/records/paul_blog/{id}
+2020-10-25 21:05:35.396 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:35.396 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:35.396 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:35.396 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:35.396 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/records/paul_blog/{id}
+2020-10-25 21:05:35.396 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:05:35.396 [main] INFO  mapping.Mapper -       Operation: DELETE path=/records/paul_blog/{id}
+2020-10-25 21:05:35.400 [main] INFO  mapping.Mapper - Resource Mapping for /records/paul_about_us:
+2020-10-25 21:05:35.401 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:35.401 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:35.401 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:35.401 [main] INFO  mapping.Mapper -       Operation: CREATE path=/records/paul_about_us
+2020-10-25 21:05:35.401 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:35.401 [main] INFO  mapping.Mapper -       Operation: READ path=/records/paul_about_us/{id}
+2020-10-25 21:05:35.401 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:35.401 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:35.401 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:35.401 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:35.401 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/records/paul_about_us/{id}
+2020-10-25 21:05:35.401 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:05:35.401 [main] INFO  mapping.Mapper -       Operation: DELETE path=/records/paul_about_us/{id}
+2020-10-25 21:05:35.406 [main] INFO  mapping.Mapper - Resource Mapping for /records/paul_invite:
+2020-10-25 21:05:35.406 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:35.406 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:35.406 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:35.406 [main] INFO  mapping.Mapper -       Operation: CREATE path=/records/paul_invite
+2020-10-25 21:05:35.406 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:35.406 [main] INFO  mapping.Mapper -       Operation: READ path=/records/paul_invite/{id}
+2020-10-25 21:05:35.406 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:35.406 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:35.406 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:35.406 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:35.406 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/records/paul_invite/{id}
+2020-10-25 21:05:35.406 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:05:35.406 [main] INFO  mapping.Mapper -       Operation: DELETE path=/records/paul_invite/{id}
+2020-10-25 21:05:35.411 [main] INFO  mapping.Mapper - Resource Mapping for /records/paul_chapters:
+2020-10-25 21:05:35.411 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:35.411 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:35.411 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:35.411 [main] INFO  mapping.Mapper -       Operation: CREATE path=/records/paul_chapters
+2020-10-25 21:05:35.411 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:35.411 [main] INFO  mapping.Mapper -       Operation: READ path=/records/paul_chapters/{id}
+2020-10-25 21:05:35.411 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:35.411 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:35.411 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:35.411 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:35.411 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/records/paul_chapters/{id}
+2020-10-25 21:05:35.411 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:05:35.411 [main] INFO  mapping.Mapper -       Operation: DELETE path=/records/paul_chapters/{id}
+2020-10-25 21:05:35.416 [main] INFO  mapping.Mapper - Resource Mapping for /records/paul_category:
+2020-10-25 21:05:35.416 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:35.416 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:35.416 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:35.416 [main] INFO  mapping.Mapper -       Operation: CREATE path=/records/paul_category
+2020-10-25 21:05:35.416 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:35.416 [main] INFO  mapping.Mapper -       Operation: READ path=/records/paul_category/{id}
+2020-10-25 21:05:35.416 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:35.416 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:35.416 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:35.416 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:35.416 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/records/paul_category/{id}
+2020-10-25 21:05:35.416 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:05:35.416 [main] INFO  mapping.Mapper -       Operation: DELETE path=/records/paul_category/{id}
+2020-10-25 21:05:35.421 [main] INFO  mapping.Mapper - Resource Mapping for /records/paul_event:
+2020-10-25 21:05:35.421 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:35.421 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:35.421 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:35.421 [main] INFO  mapping.Mapper -       Operation: CREATE path=/records/paul_event
+2020-10-25 21:05:35.421 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:35.421 [main] INFO  mapping.Mapper -       Operation: READ path=/records/paul_event/{id}
+2020-10-25 21:05:35.421 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:35.421 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:35.421 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:35.421 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:35.421 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/records/paul_event/{id}
+2020-10-25 21:05:35.421 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:05:35.421 [main] INFO  mapping.Mapper -       Operation: DELETE path=/records/paul_event/{id}
+2020-10-25 21:05:35.425 [main] INFO  mapping.Mapper - Resource Mapping for /records/paul_youtube_video:
+2020-10-25 21:05:35.426 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:35.426 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:35.426 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:35.426 [main] INFO  mapping.Mapper -       Operation: CREATE path=/records/paul_youtube_video
+2020-10-25 21:05:35.426 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:35.426 [main] INFO  mapping.Mapper -       Operation: READ path=/records/paul_youtube_video/{id}
+2020-10-25 21:05:35.426 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:35.426 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:35.426 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:35.426 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:35.426 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/records/paul_youtube_video/{id}
+2020-10-25 21:05:35.426 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:05:35.426 [main] INFO  mapping.Mapper -       Operation: DELETE path=/records/paul_youtube_video/{id}
+2020-10-25 21:05:35.430 [main] INFO  mapping.Mapper - Resource Mapping for /records/paul_prayer:
+2020-10-25 21:05:35.431 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:35.431 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:35.431 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:35.431 [main] INFO  mapping.Mapper -       Operation: CREATE path=/records/paul_prayer
+2020-10-25 21:05:35.431 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:35.431 [main] INFO  mapping.Mapper -       Operation: READ path=/records/paul_prayer/{id}
+2020-10-25 21:05:35.431 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:35.431 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:35.431 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:35.431 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:35.431 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/records/paul_prayer/{id}
+2020-10-25 21:05:35.431 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:05:35.431 [main] INFO  mapping.Mapper -       Operation: DELETE path=/records/paul_prayer/{id}
+2020-10-25 21:05:35.435 [main] INFO  mapping.Mapper - Resource Mapping for /records/todays_blessings:
+2020-10-25 21:05:35.435 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:35.435 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:35.435 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:35.436 [main] INFO  mapping.Mapper -       Operation: CREATE path=/records/todays_blessings
+2020-10-25 21:05:35.436 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:35.436 [main] INFO  mapping.Mapper -       Operation: READ path=/records/todays_blessings/{id}
+2020-10-25 21:05:35.436 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:35.436 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:35.436 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:35.436 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:35.436 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/records/todays_blessings/{id}
+2020-10-25 21:05:35.436 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:05:35.436 [main] INFO  mapping.Mapper -       Operation: DELETE path=/records/todays_blessings/{id}
+2020-10-25 21:05:35.440 [main] INFO  mapping.Mapper - Resource Mapping for /records/paul_admin_users:
+2020-10-25 21:05:35.440 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:35.440 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:35.440 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:35.440 [main] INFO  mapping.Mapper -       Operation: CREATE path=/records/paul_admin_users
+2020-10-25 21:05:35.440 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:35.440 [main] INFO  mapping.Mapper -       Operation: READ path=/records/paul_admin_users/{id}
+2020-10-25 21:05:35.440 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:35.440 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:35.440 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:35.440 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:35.440 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/records/paul_admin_users/{id}
+2020-10-25 21:05:35.440 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:05:35.440 [main] INFO  mapping.Mapper -       Operation: DELETE path=/records/paul_admin_users/{id}
+2020-10-25 21:05:35.445 [main] INFO  mapping.Mapper - Resource Mapping for /records/paul_audio_album:
+2020-10-25 21:05:35.445 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:05:35.445 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:05:35.445 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:05:35.445 [main] INFO  mapping.Mapper -       Operation: CREATE path=/records/paul_audio_album
+2020-10-25 21:05:35.445 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:05:35.445 [main] INFO  mapping.Mapper -       Operation: READ path=/records/paul_audio_album/{id}
+2020-10-25 21:05:35.445 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:05:35.445 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:05:35.445 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:05:35.445 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:05:35.445 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/records/paul_audio_album/{id}
+2020-10-25 21:05:35.445 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:05:35.445 [main] INFO  mapping.Mapper -       Operation: DELETE path=/records/paul_audio_album/{id}
+2020-10-25 21:05:35.446 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:05:35.456 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

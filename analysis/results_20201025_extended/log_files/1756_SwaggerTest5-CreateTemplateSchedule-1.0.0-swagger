@@ -1,0 +1,32 @@
+Will overwrite mapping file
+2020-10-25 21:12:44.263 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:12:44.264 [main] INFO  mapping.Mapper - -> /v3/offers/scheduledTemplate
+2020-10-25 21:12:44.265 [main] INFO  mapping.Mapper - -> /v3/offers/scheduledTemplate/
+2020-10-25 21:12:44.265 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:12:44.285 [main] INFO  mapping.Mapper - Resource Mapping for /v3/offers/scheduledTemplate:
+2020-10-25 21:12:44.285 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:12:44.285 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:12:44.285 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:12:44.285 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:12:44.285 [main] INFO  mapping.Mapper -       Operation: READ path=/v3/offers/scheduledTemplate/{scheduleId}
+2020-10-25 21:12:44.285 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:12:44.285 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:12:44.285 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:12:44.285 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:12:44.285 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/v3/offers/scheduledTemplate/{scheduleId}
+2020-10-25 21:12:44.285 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:12:44.285 [main] INFO  mapping.Mapper -       Operation: DELETE path=/v3/offers/scheduledTemplate/{scheduleId}
+2020-10-25 21:12:44.292 [main] INFO  mapping.Mapper - Resource Mapping for /v3/offers/scheduledTemplate/:
+2020-10-25 21:12:44.293 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:12:44.293 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:12:44.293 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:12:44.293 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v3/offers/scheduledTemplate/
+2020-10-25 21:12:44.293 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:12:44.293 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:12:44.293 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:12:44.293 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:12:44.293 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v3/offers/scheduledTemplate/
+2020-10-25 21:12:44.293 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:12:44.293 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:12:44.293 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:12:44.299 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

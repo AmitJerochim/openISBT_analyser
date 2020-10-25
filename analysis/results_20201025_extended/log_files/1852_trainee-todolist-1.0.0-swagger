@@ -1,0 +1,32 @@
+Will overwrite mapping file
+2020-10-25 21:13:48.561 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 21:13:48.562 [main] INFO  mapping.Mapper - -> /todolist
+2020-10-25 21:13:48.563 [main] INFO  mapping.Mapper - -> /todolists
+2020-10-25 21:13:48.563 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 21:13:48.567 [main] INFO  mapping.Mapper - Resource Mapping for /todolist:
+2020-10-25 21:13:48.567 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:13:48.568 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:13:48.568 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 21:13:48.568 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 21:13:48.568 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:13:48.568 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:13:48.568 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 21:13:48.568 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 21:13:48.568 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 21:13:48.587 [main] INFO  mapping.Mapper - Resource Mapping for /todolists:
+2020-10-25 21:13:48.587 [main] INFO  mapping.Mapper -   Pattern CTL, supported=false, requests=0:
+2020-10-25 21:13:48.587 [main] INFO  mapping.Mapper -   Pattern INF, supported=false, requests=0:
+2020-10-25 21:13:48.587 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 21:13:48.587 [main] INFO  mapping.Mapper -       Operation: CREATE path=/todolists
+2020-10-25 21:13:48.587 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 21:13:48.587 [main] INFO  mapping.Mapper -       Operation: READ path=/todolists/{id}
+2020-10-25 21:13:48.587 [main] INFO  mapping.Mapper -   Pattern AUTH, supported=false, requests=0:
+2020-10-25 21:13:48.587 [main] INFO  mapping.Mapper -   Pattern VAL, supported=false, requests=0:
+2020-10-25 21:13:48.587 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 21:13:48.587 [main] INFO  mapping.Mapper -       Operation: SCAN path=/todolists
+2020-10-25 21:13:48.588 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 21:13:48.588 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/todolists/{id}
+2020-10-25 21:13:48.588 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 21:13:48.588 [main] INFO  mapping.Mapper -       Operation: DELETE path=/todolists/{id}
+2020-10-25 21:13:48.588 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 21:13:48.593 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json
