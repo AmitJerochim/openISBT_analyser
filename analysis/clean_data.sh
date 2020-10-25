@@ -124,7 +124,7 @@ remove_sample_apis () {
 			rm $OAS_FILES_DIRECTORY/$filename.json
 		fi
 		if [ "$paths" == "/devices/zones/temperature/lightingSummary/lighting/switches/{deviceId}/lighting/dimmers/{deviceId}/{value}" ];then
-			REmoved_iot_apis=$((removed_iot_apis+1))
+			removed_iot_apis=$((removed_iot_apis+1))
 			echo -e "File is default IOT API and will be removed: \t $f"
 			rm $f
 			rm $OAS_FILES_DIRECTORY/$filename.json

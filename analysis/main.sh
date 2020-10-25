@@ -5,7 +5,6 @@ rm -rf ../../openapi-data/oasFiles.bak
 rm -rf ../log_files/*
 cp -r  ../../openapi-data/oasFiles.bak.bak  ../../openapi-data/oasFiles
 rm -f errors.log
-rm -f mapping.json
 rm -rf ../loggings
 mkdir ../loggings
 cp -r ../oas_reader_output ../loggings/oas_reader_output
@@ -50,9 +49,10 @@ echo "">$LOGGINGS/record_processing.log
 
 ./run_openisbt.sh --loggings-directory $LOGGINGS --log-files-directory $LOG_FILES_DIRECTORY --oas-files-directory $OAS_FILES_DIRECTORY --matching-tool-jar $MATCHING_TOOL_JAR --pattern-config-file $PATTERN_CONFIG_FILE >>$LOGGINGS/record_processing.log
 
+./clean_data.sh --oas-files-directory $OAS_FILES_DIRECTORY --log-files-directory $LOG_FILES_DIRECTORY --remove-sample-apis >>$LOGGINGS/record_processing.log
+
 ./clean_data.sh --oas-files-directory $OAS_FILES_DIRECTORY --log-files-directory $LOG_FILES_DIRECTORY --remove-corrupt-files >>$LOGGINGS/record_processing.log
 
-./clean_data.sh --oas-files-directory $OAS_FILES_DIRECTORY --log-files-directory $LOG_FILES_DIRECTORY --remove-sample-apis >>$LOGGINGS/record_processing.log
 
 ./analyse_apis.sh  --oas-files-directory $OAS_FILES_DIRECTORY --log-files-directory $LOG_FILES_DIRECTORY --determine-full-supported-apis >$LOGGINGS/determine_full_supported_apis.log
 

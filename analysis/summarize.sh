@@ -56,5 +56,7 @@ echo -e "\tADDITIONAL MEASURMENT SUMMARY:\tsum of operations on all resources:\t
 cat helperFile >>$SUMMARY
 rm helperFile*
 
+echo "" >>$SUMMARY
 
+./operation_type_finder.sh >>$SUMMARY
 cat $SUMMARY
