@@ -1,0 +1,84 @@
+Will overwrite mapping file
+2020-10-25 22:17:07.802 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:17:07.804 [main] INFO  mapping.Mapper - -> /crypto/p2p/cardholder/token
+2020-10-25 22:17:07.804 [main] INFO  mapping.Mapper - -> /auth/token/refresh
+2020-10-25 22:17:07.804 [main] INFO  mapping.Mapper - -> /crypto/p2p/cardholder/translation
+2020-10-25 22:17:07.804 [main] INFO  mapping.Mapper - -> /crypto/status/health
+2020-10-25 22:17:07.804 [main] INFO  mapping.Mapper - -> /auth/token
+2020-10-25 22:17:07.804 [main] INFO  mapping.Mapper - -> /crypto/management
+2020-10-25 22:17:07.804 [main] INFO  mapping.Mapper - -> /crypto/status/version
+2020-10-25 22:17:07.804 [main] INFO  mapping.Mapper - -> /crypto/decrypt
+2020-10-25 22:17:07.804 [main] INFO  mapping.Mapper - -> /crypto/keys/pki
+2020-10-25 22:17:07.804 [main] INFO  mapping.Mapper - -> /crypto/encrypt
+2020-10-25 22:17:07.804 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:17:07.813 [main] INFO  mapping.Mapper - Resource Mapping for /crypto/p2p/cardholder/token:
+2020-10-25 22:17:07.813 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:07.814 [main] INFO  mapping.Mapper -       Operation: CREATE path=/crypto/p2p/cardholder/token
+2020-10-25 22:17:07.814 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:07.814 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:07.814 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:07.814 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:07.817 [main] INFO  mapping.Mapper - Resource Mapping for /auth/token/refresh:
+2020-10-25 22:17:07.817 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:07.817 [main] INFO  mapping.Mapper -       Operation: CREATE path=/auth/token/refresh
+2020-10-25 22:17:07.818 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:07.818 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:07.818 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:07.818 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:07.822 [main] INFO  mapping.Mapper - Resource Mapping for /crypto/p2p/cardholder/translation:
+2020-10-25 22:17:07.822 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:07.822 [main] INFO  mapping.Mapper -       Operation: CREATE path=/crypto/p2p/cardholder/translation
+2020-10-25 22:17:07.822 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:07.822 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:07.822 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:07.822 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:07.825 [main] INFO  mapping.Mapper - Resource Mapping for /crypto/status/health:
+2020-10-25 22:17:07.825 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:07.825 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:17:07.825 [main] INFO  mapping.Mapper -       Operation: READ path=/crypto/status/health/{id}
+2020-10-25 22:17:07.825 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:07.825 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:07.825 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:07.829 [main] INFO  mapping.Mapper - Resource Mapping for /auth/token:
+2020-10-25 22:17:07.829 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:07.829 [main] INFO  mapping.Mapper -       Operation: CREATE path=/auth/token
+2020-10-25 22:17:07.829 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:07.829 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:07.829 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:07.829 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:07.832 [main] INFO  mapping.Mapper - Resource Mapping for /crypto/management:
+2020-10-25 22:17:07.833 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:07.833 [main] INFO  mapping.Mapper -       Operation: CREATE path=/crypto/management
+2020-10-25 22:17:07.833 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:07.833 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:07.833 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:07.833 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:07.833 [main] INFO  mapping.Mapper - Resource Mapping for /crypto/status/version:
+2020-10-25 22:17:07.833 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:07.833 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:07.833 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:07.833 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:07.833 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:07.836 [main] INFO  mapping.Mapper - Resource Mapping for /crypto/decrypt:
+2020-10-25 22:17:07.837 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:07.837 [main] INFO  mapping.Mapper -       Operation: CREATE path=/crypto/decrypt
+2020-10-25 22:17:07.837 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:07.837 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:07.837 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:07.837 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:07.839 [main] INFO  mapping.Mapper - Resource Mapping for /crypto/keys/pki:
+2020-10-25 22:17:07.840 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:07.840 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:17:07.840 [main] INFO  mapping.Mapper -       Operation: READ path=/crypto/keys/pki/{id}
+2020-10-25 22:17:07.840 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:07.840 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:07.840 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:07.843 [main] INFO  mapping.Mapper - Resource Mapping for /crypto/encrypt:
+2020-10-25 22:17:07.843 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:07.843 [main] INFO  mapping.Mapper -       Operation: CREATE path=/crypto/encrypt
+2020-10-25 22:17:07.843 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:07.843 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:07.843 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:07.844 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:07.844 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:17:07.851 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

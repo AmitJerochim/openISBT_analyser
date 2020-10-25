@@ -1,0 +1,60 @@
+Will overwrite mapping file
+2020-10-25 22:11:14.112 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:11:14.114 [main] INFO  mapping.Mapper - -> /v1/printer/print
+2020-10-25 22:11:14.114 [main] INFO  mapping.Mapper - -> /v1/tpa/solvency
+2020-10-25 22:11:14.114 [main] INFO  mapping.Mapper - -> /v1/tpa/status
+2020-10-25 22:11:14.114 [main] INFO  mapping.Mapper - -> /v1/printer/status
+2020-10-25 22:11:14.114 [main] INFO  mapping.Mapper - -> /v1/activate
+2020-10-25 22:11:14.114 [main] INFO  mapping.Mapper - -> /v1/scanner/read
+2020-10-25 22:11:14.114 [main] INFO  mapping.Mapper - -> /v1/tpa/payment
+2020-10-25 22:11:14.114 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:11:14.121 [main] INFO  mapping.Mapper - Resource Mapping for /v1/printer/print:
+2020-10-25 22:11:14.122 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:14.122 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/printer/print
+2020-10-25 22:11:14.122 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:14.122 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:14.122 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:14.122 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:14.126 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tpa/solvency:
+2020-10-25 22:11:14.127 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:14.127 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tpa/solvency
+2020-10-25 22:11:14.127 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:14.127 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:14.127 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:14.127 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:11:14.127 [main] INFO  mapping.Mapper -       Operation: DELETE path=/v1/tpa/solvency
+2020-10-25 22:11:14.127 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tpa/status:
+2020-10-25 22:11:14.127 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:14.127 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:14.127 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:14.127 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:14.128 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:14.128 [main] INFO  mapping.Mapper - Resource Mapping for /v1/printer/status:
+2020-10-25 22:11:14.128 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:14.128 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:14.128 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:14.128 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:14.128 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:14.131 [main] INFO  mapping.Mapper - Resource Mapping for /v1/activate:
+2020-10-25 22:11:14.131 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:14.131 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/activate
+2020-10-25 22:11:14.131 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:14.131 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:14.131 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:14.131 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:14.133 [main] INFO  mapping.Mapper - Resource Mapping for /v1/scanner/read:
+2020-10-25 22:11:14.133 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:14.133 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:14.133 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:14.133 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:14.134 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:11:14.134 [main] INFO  mapping.Mapper -       Operation: DELETE path=/v1/scanner/read
+2020-10-25 22:11:14.137 [main] INFO  mapping.Mapper - Resource Mapping for /v1/tpa/payment:
+2020-10-25 22:11:14.137 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:14.137 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/tpa/payment
+2020-10-25 22:11:14.137 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:14.137 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:14.137 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:14.137 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:14.137 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:11:14.142 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

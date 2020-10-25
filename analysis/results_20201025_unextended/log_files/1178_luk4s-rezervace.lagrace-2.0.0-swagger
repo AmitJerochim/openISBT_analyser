@@ -1,0 +1,28 @@
+Will overwrite mapping file
+2020-10-25 22:16:02.457 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:16:02.458 [main] INFO  mapping.Mapper - -> /admin/users.json
+2020-10-25 22:16:02.458 [main] INFO  mapping.Mapper - -> /admin/users
+2020-10-25 22:16:02.459 [main] INFO  mapping.Mapper - -> /
+2020-10-25 22:16:02.459 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:16:02.468 [main] INFO  mapping.Mapper - Resource Mapping for /admin/users.json:
+2020-10-25 22:16:02.468 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:02.468 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:02.468 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:02.468 [main] INFO  mapping.Mapper -       Operation: SCAN path=/admin/users.json
+2020-10-25 22:16:02.469 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:02.469 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:02.471 [main] INFO  mapping.Mapper - Resource Mapping for /admin/users:
+2020-10-25 22:16:02.471 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:02.471 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:02.472 [main] INFO  mapping.Mapper -       Operation: READ path=/admin/users/{id}.json
+2020-10-25 22:16:02.472 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:02.472 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:02.472 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:02.472 [main] INFO  mapping.Mapper - Resource Mapping for /:
+2020-10-25 22:16:02.472 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:02.472 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:02.472 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:02.472 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:02.472 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:02.472 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:16:02.477 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

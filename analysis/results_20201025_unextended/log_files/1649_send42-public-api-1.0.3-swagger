@@ -1,0 +1,70 @@
+Will overwrite mapping file
+2020-10-25 22:18:56.304 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:18:56.306 [main] INFO  mapping.Mapper - -> /v3/api/refunds
+2020-10-25 22:18:56.306 [main] INFO  mapping.Mapper - -> /v3/api/transportations
+2020-10-25 22:18:56.306 [main] INFO  mapping.Mapper - -> /v3/api/reverses
+2020-10-25 22:18:56.306 [main] INFO  mapping.Mapper - -> /v3/api/refunds/types
+2020-10-25 22:18:56.306 [main] INFO  mapping.Mapper - -> /v3/api/reverses/actions
+2020-10-25 22:18:56.306 [main] INFO  mapping.Mapper - -> /v3/api/refunds/status
+2020-10-25 22:18:56.306 [main] INFO  mapping.Mapper - -> /v3/api/refunds/banks
+2020-10-25 22:18:56.306 [main] INFO  mapping.Mapper - -> /v3/api/me
+2020-10-25 22:18:56.306 [main] INFO  mapping.Mapper - -> /v3/api/reverses/status
+2020-10-25 22:18:56.306 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:18:56.314 [main] INFO  mapping.Mapper - Resource Mapping for /v3/api/refunds:
+2020-10-25 22:18:56.315 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:56.315 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:56.315 [main] INFO  mapping.Mapper -       Operation: READ path=/v3/api/refunds/{id}
+2020-10-25 22:18:56.315 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:56.315 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:56.315 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:56.315 [main] INFO  mapping.Mapper - Resource Mapping for /v3/api/transportations:
+2020-10-25 22:18:56.315 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:56.315 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:56.315 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:56.315 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:56.316 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:56.318 [main] INFO  mapping.Mapper - Resource Mapping for /v3/api/reverses:
+2020-10-25 22:18:56.318 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:56.318 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:56.318 [main] INFO  mapping.Mapper -       Operation: READ path=/v3/api/reverses/{id}
+2020-10-25 22:18:56.319 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:56.319 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:56.319 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:56.319 [main] INFO  mapping.Mapper - Resource Mapping for /v3/api/refunds/types:
+2020-10-25 22:18:56.319 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:56.319 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:56.319 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:56.319 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:56.319 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:56.320 [main] INFO  mapping.Mapper - Resource Mapping for /v3/api/reverses/actions:
+2020-10-25 22:18:56.320 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:56.320 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:56.320 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:56.320 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:56.320 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:56.320 [main] INFO  mapping.Mapper - Resource Mapping for /v3/api/refunds/status:
+2020-10-25 22:18:56.320 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:56.320 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:56.320 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:56.320 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:56.320 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:56.321 [main] INFO  mapping.Mapper - Resource Mapping for /v3/api/refunds/banks:
+2020-10-25 22:18:56.321 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:56.321 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:56.321 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:56.321 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:56.321 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:56.321 [main] INFO  mapping.Mapper - Resource Mapping for /v3/api/me:
+2020-10-25 22:18:56.321 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:56.321 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:56.322 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:56.322 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:56.322 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:56.322 [main] INFO  mapping.Mapper - Resource Mapping for /v3/api/reverses/status:
+2020-10-25 22:18:56.322 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:56.322 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:56.322 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:56.322 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:56.322 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:56.322 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:18:56.328 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

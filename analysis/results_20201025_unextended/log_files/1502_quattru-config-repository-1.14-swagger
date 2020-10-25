@@ -1,0 +1,146 @@
+Will overwrite mapping file
+2020-10-25 22:18:03.696 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:18:03.697 [main] INFO  mapping.Mapper - -> /datatrons/find
+2020-10-25 22:18:03.697 [main] INFO  mapping.Mapper - -> /devices
+2020-10-25 22:18:03.697 [main] INFO  mapping.Mapper - -> /device_types
+2020-10-25 22:18:03.697 [main] INFO  mapping.Mapper - -> /datatrons
+2020-10-25 22:18:03.697 [main] INFO  mapping.Mapper - -> /machines
+2020-10-25 22:18:03.697 [main] INFO  mapping.Mapper - -> /device_classes
+2020-10-25 22:18:03.697 [main] INFO  mapping.Mapper - -> /data_points/find
+2020-10-25 22:18:03.697 [main] INFO  mapping.Mapper - -> /data_points
+2020-10-25 22:18:03.698 [main] INFO  mapping.Mapper - -> /devices/find
+2020-10-25 22:18:03.698 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:18:03.706 [main] INFO  mapping.Mapper - Resource Mapping for /datatrons/find:
+2020-10-25 22:18:03.706 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:03.706 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:03.706 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:03.706 [main] INFO  mapping.Mapper -       Operation: SCAN path=/datatrons/find
+2020-10-25 22:18:03.706 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:03.706 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:03.716 [main] INFO  mapping.Mapper - Resource Mapping for /devices:
+2020-10-25 22:18:03.716 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:03.716 [main] INFO  mapping.Mapper -       Operation: CREATE path=/devices
+2020-10-25 22:18:03.716 [main] INFO  mapping.Mapper -       Operation: CREATE path=/devices/{device_id/download
+2020-10-25 22:18:03.716 [main] INFO  mapping.Mapper -       Operation: CREATE path=/devices/{device_id/publish
+2020-10-25 22:18:03.716 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:03.716 [main] INFO  mapping.Mapper -       Operation: READ path=/devices/{device_id}
+2020-10-25 22:18:03.716 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:03.716 [main] INFO  mapping.Mapper -       Operation: SCAN path=/devices
+2020-10-25 22:18:03.716 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:18:03.716 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/devices/{device_id}
+2020-10-25 22:18:03.716 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:03.716 [main] INFO  mapping.Mapper -       Operation: DELETE path=/devices/{device_id}
+2020-10-25 22:18:03.722 [main] INFO  mapping.Mapper - Resource Mapping for /device_types:
+2020-10-25 22:18:03.723 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:03.723 [main] INFO  mapping.Mapper -       Operation: CREATE path=/device_types
+2020-10-25 22:18:03.723 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:03.723 [main] INFO  mapping.Mapper -       Operation: READ path=/device_types/{device_type_id}
+2020-10-25 22:18:03.723 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:03.723 [main] INFO  mapping.Mapper -       Operation: SCAN path=/device_types
+2020-10-25 22:18:03.723 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:18:03.723 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/device_types/{device_type_id}
+2020-10-25 22:18:03.723 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:03.723 [main] INFO  mapping.Mapper -       Operation: DELETE path=/device_types/{device_type_id}
+2020-10-25 22:18:03.739 [main] INFO  mapping.Mapper - Resource Mapping for /datatrons:
+2020-10-25 22:18:03.739 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:03.739 [main] INFO  mapping.Mapper -       Operation: CREATE path=/datatrons
+2020-10-25 22:18:03.739 [main] INFO  mapping.Mapper -       Operation: CREATE path=/datatrons/{datatron_id/publish
+2020-10-25 22:18:03.739 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:03.739 [main] INFO  mapping.Mapper -       Operation: READ path=/datatrons/{datatron_id}
+2020-10-25 22:18:03.739 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:03.739 [main] INFO  mapping.Mapper -       Operation: SCAN path=/datatrons
+2020-10-25 22:18:03.739 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:18:03.739 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/datatrons/{datatron_id}
+2020-10-25 22:18:03.739 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:03.739 [main] INFO  mapping.Mapper -       Operation: DELETE path=/datatrons/{datatron_id}
+2020-10-25 22:18:03.743 [main] INFO  mapping.Mapper - Resource Mapping for /machines:
+2020-10-25 22:18:03.744 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:03.744 [main] INFO  mapping.Mapper -       Operation: CREATE path=/machines
+2020-10-25 22:18:03.744 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:03.744 [main] INFO  mapping.Mapper -       Operation: READ path=/machines/{machine_code}
+2020-10-25 22:18:03.744 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:03.744 [main] INFO  mapping.Mapper -       Operation: SCAN path=/machines
+2020-10-25 22:18:03.744 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:03.744 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:03.744 [main] INFO  mapping.Mapper -       Operation: DELETE path=/machines/{machine_code}
+2020-10-25 22:18:03.745 [main] INFO  mapping.Mapper - Resource Mapping for /device_classes:
+2020-10-25 22:18:03.745 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:03.745 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:03.745 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:03.745 [main] INFO  mapping.Mapper -       Operation: SCAN path=/device_classes
+2020-10-25 22:18:03.745 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:03.745 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:03.747 [main] INFO  mapping.Mapper - Resource Mapping for /data_points/find:
+2020-10-25 22:18:03.747 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:03.747 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:03.747 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:03.747 [main] INFO  mapping.Mapper -       Operation: SCAN path=/data_points/find
+2020-10-25 22:18:03.747 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:03.748 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:03.753 [main] INFO  mapping.Mapper - Resource Mapping for /data_points:
+2020-10-25 22:18:03.754 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:03.754 [main] INFO  mapping.Mapper -       Operation: CREATE path=/data_points
+2020-10-25 22:18:03.754 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:03.754 [main] INFO  mapping.Mapper -       Operation: READ path=/data_points/{point_id}
+2020-10-25 22:18:03.754 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:03.754 [main] INFO  mapping.Mapper -       Operation: SCAN path=/data_points
+2020-10-25 22:18:03.754 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:18:03.754 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/data_points/{point_id}
+2020-10-25 22:18:03.754 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:03.754 [main] INFO  mapping.Mapper -       Operation: DELETE path=/data_points/{point_id}
+2020-10-25 22:18:03.756 [main] INFO  mapping.Mapper - Resource Mapping for /devices/find:
+2020-10-25 22:18:03.756 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:03.756 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:03.756 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:03.756 [main] INFO  mapping.Mapper -       Operation: SCAN path=/devices/find
+2020-10-25 22:18:03.756 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:03.756 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:03.757 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:18:03.757 [main] INFO  MatchingTool - Resource Mapping for /devices:
+2020-10-25 22:18:03.757 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=5:
+2020-10-25 22:18:03.757 [main] INFO  MatchingTool -       Operation: CREATE path=/devices
+2020-10-25 22:18:03.757 [main] INFO  MatchingTool -       Operation: CREATE path=/devices/{device_id/download
+2020-10-25 22:18:03.757 [main] INFO  MatchingTool -       Operation: CREATE path=/devices/{device_id/publish
+2020-10-25 22:18:03.757 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=5:
+2020-10-25 22:18:03.757 [main] INFO  MatchingTool -       Operation: READ path=/devices/{device_id}
+2020-10-25 22:18:03.757 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=5:
+2020-10-25 22:18:03.757 [main] INFO  MatchingTool -       Operation: SCAN path=/devices
+2020-10-25 22:18:03.757 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=5:
+2020-10-25 22:18:03.757 [main] INFO  MatchingTool -       Operation: UPDATE path=/devices/{device_id}
+2020-10-25 22:18:03.757 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=5:
+2020-10-25 22:18:03.757 [main] INFO  MatchingTool -       Operation: DELETE path=/devices/{device_id}
+2020-10-25 22:18:03.757 [main] INFO  MatchingTool - Resource Mapping for /device_types:
+2020-10-25 22:18:03.757 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=5:
+2020-10-25 22:18:03.757 [main] INFO  MatchingTool -       Operation: CREATE path=/device_types
+2020-10-25 22:18:03.757 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=5:
+2020-10-25 22:18:03.757 [main] INFO  MatchingTool -       Operation: READ path=/device_types/{device_type_id}
+2020-10-25 22:18:03.757 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=5:
+2020-10-25 22:18:03.758 [main] INFO  MatchingTool -       Operation: SCAN path=/device_types
+2020-10-25 22:18:03.758 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=5:
+2020-10-25 22:18:03.758 [main] INFO  MatchingTool -       Operation: UPDATE path=/device_types/{device_type_id}
+2020-10-25 22:18:03.758 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=5:
+2020-10-25 22:18:03.758 [main] INFO  MatchingTool -       Operation: DELETE path=/device_types/{device_type_id}
+2020-10-25 22:18:03.758 [main] INFO  MatchingTool - Resource Mapping for /datatrons:
+2020-10-25 22:18:03.758 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=5:
+2020-10-25 22:18:03.758 [main] INFO  MatchingTool -       Operation: CREATE path=/datatrons
+2020-10-25 22:18:03.758 [main] INFO  MatchingTool -       Operation: CREATE path=/datatrons/{datatron_id/publish
+2020-10-25 22:18:03.758 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=5:
+2020-10-25 22:18:03.758 [main] INFO  MatchingTool -       Operation: READ path=/datatrons/{datatron_id}
+2020-10-25 22:18:03.758 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=5:
+2020-10-25 22:18:03.758 [main] INFO  MatchingTool -       Operation: SCAN path=/datatrons
+2020-10-25 22:18:03.758 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=5:
+2020-10-25 22:18:03.758 [main] INFO  MatchingTool -       Operation: UPDATE path=/datatrons/{datatron_id}
+2020-10-25 22:18:03.758 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=5:
+2020-10-25 22:18:03.758 [main] INFO  MatchingTool -       Operation: DELETE path=/datatrons/{datatron_id}
+2020-10-25 22:18:03.758 [main] INFO  MatchingTool - Resource Mapping for /data_points:
+2020-10-25 22:18:03.758 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=5:
+2020-10-25 22:18:03.758 [main] INFO  MatchingTool -       Operation: CREATE path=/data_points
+2020-10-25 22:18:03.758 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=5:
+2020-10-25 22:18:03.758 [main] INFO  MatchingTool -       Operation: READ path=/data_points/{point_id}
+2020-10-25 22:18:03.758 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=5:
+2020-10-25 22:18:03.759 [main] INFO  MatchingTool -       Operation: SCAN path=/data_points
+2020-10-25 22:18:03.759 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=5:
+2020-10-25 22:18:03.759 [main] INFO  MatchingTool -       Operation: UPDATE path=/data_points/{point_id}
+2020-10-25 22:18:03.759 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=5:
+2020-10-25 22:18:03.759 [main] INFO  MatchingTool -       Operation: DELETE path=/data_points/{point_id}
+2020-10-25 22:18:03.765 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

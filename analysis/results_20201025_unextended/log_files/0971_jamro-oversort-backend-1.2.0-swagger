@@ -1,0 +1,21 @@
+Will overwrite mapping file
+2020-10-25 22:14:48.744 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:14:48.746 [main] INFO  mapping.Mapper - -> /history
+2020-10-25 22:14:48.746 [main] INFO  mapping.Mapper - -> /sorted
+2020-10-25 22:14:48.746 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:14:48.756 [main] INFO  mapping.Mapper - Resource Mapping for /history:
+2020-10-25 22:14:48.757 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:48.757 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:48.757 [main] INFO  mapping.Mapper -       Operation: READ path=/history/{sortId}
+2020-10-25 22:14:48.757 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:48.757 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:48.757 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:48.762 [main] INFO  mapping.Mapper - Resource Mapping for /sorted:
+2020-10-25 22:14:48.762 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:48.763 [main] INFO  mapping.Mapper -       Operation: CREATE path=/sorted
+2020-10-25 22:14:48.763 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:48.763 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:48.763 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:48.763 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:48.763 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:14:48.773 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

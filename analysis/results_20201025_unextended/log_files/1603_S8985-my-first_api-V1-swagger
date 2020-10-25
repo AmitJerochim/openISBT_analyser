@@ -1,0 +1,51 @@
+Will overwrite mapping file
+2020-10-25 22:18:40.986 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:18:40.988 [main] INFO  mapping.Mapper - -> /api/Values
+2020-10-25 22:18:40.988 [main] INFO  mapping.Mapper - -> /api/Contacts
+2020-10-25 22:18:40.988 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:18:41.008 [main] INFO  mapping.Mapper - Resource Mapping for /api/Values:
+2020-10-25 22:18:41.008 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:41.008 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/Values
+2020-10-25 22:18:41.008 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:41.008 [main] INFO  mapping.Mapper -       Operation: READ path=/api/Values/{id}
+2020-10-25 22:18:41.009 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:41.009 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/Values
+2020-10-25 22:18:41.009 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:18:41.009 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/Values/{id}
+2020-10-25 22:18:41.009 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:41.009 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/Values/{id}
+2020-10-25 22:18:41.023 [main] INFO  mapping.Mapper - Resource Mapping for /api/Contacts:
+2020-10-25 22:18:41.023 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:41.023 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/Contacts
+2020-10-25 22:18:41.023 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:41.023 [main] INFO  mapping.Mapper -       Operation: READ path=/api/Contacts/{id}
+2020-10-25 22:18:41.023 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:41.023 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/Contacts
+2020-10-25 22:18:41.024 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:18:41.024 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/Contacts/{id}
+2020-10-25 22:18:41.024 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:41.024 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/Contacts/{id}
+2020-10-25 22:18:41.024 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:18:41.024 [main] INFO  MatchingTool - Resource Mapping for /api/Values:
+2020-10-25 22:18:41.024 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=10:
+2020-10-25 22:18:41.024 [main] INFO  MatchingTool -       Operation: CREATE path=/api/Values
+2020-10-25 22:18:41.025 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=10:
+2020-10-25 22:18:41.025 [main] INFO  MatchingTool -       Operation: READ path=/api/Values/{id}
+2020-10-25 22:18:41.025 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=10:
+2020-10-25 22:18:41.025 [main] INFO  MatchingTool -       Operation: SCAN path=/api/Values
+2020-10-25 22:18:41.025 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=10:
+2020-10-25 22:18:41.025 [main] INFO  MatchingTool -       Operation: UPDATE path=/api/Values/{id}
+2020-10-25 22:18:41.025 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=10:
+2020-10-25 22:18:41.025 [main] INFO  MatchingTool -       Operation: DELETE path=/api/Values/{id}
+2020-10-25 22:18:41.025 [main] INFO  MatchingTool - Resource Mapping for /api/Contacts:
+2020-10-25 22:18:41.025 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=10:
+2020-10-25 22:18:41.025 [main] INFO  MatchingTool -       Operation: CREATE path=/api/Contacts
+2020-10-25 22:18:41.025 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=10:
+2020-10-25 22:18:41.026 [main] INFO  MatchingTool -       Operation: READ path=/api/Contacts/{id}
+2020-10-25 22:18:41.026 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=10:
+2020-10-25 22:18:41.026 [main] INFO  MatchingTool -       Operation: SCAN path=/api/Contacts
+2020-10-25 22:18:41.026 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=10:
+2020-10-25 22:18:41.026 [main] INFO  MatchingTool -       Operation: UPDATE path=/api/Contacts/{id}
+2020-10-25 22:18:41.026 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=10:
+2020-10-25 22:18:41.026 [main] INFO  MatchingTool -       Operation: DELETE path=/api/Contacts/{id}
+2020-10-25 22:18:41.031 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

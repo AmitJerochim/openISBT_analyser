@@ -1,0 +1,51 @@
+Will overwrite mapping file
+2020-10-25 22:10:26.407 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:10:26.408 [main] INFO  mapping.Mapper - -> /notes/types
+2020-10-25 22:10:26.408 [main] INFO  mapping.Mapper - -> /notes
+2020-10-25 22:10:26.408 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:10:26.423 [main] INFO  mapping.Mapper - Resource Mapping for /notes/types:
+2020-10-25 22:10:26.423 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:26.423 [main] INFO  mapping.Mapper -       Operation: CREATE path=/notes/types
+2020-10-25 22:10:26.423 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:10:26.423 [main] INFO  mapping.Mapper -       Operation: READ path=/notes/types/{id}
+2020-10-25 22:10:26.423 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:10:26.423 [main] INFO  mapping.Mapper -       Operation: SCAN path=/notes/types
+2020-10-25 22:10:26.423 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:10:26.423 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/notes/types/{id}
+2020-10-25 22:10:26.423 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:10:26.423 [main] INFO  mapping.Mapper -       Operation: DELETE path=/notes/types/{id}
+2020-10-25 22:10:26.432 [main] INFO  mapping.Mapper - Resource Mapping for /notes:
+2020-10-25 22:10:26.432 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:26.432 [main] INFO  mapping.Mapper -       Operation: CREATE path=/notes
+2020-10-25 22:10:26.432 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:10:26.433 [main] INFO  mapping.Mapper -       Operation: READ path=/notes/{id}
+2020-10-25 22:10:26.433 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:10:26.433 [main] INFO  mapping.Mapper -       Operation: SCAN path=/notes
+2020-10-25 22:10:26.433 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:10:26.433 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/notes/{id}
+2020-10-25 22:10:26.433 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:10:26.433 [main] INFO  mapping.Mapper -       Operation: DELETE path=/notes/{id}
+2020-10-25 22:10:26.433 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:10:26.433 [main] INFO  MatchingTool - Resource Mapping for /notes/types:
+2020-10-25 22:10:26.433 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=10:
+2020-10-25 22:10:26.433 [main] INFO  MatchingTool -       Operation: CREATE path=/notes/types
+2020-10-25 22:10:26.433 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=10:
+2020-10-25 22:10:26.433 [main] INFO  MatchingTool -       Operation: READ path=/notes/types/{id}
+2020-10-25 22:10:26.433 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=10:
+2020-10-25 22:10:26.433 [main] INFO  MatchingTool -       Operation: SCAN path=/notes/types
+2020-10-25 22:10:26.433 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=10:
+2020-10-25 22:10:26.433 [main] INFO  MatchingTool -       Operation: UPDATE path=/notes/types/{id}
+2020-10-25 22:10:26.434 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=10:
+2020-10-25 22:10:26.434 [main] INFO  MatchingTool -       Operation: DELETE path=/notes/types/{id}
+2020-10-25 22:10:26.434 [main] INFO  MatchingTool - Resource Mapping for /notes:
+2020-10-25 22:10:26.434 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=10:
+2020-10-25 22:10:26.434 [main] INFO  MatchingTool -       Operation: CREATE path=/notes
+2020-10-25 22:10:26.434 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=10:
+2020-10-25 22:10:26.434 [main] INFO  MatchingTool -       Operation: READ path=/notes/{id}
+2020-10-25 22:10:26.434 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=10:
+2020-10-25 22:10:26.434 [main] INFO  MatchingTool -       Operation: SCAN path=/notes
+2020-10-25 22:10:26.434 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=10:
+2020-10-25 22:10:26.434 [main] INFO  MatchingTool -       Operation: UPDATE path=/notes/{id}
+2020-10-25 22:10:26.434 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=10:
+2020-10-25 22:10:26.434 [main] INFO  MatchingTool -       Operation: DELETE path=/notes/{id}
+2020-10-25 22:10:26.439 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

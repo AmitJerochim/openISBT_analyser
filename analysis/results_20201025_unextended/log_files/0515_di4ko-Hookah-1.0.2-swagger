@@ -1,0 +1,132 @@
+Will overwrite mapping file
+2020-10-25 22:12:00.622 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:12:00.624 [main] INFO  mapping.Mapper - -> /account/preferences/update
+2020-10-25 22:12:00.624 [main] INFO  mapping.Mapper - -> /brands
+2020-10-25 22:12:00.624 [main] INFO  mapping.Mapper - -> /mixes/random/one
+2020-10-25 22:12:00.624 [main] INFO  mapping.Mapper - -> /mixes/popular
+2020-10-25 22:12:00.624 [main] INFO  mapping.Mapper - -> /mixes/like
+2020-10-25 22:12:00.624 [main] INFO  mapping.Mapper - -> /mixes/all
+2020-10-25 22:12:00.624 [main] INFO  mapping.Mapper - -> /mixes/compilations
+2020-10-25 22:12:00.624 [main] INFO  mapping.Mapper - -> /tastes
+2020-10-25 22:12:00.624 [main] INFO  mapping.Mapper - -> /mixes/week
+2020-10-25 22:12:00.624 [main] INFO  mapping.Mapper - -> /mixes
+2020-10-25 22:12:00.624 [main] INFO  mapping.Mapper - -> /account/preferences
+2020-10-25 22:12:00.624 [main] INFO  mapping.Mapper - -> /mixes/unlike
+2020-10-25 22:12:00.624 [main] INFO  mapping.Mapper - -> /mixes/random/tobacco
+2020-10-25 22:12:00.624 [main] INFO  mapping.Mapper - -> /account/auth_token
+2020-10-25 22:12:00.625 [main] INFO  mapping.Mapper - -> /mixes/random
+2020-10-25 22:12:00.625 [main] INFO  mapping.Mapper - -> /mixes/recommended
+2020-10-25 22:12:00.625 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:12:00.633 [main] INFO  mapping.Mapper - Resource Mapping for /account/preferences/update:
+2020-10-25 22:12:00.633 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:00.633 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:00.634 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:00.634 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:12:00.634 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/account/preferences/update
+2020-10-25 22:12:00.634 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:00.636 [main] INFO  mapping.Mapper - Resource Mapping for /brands:
+2020-10-25 22:12:00.637 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:00.637 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:00.637 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:12:00.637 [main] INFO  mapping.Mapper -       Operation: SCAN path=/brands
+2020-10-25 22:12:00.637 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:00.637 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:00.637 [main] INFO  mapping.Mapper - Resource Mapping for /mixes/random/one:
+2020-10-25 22:12:00.637 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:00.637 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:00.638 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:00.638 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:00.638 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:00.639 [main] INFO  mapping.Mapper - Resource Mapping for /mixes/popular:
+2020-10-25 22:12:00.640 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:00.640 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:00.640 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:12:00.640 [main] INFO  mapping.Mapper -       Operation: SCAN path=/mixes/popular
+2020-10-25 22:12:00.640 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:00.640 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:00.642 [main] INFO  mapping.Mapper - Resource Mapping for /mixes/like:
+2020-10-25 22:12:00.642 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:12:00.642 [main] INFO  mapping.Mapper -       Operation: CREATE path=/mixes/like/{mixId}
+2020-10-25 22:12:00.642 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:00.642 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:00.642 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:00.642 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:00.644 [main] INFO  mapping.Mapper - Resource Mapping for /mixes/all:
+2020-10-25 22:12:00.644 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:00.644 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:00.644 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:12:00.644 [main] INFO  mapping.Mapper -       Operation: SCAN path=/mixes/all
+2020-10-25 22:12:00.644 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:00.644 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:00.648 [main] INFO  mapping.Mapper - Resource Mapping for /mixes/compilations:
+2020-10-25 22:12:00.648 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:00.648 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:00.648 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:12:00.648 [main] INFO  mapping.Mapper -       Operation: SCAN path=/mixes/compilations/{compilationId}
+2020-10-25 22:12:00.648 [main] INFO  mapping.Mapper -       Operation: SCAN path=/mixes/compilations
+2020-10-25 22:12:00.648 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:00.648 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:00.648 [main] INFO  mapping.Mapper - Resource Mapping for /tastes:
+2020-10-25 22:12:00.648 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:00.648 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:00.648 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:00.649 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:00.649 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:00.650 [main] INFO  mapping.Mapper - Resource Mapping for /mixes/week:
+2020-10-25 22:12:00.650 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:00.650 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:00.650 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:12:00.651 [main] INFO  mapping.Mapper -       Operation: SCAN path=/mixes/week
+2020-10-25 22:12:00.651 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:00.651 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:00.654 [main] INFO  mapping.Mapper - Resource Mapping for /mixes:
+2020-10-25 22:12:00.654 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:00.654 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:00.654 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:12:00.654 [main] INFO  mapping.Mapper -       Operation: SCAN path=/mixes/{tobaccoId}
+2020-10-25 22:12:00.654 [main] INFO  mapping.Mapper -       Operation: SCAN path=/mixes
+2020-10-25 22:12:00.654 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:00.654 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:00.655 [main] INFO  mapping.Mapper - Resource Mapping for /account/preferences:
+2020-10-25 22:12:00.655 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:00.655 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:00.655 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:00.655 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:00.655 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:00.657 [main] INFO  mapping.Mapper - Resource Mapping for /mixes/unlike:
+2020-10-25 22:12:00.657 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:12:00.657 [main] INFO  mapping.Mapper -       Operation: CREATE path=/mixes/unlike/{mixId}
+2020-10-25 22:12:00.657 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:00.657 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:00.657 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:00.657 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:00.659 [main] INFO  mapping.Mapper - Resource Mapping for /mixes/random/tobacco:
+2020-10-25 22:12:00.660 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:12:00.660 [main] INFO  mapping.Mapper -       Operation: CREATE path=/mixes/random/tobacco
+2020-10-25 22:12:00.660 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:00.660 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:00.660 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:00.660 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:00.662 [main] INFO  mapping.Mapper - Resource Mapping for /account/auth_token:
+2020-10-25 22:12:00.662 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:12:00.662 [main] INFO  mapping.Mapper -       Operation: CREATE path=/account/auth_token
+2020-10-25 22:12:00.662 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:00.662 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:00.662 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:00.662 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:00.664 [main] INFO  mapping.Mapper - Resource Mapping for /mixes/random:
+2020-10-25 22:12:00.664 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:12:00.664 [main] INFO  mapping.Mapper -       Operation: CREATE path=/mixes/random
+2020-10-25 22:12:00.665 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:00.665 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:00.665 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:00.665 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:00.666 [main] INFO  mapping.Mapper - Resource Mapping for /mixes/recommended:
+2020-10-25 22:12:00.666 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:00.666 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:00.666 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:12:00.666 [main] INFO  mapping.Mapper -       Operation: SCAN path=/mixes/recommended
+2020-10-25 22:12:00.667 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:00.667 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:00.667 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:12:00.674 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

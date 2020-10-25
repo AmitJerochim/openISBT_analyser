@@ -1,0 +1,75 @@
+Will overwrite mapping file
+2020-10-25 22:13:22.928 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:13:22.930 [main] INFO  mapping.Mapper - -> /facebook
+2020-10-25 22:13:22.930 [main] INFO  mapping.Mapper - -> /apple
+2020-10-25 22:13:22.930 [main] INFO  mapping.Mapper - -> /user/registration
+2020-10-25 22:13:22.930 [main] INFO  mapping.Mapper - -> /authentication
+2020-10-25 22:13:22.930 [main] INFO  mapping.Mapper - -> /scheduling
+2020-10-25 22:13:22.930 [main] INFO  mapping.Mapper - -> /request/submit
+2020-10-25 22:13:22.930 [main] INFO  mapping.Mapper - -> /user/contact_info
+2020-10-25 22:13:22.930 [main] INFO  mapping.Mapper - -> /user/history
+2020-10-25 22:13:22.930 [main] INFO  mapping.Mapper - -> /user/change_password
+2020-10-25 22:13:22.930 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:13:22.939 [main] INFO  mapping.Mapper - Resource Mapping for /facebook:
+2020-10-25 22:13:22.939 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:22.939 [main] INFO  mapping.Mapper -       Operation: CREATE path=/facebook
+2020-10-25 22:13:22.939 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:22.939 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:22.939 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:22.939 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:22.943 [main] INFO  mapping.Mapper - Resource Mapping for /apple:
+2020-10-25 22:13:22.943 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:22.943 [main] INFO  mapping.Mapper -       Operation: CREATE path=/apple
+2020-10-25 22:13:22.943 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:22.943 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:22.943 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:22.943 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:22.946 [main] INFO  mapping.Mapper - Resource Mapping for /user/registration:
+2020-10-25 22:13:22.947 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:22.947 [main] INFO  mapping.Mapper -       Operation: CREATE path=/user/registration
+2020-10-25 22:13:22.947 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:22.947 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:22.947 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:22.947 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:22.950 [main] INFO  mapping.Mapper - Resource Mapping for /authentication:
+2020-10-25 22:13:22.951 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:22.951 [main] INFO  mapping.Mapper -       Operation: CREATE path=/authentication
+2020-10-25 22:13:22.951 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:22.951 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:22.951 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:22.951 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:22.954 [main] INFO  mapping.Mapper - Resource Mapping for /scheduling:
+2020-10-25 22:13:22.955 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:22.955 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:13:22.955 [main] INFO  mapping.Mapper -       Operation: READ path=/scheduling/{postal_code}
+2020-10-25 22:13:22.955 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:22.955 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:22.955 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:22.959 [main] INFO  mapping.Mapper - Resource Mapping for /request/submit:
+2020-10-25 22:13:22.959 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:22.959 [main] INFO  mapping.Mapper -       Operation: CREATE path=/request/submit
+2020-10-25 22:13:22.959 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:22.959 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:22.959 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:22.959 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:22.959 [main] INFO  mapping.Mapper - Resource Mapping for /user/contact_info:
+2020-10-25 22:13:22.959 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:22.959 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:22.959 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:22.959 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:22.959 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:22.960 [main] INFO  mapping.Mapper - Resource Mapping for /user/history:
+2020-10-25 22:13:22.960 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:22.960 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:22.960 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:22.960 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:22.960 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:22.963 [main] INFO  mapping.Mapper - Resource Mapping for /user/change_password:
+2020-10-25 22:13:22.963 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:22.963 [main] INFO  mapping.Mapper -       Operation: CREATE path=/user/change_password
+2020-10-25 22:13:22.963 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:22.964 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:22.964 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:22.964 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:22.964 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:13:22.969 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

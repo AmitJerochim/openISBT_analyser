@@ -1,0 +1,38 @@
+Will overwrite mapping file
+2020-10-25 22:15:04.724 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:15:04.725 [main] INFO  mapping.Mapper - -> /watchlist
+2020-10-25 22:15:04.725 [main] INFO  mapping.Mapper - -> /login
+2020-10-25 22:15:04.725 [main] INFO  mapping.Mapper - -> /movies
+2020-10-25 22:15:04.725 [main] INFO  mapping.Mapper - -> /categories
+2020-10-25 22:15:04.725 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:15:04.736 [main] INFO  mapping.Mapper - Resource Mapping for /watchlist:
+2020-10-25 22:15:04.736 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:04.736 [main] INFO  mapping.Mapper -       Operation: CREATE path=/watchlist
+2020-10-25 22:15:04.736 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:04.736 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:15:04.736 [main] INFO  mapping.Mapper -       Operation: SCAN path=/watchlist
+2020-10-25 22:15:04.736 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:04.736 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:04.740 [main] INFO  mapping.Mapper - Resource Mapping for /login:
+2020-10-25 22:15:04.740 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:04.740 [main] INFO  mapping.Mapper -       Operation: CREATE path=/login
+2020-10-25 22:15:04.740 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:04.740 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:04.740 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:04.741 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:04.743 [main] INFO  mapping.Mapper - Resource Mapping for /movies:
+2020-10-25 22:15:04.743 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:04.743 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:04.743 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:15:04.743 [main] INFO  mapping.Mapper -       Operation: SCAN path=/movies
+2020-10-25 22:15:04.744 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:04.744 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:04.746 [main] INFO  mapping.Mapper - Resource Mapping for /categories:
+2020-10-25 22:15:04.746 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:04.746 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:04.746 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:15:04.746 [main] INFO  mapping.Mapper -       Operation: SCAN path=/categories
+2020-10-25 22:15:04.746 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:04.746 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:04.746 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:15:04.751 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

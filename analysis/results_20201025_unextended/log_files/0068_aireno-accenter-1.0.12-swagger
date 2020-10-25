@@ -1,0 +1,45 @@
+Will overwrite mapping file
+2020-10-25 22:08:50.616 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:08:50.617 [main] INFO  mapping.Mapper - -> /version
+2020-10-25 22:08:50.617 [main] INFO  mapping.Mapper - -> /accent
+2020-10-25 22:08:50.617 [main] INFO  mapping.Mapper - -> /prefixes
+2020-10-25 22:08:50.617 [main] INFO  mapping.Mapper - -> /accentstream
+2020-10-25 22:08:50.617 [main] INFO  mapping.Mapper - -> /syllables
+2020-10-25 22:08:50.617 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:08:50.620 [main] INFO  mapping.Mapper - Resource Mapping for /version:
+2020-10-25 22:08:50.620 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:08:50.620 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:08:50.620 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:50.620 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:50.620 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:50.632 [main] INFO  mapping.Mapper - Resource Mapping for /accent:
+2020-10-25 22:08:50.632 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:08:50.632 [main] INFO  mapping.Mapper -       Operation: CREATE path=/accent
+2020-10-25 22:08:50.632 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:08:50.632 [main] INFO  mapping.Mapper -       Operation: READ path=/accent/{word}
+2020-10-25 22:08:50.632 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:50.632 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:50.632 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:50.634 [main] INFO  mapping.Mapper - Resource Mapping for /prefixes:
+2020-10-25 22:08:50.635 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:08:50.635 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:08:50.635 [main] INFO  mapping.Mapper -       Operation: READ path=/prefixes/{word}
+2020-10-25 22:08:50.635 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:50.635 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:50.635 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:50.637 [main] INFO  mapping.Mapper - Resource Mapping for /accentstream:
+2020-10-25 22:08:50.637 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:08:50.637 [main] INFO  mapping.Mapper -       Operation: CREATE path=/accentstream
+2020-10-25 22:08:50.638 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:08:50.638 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:50.638 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:50.638 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:50.640 [main] INFO  mapping.Mapper - Resource Mapping for /syllables:
+2020-10-25 22:08:50.640 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:08:50.640 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:08:50.640 [main] INFO  mapping.Mapper -       Operation: READ path=/syllables/{word}
+2020-10-25 22:08:50.640 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:50.640 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:50.640 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:50.640 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:08:50.646 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,212 @@
+Will overwrite mapping file
+2020-10-25 22:09:24.299 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:09:24.300 [main] INFO  mapping.Mapper - -> /document_scanner/get_status
+2020-10-25 22:09:24.300 [main] INFO  mapping.Mapper - -> /barcode_scanner/start
+2020-10-25 22:09:24.301 [main] INFO  mapping.Mapper - -> /pay_and_dispense/cancel
+2020-10-25 22:09:24.301 [main] INFO  mapping.Mapper - -> /barcode_scanner/get_status
+2020-10-25 22:09:24.301 [main] INFO  mapping.Mapper - -> /fingerprint_scanner/get_status
+2020-10-25 22:09:24.301 [main] INFO  mapping.Mapper - -> /initiate_transaction
+2020-10-25 22:09:24.301 [main] INFO  mapping.Mapper - -> /sim_dispenser/readICCID
+2020-10-25 22:09:24.301 [main] INFO  mapping.Mapper - -> /sim_dispenser/dispense_sim
+2020-10-25 22:09:24.301 [main] INFO  mapping.Mapper - -> /printer/get_status
+2020-10-25 22:09:24.301 [main] INFO  mapping.Mapper - -> /pos/initiate_payment/cancel
+2020-10-25 22:09:24.301 [main] INFO  mapping.Mapper - -> /fingerprint_scanner/start
+2020-10-25 22:09:24.301 [main] INFO  mapping.Mapper - -> /sim_dispenser/get_status
+2020-10-25 22:09:24.301 [main] INFO  mapping.Mapper - -> /pos/initiate_payment
+2020-10-25 22:09:24.301 [main] INFO  mapping.Mapper - -> /pay_and_dispense
+2020-10-25 22:09:24.301 [main] INFO  mapping.Mapper - -> /printer/print
+2020-10-25 22:09:24.301 [main] INFO  mapping.Mapper - -> /document_scanner/get_data
+2020-10-25 22:09:24.301 [main] INFO  mapping.Mapper - -> /get_device_info
+2020-10-25 22:09:24.301 [main] INFO  mapping.Mapper - -> /camera/take_picture
+2020-10-25 22:09:24.301 [main] INFO  mapping.Mapper - -> /pos/payment_status
+2020-10-25 22:09:24.301 [main] INFO  mapping.Mapper - -> /document_scanner/start
+2020-10-25 22:09:24.301 [main] INFO  mapping.Mapper - -> /ups/get_status
+2020-10-25 22:09:24.301 [main] INFO  mapping.Mapper - -> /camera/get_status
+2020-10-25 22:09:24.301 [main] INFO  mapping.Mapper - -> /get_hardware_status
+2020-10-25 22:09:24.302 [main] INFO  mapping.Mapper - -> /barcode_scanner/stop
+2020-10-25 22:09:24.302 [main] INFO  mapping.Mapper - -> /fingerprint_scanner/stop
+2020-10-25 22:09:24.302 [main] INFO  mapping.Mapper - -> /sim_dispenser/reject_sim
+2020-10-25 22:09:24.302 [main] INFO  mapping.Mapper - -> /document_scanner/stop
+2020-10-25 22:09:24.302 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:09:24.306 [main] INFO  mapping.Mapper - Resource Mapping for /document_scanner/get_status:
+2020-10-25 22:09:24.307 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:24.307 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.307 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.307 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.307 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.312 [main] INFO  mapping.Mapper - Resource Mapping for /barcode_scanner/start:
+2020-10-25 22:09:24.312 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:24.312 [main] INFO  mapping.Mapper -       Operation: CREATE path=/barcode_scanner/start
+2020-10-25 22:09:24.312 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.312 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.312 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.312 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.314 [main] INFO  mapping.Mapper - Resource Mapping for /pay_and_dispense/cancel:
+2020-10-25 22:09:24.315 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:24.315 [main] INFO  mapping.Mapper -       Operation: CREATE path=/pay_and_dispense/cancel
+2020-10-25 22:09:24.315 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.324 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.325 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.325 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.325 [main] INFO  mapping.Mapper - Resource Mapping for /barcode_scanner/get_status:
+2020-10-25 22:09:24.325 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:24.325 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.325 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.325 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.326 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.326 [main] INFO  mapping.Mapper - Resource Mapping for /fingerprint_scanner/get_status:
+2020-10-25 22:09:24.326 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:24.326 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.326 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.326 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.326 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.328 [main] INFO  mapping.Mapper - Resource Mapping for /initiate_transaction:
+2020-10-25 22:09:24.329 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:24.329 [main] INFO  mapping.Mapper -       Operation: CREATE path=/initiate_transaction
+2020-10-25 22:09:24.329 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.329 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.329 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.329 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.331 [main] INFO  mapping.Mapper - Resource Mapping for /sim_dispenser/readICCID:
+2020-10-25 22:09:24.331 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:24.331 [main] INFO  mapping.Mapper -       Operation: CREATE path=/sim_dispenser/readICCID
+2020-10-25 22:09:24.331 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.331 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.331 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.331 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.333 [main] INFO  mapping.Mapper - Resource Mapping for /sim_dispenser/dispense_sim:
+2020-10-25 22:09:24.333 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:24.333 [main] INFO  mapping.Mapper -       Operation: CREATE path=/sim_dispenser/dispense_sim
+2020-10-25 22:09:24.333 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.334 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.334 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.334 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.334 [main] INFO  mapping.Mapper - Resource Mapping for /printer/get_status:
+2020-10-25 22:09:24.334 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:24.334 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.334 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.334 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.334 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.336 [main] INFO  mapping.Mapper - Resource Mapping for /pos/initiate_payment/cancel:
+2020-10-25 22:09:24.336 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:24.336 [main] INFO  mapping.Mapper -       Operation: CREATE path=/pos/initiate_payment/cancel
+2020-10-25 22:09:24.336 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.336 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.337 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.337 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.338 [main] INFO  mapping.Mapper - Resource Mapping for /fingerprint_scanner/start:
+2020-10-25 22:09:24.339 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:24.339 [main] INFO  mapping.Mapper -       Operation: CREATE path=/fingerprint_scanner/start
+2020-10-25 22:09:24.339 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.339 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.339 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.339 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.339 [main] INFO  mapping.Mapper - Resource Mapping for /sim_dispenser/get_status:
+2020-10-25 22:09:24.339 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:24.339 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.339 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.340 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.340 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.342 [main] INFO  mapping.Mapper - Resource Mapping for /pos/initiate_payment:
+2020-10-25 22:09:24.342 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:24.342 [main] INFO  mapping.Mapper -       Operation: CREATE path=/pos/initiate_payment
+2020-10-25 22:09:24.342 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.342 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.342 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.342 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.345 [main] INFO  mapping.Mapper - Resource Mapping for /pay_and_dispense:
+2020-10-25 22:09:24.345 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:24.345 [main] INFO  mapping.Mapper -       Operation: CREATE path=/pay_and_dispense
+2020-10-25 22:09:24.345 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:09:24.345 [main] INFO  mapping.Mapper -       Operation: READ path=/pay_and_dispense/{transaction_id}
+2020-10-25 22:09:24.345 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.345 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.345 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.348 [main] INFO  mapping.Mapper - Resource Mapping for /printer/print:
+2020-10-25 22:09:24.348 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:24.348 [main] INFO  mapping.Mapper -       Operation: CREATE path=/printer/print
+2020-10-25 22:09:24.349 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.349 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.349 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.349 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.349 [main] INFO  mapping.Mapper - Resource Mapping for /document_scanner/get_data:
+2020-10-25 22:09:24.350 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:24.350 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.350 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.350 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.350 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.350 [main] INFO  mapping.Mapper - Resource Mapping for /get_device_info:
+2020-10-25 22:09:24.350 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:24.350 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.350 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.350 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.350 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.352 [main] INFO  mapping.Mapper - Resource Mapping for /camera/take_picture:
+2020-10-25 22:09:24.352 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:24.353 [main] INFO  mapping.Mapper -       Operation: CREATE path=/camera/take_picture
+2020-10-25 22:09:24.353 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.353 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.353 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.353 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.354 [main] INFO  mapping.Mapper - Resource Mapping for /pos/payment_status:
+2020-10-25 22:09:24.355 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:24.355 [main] INFO  mapping.Mapper -       Operation: CREATE path=/pos/payment_status
+2020-10-25 22:09:24.355 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.355 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.355 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.355 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.357 [main] INFO  mapping.Mapper - Resource Mapping for /document_scanner/start:
+2020-10-25 22:09:24.357 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:24.357 [main] INFO  mapping.Mapper -       Operation: CREATE path=/document_scanner/start
+2020-10-25 22:09:24.357 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.357 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.357 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.357 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.357 [main] INFO  mapping.Mapper - Resource Mapping for /ups/get_status:
+2020-10-25 22:09:24.357 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:24.357 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.357 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.357 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.357 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.358 [main] INFO  mapping.Mapper - Resource Mapping for /camera/get_status:
+2020-10-25 22:09:24.358 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:24.358 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.358 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.358 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.358 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.358 [main] INFO  mapping.Mapper - Resource Mapping for /get_hardware_status:
+2020-10-25 22:09:24.358 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:24.358 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.358 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.358 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.359 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.360 [main] INFO  mapping.Mapper - Resource Mapping for /barcode_scanner/stop:
+2020-10-25 22:09:24.361 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:24.361 [main] INFO  mapping.Mapper -       Operation: CREATE path=/barcode_scanner/stop
+2020-10-25 22:09:24.361 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.361 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.361 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.361 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.362 [main] INFO  mapping.Mapper - Resource Mapping for /fingerprint_scanner/stop:
+2020-10-25 22:09:24.363 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:24.363 [main] INFO  mapping.Mapper -       Operation: CREATE path=/fingerprint_scanner/stop
+2020-10-25 22:09:24.363 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.363 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.363 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.363 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.364 [main] INFO  mapping.Mapper - Resource Mapping for /sim_dispenser/reject_sim:
+2020-10-25 22:09:24.364 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:24.364 [main] INFO  mapping.Mapper -       Operation: CREATE path=/sim_dispenser/reject_sim
+2020-10-25 22:09:24.365 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.365 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.365 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.365 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.366 [main] INFO  mapping.Mapper - Resource Mapping for /document_scanner/stop:
+2020-10-25 22:09:24.366 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:24.366 [main] INFO  mapping.Mapper -       Operation: CREATE path=/document_scanner/stop
+2020-10-25 22:09:24.366 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:24.366 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:24.366 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:24.367 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:24.367 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:09:24.375 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

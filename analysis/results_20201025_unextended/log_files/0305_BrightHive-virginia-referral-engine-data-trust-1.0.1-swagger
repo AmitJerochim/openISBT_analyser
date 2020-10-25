@@ -1,0 +1,95 @@
+Will overwrite mapping file
+2020-10-25 22:10:51.915 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:10:51.917 [main] INFO  mapping.Mapper - -> /data-resources/referrals
+2020-10-25 22:10:51.917 [main] INFO  mapping.Mapper - -> /data-resources/myjourney/users
+2020-10-25 22:10:51.917 [main] INFO  mapping.Mapper - -> /data-resources/providers
+2020-10-25 22:10:51.917 [main] INFO  mapping.Mapper - -> /master-client-index/employment_status
+2020-10-25 22:10:51.917 [main] INFO  mapping.Mapper - -> /master-client-index/gender
+2020-10-25 22:10:51.917 [main] INFO  mapping.Mapper - -> /master-client-index/education_level
+2020-10-25 22:10:51.917 [main] INFO  mapping.Mapper - -> /data-resources/referrals/query
+2020-10-25 22:10:51.917 [main] INFO  mapping.Mapper - -> /master-client-index/health
+2020-10-25 22:10:51.917 [main] INFO  mapping.Mapper - -> /data-resources/programs
+2020-10-25 22:10:51.917 [main] INFO  mapping.Mapper - -> /master-client-index/ethnicity
+2020-10-25 22:10:51.917 [main] INFO  mapping.Mapper - -> /master-client-index/users
+2020-10-25 22:10:51.917 [main] INFO  mapping.Mapper - -> /master-client-index/source
+2020-10-25 22:10:51.917 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:10:51.929 [main] INFO  mapping.Mapper - Resource Mapping for /data-resources/referrals:
+2020-10-25 22:10:51.929 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:51.929 [main] INFO  mapping.Mapper -       Operation: CREATE path=/data-resources/referrals
+2020-10-25 22:10:51.929 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:10:51.929 [main] INFO  mapping.Mapper -       Operation: READ path=/data-resources/referrals/{referral_id}
+2020-10-25 22:10:51.929 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:51.929 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:51.929 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:51.931 [main] INFO  mapping.Mapper - Resource Mapping for /data-resources/myjourney/users:
+2020-10-25 22:10:51.932 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:51.932 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:10:51.932 [main] INFO  mapping.Mapper -       Operation: READ path=/data-resources/myjourney/users/{user_id}
+2020-10-25 22:10:51.932 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:51.932 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:51.932 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:51.932 [main] INFO  mapping.Mapper - Resource Mapping for /data-resources/providers:
+2020-10-25 22:10:51.932 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:51.932 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:51.932 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:51.932 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:51.933 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:51.933 [main] INFO  mapping.Mapper - Resource Mapping for /master-client-index/employment_status:
+2020-10-25 22:10:51.933 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:51.933 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:51.933 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:51.933 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:51.933 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:51.934 [main] INFO  mapping.Mapper - Resource Mapping for /master-client-index/gender:
+2020-10-25 22:10:51.934 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:51.934 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:51.934 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:51.934 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:51.934 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:51.934 [main] INFO  mapping.Mapper - Resource Mapping for /master-client-index/education_level:
+2020-10-25 22:10:51.934 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:51.934 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:51.935 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:51.935 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:51.935 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:51.937 [main] INFO  mapping.Mapper - Resource Mapping for /data-resources/referrals/query:
+2020-10-25 22:10:51.938 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:51.938 [main] INFO  mapping.Mapper -       Operation: CREATE path=/data-resources/referrals/query
+2020-10-25 22:10:51.938 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:51.938 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:51.938 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:51.938 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:51.938 [main] INFO  mapping.Mapper - Resource Mapping for /master-client-index/health:
+2020-10-25 22:10:51.938 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:51.938 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:51.938 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:51.939 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:51.939 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:51.939 [main] INFO  mapping.Mapper - Resource Mapping for /data-resources/programs:
+2020-10-25 22:10:51.939 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:51.939 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:51.939 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:51.939 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:51.939 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:51.939 [main] INFO  mapping.Mapper - Resource Mapping for /master-client-index/ethnicity:
+2020-10-25 22:10:51.940 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:51.940 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:51.940 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:51.940 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:51.940 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:51.945 [main] INFO  mapping.Mapper - Resource Mapping for /master-client-index/users:
+2020-10-25 22:10:51.945 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:51.945 [main] INFO  mapping.Mapper -       Operation: CREATE path=/master-client-index/users
+2020-10-25 22:10:51.945 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:10:51.945 [main] INFO  mapping.Mapper -       Operation: READ path=/master-client-index/users/{mci_id}
+2020-10-25 22:10:51.945 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:51.945 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:51.945 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:51.945 [main] INFO  mapping.Mapper - Resource Mapping for /master-client-index/source:
+2020-10-25 22:10:51.945 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:51.946 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:51.946 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:51.946 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:51.946 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:51.946 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:10:51.952 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

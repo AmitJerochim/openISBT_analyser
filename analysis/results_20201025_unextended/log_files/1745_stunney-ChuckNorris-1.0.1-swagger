@@ -1,0 +1,29 @@
+Will overwrite mapping file
+2020-10-25 22:19:32.070 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:19:32.072 [main] INFO  mapping.Mapper - -> /jokes/categories
+2020-10-25 22:19:32.072 [main] INFO  mapping.Mapper - -> /jokes/random
+2020-10-25 22:19:32.072 [main] INFO  mapping.Mapper - -> /jokes/search
+2020-10-25 22:19:32.072 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:19:32.078 [main] INFO  mapping.Mapper - Resource Mapping for /jokes/categories:
+2020-10-25 22:19:32.079 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:32.079 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:32.079 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:19:32.079 [main] INFO  mapping.Mapper -       Operation: SCAN path=/jokes/categories
+2020-10-25 22:19:32.079 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:32.079 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:32.084 [main] INFO  mapping.Mapper - Resource Mapping for /jokes/random:
+2020-10-25 22:19:32.084 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:32.084 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:32.084 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:19:32.084 [main] INFO  mapping.Mapper -       Operation: SCAN path=/jokes/random
+2020-10-25 22:19:32.084 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:32.084 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:32.087 [main] INFO  mapping.Mapper - Resource Mapping for /jokes/search:
+2020-10-25 22:19:32.087 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:32.087 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:32.087 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:19:32.087 [main] INFO  mapping.Mapper -       Operation: SCAN path=/jokes/search
+2020-10-25 22:19:32.087 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:32.087 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:32.087 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:19:32.092 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

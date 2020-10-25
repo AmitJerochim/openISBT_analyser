@@ -1,0 +1,85 @@
+Will overwrite mapping file
+2020-10-25 22:17:52.614 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:17:52.616 [main] INFO  mapping.Mapper - -> /api/documents/credit-note/enrich
+2020-10-25 22:17:52.616 [main] INFO  mapping.Mapper - -> /api/documents/credit-note/create
+2020-10-25 22:17:52.616 [main] INFO  mapping.Mapper - -> /api/documents/invoice/enrich
+2020-10-25 22:17:52.616 [main] INFO  mapping.Mapper - -> /api/documents/invoice/create
+2020-10-25 22:17:52.616 [main] INFO  mapping.Mapper - -> /api/documents/debit-note/create
+2020-10-25 22:17:52.616 [main] INFO  mapping.Mapper - -> /api/documents/debit-note/enrich
+2020-10-25 22:17:52.616 [main] INFO  mapping.Mapper - -> /api/documents/summary-document/create
+2020-10-25 22:17:52.616 [main] INFO  mapping.Mapper - -> /api/documents/summary-document/enrich
+2020-10-25 22:17:52.616 [main] INFO  mapping.Mapper - -> /api/documents/voided-document/create
+2020-10-25 22:17:52.616 [main] INFO  mapping.Mapper - -> /api/documents/voided-document/enrich
+2020-10-25 22:17:52.617 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:17:52.627 [main] INFO  mapping.Mapper - Resource Mapping for /api/documents/credit-note/enrich:
+2020-10-25 22:17:52.627 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:52.627 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/documents/credit-note/enrich
+2020-10-25 22:17:52.627 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:52.627 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:52.627 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:52.627 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:52.631 [main] INFO  mapping.Mapper - Resource Mapping for /api/documents/credit-note/create:
+2020-10-25 22:17:52.632 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:52.632 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/documents/credit-note/create
+2020-10-25 22:17:52.632 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:52.632 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:52.632 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:52.632 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:52.636 [main] INFO  mapping.Mapper - Resource Mapping for /api/documents/invoice/enrich:
+2020-10-25 22:17:52.636 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:52.636 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/documents/invoice/enrich
+2020-10-25 22:17:52.636 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:52.636 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:52.636 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:52.637 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:52.640 [main] INFO  mapping.Mapper - Resource Mapping for /api/documents/invoice/create:
+2020-10-25 22:17:52.641 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:52.641 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/documents/invoice/create
+2020-10-25 22:17:52.641 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:52.641 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:52.641 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:52.641 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:52.645 [main] INFO  mapping.Mapper - Resource Mapping for /api/documents/debit-note/create:
+2020-10-25 22:17:52.645 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:52.645 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/documents/debit-note/create
+2020-10-25 22:17:52.645 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:52.645 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:52.645 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:52.645 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:52.649 [main] INFO  mapping.Mapper - Resource Mapping for /api/documents/debit-note/enrich:
+2020-10-25 22:17:52.649 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:52.649 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/documents/debit-note/enrich
+2020-10-25 22:17:52.649 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:52.649 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:52.649 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:52.649 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:52.653 [main] INFO  mapping.Mapper - Resource Mapping for /api/documents/summary-document/create:
+2020-10-25 22:17:52.653 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:52.653 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/documents/summary-document/create
+2020-10-25 22:17:52.653 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:52.653 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:52.653 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:52.653 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:52.657 [main] INFO  mapping.Mapper - Resource Mapping for /api/documents/summary-document/enrich:
+2020-10-25 22:17:52.657 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:52.657 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/documents/summary-document/enrich
+2020-10-25 22:17:52.657 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:52.657 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:52.657 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:52.657 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:52.661 [main] INFO  mapping.Mapper - Resource Mapping for /api/documents/voided-document/create:
+2020-10-25 22:17:52.661 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:52.661 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/documents/voided-document/create
+2020-10-25 22:17:52.661 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:52.661 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:52.661 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:52.661 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:52.665 [main] INFO  mapping.Mapper - Resource Mapping for /api/documents/voided-document/enrich:
+2020-10-25 22:17:52.665 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:52.665 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/documents/voided-document/enrich
+2020-10-25 22:17:52.665 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:52.665 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:52.665 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:52.665 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:52.665 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:17:52.672 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

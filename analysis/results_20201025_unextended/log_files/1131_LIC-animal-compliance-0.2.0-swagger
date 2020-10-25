@@ -1,0 +1,23 @@
+Will overwrite mapping file
+2020-10-25 22:15:46.928 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:15:46.929 [main] INFO  mapping.Mapper - -> /tags
+2020-10-25 22:15:46.930 [main] INFO  mapping.Mapper - -> /movement
+2020-10-25 22:15:46.930 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:15:46.941 [main] INFO  mapping.Mapper - Resource Mapping for /tags:
+2020-10-25 22:15:46.941 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:46.941 [main] INFO  mapping.Mapper -       Operation: CREATE path=/tags/{participantCode}
+2020-10-25 22:15:46.941 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:15:46.941 [main] INFO  mapping.Mapper -       Operation: READ path=/tags/{participantCode}
+2020-10-25 22:15:46.941 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:46.941 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:46.941 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:46.947 [main] INFO  mapping.Mapper - Resource Mapping for /movement:
+2020-10-25 22:15:46.948 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:46.948 [main] INFO  mapping.Mapper -       Operation: CREATE path=/movement/{animalIdentifier}
+2020-10-25 22:15:46.948 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:15:46.948 [main] INFO  mapping.Mapper -       Operation: READ path=/movement/{animalIdentifier}
+2020-10-25 22:15:46.948 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:46.948 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:46.948 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:46.948 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:15:46.952 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

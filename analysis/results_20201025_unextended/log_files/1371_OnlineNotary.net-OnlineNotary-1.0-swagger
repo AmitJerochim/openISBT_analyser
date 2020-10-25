@@ -1,0 +1,21 @@
+Will overwrite mapping file
+2020-10-25 22:17:12.738 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:17:12.739 [main] INFO  mapping.Mapper - -> /client/upload
+2020-10-25 22:17:12.739 [main] INFO  mapping.Mapper - -> /client/document
+2020-10-25 22:17:12.739 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:17:12.749 [main] INFO  mapping.Mapper - Resource Mapping for /client/upload:
+2020-10-25 22:17:12.749 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:12.749 [main] INFO  mapping.Mapper -       Operation: CREATE path=/client/upload
+2020-10-25 22:17:12.749 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:12.749 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:12.749 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:12.749 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:12.753 [main] INFO  mapping.Mapper - Resource Mapping for /client/document:
+2020-10-25 22:17:12.753 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:12.753 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:12.753 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:17:12.753 [main] INFO  mapping.Mapper -       Operation: SCAN path=/client/document/{document_uuid}
+2020-10-25 22:17:12.753 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:12.753 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:12.753 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:17:12.758 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

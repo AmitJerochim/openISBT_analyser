@@ -1,0 +1,22 @@
+Will overwrite mapping file
+2020-10-25 22:19:19.348 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:19:19.349 [main] INFO  mapping.Mapper - -> /reports
+2020-10-25 22:19:19.349 [main] INFO  mapping.Mapper - -> /report-comments
+2020-10-25 22:19:19.349 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:19:19.362 [main] INFO  mapping.Mapper - Resource Mapping for /reports:
+2020-10-25 22:19:19.362 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:19.362 [main] INFO  mapping.Mapper -       Operation: CREATE path=/reports
+2020-10-25 22:19:19.362 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:19:19.362 [main] INFO  mapping.Mapper -       Operation: READ path=/reports/{uuid}
+2020-10-25 22:19:19.362 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:19.362 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:19.362 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:19.364 [main] INFO  mapping.Mapper - Resource Mapping for /report-comments:
+2020-10-25 22:19:19.365 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:19.365 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:19:19.365 [main] INFO  mapping.Mapper -       Operation: READ path=/report-comments/{uuid}
+2020-10-25 22:19:19.365 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:19.365 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:19.365 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:19.365 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:19:19.370 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

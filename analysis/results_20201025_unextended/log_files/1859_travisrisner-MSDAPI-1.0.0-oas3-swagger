@@ -1,0 +1,37 @@
+Will overwrite mapping file
+2020-10-25 22:20:44.525 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:20:44.527 [main] INFO  mapping.Mapper - -> /digitization/status
+2020-10-25 22:20:44.527 [main] INFO  mapping.Mapper - -> /digitization/results
+2020-10-25 22:20:44.527 [main] INFO  mapping.Mapper - -> /digitization/request
+2020-10-25 22:20:44.527 [main] INFO  mapping.Mapper - -> /digitization/results/file
+2020-10-25 22:20:44.527 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:20:44.535 [main] INFO  mapping.Mapper - Resource Mapping for /digitization/status:
+2020-10-25 22:20:44.535 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:20:44.535 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:20:44.536 [main] INFO  mapping.Mapper -       Operation: READ path=/digitization/status/{referenceNumber}
+2020-10-25 22:20:44.536 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:20:44.536 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:20:44.536 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:20:44.538 [main] INFO  mapping.Mapper - Resource Mapping for /digitization/results:
+2020-10-25 22:20:44.539 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:20:44.539 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:20:44.539 [main] INFO  mapping.Mapper -       Operation: READ path=/digitization/results/{referenceNumber}
+2020-10-25 22:20:44.539 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:20:44.539 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:20:44.539 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:20:44.542 [main] INFO  mapping.Mapper - Resource Mapping for /digitization/request:
+2020-10-25 22:20:44.543 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:20:44.543 [main] INFO  mapping.Mapper -       Operation: CREATE path=/digitization/request
+2020-10-25 22:20:44.543 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:20:44.543 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:20:44.543 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:20:44.543 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:20:44.545 [main] INFO  mapping.Mapper - Resource Mapping for /digitization/results/file:
+2020-10-25 22:20:44.546 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:20:44.546 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:20:44.546 [main] INFO  mapping.Mapper -       Operation: READ path=/digitization/results/file/{fileId}
+2020-10-25 22:20:44.546 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:20:44.546 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:20:44.546 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:20:44.546 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:20:44.551 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

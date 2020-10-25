@@ -1,0 +1,220 @@
+Will overwrite mapping file
+2020-10-25 22:18:36.629 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:18:36.631 [main] INFO  mapping.Mapper - -> /org/sites
+2020-10-25 22:18:36.631 [main] INFO  mapping.Mapper - -> /org/assets
+2020-10-25 22:18:36.631 [main] INFO  mapping.Mapper - -> /org
+2020-10-25 22:18:36.631 [main] INFO  mapping.Mapper - -> /export/org/assets.jsonl
+2020-10-25 22:18:36.631 [main] INFO  mapping.Mapper - -> /export/org/assets/sync/updated/assets.json
+2020-10-25 22:18:36.631 [main] INFO  mapping.Mapper - -> /org/agents
+2020-10-25 22:18:36.631 [main] INFO  mapping.Mapper - -> /org/tasks
+2020-10-25 22:18:36.631 [main] INFO  mapping.Mapper - -> /export/org/wireless.json
+2020-10-25 22:18:36.631 [main] INFO  mapping.Mapper - -> /org/services
+2020-10-25 22:18:36.631 [main] INFO  mapping.Mapper - -> /releases/scanner/version
+2020-10-25 22:18:36.631 [main] INFO  mapping.Mapper - -> /org/key
+2020-10-25 22:18:36.631 [main] INFO  mapping.Mapper - -> /export/org/wireless.jsonl
+2020-10-25 22:18:36.631 [main] INFO  mapping.Mapper - -> /export/org/sites.jsonl
+2020-10-25 22:18:36.632 [main] INFO  mapping.Mapper - -> /export/org/services.csv
+2020-10-25 22:18:36.632 [main] INFO  mapping.Mapper - -> /releases/agent/version
+2020-10-25 22:18:36.632 [main] INFO  mapping.Mapper - -> /export/org/services.jsonl
+2020-10-25 22:18:36.632 [main] INFO  mapping.Mapper - -> /export/org/assets.nmap.xml
+2020-10-25 22:18:36.632 [main] INFO  mapping.Mapper - -> /org/wirelesss
+2020-10-25 22:18:36.632 [main] INFO  mapping.Mapper - -> /export/org/assets.json
+2020-10-25 22:18:36.632 [main] INFO  mapping.Mapper - -> /export/org/assets.csv
+2020-10-25 22:18:36.632 [main] INFO  mapping.Mapper - -> /export/org/services.json
+2020-10-25 22:18:36.632 [main] INFO  mapping.Mapper - -> /export/org/wireless.csv
+2020-10-25 22:18:36.632 [main] INFO  mapping.Mapper - -> /export/org/sites.json
+2020-10-25 22:18:36.632 [main] INFO  mapping.Mapper - -> /org/wireless
+2020-10-25 22:18:36.632 [main] INFO  mapping.Mapper - -> /export/org/sites.csv
+2020-10-25 22:18:36.632 [main] INFO  mapping.Mapper - -> /export/org/assets/sync/created/assets.json
+2020-10-25 22:18:36.632 [main] INFO  mapping.Mapper - -> /releases/platform/version
+2020-10-25 22:18:36.632 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:18:36.658 [main] INFO  mapping.Mapper - Resource Mapping for /org/sites:
+2020-10-25 22:18:36.658 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.658 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:36.658 [main] INFO  mapping.Mapper -       Operation: READ path=/org/sites/{site_id}
+2020-10-25 22:18:36.658 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:36.658 [main] INFO  mapping.Mapper -       Operation: SCAN path=/org/sites
+2020-10-25 22:18:36.658 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:18:36.658 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/org/sites/{site_id}
+2020-10-25 22:18:36.658 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/org/sites
+2020-10-25 22:18:36.659 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:36.659 [main] INFO  mapping.Mapper -       Operation: DELETE path=/org/sites/{site_id}
+2020-10-25 22:18:36.663 [main] INFO  mapping.Mapper - Resource Mapping for /org/assets:
+2020-10-25 22:18:36.663 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.663 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:36.663 [main] INFO  mapping.Mapper -       Operation: READ path=/org/assets/{asset_id}
+2020-10-25 22:18:36.663 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:36.663 [main] INFO  mapping.Mapper -       Operation: SCAN path=/org/assets
+2020-10-25 22:18:36.663 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:36.663 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:36.663 [main] INFO  mapping.Mapper -       Operation: DELETE path=/org/assets/{asset_id}
+2020-10-25 22:18:36.665 [main] INFO  mapping.Mapper - Resource Mapping for /org:
+2020-10-25 22:18:36.665 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.666 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:36.666 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:36.666 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:18:36.666 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/org
+2020-10-25 22:18:36.666 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:36.666 [main] INFO  mapping.Mapper - Resource Mapping for /export/org/assets.jsonl:
+2020-10-25 22:18:36.666 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.666 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:36.666 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:36.666 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:36.666 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:36.667 [main] INFO  mapping.Mapper - Resource Mapping for /export/org/assets/sync/updated/assets.json:
+2020-10-25 22:18:36.667 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.667 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:36.667 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:36.667 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:36.667 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:36.672 [main] INFO  mapping.Mapper - Resource Mapping for /org/agents:
+2020-10-25 22:18:36.673 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.673 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:36.673 [main] INFO  mapping.Mapper -       Operation: READ path=/org/agents/{agent_id}
+2020-10-25 22:18:36.673 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:36.673 [main] INFO  mapping.Mapper -       Operation: SCAN path=/org/agents
+2020-10-25 22:18:36.673 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:18:36.673 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/org/agents/{agent_id}
+2020-10-25 22:18:36.673 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:36.673 [main] INFO  mapping.Mapper -       Operation: DELETE path=/org/agents/{agent_id}
+2020-10-25 22:18:36.677 [main] INFO  mapping.Mapper - Resource Mapping for /org/tasks:
+2020-10-25 22:18:36.677 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.677 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:36.677 [main] INFO  mapping.Mapper -       Operation: READ path=/org/tasks/{task_id}
+2020-10-25 22:18:36.677 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:36.677 [main] INFO  mapping.Mapper -       Operation: SCAN path=/org/tasks
+2020-10-25 22:18:36.677 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:18:36.678 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/org/tasks/{task_id}
+2020-10-25 22:18:36.678 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:36.679 [main] INFO  mapping.Mapper - Resource Mapping for /export/org/wireless.json:
+2020-10-25 22:18:36.679 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.679 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:36.679 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:36.679 [main] INFO  mapping.Mapper -       Operation: SCAN path=/export/org/wireless.json
+2020-10-25 22:18:36.679 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:36.679 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:36.683 [main] INFO  mapping.Mapper - Resource Mapping for /org/services:
+2020-10-25 22:18:36.683 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.683 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:36.683 [main] INFO  mapping.Mapper -       Operation: READ path=/org/services/{service_id}
+2020-10-25 22:18:36.683 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:36.683 [main] INFO  mapping.Mapper -       Operation: SCAN path=/org/services
+2020-10-25 22:18:36.683 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:36.683 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:36.683 [main] INFO  mapping.Mapper -       Operation: DELETE path=/org/services/{service_id}
+2020-10-25 22:18:36.683 [main] INFO  mapping.Mapper - Resource Mapping for /releases/scanner/version:
+2020-10-25 22:18:36.683 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.683 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:36.684 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:36.684 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:36.684 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:36.684 [main] INFO  mapping.Mapper - Resource Mapping for /org/key:
+2020-10-25 22:18:36.684 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.684 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:36.684 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:36.684 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:36.684 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:36.685 [main] INFO  mapping.Mapper - Resource Mapping for /export/org/wireless.jsonl:
+2020-10-25 22:18:36.685 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.685 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:36.685 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:36.685 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:36.685 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:36.685 [main] INFO  mapping.Mapper - Resource Mapping for /export/org/sites.jsonl:
+2020-10-25 22:18:36.685 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.685 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:36.685 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:36.685 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:36.686 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:36.686 [main] INFO  mapping.Mapper - Resource Mapping for /export/org/services.csv:
+2020-10-25 22:18:36.686 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.686 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:36.686 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:36.686 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:36.686 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:36.687 [main] INFO  mapping.Mapper - Resource Mapping for /releases/agent/version:
+2020-10-25 22:18:36.687 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.687 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:36.687 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:36.687 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:36.687 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:36.688 [main] INFO  mapping.Mapper - Resource Mapping for /export/org/services.jsonl:
+2020-10-25 22:18:36.688 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.688 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:36.688 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:36.688 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:36.688 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:36.688 [main] INFO  mapping.Mapper - Resource Mapping for /export/org/assets.nmap.xml:
+2020-10-25 22:18:36.688 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.688 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:36.688 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:36.688 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:36.688 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:36.691 [main] INFO  mapping.Mapper - Resource Mapping for /org/wirelesss:
+2020-10-25 22:18:36.691 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.691 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:36.691 [main] INFO  mapping.Mapper -       Operation: READ path=/org/wirelesss/{wireless_id}
+2020-10-25 22:18:36.691 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:36.691 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:36.691 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:36.691 [main] INFO  mapping.Mapper -       Operation: DELETE path=/org/wirelesss/{wireless_id}
+2020-10-25 22:18:36.693 [main] INFO  mapping.Mapper - Resource Mapping for /export/org/assets.json:
+2020-10-25 22:18:36.693 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.693 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:36.693 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:36.693 [main] INFO  mapping.Mapper -       Operation: SCAN path=/export/org/assets.json
+2020-10-25 22:18:36.693 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:36.693 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:36.693 [main] INFO  mapping.Mapper - Resource Mapping for /export/org/assets.csv:
+2020-10-25 22:18:36.693 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.693 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:36.693 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:36.693 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:36.693 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:36.695 [main] INFO  mapping.Mapper - Resource Mapping for /export/org/services.json:
+2020-10-25 22:18:36.695 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.695 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:36.695 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:36.695 [main] INFO  mapping.Mapper -       Operation: SCAN path=/export/org/services.json
+2020-10-25 22:18:36.695 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:36.695 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:36.695 [main] INFO  mapping.Mapper - Resource Mapping for /export/org/wireless.csv:
+2020-10-25 22:18:36.695 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.695 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:36.696 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:36.696 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:36.696 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:36.697 [main] INFO  mapping.Mapper - Resource Mapping for /export/org/sites.json:
+2020-10-25 22:18:36.697 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.697 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:36.697 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:36.697 [main] INFO  mapping.Mapper -       Operation: SCAN path=/export/org/sites.json
+2020-10-25 22:18:36.697 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:36.697 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:36.698 [main] INFO  mapping.Mapper - Resource Mapping for /org/wireless:
+2020-10-25 22:18:36.698 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.698 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:36.699 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:36.699 [main] INFO  mapping.Mapper -       Operation: SCAN path=/org/wireless
+2020-10-25 22:18:36.699 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:36.699 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:36.699 [main] INFO  mapping.Mapper - Resource Mapping for /export/org/sites.csv:
+2020-10-25 22:18:36.699 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.699 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:36.699 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:36.699 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:36.699 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:36.700 [main] INFO  mapping.Mapper - Resource Mapping for /export/org/assets/sync/created/assets.json:
+2020-10-25 22:18:36.700 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.700 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:36.700 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:36.700 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:36.700 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:36.700 [main] INFO  mapping.Mapper - Resource Mapping for /releases/platform/version:
+2020-10-25 22:18:36.700 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:36.700 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:36.700 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:36.700 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:36.700 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:36.700 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:18:36.709 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

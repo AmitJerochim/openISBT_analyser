@@ -1,0 +1,53 @@
+Will overwrite mapping file
+2020-10-25 22:10:58.897 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:10:58.898 [main] INFO  mapping.Mapper - -> /v1/catalog
+2020-10-25 22:10:58.899 [main] INFO  mapping.Mapper - -> /v1/vehicles
+2020-10-25 22:10:58.899 [main] INFO  mapping.Mapper - -> /v1/vehicles/manifests
+2020-10-25 22:10:58.899 [main] INFO  mapping.Mapper - -> /v1/locations
+2020-10-25 22:10:58.899 [main] INFO  mapping.Mapper - -> /v1/manifests
+2020-10-25 22:10:58.899 [main] INFO  mapping.Mapper - -> /v1/locations/manifests
+2020-10-25 22:10:58.899 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:10:58.908 [main] INFO  mapping.Mapper - Resource Mapping for /v1/catalog:
+2020-10-25 22:10:58.908 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:58.908 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/catalog
+2020-10-25 22:10:58.908 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:10:58.908 [main] INFO  mapping.Mapper -       Operation: READ path=/v1/catalog/{id}
+2020-10-25 22:10:58.908 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:58.908 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:58.908 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:58.910 [main] INFO  mapping.Mapper - Resource Mapping for /v1/vehicles:
+2020-10-25 22:10:58.910 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:58.910 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:10:58.910 [main] INFO  mapping.Mapper -       Operation: READ path=/v1/vehicles/{vid}
+2020-10-25 22:10:58.910 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:58.910 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:58.910 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:58.911 [main] INFO  mapping.Mapper - Resource Mapping for /v1/vehicles/manifests:
+2020-10-25 22:10:58.911 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:58.911 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:58.911 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:58.911 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:58.911 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:58.913 [main] INFO  mapping.Mapper - Resource Mapping for /v1/locations:
+2020-10-25 22:10:58.913 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:58.913 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:10:58.913 [main] INFO  mapping.Mapper -       Operation: READ path=/v1/locations/{lid}
+2020-10-25 22:10:58.913 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:58.913 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:58.913 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:58.915 [main] INFO  mapping.Mapper - Resource Mapping for /v1/manifests:
+2020-10-25 22:10:58.916 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:58.916 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:58.916 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:10:58.916 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/manifests
+2020-10-25 22:10:58.916 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v1/manifests/{id}
+2020-10-25 22:10:58.916 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:58.916 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:58.916 [main] INFO  mapping.Mapper - Resource Mapping for /v1/locations/manifests:
+2020-10-25 22:10:58.916 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:58.916 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:58.916 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:58.916 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:58.916 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:58.917 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:10:58.921 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

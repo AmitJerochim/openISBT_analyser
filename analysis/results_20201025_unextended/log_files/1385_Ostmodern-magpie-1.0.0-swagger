@@ -1,0 +1,27 @@
+Will overwrite mapping file
+2020-10-25 22:17:19.765 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:17:19.767 [main] INFO  mapping.Mapper - -> /userlists
+2020-10-25 22:17:19.767 [main] INFO  mapping.Mapper - -> /watchlist
+2020-10-25 22:17:19.767 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:17:19.779 [main] INFO  mapping.Mapper - Resource Mapping for /userlists:
+2020-10-25 22:17:19.779 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:19.780 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:19.780 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:17:19.780 [main] INFO  mapping.Mapper -       Operation: SCAN path=/userlists/{slug}
+2020-10-25 22:17:19.780 [main] INFO  mapping.Mapper -       Operation: SCAN path=/userlists
+2020-10-25 22:17:19.780 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:19.780 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:17:19.780 [main] INFO  mapping.Mapper -       Operation: DELETE path=/userlists/{slug}
+2020-10-25 22:17:19.791 [main] INFO  mapping.Mapper - Resource Mapping for /watchlist:
+2020-10-25 22:17:19.791 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:19.791 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:17:19.791 [main] INFO  mapping.Mapper -       Operation: READ path=/watchlist/{content_uid}
+2020-10-25 22:17:19.791 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:17:19.791 [main] INFO  mapping.Mapper -       Operation: SCAN path=/watchlist
+2020-10-25 22:17:19.792 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:17:19.792 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/watchlist/{content_uid}
+2020-10-25 22:17:19.792 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:17:19.792 [main] INFO  mapping.Mapper -       Operation: DELETE path=/watchlist
+2020-10-25 22:17:19.792 [main] INFO  mapping.Mapper -       Operation: DELETE path=/watchlist/{content_uid}
+2020-10-25 22:17:19.792 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:17:19.796 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

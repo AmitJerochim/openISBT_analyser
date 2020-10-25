@@ -1,0 +1,70 @@
+Will overwrite mapping file
+2020-10-25 22:15:00.087 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:15:00.089 [main] INFO  mapping.Mapper - -> /admin/segments
+2020-10-25 22:15:00.089 [main] INFO  mapping.Mapper - -> /admin/templates
+2020-10-25 22:15:00.089 [main] INFO  mapping.Mapper - -> /admin/templates/defaultDesign
+2020-10-25 22:15:00.089 [main] INFO  mapping.Mapper - -> /admin/campaigns
+2020-10-25 22:15:00.089 [main] INFO  mapping.Mapper - -> /recomms/events
+2020-10-25 22:15:00.089 [main] INFO  mapping.Mapper - -> /users/endpoints
+2020-10-25 22:15:00.089 [main] INFO  mapping.Mapper - -> /admin/campaigns/analytics
+2020-10-25 22:15:00.089 [main] INFO  mapping.Mapper - -> /users/preferences
+2020-10-25 22:15:00.089 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:15:00.113 [main] INFO  mapping.Mapper - Resource Mapping for /admin/segments:
+2020-10-25 22:15:00.113 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:00.113 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:15:00.113 [main] INFO  mapping.Mapper -       Operation: READ path=/admin/segments/{id}
+2020-10-25 22:15:00.113 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:00.113 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:00.113 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:00.117 [main] INFO  mapping.Mapper - Resource Mapping for /admin/templates:
+2020-10-25 22:15:00.117 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:00.117 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:15:00.117 [main] INFO  mapping.Mapper -       Operation: READ path=/admin/templates/{id}
+2020-10-25 22:15:00.117 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:00.117 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:00.117 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:00.118 [main] INFO  mapping.Mapper - Resource Mapping for /admin/templates/defaultDesign:
+2020-10-25 22:15:00.118 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:00.118 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:00.119 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:00.119 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:00.119 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:00.132 [main] INFO  mapping.Mapper - Resource Mapping for /admin/campaigns:
+2020-10-25 22:15:00.133 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:00.133 [main] INFO  mapping.Mapper -       Operation: CREATE path=/admin/campaigns
+2020-10-25 22:15:00.133 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:15:00.133 [main] INFO  mapping.Mapper -       Operation: READ path=/admin/campaigns/{id}
+2020-10-25 22:15:00.133 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:00.133 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:15:00.133 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/admin/campaigns/{id}
+2020-10-25 22:15:00.133 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:15:00.133 [main] INFO  mapping.Mapper -       Operation: DELETE path=/admin/campaigns/{id}
+2020-10-25 22:15:00.137 [main] INFO  mapping.Mapper - Resource Mapping for /recomms/events:
+2020-10-25 22:15:00.137 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:00.137 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:15:00.137 [main] INFO  mapping.Mapper -       Operation: READ path=/recomms/events/{id}
+2020-10-25 22:15:00.137 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:00.138 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:00.138 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:00.149 [main] INFO  mapping.Mapper - Resource Mapping for /users/endpoints:
+2020-10-25 22:15:00.149 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:00.149 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:00.149 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:00.149 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:15:00.149 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/users/endpoints/{id}
+2020-10-25 22:15:00.149 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:15:00.149 [main] INFO  mapping.Mapper -       Operation: DELETE path=/users/endpoints/{id}
+2020-10-25 22:15:00.150 [main] INFO  mapping.Mapper - Resource Mapping for /admin/campaigns/analytics:
+2020-10-25 22:15:00.150 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:00.150 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:00.150 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:00.150 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:00.150 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:00.151 [main] INFO  mapping.Mapper - Resource Mapping for /users/preferences:
+2020-10-25 22:15:00.151 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:00.151 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:00.151 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:00.151 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:00.151 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:00.151 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:15:00.159 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

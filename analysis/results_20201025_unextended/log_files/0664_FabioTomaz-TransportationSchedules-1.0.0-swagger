@@ -1,0 +1,40 @@
+Will overwrite mapping file
+2020-10-25 22:12:55.583 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:12:55.584 [main] INFO  mapping.Mapper - -> /route
+2020-10-25 22:12:55.584 [main] INFO  mapping.Mapper - -> /agency
+2020-10-25 22:12:55.584 [main] INFO  mapping.Mapper - -> /gtfs
+2020-10-25 22:12:55.585 [main] INFO  mapping.Mapper - -> /stop
+2020-10-25 22:12:55.585 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:12:55.592 [main] INFO  mapping.Mapper - Resource Mapping for /route:
+2020-10-25 22:12:55.592 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:55.592 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:12:55.592 [main] INFO  mapping.Mapper -       Operation: READ path=/route/{routeId}
+2020-10-25 22:12:55.592 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:55.592 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:55.592 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:55.596 [main] INFO  mapping.Mapper - Resource Mapping for /agency:
+2020-10-25 22:12:55.596 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:55.596 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:12:55.596 [main] INFO  mapping.Mapper -       Operation: READ path=/agency/{agencyKey}
+2020-10-25 22:12:55.596 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:12:55.597 [main] INFO  mapping.Mapper -       Operation: SCAN path=/agency
+2020-10-25 22:12:55.597 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:55.597 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:55.601 [main] INFO  mapping.Mapper - Resource Mapping for /gtfs:
+2020-10-25 22:12:55.601 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:12:55.601 [main] INFO  mapping.Mapper -       Operation: CREATE path=/gtfs
+2020-10-25 22:12:55.601 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:55.601 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:55.601 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:55.601 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:12:55.601 [main] INFO  mapping.Mapper -       Operation: DELETE path=/gtfs/{agencyKey}
+2020-10-25 22:12:55.605 [main] INFO  mapping.Mapper - Resource Mapping for /stop:
+2020-10-25 22:12:55.605 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:55.605 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:12:55.605 [main] INFO  mapping.Mapper -       Operation: READ path=/stop/{stopId}
+2020-10-25 22:12:55.605 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:12:55.605 [main] INFO  mapping.Mapper -       Operation: SCAN path=/stop
+2020-10-25 22:12:55.605 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:55.605 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:55.605 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:12:55.611 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,69 @@
+Will overwrite mapping file
+2020-10-25 22:13:59.049 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:13:59.050 [main] INFO  mapping.Mapper - -> /userList
+2020-10-25 22:13:59.050 [main] INFO  mapping.Mapper - -> /updateTillRead
+2020-10-25 22:13:59.051 [main] INFO  mapping.Mapper - -> /floatList
+2020-10-25 22:13:59.051 [main] INFO  mapping.Mapper - -> /processTillSkim
+2020-10-25 22:13:59.051 [main] INFO  mapping.Mapper - -> /singleFloat
+2020-10-25 22:13:59.051 [main] INFO  mapping.Mapper - -> /tillSkimList
+2020-10-25 22:13:59.051 [main] INFO  mapping.Mapper - -> /tillReadList
+2020-10-25 22:13:59.051 [main] INFO  mapping.Mapper - -> /updateFloat
+2020-10-25 22:13:59.051 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:13:59.057 [main] INFO  mapping.Mapper - Resource Mapping for /userList:
+2020-10-25 22:13:59.057 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:59.057 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:59.058 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:13:59.058 [main] INFO  mapping.Mapper -       Operation: SCAN path=/userList
+2020-10-25 22:13:59.058 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:59.058 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:59.065 [main] INFO  mapping.Mapper - Resource Mapping for /updateTillRead:
+2020-10-25 22:13:59.065 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:59.065 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:59.065 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:59.065 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:13:59.065 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/updateTillRead
+2020-10-25 22:13:59.065 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:59.068 [main] INFO  mapping.Mapper - Resource Mapping for /floatList:
+2020-10-25 22:13:59.068 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:59.068 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:59.068 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:13:59.068 [main] INFO  mapping.Mapper -       Operation: SCAN path=/floatList
+2020-10-25 22:13:59.068 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:59.068 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:59.073 [main] INFO  mapping.Mapper - Resource Mapping for /processTillSkim:
+2020-10-25 22:13:59.073 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:59.073 [main] INFO  mapping.Mapper -       Operation: CREATE path=/processTillSkim
+2020-10-25 22:13:59.073 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:59.074 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:59.074 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:59.074 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:59.077 [main] INFO  mapping.Mapper - Resource Mapping for /singleFloat:
+2020-10-25 22:13:59.077 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:59.077 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:59.077 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:13:59.077 [main] INFO  mapping.Mapper -       Operation: SCAN path=/singleFloat/{id}
+2020-10-25 22:13:59.077 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:59.077 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:59.080 [main] INFO  mapping.Mapper - Resource Mapping for /tillSkimList:
+2020-10-25 22:13:59.080 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:59.080 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:59.080 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:13:59.081 [main] INFO  mapping.Mapper -       Operation: SCAN path=/tillSkimList
+2020-10-25 22:13:59.081 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:59.081 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:59.083 [main] INFO  mapping.Mapper - Resource Mapping for /tillReadList:
+2020-10-25 22:13:59.084 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:59.084 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:59.084 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:13:59.084 [main] INFO  mapping.Mapper -       Operation: SCAN path=/tillReadList
+2020-10-25 22:13:59.084 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:59.084 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:59.088 [main] INFO  mapping.Mapper - Resource Mapping for /updateFloat:
+2020-10-25 22:13:59.089 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:59.089 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:59.089 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:59.089 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:13:59.089 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/updateFloat
+2020-10-25 22:13:59.089 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:59.089 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:13:59.095 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

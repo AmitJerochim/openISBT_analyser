@@ -1,0 +1,45 @@
+Will overwrite mapping file
+2020-10-25 22:11:05.854 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:11:05.855 [main] INFO  mapping.Mapper - -> /api/company
+2020-10-25 22:11:05.855 [main] INFO  mapping.Mapper - -> /api/simSubmission
+2020-10-25 22:11:05.855 [main] INFO  mapping.Mapper - -> /api/simsubmission
+2020-10-25 22:11:05.855 [main] INFO  mapping.Mapper - -> /api/sim
+2020-10-25 22:11:05.855 [main] INFO  mapping.Mapper - -> /api/account
+2020-10-25 22:11:05.855 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:11:05.864 [main] INFO  mapping.Mapper - Resource Mapping for /api/company:
+2020-10-25 22:11:05.864 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:05.864 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:05.864 [main] INFO  mapping.Mapper -       Operation: READ path=/api/company/{id}
+2020-10-25 22:11:05.864 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:05.864 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:05.864 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:05.869 [main] INFO  mapping.Mapper - Resource Mapping for /api/simSubmission:
+2020-10-25 22:11:05.869 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:05.869 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/simSubmission
+2020-10-25 22:11:05.869 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:05.869 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:05.869 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:05.869 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:05.875 [main] INFO  mapping.Mapper - Resource Mapping for /api/simsubmission:
+2020-10-25 22:11:05.875 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:05.875 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:05.875 [main] INFO  mapping.Mapper -       Operation: READ path=/api/simsubmission/{ticketNumber}
+2020-10-25 22:11:05.875 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:05.875 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:05.875 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:11:05.875 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/simsubmission/{ticketNumber}
+2020-10-25 22:11:05.875 [main] INFO  mapping.Mapper - Resource Mapping for /api/sim:
+2020-10-25 22:11:05.875 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:05.875 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:05.875 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:05.875 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:05.875 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:05.878 [main] INFO  mapping.Mapper - Resource Mapping for /api/account:
+2020-10-25 22:11:05.878 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:05.878 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:05.878 [main] INFO  mapping.Mapper -       Operation: READ path=/api/account/{accountId}
+2020-10-25 22:11:05.879 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:05.879 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:05.879 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:05.879 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:11:05.884 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

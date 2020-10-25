@@ -1,0 +1,124 @@
+Will overwrite mapping file
+2020-10-25 22:14:26.412 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:14:26.413 [main] INFO  mapping.Mapper - -> /api/v2/healthviewsetting
+2020-10-25 22:14:26.413 [main] INFO  mapping.Mapper - -> /api/v2/alertsummarytimelines
+2020-10-25 22:14:26.413 [main] INFO  mapping.Mapper - -> /api/v2/statistics
+2020-10-25 22:14:26.413 [main] INFO  mapping.Mapper - -> /api/v1/fetchpredictedcapacityscore
+2020-10-25 22:14:26.413 [main] INFO  mapping.Mapper - -> /api/v1/incidentrelation
+2020-10-25 22:14:26.413 [main] INFO  mapping.Mapper - -> /api/v1/login-check
+2020-10-25 22:14:26.413 [main] INFO  mapping.Mapper - -> /api/v2/info/metadata
+2020-10-25 22:14:26.413 [main] INFO  mapping.Mapper - -> /api/v2/incidentpredictiontimelines
+2020-10-25 22:14:26.413 [main] INFO  mapping.Mapper - -> /api/v1/loadinitdata
+2020-10-25 22:14:26.414 [main] INFO  mapping.Mapper - -> /api/v1/capacityplanning
+2020-10-25 22:14:26.414 [main] INFO  mapping.Mapper - -> /api/v1/refreshusertoken
+2020-10-25 22:14:26.414 [main] INFO  mapping.Mapper - -> /api/v2/stats/global/globalviewsystemtimelines
+2020-10-25 22:14:26.414 [main] INFO  mapping.Mapper - -> /api/v1/logCausalInfoServlet
+2020-10-25 22:14:26.414 [main] INFO  mapping.Mapper - -> /api/v1/fetchrealtimecapacityscore
+2020-10-25 22:14:26.414 [main] INFO  mapping.Mapper - -> /api/v2/globalinfo
+2020-10-25 22:14:26.414 [main] INFO  mapping.Mapper - -> /api/v2/rootcausetimelines
+2020-10-25 22:14:26.414 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:14:26.424 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/healthviewsetting:
+2020-10-25 22:14:26.424 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:26.424 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:26.424 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:14:26.424 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/v2/healthviewsetting
+2020-10-25 22:14:26.424 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:26.424 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:26.430 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/alertsummarytimelines:
+2020-10-25 22:14:26.430 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:26.430 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:26.430 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:14:26.430 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/v2/alertsummarytimelines
+2020-10-25 22:14:26.430 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:26.430 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:26.430 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/statistics:
+2020-10-25 22:14:26.431 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:26.431 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:26.431 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:26.431 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:26.431 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:26.431 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/fetchpredictedcapacityscore:
+2020-10-25 22:14:26.431 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:26.431 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:26.431 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:26.431 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:26.431 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:26.432 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/incidentrelation:
+2020-10-25 22:14:26.432 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:26.432 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:26.432 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:26.432 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:26.432 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:26.436 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/login-check:
+2020-10-25 22:14:26.436 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:26.436 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/v1/login-check
+2020-10-25 22:14:26.436 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:26.436 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:26.436 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:26.436 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:26.436 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/info/metadata:
+2020-10-25 22:14:26.437 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:26.437 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:26.437 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:26.437 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:26.437 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:26.441 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/incidentpredictiontimelines:
+2020-10-25 22:14:26.442 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:26.442 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:26.442 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:14:26.442 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/v2/incidentpredictiontimelines
+2020-10-25 22:14:26.442 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:26.442 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:26.442 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/loadinitdata:
+2020-10-25 22:14:26.442 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:26.442 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:26.443 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:26.443 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:26.443 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:26.443 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/capacityplanning:
+2020-10-25 22:14:26.443 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:26.443 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:26.443 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:26.443 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:26.443 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:26.444 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/refreshusertoken:
+2020-10-25 22:14:26.444 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:26.444 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:26.444 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:26.444 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:26.444 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:26.450 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/stats/global/globalviewsystemtimelines:
+2020-10-25 22:14:26.451 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:26.451 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:26.451 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:14:26.451 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/v2/stats/global/globalviewsystemtimelines
+2020-10-25 22:14:26.451 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:26.451 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:26.451 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/logCausalInfoServlet:
+2020-10-25 22:14:26.451 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:26.451 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:26.451 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:26.451 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:26.451 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:26.456 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/fetchrealtimecapacityscore:
+2020-10-25 22:14:26.456 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:26.456 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:26.456 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:14:26.456 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/v1/fetchrealtimecapacityscore
+2020-10-25 22:14:26.456 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:26.456 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:26.457 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/globalinfo:
+2020-10-25 22:14:26.457 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:26.457 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:26.457 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:26.457 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:26.457 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:26.461 [main] INFO  mapping.Mapper - Resource Mapping for /api/v2/rootcausetimelines:
+2020-10-25 22:14:26.461 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:26.461 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:26.461 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:14:26.461 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/v2/rootcausetimelines
+2020-10-25 22:14:26.461 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:26.461 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:26.462 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:14:26.471 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

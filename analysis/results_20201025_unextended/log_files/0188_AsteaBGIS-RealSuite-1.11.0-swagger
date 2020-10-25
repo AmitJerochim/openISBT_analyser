@@ -1,0 +1,58 @@
+Will overwrite mapping file
+2020-10-25 22:09:27.750 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:09:27.751 [main] INFO  mapping.Mapper - -> /customerSite
+2020-10-25 22:09:27.751 [main] INFO  mapping.Mapper - -> /product
+2020-10-25 22:09:27.752 [main] INFO  mapping.Mapper - -> /installedItem
+2020-10-25 22:09:27.752 [main] INFO  mapping.Mapper - -> /serviceOrder
+2020-10-25 22:09:27.752 [main] INFO  mapping.Mapper - -> /serviceOrder/equipment
+2020-10-25 22:09:27.752 [main] INFO  mapping.Mapper - -> /serviceOrder/jobPlan
+2020-10-25 22:09:27.752 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:09:27.762 [main] INFO  mapping.Mapper - Resource Mapping for /customerSite:
+2020-10-25 22:09:27.762 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:27.762 [main] INFO  mapping.Mapper -       Operation: CREATE path=/customerSite
+2020-10-25 22:09:27.762 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:27.762 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:27.762 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:09:27.762 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/customerSite
+2020-10-25 22:09:27.763 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:27.767 [main] INFO  mapping.Mapper - Resource Mapping for /product:
+2020-10-25 22:09:27.767 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:27.767 [main] INFO  mapping.Mapper -       Operation: CREATE path=/product
+2020-10-25 22:09:27.768 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:27.768 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:27.768 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:09:27.768 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/product
+2020-10-25 22:09:27.768 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:27.772 [main] INFO  mapping.Mapper - Resource Mapping for /installedItem:
+2020-10-25 22:09:27.773 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:27.773 [main] INFO  mapping.Mapper -       Operation: CREATE path=/installedItem
+2020-10-25 22:09:27.773 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:27.773 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:27.773 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:09:27.773 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/installedItem
+2020-10-25 22:09:27.773 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:27.778 [main] INFO  mapping.Mapper - Resource Mapping for /serviceOrder:
+2020-10-25 22:09:27.779 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:27.779 [main] INFO  mapping.Mapper -       Operation: CREATE path=/serviceOrder
+2020-10-25 22:09:27.779 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:27.779 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:27.779 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:09:27.779 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/serviceOrder
+2020-10-25 22:09:27.779 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:09:27.779 [main] INFO  mapping.Mapper -       Operation: DELETE path=/serviceOrder
+2020-10-25 22:09:27.781 [main] INFO  mapping.Mapper - Resource Mapping for /serviceOrder/equipment:
+2020-10-25 22:09:27.781 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:27.781 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:27.781 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:27.781 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:09:27.781 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/serviceOrder/equipment
+2020-10-25 22:09:27.781 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:27.783 [main] INFO  mapping.Mapper - Resource Mapping for /serviceOrder/jobPlan:
+2020-10-25 22:09:27.783 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:27.783 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:27.784 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:27.784 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:09:27.784 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/serviceOrder/jobPlan
+2020-10-25 22:09:27.784 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:27.784 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:09:27.790 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

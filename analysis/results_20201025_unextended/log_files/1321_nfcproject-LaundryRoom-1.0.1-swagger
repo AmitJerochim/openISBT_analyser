@@ -1,0 +1,35 @@
+Will overwrite mapping file
+2020-10-25 22:16:52.376 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:16:52.377 [main] INFO  mapping.Mapper - -> /user
+2020-10-25 22:16:52.377 [main] INFO  mapping.Mapper - -> /machine
+2020-10-25 22:16:52.377 [main] INFO  mapping.Mapper - -> /machine/available
+2020-10-25 22:16:52.377 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:16:52.392 [main] INFO  mapping.Mapper - Resource Mapping for /user:
+2020-10-25 22:16:52.392 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:52.392 [main] INFO  mapping.Mapper -       Operation: CREATE path=/user
+2020-10-25 22:16:52.392 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:52.392 [main] INFO  mapping.Mapper -       Operation: READ path=/user/{userId}
+2020-10-25 22:16:52.392 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:52.392 [main] INFO  mapping.Mapper -       Operation: SCAN path=/user
+2020-10-25 22:16:52.392 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:52.392 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:16:52.392 [main] INFO  mapping.Mapper -       Operation: DELETE path=/user/{userId}
+2020-10-25 22:16:52.400 [main] INFO  mapping.Mapper - Resource Mapping for /machine:
+2020-10-25 22:16:52.400 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:52.400 [main] INFO  mapping.Mapper -       Operation: CREATE path=/machine
+2020-10-25 22:16:52.401 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:52.401 [main] INFO  mapping.Mapper -       Operation: READ path=/machine/{machineId}
+2020-10-25 22:16:52.401 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:52.401 [main] INFO  mapping.Mapper -       Operation: SCAN path=/machine
+2020-10-25 22:16:52.401 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:52.401 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:16:52.401 [main] INFO  mapping.Mapper -       Operation: DELETE path=/machine/{machineId}
+2020-10-25 22:16:52.402 [main] INFO  mapping.Mapper - Resource Mapping for /machine/available:
+2020-10-25 22:16:52.403 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:52.403 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:52.403 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:52.403 [main] INFO  mapping.Mapper -       Operation: SCAN path=/machine/available
+2020-10-25 22:16:52.403 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:52.403 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:52.403 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:16:52.408 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

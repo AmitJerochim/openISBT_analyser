@@ -1,0 +1,307 @@
+Will overwrite mapping file
+2020-10-25 22:09:06.123 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:09:06.124 [main] INFO  mapping.Mapper - -> /v1.0/data/quotasharing
+2020-10-25 22:09:06.124 [main] INFO  mapping.Mapper - -> /v1.0/users/logout
+2020-10-25 22:09:06.124 [main] INFO  mapping.Mapper - -> /v3.0/orderdata
+2020-10-25 22:09:06.124 [main] INFO  mapping.Mapper - -> /v1.0/orderdata
+2020-10-25 22:09:06.124 [main] INFO  mapping.Mapper - -> /v3.0/directdebit/url
+2020-10-25 22:09:06.124 [main] INFO  mapping.Mapper - -> /v1.0/stores
+2020-10-25 22:09:06.124 [main] INFO  mapping.Mapper - -> /v1.0/bills/account
+2020-10-25 22:09:06.125 [main] INFO  mapping.Mapper - -> /v3.0/bills/linecharges/latest
+2020-10-25 22:09:06.125 [main] INFO  mapping.Mapper - -> /v1.0/ecommerce/billpayment/url
+2020-10-25 22:09:06.125 [main] INFO  mapping.Mapper - -> /v1.0/bills/payments
+2020-10-25 22:09:06.125 [main] INFO  mapping.Mapper - -> /v3.0/ecommerce/billpayment/url
+2020-10-25 22:09:06.125 [main] INFO  mapping.Mapper - -> /v3.0/bills/statements
+2020-10-25 22:09:06.125 [main] INFO  mapping.Mapper - -> /v4.0/bills/methods
+2020-10-25 22:09:06.125 [main] INFO  mapping.Mapper - -> /v4.0/bills/methods/prefer
+2020-10-25 22:09:06.125 [main] INFO  mapping.Mapper - -> /v4.0/contact/statecity
+2020-10-25 22:09:06.125 [main] INFO  mapping.Mapper - -> /v1.0/bills/linecharges/unbilled
+2020-10-25 22:09:06.125 [main] INFO  mapping.Mapper - -> /v1.0/catalog/products
+2020-10-25 22:09:06.125 [main] INFO  mapping.Mapper - -> /v1.0/users/otp
+2020-10-25 22:09:06.125 [main] INFO  mapping.Mapper - -> /v3.0/data/balance/postpaid
+2020-10-25 22:09:06.125 [main] INFO  mapping.Mapper - -> /v4.0/bills/statements
+2020-10-25 22:09:06.125 [main] INFO  mapping.Mapper - -> /v3.0/bills/account
+2020-10-25 22:09:06.125 [main] INFO  mapping.Mapper - -> /v3.0/directdebit
+2020-10-25 22:09:06.125 [main] INFO  mapping.Mapper - -> /v1.0/bills/statements
+2020-10-25 22:09:06.125 [main] INFO  mapping.Mapper - -> /v3.0/catalog/products
+2020-10-25 22:09:06.125 [main] INFO  mapping.Mapper - -> /v1.0/numberinventory/available
+2020-10-25 22:09:06.125 [main] INFO  mapping.Mapper - -> /v4.0/bills/payments
+2020-10-25 22:09:06.125 [main] INFO  mapping.Mapper - -> /v4.0/bills/methods/verifyemail
+2020-10-25 22:09:06.126 [main] INFO  mapping.Mapper - -> /v3.0/bills/all
+2020-10-25 22:09:06.126 [main] INFO  mapping.Mapper - -> /v4.0/bills/all
+2020-10-25 22:09:06.126 [main] INFO  mapping.Mapper - -> /v1.0/bills/linecharges/latest
+2020-10-25 22:09:06.126 [main] INFO  mapping.Mapper - -> /v1.0/directdebit/url
+2020-10-25 22:09:06.126 [main] INFO  mapping.Mapper - -> /v4.0/bills/account
+2020-10-25 22:09:06.126 [main] INFO  mapping.Mapper - -> /v4.0/bills/linecharges/latest
+2020-10-25 22:09:06.126 [main] INFO  mapping.Mapper - -> /v1.0/data/balance/postpaid
+2020-10-25 22:09:06.126 [main] INFO  mapping.Mapper - -> /v4.0/contact
+2020-10-25 22:09:06.126 [main] INFO  mapping.Mapper - -> /v1.0/users/token
+2020-10-25 22:09:06.126 [main] INFO  mapping.Mapper - -> /v1.0/bills/ebills
+2020-10-25 22:09:06.126 [main] INFO  mapping.Mapper - -> /v1.0/users/login
+2020-10-25 22:09:06.126 [main] INFO  mapping.Mapper - -> /v1.0/bills/all
+2020-10-25 22:09:06.126 [main] INFO  mapping.Mapper - -> /v3.0/bills/statements/pdf
+2020-10-25 22:09:06.126 [main] INFO  mapping.Mapper - -> /v1.0/bills/statements/pdf
+2020-10-25 22:09:06.126 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:09:06.135 [main] INFO  mapping.Mapper - Resource Mapping for /v1.0/data/quotasharing:
+2020-10-25 22:09:06.135 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.135 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.135 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.135 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:09:06.135 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/v1.0/data/quotasharing
+2020-10-25 22:09:06.135 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.137 [main] INFO  mapping.Mapper - Resource Mapping for /v1.0/users/logout:
+2020-10-25 22:09:06.137 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:06.137 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1.0/users/logout
+2020-10-25 22:09:06.137 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.137 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.137 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.137 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.140 [main] INFO  mapping.Mapper - Resource Mapping for /v3.0/orderdata:
+2020-10-25 22:09:06.140 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:06.140 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v3.0/orderdata
+2020-10-25 22:09:06.140 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.140 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.140 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.140 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.142 [main] INFO  mapping.Mapper - Resource Mapping for /v1.0/orderdata:
+2020-10-25 22:09:06.142 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:06.142 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1.0/orderdata
+2020-10-25 22:09:06.142 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.142 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.142 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.142 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.143 [main] INFO  mapping.Mapper - Resource Mapping for /v3.0/directdebit/url:
+2020-10-25 22:09:06.143 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.143 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.143 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.143 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.143 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.144 [main] INFO  mapping.Mapper - Resource Mapping for /v1.0/stores:
+2020-10-25 22:09:06.144 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.144 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.144 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.144 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.144 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.145 [main] INFO  mapping.Mapper - Resource Mapping for /v1.0/bills/account:
+2020-10-25 22:09:06.145 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.145 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.145 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.145 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.145 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.145 [main] INFO  mapping.Mapper - Resource Mapping for /v3.0/bills/linecharges/latest:
+2020-10-25 22:09:06.145 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.145 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.145 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.145 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.146 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.146 [main] INFO  mapping.Mapper - Resource Mapping for /v1.0/ecommerce/billpayment/url:
+2020-10-25 22:09:06.146 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.146 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.146 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.146 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.146 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.147 [main] INFO  mapping.Mapper - Resource Mapping for /v1.0/bills/payments:
+2020-10-25 22:09:06.147 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.147 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.147 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.147 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.147 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.148 [main] INFO  mapping.Mapper - Resource Mapping for /v3.0/ecommerce/billpayment/url:
+2020-10-25 22:09:06.148 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.148 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.148 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.148 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.148 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.148 [main] INFO  mapping.Mapper - Resource Mapping for /v3.0/bills/statements:
+2020-10-25 22:09:06.148 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.148 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.149 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.149 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.149 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.151 [main] INFO  mapping.Mapper - Resource Mapping for /v4.0/bills/methods:
+2020-10-25 22:09:06.151 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.151 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.151 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.151 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:09:06.151 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/v4.0/bills/methods
+2020-10-25 22:09:06.151 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.153 [main] INFO  mapping.Mapper - Resource Mapping for /v4.0/bills/methods/prefer:
+2020-10-25 22:09:06.153 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.153 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.153 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.153 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:09:06.153 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/v4.0/bills/methods/prefer
+2020-10-25 22:09:06.153 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.154 [main] INFO  mapping.Mapper - Resource Mapping for /v4.0/contact/statecity:
+2020-10-25 22:09:06.154 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.154 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.154 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.154 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.154 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.155 [main] INFO  mapping.Mapper - Resource Mapping for /v1.0/bills/linecharges/unbilled:
+2020-10-25 22:09:06.155 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.155 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.155 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.155 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.155 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.155 [main] INFO  mapping.Mapper - Resource Mapping for /v1.0/catalog/products:
+2020-10-25 22:09:06.155 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.155 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.155 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.156 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.156 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.157 [main] INFO  mapping.Mapper - Resource Mapping for /v1.0/users/otp:
+2020-10-25 22:09:06.158 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.158 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.158 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.158 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:09:06.158 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/v1.0/users/otp
+2020-10-25 22:09:06.158 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.158 [main] INFO  mapping.Mapper - Resource Mapping for /v3.0/data/balance/postpaid:
+2020-10-25 22:09:06.158 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.158 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.158 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.158 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.158 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.159 [main] INFO  mapping.Mapper - Resource Mapping for /v4.0/bills/statements:
+2020-10-25 22:09:06.159 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.159 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.159 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.159 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.159 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.160 [main] INFO  mapping.Mapper - Resource Mapping for /v3.0/bills/account:
+2020-10-25 22:09:06.160 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.160 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.160 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.160 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.160 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.161 [main] INFO  mapping.Mapper - Resource Mapping for /v3.0/directdebit:
+2020-10-25 22:09:06.161 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.161 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.161 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.161 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.162 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:09:06.162 [main] INFO  mapping.Mapper -       Operation: DELETE path=/v3.0/directdebit
+2020-10-25 22:09:06.162 [main] INFO  mapping.Mapper - Resource Mapping for /v1.0/bills/statements:
+2020-10-25 22:09:06.162 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.162 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.162 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.162 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.162 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.164 [main] INFO  mapping.Mapper - Resource Mapping for /v3.0/catalog/products:
+2020-10-25 22:09:06.164 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.164 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:09:06.164 [main] INFO  mapping.Mapper -       Operation: READ path=/v3.0/catalog/products/{ratePlanId}
+2020-10-25 22:09:06.164 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.164 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.164 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.164 [main] INFO  mapping.Mapper - Resource Mapping for /v1.0/numberinventory/available:
+2020-10-25 22:09:06.164 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.164 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.164 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.164 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.165 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.165 [main] INFO  mapping.Mapper - Resource Mapping for /v4.0/bills/payments:
+2020-10-25 22:09:06.165 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.165 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.165 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.165 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.165 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.167 [main] INFO  mapping.Mapper - Resource Mapping for /v4.0/bills/methods/verifyemail:
+2020-10-25 22:09:06.167 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.167 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.167 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.167 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:09:06.167 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/v4.0/bills/methods/verifyemail
+2020-10-25 22:09:06.167 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.167 [main] INFO  mapping.Mapper - Resource Mapping for /v3.0/bills/all:
+2020-10-25 22:09:06.167 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.168 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.168 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.168 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.168 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.168 [main] INFO  mapping.Mapper - Resource Mapping for /v4.0/bills/all:
+2020-10-25 22:09:06.168 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.168 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.168 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.168 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.168 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.168 [main] INFO  mapping.Mapper - Resource Mapping for /v1.0/bills/linecharges/latest:
+2020-10-25 22:09:06.169 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.169 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.169 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.169 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.169 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.169 [main] INFO  mapping.Mapper - Resource Mapping for /v1.0/directdebit/url:
+2020-10-25 22:09:06.169 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.169 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.169 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.169 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.169 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.170 [main] INFO  mapping.Mapper - Resource Mapping for /v4.0/bills/account:
+2020-10-25 22:09:06.170 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.170 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.170 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.170 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.170 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.170 [main] INFO  mapping.Mapper - Resource Mapping for /v4.0/bills/linecharges/latest:
+2020-10-25 22:09:06.170 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.170 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.170 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.170 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.170 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.171 [main] INFO  mapping.Mapper - Resource Mapping for /v1.0/data/balance/postpaid:
+2020-10-25 22:09:06.171 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.171 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.171 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.171 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.171 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.173 [main] INFO  mapping.Mapper - Resource Mapping for /v4.0/contact:
+2020-10-25 22:09:06.173 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.173 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.173 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.173 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:09:06.173 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/v4.0/contact
+2020-10-25 22:09:06.173 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.175 [main] INFO  mapping.Mapper - Resource Mapping for /v1.0/users/token:
+2020-10-25 22:09:06.175 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:06.175 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1.0/users/token
+2020-10-25 22:09:06.175 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.175 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.175 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:09:06.175 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/v1.0/users/token
+2020-10-25 22:09:06.175 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.177 [main] INFO  mapping.Mapper - Resource Mapping for /v1.0/bills/ebills:
+2020-10-25 22:09:06.177 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.177 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.177 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.177 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:09:06.177 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/v1.0/bills/ebills
+2020-10-25 22:09:06.177 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.178 [main] INFO  mapping.Mapper - Resource Mapping for /v1.0/users/login:
+2020-10-25 22:09:06.178 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:06.178 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1.0/users/login
+2020-10-25 22:09:06.178 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.178 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.178 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.178 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.179 [main] INFO  mapping.Mapper - Resource Mapping for /v1.0/bills/all:
+2020-10-25 22:09:06.179 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.179 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.179 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.179 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.179 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.179 [main] INFO  mapping.Mapper - Resource Mapping for /v3.0/bills/statements/pdf:
+2020-10-25 22:09:06.179 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.179 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.179 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.179 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.179 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.180 [main] INFO  mapping.Mapper - Resource Mapping for /v1.0/bills/statements/pdf:
+2020-10-25 22:09:06.180 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:06.180 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:06.180 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:06.180 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:06.180 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:06.180 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:09:06.190 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

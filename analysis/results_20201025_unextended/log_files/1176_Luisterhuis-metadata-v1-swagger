@@ -1,0 +1,21 @@
+Will overwrite mapping file
+2020-10-25 22:16:02.020 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:16:02.021 [main] INFO  mapping.Mapper - -> /audiobooks
+2020-10-25 22:16:02.021 [main] INFO  mapping.Mapper - -> /audiobooks/eans
+2020-10-25 22:16:02.021 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:16:02.031 [main] INFO  mapping.Mapper - Resource Mapping for /audiobooks:
+2020-10-25 22:16:02.031 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:02.031 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:02.031 [main] INFO  mapping.Mapper -       Operation: READ path=/audiobooks/{ean}
+2020-10-25 22:16:02.031 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:02.031 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:16:02.031 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/audiobooks/{ean}
+2020-10-25 22:16:02.031 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:02.031 [main] INFO  mapping.Mapper - Resource Mapping for /audiobooks/eans:
+2020-10-25 22:16:02.032 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:02.032 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:02.032 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:02.032 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:02.032 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:02.032 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:16:02.036 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

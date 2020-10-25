@@ -1,0 +1,230 @@
+Will overwrite mapping file
+2020-10-25 22:13:58.279 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:13:58.285 [main] INFO  mapping.Mapper - -> /adminAccounts
+2020-10-25 22:13:58.285 [main] INFO  mapping.Mapper - -> /socialMedias/links
+2020-10-25 22:13:58.285 [main] INFO  mapping.Mapper - -> /products/wallcoverings/items
+2020-10-25 22:13:58.286 [main] INFO  mapping.Mapper - -> /shops/links
+2020-10-25 22:13:58.286 [main] INFO  mapping.Mapper - -> /press/catalogues
+2020-10-25 22:13:58.286 [main] INFO  mapping.Mapper - -> /products/wallcoverings/likes
+2020-10-25 22:13:58.286 [main] INFO  mapping.Mapper - -> /edm/titles
+2020-10-25 22:13:58.286 [main] INFO  mapping.Mapper - -> /company/news
+2020-10-25 22:13:58.286 [main] INFO  mapping.Mapper - -> /products/fabrics/categories
+2020-10-25 22:13:58.286 [main] INFO  mapping.Mapper - -> /auth
+2020-10-25 22:13:58.287 [main] INFO  mapping.Mapper - -> /products/labelSets
+2020-10-25 22:13:58.287 [main] INFO  mapping.Mapper - -> /edm/paragraphs
+2020-10-25 22:13:58.287 [main] INFO  mapping.Mapper - -> /products/fabrics/items
+2020-10-25 22:13:58.287 [main] INFO  mapping.Mapper - -> /edm/images
+2020-10-25 22:13:58.287 [main] INFO  mapping.Mapper - -> /company/abouts
+2020-10-25 22:13:58.287 [main] INFO  mapping.Mapper - -> /company/news/images
+2020-10-25 22:13:58.287 [main] INFO  mapping.Mapper - -> /sliders/homeSilders
+2020-10-25 22:13:58.287 [main] INFO  mapping.Mapper - -> /company/howWeWorks
+2020-10-25 22:13:58.288 [main] INFO  mapping.Mapper - -> /products/wallcoverings/categories
+2020-10-25 22:13:58.288 [main] INFO  mapping.Mapper - -> /accounts
+2020-10-25 22:13:58.288 [main] INFO  mapping.Mapper - -> /products/fabrics/likes
+2020-10-25 22:13:58.288 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:13:58.302 [main] INFO  mapping.Mapper - Resource Mapping for /adminAccounts:
+2020-10-25 22:13:58.303 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:58.303 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:58.303 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:58.303 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:13:58.303 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/adminAccounts/{username}
+2020-10-25 22:13:58.303 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:58.319 [main] INFO  mapping.Mapper - Resource Mapping for /socialMedias/links:
+2020-10-25 22:13:58.320 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:58.320 [main] INFO  mapping.Mapper -       Operation: CREATE path=/socialMedias/links
+2020-10-25 22:13:58.320 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:13:58.320 [main] INFO  mapping.Mapper -       Operation: READ path=/socialMedias/links/{id}
+2020-10-25 22:13:58.321 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:58.321 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:13:58.321 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/socialMedias/links/{id}
+2020-10-25 22:13:58.321 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:13:58.321 [main] INFO  mapping.Mapper -       Operation: DELETE path=/socialMedias/links/{id}
+2020-10-25 22:13:58.331 [main] INFO  mapping.Mapper - Resource Mapping for /products/wallcoverings/items:
+2020-10-25 22:13:58.331 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:58.331 [main] INFO  mapping.Mapper -       Operation: CREATE path=/products/wallcoverings/items
+2020-10-25 22:13:58.331 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:13:58.331 [main] INFO  mapping.Mapper -       Operation: READ path=/products/wallcoverings/items/{id_or_category}
+2020-10-25 22:13:58.331 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:58.331 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:13:58.332 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/products/wallcoverings/items/{id_or_category}
+2020-10-25 22:13:58.332 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:13:58.332 [main] INFO  mapping.Mapper -       Operation: DELETE path=/products/wallcoverings/items/{id_or_category}
+2020-10-25 22:13:58.341 [main] INFO  mapping.Mapper - Resource Mapping for /shops/links:
+2020-10-25 22:13:58.342 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:58.342 [main] INFO  mapping.Mapper -       Operation: CREATE path=/shops/links
+2020-10-25 22:13:58.342 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:13:58.342 [main] INFO  mapping.Mapper -       Operation: READ path=/shops/links/{id}
+2020-10-25 22:13:58.342 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:58.342 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:13:58.342 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/shops/links/{id}
+2020-10-25 22:13:58.342 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:13:58.342 [main] INFO  mapping.Mapper -       Operation: DELETE path=/shops/links/{id}
+2020-10-25 22:13:58.358 [main] INFO  mapping.Mapper - Resource Mapping for /press/catalogues:
+2020-10-25 22:13:58.358 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:58.358 [main] INFO  mapping.Mapper -       Operation: CREATE path=/press/catalogues
+2020-10-25 22:13:58.358 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:13:58.358 [main] INFO  mapping.Mapper -       Operation: READ path=/press/catalogues/{id}
+2020-10-25 22:13:58.358 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:58.359 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:13:58.359 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/press/catalogues/{id}
+2020-10-25 22:13:58.359 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:13:58.359 [main] INFO  mapping.Mapper -       Operation: DELETE path=/press/catalogues/{id}
+2020-10-25 22:13:58.369 [main] INFO  mapping.Mapper - Resource Mapping for /products/wallcoverings/likes:
+2020-10-25 22:13:58.369 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:58.369 [main] INFO  mapping.Mapper -       Operation: CREATE path=/products/wallcoverings/likes
+2020-10-25 22:13:58.369 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:13:58.369 [main] INFO  mapping.Mapper -       Operation: READ path=/products/wallcoverings/likes/{id_or_userId}
+2020-10-25 22:13:58.369 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:58.369 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:13:58.370 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/products/wallcoverings/likes/{id_or_userId}
+2020-10-25 22:13:58.370 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:13:58.370 [main] INFO  mapping.Mapper -       Operation: DELETE path=/products/wallcoverings/likes/{id_or_userId}
+2020-10-25 22:13:58.382 [main] INFO  mapping.Mapper - Resource Mapping for /edm/titles:
+2020-10-25 22:13:58.382 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:58.383 [main] INFO  mapping.Mapper -       Operation: CREATE path=/edm/titles
+2020-10-25 22:13:58.383 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:13:58.383 [main] INFO  mapping.Mapper -       Operation: READ path=/edm/titles/{id}
+2020-10-25 22:13:58.383 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:58.383 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:13:58.383 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/edm/titles/{id}
+2020-10-25 22:13:58.383 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:13:58.383 [main] INFO  mapping.Mapper -       Operation: DELETE path=/edm/titles/{id}
+2020-10-25 22:13:58.395 [main] INFO  mapping.Mapper - Resource Mapping for /company/news:
+2020-10-25 22:13:58.395 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:58.395 [main] INFO  mapping.Mapper -       Operation: CREATE path=/company/news
+2020-10-25 22:13:58.395 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:13:58.395 [main] INFO  mapping.Mapper -       Operation: READ path=/company/news/{id}
+2020-10-25 22:13:58.395 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:58.395 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:13:58.395 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/company/news/{id}
+2020-10-25 22:13:58.395 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:13:58.395 [main] INFO  mapping.Mapper -       Operation: DELETE path=/company/news/{id}
+2020-10-25 22:13:58.405 [main] INFO  mapping.Mapper - Resource Mapping for /products/fabrics/categories:
+2020-10-25 22:13:58.405 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:58.405 [main] INFO  mapping.Mapper -       Operation: CREATE path=/products/fabrics/categories
+2020-10-25 22:13:58.406 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:13:58.406 [main] INFO  mapping.Mapper -       Operation: READ path=/products/fabrics/categories/{id}
+2020-10-25 22:13:58.406 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:58.406 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:13:58.406 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/products/fabrics/categories/{id}
+2020-10-25 22:13:58.406 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:13:58.406 [main] INFO  mapping.Mapper -       Operation: DELETE path=/products/fabrics/categories/{id}
+2020-10-25 22:13:58.410 [main] INFO  mapping.Mapper - Resource Mapping for /auth:
+2020-10-25 22:13:58.410 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:58.410 [main] INFO  mapping.Mapper -       Operation: CREATE path=/auth
+2020-10-25 22:13:58.411 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:58.411 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:58.411 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:58.411 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:13:58.411 [main] INFO  mapping.Mapper -       Operation: DELETE path=/auth
+2020-10-25 22:13:58.419 [main] INFO  mapping.Mapper - Resource Mapping for /products/labelSets:
+2020-10-25 22:13:58.419 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:58.419 [main] INFO  mapping.Mapper -       Operation: CREATE path=/products/labelSets
+2020-10-25 22:13:58.419 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:13:58.419 [main] INFO  mapping.Mapper -       Operation: READ path=/products/labelSets/{id}
+2020-10-25 22:13:58.419 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:58.419 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:13:58.419 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/products/labelSets/{id}
+2020-10-25 22:13:58.419 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:13:58.419 [main] INFO  mapping.Mapper -       Operation: DELETE path=/products/labelSets/{id}
+2020-10-25 22:13:58.427 [main] INFO  mapping.Mapper - Resource Mapping for /edm/paragraphs:
+2020-10-25 22:13:58.428 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:58.428 [main] INFO  mapping.Mapper -       Operation: CREATE path=/edm/paragraphs
+2020-10-25 22:13:58.428 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:13:58.428 [main] INFO  mapping.Mapper -       Operation: READ path=/edm/paragraphs/{id}
+2020-10-25 22:13:58.428 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:58.428 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:13:58.428 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/edm/paragraphs/{id}
+2020-10-25 22:13:58.428 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:13:58.428 [main] INFO  mapping.Mapper -       Operation: DELETE path=/edm/paragraphs/{id}
+2020-10-25 22:13:58.436 [main] INFO  mapping.Mapper - Resource Mapping for /products/fabrics/items:
+2020-10-25 22:13:58.436 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:58.436 [main] INFO  mapping.Mapper -       Operation: CREATE path=/products/fabrics/items
+2020-10-25 22:13:58.437 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:13:58.437 [main] INFO  mapping.Mapper -       Operation: READ path=/products/fabrics/items/{id_or_category}
+2020-10-25 22:13:58.437 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:58.437 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:13:58.437 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/products/fabrics/items/{id_or_category}
+2020-10-25 22:13:58.437 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:13:58.437 [main] INFO  mapping.Mapper -       Operation: DELETE path=/products/fabrics/items/{id_or_category}
+2020-10-25 22:13:58.445 [main] INFO  mapping.Mapper - Resource Mapping for /edm/images:
+2020-10-25 22:13:58.445 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:58.445 [main] INFO  mapping.Mapper -       Operation: CREATE path=/edm/images
+2020-10-25 22:13:58.445 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:13:58.445 [main] INFO  mapping.Mapper -       Operation: READ path=/edm/images/{id}
+2020-10-25 22:13:58.445 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:58.446 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:13:58.446 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/edm/images/{id}
+2020-10-25 22:13:58.446 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:13:58.446 [main] INFO  mapping.Mapper -       Operation: DELETE path=/edm/images/{id}
+2020-10-25 22:13:58.456 [main] INFO  mapping.Mapper - Resource Mapping for /company/abouts:
+2020-10-25 22:13:58.456 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:58.457 [main] INFO  mapping.Mapper -       Operation: CREATE path=/company/abouts
+2020-10-25 22:13:58.457 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:13:58.457 [main] INFO  mapping.Mapper -       Operation: READ path=/company/abouts/{id}
+2020-10-25 22:13:58.457 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:58.457 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:13:58.457 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/company/abouts/{id}
+2020-10-25 22:13:58.457 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:13:58.457 [main] INFO  mapping.Mapper -       Operation: DELETE path=/company/abouts/{id}
+2020-10-25 22:13:58.470 [main] INFO  mapping.Mapper - Resource Mapping for /company/news/images:
+2020-10-25 22:13:58.471 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:58.471 [main] INFO  mapping.Mapper -       Operation: CREATE path=/company/news/images
+2020-10-25 22:13:58.471 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:13:58.471 [main] INFO  mapping.Mapper -       Operation: READ path=/company/news/images/{id}
+2020-10-25 22:13:58.471 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:58.471 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:13:58.471 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/company/news/images/{id}
+2020-10-25 22:13:58.471 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:13:58.471 [main] INFO  mapping.Mapper -       Operation: DELETE path=/company/news/images/{id}
+2020-10-25 22:13:58.484 [main] INFO  mapping.Mapper - Resource Mapping for /sliders/homeSilders:
+2020-10-25 22:13:58.485 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:58.485 [main] INFO  mapping.Mapper -       Operation: CREATE path=/sliders/homeSilders
+2020-10-25 22:13:58.485 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:13:58.485 [main] INFO  mapping.Mapper -       Operation: READ path=/sliders/homeSilders/{id}
+2020-10-25 22:13:58.485 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:58.485 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:13:58.485 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/sliders/homeSilders/{id}
+2020-10-25 22:13:58.485 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:13:58.485 [main] INFO  mapping.Mapper -       Operation: DELETE path=/sliders/homeSilders/{id}
+2020-10-25 22:13:58.496 [main] INFO  mapping.Mapper - Resource Mapping for /company/howWeWorks:
+2020-10-25 22:13:58.497 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:58.497 [main] INFO  mapping.Mapper -       Operation: CREATE path=/company/howWeWorks
+2020-10-25 22:13:58.497 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:13:58.497 [main] INFO  mapping.Mapper -       Operation: READ path=/company/howWeWorks/{id}
+2020-10-25 22:13:58.497 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:58.497 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:13:58.497 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/company/howWeWorks/{id}
+2020-10-25 22:13:58.497 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:13:58.497 [main] INFO  mapping.Mapper -       Operation: DELETE path=/company/howWeWorks/{id}
+2020-10-25 22:13:58.509 [main] INFO  mapping.Mapper - Resource Mapping for /products/wallcoverings/categories:
+2020-10-25 22:13:58.510 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:58.510 [main] INFO  mapping.Mapper -       Operation: CREATE path=/products/wallcoverings/categories
+2020-10-25 22:13:58.510 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:13:58.510 [main] INFO  mapping.Mapper -       Operation: READ path=/products/wallcoverings/categories/{id}
+2020-10-25 22:13:58.510 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:58.510 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:13:58.510 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/products/wallcoverings/categories/{id}
+2020-10-25 22:13:58.510 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:13:58.511 [main] INFO  mapping.Mapper -       Operation: DELETE path=/products/wallcoverings/categories/{id}
+2020-10-25 22:13:58.522 [main] INFO  mapping.Mapper - Resource Mapping for /accounts:
+2020-10-25 22:13:58.522 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:58.522 [main] INFO  mapping.Mapper -       Operation: CREATE path=/accounts
+2020-10-25 22:13:58.522 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:58.522 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:58.522 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:13:58.522 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/accounts/{email}
+2020-10-25 22:13:58.522 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:13:58.522 [main] INFO  mapping.Mapper -       Operation: DELETE path=/accounts/{email}
+2020-10-25 22:13:58.534 [main] INFO  mapping.Mapper - Resource Mapping for /products/fabrics/likes:
+2020-10-25 22:13:58.535 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:58.535 [main] INFO  mapping.Mapper -       Operation: CREATE path=/products/fabrics/likes
+2020-10-25 22:13:58.535 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:13:58.535 [main] INFO  mapping.Mapper -       Operation: READ path=/products/fabrics/likes/{id_or_userId}
+2020-10-25 22:13:58.535 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:58.535 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:13:58.535 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/products/fabrics/likes/{id_or_userId}
+2020-10-25 22:13:58.535 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:13:58.535 [main] INFO  mapping.Mapper -       Operation: DELETE path=/products/fabrics/likes/{id_or_userId}
+2020-10-25 22:13:58.536 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:13:58.554 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

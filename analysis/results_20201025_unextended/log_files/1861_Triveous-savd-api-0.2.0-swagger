@@ -1,0 +1,89 @@
+Will overwrite mapping file
+2020-10-25 22:20:45.478 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:20:45.480 [main] INFO  mapping.Mapper - -> /import/instapaper
+2020-10-25 22:20:45.480 [main] INFO  mapping.Mapper - -> /tags
+2020-10-25 22:20:45.480 [main] INFO  mapping.Mapper - -> /bookmarks
+2020-10-25 22:20:45.480 [main] INFO  mapping.Mapper - -> /bundle
+2020-10-25 22:20:45.480 [main] INFO  mapping.Mapper - -> /me
+2020-10-25 22:20:45.480 [main] INFO  mapping.Mapper - -> /annotations
+2020-10-25 22:20:45.480 [main] INFO  mapping.Mapper - -> /user
+2020-10-25 22:20:45.480 [main] INFO  mapping.Mapper - -> /import/pocket
+2020-10-25 22:20:45.480 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:20:45.487 [main] INFO  mapping.Mapper - Resource Mapping for /import/instapaper:
+2020-10-25 22:20:45.487 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:20:45.487 [main] INFO  mapping.Mapper -       Operation: CREATE path=/import/instapaper
+2020-10-25 22:20:45.487 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:20:45.487 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:20:45.487 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:20:45.487 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:20:45.497 [main] INFO  mapping.Mapper - Resource Mapping for /tags:
+2020-10-25 22:20:45.498 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:20:45.498 [main] INFO  mapping.Mapper -       Operation: CREATE path=/tags
+2020-10-25 22:20:45.498 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:20:45.498 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:20:45.498 [main] INFO  mapping.Mapper -       Operation: SCAN path=/tags
+2020-10-25 22:20:45.498 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:20:45.498 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/tags/{id}
+2020-10-25 22:20:45.498 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:20:45.498 [main] INFO  mapping.Mapper -       Operation: DELETE path=/tags/{id}
+2020-10-25 22:20:45.508 [main] INFO  mapping.Mapper - Resource Mapping for /bookmarks:
+2020-10-25 22:20:45.508 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:20:45.508 [main] INFO  mapping.Mapper -       Operation: CREATE path=/bookmarks
+2020-10-25 22:20:45.508 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:20:45.508 [main] INFO  mapping.Mapper -       Operation: READ path=/bookmarks/{id}
+2020-10-25 22:20:45.508 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:20:45.508 [main] INFO  mapping.Mapper -       Operation: SCAN path=/bookmarks
+2020-10-25 22:20:45.508 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:20:45.508 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/bookmarks/{id}
+2020-10-25 22:20:45.508 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:20:45.509 [main] INFO  mapping.Mapper -       Operation: DELETE path=/bookmarks/{id}
+2020-10-25 22:20:45.511 [main] INFO  mapping.Mapper - Resource Mapping for /bundle:
+2020-10-25 22:20:45.511 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:20:45.511 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:20:45.511 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:20:45.511 [main] INFO  mapping.Mapper -       Operation: SCAN path=/bundle
+2020-10-25 22:20:45.511 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:20:45.511 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:20:45.511 [main] INFO  mapping.Mapper - Resource Mapping for /me:
+2020-10-25 22:20:45.511 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:20:45.512 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:20:45.512 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:20:45.512 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:20:45.512 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:20:45.519 [main] INFO  mapping.Mapper - Resource Mapping for /annotations:
+2020-10-25 22:20:45.519 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:20:45.519 [main] INFO  mapping.Mapper -       Operation: CREATE path=/annotations
+2020-10-25 22:20:45.519 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:20:45.519 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:20:45.519 [main] INFO  mapping.Mapper -       Operation: SCAN path=/annotations
+2020-10-25 22:20:45.519 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:20:45.519 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/annotations/{id}
+2020-10-25 22:20:45.519 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:20:45.519 [main] INFO  mapping.Mapper -       Operation: DELETE path=/annotations/{id}
+2020-10-25 22:20:45.521 [main] INFO  mapping.Mapper - Resource Mapping for /user:
+2020-10-25 22:20:45.522 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:20:45.522 [main] INFO  mapping.Mapper -       Operation: CREATE path=/user
+2020-10-25 22:20:45.522 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:20:45.522 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:20:45.522 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:20:45.522 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:20:45.523 [main] INFO  mapping.Mapper - Resource Mapping for /import/pocket:
+2020-10-25 22:20:45.523 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:20:45.524 [main] INFO  mapping.Mapper -       Operation: CREATE path=/import/pocket
+2020-10-25 22:20:45.524 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:20:45.524 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:20:45.524 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:20:45.524 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:20:45.524 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:20:45.524 [main] INFO  MatchingTool - Resource Mapping for /bookmarks:
+2020-10-25 22:20:45.524 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=20:
+2020-10-25 22:20:45.524 [main] INFO  MatchingTool -       Operation: CREATE path=/bookmarks
+2020-10-25 22:20:45.524 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=20:
+2020-10-25 22:20:45.524 [main] INFO  MatchingTool -       Operation: READ path=/bookmarks/{id}
+2020-10-25 22:20:45.524 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=20:
+2020-10-25 22:20:45.524 [main] INFO  MatchingTool -       Operation: SCAN path=/bookmarks
+2020-10-25 22:20:45.524 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=20:
+2020-10-25 22:20:45.524 [main] INFO  MatchingTool -       Operation: UPDATE path=/bookmarks/{id}
+2020-10-25 22:20:45.524 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=20:
+2020-10-25 22:20:45.525 [main] INFO  MatchingTool -       Operation: DELETE path=/bookmarks/{id}
+2020-10-25 22:20:45.530 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

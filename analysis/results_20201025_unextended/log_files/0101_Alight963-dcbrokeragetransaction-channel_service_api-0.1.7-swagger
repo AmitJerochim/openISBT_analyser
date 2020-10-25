@@ -1,0 +1,112 @@
+Will overwrite mapping file
+2020-10-25 22:09:01.735 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:09:01.737 [main] INFO  mapping.Mapper - -> /api/channel/dcbrokeragewidgets/brokerageTransactionReviewWidget
+2020-10-25 22:09:01.737 [main] INFO  mapping.Mapper - -> /api/channel/dcbrokeragewidgets/brokerageTransactionErrorWidget
+2020-10-25 22:09:01.737 [main] INFO  mapping.Mapper - -> /api/channel/dcbrokeragewidgets/brokerageTransactionIntractWidget
+2020-10-25 22:09:01.737 [main] INFO  mapping.Mapper - -> /api/channel/dcbrokeragewidgets/brokerageTransactionCompletedWidget
+2020-10-25 22:09:01.737 [main] INFO  mapping.Mapper - -> /api/channel/dcbrokeragewidgets/brokerageTransactionAmountTransferOutWidget
+2020-10-25 22:09:01.737 [main] INFO  mapping.Mapper - -> /api/channel/dcbrokeragewidgets/brokerageTransactionTransferOutWidget
+2020-10-25 22:09:01.737 [main] INFO  mapping.Mapper - -> /api/channel/dcbrokeragewidgets/brokerageTransactionPendingDeletedWidget/cancel
+2020-10-25 22:09:01.737 [main] INFO  mapping.Mapper - -> /api/channel/dcbrokeragewidgets/brokerageTransactionTransferInWidget
+2020-10-25 22:09:01.737 [main] INFO  mapping.Mapper - -> /api/channel/dcbrokeragewidgets/brokerageTransactionPendingWidget 
+2020-10-25 22:09:01.737 [main] INFO  mapping.Mapper - -> /api/channel/dcbrokeragewidgets/brokerageTransactionPendingKeptWidget
+2020-10-25 22:09:01.737 [main] INFO  mapping.Mapper - -> /api/channel/dcbrokeragewidgets/brokerageTransactionTransferOutWidget/validate
+2020-10-25 22:09:01.737 [main] INFO  mapping.Mapper - -> /api/channel/dcbrokeragewidgets/brokerageTransactionPendingWidget
+2020-10-25 22:09:01.737 [main] INFO  mapping.Mapper - -> /api/channel/dcbrokeragewidgets/brokerageTransactionTransferInWidget/validate
+2020-10-25 22:09:01.737 [main] INFO  mapping.Mapper - -> /api/channel/dcbrokeragewidgets/brokerageTransactionReviewWidget/validate
+2020-10-25 22:09:01.737 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:09:01.746 [main] INFO  mapping.Mapper - Resource Mapping for /api/channel/dcbrokeragewidgets/brokerageTransactionReviewWidget:
+2020-10-25 22:09:01.747 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:01.747 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:09:01.747 [main] INFO  mapping.Mapper -       Operation: READ path=/api/channel/dcbrokeragewidgets/brokerageTransactionReviewWidget/{businessProcessId}
+2020-10-25 22:09:01.747 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:01.747 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:01.747 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:01.747 [main] INFO  mapping.Mapper - Resource Mapping for /api/channel/dcbrokeragewidgets/brokerageTransactionErrorWidget:
+2020-10-25 22:09:01.747 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:01.748 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:01.748 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:01.748 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:01.748 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:01.748 [main] INFO  mapping.Mapper - Resource Mapping for /api/channel/dcbrokeragewidgets/brokerageTransactionIntractWidget:
+2020-10-25 22:09:01.748 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:01.748 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:01.748 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:01.748 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:01.749 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:01.752 [main] INFO  mapping.Mapper - Resource Mapping for /api/channel/dcbrokeragewidgets/brokerageTransactionCompletedWidget:
+2020-10-25 22:09:01.752 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:01.752 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:09:01.752 [main] INFO  mapping.Mapper -       Operation: READ path=/api/channel/dcbrokeragewidgets/brokerageTransactionCompletedWidget/{businessProcessId}
+2020-10-25 22:09:01.752 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:01.752 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:01.752 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:01.753 [main] INFO  mapping.Mapper - Resource Mapping for /api/channel/dcbrokeragewidgets/brokerageTransactionAmountTransferOutWidget:
+2020-10-25 22:09:01.753 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:01.753 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:01.753 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:01.753 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:01.753 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:01.756 [main] INFO  mapping.Mapper - Resource Mapping for /api/channel/dcbrokeragewidgets/brokerageTransactionTransferOutWidget:
+2020-10-25 22:09:01.756 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:01.756 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:09:01.756 [main] INFO  mapping.Mapper -       Operation: READ path=/api/channel/dcbrokeragewidgets/brokerageTransactionTransferOutWidget/{businessProcessId}
+2020-10-25 22:09:01.756 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:01.756 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:01.756 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:01.759 [main] INFO  mapping.Mapper - Resource Mapping for /api/channel/dcbrokeragewidgets/brokerageTransactionPendingDeletedWidget/cancel:
+2020-10-25 22:09:01.760 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:01.760 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:01.760 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:01.760 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:09:01.760 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/channel/dcbrokeragewidgets/brokerageTransactionPendingDeletedWidget/cancel/{businessProcessReferenceId}
+2020-10-25 22:09:01.760 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:01.762 [main] INFO  mapping.Mapper - Resource Mapping for /api/channel/dcbrokeragewidgets/brokerageTransactionTransferInWidget:
+2020-10-25 22:09:01.763 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:01.763 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:09:01.763 [main] INFO  mapping.Mapper -       Operation: READ path=/api/channel/dcbrokeragewidgets/brokerageTransactionTransferInWidget/{businessProcessId}
+2020-10-25 22:09:01.763 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:01.763 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:01.763 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:01.765 [main] INFO  mapping.Mapper - Resource Mapping for /api/channel/dcbrokeragewidgets/brokerageTransactionPendingWidget :
+2020-10-25 22:09:01.766 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:01.766 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:09:01.766 [main] INFO  mapping.Mapper -       Operation: READ path=/api/channel/dcbrokeragewidgets/brokerageTransactionPendingWidget /{businessProcessReferenceId}
+2020-10-25 22:09:01.766 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:01.766 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:01.766 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:01.766 [main] INFO  mapping.Mapper - Resource Mapping for /api/channel/dcbrokeragewidgets/brokerageTransactionPendingKeptWidget:
+2020-10-25 22:09:01.766 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:01.766 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:01.766 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:01.766 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:01.766 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:01.770 [main] INFO  mapping.Mapper - Resource Mapping for /api/channel/dcbrokeragewidgets/brokerageTransactionTransferOutWidget/validate:
+2020-10-25 22:09:01.770 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:01.770 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/channel/dcbrokeragewidgets/brokerageTransactionTransferOutWidget/validate
+2020-10-25 22:09:01.770 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:01.770 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:01.770 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:01.770 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:01.770 [main] INFO  mapping.Mapper - Resource Mapping for /api/channel/dcbrokeragewidgets/brokerageTransactionPendingWidget:
+2020-10-25 22:09:01.770 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:01.770 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:01.771 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:01.771 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:01.771 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:01.774 [main] INFO  mapping.Mapper - Resource Mapping for /api/channel/dcbrokeragewidgets/brokerageTransactionTransferInWidget/validate:
+2020-10-25 22:09:01.774 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:01.774 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/channel/dcbrokeragewidgets/brokerageTransactionTransferInWidget/validate
+2020-10-25 22:09:01.774 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:01.774 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:01.774 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:01.775 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:01.778 [main] INFO  mapping.Mapper - Resource Mapping for /api/channel/dcbrokeragewidgets/brokerageTransactionReviewWidget/validate:
+2020-10-25 22:09:01.778 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:01.778 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/channel/dcbrokeragewidgets/brokerageTransactionReviewWidget/validate
+2020-10-25 22:09:01.778 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:01.778 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:01.778 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:01.778 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:01.779 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:09:01.796 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

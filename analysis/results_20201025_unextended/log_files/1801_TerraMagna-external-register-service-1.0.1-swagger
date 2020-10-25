@@ -1,0 +1,21 @@
+Will overwrite mapping file
+2020-10-25 22:19:53.474 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:19:53.475 [main] INFO  mapping.Mapper - -> /registers
+2020-10-25 22:19:53.475 [main] INFO  mapping.Mapper - -> /register
+2020-10-25 22:19:53.475 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:19:53.479 [main] INFO  mapping.Mapper - Resource Mapping for /registers:
+2020-10-25 22:19:53.479 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:53.479 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:53.479 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:53.479 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:53.479 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:53.491 [main] INFO  mapping.Mapper - Resource Mapping for /register:
+2020-10-25 22:19:53.491 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:53.491 [main] INFO  mapping.Mapper -       Operation: CREATE path=/register
+2020-10-25 22:19:53.491 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:53.491 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:53.491 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:19:53.491 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/register/{registerId}
+2020-10-25 22:19:53.491 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:53.491 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:19:53.496 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

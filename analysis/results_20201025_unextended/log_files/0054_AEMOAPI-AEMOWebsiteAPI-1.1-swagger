@@ -1,0 +1,60 @@
+Will overwrite mapping file
+2020-10-25 22:08:46.654 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:08:46.655 [main] INFO  mapping.Mapper - -> /api/v1/contactus
+2020-10-25 22:08:46.655 [main] INFO  mapping.Mapper - -> /api/common/v1/pushNotification
+2020-10-25 22:08:46.655 [main] INFO  mapping.Mapper - -> /api/common/v1/subscriptions
+2020-10-25 22:08:46.655 [main] INFO  mapping.Mapper - -> /api/public/v1/marketnoticetypes
+2020-10-25 22:08:46.655 [main] INFO  mapping.Mapper - -> /api/common/v1/subscriptions/newsletters
+2020-10-25 22:08:46.655 [main] INFO  mapping.Mapper - -> /api/public/v1/marketnotices
+2020-10-25 22:08:46.655 [main] INFO  mapping.Mapper - -> /api/common/v1/contentupdates
+2020-10-25 22:08:46.655 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:08:46.663 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/contactus:
+2020-10-25 22:08:46.663 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:08:46.663 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/v1/contactus
+2020-10-25 22:08:46.663 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:08:46.663 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:46.663 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:46.663 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:46.666 [main] INFO  mapping.Mapper - Resource Mapping for /api/common/v1/pushNotification:
+2020-10-25 22:08:46.666 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:08:46.666 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/common/v1/pushNotification
+2020-10-25 22:08:46.666 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:08:46.666 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:46.666 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:46.666 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:46.671 [main] INFO  mapping.Mapper - Resource Mapping for /api/common/v1/subscriptions:
+2020-10-25 22:08:46.671 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:08:46.671 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/common/v1/subscriptions
+2020-10-25 22:08:46.671 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:08:46.671 [main] INFO  mapping.Mapper -       Operation: READ path=/api/common/v1/subscriptions/{recipientId}
+2020-10-25 22:08:46.671 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:46.671 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:46.671 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:46.671 [main] INFO  mapping.Mapper - Resource Mapping for /api/public/v1/marketnoticetypes:
+2020-10-25 22:08:46.671 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:08:46.671 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:08:46.672 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:46.672 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:46.672 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:46.674 [main] INFO  mapping.Mapper - Resource Mapping for /api/common/v1/subscriptions/newsletters:
+2020-10-25 22:08:46.674 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:08:46.674 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/common/v1/subscriptions/newsletters
+2020-10-25 22:08:46.674 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:08:46.674 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:46.674 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:46.674 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:46.676 [main] INFO  mapping.Mapper - Resource Mapping for /api/public/v1/marketnotices:
+2020-10-25 22:08:46.676 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:08:46.676 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:08:46.676 [main] INFO  mapping.Mapper -       Operation: READ path=/api/public/v1/marketnotices/{noticeId}
+2020-10-25 22:08:46.676 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:46.676 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:46.677 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:46.677 [main] INFO  mapping.Mapper - Resource Mapping for /api/common/v1/contentupdates:
+2020-10-25 22:08:46.677 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:08:46.677 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:08:46.677 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:46.677 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:46.677 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:46.677 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:08:46.684 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

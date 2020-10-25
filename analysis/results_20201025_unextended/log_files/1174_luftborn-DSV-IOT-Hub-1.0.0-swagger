@@ -1,0 +1,37 @@
+Will overwrite mapping file
+2020-10-25 22:16:01.531 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:16:01.533 [main] INFO  mapping.Mapper - -> /api/tracker/get
+2020-10-25 22:16:01.533 [main] INFO  mapping.Mapper - -> /api/shipment/list
+2020-10-25 22:16:01.533 [main] INFO  mapping.Mapper - -> /api/shipment/active
+2020-10-25 22:16:01.533 [main] INFO  mapping.Mapper - -> /api/shipment/get
+2020-10-25 22:16:01.533 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:16:01.542 [main] INFO  mapping.Mapper - Resource Mapping for /api/tracker/get:
+2020-10-25 22:16:01.542 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:01.542 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:01.542 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:01.542 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/tracker/get/{id}
+2020-10-25 22:16:01.542 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:01.542 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:01.546 [main] INFO  mapping.Mapper - Resource Mapping for /api/shipment/list:
+2020-10-25 22:16:01.546 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:01.546 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:01.546 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:01.546 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/shipment/list
+2020-10-25 22:16:01.546 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:01.546 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:01.549 [main] INFO  mapping.Mapper - Resource Mapping for /api/shipment/active:
+2020-10-25 22:16:01.549 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:01.549 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:01.549 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:01.550 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/shipment/active
+2020-10-25 22:16:01.550 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:01.550 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:01.554 [main] INFO  mapping.Mapper - Resource Mapping for /api/shipment/get:
+2020-10-25 22:16:01.554 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:01.554 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:01.554 [main] INFO  mapping.Mapper -       Operation: READ path=/api/shipment/get/{id}
+2020-10-25 22:16:01.554 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:01.554 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:01.554 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:01.554 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:16:01.559 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

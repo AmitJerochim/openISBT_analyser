@@ -1,0 +1,21 @@
+Will overwrite mapping file
+2020-10-25 22:17:59.580 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:17:59.582 [main] INFO  mapping.Mapper - -> /estimate
+2020-10-25 22:17:59.582 [main] INFO  mapping.Mapper - -> /territory/postalcode
+2020-10-25 22:17:59.582 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:17:59.597 [main] INFO  mapping.Mapper - Resource Mapping for /estimate:
+2020-10-25 22:17:59.597 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:59.597 [main] INFO  mapping.Mapper -       Operation: CREATE path=/estimate
+2020-10-25 22:17:59.597 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:59.597 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:59.597 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:59.598 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:59.601 [main] INFO  mapping.Mapper - Resource Mapping for /territory/postalcode:
+2020-10-25 22:17:59.601 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:59.601 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:17:59.602 [main] INFO  mapping.Mapper -       Operation: READ path=/territory/postalcode/{postalcode}
+2020-10-25 22:17:59.602 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:59.602 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:59.602 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:59.602 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:17:59.608 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

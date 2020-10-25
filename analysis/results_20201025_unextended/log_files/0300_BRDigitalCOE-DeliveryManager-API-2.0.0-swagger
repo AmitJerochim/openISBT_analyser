@@ -1,0 +1,118 @@
+Will overwrite mapping file
+2020-10-25 22:10:49.990 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:10:49.992 [main] INFO  mapping.Mapper - -> /reports/open/brand
+2020-10-25 22:10:49.992 [main] INFO  mapping.Mapper - -> /reports/enrollments/sourcesystem
+2020-10-25 22:10:49.992 [main] INFO  mapping.Mapper - -> /reports/delivery/sourcesystem
+2020-10-25 22:10:49.992 [main] INFO  mapping.Mapper - -> /reports/click/brand
+2020-10-25 22:10:49.992 [main] INFO  mapping.Mapper - -> /reports/bounce/sourcesystem
+2020-10-25 22:10:49.993 [main] INFO  mapping.Mapper - -> /reports/click/sourcesystem
+2020-10-25 22:10:49.993 [main] INFO  mapping.Mapper - -> /reports/fbl/sourcesystem
+2020-10-25 22:10:49.993 [main] INFO  mapping.Mapper - -> /reports/fbl/brand
+2020-10-25 22:10:49.993 [main] INFO  mapping.Mapper - -> /reports/bounce/brand
+2020-10-25 22:10:49.993 [main] INFO  mapping.Mapper - -> /document/delivery
+2020-10-25 22:10:49.993 [main] INFO  mapping.Mapper - -> /reports/retry/brand
+2020-10-25 22:10:49.993 [main] INFO  mapping.Mapper - -> /reports/delivery/brand
+2020-10-25 22:10:49.993 [main] INFO  mapping.Mapper - -> /reports/retry/sourcesystem
+2020-10-25 22:10:49.993 [main] INFO  mapping.Mapper - -> /reports/enrollments/brand
+2020-10-25 22:10:49.993 [main] INFO  mapping.Mapper - -> /reports/open/sourcesystem
+2020-10-25 22:10:49.993 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:10:50.005 [main] INFO  mapping.Mapper - Resource Mapping for /reports/open/brand:
+2020-10-25 22:10:50.005 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:50.005 [main] INFO  mapping.Mapper -       Operation: CREATE path=/reports/open/brand/{brandId}
+2020-10-25 22:10:50.005 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:50.005 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:50.005 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:50.005 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:50.006 [main] INFO  mapping.Mapper - Resource Mapping for /reports/enrollments/sourcesystem:
+2020-10-25 22:10:50.006 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:50.006 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:50.006 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:50.006 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:50.006 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:50.006 [main] INFO  mapping.Mapper - Resource Mapping for /reports/delivery/sourcesystem:
+2020-10-25 22:10:50.006 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:50.006 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:50.006 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:50.007 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:50.007 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:50.009 [main] INFO  mapping.Mapper - Resource Mapping for /reports/click/brand:
+2020-10-25 22:10:50.009 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:50.009 [main] INFO  mapping.Mapper -       Operation: CREATE path=/reports/click/brand/{brandId}
+2020-10-25 22:10:50.009 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:50.009 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:50.009 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:50.010 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:50.010 [main] INFO  mapping.Mapper - Resource Mapping for /reports/bounce/sourcesystem:
+2020-10-25 22:10:50.010 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:50.010 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:50.010 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:50.010 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:50.010 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:50.010 [main] INFO  mapping.Mapper - Resource Mapping for /reports/click/sourcesystem:
+2020-10-25 22:10:50.011 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:50.011 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:50.011 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:50.011 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:50.011 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:50.011 [main] INFO  mapping.Mapper - Resource Mapping for /reports/fbl/sourcesystem:
+2020-10-25 22:10:50.011 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:50.011 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:50.011 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:50.011 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:50.011 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:50.014 [main] INFO  mapping.Mapper - Resource Mapping for /reports/fbl/brand:
+2020-10-25 22:10:50.014 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:50.014 [main] INFO  mapping.Mapper -       Operation: CREATE path=/reports/fbl/brand/{brandId}
+2020-10-25 22:10:50.014 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:50.014 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:50.014 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:50.014 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:50.016 [main] INFO  mapping.Mapper - Resource Mapping for /reports/bounce/brand:
+2020-10-25 22:10:50.016 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:50.016 [main] INFO  mapping.Mapper -       Operation: CREATE path=/reports/bounce/brand/{brandId}
+2020-10-25 22:10:50.016 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:50.016 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:50.016 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:50.017 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:50.020 [main] INFO  mapping.Mapper - Resource Mapping for /document/delivery:
+2020-10-25 22:10:50.021 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:50.021 [main] INFO  mapping.Mapper -       Operation: CREATE path=/document/delivery
+2020-10-25 22:10:50.021 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:50.021 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:50.021 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:50.021 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:50.032 [main] INFO  mapping.Mapper - Resource Mapping for /reports/retry/brand:
+2020-10-25 22:10:50.032 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:50.033 [main] INFO  mapping.Mapper -       Operation: CREATE path=/reports/retry/brand/{brandId}
+2020-10-25 22:10:50.033 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:50.033 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:50.033 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:50.033 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:50.034 [main] INFO  mapping.Mapper - Resource Mapping for /reports/delivery/brand:
+2020-10-25 22:10:50.035 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:50.035 [main] INFO  mapping.Mapper -       Operation: CREATE path=/reports/delivery/brand/{brandId}
+2020-10-25 22:10:50.035 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:50.035 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:50.035 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:50.035 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:50.035 [main] INFO  mapping.Mapper - Resource Mapping for /reports/retry/sourcesystem:
+2020-10-25 22:10:50.035 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:50.035 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:50.035 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:50.035 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:50.035 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:50.038 [main] INFO  mapping.Mapper - Resource Mapping for /reports/enrollments/brand:
+2020-10-25 22:10:50.038 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:50.038 [main] INFO  mapping.Mapper -       Operation: CREATE path=/reports/enrollments/brand/{brandId}
+2020-10-25 22:10:50.038 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:50.038 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:50.038 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:50.038 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:50.038 [main] INFO  mapping.Mapper - Resource Mapping for /reports/open/sourcesystem:
+2020-10-25 22:10:50.038 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:50.038 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:50.038 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:50.038 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:50.038 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:50.039 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:10:50.045 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,105 @@
+Will overwrite mapping file
+2020-10-25 22:11:03.728 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:11:03.729 [main] INFO  mapping.Mapper - -> /Patient/$call-center-contact-v2
+2020-10-25 22:11:03.729 [main] INFO  mapping.Mapper - -> /Practitioner
+2020-10-25 22:11:03.729 [main] INFO  mapping.Mapper - -> /Patient/$phone
+2020-10-25 22:11:03.729 [main] INFO  mapping.Mapper - -> /Communication
+2020-10-25 22:11:03.729 [main] INFO  mapping.Mapper - -> /Patient
+2020-10-25 22:11:03.729 [main] INFO  mapping.Mapper - -> /Patient/$search
+2020-10-25 22:11:03.729 [main] INFO  mapping.Mapper - -> /Patient/$call-center-contact
+2020-10-25 22:11:03.729 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:11:03.736 [main] INFO  mapping.Mapper - Resource Mapping for /Patient/$call-center-contact-v2:
+2020-10-25 22:11:03.736 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:03.736 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:03.736 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:03.736 [main] INFO  mapping.Mapper -       Operation: SCAN path=/Patient/$call-center-contact-v2
+2020-10-25 22:11:03.736 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:03.736 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:03.748 [main] INFO  mapping.Mapper - Resource Mapping for /Practitioner:
+2020-10-25 22:11:03.749 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:03.749 [main] INFO  mapping.Mapper -       Operation: CREATE path=/Practitioner
+2020-10-25 22:11:03.749 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:03.749 [main] INFO  mapping.Mapper -       Operation: READ path=/Practitioner/{id}
+2020-10-25 22:11:03.749 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:03.749 [main] INFO  mapping.Mapper -       Operation: SCAN path=/Practitioner
+2020-10-25 22:11:03.749 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:11:03.749 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/Practitioner/{id}
+2020-10-25 22:11:03.749 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:11:03.749 [main] INFO  mapping.Mapper -       Operation: DELETE path=/Practitioner/{id}
+2020-10-25 22:11:03.752 [main] INFO  mapping.Mapper - Resource Mapping for /Patient/$phone:
+2020-10-25 22:11:03.752 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:03.752 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:03.752 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:03.752 [main] INFO  mapping.Mapper -       Operation: SCAN path=/Patient/$phone
+2020-10-25 22:11:03.752 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:03.752 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:03.762 [main] INFO  mapping.Mapper - Resource Mapping for /Communication:
+2020-10-25 22:11:03.762 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:03.762 [main] INFO  mapping.Mapper -       Operation: CREATE path=/Communication
+2020-10-25 22:11:03.762 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:03.762 [main] INFO  mapping.Mapper -       Operation: READ path=/Communication/{id}
+2020-10-25 22:11:03.762 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:03.762 [main] INFO  mapping.Mapper -       Operation: SCAN path=/Communication
+2020-10-25 22:11:03.762 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:11:03.762 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/Communication/{id}
+2020-10-25 22:11:03.763 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:11:03.763 [main] INFO  mapping.Mapper -       Operation: DELETE path=/Communication/{id}
+2020-10-25 22:11:03.771 [main] INFO  mapping.Mapper - Resource Mapping for /Patient:
+2020-10-25 22:11:03.771 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:03.771 [main] INFO  mapping.Mapper -       Operation: CREATE path=/Patient
+2020-10-25 22:11:03.771 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:03.771 [main] INFO  mapping.Mapper -       Operation: READ path=/Patient/{id}
+2020-10-25 22:11:03.771 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:03.771 [main] INFO  mapping.Mapper -       Operation: SCAN path=/Patient
+2020-10-25 22:11:03.771 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:11:03.771 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/Patient/{id}
+2020-10-25 22:11:03.771 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:11:03.771 [main] INFO  mapping.Mapper -       Operation: DELETE path=/Patient/{id}
+2020-10-25 22:11:03.773 [main] INFO  mapping.Mapper - Resource Mapping for /Patient/$search:
+2020-10-25 22:11:03.773 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:03.773 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:03.773 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:03.774 [main] INFO  mapping.Mapper -       Operation: SCAN path=/Patient/$search
+2020-10-25 22:11:03.774 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:03.774 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:03.774 [main] INFO  mapping.Mapper - Resource Mapping for /Patient/$call-center-contact:
+2020-10-25 22:11:03.774 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:03.774 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:03.774 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:03.774 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:03.774 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:03.774 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:11:03.775 [main] INFO  MatchingTool - Resource Mapping for /Practitioner:
+2020-10-25 22:11:03.775 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=7:
+2020-10-25 22:11:03.775 [main] INFO  MatchingTool -       Operation: CREATE path=/Practitioner
+2020-10-25 22:11:03.775 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=7:
+2020-10-25 22:11:03.775 [main] INFO  MatchingTool -       Operation: READ path=/Practitioner/{id}
+2020-10-25 22:11:03.775 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=7:
+2020-10-25 22:11:03.775 [main] INFO  MatchingTool -       Operation: SCAN path=/Practitioner
+2020-10-25 22:11:03.775 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=7:
+2020-10-25 22:11:03.775 [main] INFO  MatchingTool -       Operation: UPDATE path=/Practitioner/{id}
+2020-10-25 22:11:03.775 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=7:
+2020-10-25 22:11:03.775 [main] INFO  MatchingTool -       Operation: DELETE path=/Practitioner/{id}
+2020-10-25 22:11:03.775 [main] INFO  MatchingTool - Resource Mapping for /Communication:
+2020-10-25 22:11:03.775 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=7:
+2020-10-25 22:11:03.775 [main] INFO  MatchingTool -       Operation: CREATE path=/Communication
+2020-10-25 22:11:03.775 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=7:
+2020-10-25 22:11:03.775 [main] INFO  MatchingTool -       Operation: READ path=/Communication/{id}
+2020-10-25 22:11:03.775 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=7:
+2020-10-25 22:11:03.775 [main] INFO  MatchingTool -       Operation: SCAN path=/Communication
+2020-10-25 22:11:03.775 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=7:
+2020-10-25 22:11:03.775 [main] INFO  MatchingTool -       Operation: UPDATE path=/Communication/{id}
+2020-10-25 22:11:03.775 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=7:
+2020-10-25 22:11:03.775 [main] INFO  MatchingTool -       Operation: DELETE path=/Communication/{id}
+2020-10-25 22:11:03.775 [main] INFO  MatchingTool - Resource Mapping for /Patient:
+2020-10-25 22:11:03.775 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=7:
+2020-10-25 22:11:03.776 [main] INFO  MatchingTool -       Operation: CREATE path=/Patient
+2020-10-25 22:11:03.776 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=7:
+2020-10-25 22:11:03.776 [main] INFO  MatchingTool -       Operation: READ path=/Patient/{id}
+2020-10-25 22:11:03.776 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=7:
+2020-10-25 22:11:03.776 [main] INFO  MatchingTool -       Operation: SCAN path=/Patient
+2020-10-25 22:11:03.776 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=7:
+2020-10-25 22:11:03.776 [main] INFO  MatchingTool -       Operation: UPDATE path=/Patient/{id}
+2020-10-25 22:11:03.776 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=7:
+2020-10-25 22:11:03.776 [main] INFO  MatchingTool -       Operation: DELETE path=/Patient/{id}
+2020-10-25 22:11:03.781 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

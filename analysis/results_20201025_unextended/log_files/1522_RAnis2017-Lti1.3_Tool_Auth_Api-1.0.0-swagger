@@ -1,0 +1,44 @@
+Will overwrite mapping file
+2020-10-25 22:18:10.980 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:18:10.982 [main] INFO  mapping.Mapper - -> /oidc
+2020-10-25 22:18:10.982 [main] INFO  mapping.Mapper - -> /launch/tool (get)
+2020-10-25 22:18:10.982 [main] INFO  mapping.Mapper - -> /launch/tool
+2020-10-25 22:18:10.982 [main] INFO  mapping.Mapper - -> /launch/return
+2020-10-25 22:18:10.982 [main] INFO  mapping.Mapper - -> /oauth2/token
+2020-10-25 22:18:10.982 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:18:10.991 [main] INFO  mapping.Mapper - Resource Mapping for /oidc:
+2020-10-25 22:18:10.991 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:10.991 [main] INFO  mapping.Mapper -       Operation: CREATE path=/oidc
+2020-10-25 22:18:10.991 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:10.991 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:10.991 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:10.991 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:10.992 [main] INFO  mapping.Mapper - Resource Mapping for /launch/tool (get):
+2020-10-25 22:18:10.992 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:10.992 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:10.992 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:10.992 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:10.992 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:10.994 [main] INFO  mapping.Mapper - Resource Mapping for /launch/tool:
+2020-10-25 22:18:10.994 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:10.994 [main] INFO  mapping.Mapper -       Operation: CREATE path=/launch/tool
+2020-10-25 22:18:10.994 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:10.994 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:10.994 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:10.994 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:10.997 [main] INFO  mapping.Mapper - Resource Mapping for /launch/return:
+2020-10-25 22:18:10.997 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:10.997 [main] INFO  mapping.Mapper -       Operation: CREATE path=/launch/return
+2020-10-25 22:18:10.997 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:10.997 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:10.997 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:10.997 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:11.000 [main] INFO  mapping.Mapper - Resource Mapping for /oauth2/token:
+2020-10-25 22:18:11.000 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:11.000 [main] INFO  mapping.Mapper -       Operation: CREATE path=/oauth2/token
+2020-10-25 22:18:11.000 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:11.001 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:11.001 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:11.001 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:11.001 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:18:11.006 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

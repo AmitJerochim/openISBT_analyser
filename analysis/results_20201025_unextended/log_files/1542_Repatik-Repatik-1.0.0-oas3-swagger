@@ -1,0 +1,85 @@
+Will overwrite mapping file
+2020-10-25 22:18:18.137 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:18:18.139 [main] INFO  mapping.Mapper - -> /rooms/delete
+2020-10-25 22:18:18.139 [main] INFO  mapping.Mapper - -> /studentsinrooms/move
+2020-10-25 22:18:18.139 [main] INFO  mapping.Mapper - -> /students/get
+2020-10-25 22:18:18.139 [main] INFO  mapping.Mapper - -> /rooms/get
+2020-10-25 22:18:18.139 [main] INFO  mapping.Mapper - -> /rooms/post
+2020-10-25 22:18:18.139 [main] INFO  mapping.Mapper - -> /students/post
+2020-10-25 22:18:18.139 [main] INFO  mapping.Mapper - -> /students/put
+2020-10-25 22:18:18.139 [main] INFO  mapping.Mapper - -> /rooms/put
+2020-10-25 22:18:18.139 [main] INFO  mapping.Mapper - -> /studentsinrooms/find
+2020-10-25 22:18:18.139 [main] INFO  mapping.Mapper - -> /students/delete
+2020-10-25 22:18:18.139 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:18:18.145 [main] INFO  mapping.Mapper - Resource Mapping for /rooms/delete:
+2020-10-25 22:18:18.145 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:18.145 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:18.145 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:18.145 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:18.145 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:18.145 [main] INFO  mapping.Mapper -       Operation: DELETE path=/rooms/delete
+2020-10-25 22:18:18.147 [main] INFO  mapping.Mapper - Resource Mapping for /studentsinrooms/move:
+2020-10-25 22:18:18.147 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:18.147 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:18.147 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:18.147 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:18:18.148 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/studentsinrooms/move
+2020-10-25 22:18:18.148 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:18.150 [main] INFO  mapping.Mapper - Resource Mapping for /students/get:
+2020-10-25 22:18:18.150 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:18.150 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:18.150 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:18.150 [main] INFO  mapping.Mapper -       Operation: SCAN path=/students/get
+2020-10-25 22:18:18.150 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:18.150 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:18.152 [main] INFO  mapping.Mapper - Resource Mapping for /rooms/get:
+2020-10-25 22:18:18.152 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:18.152 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:18.152 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:18.152 [main] INFO  mapping.Mapper -       Operation: SCAN path=/rooms/get
+2020-10-25 22:18:18.152 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:18.152 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:18.154 [main] INFO  mapping.Mapper - Resource Mapping for /rooms/post:
+2020-10-25 22:18:18.154 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:18.154 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rooms/post
+2020-10-25 22:18:18.154 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:18.154 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:18.154 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:18.154 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:18.155 [main] INFO  mapping.Mapper - Resource Mapping for /students/post:
+2020-10-25 22:18:18.155 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:18.156 [main] INFO  mapping.Mapper -       Operation: CREATE path=/students/post
+2020-10-25 22:18:18.156 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:18.156 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:18.156 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:18.156 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:18.157 [main] INFO  mapping.Mapper - Resource Mapping for /students/put:
+2020-10-25 22:18:18.157 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:18.157 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:18.157 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:18.157 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:18:18.157 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/students/put
+2020-10-25 22:18:18.158 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:18.159 [main] INFO  mapping.Mapper - Resource Mapping for /rooms/put:
+2020-10-25 22:18:18.159 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:18.159 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:18.159 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:18.159 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:18:18.159 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/rooms/put
+2020-10-25 22:18:18.159 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:18.161 [main] INFO  mapping.Mapper - Resource Mapping for /studentsinrooms/find:
+2020-10-25 22:18:18.161 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:18.161 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:18.161 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:18.161 [main] INFO  mapping.Mapper -       Operation: SCAN path=/studentsinrooms/find
+2020-10-25 22:18:18.161 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:18.161 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:18.162 [main] INFO  mapping.Mapper - Resource Mapping for /students/delete:
+2020-10-25 22:18:18.163 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:18.163 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:18.163 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:18.163 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:18.163 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:18.163 [main] INFO  mapping.Mapper -       Operation: DELETE path=/students/delete
+2020-10-25 22:18:18.163 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:18:18.169 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

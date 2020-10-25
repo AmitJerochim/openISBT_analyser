@@ -1,0 +1,23 @@
+Will overwrite mapping file
+2020-10-25 22:08:37.350 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:08:37.351 [main] INFO  mapping.Mapper - -> /client
+2020-10-25 22:08:37.351 [main] INFO  mapping.Mapper - -> /client/
+2020-10-25 22:08:37.351 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:08:37.368 [main] INFO  mapping.Mapper - Resource Mapping for /client:
+2020-10-25 22:08:37.368 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:08:37.368 [main] INFO  mapping.Mapper -       Operation: CREATE path=/client/{clientID}
+2020-10-25 22:08:37.368 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:08:37.368 [main] INFO  mapping.Mapper -       Operation: READ path=/client/{clientID}
+2020-10-25 22:08:37.369 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:37.369 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:08:37.369 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/client/{clientID}
+2020-10-25 22:08:37.369 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:37.373 [main] INFO  mapping.Mapper - Resource Mapping for /client/:
+2020-10-25 22:08:37.373 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:08:37.373 [main] INFO  mapping.Mapper -       Operation: CREATE path=/client/
+2020-10-25 22:08:37.373 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:08:37.373 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:37.373 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:37.373 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:37.373 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:08:37.378 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

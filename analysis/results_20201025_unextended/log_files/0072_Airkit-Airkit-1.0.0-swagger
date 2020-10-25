@@ -1,0 +1,37 @@
+Will overwrite mapping file
+2020-10-25 22:08:52.123 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:08:52.124 [main] INFO  mapping.Mapper - -> /v1/who
+2020-10-25 22:08:52.124 [main] INFO  mapping.Mapper - -> /v1/session/start
+2020-10-25 22:08:52.124 [main] INFO  mapping.Mapper - -> /v1/session/event/
+2020-10-25 22:08:52.124 [main] INFO  mapping.Mapper - -> /v1/session/end
+2020-10-25 22:08:52.124 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:08:52.130 [main] INFO  mapping.Mapper - Resource Mapping for /v1/who:
+2020-10-25 22:08:52.130 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:08:52.130 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/who
+2020-10-25 22:08:52.130 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:08:52.130 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:52.130 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:52.130 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:52.135 [main] INFO  mapping.Mapper - Resource Mapping for /v1/session/start:
+2020-10-25 22:08:52.135 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:08:52.136 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/session/start
+2020-10-25 22:08:52.136 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:08:52.136 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:52.136 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:52.136 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:52.139 [main] INFO  mapping.Mapper - Resource Mapping for /v1/session/event/:
+2020-10-25 22:08:52.139 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:08:52.139 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/session/event/
+2020-10-25 22:08:52.139 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:08:52.139 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:52.139 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:52.139 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:52.142 [main] INFO  mapping.Mapper - Resource Mapping for /v1/session/end:
+2020-10-25 22:08:52.142 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:08:52.142 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:08:52.142 [main] INFO  mapping.Mapper -       Operation: READ path=/v1/session/end/{sessionId}
+2020-10-25 22:08:52.142 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:52.142 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:52.142 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:52.142 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:08:52.147 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

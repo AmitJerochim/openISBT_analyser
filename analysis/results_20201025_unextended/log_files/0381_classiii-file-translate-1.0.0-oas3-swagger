@@ -1,0 +1,67 @@
+Will overwrite mapping file
+2020-10-25 22:11:16.225 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:11:16.226 [main] INFO  mapping.Mapper - -> /authenticate
+2020-10-25 22:11:16.226 [main] INFO  mapping.Mapper - -> /auth-code
+2020-10-25 22:11:16.226 [main] INFO  mapping.Mapper - -> /file-translate
+2020-10-25 22:11:16.226 [main] INFO  mapping.Mapper - -> /downloads
+2020-10-25 22:11:16.226 [main] INFO  mapping.Mapper - -> /callback
+2020-10-25 22:11:16.226 [main] INFO  mapping.Mapper - -> /translate-result
+2020-10-25 22:11:16.226 [main] INFO  mapping.Mapper - -> /translate-result/all
+2020-10-25 22:11:16.226 [main] INFO  mapping.Mapper - -> /translate-result/retry
+2020-10-25 22:11:16.226 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:11:16.234 [main] INFO  mapping.Mapper - Resource Mapping for /authenticate:
+2020-10-25 22:11:16.234 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:16.234 [main] INFO  mapping.Mapper -       Operation: CREATE path=/authenticate
+2020-10-25 22:11:16.234 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:16.235 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:16.235 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:16.235 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:16.238 [main] INFO  mapping.Mapper - Resource Mapping for /auth-code:
+2020-10-25 22:11:16.238 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:16.238 [main] INFO  mapping.Mapper -       Operation: CREATE path=/auth-code
+2020-10-25 22:11:16.238 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:16.238 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:16.238 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:16.238 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:16.243 [main] INFO  mapping.Mapper - Resource Mapping for /file-translate:
+2020-10-25 22:11:16.243 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:16.243 [main] INFO  mapping.Mapper -       Operation: CREATE path=/file-translate
+2020-10-25 22:11:16.243 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:16.243 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:16.243 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:16.243 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:16.244 [main] INFO  mapping.Mapper - Resource Mapping for /downloads:
+2020-10-25 22:11:16.244 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:16.244 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:16.244 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:16.244 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:16.244 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:16.250 [main] INFO  mapping.Mapper - Resource Mapping for /callback:
+2020-10-25 22:11:16.250 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:16.251 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:16.251 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:16.251 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:11:16.251 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/callback
+2020-10-25 22:11:16.251 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:11:16.251 [main] INFO  mapping.Mapper -       Operation: DELETE path=/callback
+2020-10-25 22:11:16.254 [main] INFO  mapping.Mapper - Resource Mapping for /translate-result:
+2020-10-25 22:11:16.254 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:16.254 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:16.254 [main] INFO  mapping.Mapper -       Operation: READ path=/translate-result/{translateId}
+2020-10-25 22:11:16.254 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:16.254 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:16.254 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:16.254 [main] INFO  mapping.Mapper - Resource Mapping for /translate-result/all:
+2020-10-25 22:11:16.255 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:16.255 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:16.255 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:16.255 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:16.255 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:16.255 [main] INFO  mapping.Mapper - Resource Mapping for /translate-result/retry:
+2020-10-25 22:11:16.255 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:16.255 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:16.255 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:16.255 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:16.256 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:16.256 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:11:16.262 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

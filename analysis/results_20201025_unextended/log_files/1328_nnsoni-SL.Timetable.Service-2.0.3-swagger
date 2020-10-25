@@ -1,0 +1,118 @@
+Will overwrite mapping file
+2020-10-25 22:16:55.119 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:16:55.121 [main] INFO  mapping.Mapper - -> /drafts
+2020-10-25 22:16:55.121 [main] INFO  mapping.Mapper - -> /departureTypes
+2020-10-25 22:16:55.121 [main] INFO  mapping.Mapper - -> /terminals
+2020-10-25 22:16:55.121 [main] INFO  mapping.Mapper - -> /departures
+2020-10-25 22:16:55.121 [main] INFO  mapping.Mapper - -> /ships
+2020-10-25 22:16:55.121 [main] INFO  mapping.Mapper - -> /routes
+2020-10-25 22:16:55.121 [main] INFO  mapping.Mapper - -> /legs
+2020-10-25 22:16:55.121 [main] INFO  mapping.Mapper - -> /departureStatus
+2020-10-25 22:16:55.121 [main] INFO  mapping.Mapper - -> /departureCalculations
+2020-10-25 22:16:55.121 [main] INFO  mapping.Mapper - -> /departureDrafts
+2020-10-25 22:16:55.121 [main] INFO  mapping.Mapper - -> /draftStatus
+2020-10-25 22:16:55.122 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:16:55.136 [main] INFO  mapping.Mapper - Resource Mapping for /drafts:
+2020-10-25 22:16:55.137 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:55.137 [main] INFO  mapping.Mapper -       Operation: CREATE path=/drafts
+2020-10-25 22:16:55.137 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:55.137 [main] INFO  mapping.Mapper -       Operation: READ path=/drafts/{draftId}
+2020-10-25 22:16:55.137 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:55.137 [main] INFO  mapping.Mapper -       Operation: SCAN path=/drafts
+2020-10-25 22:16:55.137 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:16:55.137 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/drafts/{draftId}
+2020-10-25 22:16:55.137 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:16:55.137 [main] INFO  mapping.Mapper -       Operation: DELETE path=/drafts/{draftId}
+2020-10-25 22:16:55.140 [main] INFO  mapping.Mapper - Resource Mapping for /departureTypes:
+2020-10-25 22:16:55.140 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:55.140 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:55.141 [main] INFO  mapping.Mapper -       Operation: READ path=/departureTypes/{departureTypeCode}
+2020-10-25 22:16:55.141 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:55.141 [main] INFO  mapping.Mapper -       Operation: SCAN path=/departureTypes
+2020-10-25 22:16:55.141 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:55.141 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:55.144 [main] INFO  mapping.Mapper - Resource Mapping for /terminals:
+2020-10-25 22:16:55.144 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:55.144 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:55.144 [main] INFO  mapping.Mapper -       Operation: READ path=/terminals/{terminalCode}
+2020-10-25 22:16:55.144 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:55.144 [main] INFO  mapping.Mapper -       Operation: SCAN path=/terminals
+2020-10-25 22:16:55.144 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:55.144 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:55.149 [main] INFO  mapping.Mapper - Resource Mapping for /departures:
+2020-10-25 22:16:55.149 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:55.150 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:55.150 [main] INFO  mapping.Mapper -       Operation: READ path=/departures/{departureId}
+2020-10-25 22:16:55.150 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:55.150 [main] INFO  mapping.Mapper -       Operation: SCAN path=/departures
+2020-10-25 22:16:55.150 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:55.150 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:55.152 [main] INFO  mapping.Mapper - Resource Mapping for /ships:
+2020-10-25 22:16:55.152 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:55.152 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:55.152 [main] INFO  mapping.Mapper -       Operation: READ path=/ships/{shipCode}
+2020-10-25 22:16:55.153 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:55.153 [main] INFO  mapping.Mapper -       Operation: SCAN path=/ships
+2020-10-25 22:16:55.153 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:55.153 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:55.155 [main] INFO  mapping.Mapper - Resource Mapping for /routes:
+2020-10-25 22:16:55.156 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:55.156 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:55.156 [main] INFO  mapping.Mapper -       Operation: READ path=/routes/{routeCode}
+2020-10-25 22:16:55.156 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:55.156 [main] INFO  mapping.Mapper -       Operation: SCAN path=/routes
+2020-10-25 22:16:55.156 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:55.156 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:55.159 [main] INFO  mapping.Mapper - Resource Mapping for /legs:
+2020-10-25 22:16:55.159 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:55.159 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:55.159 [main] INFO  mapping.Mapper -       Operation: READ path=/legs/{legCode}
+2020-10-25 22:16:55.159 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:55.159 [main] INFO  mapping.Mapper -       Operation: SCAN path=/legs
+2020-10-25 22:16:55.159 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:55.159 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:55.161 [main] INFO  mapping.Mapper - Resource Mapping for /departureStatus:
+2020-10-25 22:16:55.161 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:55.162 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:55.162 [main] INFO  mapping.Mapper -       Operation: READ path=/departureStatus/{departureStatusCode}
+2020-10-25 22:16:55.162 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:55.162 [main] INFO  mapping.Mapper -       Operation: SCAN path=/departureStatus
+2020-10-25 22:16:55.162 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:55.162 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:55.163 [main] INFO  mapping.Mapper - Resource Mapping for /departureCalculations:
+2020-10-25 22:16:55.164 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:55.164 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:55.164 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:55.164 [main] INFO  mapping.Mapper -       Operation: SCAN path=/departureCalculations
+2020-10-25 22:16:55.164 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:55.164 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:55.168 [main] INFO  mapping.Mapper - Resource Mapping for /departureDrafts:
+2020-10-25 22:16:55.168 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:55.168 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:55.168 [main] INFO  mapping.Mapper -       Operation: READ path=/departureDrafts/{departureDraftId}
+2020-10-25 22:16:55.168 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:55.168 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:16:55.169 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/departureDrafts/{departureDraftId}
+2020-10-25 22:16:55.169 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:16:55.169 [main] INFO  mapping.Mapper -       Operation: DELETE path=/departureDrafts/{departureDraftId}
+2020-10-25 22:16:55.171 [main] INFO  mapping.Mapper - Resource Mapping for /draftStatus:
+2020-10-25 22:16:55.171 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:55.171 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:55.171 [main] INFO  mapping.Mapper -       Operation: READ path=/draftStatus/{draftStatusCode}
+2020-10-25 22:16:55.171 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:55.171 [main] INFO  mapping.Mapper -       Operation: SCAN path=/draftStatus
+2020-10-25 22:16:55.171 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:55.171 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:55.172 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:16:55.172 [main] INFO  MatchingTool - Resource Mapping for /drafts:
+2020-10-25 22:16:55.172 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=20:
+2020-10-25 22:16:55.172 [main] INFO  MatchingTool -       Operation: CREATE path=/drafts
+2020-10-25 22:16:55.172 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=20:
+2020-10-25 22:16:55.172 [main] INFO  MatchingTool -       Operation: READ path=/drafts/{draftId}
+2020-10-25 22:16:55.172 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=20:
+2020-10-25 22:16:55.172 [main] INFO  MatchingTool -       Operation: SCAN path=/drafts
+2020-10-25 22:16:55.172 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=20:
+2020-10-25 22:16:55.172 [main] INFO  MatchingTool -       Operation: UPDATE path=/drafts/{draftId}
+2020-10-25 22:16:55.172 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=20:
+2020-10-25 22:16:55.172 [main] INFO  MatchingTool -       Operation: DELETE path=/drafts/{draftId}
+2020-10-25 22:16:55.179 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

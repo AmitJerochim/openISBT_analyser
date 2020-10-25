@@ -1,0 +1,30 @@
+Will overwrite mapping file
+2020-10-25 22:17:40.013 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:17:40.015 [main] INFO  mapping.Mapper - -> /cluster/nodes
+2020-10-25 22:17:40.015 [main] INFO  mapping.Mapper - -> /cluster/join
+2020-10-25 22:17:40.015 [main] INFO  mapping.Mapper - -> /cluster
+2020-10-25 22:17:40.015 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:17:40.024 [main] INFO  mapping.Mapper - Resource Mapping for /cluster/nodes:
+2020-10-25 22:17:40.025 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:40.025 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:40.025 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:17:40.025 [main] INFO  mapping.Mapper -       Operation: SCAN path=/cluster/nodes
+2020-10-25 22:17:40.025 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:40.025 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:17:40.025 [main] INFO  mapping.Mapper -       Operation: DELETE path=/cluster/nodes
+2020-10-25 22:17:40.029 [main] INFO  mapping.Mapper - Resource Mapping for /cluster/join:
+2020-10-25 22:17:40.029 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:40.029 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cluster/join
+2020-10-25 22:17:40.029 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:40.029 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:40.029 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:40.029 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:40.032 [main] INFO  mapping.Mapper - Resource Mapping for /cluster:
+2020-10-25 22:17:40.033 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:40.033 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cluster
+2020-10-25 22:17:40.033 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:40.033 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:40.033 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:40.033 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:40.033 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:17:40.038 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

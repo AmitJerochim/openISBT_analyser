@@ -1,0 +1,51 @@
+Will overwrite mapping file
+2020-10-25 22:12:36.643 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:12:36.645 [main] INFO  mapping.Mapper - -> /baggageBelts
+2020-10-25 22:12:36.645 [main] INFO  mapping.Mapper - -> /flights
+2020-10-25 22:12:36.645 [main] INFO  mapping.Mapper - -> /parkingStands
+2020-10-25 22:12:36.645 [main] INFO  mapping.Mapper - -> /checkInPositions
+2020-10-25 22:12:36.645 [main] INFO  mapping.Mapper - -> /gates
+2020-10-25 22:12:36.645 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:12:36.653 [main] INFO  mapping.Mapper - Resource Mapping for /baggageBelts:
+2020-10-25 22:12:36.654 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:36.654 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:12:36.654 [main] INFO  mapping.Mapper -       Operation: READ path=/baggageBelts/{id}
+2020-10-25 22:12:36.654 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:12:36.654 [main] INFO  mapping.Mapper -       Operation: SCAN path=/baggageBelts
+2020-10-25 22:12:36.654 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:36.654 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:36.662 [main] INFO  mapping.Mapper - Resource Mapping for /flights:
+2020-10-25 22:12:36.662 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:36.662 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:12:36.662 [main] INFO  mapping.Mapper -       Operation: READ path=/flights/{id}
+2020-10-25 22:12:36.662 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:12:36.662 [main] INFO  mapping.Mapper -       Operation: SCAN path=/flights
+2020-10-25 22:12:36.662 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:12:36.662 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/flights/{id}
+2020-10-25 22:12:36.662 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:36.665 [main] INFO  mapping.Mapper - Resource Mapping for /parkingStands:
+2020-10-25 22:12:36.665 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:36.665 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:12:36.665 [main] INFO  mapping.Mapper -       Operation: READ path=/parkingStands/{id}
+2020-10-25 22:12:36.665 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:12:36.665 [main] INFO  mapping.Mapper -       Operation: SCAN path=/parkingStands
+2020-10-25 22:12:36.665 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:36.665 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:36.668 [main] INFO  mapping.Mapper - Resource Mapping for /checkInPositions:
+2020-10-25 22:12:36.668 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:36.668 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:12:36.668 [main] INFO  mapping.Mapper -       Operation: READ path=/checkInPositions/{id}
+2020-10-25 22:12:36.668 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:12:36.668 [main] INFO  mapping.Mapper -       Operation: SCAN path=/checkInPositions
+2020-10-25 22:12:36.668 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:36.668 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:36.670 [main] INFO  mapping.Mapper - Resource Mapping for /gates:
+2020-10-25 22:12:36.670 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:36.670 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:12:36.671 [main] INFO  mapping.Mapper -       Operation: READ path=/gates/{id}
+2020-10-25 22:12:36.671 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:12:36.671 [main] INFO  mapping.Mapper -       Operation: SCAN path=/gates
+2020-10-25 22:12:36.671 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:36.671 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:36.671 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:12:36.675 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,329 @@
+Will overwrite mapping file
+2020-10-25 22:19:47.313 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:19:47.315 [main] INFO  mapping.Mapper - -> /shopify/variants/metafields
+2020-10-25 22:19:47.315 [main] INFO  mapping.Mapper - -> /orders/last-three-months
+2020-10-25 22:19:47.315 [main] INFO  mapping.Mapper - -> /stripe/transactions
+2020-10-25 22:19:47.315 [main] INFO  mapping.Mapper - -> /s3/get-file
+2020-10-25 22:19:47.315 [main] INFO  mapping.Mapper - -> /shopify/variation
+2020-10-25 22:19:47.315 [main] INFO  mapping.Mapper - -> /clients
+2020-10-25 22:19:47.315 [main] INFO  mapping.Mapper - -> /clients/sign-up
+2020-10-25 22:19:47.315 [main] INFO  mapping.Mapper - -> /subscriptions
+2020-10-25 22:19:47.315 [main] INFO  mapping.Mapper - -> /zapier/stripe-webhook
+2020-10-25 22:19:47.315 [main] INFO  mapping.Mapper - -> /shopify/packs
+2020-10-25 22:19:47.315 [main] INFO  mapping.Mapper - -> /s3/presigned-imports-url
+2020-10-25 22:19:47.315 [main] INFO  mapping.Mapper - -> /stripe/payouts
+2020-10-25 22:19:47.315 [main] INFO  mapping.Mapper - -> /woocommerce/attributes
+2020-10-25 22:19:47.315 [main] INFO  mapping.Mapper - -> /stripe/oauth
+2020-10-25 22:19:47.315 [main] INFO  mapping.Mapper - -> /stripe/accounts
+2020-10-25 22:19:47.315 [main] INFO  mapping.Mapper - -> /zapier/me
+2020-10-25 22:19:47.315 [main] INFO  mapping.Mapper - -> /packs
+2020-10-25 22:19:47.316 [main] INFO  mapping.Mapper - -> /packs/publish
+2020-10-25 22:19:47.316 [main] INFO  mapping.Mapper - -> /subscriptions/amount
+2020-10-25 22:19:47.316 [main] INFO  mapping.Mapper - -> /shipping-rates
+2020-10-25 22:19:47.316 [main] INFO  mapping.Mapper - -> /woocommerce/shipping-zone
+2020-10-25 22:19:47.316 [main] INFO  mapping.Mapper - -> /zapier/list
+2020-10-25 22:19:47.316 [main] INFO  mapping.Mapper - -> /webhooks
+2020-10-25 22:19:47.316 [main] INFO  mapping.Mapper - -> /customers
+2020-10-25 22:19:47.316 [main] INFO  mapping.Mapper - -> /cognito/create
+2020-10-25 22:19:47.316 [main] INFO  mapping.Mapper - -> /clients/verify
+2020-10-25 22:19:47.316 [main] INFO  mapping.Mapper - -> /woocommerce/variation
+2020-10-25 22:19:47.316 [main] INFO  mapping.Mapper - -> /zapier/hooks
+2020-10-25 22:19:47.316 [main] INFO  mapping.Mapper - -> /stripe/public
+2020-10-25 22:19:47.316 [main] INFO  mapping.Mapper - -> /imports
+2020-10-25 22:19:47.316 [main] INFO  mapping.Mapper - -> /woocommerce/membership/plans
+2020-10-25 22:19:47.316 [main] INFO  mapping.Mapper - -> /subscriptions/kpi
+2020-10-25 22:19:47.316 [main] INFO  mapping.Mapper - -> /orders/top-ten
+2020-10-25 22:19:47.316 [main] INFO  mapping.Mapper - -> /stripe/credentials
+2020-10-25 22:19:47.316 [main] INFO  mapping.Mapper - -> /subscriptions/revenue-projection
+2020-10-25 22:19:47.317 [main] INFO  mapping.Mapper - -> /woocommerce/packs
+2020-10-25 22:19:47.317 [main] INFO  mapping.Mapper - -> /orders
+2020-10-25 22:19:47.317 [main] INFO  mapping.Mapper - -> /s3/presigned-url
+2020-10-25 22:19:47.317 [main] INFO  mapping.Mapper - -> /subscriptions/renew
+2020-10-25 22:19:47.317 [main] INFO  mapping.Mapper - -> /shopify/customers
+2020-10-25 22:19:47.317 [main] INFO  mapping.Mapper - -> /stripe/balance
+2020-10-25 22:19:47.317 [main] INFO  mapping.Mapper - -> /woocommerce/webhook
+2020-10-25 22:19:47.317 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:19:47.323 [main] INFO  mapping.Mapper - Resource Mapping for /shopify/variants/metafields:
+2020-10-25 22:19:47.323 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.323 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.323 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.323 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.323 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.324 [main] INFO  mapping.Mapper - Resource Mapping for /orders/last-three-months:
+2020-10-25 22:19:47.324 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.325 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.325 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.325 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.325 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.326 [main] INFO  mapping.Mapper - Resource Mapping for /stripe/transactions:
+2020-10-25 22:19:47.326 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.326 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.326 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.326 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.326 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.331 [main] INFO  mapping.Mapper - Resource Mapping for /s3/get-file:
+2020-10-25 22:19:47.332 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:47.332 [main] INFO  mapping.Mapper -       Operation: CREATE path=/s3/get-file
+2020-10-25 22:19:47.332 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.332 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.332 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.332 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.335 [main] INFO  mapping.Mapper - Resource Mapping for /shopify/variation:
+2020-10-25 22:19:47.335 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:47.335 [main] INFO  mapping.Mapper -       Operation: CREATE path=/shopify/variation
+2020-10-25 22:19:47.336 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.336 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.336 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.336 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.341 [main] INFO  mapping.Mapper - Resource Mapping for /clients:
+2020-10-25 22:19:47.341 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.341 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:19:47.341 [main] INFO  mapping.Mapper -       Operation: READ path=/clients/{id}
+2020-10-25 22:19:47.341 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.341 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:19:47.341 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/clients/{id}
+2020-10-25 22:19:47.341 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.344 [main] INFO  mapping.Mapper - Resource Mapping for /clients/sign-up:
+2020-10-25 22:19:47.344 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:47.344 [main] INFO  mapping.Mapper -       Operation: CREATE path=/clients/sign-up
+2020-10-25 22:19:47.344 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.344 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.344 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.344 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.350 [main] INFO  mapping.Mapper - Resource Mapping for /subscriptions:
+2020-10-25 22:19:47.351 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:47.351 [main] INFO  mapping.Mapper -       Operation: CREATE path=/subscriptions
+2020-10-25 22:19:47.351 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:19:47.351 [main] INFO  mapping.Mapper -       Operation: READ path=/subscriptions/{id}
+2020-10-25 22:19:47.351 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.351 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:19:47.351 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/subscriptions/{id}
+2020-10-25 22:19:47.351 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.353 [main] INFO  mapping.Mapper - Resource Mapping for /zapier/stripe-webhook:
+2020-10-25 22:19:47.353 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:47.353 [main] INFO  mapping.Mapper -       Operation: CREATE path=/zapier/stripe-webhook
+2020-10-25 22:19:47.353 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.353 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.354 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.354 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.354 [main] INFO  mapping.Mapper - Resource Mapping for /shopify/packs:
+2020-10-25 22:19:47.354 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.354 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.354 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.354 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.354 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.357 [main] INFO  mapping.Mapper - Resource Mapping for /s3/presigned-imports-url:
+2020-10-25 22:19:47.357 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:47.357 [main] INFO  mapping.Mapper -       Operation: CREATE path=/s3/presigned-imports-url
+2020-10-25 22:19:47.357 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.357 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.357 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.357 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.359 [main] INFO  mapping.Mapper - Resource Mapping for /stripe/payouts:
+2020-10-25 22:19:47.359 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.359 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:19:47.359 [main] INFO  mapping.Mapper -       Operation: READ path=/stripe/payouts/{id}
+2020-10-25 22:19:47.359 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.359 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.359 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.361 [main] INFO  mapping.Mapper - Resource Mapping for /woocommerce/attributes:
+2020-10-25 22:19:47.361 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:47.361 [main] INFO  mapping.Mapper -       Operation: CREATE path=/woocommerce/attributes
+2020-10-25 22:19:47.361 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.361 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.361 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.362 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.363 [main] INFO  mapping.Mapper - Resource Mapping for /stripe/oauth:
+2020-10-25 22:19:47.364 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:47.364 [main] INFO  mapping.Mapper -       Operation: CREATE path=/stripe/oauth
+2020-10-25 22:19:47.364 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.364 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.364 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.364 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.366 [main] INFO  mapping.Mapper - Resource Mapping for /stripe/accounts:
+2020-10-25 22:19:47.366 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.366 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:19:47.366 [main] INFO  mapping.Mapper -       Operation: READ path=/stripe/accounts/{id}
+2020-10-25 22:19:47.366 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.366 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.366 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.366 [main] INFO  mapping.Mapper - Resource Mapping for /zapier/me:
+2020-10-25 22:19:47.367 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.367 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.367 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.367 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.367 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.371 [main] INFO  mapping.Mapper - Resource Mapping for /packs:
+2020-10-25 22:19:47.371 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:47.371 [main] INFO  mapping.Mapper -       Operation: CREATE path=/packs
+2020-10-25 22:19:47.372 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:19:47.372 [main] INFO  mapping.Mapper -       Operation: READ path=/packs/{id}
+2020-10-25 22:19:47.372 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.372 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:19:47.372 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/packs/{id}
+2020-10-25 22:19:47.372 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.374 [main] INFO  mapping.Mapper - Resource Mapping for /packs/publish:
+2020-10-25 22:19:47.374 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.374 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.374 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.374 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:19:47.374 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/packs/publish
+2020-10-25 22:19:47.374 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.375 [main] INFO  mapping.Mapper - Resource Mapping for /subscriptions/amount:
+2020-10-25 22:19:47.375 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.375 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.375 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.375 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.375 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.379 [main] INFO  mapping.Mapper - Resource Mapping for /shipping-rates:
+2020-10-25 22:19:47.380 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:47.380 [main] INFO  mapping.Mapper -       Operation: CREATE path=/shipping-rates
+2020-10-25 22:19:47.380 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:19:47.380 [main] INFO  mapping.Mapper -       Operation: READ path=/shipping-rates/{id}
+2020-10-25 22:19:47.380 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.380 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:19:47.380 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/shipping-rates/{id}
+2020-10-25 22:19:47.380 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.387 [main] INFO  mapping.Mapper - Resource Mapping for /woocommerce/shipping-zone:
+2020-10-25 22:19:47.387 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.387 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.387 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.387 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.387 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.387 [main] INFO  mapping.Mapper - Resource Mapping for /zapier/list:
+2020-10-25 22:19:47.387 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.388 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.388 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.388 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.388 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.388 [main] INFO  mapping.Mapper - Resource Mapping for /webhooks:
+2020-10-25 22:19:47.388 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.388 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.388 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.388 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.388 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.389 [main] INFO  mapping.Mapper - Resource Mapping for /customers:
+2020-10-25 22:19:47.389 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.389 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.389 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.389 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.389 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.391 [main] INFO  mapping.Mapper - Resource Mapping for /cognito/create:
+2020-10-25 22:19:47.391 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:47.391 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cognito/create
+2020-10-25 22:19:47.391 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.391 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.391 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.391 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.393 [main] INFO  mapping.Mapper - Resource Mapping for /clients/verify:
+2020-10-25 22:19:47.394 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:47.394 [main] INFO  mapping.Mapper -       Operation: CREATE path=/clients/verify
+2020-10-25 22:19:47.394 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.394 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.394 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.394 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.396 [main] INFO  mapping.Mapper - Resource Mapping for /woocommerce/variation:
+2020-10-25 22:19:47.396 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:47.396 [main] INFO  mapping.Mapper -       Operation: CREATE path=/woocommerce/variation
+2020-10-25 22:19:47.396 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.396 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.396 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.396 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.399 [main] INFO  mapping.Mapper - Resource Mapping for /zapier/hooks:
+2020-10-25 22:19:47.399 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:47.399 [main] INFO  mapping.Mapper -       Operation: CREATE path=/zapier/hooks
+2020-10-25 22:19:47.399 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.399 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.400 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.400 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:19:47.400 [main] INFO  mapping.Mapper -       Operation: DELETE path=/zapier/hooks
+2020-10-25 22:19:47.400 [main] INFO  mapping.Mapper - Resource Mapping for /stripe/public:
+2020-10-25 22:19:47.400 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.400 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.400 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.400 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.400 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.401 [main] INFO  mapping.Mapper - Resource Mapping for /imports:
+2020-10-25 22:19:47.401 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.401 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.401 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.401 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.401 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.402 [main] INFO  mapping.Mapper - Resource Mapping for /woocommerce/membership/plans:
+2020-10-25 22:19:47.402 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.402 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.402 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.402 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.402 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.402 [main] INFO  mapping.Mapper - Resource Mapping for /subscriptions/kpi:
+2020-10-25 22:19:47.402 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.402 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.403 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.403 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.403 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.403 [main] INFO  mapping.Mapper - Resource Mapping for /orders/top-ten:
+2020-10-25 22:19:47.403 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.403 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.403 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.403 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.403 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.404 [main] INFO  mapping.Mapper - Resource Mapping for /stripe/credentials:
+2020-10-25 22:19:47.404 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.404 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.404 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.404 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.404 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.404 [main] INFO  mapping.Mapper - Resource Mapping for /subscriptions/revenue-projection:
+2020-10-25 22:19:47.405 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.405 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.405 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.405 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.405 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.405 [main] INFO  mapping.Mapper - Resource Mapping for /woocommerce/packs:
+2020-10-25 22:19:47.405 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.405 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.405 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.405 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.405 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.405 [main] INFO  mapping.Mapper - Resource Mapping for /orders:
+2020-10-25 22:19:47.405 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.406 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.406 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.406 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.406 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.407 [main] INFO  mapping.Mapper - Resource Mapping for /s3/presigned-url:
+2020-10-25 22:19:47.408 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:47.408 [main] INFO  mapping.Mapper -       Operation: CREATE path=/s3/presigned-url
+2020-10-25 22:19:47.408 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.408 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.408 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.408 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.409 [main] INFO  mapping.Mapper - Resource Mapping for /subscriptions/renew:
+2020-10-25 22:19:47.410 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:47.410 [main] INFO  mapping.Mapper -       Operation: CREATE path=/subscriptions/renew
+2020-10-25 22:19:47.410 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.410 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.410 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.410 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.413 [main] INFO  mapping.Mapper - Resource Mapping for /shopify/customers:
+2020-10-25 22:19:47.413 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.414 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.414 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:19:47.414 [main] INFO  mapping.Mapper -       Operation: SCAN path=/shopify/customers/{id}
+2020-10-25 22:19:47.414 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.414 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.414 [main] INFO  mapping.Mapper - Resource Mapping for /stripe/balance:
+2020-10-25 22:19:47.414 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.414 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.414 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.414 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.414 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.416 [main] INFO  mapping.Mapper - Resource Mapping for /woocommerce/webhook:
+2020-10-25 22:19:47.416 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:47.416 [main] INFO  mapping.Mapper -       Operation: CREATE path=/woocommerce/webhook
+2020-10-25 22:19:47.416 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.416 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.416 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.416 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.417 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:19:47.427 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,183 @@
+Will overwrite mapping file
+2020-10-25 22:11:17.549 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:11:17.551 [main] INFO  mapping.Mapper - -> /Category
+2020-10-25 22:11:17.551 [main] INFO  mapping.Mapper - -> /Reservation
+2020-10-25 22:11:17.551 [main] INFO  mapping.Mapper - -> /CampaignWeek/Duplicate
+2020-10-25 22:11:17.551 [main] INFO  mapping.Mapper - -> /Network/GetNbPanel
+2020-10-25 22:11:17.551 [main] INFO  mapping.Mapper - -> /User/Login
+2020-10-25 22:11:17.551 [main] INFO  mapping.Mapper - -> /Campaign/RecapCampaign
+2020-10-25 22:11:17.551 [main] INFO  mapping.Mapper - -> /Campaign
+2020-10-25 22:11:17.551 [main] INFO  mapping.Mapper - -> /Campaign/Search
+2020-10-25 22:11:17.551 [main] INFO  mapping.Mapper - -> /Network
+2020-10-25 22:11:17.551 [main] INFO  mapping.Mapper - -> /Emitter
+2020-10-25 22:11:17.551 [main] INFO  mapping.Mapper - -> /Week/Planning
+2020-10-25 22:11:17.551 [main] INFO  mapping.Mapper - -> /Reservation/Visual
+2020-10-25 22:11:17.551 [main] INFO  mapping.Mapper - -> /CampaignWeek
+2020-10-25 22:11:17.551 [main] INFO  mapping.Mapper - -> /Week/Search
+2020-10-25 22:11:17.551 [main] INFO  mapping.Mapper - -> /Week
+2020-10-25 22:11:17.551 [main] INFO  mapping.Mapper - -> /Status
+2020-10-25 22:11:17.551 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:11:17.560 [main] INFO  mapping.Mapper - Resource Mapping for /Category:
+2020-10-25 22:11:17.560 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:17.561 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:17.561 [main] INFO  mapping.Mapper -       Operation: READ path=/Category/{id}
+2020-10-25 22:11:17.561 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:17.561 [main] INFO  mapping.Mapper -       Operation: SCAN path=/Category
+2020-10-25 22:11:17.561 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:17.561 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:17.568 [main] INFO  mapping.Mapper - Resource Mapping for /Reservation:
+2020-10-25 22:11:17.568 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:17.568 [main] INFO  mapping.Mapper -       Operation: CREATE path=/Reservation
+2020-10-25 22:11:17.569 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:17.569 [main] INFO  mapping.Mapper -       Operation: READ path=/Reservation/{id}
+2020-10-25 22:11:17.569 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:17.569 [main] INFO  mapping.Mapper -       Operation: SCAN path=/Reservation
+2020-10-25 22:11:17.569 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:11:17.569 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/Reservation/{id}
+2020-10-25 22:11:17.569 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:11:17.569 [main] INFO  mapping.Mapper -       Operation: DELETE path=/Reservation/{id}
+2020-10-25 22:11:17.569 [main] INFO  mapping.Mapper - Resource Mapping for /CampaignWeek/Duplicate:
+2020-10-25 22:11:17.569 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:17.569 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:17.569 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:17.569 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:17.569 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:17.570 [main] INFO  mapping.Mapper - Resource Mapping for /Network/GetNbPanel:
+2020-10-25 22:11:17.570 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:17.570 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:17.570 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:17.570 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:17.570 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:17.582 [main] INFO  mapping.Mapper - Resource Mapping for /User/Login:
+2020-10-25 22:11:17.582 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:17.582 [main] INFO  mapping.Mapper -       Operation: CREATE path=/User/Login
+2020-10-25 22:11:17.582 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:17.582 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:17.582 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:17.582 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:17.583 [main] INFO  mapping.Mapper - Resource Mapping for /Campaign/RecapCampaign:
+2020-10-25 22:11:17.583 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:17.584 [main] INFO  mapping.Mapper -       Operation: CREATE path=/Campaign/RecapCampaign/{id}
+2020-10-25 22:11:17.584 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:17.584 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:17.584 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:17.584 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:17.590 [main] INFO  mapping.Mapper - Resource Mapping for /Campaign:
+2020-10-25 22:11:17.590 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:17.590 [main] INFO  mapping.Mapper -       Operation: CREATE path=/Campaign
+2020-10-25 22:11:17.590 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:17.590 [main] INFO  mapping.Mapper -       Operation: READ path=/Campaign/{id}
+2020-10-25 22:11:17.590 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:17.590 [main] INFO  mapping.Mapper -       Operation: SCAN path=/Campaign
+2020-10-25 22:11:17.590 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:11:17.590 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/Campaign/{id}
+2020-10-25 22:11:17.590 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:11:17.590 [main] INFO  mapping.Mapper -       Operation: DELETE path=/Campaign/{id}
+2020-10-25 22:11:17.592 [main] INFO  mapping.Mapper - Resource Mapping for /Campaign/Search:
+2020-10-25 22:11:17.592 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:17.592 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:17.592 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:17.592 [main] INFO  mapping.Mapper -       Operation: SCAN path=/Campaign/Search
+2020-10-25 22:11:17.592 [main] INFO  mapping.Mapper -       Operation: SCAN path=/Campaign/Search/{word}
+2020-10-25 22:11:17.592 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:17.593 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:17.594 [main] INFO  mapping.Mapper - Resource Mapping for /Network:
+2020-10-25 22:11:17.595 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:17.595 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:17.595 [main] INFO  mapping.Mapper -       Operation: READ path=/Network/{id}
+2020-10-25 22:11:17.595 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:17.595 [main] INFO  mapping.Mapper -       Operation: SCAN path=/Network
+2020-10-25 22:11:17.595 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:17.595 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:17.597 [main] INFO  mapping.Mapper - Resource Mapping for /Emitter:
+2020-10-25 22:11:17.597 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:17.597 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:17.597 [main] INFO  mapping.Mapper -       Operation: READ path=/Emitter/{id}
+2020-10-25 22:11:17.597 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:17.597 [main] INFO  mapping.Mapper -       Operation: SCAN path=/Emitter
+2020-10-25 22:11:17.597 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:17.597 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:17.598 [main] INFO  mapping.Mapper - Resource Mapping for /Week/Planning:
+2020-10-25 22:11:17.599 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:17.599 [main] INFO  mapping.Mapper -       Operation: CREATE path=/Week/Planning
+2020-10-25 22:11:17.599 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:17.599 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:17.599 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:17.599 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:17.601 [main] INFO  mapping.Mapper - Resource Mapping for /Reservation/Visual:
+2020-10-25 22:11:17.602 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:17.602 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:17.602 [main] INFO  mapping.Mapper -       Operation: READ path=/Reservation/Visual/{id}
+2020-10-25 22:11:17.602 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:17.602 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:11:17.602 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/Reservation/Visual/{id}
+2020-10-25 22:11:17.602 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:17.607 [main] INFO  mapping.Mapper - Resource Mapping for /CampaignWeek:
+2020-10-25 22:11:17.607 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:17.607 [main] INFO  mapping.Mapper -       Operation: CREATE path=/CampaignWeek
+2020-10-25 22:11:17.607 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:17.607 [main] INFO  mapping.Mapper -       Operation: READ path=/CampaignWeek/{id}
+2020-10-25 22:11:17.607 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:17.607 [main] INFO  mapping.Mapper -       Operation: SCAN path=/CampaignWeek
+2020-10-25 22:11:17.607 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:11:17.607 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/CampaignWeek/{id}
+2020-10-25 22:11:17.607 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:11:17.608 [main] INFO  mapping.Mapper -       Operation: DELETE path=/CampaignWeek/{id}
+2020-10-25 22:11:17.609 [main] INFO  mapping.Mapper - Resource Mapping for /Week/Search:
+2020-10-25 22:11:17.609 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:17.609 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:17.609 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:17.609 [main] INFO  mapping.Mapper -       Operation: SCAN path=/Week/Search/{date}
+2020-10-25 22:11:17.609 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:17.609 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:17.611 [main] INFO  mapping.Mapper - Resource Mapping for /Week:
+2020-10-25 22:11:17.611 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:17.611 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:17.611 [main] INFO  mapping.Mapper -       Operation: READ path=/Week/{id}
+2020-10-25 22:11:17.611 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:17.611 [main] INFO  mapping.Mapper -       Operation: SCAN path=/Week
+2020-10-25 22:11:17.611 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:17.611 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:17.613 [main] INFO  mapping.Mapper - Resource Mapping for /Status:
+2020-10-25 22:11:17.613 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:17.613 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:17.613 [main] INFO  mapping.Mapper -       Operation: READ path=/Status/{id}
+2020-10-25 22:11:17.613 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:17.613 [main] INFO  mapping.Mapper -       Operation: SCAN path=/Status
+2020-10-25 22:11:17.613 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:17.613 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:17.614 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:11:17.614 [main] INFO  MatchingTool - Resource Mapping for /Reservation:
+2020-10-25 22:11:17.614 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=7:
+2020-10-25 22:11:17.614 [main] INFO  MatchingTool -       Operation: CREATE path=/Reservation
+2020-10-25 22:11:17.614 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=7:
+2020-10-25 22:11:17.614 [main] INFO  MatchingTool -       Operation: READ path=/Reservation/{id}
+2020-10-25 22:11:17.614 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=7:
+2020-10-25 22:11:17.614 [main] INFO  MatchingTool -       Operation: SCAN path=/Reservation
+2020-10-25 22:11:17.614 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=7:
+2020-10-25 22:11:17.614 [main] INFO  MatchingTool -       Operation: UPDATE path=/Reservation/{id}
+2020-10-25 22:11:17.614 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=7:
+2020-10-25 22:11:17.614 [main] INFO  MatchingTool -       Operation: DELETE path=/Reservation/{id}
+2020-10-25 22:11:17.614 [main] INFO  MatchingTool - Resource Mapping for /Campaign:
+2020-10-25 22:11:17.614 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=7:
+2020-10-25 22:11:17.614 [main] INFO  MatchingTool -       Operation: CREATE path=/Campaign
+2020-10-25 22:11:17.614 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=7:
+2020-10-25 22:11:17.614 [main] INFO  MatchingTool -       Operation: READ path=/Campaign/{id}
+2020-10-25 22:11:17.614 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=7:
+2020-10-25 22:11:17.614 [main] INFO  MatchingTool -       Operation: SCAN path=/Campaign
+2020-10-25 22:11:17.614 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=7:
+2020-10-25 22:11:17.615 [main] INFO  MatchingTool -       Operation: UPDATE path=/Campaign/{id}
+2020-10-25 22:11:17.615 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=7:
+2020-10-25 22:11:17.615 [main] INFO  MatchingTool -       Operation: DELETE path=/Campaign/{id}
+2020-10-25 22:11:17.615 [main] INFO  MatchingTool - Resource Mapping for /CampaignWeek:
+2020-10-25 22:11:17.615 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=7:
+2020-10-25 22:11:17.615 [main] INFO  MatchingTool -       Operation: CREATE path=/CampaignWeek
+2020-10-25 22:11:17.615 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=7:
+2020-10-25 22:11:17.615 [main] INFO  MatchingTool -       Operation: READ path=/CampaignWeek/{id}
+2020-10-25 22:11:17.615 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=7:
+2020-10-25 22:11:17.615 [main] INFO  MatchingTool -       Operation: SCAN path=/CampaignWeek
+2020-10-25 22:11:17.615 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=7:
+2020-10-25 22:11:17.615 [main] INFO  MatchingTool -       Operation: UPDATE path=/CampaignWeek/{id}
+2020-10-25 22:11:17.615 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=7:
+2020-10-25 22:11:17.615 [main] INFO  MatchingTool -       Operation: DELETE path=/CampaignWeek/{id}
+2020-10-25 22:11:17.621 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,43 @@
+Will overwrite mapping file
+2020-10-25 22:18:42.699 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:18:42.700 [main] INFO  mapping.Mapper - -> /postcard
+2020-10-25 22:18:42.700 [main] INFO  mapping.Mapper - -> /templates
+2020-10-25 22:18:42.700 [main] INFO  mapping.Mapper - -> /addresses
+2020-10-25 22:18:42.701 [main] INFO  mapping.Mapper - -> /postcards
+2020-10-25 22:18:42.701 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:18:42.711 [main] INFO  mapping.Mapper - Resource Mapping for /postcard:
+2020-10-25 22:18:42.711 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:42.711 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:42.711 [main] INFO  mapping.Mapper -       Operation: READ path=/postcard/{postcard_id}
+2020-10-25 22:18:42.711 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:42.711 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:42.712 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:42.712 [main] INFO  mapping.Mapper -       Operation: DELETE path=/postcard/{postcard_id}
+2020-10-25 22:18:42.723 [main] INFO  mapping.Mapper - Resource Mapping for /templates:
+2020-10-25 22:18:42.724 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:42.724 [main] INFO  mapping.Mapper -       Operation: CREATE path=/templates
+2020-10-25 22:18:42.724 [main] INFO  mapping.Mapper -       Operation: CREATE path=/templates/{templates_id}
+2020-10-25 22:18:42.724 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:42.724 [main] INFO  mapping.Mapper -       Operation: READ path=/templates/{templates_id}
+2020-10-25 22:18:42.724 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:42.724 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:42.724 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:42.724 [main] INFO  mapping.Mapper -       Operation: DELETE path=/templates/{templates_id}
+2020-10-25 22:18:42.732 [main] INFO  mapping.Mapper - Resource Mapping for /addresses:
+2020-10-25 22:18:42.732 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:42.732 [main] INFO  mapping.Mapper -       Operation: CREATE path=/addresses
+2020-10-25 22:18:42.732 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:42.732 [main] INFO  mapping.Mapper -       Operation: READ path=/addresses/{addresses_id}
+2020-10-25 22:18:42.732 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:42.732 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:42.732 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:42.732 [main] INFO  mapping.Mapper -       Operation: DELETE path=/addresses/{addresses_id}
+2020-10-25 22:18:42.735 [main] INFO  mapping.Mapper - Resource Mapping for /postcards:
+2020-10-25 22:18:42.736 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:42.736 [main] INFO  mapping.Mapper -       Operation: CREATE path=/postcards
+2020-10-25 22:18:42.736 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:42.736 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:42.736 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:42.736 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:42.736 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:18:42.742 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

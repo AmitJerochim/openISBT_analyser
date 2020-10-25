@@ -1,0 +1,45 @@
+Will overwrite mapping file
+2020-10-25 22:10:11.594 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:10:11.595 [main] INFO  mapping.Mapper - -> /login
+2020-10-25 22:10:11.595 [main] INFO  mapping.Mapper - -> /content/upload
+2020-10-25 22:10:11.595 [main] INFO  mapping.Mapper - -> /videos
+2020-10-25 22:10:11.595 [main] INFO  mapping.Mapper - -> /document
+2020-10-25 22:10:11.595 [main] INFO  mapping.Mapper - -> /content/videos
+2020-10-25 22:10:11.595 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:10:11.604 [main] INFO  mapping.Mapper - Resource Mapping for /login:
+2020-10-25 22:10:11.604 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:11.604 [main] INFO  mapping.Mapper -       Operation: CREATE path=/login
+2020-10-25 22:10:11.604 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:11.604 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:11.604 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:11.604 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:11.607 [main] INFO  mapping.Mapper - Resource Mapping for /content/upload:
+2020-10-25 22:10:11.608 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:11.608 [main] INFO  mapping.Mapper -       Operation: CREATE path=/content/upload
+2020-10-25 22:10:11.608 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:11.608 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:11.608 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:11.608 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:11.611 [main] INFO  mapping.Mapper - Resource Mapping for /videos:
+2020-10-25 22:10:11.611 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:11.611 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:10:11.611 [main] INFO  mapping.Mapper -       Operation: READ path=/videos/{objectId}
+2020-10-25 22:10:11.611 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:11.611 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:11.611 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:11.613 [main] INFO  mapping.Mapper - Resource Mapping for /document:
+2020-10-25 22:10:11.613 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:11.614 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:10:11.614 [main] INFO  mapping.Mapper -       Operation: READ path=/document/{objectId}
+2020-10-25 22:10:11.614 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:11.614 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:11.614 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:11.616 [main] INFO  mapping.Mapper - Resource Mapping for /content/videos:
+2020-10-25 22:10:11.616 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:11.616 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:10:11.616 [main] INFO  mapping.Mapper -       Operation: READ path=/content/videos/{videoFilename}
+2020-10-25 22:10:11.616 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:11.616 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:11.616 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:11.617 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:10:11.621 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

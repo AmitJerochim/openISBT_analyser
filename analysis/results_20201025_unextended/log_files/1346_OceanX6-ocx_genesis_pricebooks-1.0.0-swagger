@@ -1,0 +1,21 @@
+Will overwrite mapping file
+2020-10-25 22:17:03.732 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:17:03.734 [main] INFO  mapping.Mapper - -> /priceBooks/brand
+2020-10-25 22:17:03.734 [main] INFO  mapping.Mapper - -> /priceBooks
+2020-10-25 22:17:03.734 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:17:03.743 [main] INFO  mapping.Mapper - Resource Mapping for /priceBooks/brand:
+2020-10-25 22:17:03.743 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:03.743 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:17:03.743 [main] INFO  mapping.Mapper -       Operation: READ path=/priceBooks/brand/{brandId}
+2020-10-25 22:17:03.743 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:03.743 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:03.743 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:03.746 [main] INFO  mapping.Mapper - Resource Mapping for /priceBooks:
+2020-10-25 22:17:03.746 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:03.746 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:17:03.746 [main] INFO  mapping.Mapper -       Operation: READ path=/priceBooks/{priceBookId}
+2020-10-25 22:17:03.746 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:03.746 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:03.746 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:03.746 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:17:03.751 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

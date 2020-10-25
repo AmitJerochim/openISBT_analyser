@@ -1,0 +1,48 @@
+Will overwrite mapping file
+2020-10-25 22:12:11.125 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:12:11.127 [main] INFO  mapping.Mapper - -> /user/login
+2020-10-25 22:12:11.127 [main] INFO  mapping.Mapper - -> /user
+2020-10-25 22:12:11.127 [main] INFO  mapping.Mapper - -> /s
+2020-10-25 22:12:11.127 [main] INFO  mapping.Mapper - -> /user/logout
+2020-10-25 22:12:11.127 [main] INFO  mapping.Mapper - -> /liburl
+2020-10-25 22:12:11.127 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:12:11.130 [main] INFO  mapping.Mapper - Resource Mapping for /user/login:
+2020-10-25 22:12:11.130 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:11.130 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:11.130 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:11.130 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:11.130 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:11.145 [main] INFO  mapping.Mapper - Resource Mapping for /user:
+2020-10-25 22:12:11.145 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:12:11.145 [main] INFO  mapping.Mapper -       Operation: CREATE path=/user
+2020-10-25 22:12:11.145 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:12:11.145 [main] INFO  mapping.Mapper -       Operation: READ path=/user/{username}
+2020-10-25 22:12:11.145 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:11.145 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:12:11.145 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/user/{username}
+2020-10-25 22:12:11.145 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:12:11.145 [main] INFO  mapping.Mapper -       Operation: DELETE path=/user/{username}
+2020-10-25 22:12:11.148 [main] INFO  mapping.Mapper - Resource Mapping for /s:
+2020-10-25 22:12:11.148 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:11.148 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:12:11.148 [main] INFO  mapping.Mapper -       Operation: READ path=/s/{tinyurl}
+2020-10-25 22:12:11.148 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:11.148 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:11.148 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:11.149 [main] INFO  mapping.Mapper - Resource Mapping for /user/logout:
+2020-10-25 22:12:11.149 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:11.149 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:11.149 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:11.149 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:11.149 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:11.158 [main] INFO  mapping.Mapper - Resource Mapping for /liburl:
+2020-10-25 22:12:11.158 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:12:11.158 [main] INFO  mapping.Mapper -       Operation: CREATE path=/liburl
+2020-10-25 22:12:11.158 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:11.158 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:12:11.158 [main] INFO  mapping.Mapper -       Operation: SCAN path=/liburl
+2020-10-25 22:12:11.158 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:11.158 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:12:11.158 [main] INFO  mapping.Mapper -       Operation: DELETE path=/liburl
+2020-10-25 22:12:11.158 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:12:11.163 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,45 @@
+Will overwrite mapping file
+2020-10-25 22:21:45.846 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:21:45.848 [main] INFO  mapping.Mapper - -> /category
+2020-10-25 22:21:45.848 [main] INFO  mapping.Mapper - -> /event
+2020-10-25 22:21:45.848 [main] INFO  mapping.Mapper - -> /menu
+2020-10-25 22:21:45.848 [main] INFO  mapping.Mapper - -> /mainPage
+2020-10-25 22:21:45.848 [main] INFO  mapping.Mapper - -> /place
+2020-10-25 22:21:45.848 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:21:45.857 [main] INFO  mapping.Mapper - Resource Mapping for /category:
+2020-10-25 22:21:45.857 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:45.857 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:45.857 [main] INFO  mapping.Mapper -       Operation: READ path=/category/{categoryId}
+2020-10-25 22:21:45.857 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:45.858 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:45.858 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:45.860 [main] INFO  mapping.Mapper - Resource Mapping for /event:
+2020-10-25 22:21:45.860 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:45.861 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:45.861 [main] INFO  mapping.Mapper -       Operation: READ path=/event/{eventId}
+2020-10-25 22:21:45.861 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:45.861 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:45.861 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:45.863 [main] INFO  mapping.Mapper - Resource Mapping for /menu:
+2020-10-25 22:21:45.863 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:45.863 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:45.863 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:21:45.863 [main] INFO  mapping.Mapper -       Operation: SCAN path=/menu
+2020-10-25 22:21:45.863 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:45.863 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:45.865 [main] INFO  mapping.Mapper - Resource Mapping for /mainPage:
+2020-10-25 22:21:45.866 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:45.866 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:45.866 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:21:45.866 [main] INFO  mapping.Mapper -       Operation: SCAN path=/mainPage
+2020-10-25 22:21:45.866 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:45.866 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:45.869 [main] INFO  mapping.Mapper - Resource Mapping for /place:
+2020-10-25 22:21:45.870 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:45.870 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:45.870 [main] INFO  mapping.Mapper -       Operation: READ path=/place/{placeId}
+2020-10-25 22:21:45.870 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:45.870 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:45.870 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:45.870 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:21:45.876 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,21 @@
+Will overwrite mapping file
+2020-10-25 22:14:41.825 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:14:41.826 [main] INFO  mapping.Mapper - -> /custom/fbcGetMissedCollections
+2020-10-25 22:14:41.827 [main] INFO  mapping.Mapper - -> /custom/sswpGetMissedCollections
+2020-10-25 22:14:41.827 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:14:41.835 [main] INFO  mapping.Mapper - Resource Mapping for /custom/fbcGetMissedCollections:
+2020-10-25 22:14:41.836 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:41.836 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:41.836 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:14:41.836 [main] INFO  mapping.Mapper -       Operation: SCAN path=/custom/fbcGetMissedCollections
+2020-10-25 22:14:41.836 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:41.836 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:41.839 [main] INFO  mapping.Mapper - Resource Mapping for /custom/sswpGetMissedCollections:
+2020-10-25 22:14:41.840 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:41.840 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:41.840 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:14:41.840 [main] INFO  mapping.Mapper -       Operation: SCAN path=/custom/sswpGetMissedCollections
+2020-10-25 22:14:41.840 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:41.840 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:41.840 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:14:41.845 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

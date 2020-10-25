@@ -1,0 +1,156 @@
+Will overwrite mapping file
+2020-10-25 22:10:45.681 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:10:45.683 [main] INFO  mapping.Mapper - -> /master/hotel/type
+2020-10-25 22:10:45.684 [main] INFO  mapping.Mapper - -> /hotel/search/code
+2020-10-25 22:10:45.684 [main] INFO  mapping.Mapper - -> /hotel/book
+2020-10-25 22:10:45.684 [main] INFO  mapping.Mapper - -> /client
+2020-10-25 22:10:45.684 [main] INFO  mapping.Mapper - -> /manage/reference/client
+2020-10-25 22:10:45.684 [main] INFO  mapping.Mapper - -> /master/hotel/information
+2020-10-25 22:10:45.684 [main] INFO  mapping.Mapper - -> /hotel/availability
+2020-10-25 22:10:45.684 [main] INFO  mapping.Mapper - -> /manage/book
+2020-10-25 22:10:45.684 [main] INFO  mapping.Mapper - -> /client/reference
+2020-10-25 22:10:45.684 [main] INFO  mapping.Mapper - -> /manage/payment
+2020-10-25 22:10:45.684 [main] INFO  mapping.Mapper - -> /master/hotel/meal
+2020-10-25 22:10:45.684 [main] INFO  mapping.Mapper - -> /manage/file
+2020-10-25 22:10:45.684 [main] INFO  mapping.Mapper - -> /master/currency
+2020-10-25 22:10:45.684 [main] INFO  mapping.Mapper - -> /master/destination
+2020-10-25 22:10:45.684 [main] INFO  mapping.Mapper - -> /health
+2020-10-25 22:10:45.684 [main] INFO  mapping.Mapper - -> /master/country
+2020-10-25 22:10:45.684 [main] INFO  mapping.Mapper - -> /master/book/status
+2020-10-25 22:10:45.685 [main] INFO  mapping.Mapper - -> /master/hotel/amenity
+2020-10-25 22:10:45.685 [main] INFO  mapping.Mapper - -> /master/supplier
+2020-10-25 22:10:45.685 [main] INFO  mapping.Mapper - -> /master/language
+2020-10-25 22:10:45.685 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:10:45.691 [main] INFO  mapping.Mapper - Resource Mapping for /master/hotel/type:
+2020-10-25 22:10:45.692 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:45.692 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:45.692 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:45.692 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:45.692 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:45.693 [main] INFO  mapping.Mapper - Resource Mapping for /hotel/search/code:
+2020-10-25 22:10:45.694 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:45.694 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:45.694 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:45.694 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:45.694 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:45.707 [main] INFO  mapping.Mapper - Resource Mapping for /hotel/book:
+2020-10-25 22:10:45.707 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:45.707 [main] INFO  mapping.Mapper -       Operation: CREATE path=/hotel/book
+2020-10-25 22:10:45.707 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:45.707 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:45.708 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:10:45.708 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/hotel/book/{locator}
+2020-10-25 22:10:45.708 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:45.711 [main] INFO  mapping.Mapper - Resource Mapping for /client:
+2020-10-25 22:10:45.711 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:45.711 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:10:45.711 [main] INFO  mapping.Mapper -       Operation: READ path=/client/{clientCode}
+2020-10-25 22:10:45.711 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:45.711 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:45.711 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:45.712 [main] INFO  mapping.Mapper - Resource Mapping for /manage/reference/client:
+2020-10-25 22:10:45.712 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:45.712 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:45.712 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:45.712 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:45.712 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:45.715 [main] INFO  mapping.Mapper - Resource Mapping for /master/hotel/information:
+2020-10-25 22:10:45.715 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:45.715 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:10:45.715 [main] INFO  mapping.Mapper -       Operation: READ path=/master/hotel/information/{code}
+2020-10-25 22:10:45.715 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:45.715 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:45.715 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:45.718 [main] INFO  mapping.Mapper - Resource Mapping for /hotel/availability:
+2020-10-25 22:10:45.719 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:45.719 [main] INFO  mapping.Mapper -       Operation: CREATE path=/hotel/availability
+2020-10-25 22:10:45.719 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:45.719 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:45.719 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:45.719 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:45.725 [main] INFO  mapping.Mapper - Resource Mapping for /manage/book:
+2020-10-25 22:10:45.725 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:45.725 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:10:45.725 [main] INFO  mapping.Mapper -       Operation: READ path=/manage/book/{locator}
+2020-10-25 22:10:45.725 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:45.725 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:10:45.725 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/manage/book/{locator}
+2020-10-25 22:10:45.725 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:10:45.725 [main] INFO  mapping.Mapper -       Operation: DELETE path=/manage/book/{locator}
+2020-10-25 22:10:45.727 [main] INFO  mapping.Mapper - Resource Mapping for /client/reference:
+2020-10-25 22:10:45.727 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:45.727 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:10:45.727 [main] INFO  mapping.Mapper -       Operation: READ path=/client/reference/{reference}
+2020-10-25 22:10:45.727 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:45.727 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:45.727 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:45.729 [main] INFO  mapping.Mapper - Resource Mapping for /manage/payment:
+2020-10-25 22:10:45.730 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:45.730 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:10:45.730 [main] INFO  mapping.Mapper -       Operation: READ path=/manage/payment/{file}
+2020-10-25 22:10:45.730 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:45.730 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:45.730 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:45.731 [main] INFO  mapping.Mapper - Resource Mapping for /master/hotel/meal:
+2020-10-25 22:10:45.731 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:45.731 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:45.731 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:45.731 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:45.731 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:45.734 [main] INFO  mapping.Mapper - Resource Mapping for /manage/file:
+2020-10-25 22:10:45.734 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:45.734 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:10:45.734 [main] INFO  mapping.Mapper -       Operation: READ path=/manage/file/{file}
+2020-10-25 22:10:45.734 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:45.734 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:45.734 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:45.735 [main] INFO  mapping.Mapper - Resource Mapping for /master/currency:
+2020-10-25 22:10:45.735 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:45.735 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:45.735 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:45.735 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:45.735 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:45.735 [main] INFO  mapping.Mapper - Resource Mapping for /master/destination:
+2020-10-25 22:10:45.735 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:45.735 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:45.735 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:45.735 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:45.736 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:45.736 [main] INFO  mapping.Mapper - Resource Mapping for /health:
+2020-10-25 22:10:45.736 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:45.736 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:45.736 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:45.736 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:45.736 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:45.737 [main] INFO  mapping.Mapper - Resource Mapping for /master/country:
+2020-10-25 22:10:45.737 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:45.737 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:45.737 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:45.737 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:45.738 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:45.738 [main] INFO  mapping.Mapper - Resource Mapping for /master/book/status:
+2020-10-25 22:10:45.738 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:45.738 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:45.738 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:45.738 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:45.739 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:45.739 [main] INFO  mapping.Mapper - Resource Mapping for /master/hotel/amenity:
+2020-10-25 22:10:45.739 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:45.739 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:45.739 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:45.739 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:45.739 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:45.740 [main] INFO  mapping.Mapper - Resource Mapping for /master/supplier:
+2020-10-25 22:10:45.740 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:45.740 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:45.740 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:45.740 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:45.740 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:45.741 [main] INFO  mapping.Mapper - Resource Mapping for /master/language:
+2020-10-25 22:10:45.741 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:45.741 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:45.741 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:45.741 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:45.741 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:45.742 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:10:45.751 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

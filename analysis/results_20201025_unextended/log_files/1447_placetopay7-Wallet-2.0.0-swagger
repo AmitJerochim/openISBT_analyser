@@ -1,0 +1,105 @@
+Will overwrite mapping file
+2020-10-25 22:17:41.843 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:17:41.844 [main] INFO  mapping.Mapper - -> /cards
+2020-10-25 22:17:41.845 [main] INFO  mapping.Mapper - -> /payment/activate-payment/
+2020-10-25 22:17:41.845 [main] INFO  mapping.Mapper - -> /devices
+2020-10-25 22:17:41.845 [main] INFO  mapping.Mapper - -> /commerce
+2020-10-25 22:17:41.845 [main] INFO  mapping.Mapper - -> /bills
+2020-10-25 22:17:41.845 [main] INFO  mapping.Mapper - -> /payment
+2020-10-25 22:17:41.845 [main] INFO  mapping.Mapper - -> /otp
+2020-10-25 22:17:41.845 [main] INFO  mapping.Mapper - -> /validate-otp
+2020-10-25 22:17:41.845 [main] INFO  mapping.Mapper - -> /transactions
+2020-10-25 22:17:41.845 [main] INFO  mapping.Mapper - -> /categories
+2020-10-25 22:17:41.845 [main] INFO  mapping.Mapper - -> /user
+2020-10-25 22:17:41.845 [main] INFO  mapping.Mapper - -> /trankey
+2020-10-25 22:17:41.845 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:17:41.857 [main] INFO  mapping.Mapper - Resource Mapping for /cards:
+2020-10-25 22:17:41.857 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:41.857 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cards
+2020-10-25 22:17:41.857 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:17:41.857 [main] INFO  mapping.Mapper -       Operation: READ path=/cards/{user_id}
+2020-10-25 22:17:41.857 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:41.857 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:41.857 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:17:41.857 [main] INFO  mapping.Mapper -       Operation: DELETE path=/cards/{card_id}
+2020-10-25 22:17:41.859 [main] INFO  mapping.Mapper - Resource Mapping for /payment/activate-payment/:
+2020-10-25 22:17:41.860 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:41.860 [main] INFO  mapping.Mapper -       Operation: CREATE path=/payment/activate-payment/
+2020-10-25 22:17:41.860 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:41.860 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:41.860 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:41.860 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:41.863 [main] INFO  mapping.Mapper - Resource Mapping for /devices:
+2020-10-25 22:17:41.863 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:41.863 [main] INFO  mapping.Mapper -       Operation: CREATE path=/devices
+2020-10-25 22:17:41.863 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:41.863 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:41.863 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:41.864 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:17:41.864 [main] INFO  mapping.Mapper -       Operation: DELETE path=/devices/{device_id}
+2020-10-25 22:17:41.865 [main] INFO  mapping.Mapper - Resource Mapping for /commerce:
+2020-10-25 22:17:41.865 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:41.865 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:17:41.865 [main] INFO  mapping.Mapper -       Operation: READ path=/commerce/{category_id}
+2020-10-25 22:17:41.865 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:41.865 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:41.865 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:41.867 [main] INFO  mapping.Mapper - Resource Mapping for /bills:
+2020-10-25 22:17:41.867 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:41.867 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:17:41.867 [main] INFO  mapping.Mapper -       Operation: READ path=/bills/{commerce_id}
+2020-10-25 22:17:41.867 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:41.867 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:41.867 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:41.870 [main] INFO  mapping.Mapper - Resource Mapping for /payment:
+2020-10-25 22:17:41.871 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:41.871 [main] INFO  mapping.Mapper -       Operation: CREATE path=/payment
+2020-10-25 22:17:41.871 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:41.871 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:41.871 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:41.871 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:17:41.871 [main] INFO  mapping.Mapper -       Operation: DELETE path=/payment/{payment_id}
+2020-10-25 22:17:41.873 [main] INFO  mapping.Mapper - Resource Mapping for /otp:
+2020-10-25 22:17:41.873 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:41.873 [main] INFO  mapping.Mapper -       Operation: CREATE path=/otp
+2020-10-25 22:17:41.873 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:41.873 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:41.873 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:41.873 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:41.875 [main] INFO  mapping.Mapper - Resource Mapping for /validate-otp:
+2020-10-25 22:17:41.875 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:41.875 [main] INFO  mapping.Mapper -       Operation: CREATE path=/validate-otp
+2020-10-25 22:17:41.875 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:41.875 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:41.875 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:41.875 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:41.878 [main] INFO  mapping.Mapper - Resource Mapping for /transactions:
+2020-10-25 22:17:41.878 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:41.878 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:17:41.878 [main] INFO  mapping.Mapper -       Operation: READ path=/transactions/{transaction_id}
+2020-10-25 22:17:41.878 [main] INFO  mapping.Mapper -       Operation: READ path=/transactions/{user_id}
+2020-10-25 22:17:41.878 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:41.878 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:41.878 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:41.878 [main] INFO  mapping.Mapper - Resource Mapping for /categories:
+2020-10-25 22:17:41.879 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:41.879 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:41.879 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:41.879 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:41.879 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:41.882 [main] INFO  mapping.Mapper - Resource Mapping for /user:
+2020-10-25 22:17:41.883 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:41.883 [main] INFO  mapping.Mapper -       Operation: CREATE path=/user
+2020-10-25 22:17:41.883 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:41.883 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:41.883 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:17:41.883 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/user
+2020-10-25 22:17:41.883 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:41.883 [main] INFO  mapping.Mapper - Resource Mapping for /trankey:
+2020-10-25 22:17:41.883 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:41.883 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:41.883 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:41.883 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:41.883 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:41.884 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:17:41.899 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

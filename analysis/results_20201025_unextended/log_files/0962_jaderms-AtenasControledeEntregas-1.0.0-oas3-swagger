@@ -1,0 +1,45 @@
+Will overwrite mapping file
+2020-10-25 22:14:46.266 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:14:46.268 [main] INFO  mapping.Mapper - -> /viagem
+2020-10-25 22:14:46.268 [main] INFO  mapping.Mapper - -> /login
+2020-10-25 22:14:46.268 [main] INFO  mapping.Mapper - -> /notasfiscais
+2020-10-25 22:14:46.268 [main] INFO  mapping.Mapper - -> /documentos
+2020-10-25 22:14:46.268 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:14:46.286 [main] INFO  mapping.Mapper - Resource Mapping for /viagem:
+2020-10-25 22:14:46.286 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:46.286 [main] INFO  mapping.Mapper -       Operation: CREATE path=/viagem
+2020-10-25 22:14:46.286 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:46.286 [main] INFO  mapping.Mapper -       Operation: READ path=/viagem/{idkey}
+2020-10-25 22:14:46.286 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:46.286 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:46.286 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/viagem
+2020-10-25 22:14:46.286 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:14:46.286 [main] INFO  mapping.Mapper -       Operation: DELETE path=/viagem/{idkey}
+2020-10-25 22:14:46.287 [main] INFO  mapping.Mapper - Resource Mapping for /login:
+2020-10-25 22:14:46.287 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:46.287 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:46.287 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:46.287 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:46.287 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:46.295 [main] INFO  mapping.Mapper - Resource Mapping for /notasfiscais:
+2020-10-25 22:14:46.295 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:46.295 [main] INFO  mapping.Mapper -       Operation: CREATE path=/notasfiscais
+2020-10-25 22:14:46.295 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:46.295 [main] INFO  mapping.Mapper -       Operation: READ path=/notasfiscais/{idkey}
+2020-10-25 22:14:46.295 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:46.295 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:46.295 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/notasfiscais
+2020-10-25 22:14:46.295 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:14:46.295 [main] INFO  mapping.Mapper -       Operation: DELETE path=/notasfiscais/{idkey}
+2020-10-25 22:14:46.303 [main] INFO  mapping.Mapper - Resource Mapping for /documentos:
+2020-10-25 22:14:46.303 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:46.303 [main] INFO  mapping.Mapper -       Operation: CREATE path=/documentos
+2020-10-25 22:14:46.303 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:46.303 [main] INFO  mapping.Mapper -       Operation: READ path=/documentos/{idkey}
+2020-10-25 22:14:46.303 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:46.303 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:46.303 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/documentos
+2020-10-25 22:14:46.303 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:14:46.303 [main] INFO  mapping.Mapper -       Operation: DELETE path=/documentos/{idkey}
+2020-10-25 22:14:46.303 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:14:46.310 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

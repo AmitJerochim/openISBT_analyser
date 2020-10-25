@@ -1,0 +1,173 @@
+Will overwrite mapping file
+2020-10-25 22:14:03.896 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:14:03.897 [main] INFO  mapping.Mapper - -> /token
+2020-10-25 22:14:03.897 [main] INFO  mapping.Mapper - -> /ti/v1/file/sha256
+2020-10-25 22:14:03.897 [main] INFO  mapping.Mapper - -> /ti/v1/domain/nod
+2020-10-25 22:14:03.897 [main] INFO  mapping.Mapper - -> /ti/v1/file/md5
+2020-10-25 22:14:03.897 [main] INFO  mapping.Mapper - -> /ti/v1/domain
+2020-10-25 22:14:03.897 [main] INFO  mapping.Mapper - -> /ti/v1/domain/whois
+2020-10-25 22:14:03.898 [main] INFO  mapping.Mapper - -> /ti/v1/ip/asn/org
+2020-10-25 22:14:03.898 [main] INFO  mapping.Mapper - -> /ti/v1/domain/whois/geo
+2020-10-25 22:14:03.898 [main] INFO  mapping.Mapper - -> /ti/v1/tiUnstructured
+2020-10-25 22:14:03.898 [main] INFO  mapping.Mapper - -> /ti/v1/ip/geo
+2020-10-25 22:14:03.898 [main] INFO  mapping.Mapper - -> /ti/v1/ip/asn
+2020-10-25 22:14:03.898 [main] INFO  mapping.Mapper - -> /ti/v1/email/disposable
+2020-10-25 22:14:03.898 [main] INFO  mapping.Mapper - -> /ti/v1/domain/categories
+2020-10-25 22:14:03.898 [main] INFO  mapping.Mapper - -> /ti/v1/file/sha512
+2020-10-25 22:14:03.898 [main] INFO  mapping.Mapper - -> /ti/v1/app/port
+2020-10-25 22:14:03.898 [main] INFO  mapping.Mapper - -> /ti/v1/email
+2020-10-25 22:14:03.898 [main] INFO  mapping.Mapper - -> /ti/v1/file/sha1
+2020-10-25 22:14:03.898 [main] INFO  mapping.Mapper - -> /ti/v1/domain/disposable
+2020-10-25 22:14:03.898 [main] INFO  mapping.Mapper - -> /ti/v1/port/app
+2020-10-25 22:14:03.898 [main] INFO  mapping.Mapper - -> /ti/v1/ip
+2020-10-25 22:14:03.898 [main] INFO  mapping.Mapper - -> /ti/v1/url/
+2020-10-25 22:14:03.898 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:14:03.907 [main] INFO  mapping.Mapper - Resource Mapping for /token:
+2020-10-25 22:14:03.907 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:03.907 [main] INFO  mapping.Mapper -       Operation: CREATE path=/token
+2020-10-25 22:14:03.907 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:03.907 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:03.907 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:03.907 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:03.910 [main] INFO  mapping.Mapper - Resource Mapping for /ti/v1/file/sha256:
+2020-10-25 22:14:03.910 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:03.910 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:03.910 [main] INFO  mapping.Mapper -       Operation: READ path=/ti/v1/file/sha256/{id}
+2020-10-25 22:14:03.910 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:03.910 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:03.910 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:03.912 [main] INFO  mapping.Mapper - Resource Mapping for /ti/v1/domain/nod:
+2020-10-25 22:14:03.913 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:03.913 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:03.913 [main] INFO  mapping.Mapper -       Operation: READ path=/ti/v1/domain/nod/{id}
+2020-10-25 22:14:03.913 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:03.913 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:03.913 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:03.915 [main] INFO  mapping.Mapper - Resource Mapping for /ti/v1/file/md5:
+2020-10-25 22:14:03.915 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:03.915 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:03.915 [main] INFO  mapping.Mapper -       Operation: READ path=/ti/v1/file/md5/{id}
+2020-10-25 22:14:03.915 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:03.915 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:03.915 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:03.917 [main] INFO  mapping.Mapper - Resource Mapping for /ti/v1/domain:
+2020-10-25 22:14:03.918 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:03.918 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:03.918 [main] INFO  mapping.Mapper -       Operation: READ path=/ti/v1/domain/{id}
+2020-10-25 22:14:03.918 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:03.918 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:03.918 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:03.920 [main] INFO  mapping.Mapper - Resource Mapping for /ti/v1/domain/whois:
+2020-10-25 22:14:03.920 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:03.920 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:03.920 [main] INFO  mapping.Mapper -       Operation: READ path=/ti/v1/domain/whois/{id}
+2020-10-25 22:14:03.920 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:03.920 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:03.920 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:03.922 [main] INFO  mapping.Mapper - Resource Mapping for /ti/v1/ip/asn/org:
+2020-10-25 22:14:03.922 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:03.922 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:03.922 [main] INFO  mapping.Mapper -       Operation: READ path=/ti/v1/ip/asn/org/{id}
+2020-10-25 22:14:03.922 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:03.922 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:03.922 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:03.924 [main] INFO  mapping.Mapper - Resource Mapping for /ti/v1/domain/whois/geo:
+2020-10-25 22:14:03.924 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:03.924 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:03.924 [main] INFO  mapping.Mapper -       Operation: READ path=/ti/v1/domain/whois/geo/{id}
+2020-10-25 22:14:03.924 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:03.924 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:03.924 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:03.926 [main] INFO  mapping.Mapper - Resource Mapping for /ti/v1/tiUnstructured:
+2020-10-25 22:14:03.926 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:03.926 [main] INFO  mapping.Mapper -       Operation: CREATE path=/ti/v1/tiUnstructured
+2020-10-25 22:14:03.926 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:03.927 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:03.927 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:03.927 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:03.928 [main] INFO  mapping.Mapper - Resource Mapping for /ti/v1/ip/geo:
+2020-10-25 22:14:03.929 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:03.929 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:03.929 [main] INFO  mapping.Mapper -       Operation: READ path=/ti/v1/ip/geo/{id}
+2020-10-25 22:14:03.929 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:03.929 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:03.929 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:03.931 [main] INFO  mapping.Mapper - Resource Mapping for /ti/v1/ip/asn:
+2020-10-25 22:14:03.931 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:03.931 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:03.931 [main] INFO  mapping.Mapper -       Operation: READ path=/ti/v1/ip/asn/{id}
+2020-10-25 22:14:03.931 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:03.931 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:03.931 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:03.933 [main] INFO  mapping.Mapper - Resource Mapping for /ti/v1/email/disposable:
+2020-10-25 22:14:03.933 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:03.933 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:03.933 [main] INFO  mapping.Mapper -       Operation: READ path=/ti/v1/email/disposable/{id}
+2020-10-25 22:14:03.933 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:03.933 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:03.933 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:03.935 [main] INFO  mapping.Mapper - Resource Mapping for /ti/v1/domain/categories:
+2020-10-25 22:14:03.935 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:03.935 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:03.935 [main] INFO  mapping.Mapper -       Operation: READ path=/ti/v1/domain/categories/{id}
+2020-10-25 22:14:03.935 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:03.935 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:03.935 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:03.937 [main] INFO  mapping.Mapper - Resource Mapping for /ti/v1/file/sha512:
+2020-10-25 22:14:03.937 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:03.937 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:03.937 [main] INFO  mapping.Mapper -       Operation: READ path=/ti/v1/file/sha512/{id}
+2020-10-25 22:14:03.937 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:03.937 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:03.937 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:03.939 [main] INFO  mapping.Mapper - Resource Mapping for /ti/v1/app/port:
+2020-10-25 22:14:03.939 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:03.939 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:03.939 [main] INFO  mapping.Mapper -       Operation: READ path=/ti/v1/app/port/{id}
+2020-10-25 22:14:03.939 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:03.939 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:03.939 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:03.940 [main] INFO  mapping.Mapper - Resource Mapping for /ti/v1/email:
+2020-10-25 22:14:03.941 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:03.941 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:03.941 [main] INFO  mapping.Mapper -       Operation: READ path=/ti/v1/email/{id}
+2020-10-25 22:14:03.941 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:03.941 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:03.941 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:03.942 [main] INFO  mapping.Mapper - Resource Mapping for /ti/v1/file/sha1:
+2020-10-25 22:14:03.942 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:03.942 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:03.942 [main] INFO  mapping.Mapper -       Operation: READ path=/ti/v1/file/sha1/{id}
+2020-10-25 22:14:03.943 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:03.943 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:03.943 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:03.944 [main] INFO  mapping.Mapper - Resource Mapping for /ti/v1/domain/disposable:
+2020-10-25 22:14:03.944 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:03.944 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:03.944 [main] INFO  mapping.Mapper -       Operation: READ path=/ti/v1/domain/disposable/{id}
+2020-10-25 22:14:03.944 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:03.944 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:03.944 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:03.946 [main] INFO  mapping.Mapper - Resource Mapping for /ti/v1/port/app:
+2020-10-25 22:14:03.946 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:03.946 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:03.946 [main] INFO  mapping.Mapper -       Operation: READ path=/ti/v1/port/app/{id}
+2020-10-25 22:14:03.946 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:03.946 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:03.946 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:03.958 [main] INFO  mapping.Mapper - Resource Mapping for /ti/v1/ip:
+2020-10-25 22:14:03.958 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:03.958 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:03.958 [main] INFO  mapping.Mapper -       Operation: READ path=/ti/v1/ip/{id}
+2020-10-25 22:14:03.958 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:03.958 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:03.958 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:03.961 [main] INFO  mapping.Mapper - Resource Mapping for /ti/v1/url/:
+2020-10-25 22:14:03.961 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:03.961 [main] INFO  mapping.Mapper -       Operation: CREATE path=/ti/v1/url/
+2020-10-25 22:14:03.961 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:03.961 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:03.961 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:03.961 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:03.961 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:14:03.973 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

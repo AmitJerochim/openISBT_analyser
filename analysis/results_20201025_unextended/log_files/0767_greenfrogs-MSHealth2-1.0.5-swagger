@@ -1,0 +1,93 @@
+Will overwrite mapping file
+2020-10-25 22:13:34.536 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:13:34.537 [main] INFO  mapping.Mapper - -> /patients/departure
+2020-10-25 22:13:34.538 [main] INFO  mapping.Mapper - -> /time
+2020-10-25 22:13:34.538 [main] INFO  mapping.Mapper - -> /overview
+2020-10-25 22:13:34.538 [main] INFO  mapping.Mapper - -> /patients/arrival
+2020-10-25 22:13:34.538 [main] INFO  mapping.Mapper - -> /patients/out
+2020-10-25 22:13:34.538 [main] INFO  mapping.Mapper - -> /patients/time
+2020-10-25 22:13:34.538 [main] INFO  mapping.Mapper - -> /patients/in
+2020-10-25 22:13:34.538 [main] INFO  mapping.Mapper - -> /busyness
+2020-10-25 22:13:34.538 [main] INFO  mapping.Mapper - -> /triage
+2020-10-25 22:13:34.538 [main] INFO  mapping.Mapper - -> /patient
+2020-10-25 22:13:34.538 [main] INFO  mapping.Mapper - -> /arrival
+2020-10-25 22:13:34.538 [main] INFO  mapping.Mapper - -> /departure
+2020-10-25 22:13:34.538 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:13:34.542 [main] INFO  mapping.Mapper - Resource Mapping for /patients/departure:
+2020-10-25 22:13:34.542 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:34.542 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:34.542 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:34.542 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:34.542 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:34.542 [main] INFO  mapping.Mapper - Resource Mapping for /time:
+2020-10-25 22:13:34.542 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:34.543 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:34.543 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:34.543 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:34.543 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:34.543 [main] INFO  mapping.Mapper - Resource Mapping for /overview:
+2020-10-25 22:13:34.543 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:34.543 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:34.543 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:34.543 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:34.543 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:34.544 [main] INFO  mapping.Mapper - Resource Mapping for /patients/arrival:
+2020-10-25 22:13:34.544 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:34.544 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:34.544 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:34.544 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:34.544 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:34.546 [main] INFO  mapping.Mapper - Resource Mapping for /patients/out:
+2020-10-25 22:13:34.547 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:34.547 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:34.547 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:13:34.547 [main] INFO  mapping.Mapper -       Operation: SCAN path=/patients/out
+2020-10-25 22:13:34.547 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:34.547 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:34.551 [main] INFO  mapping.Mapper - Resource Mapping for /patients/time:
+2020-10-25 22:13:34.551 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:34.551 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:34.551 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:13:34.551 [main] INFO  mapping.Mapper -       Operation: SCAN path=/patients/time
+2020-10-25 22:13:34.551 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:34.551 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:34.553 [main] INFO  mapping.Mapper - Resource Mapping for /patients/in:
+2020-10-25 22:13:34.553 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:34.553 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:34.553 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:13:34.553 [main] INFO  mapping.Mapper -       Operation: SCAN path=/patients/in
+2020-10-25 22:13:34.553 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:34.553 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:34.553 [main] INFO  mapping.Mapper - Resource Mapping for /busyness:
+2020-10-25 22:13:34.553 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:34.554 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:34.554 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:34.554 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:34.554 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:34.557 [main] INFO  mapping.Mapper - Resource Mapping for /triage:
+2020-10-25 22:13:34.557 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:34.557 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:34.557 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:13:34.557 [main] INFO  mapping.Mapper -       Operation: SCAN path=/triage
+2020-10-25 22:13:34.557 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:34.557 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:34.557 [main] INFO  mapping.Mapper - Resource Mapping for /patient:
+2020-10-25 22:13:34.557 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:34.557 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:34.557 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:34.557 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:34.557 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:34.558 [main] INFO  mapping.Mapper - Resource Mapping for /arrival:
+2020-10-25 22:13:34.558 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:34.558 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:34.558 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:34.558 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:34.558 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:34.558 [main] INFO  mapping.Mapper - Resource Mapping for /departure:
+2020-10-25 22:13:34.558 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:34.558 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:34.558 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:34.558 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:34.558 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:34.559 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:13:34.564 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

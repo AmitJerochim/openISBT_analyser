@@ -1,0 +1,66 @@
+Will overwrite mapping file
+2020-10-25 22:11:12.887 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:11:12.888 [main] INFO  mapping.Mapper - -> /gemeenten
+2020-10-25 22:11:12.888 [main] INFO  mapping.Mapper - -> /health
+2020-10-25 22:11:12.888 [main] INFO  mapping.Mapper - -> /provincies
+2020-10-25 22:11:12.888 [main] INFO  mapping.Mapper - -> /health/ping
+2020-10-25 22:11:12.888 [main] INFO  mapping.Mapper - -> /nationaliteiten
+2020-10-25 22:11:12.888 [main] INFO  mapping.Mapper - -> /landen
+2020-10-25 22:11:12.888 [main] INFO  mapping.Mapper - -> /postcodegegevens
+2020-10-25 22:11:12.888 [main] INFO  mapping.Mapper - -> /plaatsnaamgegevens
+2020-10-25 22:11:12.888 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:11:12.896 [main] INFO  mapping.Mapper - Resource Mapping for /gemeenten:
+2020-10-25 22:11:12.896 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:12.896 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:12.896 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:12.896 [main] INFO  mapping.Mapper -       Operation: SCAN path=/gemeenten
+2020-10-25 22:11:12.896 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:12.896 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:12.897 [main] INFO  mapping.Mapper - Resource Mapping for /health:
+2020-10-25 22:11:12.897 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:12.897 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:12.897 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:12.897 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:12.897 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:12.899 [main] INFO  mapping.Mapper - Resource Mapping for /provincies:
+2020-10-25 22:11:12.899 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:12.899 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:12.899 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:12.899 [main] INFO  mapping.Mapper -       Operation: SCAN path=/provincies
+2020-10-25 22:11:12.899 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:12.899 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:12.900 [main] INFO  mapping.Mapper - Resource Mapping for /health/ping:
+2020-10-25 22:11:12.900 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:12.900 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:12.900 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:12.900 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:12.900 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:12.902 [main] INFO  mapping.Mapper - Resource Mapping for /nationaliteiten:
+2020-10-25 22:11:12.903 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:12.903 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:12.903 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:12.903 [main] INFO  mapping.Mapper -       Operation: SCAN path=/nationaliteiten
+2020-10-25 22:11:12.903 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:12.903 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:12.905 [main] INFO  mapping.Mapper - Resource Mapping for /landen:
+2020-10-25 22:11:12.905 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:12.905 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:12.905 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:12.905 [main] INFO  mapping.Mapper -       Operation: SCAN path=/landen
+2020-10-25 22:11:12.905 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:12.906 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:12.906 [main] INFO  mapping.Mapper - Resource Mapping for /postcodegegevens:
+2020-10-25 22:11:12.906 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:12.906 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:12.906 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:12.906 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:12.906 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:12.909 [main] INFO  mapping.Mapper - Resource Mapping for /plaatsnaamgegevens:
+2020-10-25 22:11:12.909 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:12.909 [main] INFO  mapping.Mapper -       Operation: CREATE path=/plaatsnaamgegevens
+2020-10-25 22:11:12.909 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:12.909 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:12.909 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:12.909 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:12.909 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:11:12.914 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

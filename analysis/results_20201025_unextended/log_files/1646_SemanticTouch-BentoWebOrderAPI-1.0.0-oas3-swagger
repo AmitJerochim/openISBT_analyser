@@ -1,0 +1,184 @@
+Will overwrite mapping file
+2020-10-25 22:18:54.659 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:18:54.660 [main] INFO  mapping.Mapper - -> /cart-api/shipping
+2020-10-25 22:18:54.660 [main] INFO  mapping.Mapper - -> /cart-api/calculate
+2020-10-25 22:18:54.660 [main] INFO  mapping.Mapper - -> /cart-api/product
+2020-10-25 22:18:54.660 [main] INFO  mapping.Mapper - -> /cart-api/discount
+2020-10-25 22:18:54.660 [main] INFO  mapping.Mapper - -> /order/list
+2020-10-25 22:18:54.661 [main] INFO  mapping.Mapper - -> /cart-api/guest-address
+2020-10-25 22:18:54.661 [main] INFO  mapping.Mapper - -> /order/order-full
+2020-10-25 22:18:54.661 [main] INFO  mapping.Mapper - -> /order/sell-report
+2020-10-25 22:18:54.661 [main] INFO  mapping.Mapper - -> /order/save-payment
+2020-10-25 22:18:54.661 [main] INFO  mapping.Mapper - -> /order
+2020-10-25 22:18:54.661 [main] INFO  mapping.Mapper - -> /cart-api/customer-address
+2020-10-25 22:18:54.661 [main] INFO  mapping.Mapper - -> /cart-api/custom-discount
+2020-10-25 22:18:54.661 [main] INFO  mapping.Mapper - -> /order/print-receipt
+2020-10-25 22:18:54.661 [main] INFO  mapping.Mapper - -> /cart-api/clear-item
+2020-10-25 22:18:54.661 [main] INFO  mapping.Mapper - -> /cart-api/special-req
+2020-10-25 22:18:54.661 [main] INFO  mapping.Mapper - -> /cart-api/payment
+2020-10-25 22:18:54.661 [main] INFO  mapping.Mapper - -> /cart-api
+2020-10-25 22:18:54.661 [main] INFO  mapping.Mapper - -> /order/save-shipping
+2020-10-25 22:18:54.661 [main] INFO  mapping.Mapper - -> /order/detail
+2020-10-25 22:18:54.661 [main] INFO  mapping.Mapper - -> /cart-api/checkout
+2020-10-25 22:18:54.661 [main] INFO  mapping.Mapper - -> /order/print-invoice
+2020-10-25 22:18:54.661 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:18:54.671 [main] INFO  mapping.Mapper - Resource Mapping for /cart-api/shipping:
+2020-10-25 22:18:54.671 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:54.671 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cart-api/shipping
+2020-10-25 22:18:54.671 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:54.671 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:54.672 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:54.672 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:54.672 [main] INFO  mapping.Mapper -       Operation: DELETE path=/cart-api/shipping
+2020-10-25 22:18:54.674 [main] INFO  mapping.Mapper - Resource Mapping for /cart-api/calculate:
+2020-10-25 22:18:54.674 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:54.674 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cart-api/calculate
+2020-10-25 22:18:54.674 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:54.674 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:54.674 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:54.674 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:54.683 [main] INFO  mapping.Mapper - Resource Mapping for /cart-api/product:
+2020-10-25 22:18:54.683 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:54.684 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cart-api/product
+2020-10-25 22:18:54.684 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:54.684 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:54.684 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:18:54.684 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/cart-api/product/{item_code}
+2020-10-25 22:18:54.684 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:54.684 [main] INFO  mapping.Mapper -       Operation: DELETE path=/cart-api/product
+2020-10-25 22:18:54.684 [main] INFO  mapping.Mapper -       Operation: DELETE path=/cart-api/product/{item_code}
+2020-10-25 22:18:54.688 [main] INFO  mapping.Mapper - Resource Mapping for /cart-api/discount:
+2020-10-25 22:18:54.688 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:54.688 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cart-api/discount
+2020-10-25 22:18:54.688 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:54.689 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:54.689 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:54.689 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:54.689 [main] INFO  mapping.Mapper -       Operation: DELETE path=/cart-api/discount
+2020-10-25 22:18:54.694 [main] INFO  mapping.Mapper - Resource Mapping for /order/list:
+2020-10-25 22:18:54.694 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:54.694 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:54.694 [main] INFO  mapping.Mapper -       Operation: READ path=/order/list/{store_id}
+2020-10-25 22:18:54.694 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:54.694 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:54.695 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:54.698 [main] INFO  mapping.Mapper - Resource Mapping for /cart-api/guest-address:
+2020-10-25 22:18:54.698 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:54.698 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cart-api/guest-address
+2020-10-25 22:18:54.698 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:54.698 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:54.698 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:54.698 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:54.698 [main] INFO  mapping.Mapper -       Operation: DELETE path=/cart-api/guest-address
+2020-10-25 22:18:54.700 [main] INFO  mapping.Mapper - Resource Mapping for /order/order-full:
+2020-10-25 22:18:54.700 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:54.700 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:54.701 [main] INFO  mapping.Mapper -       Operation: READ path=/order/order-full/{order_id}
+2020-10-25 22:18:54.701 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:54.701 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:54.701 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:54.702 [main] INFO  mapping.Mapper - Resource Mapping for /order/sell-report:
+2020-10-25 22:18:54.702 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:54.703 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:54.703 [main] INFO  mapping.Mapper -       Operation: READ path=/order/sell-report/{store_id}
+2020-10-25 22:18:54.703 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:54.703 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:54.703 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:54.705 [main] INFO  mapping.Mapper - Resource Mapping for /order/save-payment:
+2020-10-25 22:18:54.705 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:54.705 [main] INFO  mapping.Mapper -       Operation: CREATE path=/order/save-payment
+2020-10-25 22:18:54.705 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:54.705 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:54.705 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:54.705 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:54.707 [main] INFO  mapping.Mapper - Resource Mapping for /order:
+2020-10-25 22:18:54.707 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:54.707 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:54.707 [main] INFO  mapping.Mapper -       Operation: READ path=/order/{order_id}
+2020-10-25 22:18:54.707 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:54.707 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:54.707 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:54.710 [main] INFO  mapping.Mapper - Resource Mapping for /cart-api/customer-address:
+2020-10-25 22:18:54.710 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:54.711 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cart-api/customer-address
+2020-10-25 22:18:54.711 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:54.711 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:54.711 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:54.711 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:54.711 [main] INFO  mapping.Mapper -       Operation: DELETE path=/cart-api/customer-address
+2020-10-25 22:18:54.714 [main] INFO  mapping.Mapper - Resource Mapping for /cart-api/custom-discount:
+2020-10-25 22:18:54.714 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:54.714 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cart-api/custom-discount
+2020-10-25 22:18:54.714 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:54.714 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:54.714 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:54.714 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:54.714 [main] INFO  mapping.Mapper -       Operation: DELETE path=/cart-api/custom-discount
+2020-10-25 22:18:54.716 [main] INFO  mapping.Mapper - Resource Mapping for /order/print-receipt:
+2020-10-25 22:18:54.716 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:54.716 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:54.716 [main] INFO  mapping.Mapper -       Operation: READ path=/order/print-receipt/{order_id}
+2020-10-25 22:18:54.716 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:54.716 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:54.716 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:54.718 [main] INFO  mapping.Mapper - Resource Mapping for /cart-api/clear-item:
+2020-10-25 22:18:54.718 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:54.718 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cart-api/clear-item
+2020-10-25 22:18:54.718 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:54.718 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:54.718 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:54.718 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:54.721 [main] INFO  mapping.Mapper - Resource Mapping for /cart-api/special-req:
+2020-10-25 22:18:54.721 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:54.721 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cart-api/special-req
+2020-10-25 22:18:54.721 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:54.721 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:54.721 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:54.721 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:54.721 [main] INFO  mapping.Mapper -       Operation: DELETE path=/cart-api/special-req
+2020-10-25 22:18:54.724 [main] INFO  mapping.Mapper - Resource Mapping for /cart-api/payment:
+2020-10-25 22:18:54.724 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:54.724 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cart-api/payment
+2020-10-25 22:18:54.724 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:54.724 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:54.724 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:54.724 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:54.724 [main] INFO  mapping.Mapper -       Operation: DELETE path=/cart-api/payment
+2020-10-25 22:18:54.727 [main] INFO  mapping.Mapper - Resource Mapping for /cart-api:
+2020-10-25 22:18:54.727 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:54.727 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cart-api
+2020-10-25 22:18:54.727 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:54.727 [main] INFO  mapping.Mapper -       Operation: READ path=/cart-api/{cart_id}
+2020-10-25 22:18:54.727 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:54.727 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:54.727 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:54.729 [main] INFO  mapping.Mapper - Resource Mapping for /order/save-shipping:
+2020-10-25 22:18:54.740 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:54.740 [main] INFO  mapping.Mapper -       Operation: CREATE path=/order/save-shipping
+2020-10-25 22:18:54.740 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:54.740 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:54.740 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:54.740 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:54.741 [main] INFO  mapping.Mapper - Resource Mapping for /order/detail:
+2020-10-25 22:18:54.742 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:54.742 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:54.742 [main] INFO  mapping.Mapper -       Operation: READ path=/order/detail/{order_id}
+2020-10-25 22:18:54.742 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:54.742 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:54.742 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:54.743 [main] INFO  mapping.Mapper - Resource Mapping for /cart-api/checkout:
+2020-10-25 22:18:54.743 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:54.743 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cart-api/checkout
+2020-10-25 22:18:54.743 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:54.743 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:54.743 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:54.743 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:54.745 [main] INFO  mapping.Mapper - Resource Mapping for /order/print-invoice:
+2020-10-25 22:18:54.745 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:54.745 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:54.745 [main] INFO  mapping.Mapper -       Operation: READ path=/order/print-invoice/{order_id}
+2020-10-25 22:18:54.745 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:54.745 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:54.745 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:54.745 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:18:54.755 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

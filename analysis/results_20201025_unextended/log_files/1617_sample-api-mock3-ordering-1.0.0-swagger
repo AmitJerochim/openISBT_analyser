@@ -1,0 +1,36 @@
+Will overwrite mapping file
+2020-10-25 22:18:45.596 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:18:45.597 [main] INFO  mapping.Mapper - -> /api/j/v1/institutionCode
+2020-10-25 22:18:45.598 [main] INFO  mapping.Mapper - -> /api/j/v1/clinicalLaboratories
+2020-10-25 22:18:45.598 [main] INFO  mapping.Mapper - -> /api/v1/institutionCode
+2020-10-25 22:18:45.598 [main] INFO  mapping.Mapper - -> /api/v1/clinicalLaboratories
+2020-10-25 22:18:45.598 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:18:45.601 [main] INFO  mapping.Mapper - Resource Mapping for /api/j/v1/institutionCode:
+2020-10-25 22:18:45.601 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:45.601 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:45.601 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:45.601 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:45.601 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:45.603 [main] INFO  mapping.Mapper - Resource Mapping for /api/j/v1/clinicalLaboratories:
+2020-10-25 22:18:45.603 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:45.603 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:45.603 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:45.603 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:45.603 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:45.603 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/institutionCode:
+2020-10-25 22:18:45.603 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:45.603 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:45.603 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:45.603 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:45.603 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:45.611 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/clinicalLaboratories:
+2020-10-25 22:18:45.611 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:45.611 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/v1/clinicalLaboratories
+2020-10-25 22:18:45.611 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:45.612 [main] INFO  mapping.Mapper -       Operation: READ path=/api/v1/clinicalLaboratories/{clinicalLaboratoryId}
+2020-10-25 22:18:45.612 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:45.612 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:45.612 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:18:45.612 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/v1/clinicalLaboratories/{clinicalLaboratoryId}
+2020-10-25 22:18:45.612 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:18:45.617 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

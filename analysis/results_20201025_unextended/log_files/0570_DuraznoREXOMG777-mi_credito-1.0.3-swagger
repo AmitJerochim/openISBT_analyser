@@ -1,0 +1,66 @@
+Will overwrite mapping file
+2020-10-25 22:12:20.785 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:12:20.787 [main] INFO  mapping.Mapper - -> /venues
+2020-10-25 22:12:20.787 [main] INFO  mapping.Mapper - -> /users/register
+2020-10-25 22:12:20.787 [main] INFO  mapping.Mapper - -> /catalogs/rates
+2020-10-25 22:12:20.787 [main] INFO  mapping.Mapper - -> /users
+2020-10-25 22:12:20.787 [main] INFO  mapping.Mapper - -> /catalogs/amounts
+2020-10-25 22:12:20.787 [main] INFO  mapping.Mapper - -> /venues/principal
+2020-10-25 22:12:20.787 [main] INFO  mapping.Mapper - -> /catalogs/terms
+2020-10-25 22:12:20.788 [main] INFO  mapping.Mapper - -> /users/login
+2020-10-25 22:12:20.788 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:12:20.796 [main] INFO  mapping.Mapper - Resource Mapping for /venues:
+2020-10-25 22:12:20.797 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:20.797 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:20.797 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:12:20.797 [main] INFO  mapping.Mapper -       Operation: SCAN path=/venues
+2020-10-25 22:12:20.797 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:20.797 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:20.800 [main] INFO  mapping.Mapper - Resource Mapping for /users/register:
+2020-10-25 22:12:20.800 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:12:20.800 [main] INFO  mapping.Mapper -       Operation: CREATE path=/users/register
+2020-10-25 22:12:20.800 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:20.800 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:20.800 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:20.800 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:20.803 [main] INFO  mapping.Mapper - Resource Mapping for /catalogs/rates:
+2020-10-25 22:12:20.803 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:20.803 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:20.803 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:12:20.803 [main] INFO  mapping.Mapper -       Operation: SCAN path=/catalogs/rates
+2020-10-25 22:12:20.803 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:20.803 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:20.803 [main] INFO  mapping.Mapper - Resource Mapping for /users:
+2020-10-25 22:12:20.804 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:20.804 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:20.804 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:20.804 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:20.804 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:20.805 [main] INFO  mapping.Mapper - Resource Mapping for /catalogs/amounts:
+2020-10-25 22:12:20.805 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:20.805 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:20.805 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:20.805 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:20.805 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:20.805 [main] INFO  mapping.Mapper - Resource Mapping for /venues/principal:
+2020-10-25 22:12:20.806 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:20.806 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:20.806 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:20.806 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:20.806 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:20.809 [main] INFO  mapping.Mapper - Resource Mapping for /catalogs/terms:
+2020-10-25 22:12:20.809 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:20.809 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:20.809 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:12:20.809 [main] INFO  mapping.Mapper -       Operation: SCAN path=/catalogs/terms
+2020-10-25 22:12:20.809 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:20.809 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:20.812 [main] INFO  mapping.Mapper - Resource Mapping for /users/login:
+2020-10-25 22:12:20.813 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:12:20.813 [main] INFO  mapping.Mapper -       Operation: CREATE path=/users/login
+2020-10-25 22:12:20.813 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:20.813 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:20.813 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:20.813 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:20.813 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:12:20.818 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

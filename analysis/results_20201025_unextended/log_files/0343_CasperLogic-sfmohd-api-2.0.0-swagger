@@ -1,0 +1,285 @@
+Will overwrite mapping file
+2020-10-25 22:11:02.742 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:11:02.744 [main] INFO  mapping.Mapper - -> /Listing/Units
+2020-10-25 22:11:02.744 [main] INFO  mapping.Mapper - -> /shortForm
+2020-10-25 22:11:02.744 [main] INFO  mapping.Mapper - -> /Listing/Units/
+2020-10-25 22:11:02.744 [main] INFO  mapping.Mapper - -> /Person
+2020-10-25 22:11:02.744 [main] INFO  mapping.Mapper - -> /Listing/LotteryResult/Summary
+2020-10-25 22:11:02.744 [main] INFO  mapping.Mapper - -> /ListingDetails/*
+2020-10-25 22:11:02.744 [main] INFO  mapping.Mapper - -> /agents/
+2020-10-25 22:11:02.744 [main] INFO  mapping.Mapper - -> /Listing/UnitSummary
+2020-10-25 22:11:02.744 [main] INFO  mapping.Mapper - -> /shortForm/
+2020-10-25 22:11:02.744 [main] INFO  mapping.Mapper - -> /shortForm/list
+2020-10-25 22:11:02.744 [main] INFO  mapping.Mapper - -> /shortForm/delete/
+2020-10-25 22:11:02.744 [main] INFO  mapping.Mapper - -> /Person/
+2020-10-25 22:11:02.744 [main] INFO  mapping.Mapper - -> /ami/calc/
+2020-10-25 22:11:02.744 [main] INFO  mapping.Mapper - -> /shortForm/File
+2020-10-25 22:11:02.745 [main] INFO  mapping.Mapper - -> /LotteryPreference
+2020-10-25 22:11:02.745 [main] INFO  mapping.Mapper - -> /ami/charts/
+2020-10-25 22:11:02.745 [main] INFO  mapping.Mapper - -> /ListingDetails/Criteria/
+2020-10-25 22:11:02.745 [main] INFO  mapping.Mapper - -> /shortForm/Attachment
+2020-10-25 22:11:02.745 [main] INFO  mapping.Mapper - -> /Listing/LotteryResult
+2020-10-25 22:11:02.745 [main] INFO  mapping.Mapper - -> /Listing/EligibilityCheck
+2020-10-25 22:11:02.745 [main] INFO  mapping.Mapper - -> /Listing/Preferences
+2020-10-25 22:11:02.745 [main] INFO  mapping.Mapper - -> /LotteryPreference/
+2020-10-25 22:11:02.745 [main] INFO  mapping.Mapper - -> /RentalAssistance
+2020-10-25 22:11:02.745 [main] INFO  mapping.Mapper - -> /shortForm/delete
+2020-10-25 22:11:02.745 [main] INFO  mapping.Mapper - -> /shortForm/Attachment/
+2020-10-25 22:11:02.745 [main] INFO  mapping.Mapper - -> /Listing/LotteryResult/Bucket
+2020-10-25 22:11:02.745 [main] INFO  mapping.Mapper - -> /LotteryMember/*
+2020-10-25 22:11:02.745 [main] INFO  mapping.Mapper - -> /LeasingAgentPortal/shortForm/
+2020-10-25 22:11:02.745 [main] INFO  mapping.Mapper - -> /Listing/*
+2020-10-25 22:11:02.745 [main] INFO  mapping.Mapper - -> /LeasingAgentPortal/shortForm
+2020-10-25 22:11:02.745 [main] INFO  mapping.Mapper - -> /ami/*
+2020-10-25 22:11:02.745 [main] INFO  mapping.Mapper - -> /shortForm/contact/delete
+2020-10-25 22:11:02.745 [main] INFO  mapping.Mapper - -> /LeasingAgentPortal/shortForm/Archive
+2020-10-25 22:11:02.745 [main] INFO  mapping.Mapper - -> /shortForm/File/*
+2020-10-25 22:11:02.745 [main] INFO  mapping.Mapper - -> /Listing/UnitStats
+2020-10-25 22:11:02.746 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:11:02.753 [main] INFO  mapping.Mapper - Resource Mapping for /Listing/Units:
+2020-10-25 22:11:02.753 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.753 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:02.753 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:02.753 [main] INFO  mapping.Mapper -       Operation: SCAN path=/Listing/Units/{listingid}
+2020-10-25 22:11:02.754 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.754 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.756 [main] INFO  mapping.Mapper - Resource Mapping for /shortForm:
+2020-10-25 22:11:02.756 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.756 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:02.756 [main] INFO  mapping.Mapper -       Operation: READ path=/shortForm/{shortFormId}
+2020-10-25 22:11:02.756 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:02.756 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.756 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.758 [main] INFO  mapping.Mapper - Resource Mapping for /Listing/Units/:
+2020-10-25 22:11:02.758 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.758 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:02.758 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:02.758 [main] INFO  mapping.Mapper -       Operation: SCAN path=/Listing/Units/
+2020-10-25 22:11:02.758 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.758 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.760 [main] INFO  mapping.Mapper - Resource Mapping for /Person:
+2020-10-25 22:11:02.760 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.760 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:02.760 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:02.761 [main] INFO  mapping.Mapper -       Operation: SCAN path=/Person/{contactid}
+2020-10-25 22:11:02.761 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.761 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.762 [main] INFO  mapping.Mapper - Resource Mapping for /Listing/LotteryResult/Summary:
+2020-10-25 22:11:02.763 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.763 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:02.763 [main] INFO  mapping.Mapper -       Operation: READ path=/Listing/LotteryResult/Summary/{listingID}
+2020-10-25 22:11:02.763 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:02.763 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.763 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.775 [main] INFO  mapping.Mapper - Resource Mapping for /ListingDetails/*:
+2020-10-25 22:11:02.776 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.776 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:02.776 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:02.776 [main] INFO  mapping.Mapper -       Operation: SCAN path=/ListingDetails/*
+2020-10-25 22:11:02.776 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.776 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.778 [main] INFO  mapping.Mapper - Resource Mapping for /agents/:
+2020-10-25 22:11:02.778 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.778 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:02.778 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:02.778 [main] INFO  mapping.Mapper -       Operation: SCAN path=/agents/
+2020-10-25 22:11:02.778 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.778 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.780 [main] INFO  mapping.Mapper - Resource Mapping for /Listing/UnitSummary:
+2020-10-25 22:11:02.780 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.780 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:02.780 [main] INFO  mapping.Mapper -       Operation: READ path=/Listing/UnitSummary/{listingid}
+2020-10-25 22:11:02.780 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:02.780 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.780 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.781 [main] INFO  mapping.Mapper - Resource Mapping for /shortForm/:
+2020-10-25 22:11:02.782 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:02.782 [main] INFO  mapping.Mapper -       Operation: CREATE path=/shortForm/
+2020-10-25 22:11:02.782 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:02.782 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:02.782 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.782 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.783 [main] INFO  mapping.Mapper - Resource Mapping for /shortForm/list:
+2020-10-25 22:11:02.784 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.784 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:02.784 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:02.784 [main] INFO  mapping.Mapper -       Operation: SCAN path=/shortForm/list/{ContactID}
+2020-10-25 22:11:02.784 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.784 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.786 [main] INFO  mapping.Mapper - Resource Mapping for /shortForm/delete/:
+2020-10-25 22:11:02.786 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:02.786 [main] INFO  mapping.Mapper -       Operation: CREATE path=/shortForm/delete/
+2020-10-25 22:11:02.786 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:02.786 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:02.786 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.786 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.787 [main] INFO  mapping.Mapper - Resource Mapping for /Person/:
+2020-10-25 22:11:02.787 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:02.788 [main] INFO  mapping.Mapper -       Operation: CREATE path=/Person/
+2020-10-25 22:11:02.788 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:02.788 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:02.788 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.788 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.788 [main] INFO  mapping.Mapper - Resource Mapping for /ami/calc/:
+2020-10-25 22:11:02.788 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.788 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:02.788 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:02.788 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.788 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.790 [main] INFO  mapping.Mapper - Resource Mapping for /shortForm/File:
+2020-10-25 22:11:02.790 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.790 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:02.790 [main] INFO  mapping.Mapper -       Operation: READ path=/shortForm/File/{attachmentId}
+2020-10-25 22:11:02.790 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:02.790 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.790 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.792 [main] INFO  mapping.Mapper - Resource Mapping for /LotteryPreference:
+2020-10-25 22:11:02.792 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.792 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:02.792 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:02.792 [main] INFO  mapping.Mapper -       Operation: SCAN path=/LotteryPreference/{id}'
+2020-10-25 22:11:02.792 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.792 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.793 [main] INFO  mapping.Mapper - Resource Mapping for /ami/charts/:
+2020-10-25 22:11:02.793 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.793 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:02.793 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:02.793 [main] INFO  mapping.Mapper -       Operation: SCAN path=/ami/charts/
+2020-10-25 22:11:02.793 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.793 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.795 [main] INFO  mapping.Mapper - Resource Mapping for /ListingDetails/Criteria/:
+2020-10-25 22:11:02.795 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.795 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:02.795 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:02.796 [main] INFO  mapping.Mapper -       Operation: SCAN path=/ListingDetails/Criteria/
+2020-10-25 22:11:02.796 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.796 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.797 [main] INFO  mapping.Mapper - Resource Mapping for /shortForm/Attachment:
+2020-10-25 22:11:02.797 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.797 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:02.797 [main] INFO  mapping.Mapper -       Operation: READ path=/shortForm/Attachment/{FileId}
+2020-10-25 22:11:02.797 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:02.797 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.797 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.799 [main] INFO  mapping.Mapper - Resource Mapping for /Listing/LotteryResult:
+2020-10-25 22:11:02.799 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.799 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:02.799 [main] INFO  mapping.Mapper -       Operation: READ path=/Listing/LotteryResult/{listingID}
+2020-10-25 22:11:02.799 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:02.799 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.799 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.800 [main] INFO  mapping.Mapper - Resource Mapping for /Listing/EligibilityCheck:
+2020-10-25 22:11:02.801 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.801 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:02.801 [main] INFO  mapping.Mapper -       Operation: READ path=/Listing/EligibilityCheck/{listingid}
+2020-10-25 22:11:02.801 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:02.801 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.801 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.802 [main] INFO  mapping.Mapper - Resource Mapping for /Listing/Preferences:
+2020-10-25 22:11:02.803 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.803 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:02.803 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:02.803 [main] INFO  mapping.Mapper -       Operation: SCAN path=/Listing/Preferences/{listingID}
+2020-10-25 22:11:02.803 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.803 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.804 [main] INFO  mapping.Mapper - Resource Mapping for /LotteryPreference/:
+2020-10-25 22:11:02.805 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.805 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:02.805 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:02.805 [main] INFO  mapping.Mapper -       Operation: SCAN path=/LotteryPreference/
+2020-10-25 22:11:02.805 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.805 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.806 [main] INFO  mapping.Mapper - Resource Mapping for /RentalAssistance:
+2020-10-25 22:11:02.806 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.806 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:02.806 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:02.806 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.806 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:11:02.806 [main] INFO  mapping.Mapper -       Operation: DELETE path=/RentalAssistance/{rentalAssistanceId}
+2020-10-25 22:11:02.808 [main] INFO  mapping.Mapper - Resource Mapping for /shortForm/delete:
+2020-10-25 22:11:02.808 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.808 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:02.808 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:02.808 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.808 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:11:02.808 [main] INFO  mapping.Mapper -       Operation: DELETE path=/shortForm/delete/{shortformid}
+2020-10-25 22:11:02.810 [main] INFO  mapping.Mapper - Resource Mapping for /shortForm/Attachment/:
+2020-10-25 22:11:02.810 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:02.810 [main] INFO  mapping.Mapper -       Operation: CREATE path=/shortForm/Attachment/
+2020-10-25 22:11:02.810 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:02.810 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:02.810 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.810 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.811 [main] INFO  mapping.Mapper - Resource Mapping for /Listing/LotteryResult/Bucket:
+2020-10-25 22:11:02.812 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.812 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:02.812 [main] INFO  mapping.Mapper -       Operation: READ path=/Listing/LotteryResult/Bucket/{listingID}
+2020-10-25 22:11:02.812 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:02.812 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.812 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.813 [main] INFO  mapping.Mapper - Resource Mapping for /LotteryMember/*:
+2020-10-25 22:11:02.813 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.813 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:02.813 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:02.813 [main] INFO  mapping.Mapper -       Operation: SCAN path=/LotteryMember/*
+2020-10-25 22:11:02.814 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.814 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.816 [main] INFO  mapping.Mapper - Resource Mapping for /LeasingAgentPortal/shortForm/:
+2020-10-25 22:11:02.816 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:02.816 [main] INFO  mapping.Mapper -       Operation: CREATE path=/LeasingAgentPortal/shortForm/
+2020-10-25 22:11:02.816 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:02.816 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:02.816 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:11:02.816 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/LeasingAgentPortal/shortForm/
+2020-10-25 22:11:02.816 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.818 [main] INFO  mapping.Mapper - Resource Mapping for /Listing/*:
+2020-10-25 22:11:02.818 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.818 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:02.818 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:02.818 [main] INFO  mapping.Mapper -       Operation: SCAN path=/Listing/*
+2020-10-25 22:11:02.818 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.818 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.819 [main] INFO  mapping.Mapper - Resource Mapping for /LeasingAgentPortal/shortForm:
+2020-10-25 22:11:02.819 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.820 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:02.820 [main] INFO  mapping.Mapper -       Operation: READ path=/LeasingAgentPortal/shortForm/{shortFormId}
+2020-10-25 22:11:02.820 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:02.820 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.820 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.822 [main] INFO  mapping.Mapper - Resource Mapping for /ami/*:
+2020-10-25 22:11:02.822 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.822 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:02.822 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:02.822 [main] INFO  mapping.Mapper -       Operation: SCAN path=/ami/*
+2020-10-25 22:11:02.822 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.822 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.823 [main] INFO  mapping.Mapper - Resource Mapping for /shortForm/contact/delete:
+2020-10-25 22:11:02.824 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:02.824 [main] INFO  mapping.Mapper -       Operation: CREATE path=/shortForm/contact/delete
+2020-10-25 22:11:02.824 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:02.824 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:02.824 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.824 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.825 [main] INFO  mapping.Mapper - Resource Mapping for /LeasingAgentPortal/shortForm/Archive:
+2020-10-25 22:11:02.825 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.825 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:02.825 [main] INFO  mapping.Mapper -       Operation: READ path=/LeasingAgentPortal/shortForm/Archive/{snapshotId}
+2020-10-25 22:11:02.825 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:02.825 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.825 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.826 [main] INFO  mapping.Mapper - Resource Mapping for /shortForm/File/*:
+2020-10-25 22:11:02.826 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:02.826 [main] INFO  mapping.Mapper -       Operation: CREATE path=/shortForm/File/*
+2020-10-25 22:11:02.826 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:02.826 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:02.826 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.826 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.827 [main] INFO  mapping.Mapper - Resource Mapping for /Listing/UnitStats:
+2020-10-25 22:11:02.828 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:02.828 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:02.828 [main] INFO  mapping.Mapper -       Operation: READ path=/Listing/UnitStats/{listingid}
+2020-10-25 22:11:02.828 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:02.828 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:02.828 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:02.828 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:11:02.836 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

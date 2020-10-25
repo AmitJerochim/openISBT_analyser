@@ -1,0 +1,23 @@
+Will overwrite mapping file
+2020-10-25 22:14:41.372 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:14:41.374 [main] INFO  mapping.Mapper - -> /users/registration
+2020-10-25 22:14:41.374 [main] INFO  mapping.Mapper - -> /users
+2020-10-25 22:14:41.374 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:14:41.383 [main] INFO  mapping.Mapper - Resource Mapping for /users/registration:
+2020-10-25 22:14:41.383 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:41.383 [main] INFO  mapping.Mapper -       Operation: CREATE path=/users/registration
+2020-10-25 22:14:41.383 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:41.383 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:41.383 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:41.383 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:41.393 [main] INFO  mapping.Mapper - Resource Mapping for /users:
+2020-10-25 22:14:41.393 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:41.393 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:41.393 [main] INFO  mapping.Mapper -       Operation: READ path=/users/{username}
+2020-10-25 22:14:41.393 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:41.393 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:41.393 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/users/{username}
+2020-10-25 22:14:41.393 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:14:41.393 [main] INFO  mapping.Mapper -       Operation: DELETE path=/users/{username}
+2020-10-25 22:14:41.393 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:14:41.397 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

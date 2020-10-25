@@ -1,0 +1,37 @@
+Will overwrite mapping file
+2020-10-25 22:12:58.964 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:12:58.966 [main] INFO  mapping.Mapper - -> /preferences
+2020-10-25 22:12:58.966 [main] INFO  mapping.Mapper - -> /vehicles
+2020-10-25 22:12:58.966 [main] INFO  mapping.Mapper - -> /users
+2020-10-25 22:12:58.966 [main] INFO  mapping.Mapper - -> /ping
+2020-10-25 22:12:58.966 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:12:58.974 [main] INFO  mapping.Mapper - Resource Mapping for /preferences:
+2020-10-25 22:12:58.974 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:58.974 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:58.974 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:58.974 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:12:58.974 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/preferences
+2020-10-25 22:12:58.974 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:58.979 [main] INFO  mapping.Mapper - Resource Mapping for /vehicles:
+2020-10-25 22:12:58.979 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:58.979 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:12:58.979 [main] INFO  mapping.Mapper -       Operation: READ path=/vehicles/{id}
+2020-10-25 22:12:58.979 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:58.979 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:12:58.979 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/vehicles/{id}
+2020-10-25 22:12:58.979 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:58.982 [main] INFO  mapping.Mapper - Resource Mapping for /users:
+2020-10-25 22:12:58.982 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:58.982 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:12:58.982 [main] INFO  mapping.Mapper -       Operation: READ path=/users/{id}
+2020-10-25 22:12:58.982 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:58.982 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:58.982 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:58.983 [main] INFO  mapping.Mapper - Resource Mapping for /ping:
+2020-10-25 22:12:58.983 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:58.983 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:58.983 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:58.983 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:58.983 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:58.983 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:12:58.988 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

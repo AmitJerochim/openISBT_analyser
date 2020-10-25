@@ -1,0 +1,36 @@
+Will overwrite mapping file
+2020-10-25 22:10:38.593 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:10:38.594 [main] INFO  mapping.Mapper - -> /api/feed/moderate
+2020-10-25 22:10:38.594 [main] INFO  mapping.Mapper - -> /api/user/moderator_edit
+2020-10-25 22:10:38.594 [main] INFO  mapping.Mapper - -> /api/user/login
+2020-10-25 22:10:38.594 [main] INFO  mapping.Mapper - -> /api/feed/set_quality
+2020-10-25 22:10:38.595 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:10:38.598 [main] INFO  mapping.Mapper - Resource Mapping for /api/feed/moderate:
+2020-10-25 22:10:38.598 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:38.598 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:38.598 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:38.598 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:38.598 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:38.605 [main] INFO  mapping.Mapper - Resource Mapping for /api/user/moderator_edit:
+2020-10-25 22:10:38.605 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:38.605 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:38.605 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:38.605 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:10:38.605 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/user/moderator_edit
+2020-10-25 22:10:38.605 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:38.609 [main] INFO  mapping.Mapper - Resource Mapping for /api/user/login:
+2020-10-25 22:10:38.609 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:38.609 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/user/login
+2020-10-25 22:10:38.609 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:38.609 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:38.609 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:38.609 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:38.613 [main] INFO  mapping.Mapper - Resource Mapping for /api/feed/set_quality:
+2020-10-25 22:10:38.613 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:38.613 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/feed/set_quality
+2020-10-25 22:10:38.613 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:38.613 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:38.613 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:38.613 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:38.613 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:10:38.618 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

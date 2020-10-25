@@ -1,0 +1,45 @@
+Will overwrite mapping file
+2020-10-25 22:18:14.073 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:18:14.075 [main] INFO  mapping.Mapper - -> /qris/transaction
+2020-10-25 22:18:14.075 [main] INFO  mapping.Mapper - -> /transaction
+2020-10-25 22:18:14.075 [main] INFO  mapping.Mapper - -> /qris
+2020-10-25 22:18:14.075 [main] INFO  mapping.Mapper - -> /merchant
+2020-10-25 22:18:14.075 [main] INFO  mapping.Mapper - -> /gopay
+2020-10-25 22:18:14.075 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:18:14.084 [main] INFO  mapping.Mapper - Resource Mapping for /qris/transaction:
+2020-10-25 22:18:14.084 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:14.084 [main] INFO  mapping.Mapper -       Operation: CREATE path=/qris/transaction
+2020-10-25 22:18:14.084 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:14.084 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:14.084 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:14.084 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:14.087 [main] INFO  mapping.Mapper - Resource Mapping for /transaction:
+2020-10-25 22:18:14.088 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:14.088 [main] INFO  mapping.Mapper -       Operation: CREATE path=/transaction
+2020-10-25 22:18:14.088 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:14.088 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:14.088 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:14.088 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:14.090 [main] INFO  mapping.Mapper - Resource Mapping for /qris:
+2020-10-25 22:18:14.090 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:14.090 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:14.090 [main] INFO  mapping.Mapper -       Operation: READ path=/qris/{tref}
+2020-10-25 22:18:14.090 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:14.090 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:14.090 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:14.092 [main] INFO  mapping.Mapper - Resource Mapping for /merchant:
+2020-10-25 22:18:14.093 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:14.093 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:14.093 [main] INFO  mapping.Mapper -       Operation: READ path=/merchant/{crossReferenceId}
+2020-10-25 22:18:14.093 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:14.093 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:14.093 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:14.095 [main] INFO  mapping.Mapper - Resource Mapping for /gopay:
+2020-10-25 22:18:14.095 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:14.095 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:18:14.095 [main] INFO  mapping.Mapper -       Operation: READ path=/gopay/{tref}
+2020-10-25 22:18:14.095 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:14.095 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:14.095 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:14.095 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:18:14.100 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

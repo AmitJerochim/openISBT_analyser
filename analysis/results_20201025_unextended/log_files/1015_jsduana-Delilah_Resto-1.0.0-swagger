@@ -1,0 +1,90 @@
+Will overwrite mapping file
+2020-10-25 22:15:07.031 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:15:07.033 [main] INFO  mapping.Mapper - -> /orders
+2020-10-25 22:15:07.033 [main] INFO  mapping.Mapper - -> /users
+2020-10-25 22:15:07.033 [main] INFO  mapping.Mapper - -> /products
+2020-10-25 22:15:07.033 [main] INFO  mapping.Mapper - -> /users/admins
+2020-10-25 22:15:07.033 [main] INFO  mapping.Mapper - -> /users/login
+2020-10-25 22:15:07.033 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:15:07.049 [main] INFO  mapping.Mapper - Resource Mapping for /orders:
+2020-10-25 22:15:07.049 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:07.049 [main] INFO  mapping.Mapper -       Operation: CREATE path=/orders
+2020-10-25 22:15:07.049 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:15:07.049 [main] INFO  mapping.Mapper -       Operation: READ path=/orders/{orderId}
+2020-10-25 22:15:07.049 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:15:07.049 [main] INFO  mapping.Mapper -       Operation: SCAN path=/orders
+2020-10-25 22:15:07.049 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:15:07.049 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/orders/{orderId}
+2020-10-25 22:15:07.049 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:15:07.050 [main] INFO  mapping.Mapper -       Operation: DELETE path=/orders/{orderId}
+2020-10-25 22:15:07.057 [main] INFO  mapping.Mapper - Resource Mapping for /users:
+2020-10-25 22:15:07.058 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:07.058 [main] INFO  mapping.Mapper -       Operation: CREATE path=/users
+2020-10-25 22:15:07.058 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:15:07.058 [main] INFO  mapping.Mapper -       Operation: READ path=/users/{userId}
+2020-10-25 22:15:07.058 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:15:07.058 [main] INFO  mapping.Mapper -       Operation: SCAN path=/users
+2020-10-25 22:15:07.058 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:15:07.058 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/users/{userId}
+2020-10-25 22:15:07.058 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:15:07.058 [main] INFO  mapping.Mapper -       Operation: DELETE path=/users/{userId}
+2020-10-25 22:15:07.066 [main] INFO  mapping.Mapper - Resource Mapping for /products:
+2020-10-25 22:15:07.066 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:07.066 [main] INFO  mapping.Mapper -       Operation: CREATE path=/products
+2020-10-25 22:15:07.066 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:15:07.066 [main] INFO  mapping.Mapper -       Operation: READ path=/products/{productId}
+2020-10-25 22:15:07.067 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:15:07.067 [main] INFO  mapping.Mapper -       Operation: SCAN path=/products
+2020-10-25 22:15:07.067 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:15:07.067 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/products/{productId}
+2020-10-25 22:15:07.067 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:15:07.067 [main] INFO  mapping.Mapper -       Operation: DELETE path=/products/{productId}
+2020-10-25 22:15:07.069 [main] INFO  mapping.Mapper - Resource Mapping for /users/admins:
+2020-10-25 22:15:07.069 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:07.069 [main] INFO  mapping.Mapper -       Operation: CREATE path=/users/admins
+2020-10-25 22:15:07.069 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:07.069 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:07.069 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:07.069 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:07.071 [main] INFO  mapping.Mapper - Resource Mapping for /users/login:
+2020-10-25 22:15:07.071 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:07.071 [main] INFO  mapping.Mapper -       Operation: CREATE path=/users/login
+2020-10-25 22:15:07.071 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:07.071 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:07.071 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:07.071 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:07.072 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:15:07.072 [main] INFO  MatchingTool - Resource Mapping for /orders:
+2020-10-25 22:15:07.072 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=7:
+2020-10-25 22:15:07.072 [main] INFO  MatchingTool -       Operation: CREATE path=/orders
+2020-10-25 22:15:07.072 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=7:
+2020-10-25 22:15:07.072 [main] INFO  MatchingTool -       Operation: READ path=/orders/{orderId}
+2020-10-25 22:15:07.072 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=7:
+2020-10-25 22:15:07.072 [main] INFO  MatchingTool -       Operation: SCAN path=/orders
+2020-10-25 22:15:07.072 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=7:
+2020-10-25 22:15:07.072 [main] INFO  MatchingTool -       Operation: UPDATE path=/orders/{orderId}
+2020-10-25 22:15:07.072 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=7:
+2020-10-25 22:15:07.072 [main] INFO  MatchingTool -       Operation: DELETE path=/orders/{orderId}
+2020-10-25 22:15:07.072 [main] INFO  MatchingTool - Resource Mapping for /users:
+2020-10-25 22:15:07.072 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=7:
+2020-10-25 22:15:07.072 [main] INFO  MatchingTool -       Operation: CREATE path=/users
+2020-10-25 22:15:07.072 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=7:
+2020-10-25 22:15:07.072 [main] INFO  MatchingTool -       Operation: READ path=/users/{userId}
+2020-10-25 22:15:07.073 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=7:
+2020-10-25 22:15:07.073 [main] INFO  MatchingTool -       Operation: SCAN path=/users
+2020-10-25 22:15:07.073 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=7:
+2020-10-25 22:15:07.073 [main] INFO  MatchingTool -       Operation: UPDATE path=/users/{userId}
+2020-10-25 22:15:07.073 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=7:
+2020-10-25 22:15:07.073 [main] INFO  MatchingTool -       Operation: DELETE path=/users/{userId}
+2020-10-25 22:15:07.073 [main] INFO  MatchingTool - Resource Mapping for /products:
+2020-10-25 22:15:07.073 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=7:
+2020-10-25 22:15:07.073 [main] INFO  MatchingTool -       Operation: CREATE path=/products
+2020-10-25 22:15:07.073 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=7:
+2020-10-25 22:15:07.073 [main] INFO  MatchingTool -       Operation: READ path=/products/{productId}
+2020-10-25 22:15:07.073 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=7:
+2020-10-25 22:15:07.073 [main] INFO  MatchingTool -       Operation: SCAN path=/products
+2020-10-25 22:15:07.073 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=7:
+2020-10-25 22:15:07.073 [main] INFO  MatchingTool -       Operation: UPDATE path=/products/{productId}
+2020-10-25 22:15:07.073 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=7:
+2020-10-25 22:15:07.073 [main] INFO  MatchingTool -       Operation: DELETE path=/products/{productId}
+2020-10-25 22:15:07.079 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

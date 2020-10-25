@@ -1,0 +1,28 @@
+Will overwrite mapping file
+2020-10-25 22:21:10.365 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:21:10.367 [main] INFO  mapping.Mapper - -> /projects
+2020-10-25 22:21:10.367 [main] INFO  mapping.Mapper - -> /options/assets
+2020-10-25 22:21:10.367 [main] INFO  mapping.Mapper - -> /options/assets/statuses
+2020-10-25 22:21:10.367 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:21:10.370 [main] INFO  mapping.Mapper - Resource Mapping for /projects:
+2020-10-25 22:21:10.370 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:10.370 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:10.370 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:10.370 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:10.370 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:10.376 [main] INFO  mapping.Mapper - Resource Mapping for /options/assets:
+2020-10-25 22:21:10.376 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:10.376 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:10.376 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:21:10.376 [main] INFO  mapping.Mapper -       Operation: SCAN path=/options/assets
+2020-10-25 22:21:10.376 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:10.376 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:10.378 [main] INFO  mapping.Mapper - Resource Mapping for /options/assets/statuses:
+2020-10-25 22:21:10.378 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:10.379 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:10.379 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:21:10.379 [main] INFO  mapping.Mapper -       Operation: SCAN path=/options/assets/statuses
+2020-10-25 22:21:10.379 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:10.379 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:10.379 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:21:10.384 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

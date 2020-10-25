@@ -1,0 +1,47 @@
+Will overwrite mapping file
+2020-10-25 22:21:09.432 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:21:09.433 [main] INFO  mapping.Mapper - -> /marker
+2020-10-25 22:21:09.434 [main] INFO  mapping.Mapper - -> /buoy
+2020-10-25 22:21:09.434 [main] INFO  mapping.Mapper - -> /tags
+2020-10-25 22:21:09.434 [main] INFO  mapping.Mapper - -> /buoys
+2020-10-25 22:21:09.434 [main] INFO  mapping.Mapper - -> /tag
+2020-10-25 22:21:09.434 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:21:09.445 [main] INFO  mapping.Mapper - Resource Mapping for /marker:
+2020-10-25 22:21:09.445 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:21:09.445 [main] INFO  mapping.Mapper -       Operation: CREATE path=/marker
+2020-10-25 22:21:09.446 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:09.446 [main] INFO  mapping.Mapper -       Operation: READ path=/marker/{markerId}
+2020-10-25 22:21:09.446 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:09.446 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:09.446 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:09.452 [main] INFO  mapping.Mapper - Resource Mapping for /buoy:
+2020-10-25 22:21:09.452 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:21:09.452 [main] INFO  mapping.Mapper -       Operation: CREATE path=/buoy
+2020-10-25 22:21:09.452 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:09.452 [main] INFO  mapping.Mapper -       Operation: READ path=/buoy/{buoyId}
+2020-10-25 22:21:09.452 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:09.452 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:09.452 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:09.455 [main] INFO  mapping.Mapper - Resource Mapping for /tags:
+2020-10-25 22:21:09.455 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:09.455 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:09.455 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:21:09.455 [main] INFO  mapping.Mapper -       Operation: SCAN path=/tags
+2020-10-25 22:21:09.455 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:09.455 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:09.460 [main] INFO  mapping.Mapper - Resource Mapping for /buoys:
+2020-10-25 22:21:09.460 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:09.460 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:09.460 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:21:09.461 [main] INFO  mapping.Mapper -       Operation: SCAN path=/buoys
+2020-10-25 22:21:09.461 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:09.461 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:09.463 [main] INFO  mapping.Mapper - Resource Mapping for /tag:
+2020-10-25 22:21:09.463 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:21:09.463 [main] INFO  mapping.Mapper -       Operation: CREATE path=/tag
+2020-10-25 22:21:09.463 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:09.463 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:09.463 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:09.463 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:09.463 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:21:09.469 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

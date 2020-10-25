@@ -1,0 +1,23 @@
+Will overwrite mapping file
+2020-10-25 22:19:47.865 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:19:47.866 [main] INFO  mapping.Mapper - -> /admin/concept
+2020-10-25 22:19:47.867 [main] INFO  mapping.Mapper - -> /admin/concepts
+2020-10-25 22:19:47.867 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:19:47.880 [main] INFO  mapping.Mapper - Resource Mapping for /admin/concept:
+2020-10-25 22:19:47.880 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:47.880 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:19:47.880 [main] INFO  mapping.Mapper -       Operation: READ path=/admin/concept/{conceptId}
+2020-10-25 22:19:47.880 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.880 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:19:47.880 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/admin/concept/{conceptId}
+2020-10-25 22:19:47.880 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:19:47.880 [main] INFO  mapping.Mapper -       Operation: DELETE path=/admin/concept/{conceptId}
+2020-10-25 22:19:47.883 [main] INFO  mapping.Mapper - Resource Mapping for /admin/concepts:
+2020-10-25 22:19:47.884 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:47.884 [main] INFO  mapping.Mapper -       Operation: CREATE path=/admin/concepts
+2020-10-25 22:19:47.884 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:47.884 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:47.884 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:47.884 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:47.884 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:19:47.888 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

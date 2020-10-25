@@ -1,0 +1,67 @@
+Will overwrite mapping file
+2020-10-25 22:13:17.110 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:13:17.112 [main] INFO  mapping.Mapper - -> /Medication/reminder
+2020-10-25 22:13:17.112 [main] INFO  mapping.Mapper - -> /Health/timeline
+2020-10-25 22:13:17.112 [main] INFO  mapping.Mapper - -> /User
+2020-10-25 22:13:17.112 [main] INFO  mapping.Mapper - -> /Device/Unlink
+2020-10-25 22:13:17.112 [main] INFO  mapping.Mapper - -> /Health/BloodPressure
+2020-10-25 22:13:17.112 [main] INFO  mapping.Mapper - -> /Health/BloodGlucose
+2020-10-25 22:13:17.112 [main] INFO  mapping.Mapper - -> /Device/Link
+2020-10-25 22:13:17.112 [main] INFO  mapping.Mapper - -> /Device
+2020-10-25 22:13:17.112 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:13:17.125 [main] INFO  mapping.Mapper - Resource Mapping for /Medication/reminder:
+2020-10-25 22:13:17.125 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:17.126 [main] INFO  mapping.Mapper -       Operation: CREATE path=/Medication/reminder
+2020-10-25 22:13:17.126 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:13:17.126 [main] INFO  mapping.Mapper -       Operation: READ path=/Medication/reminder/{userId}
+2020-10-25 22:13:17.126 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:17.126 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:17.126 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:17.126 [main] INFO  mapping.Mapper - Resource Mapping for /Health/timeline:
+2020-10-25 22:13:17.126 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:17.126 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:17.126 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:17.127 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:17.127 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:17.131 [main] INFO  mapping.Mapper - Resource Mapping for /User:
+2020-10-25 22:13:17.131 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:17.131 [main] INFO  mapping.Mapper -       Operation: CREATE path=/User
+2020-10-25 22:13:17.131 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:17.131 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:17.131 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:17.131 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:17.135 [main] INFO  mapping.Mapper - Resource Mapping for /Device/Unlink:
+2020-10-25 22:13:17.135 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:17.135 [main] INFO  mapping.Mapper -       Operation: CREATE path=/Device/Unlink
+2020-10-25 22:13:17.135 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:17.135 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:17.135 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:17.135 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:17.136 [main] INFO  mapping.Mapper - Resource Mapping for /Health/BloodPressure:
+2020-10-25 22:13:17.136 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:17.136 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:17.136 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:17.136 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:17.136 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:17.136 [main] INFO  mapping.Mapper - Resource Mapping for /Health/BloodGlucose:
+2020-10-25 22:13:17.136 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:17.136 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:17.137 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:17.137 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:17.137 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:17.141 [main] INFO  mapping.Mapper - Resource Mapping for /Device/Link:
+2020-10-25 22:13:17.141 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:17.141 [main] INFO  mapping.Mapper -       Operation: CREATE path=/Device/Link
+2020-10-25 22:13:17.141 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:17.141 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:17.141 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:17.141 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:17.144 [main] INFO  mapping.Mapper - Resource Mapping for /Device:
+2020-10-25 22:13:17.144 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:17.144 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:13:17.144 [main] INFO  mapping.Mapper -       Operation: READ path=/Device/{userId}
+2020-10-25 22:13:17.144 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:17.144 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:17.144 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:17.144 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:13:17.151 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

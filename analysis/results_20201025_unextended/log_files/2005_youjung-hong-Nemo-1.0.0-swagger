@@ -1,0 +1,51 @@
+Will overwrite mapping file
+2020-10-25 22:21:36.583 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:21:36.584 [main] INFO  mapping.Mapper - -> /api/actions
+2020-10-25 22:21:36.584 [main] INFO  mapping.Mapper - -> /api/todos
+2020-10-25 22:21:36.584 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:21:36.602 [main] INFO  mapping.Mapper - Resource Mapping for /api/actions:
+2020-10-25 22:21:36.603 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:21:36.603 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/actions
+2020-10-25 22:21:36.603 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:36.603 [main] INFO  mapping.Mapper -       Operation: READ path=/api/actions/{actionId}
+2020-10-25 22:21:36.603 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:21:36.603 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/actions
+2020-10-25 22:21:36.603 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:21:36.603 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/actions/{actionId}
+2020-10-25 22:21:36.603 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:21:36.603 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/actions/{actionId}
+2020-10-25 22:21:36.614 [main] INFO  mapping.Mapper - Resource Mapping for /api/todos:
+2020-10-25 22:21:36.614 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:21:36.614 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/todos
+2020-10-25 22:21:36.614 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:36.614 [main] INFO  mapping.Mapper -       Operation: READ path=/api/todos/{todoId}
+2020-10-25 22:21:36.614 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:21:36.614 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/todos
+2020-10-25 22:21:36.614 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:21:36.614 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/todos/{todoId}
+2020-10-25 22:21:36.614 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:21:36.615 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/todos/{todoId}
+2020-10-25 22:21:36.615 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:21:36.615 [main] INFO  MatchingTool - Resource Mapping for /api/actions:
+2020-10-25 22:21:36.615 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=10:
+2020-10-25 22:21:36.615 [main] INFO  MatchingTool -       Operation: CREATE path=/api/actions
+2020-10-25 22:21:36.615 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=10:
+2020-10-25 22:21:36.615 [main] INFO  MatchingTool -       Operation: READ path=/api/actions/{actionId}
+2020-10-25 22:21:36.615 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=10:
+2020-10-25 22:21:36.615 [main] INFO  MatchingTool -       Operation: SCAN path=/api/actions
+2020-10-25 22:21:36.615 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=10:
+2020-10-25 22:21:36.615 [main] INFO  MatchingTool -       Operation: UPDATE path=/api/actions/{actionId}
+2020-10-25 22:21:36.615 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=10:
+2020-10-25 22:21:36.615 [main] INFO  MatchingTool -       Operation: DELETE path=/api/actions/{actionId}
+2020-10-25 22:21:36.615 [main] INFO  MatchingTool - Resource Mapping for /api/todos:
+2020-10-25 22:21:36.615 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=10:
+2020-10-25 22:21:36.615 [main] INFO  MatchingTool -       Operation: CREATE path=/api/todos
+2020-10-25 22:21:36.616 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=10:
+2020-10-25 22:21:36.616 [main] INFO  MatchingTool -       Operation: READ path=/api/todos/{todoId}
+2020-10-25 22:21:36.616 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=10:
+2020-10-25 22:21:36.616 [main] INFO  MatchingTool -       Operation: SCAN path=/api/todos
+2020-10-25 22:21:36.616 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=10:
+2020-10-25 22:21:36.616 [main] INFO  MatchingTool -       Operation: UPDATE path=/api/todos/{todoId}
+2020-10-25 22:21:36.616 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=10:
+2020-10-25 22:21:36.616 [main] INFO  MatchingTool -       Operation: DELETE path=/api/todos/{todoId}
+2020-10-25 22:21:36.621 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

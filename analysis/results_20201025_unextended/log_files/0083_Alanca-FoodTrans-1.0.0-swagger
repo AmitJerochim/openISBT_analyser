@@ -1,0 +1,67 @@
+Will overwrite mapping file
+2020-10-25 22:08:54.943 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:08:54.944 [main] INFO  mapping.Mapper - -> /product
+2020-10-25 22:08:54.944 [main] INFO  mapping.Mapper - -> /users
+2020-10-25 22:08:54.944 [main] INFO  mapping.Mapper - -> /products
+2020-10-25 22:08:54.944 [main] INFO  mapping.Mapper - -> /producers
+2020-10-25 22:08:54.944 [main] INFO  mapping.Mapper - -> /reviews
+2020-10-25 22:08:54.944 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:08:54.947 [main] INFO  mapping.Mapper - Resource Mapping for /product:
+2020-10-25 22:08:54.948 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:08:54.948 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:08:54.948 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:54.948 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:54.948 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:54.958 [main] INFO  mapping.Mapper - Resource Mapping for /users:
+2020-10-25 22:08:54.958 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:08:54.959 [main] INFO  mapping.Mapper -       Operation: CREATE path=/users
+2020-10-25 22:08:54.959 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:08:54.959 [main] INFO  mapping.Mapper -       Operation: READ path=/users/{userId}
+2020-10-25 22:08:54.959 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:08:54.959 [main] INFO  mapping.Mapper -       Operation: SCAN path=/users
+2020-10-25 22:08:54.959 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:08:54.959 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/users/{userId}
+2020-10-25 22:08:54.959 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:54.969 [main] INFO  mapping.Mapper - Resource Mapping for /products:
+2020-10-25 22:08:54.969 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:08:54.969 [main] INFO  mapping.Mapper -       Operation: CREATE path=/products
+2020-10-25 22:08:54.969 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:08:54.969 [main] INFO  mapping.Mapper -       Operation: READ path=/products/{productId}
+2020-10-25 22:08:54.969 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:08:54.969 [main] INFO  mapping.Mapper -       Operation: SCAN path=/products
+2020-10-25 22:08:54.969 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:08:54.969 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/products/{productId}
+2020-10-25 22:08:54.969 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/products
+2020-10-25 22:08:54.969 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:08:54.969 [main] INFO  mapping.Mapper -       Operation: DELETE path=/products/{productId}
+2020-10-25 22:08:54.969 [main] INFO  mapping.Mapper -       Operation: DELETE path=/products
+2020-10-25 22:08:54.973 [main] INFO  mapping.Mapper - Resource Mapping for /producers:
+2020-10-25 22:08:54.973 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:08:54.973 [main] INFO  mapping.Mapper -       Operation: CREATE path=/producers
+2020-10-25 22:08:54.973 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:08:54.973 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:08:54.973 [main] INFO  mapping.Mapper -       Operation: SCAN path=/producers
+2020-10-25 22:08:54.973 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:54.973 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:54.975 [main] INFO  mapping.Mapper - Resource Mapping for /reviews:
+2020-10-25 22:08:54.976 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:08:54.976 [main] INFO  mapping.Mapper -       Operation: CREATE path=/reviews
+2020-10-25 22:08:54.976 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:08:54.976 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:54.976 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:54.976 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:54.976 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:08:54.976 [main] INFO  MatchingTool - Resource Mapping for /products:
+2020-10-25 22:08:54.976 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=20:
+2020-10-25 22:08:54.976 [main] INFO  MatchingTool -       Operation: CREATE path=/products
+2020-10-25 22:08:54.976 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=20:
+2020-10-25 22:08:54.976 [main] INFO  MatchingTool -       Operation: READ path=/products/{productId}
+2020-10-25 22:08:54.976 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=20:
+2020-10-25 22:08:54.976 [main] INFO  MatchingTool -       Operation: SCAN path=/products
+2020-10-25 22:08:54.976 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=20:
+2020-10-25 22:08:54.976 [main] INFO  MatchingTool -       Operation: UPDATE path=/products/{productId}
+2020-10-25 22:08:54.976 [main] INFO  MatchingTool -       Operation: UPDATE path=/products
+2020-10-25 22:08:54.977 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=20:
+2020-10-25 22:08:54.977 [main] INFO  MatchingTool -       Operation: DELETE path=/products/{productId}
+2020-10-25 22:08:54.977 [main] INFO  MatchingTool -       Operation: DELETE path=/products
+2020-10-25 22:08:54.982 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

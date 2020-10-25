@@ -1,0 +1,34 @@
+Will overwrite mapping file
+2020-10-25 22:11:54.387 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:11:54.388 [main] INFO  mapping.Mapper - -> /localproject
+2020-10-25 22:11:54.389 [main] INFO  mapping.Mapper - -> /globalproject
+2020-10-25 22:11:54.389 [main] INFO  mapping.Mapper - -> /system
+2020-10-25 22:11:54.389 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:11:54.401 [main] INFO  mapping.Mapper - Resource Mapping for /localproject:
+2020-10-25 22:11:54.401 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:54.402 [main] INFO  mapping.Mapper -       Operation: CREATE path=/localproject
+2020-10-25 22:11:54.402 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:54.402 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:54.402 [main] INFO  mapping.Mapper -       Operation: SCAN path=/localproject
+2020-10-25 22:11:54.402 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:11:54.402 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/localproject
+2020-10-25 22:11:54.402 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:54.409 [main] INFO  mapping.Mapper - Resource Mapping for /globalproject:
+2020-10-25 22:11:54.409 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:54.409 [main] INFO  mapping.Mapper -       Operation: CREATE path=/globalproject
+2020-10-25 22:11:54.409 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:54.409 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:54.409 [main] INFO  mapping.Mapper -       Operation: SCAN path=/globalproject
+2020-10-25 22:11:54.409 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:11:54.409 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/globalproject
+2020-10-25 22:11:54.409 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:54.413 [main] INFO  mapping.Mapper - Resource Mapping for /system:
+2020-10-25 22:11:54.414 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:54.414 [main] INFO  mapping.Mapper -       Operation: CREATE path=/system
+2020-10-25 22:11:54.414 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:54.414 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:54.414 [main] INFO  mapping.Mapper -       Operation: SCAN path=/system
+2020-10-25 22:11:54.414 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:54.414 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:54.414 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:11:54.418 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

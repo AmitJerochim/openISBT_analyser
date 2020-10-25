@@ -1,0 +1,36 @@
+Will overwrite mapping file
+2020-10-25 22:17:10.263 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:17:10.265 [main] INFO  mapping.Mapper - -> /restapi/v1.0/account
+2020-10-25 22:17:10.265 [main] INFO  mapping.Mapper - -> /restapi/v1.0/accounts
+2020-10-25 22:17:10.265 [main] INFO  mapping.Mapper - -> /restapi/v1.0/token
+2020-10-25 22:17:10.265 [main] INFO  mapping.Mapper - -> /restapi
+2020-10-25 22:17:10.265 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:17:10.270 [main] INFO  mapping.Mapper - Resource Mapping for /restapi/v1.0/account:
+2020-10-25 22:17:10.270 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:10.271 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:10.271 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:10.271 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:10.271 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:10.272 [main] INFO  mapping.Mapper - Resource Mapping for /restapi/v1.0/accounts:
+2020-10-25 22:17:10.272 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:10.272 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:10.272 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:10.272 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:10.272 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:10.279 [main] INFO  mapping.Mapper - Resource Mapping for /restapi/v1.0/token:
+2020-10-25 22:17:10.280 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:10.280 [main] INFO  mapping.Mapper -       Operation: CREATE path=/restapi/v1.0/token
+2020-10-25 22:17:10.280 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:10.280 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:10.280 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:10.280 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:17:10.280 [main] INFO  mapping.Mapper -       Operation: DELETE path=/restapi/v1.0/token
+2020-10-25 22:17:10.283 [main] INFO  mapping.Mapper - Resource Mapping for /restapi:
+2020-10-25 22:17:10.284 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:10.284 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:17:10.284 [main] INFO  mapping.Mapper -       Operation: READ path=/restapi/{apiVersion}
+2020-10-25 22:17:10.284 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:10.284 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:10.284 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:10.284 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:17:10.290 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,105 @@
+Will overwrite mapping file
+2020-10-25 22:11:25.531 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:11:25.532 [main] INFO  mapping.Mapper - -> /clients
+2020-10-25 22:11:25.532 [main] INFO  mapping.Mapper - -> /settings
+2020-10-25 22:11:25.532 [main] INFO  mapping.Mapper - -> /projects
+2020-10-25 22:11:25.532 [main] INFO  mapping.Mapper - -> /client-groups
+2020-10-25 22:11:25.532 [main] INFO  mapping.Mapper - -> /users
+2020-10-25 22:11:25.532 [main] INFO  mapping.Mapper - -> /feedback-clients
+2020-10-25 22:11:25.532 [main] INFO  mapping.Mapper - -> /chat-messages
+2020-10-25 22:11:25.532 [main] INFO  mapping.Mapper - -> /chat-contacts
+2020-10-25 22:11:25.532 [main] INFO  mapping.Mapper - -> /friends
+2020-10-25 22:11:25.533 [main] INFO  mapping.Mapper - -> /clients/consultant
+2020-10-25 22:11:25.533 [main] INFO  mapping.Mapper - -> /friends/request
+2020-10-25 22:11:25.533 [main] INFO  mapping.Mapper - -> /friends/code
+2020-10-25 22:11:25.533 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:11:25.540 [main] INFO  mapping.Mapper - Resource Mapping for /clients:
+2020-10-25 22:11:25.540 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:25.540 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:25.540 [main] INFO  mapping.Mapper -       Operation: READ path=/clients/{client_id}
+2020-10-25 22:11:25.540 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:25.540 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:25.540 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:25.545 [main] INFO  mapping.Mapper - Resource Mapping for /settings:
+2020-10-25 22:11:25.546 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:25.546 [main] INFO  mapping.Mapper -       Operation: CREATE path=/settings
+2020-10-25 22:11:25.546 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:25.546 [main] INFO  mapping.Mapper -       Operation: READ path=/settings/{setting_id}
+2020-10-25 22:11:25.546 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:25.546 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:11:25.546 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/settings/{setting_id}
+2020-10-25 22:11:25.546 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:25.548 [main] INFO  mapping.Mapper - Resource Mapping for /projects:
+2020-10-25 22:11:25.548 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:25.548 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:25.548 [main] INFO  mapping.Mapper -       Operation: READ path=/projects/{project_id}
+2020-10-25 22:11:25.548 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:25.548 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:25.549 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:25.554 [main] INFO  mapping.Mapper - Resource Mapping for /client-groups:
+2020-10-25 22:11:25.554 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:25.554 [main] INFO  mapping.Mapper -       Operation: CREATE path=/client-groups
+2020-10-25 22:11:25.554 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:25.554 [main] INFO  mapping.Mapper -       Operation: READ path=/client-groups/{client_group_id}
+2020-10-25 22:11:25.555 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:25.555 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:11:25.555 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/client-groups/{client_group_id}
+2020-10-25 22:11:25.555 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:11:25.555 [main] INFO  mapping.Mapper -       Operation: DELETE path=/client-groups/{client_group_id}
+2020-10-25 22:11:25.556 [main] INFO  mapping.Mapper - Resource Mapping for /users:
+2020-10-25 22:11:25.557 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:25.557 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:25.557 [main] INFO  mapping.Mapper -       Operation: READ path=/users/{user_id}
+2020-10-25 22:11:25.557 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:25.557 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:25.557 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:25.559 [main] INFO  mapping.Mapper - Resource Mapping for /feedback-clients:
+2020-10-25 22:11:25.559 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:25.559 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:25.559 [main] INFO  mapping.Mapper -       Operation: READ path=/feedback-clients/{feedback_client_id}
+2020-10-25 22:11:25.559 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:25.559 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:25.559 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:25.562 [main] INFO  mapping.Mapper - Resource Mapping for /chat-messages:
+2020-10-25 22:11:25.563 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:25.563 [main] INFO  mapping.Mapper -       Operation: CREATE path=/chat-messages
+2020-10-25 22:11:25.563 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:25.563 [main] INFO  mapping.Mapper -       Operation: READ path=/chat-messages/{chat_message_id}
+2020-10-25 22:11:25.563 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:25.563 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:25.563 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:11:25.563 [main] INFO  mapping.Mapper -       Operation: DELETE path=/chat-messages/{chat_message_id}
+2020-10-25 22:11:25.565 [main] INFO  mapping.Mapper - Resource Mapping for /chat-contacts:
+2020-10-25 22:11:25.565 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:25.565 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:25.565 [main] INFO  mapping.Mapper -       Operation: READ path=/chat-contacts/{chat_contact_id}
+2020-10-25 22:11:25.565 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:25.565 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:25.565 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:25.565 [main] INFO  mapping.Mapper - Resource Mapping for /friends:
+2020-10-25 22:11:25.565 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:25.565 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:25.565 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:25.565 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:25.566 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:25.566 [main] INFO  mapping.Mapper - Resource Mapping for /clients/consultant:
+2020-10-25 22:11:25.566 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:25.566 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:25.566 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:25.566 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:25.566 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:25.568 [main] INFO  mapping.Mapper - Resource Mapping for /friends/request:
+2020-10-25 22:11:25.568 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:25.568 [main] INFO  mapping.Mapper -       Operation: CREATE path=/friends/request
+2020-10-25 22:11:25.568 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:25.568 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:25.568 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:25.568 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:25.569 [main] INFO  mapping.Mapper - Resource Mapping for /friends/code:
+2020-10-25 22:11:25.569 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:25.569 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:25.569 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:25.569 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:25.569 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:25.569 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:11:25.575 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

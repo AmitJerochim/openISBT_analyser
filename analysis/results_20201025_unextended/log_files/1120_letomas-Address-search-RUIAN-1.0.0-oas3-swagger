@@ -1,0 +1,59 @@
+Will overwrite mapping file
+2020-10-25 22:15:42.832 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:15:42.834 [main] INFO  mapping.Mapper - -> /addresses
+2020-10-25 22:15:42.834 [main] INFO  mapping.Mapper - -> /suggestions/district
+2020-10-25 22:15:42.834 [main] INFO  mapping.Mapper - -> /suggestions/city
+2020-10-25 22:15:42.834 [main] INFO  mapping.Mapper - -> /suggestions/houseNumber
+2020-10-25 22:15:42.834 [main] INFO  mapping.Mapper - -> /suggestions/street
+2020-10-25 22:15:42.834 [main] INFO  mapping.Mapper - -> /addresses/search
+2020-10-25 22:15:42.834 [main] INFO  mapping.Mapper - -> /addresses/nearby
+2020-10-25 22:15:42.834 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:15:42.842 [main] INFO  mapping.Mapper - Resource Mapping for /addresses:
+2020-10-25 22:15:42.842 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:42.842 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:15:42.842 [main] INFO  mapping.Mapper -       Operation: READ path=/addresses/{admCode}
+2020-10-25 22:15:42.842 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:42.842 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:42.842 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:42.846 [main] INFO  mapping.Mapper - Resource Mapping for /suggestions/district:
+2020-10-25 22:15:42.846 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:42.846 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:42.846 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:15:42.846 [main] INFO  mapping.Mapper -       Operation: SCAN path=/suggestions/district
+2020-10-25 22:15:42.846 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:42.846 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:42.849 [main] INFO  mapping.Mapper - Resource Mapping for /suggestions/city:
+2020-10-25 22:15:42.849 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:42.849 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:42.849 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:15:42.849 [main] INFO  mapping.Mapper -       Operation: SCAN path=/suggestions/city
+2020-10-25 22:15:42.849 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:42.849 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:42.853 [main] INFO  mapping.Mapper - Resource Mapping for /suggestions/houseNumber:
+2020-10-25 22:15:42.853 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:42.853 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:42.853 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:15:42.853 [main] INFO  mapping.Mapper -       Operation: SCAN path=/suggestions/houseNumber
+2020-10-25 22:15:42.853 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:42.853 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:42.856 [main] INFO  mapping.Mapper - Resource Mapping for /suggestions/street:
+2020-10-25 22:15:42.857 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:42.857 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:42.857 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:15:42.857 [main] INFO  mapping.Mapper -       Operation: SCAN path=/suggestions/street
+2020-10-25 22:15:42.857 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:42.857 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:42.857 [main] INFO  mapping.Mapper - Resource Mapping for /addresses/search:
+2020-10-25 22:15:42.857 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:42.857 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:42.857 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:42.857 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:42.857 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:42.858 [main] INFO  mapping.Mapper - Resource Mapping for /addresses/nearby:
+2020-10-25 22:15:42.858 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:42.858 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:42.858 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:42.858 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:42.858 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:42.858 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:15:42.864 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

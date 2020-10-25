@@ -1,0 +1,37 @@
+Will overwrite mapping file
+2020-10-25 22:20:47.718 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:20:47.720 [main] INFO  mapping.Mapper - -> /boletos/nosso-numero
+2020-10-25 22:20:47.720 [main] INFO  mapping.Mapper - -> /boletos
+2020-10-25 22:20:47.720 [main] INFO  mapping.Mapper - -> /boletos/seu-numero
+2020-10-25 22:20:47.720 [main] INFO  mapping.Mapper - -> /boletos/cpf-cnpj
+2020-10-25 22:20:47.720 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:20:47.728 [main] INFO  mapping.Mapper - Resource Mapping for /boletos/nosso-numero:
+2020-10-25 22:20:47.728 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:20:47.728 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:20:47.728 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:20:47.728 [main] INFO  mapping.Mapper -       Operation: SCAN path=/boletos/nosso-numero
+2020-10-25 22:20:47.728 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:20:47.728 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:20:47.734 [main] INFO  mapping.Mapper - Resource Mapping for /boletos:
+2020-10-25 22:20:47.735 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:20:47.735 [main] INFO  mapping.Mapper -       Operation: CREATE path=/boletos
+2020-10-25 22:20:47.735 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:20:47.735 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:20:47.735 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:20:47.735 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:20:47.738 [main] INFO  mapping.Mapper - Resource Mapping for /boletos/seu-numero:
+2020-10-25 22:20:47.738 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:20:47.738 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:20:47.738 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:20:47.738 [main] INFO  mapping.Mapper -       Operation: SCAN path=/boletos/seu-numero
+2020-10-25 22:20:47.738 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:20:47.738 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:20:47.741 [main] INFO  mapping.Mapper - Resource Mapping for /boletos/cpf-cnpj:
+2020-10-25 22:20:47.742 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:20:47.742 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:20:47.742 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:20:47.742 [main] INFO  mapping.Mapper -       Operation: SCAN path=/boletos/cpf-cnpj
+2020-10-25 22:20:47.742 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:20:47.742 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:20:47.742 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:20:47.747 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,369 @@
+Will overwrite mapping file
+2020-10-25 22:11:27.343 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:11:27.344 [main] INFO  mapping.Mapper - -> /vis
+2020-10-25 22:11:27.344 [main] INFO  mapping.Mapper - -> /auth/password-reset-confirm
+2020-10-25 22:11:27.345 [main] INFO  mapping.Mapper - -> /reports/aml
+2020-10-25 22:11:27.345 [main] INFO  mapping.Mapper - -> /reports/aml/indicators
+2020-10-25 22:11:27.345 [main] INFO  mapping.Mapper - -> /blockchains/block-height/BTC
+2020-10-25 22:11:27.345 [main] INFO  mapping.Mapper - -> /auth/email-change-confirm
+2020-10-25 22:11:27.345 [main] INFO  mapping.Mapper - -> /panels/nm/members/join
+2020-10-25 22:11:27.345 [main] INFO  mapping.Mapper - -> /reports/aml/transaction-history
+2020-10-25 22:11:27.345 [main] INFO  mapping.Mapper - -> /users/me
+2020-10-25 22:11:27.345 [main] INFO  mapping.Mapper - -> /panels/nm/reported_addresses
+2020-10-25 22:11:27.345 [main] INFO  mapping.Mapper - -> /panels/monitoring/wallet/addresses
+2020-10-25 22:11:27.345 [main] INFO  mapping.Mapper - -> /reports/aml/basic
+2020-10-25 22:11:27.345 [main] INFO  mapping.Mapper - -> /panels/monitoring/wallet/settings
+2020-10-25 22:11:27.345 [main] INFO  mapping.Mapper - -> /auth/password-reset
+2020-10-25 22:11:27.345 [main] INFO  mapping.Mapper - -> /auth/register
+2020-10-25 22:11:27.345 [main] INFO  mapping.Mapper - -> /panels/nm/own_address
+2020-10-25 22:11:27.345 [main] INFO  mapping.Mapper - -> /panels/monitoring/wallet/notifications
+2020-10-25 22:11:27.345 [main] INFO  mapping.Mapper - -> /auth/login
+2020-10-25 22:11:27.345 [main] INFO  mapping.Mapper - -> /panels/monitoring/addresses
+2020-10-25 22:11:27.345 [main] INFO  mapping.Mapper - -> /reports/aml/standard
+2020-10-25 22:11:27.345 [main] INFO  mapping.Mapper - -> /users/me/reports
+2020-10-25 22:11:27.345 [main] INFO  mapping.Mapper - -> /auth/email-change
+2020-10-25 22:11:27.345 [main] INFO  mapping.Mapper - -> /panels/monitoring/transactions
+2020-10-25 22:11:27.345 [main] INFO  mapping.Mapper - -> /reports/aml/enhanced
+2020-10-25 22:11:27.346 [main] INFO  mapping.Mapper - -> /users/me/packages
+2020-10-25 22:11:27.346 [main] INFO  mapping.Mapper - -> /panels/nm/reported_address_file
+2020-10-25 22:11:27.346 [main] INFO  mapping.Mapper - -> /organizations/orders
+2020-10-25 22:11:27.346 [main] INFO  mapping.Mapper - -> /organizations/users
+2020-10-25 22:11:27.346 [main] INFO  mapping.Mapper - -> /panels/nm/own_addresses
+2020-10-25 22:11:27.346 [main] INFO  mapping.Mapper - -> /panels/nm/buyamlt
+2020-10-25 22:11:27.346 [main] INFO  mapping.Mapper - -> /blockchains/block-height/ETH
+2020-10-25 22:11:27.346 [main] INFO  mapping.Mapper - -> /reports/aml/full
+2020-10-25 22:11:27.346 [main] INFO  mapping.Mapper - -> /panels/monitoring/wallet/notifications/read
+2020-10-25 22:11:27.346 [main] INFO  mapping.Mapper - -> /organizations/orders/license
+2020-10-25 22:11:27.346 [main] INFO  mapping.Mapper - -> /auth/resend-verification-email
+2020-10-25 22:11:27.346 [main] INFO  mapping.Mapper - -> /users/me/password
+2020-10-25 22:11:27.346 [main] INFO  mapping.Mapper - -> /users/me/subscriptions
+2020-10-25 22:11:27.346 [main] INFO  mapping.Mapper - -> /users/me/amlt-balance
+2020-10-25 22:11:27.346 [main] INFO  mapping.Mapper - -> /reports/financial
+2020-10-25 22:11:27.346 [main] INFO  mapping.Mapper - -> /users/me/transactions
+2020-10-25 22:11:27.346 [main] INFO  mapping.Mapper - -> /panels/nm/reported_address
+2020-10-25 22:11:27.346 [main] INFO  mapping.Mapper - -> /panels/nm/status
+2020-10-25 22:11:27.346 [main] INFO  mapping.Mapper - -> /auth/user-confirm
+2020-10-25 22:11:27.346 [main] INFO  mapping.Mapper - -> /users/me/avatar
+2020-10-25 22:11:27.346 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:11:27.356 [main] INFO  mapping.Mapper - Resource Mapping for /vis:
+2020-10-25 22:11:27.356 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.356 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:27.356 [main] INFO  mapping.Mapper -       Operation: READ path=/vis/{address}
+2020-10-25 22:11:27.356 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.356 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.356 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.359 [main] INFO  mapping.Mapper - Resource Mapping for /auth/password-reset-confirm:
+2020-10-25 22:11:27.360 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:27.360 [main] INFO  mapping.Mapper -       Operation: CREATE path=/auth/password-reset-confirm
+2020-10-25 22:11:27.360 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.360 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.360 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.360 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.364 [main] INFO  mapping.Mapper - Resource Mapping for /reports/aml:
+2020-10-25 22:11:27.364 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.364 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:27.364 [main] INFO  mapping.Mapper -       Operation: READ path=/reports/aml/{report_id}
+2020-10-25 22:11:27.364 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.364 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.364 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.367 [main] INFO  mapping.Mapper - Resource Mapping for /reports/aml/indicators:
+2020-10-25 22:11:27.367 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.367 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.367 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:27.367 [main] INFO  mapping.Mapper -       Operation: SCAN path=/reports/aml/indicators/{report_id}
+2020-10-25 22:11:27.367 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.367 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.368 [main] INFO  mapping.Mapper - Resource Mapping for /blockchains/block-height/BTC:
+2020-10-25 22:11:27.368 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.368 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.368 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.368 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.368 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.370 [main] INFO  mapping.Mapper - Resource Mapping for /auth/email-change-confirm:
+2020-10-25 22:11:27.371 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:27.371 [main] INFO  mapping.Mapper -       Operation: CREATE path=/auth/email-change-confirm
+2020-10-25 22:11:27.371 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.371 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.371 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.371 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.373 [main] INFO  mapping.Mapper - Resource Mapping for /panels/nm/members/join:
+2020-10-25 22:11:27.373 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:27.373 [main] INFO  mapping.Mapper -       Operation: CREATE path=/panels/nm/members/join
+2020-10-25 22:11:27.373 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.374 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.374 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.374 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.376 [main] INFO  mapping.Mapper - Resource Mapping for /reports/aml/transaction-history:
+2020-10-25 22:11:27.377 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.377 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:27.377 [main] INFO  mapping.Mapper -       Operation: READ path=/reports/aml/transaction-history/{report_id}
+2020-10-25 22:11:27.377 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.377 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.377 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.381 [main] INFO  mapping.Mapper - Resource Mapping for /users/me:
+2020-10-25 22:11:27.381 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.381 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.381 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.381 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:11:27.381 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/users/me
+2020-10-25 22:11:27.381 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:11:27.381 [main] INFO  mapping.Mapper -       Operation: DELETE path=/users/me
+2020-10-25 22:11:27.383 [main] INFO  mapping.Mapper - Resource Mapping for /panels/nm/reported_addresses:
+2020-10-25 22:11:27.383 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.383 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.383 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:27.383 [main] INFO  mapping.Mapper -       Operation: SCAN path=/panels/nm/reported_addresses
+2020-10-25 22:11:27.383 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.383 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.392 [main] INFO  mapping.Mapper - Resource Mapping for /panels/monitoring/wallet/addresses:
+2020-10-25 22:11:27.392 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:27.392 [main] INFO  mapping.Mapper -       Operation: CREATE path=/panels/monitoring/wallet/addresses
+2020-10-25 22:11:27.392 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:27.393 [main] INFO  mapping.Mapper -       Operation: READ path=/panels/monitoring/wallet/addresses/{address}
+2020-10-25 22:11:27.393 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:27.393 [main] INFO  mapping.Mapper -       Operation: SCAN path=/panels/monitoring/wallet/addresses
+2020-10-25 22:11:27.393 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:11:27.393 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/panels/monitoring/wallet/addresses/{address}
+2020-10-25 22:11:27.393 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:11:27.393 [main] INFO  mapping.Mapper -       Operation: DELETE path=/panels/monitoring/wallet/addresses/{address}
+2020-10-25 22:11:27.395 [main] INFO  mapping.Mapper - Resource Mapping for /reports/aml/basic:
+2020-10-25 22:11:27.395 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.395 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:27.395 [main] INFO  mapping.Mapper -       Operation: READ path=/reports/aml/basic/{address}
+2020-10-25 22:11:27.395 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.395 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.395 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.399 [main] INFO  mapping.Mapper - Resource Mapping for /panels/monitoring/wallet/settings:
+2020-10-25 22:11:27.399 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:27.399 [main] INFO  mapping.Mapper -       Operation: CREATE path=/panels/monitoring/wallet/settings
+2020-10-25 22:11:27.399 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.399 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:27.399 [main] INFO  mapping.Mapper -       Operation: SCAN path=/panels/monitoring/wallet/settings
+2020-10-25 22:11:27.399 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.399 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.401 [main] INFO  mapping.Mapper - Resource Mapping for /auth/password-reset:
+2020-10-25 22:11:27.401 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:27.401 [main] INFO  mapping.Mapper -       Operation: CREATE path=/auth/password-reset
+2020-10-25 22:11:27.401 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.402 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.402 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.402 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.404 [main] INFO  mapping.Mapper - Resource Mapping for /auth/register:
+2020-10-25 22:11:27.404 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:27.404 [main] INFO  mapping.Mapper -       Operation: CREATE path=/auth/register
+2020-10-25 22:11:27.404 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.404 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.404 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.404 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.406 [main] INFO  mapping.Mapper - Resource Mapping for /panels/nm/own_address:
+2020-10-25 22:11:27.407 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:27.407 [main] INFO  mapping.Mapper -       Operation: CREATE path=/panels/nm/own_address
+2020-10-25 22:11:27.407 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.407 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.407 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.407 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.409 [main] INFO  mapping.Mapper - Resource Mapping for /panels/monitoring/wallet/notifications:
+2020-10-25 22:11:27.409 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.409 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.409 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:27.409 [main] INFO  mapping.Mapper -       Operation: SCAN path=/panels/monitoring/wallet/notifications
+2020-10-25 22:11:27.409 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.409 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.411 [main] INFO  mapping.Mapper - Resource Mapping for /auth/login:
+2020-10-25 22:11:27.411 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:27.411 [main] INFO  mapping.Mapper -       Operation: CREATE path=/auth/login
+2020-10-25 22:11:27.411 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.411 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.411 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.411 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.412 [main] INFO  mapping.Mapper - Resource Mapping for /panels/monitoring/addresses:
+2020-10-25 22:11:27.412 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.412 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.412 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.412 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.412 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.414 [main] INFO  mapping.Mapper - Resource Mapping for /reports/aml/standard:
+2020-10-25 22:11:27.414 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.415 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:27.415 [main] INFO  mapping.Mapper -       Operation: READ path=/reports/aml/standard/{address}
+2020-10-25 22:11:27.415 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.415 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.415 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.416 [main] INFO  mapping.Mapper - Resource Mapping for /users/me/reports:
+2020-10-25 22:11:27.416 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.416 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.417 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:27.417 [main] INFO  mapping.Mapper -       Operation: SCAN path=/users/me/reports
+2020-10-25 22:11:27.417 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.417 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.418 [main] INFO  mapping.Mapper - Resource Mapping for /auth/email-change:
+2020-10-25 22:11:27.419 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:27.419 [main] INFO  mapping.Mapper -       Operation: CREATE path=/auth/email-change
+2020-10-25 22:11:27.419 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.419 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.419 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.419 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.421 [main] INFO  mapping.Mapper - Resource Mapping for /panels/monitoring/transactions:
+2020-10-25 22:11:27.421 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.421 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.421 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:27.421 [main] INFO  mapping.Mapper -       Operation: SCAN path=/panels/monitoring/transactions
+2020-10-25 22:11:27.421 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.421 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.424 [main] INFO  mapping.Mapper - Resource Mapping for /reports/aml/enhanced:
+2020-10-25 22:11:27.424 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.424 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:27.425 [main] INFO  mapping.Mapper -       Operation: READ path=/reports/aml/enhanced/{address}
+2020-10-25 22:11:27.425 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.425 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.425 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.425 [main] INFO  mapping.Mapper - Resource Mapping for /users/me/packages:
+2020-10-25 22:11:27.425 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.425 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.425 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.425 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.425 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.427 [main] INFO  mapping.Mapper - Resource Mapping for /panels/nm/reported_address_file:
+2020-10-25 22:11:27.427 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.427 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:27.427 [main] INFO  mapping.Mapper -       Operation: READ path=/panels/nm/reported_address_file/{hash}
+2020-10-25 22:11:27.427 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.427 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.427 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.429 [main] INFO  mapping.Mapper - Resource Mapping for /organizations/orders:
+2020-10-25 22:11:27.430 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.430 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:27.430 [main] INFO  mapping.Mapper -       Operation: READ path=/organizations/orders/{order_uuid}
+2020-10-25 22:11:27.430 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:27.430 [main] INFO  mapping.Mapper -       Operation: SCAN path=/organizations/orders
+2020-10-25 22:11:27.430 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.430 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.432 [main] INFO  mapping.Mapper - Resource Mapping for /organizations/users:
+2020-10-25 22:11:27.432 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:27.432 [main] INFO  mapping.Mapper -       Operation: CREATE path=/organizations/users
+2020-10-25 22:11:27.432 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.432 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:27.432 [main] INFO  mapping.Mapper -       Operation: SCAN path=/organizations/users
+2020-10-25 22:11:27.432 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.432 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.433 [main] INFO  mapping.Mapper - Resource Mapping for /panels/nm/own_addresses:
+2020-10-25 22:11:27.433 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.433 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.433 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.433 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.433 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.442 [main] INFO  mapping.Mapper - Resource Mapping for /panels/nm/buyamlt:
+2020-10-25 22:11:27.442 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:27.442 [main] INFO  mapping.Mapper -       Operation: CREATE path=/panels/nm/buyamlt
+2020-10-25 22:11:27.442 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.442 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.442 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.442 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.443 [main] INFO  mapping.Mapper - Resource Mapping for /blockchains/block-height/ETH:
+2020-10-25 22:11:27.443 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.443 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.443 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.443 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.443 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.445 [main] INFO  mapping.Mapper - Resource Mapping for /reports/aml/full:
+2020-10-25 22:11:27.445 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.445 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:27.445 [main] INFO  mapping.Mapper -       Operation: READ path=/reports/aml/full/{address}
+2020-10-25 22:11:27.445 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.446 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.446 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.447 [main] INFO  mapping.Mapper - Resource Mapping for /panels/monitoring/wallet/notifications/read:
+2020-10-25 22:11:27.447 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:27.447 [main] INFO  mapping.Mapper -       Operation: CREATE path=/panels/monitoring/wallet/notifications/read
+2020-10-25 22:11:27.447 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.448 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.448 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.448 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.449 [main] INFO  mapping.Mapper - Resource Mapping for /organizations/orders/license:
+2020-10-25 22:11:27.449 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:27.449 [main] INFO  mapping.Mapper -       Operation: CREATE path=/organizations/orders/license
+2020-10-25 22:11:27.449 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.449 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.449 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.449 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.450 [main] INFO  mapping.Mapper - Resource Mapping for /auth/resend-verification-email:
+2020-10-25 22:11:27.451 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:27.451 [main] INFO  mapping.Mapper -       Operation: CREATE path=/auth/resend-verification-email
+2020-10-25 22:11:27.451 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.451 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.451 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.451 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.452 [main] INFO  mapping.Mapper - Resource Mapping for /users/me/password:
+2020-10-25 22:11:27.452 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.453 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.453 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.453 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:11:27.453 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/users/me/password
+2020-10-25 22:11:27.453 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.453 [main] INFO  mapping.Mapper - Resource Mapping for /users/me/subscriptions:
+2020-10-25 22:11:27.453 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.453 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.453 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.453 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.453 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.453 [main] INFO  mapping.Mapper - Resource Mapping for /users/me/amlt-balance:
+2020-10-25 22:11:27.453 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.453 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.453 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.453 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.453 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.455 [main] INFO  mapping.Mapper - Resource Mapping for /reports/financial:
+2020-10-25 22:11:27.455 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.455 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.455 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:27.455 [main] INFO  mapping.Mapper -       Operation: SCAN path=/reports/financial/{address}
+2020-10-25 22:11:27.455 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.456 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.457 [main] INFO  mapping.Mapper - Resource Mapping for /users/me/transactions:
+2020-10-25 22:11:27.457 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.457 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.457 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:27.457 [main] INFO  mapping.Mapper -       Operation: SCAN path=/users/me/transactions
+2020-10-25 22:11:27.457 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.457 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.461 [main] INFO  mapping.Mapper - Resource Mapping for /panels/nm/reported_address:
+2020-10-25 22:11:27.461 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:27.461 [main] INFO  mapping.Mapper -       Operation: CREATE path=/panels/nm/reported_address
+2020-10-25 22:11:27.461 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:27.461 [main] INFO  mapping.Mapper -       Operation: READ path=/panels/nm/reported_address/{address}
+2020-10-25 22:11:27.461 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.461 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.461 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.461 [main] INFO  mapping.Mapper - Resource Mapping for /panels/nm/status:
+2020-10-25 22:11:27.461 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.461 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.461 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.461 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.461 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.463 [main] INFO  mapping.Mapper - Resource Mapping for /auth/user-confirm:
+2020-10-25 22:11:27.463 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:27.463 [main] INFO  mapping.Mapper -       Operation: CREATE path=/auth/user-confirm
+2020-10-25 22:11:27.463 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.463 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.463 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:27.463 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.465 [main] INFO  mapping.Mapper - Resource Mapping for /users/me/avatar:
+2020-10-25 22:11:27.465 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:27.465 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:27.465 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:27.465 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:11:27.465 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/users/me/avatar
+2020-10-25 22:11:27.465 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:27.466 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:11:27.466 [main] INFO  MatchingTool - Resource Mapping for /panels/monitoring/wallet/addresses:
+2020-10-25 22:11:27.466 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=20:
+2020-10-25 22:11:27.466 [main] INFO  MatchingTool -       Operation: CREATE path=/panels/monitoring/wallet/addresses
+2020-10-25 22:11:27.466 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=20:
+2020-10-25 22:11:27.466 [main] INFO  MatchingTool -       Operation: READ path=/panels/monitoring/wallet/addresses/{address}
+2020-10-25 22:11:27.466 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=20:
+2020-10-25 22:11:27.466 [main] INFO  MatchingTool -       Operation: SCAN path=/panels/monitoring/wallet/addresses
+2020-10-25 22:11:27.466 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=20:
+2020-10-25 22:11:27.466 [main] INFO  MatchingTool -       Operation: UPDATE path=/panels/monitoring/wallet/addresses/{address}
+2020-10-25 22:11:27.466 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=20:
+2020-10-25 22:11:27.466 [main] INFO  MatchingTool -       Operation: DELETE path=/panels/monitoring/wallet/addresses/{address}
+2020-10-25 22:11:27.474 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

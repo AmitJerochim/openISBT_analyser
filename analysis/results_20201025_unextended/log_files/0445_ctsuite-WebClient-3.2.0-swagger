@@ -1,0 +1,64 @@
+Will overwrite mapping file
+2020-10-25 22:11:40.417 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:11:40.419 [main] INFO  mapping.Mapper - -> /telephony/callduration
+2020-10-25 22:11:40.419 [main] INFO  mapping.Mapper - -> /telephony/makecall
+2020-10-25 22:11:40.419 [main] INFO  mapping.Mapper - -> /telephony/clicktodialflag/update
+2020-10-25 22:11:40.419 [main] INFO  mapping.Mapper - -> /telephony/sourcemarketing
+2020-10-25 22:11:40.419 [main] INFO  mapping.Mapper - -> /telephony/device/makecall
+2020-10-25 22:11:40.419 [main] INFO  mapping.Mapper - -> /paymentintegration/status
+2020-10-25 22:11:40.419 [main] INFO  mapping.Mapper - -> /telephony/makecall/update
+2020-10-25 22:11:40.419 [main] INFO  mapping.Mapper - -> /telephony/clicktodialflag
+2020-10-25 22:11:40.419 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:11:40.422 [main] INFO  mapping.Mapper - Resource Mapping for /telephony/callduration:
+2020-10-25 22:11:40.422 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:40.422 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:40.422 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:40.422 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:40.422 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:40.423 [main] INFO  mapping.Mapper - Resource Mapping for /telephony/makecall:
+2020-10-25 22:11:40.423 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:40.423 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:40.423 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:40.423 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:40.423 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:40.423 [main] INFO  mapping.Mapper - Resource Mapping for /telephony/clicktodialflag/update:
+2020-10-25 22:11:40.423 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:40.423 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:40.423 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:40.423 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:40.423 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:40.427 [main] INFO  mapping.Mapper - Resource Mapping for /telephony/sourcemarketing:
+2020-10-25 22:11:40.427 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:40.427 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:40.427 [main] INFO  mapping.Mapper -       Operation: READ path=/telephony/sourcemarketing/{username}
+2020-10-25 22:11:40.427 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:40.427 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:40.427 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:40.427 [main] INFO  mapping.Mapper - Resource Mapping for /telephony/device/makecall:
+2020-10-25 22:11:40.427 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:40.427 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:40.428 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:40.428 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:40.428 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:40.431 [main] INFO  mapping.Mapper - Resource Mapping for /paymentintegration/status:
+2020-10-25 22:11:40.432 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:40.432 [main] INFO  mapping.Mapper -       Operation: CREATE path=/paymentintegration/status
+2020-10-25 22:11:40.432 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:40.432 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:40.432 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:40.432 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:40.432 [main] INFO  mapping.Mapper - Resource Mapping for /telephony/makecall/update:
+2020-10-25 22:11:40.432 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:40.432 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:40.432 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:40.432 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:40.432 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:40.434 [main] INFO  mapping.Mapper - Resource Mapping for /telephony/clicktodialflag:
+2020-10-25 22:11:40.434 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:40.434 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:40.434 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:40.434 [main] INFO  mapping.Mapper -       Operation: SCAN path=/telephony/clicktodialflag/{username}
+2020-10-25 22:11:40.434 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:40.434 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:40.434 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:11:40.440 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

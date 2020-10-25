@@ -1,0 +1,24 @@
+Will overwrite mapping file
+2020-10-25 22:15:19.482 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:15:19.484 [main] INFO  mapping.Mapper - -> /account/images
+2020-10-25 22:15:19.484 [main] INFO  mapping.Mapper - -> /images
+2020-10-25 22:15:19.484 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:15:19.498 [main] INFO  mapping.Mapper - Resource Mapping for /account/images:
+2020-10-25 22:15:19.499 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:19.499 [main] INFO  mapping.Mapper -       Operation: CREATE path=/account/images
+2020-10-25 22:15:19.499 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:15:19.499 [main] INFO  mapping.Mapper -       Operation: READ path=/account/images/{external_id}
+2020-10-25 22:15:19.499 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:19.499 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:19.499 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:19.506 [main] INFO  mapping.Mapper - Resource Mapping for /images:
+2020-10-25 22:15:19.506 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:19.506 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:15:19.506 [main] INFO  mapping.Mapper -       Operation: READ path=/images/{id}
+2020-10-25 22:15:19.506 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:19.506 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:15:19.506 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/images/{id}
+2020-10-25 22:15:19.506 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:15:19.506 [main] INFO  mapping.Mapper -       Operation: DELETE path=/images/{id}
+2020-10-25 22:15:19.506 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:15:19.511 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,60 @@
+Will overwrite mapping file
+2020-10-25 22:13:54.304 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:13:54.306 [main] INFO  mapping.Mapper - -> /api/thinkific/enroll
+2020-10-25 22:13:54.306 [main] INFO  mapping.Mapper - -> /api/shopify/orders
+2020-10-25 22:13:54.306 [main] INFO  mapping.Mapper - -> /api/logs
+2020-10-25 22:13:54.306 [main] INFO  mapping.Mapper - -> /api/prices
+2020-10-25 22:13:54.306 [main] INFO  mapping.Mapper - -> /api/sales
+2020-10-25 22:13:54.306 [main] INFO  mapping.Mapper - -> /api/paywall
+2020-10-25 22:13:54.306 [main] INFO  mapping.Mapper - -> /api/provinces
+2020-10-25 22:13:54.306 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:13:54.314 [main] INFO  mapping.Mapper - Resource Mapping for /api/thinkific/enroll:
+2020-10-25 22:13:54.314 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:54.314 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/thinkific/enroll
+2020-10-25 22:13:54.314 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:54.315 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:54.315 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:54.315 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:54.319 [main] INFO  mapping.Mapper - Resource Mapping for /api/shopify/orders:
+2020-10-25 22:13:54.319 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:54.319 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/shopify/orders
+2020-10-25 22:13:54.319 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:54.319 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:54.320 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:54.320 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:54.323 [main] INFO  mapping.Mapper - Resource Mapping for /api/logs:
+2020-10-25 22:13:54.323 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:54.323 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/logs
+2020-10-25 22:13:54.323 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:54.323 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:54.323 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:54.323 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:54.326 [main] INFO  mapping.Mapper - Resource Mapping for /api/prices:
+2020-10-25 22:13:54.326 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:54.326 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:54.326 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:13:54.326 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/prices
+2020-10-25 22:13:54.326 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:54.326 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:54.327 [main] INFO  mapping.Mapper - Resource Mapping for /api/sales:
+2020-10-25 22:13:54.327 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:54.327 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:54.327 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:54.327 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:54.327 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:54.331 [main] INFO  mapping.Mapper - Resource Mapping for /api/paywall:
+2020-10-25 22:13:54.331 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:54.331 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/paywall
+2020-10-25 22:13:54.331 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:54.331 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:54.331 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:54.331 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:54.333 [main] INFO  mapping.Mapper - Resource Mapping for /api/provinces:
+2020-10-25 22:13:54.334 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:54.334 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:54.334 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:13:54.334 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/provinces
+2020-10-25 22:13:54.334 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:54.334 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:54.334 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:13:54.339 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

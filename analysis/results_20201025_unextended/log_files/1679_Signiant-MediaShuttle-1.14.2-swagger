@@ -1,0 +1,29 @@
+Will overwrite mapping file
+2020-10-25 22:19:08.017 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:19:08.019 [main] INFO  mapping.Mapper - -> /portals
+2020-10-25 22:19:08.019 [main] INFO  mapping.Mapper - -> /transfers
+2020-10-25 22:19:08.019 [main] INFO  mapping.Mapper - -> /storage
+2020-10-25 22:19:08.019 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:19:08.029 [main] INFO  mapping.Mapper - Resource Mapping for /portals:
+2020-10-25 22:19:08.030 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:08.030 [main] INFO  mapping.Mapper -       Operation: CREATE path=/portals
+2020-10-25 22:19:08.030 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:08.030 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:08.030 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:08.030 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:08.031 [main] INFO  mapping.Mapper - Resource Mapping for /transfers:
+2020-10-25 22:19:08.031 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:08.031 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:08.032 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:08.032 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:08.032 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:08.040 [main] INFO  mapping.Mapper - Resource Mapping for /storage:
+2020-10-25 22:19:08.040 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:08.040 [main] INFO  mapping.Mapper -       Operation: CREATE path=/storage
+2020-10-25 22:19:08.040 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:19:08.040 [main] INFO  mapping.Mapper -       Operation: READ path=/storage/{storageId}
+2020-10-25 22:19:08.041 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:08.041 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:08.041 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:08.041 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:19:08.047 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

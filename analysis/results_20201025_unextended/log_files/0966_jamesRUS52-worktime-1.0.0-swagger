@@ -1,0 +1,70 @@
+Will overwrite mapping file
+2020-10-25 22:14:47.723 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:14:47.725 [main] INFO  mapping.Mapper - -> /calendar/neartime
+2020-10-25 22:14:47.725 [main] INFO  mapping.Mapper - -> /calendar
+2020-10-25 22:14:47.725 [main] INFO  mapping.Mapper - -> /calendar/workdays
+2020-10-25 22:14:47.725 [main] INFO  mapping.Mapper - -> /calendar/list
+2020-10-25 22:14:47.725 [main] INFO  mapping.Mapper - -> /config
+2020-10-25 22:14:47.725 [main] INFO  mapping.Mapper - -> /calendar/worktimes
+2020-10-25 22:14:47.725 [main] INFO  mapping.Mapper - -> /calendar/datetime
+2020-10-25 22:14:47.725 [main] INFO  mapping.Mapper - -> /sla
+2020-10-25 22:14:47.725 [main] INFO  mapping.Mapper - -> /calendar/date
+2020-10-25 22:14:47.725 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:14:47.729 [main] INFO  mapping.Mapper - Resource Mapping for /calendar/neartime:
+2020-10-25 22:14:47.729 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:47.729 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:47.729 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:47.729 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:47.729 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:47.729 [main] INFO  mapping.Mapper - Resource Mapping for /calendar:
+2020-10-25 22:14:47.729 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:47.729 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:47.729 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:47.730 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:47.730 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:47.730 [main] INFO  mapping.Mapper - Resource Mapping for /calendar/workdays:
+2020-10-25 22:14:47.730 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:47.730 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:47.730 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:47.730 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:47.730 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:47.731 [main] INFO  mapping.Mapper - Resource Mapping for /calendar/list:
+2020-10-25 22:14:47.731 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:47.731 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:47.731 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:47.731 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:47.731 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:47.741 [main] INFO  mapping.Mapper - Resource Mapping for /config:
+2020-10-25 22:14:47.742 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:47.742 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:47.742 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:47.742 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:47.742 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/config
+2020-10-25 22:14:47.742 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:14:47.742 [main] INFO  mapping.Mapper -       Operation: DELETE path=/config
+2020-10-25 22:14:47.743 [main] INFO  mapping.Mapper - Resource Mapping for /calendar/worktimes:
+2020-10-25 22:14:47.743 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:47.743 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:47.743 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:47.743 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:47.743 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:47.744 [main] INFO  mapping.Mapper - Resource Mapping for /calendar/datetime:
+2020-10-25 22:14:47.744 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:47.744 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:47.744 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:47.744 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:47.744 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:47.744 [main] INFO  mapping.Mapper - Resource Mapping for /sla:
+2020-10-25 22:14:47.744 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:47.744 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:47.744 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:47.744 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:47.744 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:47.745 [main] INFO  mapping.Mapper - Resource Mapping for /calendar/date:
+2020-10-25 22:14:47.745 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:47.745 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:47.745 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:47.745 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:47.745 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:47.745 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:14:47.751 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

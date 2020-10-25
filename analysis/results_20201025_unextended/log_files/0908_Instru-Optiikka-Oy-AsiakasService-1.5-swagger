@@ -1,0 +1,220 @@
+Will overwrite mapping file
+2020-10-25 22:14:27.806 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:14:27.808 [main] INFO  mapping.Mapper - -> /SICurrentUser
+2020-10-25 22:14:27.808 [main] INFO  mapping.Mapper - -> /SITapaht/GetttTapaht
+2020-10-25 22:14:27.808 [main] INFO  mapping.Mapper - -> /SISukupuoli/SubmitSISukupuoli
+2020-10-25 22:14:27.808 [main] INFO  mapping.Mapper - -> /SIAsiakasSP/GetttAsiakas
+2020-10-25 22:14:27.808 [main] INFO  mapping.Mapper - -> /SITapaht
+2020-10-25 22:14:27.808 [main] INFO  mapping.Mapper - -> /Lausunto/SubmitLausunto
+2020-10-25 22:14:27.808 [main] INFO  mapping.Mapper - -> /SITilausvaihe
+2020-10-25 22:14:27.808 [main] INFO  mapping.Mapper - -> /SITapaht/SubmitSITapaht
+2020-10-25 22:14:27.808 [main] INFO  mapping.Mapper - -> /SIMyymalaList
+2020-10-25 22:14:27.808 [main] INFO  mapping.Mapper - -> /SIKielikoodi
+2020-10-25 22:14:27.809 [main] INFO  mapping.Mapper - -> /UserContext/GetRoles
+2020-10-25 22:14:27.809 [main] INFO  mapping.Mapper - -> /SIPostinroList/SubmitSIPostinroList
+2020-10-25 22:14:27.809 [main] INFO  mapping.Mapper - -> /SIMyymalaList/count
+2020-10-25 22:14:27.809 [main] INFO  mapping.Mapper - -> /SISukupuoli
+2020-10-25 22:14:27.809 [main] INFO  mapping.Mapper - -> /SIPostinroList
+2020-10-25 22:14:27.809 [main] INFO  mapping.Mapper - -> /SIAsiakasSP
+2020-10-25 22:14:27.809 [main] INFO  mapping.Mapper - -> /SIAuditdata
+2020-10-25 22:14:27.809 [main] INFO  mapping.Mapper - -> /SITilausvaihe/count
+2020-10-25 22:14:27.809 [main] INFO  mapping.Mapper - -> /SIMaakoodi
+2020-10-25 22:14:27.809 [main] INFO  mapping.Mapper - -> /Lausunto
+2020-10-25 22:14:27.809 [main] INFO  mapping.Mapper - -> /SIAuditdata/count
+2020-10-25 22:14:27.809 [main] INFO  mapping.Mapper - -> /UserContext
+2020-10-25 22:14:27.809 [main] INFO  mapping.Mapper - -> /SITilausvaihe/SubmitSITilausvaihe
+2020-10-25 22:14:27.809 [main] INFO  mapping.Mapper - -> /SIPostinroList/count
+2020-10-25 22:14:27.809 [main] INFO  mapping.Mapper - -> /SITapaht/count
+2020-10-25 22:14:27.809 [main] INFO  mapping.Mapper - -> /SIAsiakasSP/count
+2020-10-25 22:14:27.809 [main] INFO  mapping.Mapper - -> /SIAsiakasSP/SubmitSIAsiakas
+2020-10-25 22:14:27.809 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:14:27.814 [main] INFO  mapping.Mapper - Resource Mapping for /SICurrentUser:
+2020-10-25 22:14:27.814 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:27.814 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.814 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.814 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:27.814 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.819 [main] INFO  mapping.Mapper - Resource Mapping for /SITapaht/GetttTapaht:
+2020-10-25 22:14:27.819 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:27.819 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.819 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.819 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:27.819 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/SITapaht/GetttTapaht
+2020-10-25 22:14:27.819 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.822 [main] INFO  mapping.Mapper - Resource Mapping for /SISukupuoli/SubmitSISukupuoli:
+2020-10-25 22:14:27.822 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:27.822 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.822 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.822 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:27.822 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/SISukupuoli/SubmitSISukupuoli
+2020-10-25 22:14:27.822 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.825 [main] INFO  mapping.Mapper - Resource Mapping for /SIAsiakasSP/GetttAsiakas:
+2020-10-25 22:14:27.825 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:27.825 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.825 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.825 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:27.825 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/SIAsiakasSP/GetttAsiakas
+2020-10-25 22:14:27.825 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.833 [main] INFO  mapping.Mapper - Resource Mapping for /SITapaht:
+2020-10-25 22:14:27.833 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:27.833 [main] INFO  mapping.Mapper -       Operation: CREATE path=/SITapaht
+2020-10-25 22:14:27.833 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.833 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.833 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:27.833 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/SITapaht
+2020-10-25 22:14:27.833 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.836 [main] INFO  mapping.Mapper - Resource Mapping for /Lausunto/SubmitLausunto:
+2020-10-25 22:14:27.836 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:27.836 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.836 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.836 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:27.836 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/Lausunto/SubmitLausunto
+2020-10-25 22:14:27.836 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.843 [main] INFO  mapping.Mapper - Resource Mapping for /SITilausvaihe:
+2020-10-25 22:14:27.843 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:27.843 [main] INFO  mapping.Mapper -       Operation: CREATE path=/SITilausvaihe
+2020-10-25 22:14:27.843 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.843 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.843 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:27.843 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/SITilausvaihe
+2020-10-25 22:14:27.843 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.845 [main] INFO  mapping.Mapper - Resource Mapping for /SITapaht/SubmitSITapaht:
+2020-10-25 22:14:27.845 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:27.845 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.845 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.845 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:27.845 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/SITapaht/SubmitSITapaht
+2020-10-25 22:14:27.845 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.846 [main] INFO  mapping.Mapper - Resource Mapping for /SIMyymalaList:
+2020-10-25 22:14:27.846 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:27.846 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.846 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.846 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:27.846 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.847 [main] INFO  mapping.Mapper - Resource Mapping for /SIKielikoodi:
+2020-10-25 22:14:27.847 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:27.847 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.847 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.847 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:27.847 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.849 [main] INFO  mapping.Mapper - Resource Mapping for /UserContext/GetRoles:
+2020-10-25 22:14:27.849 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:27.849 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.849 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.849 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:27.849 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/UserContext/GetRoles
+2020-10-25 22:14:27.849 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.851 [main] INFO  mapping.Mapper - Resource Mapping for /SIPostinroList/SubmitSIPostinroList:
+2020-10-25 22:14:27.852 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:27.852 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.852 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.852 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:27.852 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/SIPostinroList/SubmitSIPostinroList
+2020-10-25 22:14:27.852 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.854 [main] INFO  mapping.Mapper - Resource Mapping for /SIMyymalaList/count:
+2020-10-25 22:14:27.854 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:27.854 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.854 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.854 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:27.854 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/SIMyymalaList/count
+2020-10-25 22:14:27.854 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.855 [main] INFO  mapping.Mapper - Resource Mapping for /SISukupuoli:
+2020-10-25 22:14:27.855 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:27.855 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.855 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.855 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:27.855 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.861 [main] INFO  mapping.Mapper - Resource Mapping for /SIPostinroList:
+2020-10-25 22:14:27.861 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:27.861 [main] INFO  mapping.Mapper -       Operation: CREATE path=/SIPostinroList
+2020-10-25 22:14:27.861 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.861 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.861 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:27.862 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/SIPostinroList
+2020-10-25 22:14:27.862 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.867 [main] INFO  mapping.Mapper - Resource Mapping for /SIAsiakasSP:
+2020-10-25 22:14:27.868 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:27.868 [main] INFO  mapping.Mapper -       Operation: CREATE path=/SIAsiakasSP
+2020-10-25 22:14:27.868 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.868 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.868 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:27.868 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/SIAsiakasSP
+2020-10-25 22:14:27.868 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.870 [main] INFO  mapping.Mapper - Resource Mapping for /SIAuditdata:
+2020-10-25 22:14:27.871 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:27.871 [main] INFO  mapping.Mapper -       Operation: CREATE path=/SIAuditdata
+2020-10-25 22:14:27.871 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.871 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.871 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:27.871 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.873 [main] INFO  mapping.Mapper - Resource Mapping for /SITilausvaihe/count:
+2020-10-25 22:14:27.873 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:27.873 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.873 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.873 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:27.873 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/SITilausvaihe/count
+2020-10-25 22:14:27.873 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.873 [main] INFO  mapping.Mapper - Resource Mapping for /SIMaakoodi:
+2020-10-25 22:14:27.873 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:27.873 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.873 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.873 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:27.873 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.878 [main] INFO  mapping.Mapper - Resource Mapping for /Lausunto:
+2020-10-25 22:14:27.878 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:27.878 [main] INFO  mapping.Mapper -       Operation: CREATE path=/Lausunto
+2020-10-25 22:14:27.878 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.878 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.878 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:27.878 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/Lausunto
+2020-10-25 22:14:27.878 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.889 [main] INFO  mapping.Mapper - Resource Mapping for /SIAuditdata/count:
+2020-10-25 22:14:27.890 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:27.890 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.890 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.890 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:27.890 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/SIAuditdata/count
+2020-10-25 22:14:27.890 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.890 [main] INFO  mapping.Mapper - Resource Mapping for /UserContext:
+2020-10-25 22:14:27.890 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:27.890 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.890 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.890 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:27.890 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.891 [main] INFO  mapping.Mapper - Resource Mapping for /SITilausvaihe/SubmitSITilausvaihe:
+2020-10-25 22:14:27.892 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:27.892 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.892 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.892 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:27.892 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/SITilausvaihe/SubmitSITilausvaihe
+2020-10-25 22:14:27.892 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.893 [main] INFO  mapping.Mapper - Resource Mapping for /SIPostinroList/count:
+2020-10-25 22:14:27.893 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:27.893 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.894 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.894 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:27.894 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/SIPostinroList/count
+2020-10-25 22:14:27.894 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.895 [main] INFO  mapping.Mapper - Resource Mapping for /SITapaht/count:
+2020-10-25 22:14:27.895 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:27.895 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.895 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.895 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:27.895 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/SITapaht/count
+2020-10-25 22:14:27.895 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.897 [main] INFO  mapping.Mapper - Resource Mapping for /SIAsiakasSP/count:
+2020-10-25 22:14:27.897 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:27.897 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.897 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.897 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:27.897 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/SIAsiakasSP/count
+2020-10-25 22:14:27.897 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.898 [main] INFO  mapping.Mapper - Resource Mapping for /SIAsiakasSP/SubmitSIAsiakas:
+2020-10-25 22:14:27.898 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:27.898 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:27.898 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:27.898 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:27.898 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/SIAsiakasSP/SubmitSIAsiakas
+2020-10-25 22:14:27.898 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:27.898 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:14:27.906 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

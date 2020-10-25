@@ -1,0 +1,46 @@
+Will overwrite mapping file
+2020-10-25 22:09:11.950 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:09:11.952 [main] INFO  mapping.Mapper - -> /server/server-overview
+2020-10-25 22:09:11.952 [main] INFO  mapping.Mapper - -> /server
+2020-10-25 22:09:11.952 [main] INFO  mapping.Mapper - -> /server/remove-project
+2020-10-25 22:09:11.952 [main] INFO  mapping.Mapper - -> /server/add-project
+2020-10-25 22:09:11.952 [main] INFO  mapping.Mapper - -> /server/new-server
+2020-10-25 22:09:11.952 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:09:11.959 [main] INFO  mapping.Mapper - Resource Mapping for /server/server-overview:
+2020-10-25 22:09:11.959 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:11.959 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:09:11.959 [main] INFO  mapping.Mapper -       Operation: READ path=/server/server-overview/{serverId}
+2020-10-25 22:09:11.960 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:11.960 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:11.960 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:11.964 [main] INFO  mapping.Mapper - Resource Mapping for /server:
+2020-10-25 22:09:11.964 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:09:11.964 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:11.964 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:09:11.964 [main] INFO  mapping.Mapper -       Operation: SCAN path=/server/{search}
+2020-10-25 22:09:11.964 [main] INFO  mapping.Mapper -       Operation: SCAN path=/server
+2020-10-25 22:09:11.964 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:11.964 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:11.968 [main] INFO  mapping.Mapper - Resource Mapping for /server/remove-project:
+2020-10-25 22:09:11.968 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:11.968 [main] INFO  mapping.Mapper -       Operation: CREATE path=/server/remove-project
+2020-10-25 22:09:11.968 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:11.968 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:11.968 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:11.968 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:11.971 [main] INFO  mapping.Mapper - Resource Mapping for /server/add-project:
+2020-10-25 22:09:11.971 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:11.971 [main] INFO  mapping.Mapper -       Operation: CREATE path=/server/add-project
+2020-10-25 22:09:11.971 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:11.971 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:11.971 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:11.971 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:11.974 [main] INFO  mapping.Mapper - Resource Mapping for /server/new-server:
+2020-10-25 22:09:11.975 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:09:11.975 [main] INFO  mapping.Mapper -       Operation: CREATE path=/server/new-server
+2020-10-25 22:09:11.975 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:09:11.975 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:09:11.975 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:09:11.975 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:09:11.975 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:09:11.980 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

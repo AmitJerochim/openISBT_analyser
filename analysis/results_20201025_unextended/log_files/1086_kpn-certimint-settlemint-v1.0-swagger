@@ -1,0 +1,104 @@
+Will overwrite mapping file
+2020-10-25 22:15:30.698 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:15:30.700 [main] INFO  mapping.Mapper - -> /seal/list
+2020-10-25 22:15:30.700 [main] INFO  mapping.Mapper - -> /seal/file
+2020-10-25 22:15:30.700 [main] INFO  mapping.Mapper - -> /users/authenticate
+2020-10-25 22:15:30.700 [main] INFO  mapping.Mapper - -> /activity/list
+2020-10-25 22:15:30.700 [main] INFO  mapping.Mapper - -> /seal
+2020-10-25 22:15:30.700 [main] INFO  mapping.Mapper - -> /subscription
+2020-10-25 22:15:30.700 [main] INFO  mapping.Mapper - -> /subscription/statistics
+2020-10-25 22:15:30.700 [main] INFO  mapping.Mapper - -> /seal/hash
+2020-10-25 22:15:30.700 [main] INFO  mapping.Mapper - -> /seal/string
+2020-10-25 22:15:30.700 [main] INFO  mapping.Mapper - -> /seal/sign-invite
+2020-10-25 22:15:30.700 [main] INFO  mapping.Mapper - -> /seal/validate-status
+2020-10-25 22:15:30.700 [main] INFO  mapping.Mapper - -> /subscription/usage
+2020-10-25 22:15:30.700 [main] INFO  mapping.Mapper - -> /seal/validate
+2020-10-25 22:15:30.700 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:15:30.705 [main] INFO  mapping.Mapper - Resource Mapping for /seal/list:
+2020-10-25 22:15:30.705 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:30.705 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:30.705 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:30.705 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:30.705 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:30.710 [main] INFO  mapping.Mapper - Resource Mapping for /seal/file:
+2020-10-25 22:15:30.710 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:30.710 [main] INFO  mapping.Mapper -       Operation: CREATE path=/seal/file
+2020-10-25 22:15:30.710 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:30.710 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:30.710 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:30.710 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:30.711 [main] INFO  mapping.Mapper - Resource Mapping for /users/authenticate:
+2020-10-25 22:15:30.711 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:30.711 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:30.711 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:30.711 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:30.711 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:30.712 [main] INFO  mapping.Mapper - Resource Mapping for /activity/list:
+2020-10-25 22:15:30.712 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:30.712 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:30.712 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:30.712 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:30.712 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:30.714 [main] INFO  mapping.Mapper - Resource Mapping for /seal:
+2020-10-25 22:15:30.714 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:30.714 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:15:30.714 [main] INFO  mapping.Mapper -       Operation: READ path=/seal/{id}
+2020-10-25 22:15:30.715 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:30.715 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:30.724 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:30.725 [main] INFO  mapping.Mapper - Resource Mapping for /subscription:
+2020-10-25 22:15:30.725 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:30.725 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:30.725 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:30.725 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:30.725 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:30.726 [main] INFO  mapping.Mapper - Resource Mapping for /subscription/statistics:
+2020-10-25 22:15:30.726 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:30.726 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:30.726 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:30.726 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:30.726 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:30.728 [main] INFO  mapping.Mapper - Resource Mapping for /seal/hash:
+2020-10-25 22:15:30.728 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:30.728 [main] INFO  mapping.Mapper -       Operation: CREATE path=/seal/hash
+2020-10-25 22:15:30.728 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:30.728 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:30.728 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:30.728 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:30.730 [main] INFO  mapping.Mapper - Resource Mapping for /seal/string:
+2020-10-25 22:15:30.730 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:30.730 [main] INFO  mapping.Mapper -       Operation: CREATE path=/seal/string
+2020-10-25 22:15:30.730 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:30.730 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:30.730 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:30.730 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:30.734 [main] INFO  mapping.Mapper - Resource Mapping for /seal/sign-invite:
+2020-10-25 22:15:30.734 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:30.734 [main] INFO  mapping.Mapper -       Operation: CREATE path=/seal/sign-invite
+2020-10-25 22:15:30.734 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:15:30.734 [main] INFO  mapping.Mapper -       Operation: READ path=/seal/sign-invite/{invite}
+2020-10-25 22:15:30.734 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:30.734 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:30.734 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:30.736 [main] INFO  mapping.Mapper - Resource Mapping for /seal/validate-status:
+2020-10-25 22:15:30.736 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:30.736 [main] INFO  mapping.Mapper -       Operation: CREATE path=/seal/validate-status
+2020-10-25 22:15:30.736 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:30.736 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:30.736 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:30.736 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:30.736 [main] INFO  mapping.Mapper - Resource Mapping for /subscription/usage:
+2020-10-25 22:15:30.736 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:30.737 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:30.737 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:30.737 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:30.737 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:30.739 [main] INFO  mapping.Mapper - Resource Mapping for /seal/validate:
+2020-10-25 22:15:30.739 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:30.739 [main] INFO  mapping.Mapper -       Operation: CREATE path=/seal/validate
+2020-10-25 22:15:30.739 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:30.739 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:30.739 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:30.739 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:30.739 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:15:30.745 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

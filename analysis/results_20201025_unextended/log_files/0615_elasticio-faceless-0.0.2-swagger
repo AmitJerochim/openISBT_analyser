@@ -1,0 +1,40 @@
+Will overwrite mapping file
+2020-10-25 22:12:37.934 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:12:37.935 [main] INFO  mapping.Mapper - -> /secrets
+2020-10-25 22:12:37.935 [main] INFO  mapping.Mapper - -> /auth-clients
+2020-10-25 22:12:37.935 [main] INFO  mapping.Mapper - -> /secrets/
+2020-10-25 22:12:37.935 [main] INFO  mapping.Mapper - -> /auth-clients/
+2020-10-25 22:12:37.935 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:12:37.948 [main] INFO  mapping.Mapper - Resource Mapping for /secrets:
+2020-10-25 22:12:37.948 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:37.948 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:12:37.949 [main] INFO  mapping.Mapper -       Operation: READ path=/secrets/{secretId}
+2020-10-25 22:12:37.949 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:37.949 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:12:37.949 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/secrets/{secretId}
+2020-10-25 22:12:37.949 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:12:37.949 [main] INFO  mapping.Mapper -       Operation: DELETE path=/secrets/{secretId}
+2020-10-25 22:12:37.954 [main] INFO  mapping.Mapper - Resource Mapping for /auth-clients:
+2020-10-25 22:12:37.955 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:37.955 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:12:37.955 [main] INFO  mapping.Mapper -       Operation: READ path=/auth-clients/{clientId}
+2020-10-25 22:12:37.955 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:37.955 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:12:37.955 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/auth-clients/{clientId}
+2020-10-25 22:12:37.955 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:37.958 [main] INFO  mapping.Mapper - Resource Mapping for /secrets/:
+2020-10-25 22:12:37.958 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:12:37.958 [main] INFO  mapping.Mapper -       Operation: CREATE path=/secrets/
+2020-10-25 22:12:37.959 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:37.959 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:37.959 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:37.959 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:37.962 [main] INFO  mapping.Mapper - Resource Mapping for /auth-clients/:
+2020-10-25 22:12:37.962 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:12:37.962 [main] INFO  mapping.Mapper -       Operation: CREATE path=/auth-clients/
+2020-10-25 22:12:37.962 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:37.962 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:37.962 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:37.962 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:37.962 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:12:37.966 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

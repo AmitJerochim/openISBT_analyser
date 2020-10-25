@@ -1,0 +1,134 @@
+Will overwrite mapping file
+2020-10-25 22:15:02.105 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:15:02.107 [main] INFO  mapping.Mapper - -> /users/request_password_reset
+2020-10-25 22:15:02.107 [main] INFO  mapping.Mapper - -> /users/request_cellphone_code
+2020-10-25 22:15:02.107 [main] INFO  mapping.Mapper - -> /delivery/user/address
+2020-10-25 22:15:02.107 [main] INFO  mapping.Mapper - -> /users/login_with_credentials
+2020-10-25 22:15:02.107 [main] INFO  mapping.Mapper - -> /users
+2020-10-25 22:15:02.107 [main] INFO  mapping.Mapper - -> /offers
+2020-10-25 22:15:02.107 [main] INFO  mapping.Mapper - -> /users/validate_cellphone_code
+2020-10-25 22:15:02.107 [main] INFO  mapping.Mapper - -> /delivery/orders
+2020-10-25 22:15:02.107 [main] INFO  mapping.Mapper - -> /delivery/order/address
+2020-10-25 22:15:02.107 [main] INFO  mapping.Mapper - -> /users/login_with_cellphone_request
+2020-10-25 22:15:02.107 [main] INFO  mapping.Mapper - -> /users/login_with_social_token
+2020-10-25 22:15:02.107 [main] INFO  mapping.Mapper - -> /user
+2020-10-25 22:15:02.107 [main] INFO  mapping.Mapper - -> /users/change_password
+2020-10-25 22:15:02.107 [main] INFO  mapping.Mapper - -> /users/login_with_cellphone_validate
+2020-10-25 22:15:02.107 [main] INFO  mapping.Mapper - -> /users/validate_password_reset
+2020-10-25 22:15:02.107 [main] INFO  mapping.Mapper - -> /offer
+2020-10-25 22:15:02.107 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:15:02.115 [main] INFO  mapping.Mapper - Resource Mapping for /users/request_password_reset:
+2020-10-25 22:15:02.115 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:02.115 [main] INFO  mapping.Mapper -       Operation: CREATE path=/users/request_password_reset
+2020-10-25 22:15:02.115 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:02.115 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:02.115 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:02.115 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:02.118 [main] INFO  mapping.Mapper - Resource Mapping for /users/request_cellphone_code:
+2020-10-25 22:15:02.118 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:02.118 [main] INFO  mapping.Mapper -       Operation: CREATE path=/users/request_cellphone_code
+2020-10-25 22:15:02.118 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:02.118 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:02.118 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:02.118 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:02.124 [main] INFO  mapping.Mapper - Resource Mapping for /delivery/user/address:
+2020-10-25 22:15:02.124 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:02.124 [main] INFO  mapping.Mapper -       Operation: CREATE path=/delivery/user/address
+2020-10-25 22:15:02.124 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:02.124 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:02.124 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:15:02.124 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/delivery/user/address/{address}
+2020-10-25 22:15:02.124 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:02.127 [main] INFO  mapping.Mapper - Resource Mapping for /users/login_with_credentials:
+2020-10-25 22:15:02.127 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:02.127 [main] INFO  mapping.Mapper -       Operation: CREATE path=/users/login_with_credentials
+2020-10-25 22:15:02.127 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:02.127 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:02.127 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:02.127 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:02.130 [main] INFO  mapping.Mapper - Resource Mapping for /users:
+2020-10-25 22:15:02.130 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:02.130 [main] INFO  mapping.Mapper -       Operation: CREATE path=/users
+2020-10-25 22:15:02.130 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:02.130 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:02.130 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:02.130 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:02.132 [main] INFO  mapping.Mapper - Resource Mapping for /offers:
+2020-10-25 22:15:02.132 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:02.132 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:15:02.133 [main] INFO  mapping.Mapper -       Operation: READ path=/offers/{city_id}
+2020-10-25 22:15:02.133 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:02.133 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:02.133 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:02.135 [main] INFO  mapping.Mapper - Resource Mapping for /users/validate_cellphone_code:
+2020-10-25 22:15:02.135 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:02.135 [main] INFO  mapping.Mapper -       Operation: CREATE path=/users/validate_cellphone_code
+2020-10-25 22:15:02.135 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:02.135 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:02.135 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:02.135 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:02.137 [main] INFO  mapping.Mapper - Resource Mapping for /delivery/orders:
+2020-10-25 22:15:02.137 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:02.137 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:15:02.137 [main] INFO  mapping.Mapper -       Operation: READ path=/delivery/orders/{state}
+2020-10-25 22:15:02.137 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:02.137 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:02.137 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:02.140 [main] INFO  mapping.Mapper - Resource Mapping for /delivery/order/address:
+2020-10-25 22:15:02.140 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:02.140 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:02.140 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:02.140 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:15:02.140 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/delivery/order/address/{address}
+2020-10-25 22:15:02.140 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:02.142 [main] INFO  mapping.Mapper - Resource Mapping for /users/login_with_cellphone_request:
+2020-10-25 22:15:02.142 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:02.142 [main] INFO  mapping.Mapper -       Operation: CREATE path=/users/login_with_cellphone_request
+2020-10-25 22:15:02.142 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:02.143 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:02.143 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:02.143 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:02.145 [main] INFO  mapping.Mapper - Resource Mapping for /users/login_with_social_token:
+2020-10-25 22:15:02.145 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:02.145 [main] INFO  mapping.Mapper -       Operation: CREATE path=/users/login_with_social_token
+2020-10-25 22:15:02.145 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:02.145 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:02.145 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:02.145 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:02.147 [main] INFO  mapping.Mapper - Resource Mapping for /user:
+2020-10-25 22:15:02.147 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:02.148 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:02.148 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:02.148 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:15:02.148 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/user/{user}
+2020-10-25 22:15:02.148 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:02.150 [main] INFO  mapping.Mapper - Resource Mapping for /users/change_password:
+2020-10-25 22:15:02.150 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:02.150 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:02.150 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:02.150 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:15:02.150 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/users/change_password
+2020-10-25 22:15:02.150 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:02.152 [main] INFO  mapping.Mapper - Resource Mapping for /users/login_with_cellphone_validate:
+2020-10-25 22:15:02.152 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:02.152 [main] INFO  mapping.Mapper -       Operation: CREATE path=/users/login_with_cellphone_validate
+2020-10-25 22:15:02.152 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:02.152 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:02.152 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:02.152 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:02.154 [main] INFO  mapping.Mapper - Resource Mapping for /users/validate_password_reset:
+2020-10-25 22:15:02.154 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:02.154 [main] INFO  mapping.Mapper -       Operation: CREATE path=/users/validate_password_reset
+2020-10-25 22:15:02.154 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:02.154 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:02.154 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:02.154 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:02.155 [main] INFO  mapping.Mapper - Resource Mapping for /offer:
+2020-10-25 22:15:02.156 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:02.156 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:15:02.156 [main] INFO  mapping.Mapper -       Operation: READ path=/offer/{offer_id}
+2020-10-25 22:15:02.156 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:02.156 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:02.156 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:02.156 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:15:02.163 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

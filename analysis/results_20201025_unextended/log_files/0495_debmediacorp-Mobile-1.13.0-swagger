@@ -1,0 +1,43 @@
+Will overwrite mapping file
+2020-10-25 22:11:53.547 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:11:53.549 [main] INFO  mapping.Mapper - -> /api/v1/turn
+2020-10-25 22:11:53.549 [main] INFO  mapping.Mapper - -> /api/v1/turn/code
+2020-10-25 22:11:53.549 [main] INFO  mapping.Mapper - -> /api/v1/queue
+2020-10-25 22:11:53.549 [main] INFO  mapping.Mapper - -> /api/v1/companies
+2020-10-25 22:11:53.549 [main] INFO  mapping.Mapper - -> /debdash/api/branch/listbycompany
+2020-10-25 22:11:53.549 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:11:53.552 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/turn:
+2020-10-25 22:11:53.552 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:53.552 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:53.552 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:53.552 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:53.552 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:53.552 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/turn/code:
+2020-10-25 22:11:53.552 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:53.552 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:53.552 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:53.552 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:53.552 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:53.557 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/queue:
+2020-10-25 22:11:53.558 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:53.558 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:53.558 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:53.558 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/v1/queue
+2020-10-25 22:11:53.558 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:53.558 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:53.560 [main] INFO  mapping.Mapper - Resource Mapping for /api/v1/companies:
+2020-10-25 22:11:53.560 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:53.560 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:53.560 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:53.560 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/v1/companies
+2020-10-25 22:11:53.560 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:53.560 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:53.562 [main] INFO  mapping.Mapper - Resource Mapping for /debdash/api/branch/listbycompany:
+2020-10-25 22:11:53.562 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:53.562 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:53.562 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:53.562 [main] INFO  mapping.Mapper -       Operation: SCAN path=/debdash/api/branch/listbycompany
+2020-10-25 22:11:53.563 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:53.563 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:53.563 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:11:53.568 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

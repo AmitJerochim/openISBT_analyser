@@ -1,0 +1,229 @@
+Will overwrite mapping file
+2020-10-25 22:13:52.843 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:13:52.845 [main] INFO  mapping.Mapper - -> /shipment/getShipmentLabelUrl
+2020-10-25 22:13:52.845 [main] INFO  mapping.Mapper - -> /transaction/placeOrder.php
+2020-10-25 22:13:52.845 [main] INFO  mapping.Mapper - -> /transaction/getB2bTransaction
+2020-10-25 22:13:52.845 [main] INFO  mapping.Mapper - -> /sourcing/getStoreList.php
+2020-10-25 22:13:52.846 [main] INFO  mapping.Mapper - -> /sourcing/getListingInfo.php
+2020-10-25 22:13:52.846 [main] INFO  mapping.Mapper - -> /ViewiderListing/updateListing
+2020-10-25 22:13:52.846 [main] INFO  mapping.Mapper - -> /getAccessToken
+2020-10-25 22:13:52.846 [main] INFO  mapping.Mapper - -> /ViewiderListing/getPackage
+2020-10-25 22:13:52.846 [main] INFO  mapping.Mapper - -> /transaction/confirmAndPayOrder.php
+2020-10-25 22:13:52.846 [main] INFO  mapping.Mapper - -> /product/getConditionList
+2020-10-25 22:13:52.846 [main] INFO  mapping.Mapper - -> /sourcing/getViewiderListingInfo.php
+2020-10-25 22:13:52.846 [main] INFO  mapping.Mapper - -> /product/editProductPrice
+2020-10-25 22:13:52.846 [main] INFO  mapping.Mapper - -> /ViewiderListing/getAvailableSite
+2020-10-25 22:13:52.846 [main] INFO  mapping.Mapper - -> /sourcing/CreateViewdierAPIListings.php
+2020-10-25 22:13:52.846 [main] INFO  mapping.Mapper - -> /product/createVWlistingFromProduct
+2020-10-25 22:13:52.846 [main] INFO  mapping.Mapper - -> /ViewiderListing/uploadListing
+2020-10-25 22:13:52.846 [main] INFO  mapping.Mapper - -> /transaction/getOrder.php
+2020-10-25 22:13:52.847 [main] INFO  mapping.Mapper - -> /product/editInventroy
+2020-10-25 22:13:52.847 [main] INFO  mapping.Mapper - -> /shipment/getShipmentStatus
+2020-10-25 22:13:52.847 [main] INFO  mapping.Mapper - -> /product/getCategoryList
+2020-10-25 22:13:52.847 [main] INFO  mapping.Mapper - -> /product/getMeasurementInfo
+2020-10-25 22:13:52.847 [main] INFO  mapping.Mapper - -> /product/createProductGroup
+2020-10-25 22:13:52.847 [main] INFO  mapping.Mapper - -> /product/getProductGroupForInventoryByID
+2020-10-25 22:13:52.847 [main] INFO  mapping.Mapper - -> /shipment/createShipmentByPlatformTransactionID
+2020-10-25 22:13:52.847 [main] INFO  mapping.Mapper - -> /shipment/createCustomShipment
+2020-10-25 22:13:52.847 [main] INFO  mapping.Mapper - -> /product/getFulfillmentInfo
+2020-10-25 22:13:52.847 [main] INFO  mapping.Mapper - -> /product/getProductGroupID
+2020-10-25 22:13:52.847 [main] INFO  mapping.Mapper - -> /sourcing/addCartAndCheckOut.php
+2020-10-25 22:13:52.848 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:13:52.858 [main] INFO  mapping.Mapper - Resource Mapping for /shipment/getShipmentLabelUrl:
+2020-10-25 22:13:52.858 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.858 [main] INFO  mapping.Mapper -       Operation: CREATE path=/shipment/getShipmentLabelUrl
+2020-10-25 22:13:52.858 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.858 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.858 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.858 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.861 [main] INFO  mapping.Mapper - Resource Mapping for /transaction/placeOrder.php:
+2020-10-25 22:13:52.862 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.862 [main] INFO  mapping.Mapper -       Operation: CREATE path=/transaction/placeOrder.php
+2020-10-25 22:13:52.862 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.862 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.862 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.862 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.865 [main] INFO  mapping.Mapper - Resource Mapping for /transaction/getB2bTransaction:
+2020-10-25 22:13:52.866 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.866 [main] INFO  mapping.Mapper -       Operation: CREATE path=/transaction/getB2bTransaction
+2020-10-25 22:13:52.866 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.866 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.866 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.866 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.869 [main] INFO  mapping.Mapper - Resource Mapping for /sourcing/getStoreList.php:
+2020-10-25 22:13:52.869 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.869 [main] INFO  mapping.Mapper -       Operation: CREATE path=/sourcing/getStoreList.php
+2020-10-25 22:13:52.869 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.869 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.869 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.869 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.872 [main] INFO  mapping.Mapper - Resource Mapping for /sourcing/getListingInfo.php:
+2020-10-25 22:13:52.873 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.873 [main] INFO  mapping.Mapper -       Operation: CREATE path=/sourcing/getListingInfo.php
+2020-10-25 22:13:52.873 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.873 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.873 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.873 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.877 [main] INFO  mapping.Mapper - Resource Mapping for /ViewiderListing/updateListing:
+2020-10-25 22:13:52.877 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.877 [main] INFO  mapping.Mapper -       Operation: CREATE path=/ViewiderListing/updateListing
+2020-10-25 22:13:52.877 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.877 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.877 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.877 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.880 [main] INFO  mapping.Mapper - Resource Mapping for /getAccessToken:
+2020-10-25 22:13:52.880 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.880 [main] INFO  mapping.Mapper -       Operation: CREATE path=/getAccessToken
+2020-10-25 22:13:52.880 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.880 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.880 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.880 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.883 [main] INFO  mapping.Mapper - Resource Mapping for /ViewiderListing/getPackage:
+2020-10-25 22:13:52.884 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.884 [main] INFO  mapping.Mapper -       Operation: CREATE path=/ViewiderListing/getPackage
+2020-10-25 22:13:52.884 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.884 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.884 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.884 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.887 [main] INFO  mapping.Mapper - Resource Mapping for /transaction/confirmAndPayOrder.php:
+2020-10-25 22:13:52.887 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.887 [main] INFO  mapping.Mapper -       Operation: CREATE path=/transaction/confirmAndPayOrder.php
+2020-10-25 22:13:52.887 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.887 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.887 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.887 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.890 [main] INFO  mapping.Mapper - Resource Mapping for /product/getConditionList:
+2020-10-25 22:13:52.890 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.890 [main] INFO  mapping.Mapper -       Operation: CREATE path=/product/getConditionList
+2020-10-25 22:13:52.890 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.890 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.890 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.890 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.893 [main] INFO  mapping.Mapper - Resource Mapping for /sourcing/getViewiderListingInfo.php:
+2020-10-25 22:13:52.893 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.893 [main] INFO  mapping.Mapper -       Operation: CREATE path=/sourcing/getViewiderListingInfo.php
+2020-10-25 22:13:52.893 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.893 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.893 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.893 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.897 [main] INFO  mapping.Mapper - Resource Mapping for /product/editProductPrice:
+2020-10-25 22:13:52.897 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.897 [main] INFO  mapping.Mapper -       Operation: CREATE path=/product/editProductPrice
+2020-10-25 22:13:52.897 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.897 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.897 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.898 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.900 [main] INFO  mapping.Mapper - Resource Mapping for /ViewiderListing/getAvailableSite:
+2020-10-25 22:13:52.901 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.901 [main] INFO  mapping.Mapper -       Operation: CREATE path=/ViewiderListing/getAvailableSite
+2020-10-25 22:13:52.901 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.901 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.901 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.901 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.903 [main] INFO  mapping.Mapper - Resource Mapping for /sourcing/CreateViewdierAPIListings.php:
+2020-10-25 22:13:52.903 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.903 [main] INFO  mapping.Mapper -       Operation: CREATE path=/sourcing/CreateViewdierAPIListings.php
+2020-10-25 22:13:52.903 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.903 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.903 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.904 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.906 [main] INFO  mapping.Mapper - Resource Mapping for /product/createVWlistingFromProduct:
+2020-10-25 22:13:52.906 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.906 [main] INFO  mapping.Mapper -       Operation: CREATE path=/product/createVWlistingFromProduct
+2020-10-25 22:13:52.906 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.906 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.906 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.906 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.909 [main] INFO  mapping.Mapper - Resource Mapping for /ViewiderListing/uploadListing:
+2020-10-25 22:13:52.909 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.909 [main] INFO  mapping.Mapper -       Operation: CREATE path=/ViewiderListing/uploadListing
+2020-10-25 22:13:52.909 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.909 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.909 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.909 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.911 [main] INFO  mapping.Mapper - Resource Mapping for /transaction/getOrder.php:
+2020-10-25 22:13:52.911 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.911 [main] INFO  mapping.Mapper -       Operation: CREATE path=/transaction/getOrder.php
+2020-10-25 22:13:52.911 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.911 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.911 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.911 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.914 [main] INFO  mapping.Mapper - Resource Mapping for /product/editInventroy:
+2020-10-25 22:13:52.914 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.914 [main] INFO  mapping.Mapper -       Operation: CREATE path=/product/editInventroy
+2020-10-25 22:13:52.914 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.914 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.914 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.914 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.916 [main] INFO  mapping.Mapper - Resource Mapping for /shipment/getShipmentStatus:
+2020-10-25 22:13:52.916 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.916 [main] INFO  mapping.Mapper -       Operation: CREATE path=/shipment/getShipmentStatus
+2020-10-25 22:13:52.916 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.916 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.916 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.916 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.931 [main] INFO  mapping.Mapper - Resource Mapping for /product/getCategoryList:
+2020-10-25 22:13:52.932 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.932 [main] INFO  mapping.Mapper -       Operation: CREATE path=/product/getCategoryList
+2020-10-25 22:13:52.932 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.932 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.932 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.932 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.935 [main] INFO  mapping.Mapper - Resource Mapping for /product/getMeasurementInfo:
+2020-10-25 22:13:52.935 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.935 [main] INFO  mapping.Mapper -       Operation: CREATE path=/product/getMeasurementInfo
+2020-10-25 22:13:52.935 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.935 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.935 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.935 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.938 [main] INFO  mapping.Mapper - Resource Mapping for /product/createProductGroup:
+2020-10-25 22:13:52.939 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.939 [main] INFO  mapping.Mapper -       Operation: CREATE path=/product/createProductGroup
+2020-10-25 22:13:52.939 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.939 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.939 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.939 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.941 [main] INFO  mapping.Mapper - Resource Mapping for /product/getProductGroupForInventoryByID:
+2020-10-25 22:13:52.941 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.941 [main] INFO  mapping.Mapper -       Operation: CREATE path=/product/getProductGroupForInventoryByID
+2020-10-25 22:13:52.941 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.941 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.941 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.941 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.942 [main] INFO  mapping.Mapper - Resource Mapping for /shipment/createShipmentByPlatformTransactionID:
+2020-10-25 22:13:52.943 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.943 [main] INFO  mapping.Mapper -       Operation: CREATE path=/shipment/createShipmentByPlatformTransactionID
+2020-10-25 22:13:52.943 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.943 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.943 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.943 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.944 [main] INFO  mapping.Mapper - Resource Mapping for /shipment/createCustomShipment:
+2020-10-25 22:13:52.945 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.945 [main] INFO  mapping.Mapper -       Operation: CREATE path=/shipment/createCustomShipment
+2020-10-25 22:13:52.945 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.945 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.945 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.945 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.946 [main] INFO  mapping.Mapper - Resource Mapping for /product/getFulfillmentInfo:
+2020-10-25 22:13:52.947 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.947 [main] INFO  mapping.Mapper -       Operation: CREATE path=/product/getFulfillmentInfo
+2020-10-25 22:13:52.947 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.947 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.947 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.947 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.948 [main] INFO  mapping.Mapper - Resource Mapping for /product/getProductGroupID:
+2020-10-25 22:13:52.948 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.948 [main] INFO  mapping.Mapper -       Operation: CREATE path=/product/getProductGroupID
+2020-10-25 22:13:52.948 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.948 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.948 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.948 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.950 [main] INFO  mapping.Mapper - Resource Mapping for /sourcing/addCartAndCheckOut.php:
+2020-10-25 22:13:52.950 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:13:52.950 [main] INFO  mapping.Mapper -       Operation: CREATE path=/sourcing/addCartAndCheckOut.php
+2020-10-25 22:13:52.950 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:52.950 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:52.950 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:52.950 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:52.950 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:13:52.960 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

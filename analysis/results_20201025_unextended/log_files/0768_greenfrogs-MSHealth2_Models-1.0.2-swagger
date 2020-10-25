@@ -1,0 +1,52 @@
+Will overwrite mapping file
+2020-10-25 22:13:34.972 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:13:34.973 [main] INFO  mapping.Mapper - -> /get_latest_model
+2020-10-25 22:13:34.974 [main] INFO  mapping.Mapper - -> /get_latest_model_insert
+2020-10-25 22:13:34.974 [main] INFO  mapping.Mapper - -> /get_available_model
+2020-10-25 22:13:34.974 [main] INFO  mapping.Mapper - -> /get_model_insert
+2020-10-25 22:13:34.974 [main] INFO  mapping.Mapper - -> /current_time
+2020-10-25 22:13:34.974 [main] INFO  mapping.Mapper - -> /get_model
+2020-10-25 22:13:34.974 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:13:34.982 [main] INFO  mapping.Mapper - Resource Mapping for /get_latest_model:
+2020-10-25 22:13:34.983 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:34.983 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:34.983 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:13:34.983 [main] INFO  mapping.Mapper -       Operation: SCAN path=/get_latest_model
+2020-10-25 22:13:34.983 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:34.983 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:34.986 [main] INFO  mapping.Mapper - Resource Mapping for /get_latest_model_insert:
+2020-10-25 22:13:34.987 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:34.987 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:34.987 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:13:34.987 [main] INFO  mapping.Mapper -       Operation: SCAN path=/get_latest_model_insert
+2020-10-25 22:13:34.987 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:34.987 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:34.990 [main] INFO  mapping.Mapper - Resource Mapping for /get_available_model:
+2020-10-25 22:13:34.991 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:34.991 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:34.991 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:13:34.991 [main] INFO  mapping.Mapper -       Operation: SCAN path=/get_available_model
+2020-10-25 22:13:34.991 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:34.991 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:34.994 [main] INFO  mapping.Mapper - Resource Mapping for /get_model_insert:
+2020-10-25 22:13:34.994 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:34.994 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:34.995 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:13:34.995 [main] INFO  mapping.Mapper -       Operation: SCAN path=/get_model_insert
+2020-10-25 22:13:34.995 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:34.995 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:34.995 [main] INFO  mapping.Mapper - Resource Mapping for /current_time:
+2020-10-25 22:13:34.995 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:34.995 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:34.995 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:13:34.995 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:34.995 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:34.998 [main] INFO  mapping.Mapper - Resource Mapping for /get_model:
+2020-10-25 22:13:34.999 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:13:34.999 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:13:34.999 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:13:34.999 [main] INFO  mapping.Mapper -       Operation: SCAN path=/get_model
+2020-10-25 22:13:34.999 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:13:34.999 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:13:34.999 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:13:35.005 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

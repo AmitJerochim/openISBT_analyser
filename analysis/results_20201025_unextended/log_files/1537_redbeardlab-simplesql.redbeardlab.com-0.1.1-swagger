@@ -1,0 +1,45 @@
+Will overwrite mapping file
+2020-10-25 22:18:16.351 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:18:16.352 [main] INFO  mapping.Mapper - -> /token
+2020-10-25 22:18:16.352 [main] INFO  mapping.Mapper - -> /command
+2020-10-25 22:18:16.352 [main] INFO  mapping.Mapper - -> /database
+2020-10-25 22:18:16.352 [main] INFO  mapping.Mapper - -> /tokens
+2020-10-25 22:18:16.353 [main] INFO  mapping.Mapper - -> /databases
+2020-10-25 22:18:16.353 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:18:16.359 [main] INFO  mapping.Mapper - Resource Mapping for /token:
+2020-10-25 22:18:16.359 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:16.359 [main] INFO  mapping.Mapper -       Operation: CREATE path=/token
+2020-10-25 22:18:16.359 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:16.359 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:16.359 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:16.359 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:16.364 [main] INFO  mapping.Mapper - Resource Mapping for /command:
+2020-10-25 22:18:16.365 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:16.365 [main] INFO  mapping.Mapper -       Operation: CREATE path=/command/{databaseID}
+2020-10-25 22:18:16.365 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:16.365 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:16.365 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:16.365 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:16.367 [main] INFO  mapping.Mapper - Resource Mapping for /database:
+2020-10-25 22:18:16.367 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:18:16.367 [main] INFO  mapping.Mapper -       Operation: CREATE path=/database
+2020-10-25 22:18:16.367 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:16.367 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:18:16.367 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:16.368 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:16.370 [main] INFO  mapping.Mapper - Resource Mapping for /tokens:
+2020-10-25 22:18:16.370 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:16.370 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:16.370 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:16.370 [main] INFO  mapping.Mapper -       Operation: SCAN path=/tokens
+2020-10-25 22:18:16.370 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:16.370 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:16.372 [main] INFO  mapping.Mapper - Resource Mapping for /databases:
+2020-10-25 22:18:16.373 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:18:16.373 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:18:16.373 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:18:16.373 [main] INFO  mapping.Mapper -       Operation: SCAN path=/databases
+2020-10-25 22:18:16.373 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:18:16.373 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:18:16.373 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:18:16.378 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

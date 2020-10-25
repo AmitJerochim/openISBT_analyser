@@ -1,0 +1,38 @@
+Will overwrite mapping file
+2020-10-25 22:15:40.041 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:15:40.042 [main] INFO  mapping.Mapper - -> /resend-confirmation
+2020-10-25 22:15:40.042 [main] INFO  mapping.Mapper - -> /{id}
+2020-10-25 22:15:40.042 [main] INFO  mapping.Mapper - -> /confirm
+2020-10-25 22:15:40.042 [main] INFO  mapping.Mapper - -> /
+2020-10-25 22:15:40.042 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:15:40.053 [main] INFO  mapping.Mapper - Resource Mapping for /resend-confirmation:
+2020-10-25 22:15:40.053 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:40.053 [main] INFO  mapping.Mapper -       Operation: CREATE path=/resend-confirmation
+2020-10-25 22:15:40.053 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:40.053 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:40.053 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:40.053 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:40.056 [main] INFO  mapping.Mapper - Resource Mapping for /{id}:
+2020-10-25 22:15:40.056 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:40.056 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:40.057 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:40.057 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:40.057 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:15:40.057 [main] INFO  mapping.Mapper -       Operation: DELETE path=/{id}
+2020-10-25 22:15:40.061 [main] INFO  mapping.Mapper - Resource Mapping for /confirm:
+2020-10-25 22:15:40.061 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:40.061 [main] INFO  mapping.Mapper -       Operation: CREATE path=/confirm
+2020-10-25 22:15:40.061 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:40.061 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:40.061 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:40.061 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:40.067 [main] INFO  mapping.Mapper - Resource Mapping for /:
+2020-10-25 22:15:40.067 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:40.067 [main] INFO  mapping.Mapper -       Operation: CREATE path=/
+2020-10-25 22:15:40.067 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:40.067 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:15:40.067 [main] INFO  mapping.Mapper -       Operation: SCAN path=/
+2020-10-25 22:15:40.067 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:40.068 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:40.068 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:15:40.073 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,37 @@
+Will overwrite mapping file
+2020-10-25 22:12:35.284 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:12:35.285 [main] INFO  mapping.Mapper - -> /ObterFormaPagamento
+2020-10-25 22:12:35.285 [main] INFO  mapping.Mapper - -> /GetXML
+2020-10-25 22:12:35.285 [main] INFO  mapping.Mapper - -> /GetProdutosVenda
+2020-10-25 22:12:35.286 [main] INFO  mapping.Mapper - -> /FechePedido
+2020-10-25 22:12:35.286 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:12:35.292 [main] INFO  mapping.Mapper - Resource Mapping for /ObterFormaPagamento:
+2020-10-25 22:12:35.292 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:35.292 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:35.292 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:12:35.292 [main] INFO  mapping.Mapper -       Operation: SCAN path=/ObterFormaPagamento
+2020-10-25 22:12:35.292 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:35.292 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:35.297 [main] INFO  mapping.Mapper - Resource Mapping for /GetXML:
+2020-10-25 22:12:35.297 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:35.297 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:12:35.297 [main] INFO  mapping.Mapper -       Operation: READ path=/GetXML/{chaveAcesso}
+2020-10-25 22:12:35.297 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:35.297 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:35.298 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:35.300 [main] INFO  mapping.Mapper - Resource Mapping for /GetProdutosVenda:
+2020-10-25 22:12:35.300 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:35.300 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:35.300 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:12:35.300 [main] INFO  mapping.Mapper -       Operation: SCAN path=/GetProdutosVenda
+2020-10-25 22:12:35.300 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:35.300 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:35.305 [main] INFO  mapping.Mapper - Resource Mapping for /FechePedido:
+2020-10-25 22:12:35.305 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:12:35.305 [main] INFO  mapping.Mapper -       Operation: CREATE path=/FechePedido
+2020-10-25 22:12:35.305 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:35.305 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:35.305 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:35.305 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:35.305 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:12:35.310 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

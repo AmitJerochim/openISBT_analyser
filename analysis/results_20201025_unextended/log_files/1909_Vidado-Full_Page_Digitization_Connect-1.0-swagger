@@ -1,0 +1,35 @@
+Will overwrite mapping file
+2020-10-25 22:21:02.724 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:21:02.726 [main] INFO  mapping.Mapper - -> /cases
+2020-10-25 22:21:02.726 [main] INFO  mapping.Mapper - -> /cases/update_statuses_to_exported
+2020-10-25 22:21:02.726 [main] INFO  mapping.Mapper - -> /batch
+2020-10-25 22:21:02.726 [main] INFO  mapping.Mapper - -> /batch/
+2020-10-25 22:21:02.726 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:21:02.730 [main] INFO  mapping.Mapper - Resource Mapping for /cases:
+2020-10-25 22:21:02.731 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:02.731 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:02.731 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:02.731 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:02.731 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:02.738 [main] INFO  mapping.Mapper - Resource Mapping for /cases/update_statuses_to_exported:
+2020-10-25 22:21:02.738 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:21:02.739 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cases/update_statuses_to_exported
+2020-10-25 22:21:02.739 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:02.739 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:02.739 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:02.739 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:02.739 [main] INFO  mapping.Mapper - Resource Mapping for /batch:
+2020-10-25 22:21:02.739 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:02.739 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:02.739 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:02.739 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:02.739 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:02.743 [main] INFO  mapping.Mapper - Resource Mapping for /batch/:
+2020-10-25 22:21:02.743 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:21:02.743 [main] INFO  mapping.Mapper -       Operation: CREATE path=/batch/
+2020-10-25 22:21:02.744 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:02.744 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:02.744 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:02.744 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:02.744 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:21:02.749 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

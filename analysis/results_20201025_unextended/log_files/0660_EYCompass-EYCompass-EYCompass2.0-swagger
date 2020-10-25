@@ -1,0 +1,117 @@
+Will overwrite mapping file
+2020-10-25 22:12:53.780 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:12:53.782 [main] INFO  mapping.Mapper - -> /api/portal/cycle
+2020-10-25 22:12:53.782 [main] INFO  mapping.Mapper - -> /api/portal/dbschema
+2020-10-25 22:12:53.782 [main] INFO  mapping.Mapper - -> /api/auth/Users
+2020-10-25 22:12:53.782 [main] INFO  mapping.Mapper - -> /api/portal/dataset
+2020-10-25 22:12:53.782 [main] INFO  mapping.Mapper - -> /api/portal/entities
+2020-10-25 22:12:53.782 [main] INFO  mapping.Mapper - -> /api/DataCube
+2020-10-25 22:12:53.782 [main] INFO  mapping.Mapper - -> /api/auth/authenticate
+2020-10-25 22:12:53.782 [main] INFO  mapping.Mapper - -> /api/portal/dashboard
+2020-10-25 22:12:53.783 [main] INFO  mapping.Mapper - -> /api/portal/audit
+2020-10-25 22:12:53.783 [main] INFO  mapping.Mapper - -> /api/portal/entities/newEntity
+2020-10-25 22:12:53.783 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:12:53.795 [main] INFO  mapping.Mapper - Resource Mapping for /api/portal/cycle:
+2020-10-25 22:12:53.796 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:12:53.796 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/portal/cycle
+2020-10-25 22:12:53.796 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:12:53.796 [main] INFO  mapping.Mapper -       Operation: READ path=/api/portal/cycle/{id}
+2020-10-25 22:12:53.796 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:12:53.796 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/portal/cycle
+2020-10-25 22:12:53.796 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:53.796 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:12:53.796 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/portal/cycle/{id}
+2020-10-25 22:12:53.797 [main] INFO  mapping.Mapper - Resource Mapping for /api/portal/dbschema:
+2020-10-25 22:12:53.797 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:12:53.797 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/portal/dbschema
+2020-10-25 22:12:53.797 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:53.797 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:53.797 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:53.797 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:53.798 [main] INFO  mapping.Mapper - Resource Mapping for /api/auth/Users:
+2020-10-25 22:12:53.798 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:53.798 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:53.798 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:53.798 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:53.798 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:53.805 [main] INFO  mapping.Mapper - Resource Mapping for /api/portal/dataset:
+2020-10-25 22:12:53.805 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:12:53.805 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/portal/dataset
+2020-10-25 22:12:53.805 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:12:53.806 [main] INFO  mapping.Mapper -       Operation: READ path=/api/portal/dataset/{id}
+2020-10-25 22:12:53.806 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:12:53.806 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/portal/dataset
+2020-10-25 22:12:53.806 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:12:53.806 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/portal/dataset
+2020-10-25 22:12:53.806 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:12:53.806 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/portal/dataset
+2020-10-25 22:12:53.824 [main] INFO  mapping.Mapper - Resource Mapping for /api/portal/entities:
+2020-10-25 22:12:53.824 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:12:53.824 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/portal/entities
+2020-10-25 22:12:53.824 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:12:53.824 [main] INFO  mapping.Mapper -       Operation: READ path=/api/portal/entities/{id}
+2020-10-25 22:12:53.825 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:53.825 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:12:53.825 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/portal/entities
+2020-10-25 22:12:53.825 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:12:53.825 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/portal/entities
+2020-10-25 22:12:53.836 [main] INFO  mapping.Mapper - Resource Mapping for /api/DataCube:
+2020-10-25 22:12:53.837 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:12:53.837 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/DataCube
+2020-10-25 22:12:53.837 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:12:53.837 [main] INFO  mapping.Mapper -       Operation: READ path=/api/DataCube/{id}
+2020-10-25 22:12:53.837 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:12:53.837 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/DataCube
+2020-10-25 22:12:53.837 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:12:53.837 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/DataCube
+2020-10-25 22:12:53.837 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:12:53.837 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/DataCube
+2020-10-25 22:12:53.838 [main] INFO  mapping.Mapper - Resource Mapping for /api/auth/authenticate:
+2020-10-25 22:12:53.838 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:53.838 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:53.838 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:53.838 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:53.838 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:53.839 [main] INFO  mapping.Mapper - Resource Mapping for /api/portal/dashboard:
+2020-10-25 22:12:53.839 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:53.839 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:53.839 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:53.839 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:53.839 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:53.842 [main] INFO  mapping.Mapper - Resource Mapping for /api/portal/audit:
+2020-10-25 22:12:53.843 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:12:53.843 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/portal/audit
+2020-10-25 22:12:53.843 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:53.843 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:53.843 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:53.843 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:53.844 [main] INFO  mapping.Mapper - Resource Mapping for /api/portal/entities/newEntity:
+2020-10-25 22:12:53.844 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:12:53.844 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:12:53.844 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:12:53.844 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:12:53.844 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:12:53.845 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:12:53.845 [main] INFO  MatchingTool - Resource Mapping for /api/portal/dataset:
+2020-10-25 22:12:53.845 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=10:
+2020-10-25 22:12:53.845 [main] INFO  MatchingTool -       Operation: CREATE path=/api/portal/dataset
+2020-10-25 22:12:53.845 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=10:
+2020-10-25 22:12:53.845 [main] INFO  MatchingTool -       Operation: READ path=/api/portal/dataset/{id}
+2020-10-25 22:12:53.845 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=10:
+2020-10-25 22:12:53.845 [main] INFO  MatchingTool -       Operation: SCAN path=/api/portal/dataset
+2020-10-25 22:12:53.845 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=10:
+2020-10-25 22:12:53.845 [main] INFO  MatchingTool -       Operation: UPDATE path=/api/portal/dataset
+2020-10-25 22:12:53.845 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=10:
+2020-10-25 22:12:53.845 [main] INFO  MatchingTool -       Operation: DELETE path=/api/portal/dataset
+2020-10-25 22:12:53.845 [main] INFO  MatchingTool - Resource Mapping for /api/DataCube:
+2020-10-25 22:12:53.846 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=10:
+2020-10-25 22:12:53.846 [main] INFO  MatchingTool -       Operation: CREATE path=/api/DataCube
+2020-10-25 22:12:53.846 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=10:
+2020-10-25 22:12:53.846 [main] INFO  MatchingTool -       Operation: READ path=/api/DataCube/{id}
+2020-10-25 22:12:53.846 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=10:
+2020-10-25 22:12:53.846 [main] INFO  MatchingTool -       Operation: SCAN path=/api/DataCube
+2020-10-25 22:12:53.846 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=10:
+2020-10-25 22:12:53.846 [main] INFO  MatchingTool -       Operation: UPDATE path=/api/DataCube
+2020-10-25 22:12:53.846 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=10:
+2020-10-25 22:12:53.846 [main] INFO  MatchingTool -       Operation: DELETE path=/api/DataCube
+2020-10-25 22:12:53.853 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

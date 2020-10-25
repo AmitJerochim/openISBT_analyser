@@ -1,0 +1,45 @@
+Will overwrite mapping file
+2020-10-25 22:14:56.018 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:14:56.020 [main] INFO  mapping.Mapper - -> /flights
+2020-10-25 22:14:56.020 [main] INFO  mapping.Mapper - -> /tournaments
+2020-10-25 22:14:56.020 [main] INFO  mapping.Mapper - -> /players
+2020-10-25 22:14:56.020 [main] INFO  mapping.Mapper - -> /days
+2020-10-25 22:14:56.020 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:14:56.034 [main] INFO  mapping.Mapper - Resource Mapping for /flights:
+2020-10-25 22:14:56.035 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:56.035 [main] INFO  mapping.Mapper -       Operation: CREATE path=/flights
+2020-10-25 22:14:56.035 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:56.035 [main] INFO  mapping.Mapper -       Operation: READ path=/flights/{id}
+2020-10-25 22:14:56.035 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:14:56.035 [main] INFO  mapping.Mapper -       Operation: SCAN path=/flights
+2020-10-25 22:14:56.035 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:56.035 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/flights/{id}
+2020-10-25 22:14:56.035 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:56.043 [main] INFO  mapping.Mapper - Resource Mapping for /tournaments:
+2020-10-25 22:14:56.043 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:56.043 [main] INFO  mapping.Mapper -       Operation: CREATE path=/tournaments
+2020-10-25 22:14:56.043 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:56.043 [main] INFO  mapping.Mapper -       Operation: READ path=/tournaments/{id}
+2020-10-25 22:14:56.043 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:14:56.043 [main] INFO  mapping.Mapper -       Operation: SCAN path=/tournaments
+2020-10-25 22:14:56.043 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:56.043 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/tournaments/{id}
+2020-10-25 22:14:56.044 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:56.051 [main] INFO  mapping.Mapper - Resource Mapping for /players:
+2020-10-25 22:14:56.052 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:56.052 [main] INFO  mapping.Mapper -       Operation: CREATE path=/players
+2020-10-25 22:14:56.052 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:56.052 [main] INFO  mapping.Mapper -       Operation: READ path=/players/{id}
+2020-10-25 22:14:56.052 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:14:56.052 [main] INFO  mapping.Mapper -       Operation: SCAN path=/players
+2020-10-25 22:14:56.052 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:56.052 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/players/{id}
+2020-10-25 22:14:56.052 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:56.052 [main] INFO  mapping.Mapper - Resource Mapping for /days:
+2020-10-25 22:14:56.052 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:56.052 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:56.052 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:56.053 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:56.053 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:56.053 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:14:56.058 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

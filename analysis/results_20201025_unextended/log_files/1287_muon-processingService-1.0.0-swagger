@@ -1,0 +1,24 @@
+Will overwrite mapping file
+2020-10-25 22:16:40.105 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:16:40.106 [main] INFO  mapping.Mapper - -> /agreements
+2020-10-25 22:16:40.106 [main] INFO  mapping.Mapper - -> /guarantees
+2020-10-25 22:16:40.106 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:16:40.122 [main] INFO  mapping.Mapper - Resource Mapping for /agreements:
+2020-10-25 22:16:40.122 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:40.122 [main] INFO  mapping.Mapper -       Operation: CREATE path=/agreements
+2020-10-25 22:16:40.122 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:40.122 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:40.122 [main] INFO  mapping.Mapper -       Operation: SCAN path=/agreements/{number}
+2020-10-25 22:16:40.122 [main] INFO  mapping.Mapper -       Operation: SCAN path=/agreements
+2020-10-25 22:16:40.123 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:40.123 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:40.134 [main] INFO  mapping.Mapper - Resource Mapping for /guarantees:
+2020-10-25 22:16:40.134 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:40.134 [main] INFO  mapping.Mapper -       Operation: CREATE path=/guarantees
+2020-10-25 22:16:40.134 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:40.134 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:40.134 [main] INFO  mapping.Mapper -       Operation: SCAN path=/guarantees
+2020-10-25 22:16:40.134 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:40.134 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:40.134 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:16:40.141 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

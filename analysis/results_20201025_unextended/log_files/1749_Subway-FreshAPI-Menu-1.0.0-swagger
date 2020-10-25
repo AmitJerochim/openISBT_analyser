@@ -1,0 +1,21 @@
+Will overwrite mapping file
+2020-10-25 22:19:32.934 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:19:32.935 [main] INFO  mapping.Mapper - -> /catalog
+2020-10-25 22:19:32.935 [main] INFO  mapping.Mapper - -> /menu
+2020-10-25 22:19:32.935 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:19:32.946 [main] INFO  mapping.Mapper - Resource Mapping for /catalog:
+2020-10-25 22:19:32.946 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:32.946 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:19:32.946 [main] INFO  mapping.Mapper -       Operation: READ path=/catalog/{countryCode}
+2020-10-25 22:19:32.946 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:32.946 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:32.946 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:32.950 [main] INFO  mapping.Mapper - Resource Mapping for /menu:
+2020-10-25 22:19:32.950 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:32.950 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:19:32.950 [main] INFO  mapping.Mapper -       Operation: READ path=/menu/{locationId}
+2020-10-25 22:19:32.950 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:32.950 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:32.950 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:32.951 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:19:32.955 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

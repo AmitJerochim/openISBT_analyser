@@ -1,0 +1,38 @@
+Will overwrite mapping file
+2020-10-25 22:11:22.093 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:11:22.095 [main] INFO  mapping.Mapper - -> /companies
+2020-10-25 22:11:22.095 [main] INFO  mapping.Mapper - -> /lighthouses
+2020-10-25 22:11:22.095 [main] INFO  mapping.Mapper - -> /lighthouses/
+2020-10-25 22:11:22.095 [main] INFO  mapping.Mapper - -> /users/self
+2020-10-25 22:11:22.095 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:11:22.113 [main] INFO  mapping.Mapper - Resource Mapping for /companies:
+2020-10-25 22:11:22.114 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:22.114 [main] INFO  mapping.Mapper -       Operation: CREATE path=/companies
+2020-10-25 22:11:22.114 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:22.114 [main] INFO  mapping.Mapper -       Operation: READ path=/companies/{companyId}
+2020-10-25 22:11:22.114 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:22.114 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:11:22.114 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/companies/{companyId}
+2020-10-25 22:11:22.114 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:22.119 [main] INFO  mapping.Mapper - Resource Mapping for /lighthouses:
+2020-10-25 22:11:22.119 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:22.119 [main] INFO  mapping.Mapper -       Operation: CREATE path=/lighthouses/{identifier}
+2020-10-25 22:11:22.119 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:22.119 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:22.119 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:22.119 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:11:22.119 [main] INFO  mapping.Mapper -       Operation: DELETE path=/lighthouses/{identifier}
+2020-10-25 22:11:22.120 [main] INFO  mapping.Mapper - Resource Mapping for /lighthouses/:
+2020-10-25 22:11:22.120 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:22.120 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:22.120 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:22.120 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:22.121 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:22.121 [main] INFO  mapping.Mapper - Resource Mapping for /users/self:
+2020-10-25 22:11:22.121 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:22.121 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:22.122 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:22.122 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:22.122 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:22.122 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:11:22.127 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

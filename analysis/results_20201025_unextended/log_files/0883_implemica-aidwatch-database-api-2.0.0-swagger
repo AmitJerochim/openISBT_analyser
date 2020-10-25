@@ -1,0 +1,174 @@
+Will overwrite mapping file
+2020-10-25 22:14:18.881 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:14:18.882 [main] INFO  mapping.Mapper - -> /devices
+2020-10-25 22:14:18.883 [main] INFO  mapping.Mapper - -> /command-response-parameters
+2020-10-25 22:14:18.883 [main] INFO  mapping.Mapper - -> /commands
+2020-10-25 22:14:18.883 [main] INFO  mapping.Mapper - -> /end-users
+2020-10-25 22:14:18.883 [main] INFO  mapping.Mapper - -> /emergency-contacts
+2020-10-25 22:14:18.883 [main] INFO  mapping.Mapper - -> /command-parameters
+2020-10-25 22:14:18.883 [main] INFO  mapping.Mapper - -> /command-responses
+2020-10-25 22:14:18.883 [main] INFO  mapping.Mapper - -> /end-users/register
+2020-10-25 22:14:18.883 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:14:18.896 [main] INFO  mapping.Mapper - Resource Mapping for /devices:
+2020-10-25 22:14:18.896 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:18.896 [main] INFO  mapping.Mapper -       Operation: CREATE path=/devices
+2020-10-25 22:14:18.897 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:18.897 [main] INFO  mapping.Mapper -       Operation: READ path=/devices/{id}
+2020-10-25 22:14:18.897 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:14:18.897 [main] INFO  mapping.Mapper -       Operation: SCAN path=/devices
+2020-10-25 22:14:18.897 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:18.897 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/devices
+2020-10-25 22:14:18.897 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:14:18.897 [main] INFO  mapping.Mapper -       Operation: DELETE path=/devices/{id}
+2020-10-25 22:14:18.903 [main] INFO  mapping.Mapper - Resource Mapping for /command-response-parameters:
+2020-10-25 22:14:18.904 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:18.904 [main] INFO  mapping.Mapper -       Operation: CREATE path=/command-response-parameters
+2020-10-25 22:14:18.904 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:18.904 [main] INFO  mapping.Mapper -       Operation: READ path=/command-response-parameters/{id}
+2020-10-25 22:14:18.904 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:14:18.904 [main] INFO  mapping.Mapper -       Operation: SCAN path=/command-response-parameters
+2020-10-25 22:14:18.904 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:18.904 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/command-response-parameters
+2020-10-25 22:14:18.904 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:14:18.904 [main] INFO  mapping.Mapper -       Operation: DELETE path=/command-response-parameters/{id}
+2020-10-25 22:14:18.910 [main] INFO  mapping.Mapper - Resource Mapping for /commands:
+2020-10-25 22:14:18.910 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:18.910 [main] INFO  mapping.Mapper -       Operation: CREATE path=/commands
+2020-10-25 22:14:18.910 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:18.910 [main] INFO  mapping.Mapper -       Operation: READ path=/commands/{id}
+2020-10-25 22:14:18.910 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:14:18.910 [main] INFO  mapping.Mapper -       Operation: SCAN path=/commands
+2020-10-25 22:14:18.910 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:18.910 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/commands
+2020-10-25 22:14:18.910 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:14:18.910 [main] INFO  mapping.Mapper -       Operation: DELETE path=/commands/{id}
+2020-10-25 22:14:18.916 [main] INFO  mapping.Mapper - Resource Mapping for /end-users:
+2020-10-25 22:14:18.916 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:18.916 [main] INFO  mapping.Mapper -       Operation: CREATE path=/end-users
+2020-10-25 22:14:18.916 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:18.917 [main] INFO  mapping.Mapper -       Operation: READ path=/end-users/{id}
+2020-10-25 22:14:18.917 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:14:18.917 [main] INFO  mapping.Mapper -       Operation: SCAN path=/end-users
+2020-10-25 22:14:18.917 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:18.917 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/end-users
+2020-10-25 22:14:18.917 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:14:18.917 [main] INFO  mapping.Mapper -       Operation: DELETE path=/end-users/{id}
+2020-10-25 22:14:18.923 [main] INFO  mapping.Mapper - Resource Mapping for /emergency-contacts:
+2020-10-25 22:14:18.923 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:18.923 [main] INFO  mapping.Mapper -       Operation: CREATE path=/emergency-contacts
+2020-10-25 22:14:18.923 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:18.923 [main] INFO  mapping.Mapper -       Operation: READ path=/emergency-contacts/{id}
+2020-10-25 22:14:18.923 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:14:18.923 [main] INFO  mapping.Mapper -       Operation: SCAN path=/emergency-contacts
+2020-10-25 22:14:18.923 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:18.923 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/emergency-contacts
+2020-10-25 22:14:18.923 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:14:18.923 [main] INFO  mapping.Mapper -       Operation: DELETE path=/emergency-contacts/{id}
+2020-10-25 22:14:18.929 [main] INFO  mapping.Mapper - Resource Mapping for /command-parameters:
+2020-10-25 22:14:18.929 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:18.929 [main] INFO  mapping.Mapper -       Operation: CREATE path=/command-parameters
+2020-10-25 22:14:18.929 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:18.929 [main] INFO  mapping.Mapper -       Operation: READ path=/command-parameters/{id}
+2020-10-25 22:14:18.929 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:14:18.929 [main] INFO  mapping.Mapper -       Operation: SCAN path=/command-parameters
+2020-10-25 22:14:18.929 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:18.929 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/command-parameters
+2020-10-25 22:14:18.929 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:14:18.929 [main] INFO  mapping.Mapper -       Operation: DELETE path=/command-parameters/{id}
+2020-10-25 22:14:18.935 [main] INFO  mapping.Mapper - Resource Mapping for /command-responses:
+2020-10-25 22:14:18.935 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:18.935 [main] INFO  mapping.Mapper -       Operation: CREATE path=/command-responses
+2020-10-25 22:14:18.935 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:18.935 [main] INFO  mapping.Mapper -       Operation: READ path=/command-responses/{id}
+2020-10-25 22:14:18.935 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:14:18.935 [main] INFO  mapping.Mapper -       Operation: SCAN path=/command-responses
+2020-10-25 22:14:18.935 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:18.935 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/command-responses
+2020-10-25 22:14:18.935 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:14:18.935 [main] INFO  mapping.Mapper -       Operation: DELETE path=/command-responses/{id}
+2020-10-25 22:14:18.937 [main] INFO  mapping.Mapper - Resource Mapping for /end-users/register:
+2020-10-25 22:14:18.937 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:18.937 [main] INFO  mapping.Mapper -       Operation: CREATE path=/end-users/register
+2020-10-25 22:14:18.937 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:18.937 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:18.937 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:18.937 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:18.937 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:14:18.938 [main] INFO  MatchingTool - Resource Mapping for /devices:
+2020-10-25 22:14:18.938 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=3:
+2020-10-25 22:14:18.938 [main] INFO  MatchingTool -       Operation: CREATE path=/devices
+2020-10-25 22:14:18.938 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=3:
+2020-10-25 22:14:18.938 [main] INFO  MatchingTool -       Operation: READ path=/devices/{id}
+2020-10-25 22:14:18.938 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=3:
+2020-10-25 22:14:18.938 [main] INFO  MatchingTool -       Operation: SCAN path=/devices
+2020-10-25 22:14:18.938 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=3:
+2020-10-25 22:14:18.938 [main] INFO  MatchingTool -       Operation: UPDATE path=/devices
+2020-10-25 22:14:18.938 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=3:
+2020-10-25 22:14:18.938 [main] INFO  MatchingTool -       Operation: DELETE path=/devices/{id}
+2020-10-25 22:14:18.938 [main] INFO  MatchingTool - Resource Mapping for /command-response-parameters:
+2020-10-25 22:14:18.938 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=3:
+2020-10-25 22:14:18.938 [main] INFO  MatchingTool -       Operation: CREATE path=/command-response-parameters
+2020-10-25 22:14:18.938 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=3:
+2020-10-25 22:14:18.938 [main] INFO  MatchingTool -       Operation: READ path=/command-response-parameters/{id}
+2020-10-25 22:14:18.938 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=3:
+2020-10-25 22:14:18.938 [main] INFO  MatchingTool -       Operation: SCAN path=/command-response-parameters
+2020-10-25 22:14:18.938 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=3:
+2020-10-25 22:14:18.938 [main] INFO  MatchingTool -       Operation: UPDATE path=/command-response-parameters
+2020-10-25 22:14:18.938 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=3:
+2020-10-25 22:14:18.938 [main] INFO  MatchingTool -       Operation: DELETE path=/command-response-parameters/{id}
+2020-10-25 22:14:18.939 [main] INFO  MatchingTool - Resource Mapping for /commands:
+2020-10-25 22:14:18.939 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=3:
+2020-10-25 22:14:18.939 [main] INFO  MatchingTool -       Operation: CREATE path=/commands
+2020-10-25 22:14:18.939 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=3:
+2020-10-25 22:14:18.939 [main] INFO  MatchingTool -       Operation: READ path=/commands/{id}
+2020-10-25 22:14:18.939 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=3:
+2020-10-25 22:14:18.939 [main] INFO  MatchingTool -       Operation: SCAN path=/commands
+2020-10-25 22:14:18.939 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=3:
+2020-10-25 22:14:18.939 [main] INFO  MatchingTool -       Operation: UPDATE path=/commands
+2020-10-25 22:14:18.939 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=3:
+2020-10-25 22:14:18.939 [main] INFO  MatchingTool -       Operation: DELETE path=/commands/{id}
+2020-10-25 22:14:18.939 [main] INFO  MatchingTool - Resource Mapping for /end-users:
+2020-10-25 22:14:18.939 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=3:
+2020-10-25 22:14:18.939 [main] INFO  MatchingTool -       Operation: CREATE path=/end-users
+2020-10-25 22:14:18.939 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=3:
+2020-10-25 22:14:18.939 [main] INFO  MatchingTool -       Operation: READ path=/end-users/{id}
+2020-10-25 22:14:18.939 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=3:
+2020-10-25 22:14:18.939 [main] INFO  MatchingTool -       Operation: SCAN path=/end-users
+2020-10-25 22:14:18.939 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=3:
+2020-10-25 22:14:18.939 [main] INFO  MatchingTool -       Operation: UPDATE path=/end-users
+2020-10-25 22:14:18.939 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=3:
+2020-10-25 22:14:18.939 [main] INFO  MatchingTool -       Operation: DELETE path=/end-users/{id}
+2020-10-25 22:14:18.939 [main] INFO  MatchingTool - Resource Mapping for /emergency-contacts:
+2020-10-25 22:14:18.940 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=3:
+2020-10-25 22:14:18.940 [main] INFO  MatchingTool -       Operation: CREATE path=/emergency-contacts
+2020-10-25 22:14:18.940 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=3:
+2020-10-25 22:14:18.940 [main] INFO  MatchingTool -       Operation: READ path=/emergency-contacts/{id}
+2020-10-25 22:14:18.940 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=3:
+2020-10-25 22:14:18.940 [main] INFO  MatchingTool -       Operation: SCAN path=/emergency-contacts
+2020-10-25 22:14:18.940 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=3:
+2020-10-25 22:14:18.940 [main] INFO  MatchingTool -       Operation: UPDATE path=/emergency-contacts
+2020-10-25 22:14:18.940 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=3:
+2020-10-25 22:14:18.940 [main] INFO  MatchingTool -       Operation: DELETE path=/emergency-contacts/{id}
+2020-10-25 22:14:18.940 [main] INFO  MatchingTool - Resource Mapping for /command-parameters:
+2020-10-25 22:14:18.940 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=3:
+2020-10-25 22:14:18.940 [main] INFO  MatchingTool -       Operation: CREATE path=/command-parameters
+2020-10-25 22:14:18.940 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=3:
+2020-10-25 22:14:18.940 [main] INFO  MatchingTool -       Operation: READ path=/command-parameters/{id}
+2020-10-25 22:14:18.940 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=3:
+2020-10-25 22:14:18.940 [main] INFO  MatchingTool -       Operation: SCAN path=/command-parameters
+2020-10-25 22:14:18.940 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=3:
+2020-10-25 22:14:18.940 [main] INFO  MatchingTool -       Operation: UPDATE path=/command-parameters
+2020-10-25 22:14:18.940 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=3:
+2020-10-25 22:14:18.940 [main] INFO  MatchingTool -       Operation: DELETE path=/command-parameters/{id}
+2020-10-25 22:14:18.940 [main] INFO  MatchingTool - Resource Mapping for /command-responses:
+2020-10-25 22:14:18.940 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=3:
+2020-10-25 22:14:18.940 [main] INFO  MatchingTool -       Operation: CREATE path=/command-responses
+2020-10-25 22:14:18.941 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=3:
+2020-10-25 22:14:18.941 [main] INFO  MatchingTool -       Operation: READ path=/command-responses/{id}
+2020-10-25 22:14:18.941 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=3:
+2020-10-25 22:14:18.941 [main] INFO  MatchingTool -       Operation: SCAN path=/command-responses
+2020-10-25 22:14:18.941 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=3:
+2020-10-25 22:14:18.941 [main] INFO  MatchingTool -       Operation: UPDATE path=/command-responses
+2020-10-25 22:14:18.941 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=3:
+2020-10-25 22:14:18.941 [main] INFO  MatchingTool -       Operation: DELETE path=/command-responses/{id}
+2020-10-25 22:14:18.947 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

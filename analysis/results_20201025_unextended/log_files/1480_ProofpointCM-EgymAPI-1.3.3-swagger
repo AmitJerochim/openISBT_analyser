@@ -1,0 +1,73 @@
+Will overwrite mapping file
+2020-10-25 22:17:54.889 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:17:54.890 [main] INFO  mapping.Mapper - -> /session_detail
+2020-10-25 22:17:54.890 [main] INFO  mapping.Mapper - -> /clubs
+2020-10-25 22:17:54.890 [main] INFO  mapping.Mapper - -> /add_member_to_session
+2020-10-25 22:17:54.891 [main] INFO  mapping.Mapper - -> /current_campaign
+2020-10-25 22:17:54.891 [main] INFO  mapping.Mapper - -> /is_session_bookable
+2020-10-25 22:17:54.891 [main] INFO  mapping.Mapper - -> /get_member_schedule
+2020-10-25 22:17:54.891 [main] INFO  mapping.Mapper - -> /remove_member_from_session
+2020-10-25 22:17:54.891 [main] INFO  mapping.Mapper - -> /sessions
+2020-10-25 22:17:54.891 [main] INFO  mapping.Mapper - -> /default_campaign
+2020-10-25 22:17:54.891 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:17:54.895 [main] INFO  mapping.Mapper - Resource Mapping for /session_detail:
+2020-10-25 22:17:54.895 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:54.895 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:54.895 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:54.895 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:54.895 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:54.899 [main] INFO  mapping.Mapper - Resource Mapping for /clubs:
+2020-10-25 22:17:54.899 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:54.899 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:54.899 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:17:54.899 [main] INFO  mapping.Mapper -       Operation: SCAN path=/clubs
+2020-10-25 22:17:54.899 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:54.899 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:54.904 [main] INFO  mapping.Mapper - Resource Mapping for /add_member_to_session:
+2020-10-25 22:17:54.904 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:54.905 [main] INFO  mapping.Mapper -       Operation: CREATE path=/add_member_to_session
+2020-10-25 22:17:54.905 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:54.905 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:54.905 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:54.905 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:54.905 [main] INFO  mapping.Mapper - Resource Mapping for /current_campaign:
+2020-10-25 22:17:54.905 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:54.905 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:54.905 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:54.905 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:54.905 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:54.906 [main] INFO  mapping.Mapper - Resource Mapping for /is_session_bookable:
+2020-10-25 22:17:54.906 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:54.906 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:54.906 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:54.906 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:54.906 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:54.909 [main] INFO  mapping.Mapper - Resource Mapping for /get_member_schedule:
+2020-10-25 22:17:54.909 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:54.909 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:54.909 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:17:54.909 [main] INFO  mapping.Mapper -       Operation: SCAN path=/get_member_schedule
+2020-10-25 22:17:54.909 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:54.909 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:54.912 [main] INFO  mapping.Mapper - Resource Mapping for /remove_member_from_session:
+2020-10-25 22:17:54.913 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:54.913 [main] INFO  mapping.Mapper -       Operation: CREATE path=/remove_member_from_session
+2020-10-25 22:17:54.913 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:54.913 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:54.913 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:54.913 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:54.915 [main] INFO  mapping.Mapper - Resource Mapping for /sessions:
+2020-10-25 22:17:54.915 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:54.915 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:54.916 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:17:54.916 [main] INFO  mapping.Mapper -       Operation: SCAN path=/sessions
+2020-10-25 22:17:54.916 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:54.916 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:54.916 [main] INFO  mapping.Mapper - Resource Mapping for /default_campaign:
+2020-10-25 22:17:54.916 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:54.916 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:54.916 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:54.916 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:54.916 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:54.916 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:17:54.923 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

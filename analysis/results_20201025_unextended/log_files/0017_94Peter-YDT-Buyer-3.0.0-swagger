@@ -1,0 +1,15 @@
+Will overwrite mapping file
+2020-10-25 22:08:34.101 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:08:34.102 [main] INFO  mapping.Mapper - -> /v3/box/confirm
+2020-10-25 22:08:34.102 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:08:34.114 [main] INFO  mapping.Mapper - Resource Mapping for /v3/box/confirm:
+2020-10-25 22:08:34.114 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:08:34.114 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v3/box/confirm
+2020-10-25 22:08:34.114 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:08:34.114 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:08:34.114 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v3/box/confirm
+2020-10-25 22:08:34.115 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:34.115 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:08:34.115 [main] INFO  mapping.Mapper -       Operation: DELETE path=/v3/box/confirm/{ID}
+2020-10-25 22:08:34.115 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:08:34.118 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

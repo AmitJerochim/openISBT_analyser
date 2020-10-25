@@ -1,0 +1,28 @@
+Will overwrite mapping file
+2020-10-25 22:16:25.650 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:16:25.651 [main] INFO  mapping.Mapper - -> /jobs
+2020-10-25 22:16:25.652 [main] INFO  mapping.Mapper - -> /ping
+2020-10-25 22:16:25.652 [main] INFO  mapping.Mapper - -> /clusters
+2020-10-25 22:16:25.652 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:16:25.659 [main] INFO  mapping.Mapper - Resource Mapping for /jobs:
+2020-10-25 22:16:25.659 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:25.659 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:25.660 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:25.660 [main] INFO  mapping.Mapper -       Operation: SCAN path=/jobs/{groupID}
+2020-10-25 22:16:25.660 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:25.660 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:25.660 [main] INFO  mapping.Mapper - Resource Mapping for /ping:
+2020-10-25 22:16:25.660 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:25.660 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:25.660 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:25.660 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:25.660 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:25.663 [main] INFO  mapping.Mapper - Resource Mapping for /clusters:
+2020-10-25 22:16:25.663 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:25.663 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:25.663 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:25.663 [main] INFO  mapping.Mapper -       Operation: SCAN path=/clusters/{groupID}
+2020-10-25 22:16:25.663 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:25.663 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:25.663 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:16:25.668 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

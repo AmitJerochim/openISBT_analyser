@@ -1,0 +1,29 @@
+Will overwrite mapping file
+2020-10-25 22:15:52.103 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:15:52.105 [main] INFO  mapping.Mapper - -> /orders
+2020-10-25 22:15:52.105 [main] INFO  mapping.Mapper - -> /api/cpgops-integrations/retailers/sign-in
+2020-10-25 22:15:52.105 [main] INFO  mapping.Mapper - -> /api/cpgops-integrations/orders/events
+2020-10-25 22:15:52.105 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:15:52.116 [main] INFO  mapping.Mapper - Resource Mapping for /orders:
+2020-10-25 22:15:52.116 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:52.116 [main] INFO  mapping.Mapper -       Operation: CREATE path=/orders
+2020-10-25 22:15:52.116 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:52.116 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:52.116 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:52.116 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:52.120 [main] INFO  mapping.Mapper - Resource Mapping for /api/cpgops-integrations/retailers/sign-in:
+2020-10-25 22:15:52.120 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:52.120 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/cpgops-integrations/retailers/sign-in
+2020-10-25 22:15:52.120 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:52.120 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:52.120 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:52.120 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:52.124 [main] INFO  mapping.Mapper - Resource Mapping for /api/cpgops-integrations/orders/events:
+2020-10-25 22:15:52.124 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:52.124 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/cpgops-integrations/orders/events
+2020-10-25 22:15:52.124 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:52.124 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:52.124 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:52.124 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:52.125 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:15:52.130 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

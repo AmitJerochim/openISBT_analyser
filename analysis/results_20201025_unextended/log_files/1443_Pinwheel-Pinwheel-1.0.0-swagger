@@ -1,0 +1,79 @@
+Will overwrite mapping file
+2020-10-25 22:17:40.475 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:17:40.477 [main] INFO  mapping.Mapper - -> /v1/1099-miscs
+2020-10-25 22:17:40.477 [main] INFO  mapping.Mapper - -> /v1/token
+2020-10-25 22:17:40.477 [main] INFO  mapping.Mapper - -> /v1/w2s
+2020-10-25 22:17:40.477 [main] INFO  mapping.Mapper - -> /v1/link/token
+2020-10-25 22:17:40.477 [main] INFO  mapping.Mapper - -> /v1/paystubs
+2020-10-25 22:17:40.477 [main] INFO  mapping.Mapper - -> /v1/users/me
+2020-10-25 22:17:40.477 [main] INFO  mapping.Mapper - -> /v1/platforms
+2020-10-25 22:17:40.477 [main] INFO  mapping.Mapper - -> /v1/direct-deposit/allocations
+2020-10-25 22:17:40.477 [main] INFO  mapping.Mapper - -> /v1/download
+2020-10-25 22:17:40.477 [main] INFO  mapping.Mapper - -> /v1/direct-deposits
+2020-10-25 22:17:40.477 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:17:40.481 [main] INFO  mapping.Mapper - Resource Mapping for /v1/1099-miscs:
+2020-10-25 22:17:40.481 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:40.481 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:40.481 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:40.481 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:40.481 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:40.487 [main] INFO  mapping.Mapper - Resource Mapping for /v1/token:
+2020-10-25 22:17:40.487 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:40.487 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/token
+2020-10-25 22:17:40.487 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:40.487 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:40.487 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:40.487 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:40.488 [main] INFO  mapping.Mapper - Resource Mapping for /v1/w2s:
+2020-10-25 22:17:40.488 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:40.488 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:40.488 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:40.488 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:40.488 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:40.491 [main] INFO  mapping.Mapper - Resource Mapping for /v1/link/token:
+2020-10-25 22:17:40.492 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:40.492 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/link/token
+2020-10-25 22:17:40.492 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:40.492 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:40.492 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:40.492 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:40.492 [main] INFO  mapping.Mapper - Resource Mapping for /v1/paystubs:
+2020-10-25 22:17:40.492 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:40.492 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:40.492 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:40.492 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:40.492 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:40.493 [main] INFO  mapping.Mapper - Resource Mapping for /v1/users/me:
+2020-10-25 22:17:40.493 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:40.493 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:40.493 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:40.493 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:40.493 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:40.493 [main] INFO  mapping.Mapper - Resource Mapping for /v1/platforms:
+2020-10-25 22:17:40.493 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:40.493 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:40.493 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:40.493 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:40.494 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:40.497 [main] INFO  mapping.Mapper - Resource Mapping for /v1/direct-deposit/allocations:
+2020-10-25 22:17:40.497 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:40.497 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/direct-deposit/allocations
+2020-10-25 22:17:40.497 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:40.497 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:40.497 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:40.497 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:40.497 [main] INFO  mapping.Mapper - Resource Mapping for /v1/download:
+2020-10-25 22:17:40.498 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:40.498 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:40.498 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:40.498 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:40.498 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:40.501 [main] INFO  mapping.Mapper - Resource Mapping for /v1/direct-deposits:
+2020-10-25 22:17:40.501 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:40.501 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/direct-deposits
+2020-10-25 22:17:40.501 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:40.501 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:40.501 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:40.501 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:40.501 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:17:40.507 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,47 @@
+Will overwrite mapping file
+2020-10-25 22:15:35.820 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:15:35.822 [main] INFO  mapping.Mapper - -> /messages
+2020-10-25 22:15:35.822 [main] INFO  mapping.Mapper - -> /users
+2020-10-25 22:15:35.822 [main] INFO  mapping.Mapper - -> /conversations
+2020-10-25 22:15:35.822 [main] INFO  mapping.Mapper - -> /users/signin
+2020-10-25 22:15:35.822 [main] INFO  mapping.Mapper - -> /users/signout
+2020-10-25 22:15:35.822 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:15:35.829 [main] INFO  mapping.Mapper - Resource Mapping for /messages:
+2020-10-25 22:15:35.829 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:35.829 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:35.829 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:35.829 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:35.829 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:15:35.830 [main] INFO  mapping.Mapper -       Operation: DELETE path=/messages/{id}
+2020-10-25 22:15:35.833 [main] INFO  mapping.Mapper - Resource Mapping for /users:
+2020-10-25 22:15:35.833 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:35.833 [main] INFO  mapping.Mapper -       Operation: CREATE path=/users
+2020-10-25 22:15:35.833 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:35.833 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:35.833 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:35.833 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:35.844 [main] INFO  mapping.Mapper - Resource Mapping for /conversations:
+2020-10-25 22:15:35.844 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:35.844 [main] INFO  mapping.Mapper -       Operation: CREATE path=/conversations
+2020-10-25 22:15:35.844 [main] INFO  mapping.Mapper -       Operation: CREATE path=/conversations/{id}
+2020-10-25 22:15:35.844 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:15:35.844 [main] INFO  mapping.Mapper -       Operation: READ path=/conversations/{id}
+2020-10-25 22:15:35.844 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:35.844 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:35.844 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:15:35.844 [main] INFO  mapping.Mapper -       Operation: DELETE path=/conversations/{id}
+2020-10-25 22:15:35.847 [main] INFO  mapping.Mapper - Resource Mapping for /users/signin:
+2020-10-25 22:15:35.848 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:15:35.848 [main] INFO  mapping.Mapper -       Operation: CREATE path=/users/signin
+2020-10-25 22:15:35.848 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:35.848 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:35.848 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:35.848 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:35.848 [main] INFO  mapping.Mapper - Resource Mapping for /users/signout:
+2020-10-25 22:15:35.848 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:15:35.848 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:15:35.848 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:15:35.848 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:15:35.848 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:15:35.849 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:15:35.854 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

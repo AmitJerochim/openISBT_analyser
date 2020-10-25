@@ -1,0 +1,121 @@
+Will overwrite mapping file
+2020-10-25 22:19:41.838 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:19:41.839 [main] INFO  mapping.Mapper - -> /v1/members
+2020-10-25 22:19:41.839 [main] INFO  mapping.Mapper - -> /user/v1/ResetPasswordWithOTP
+2020-10-25 22:19:41.839 [main] INFO  mapping.Mapper - -> /v1/members/1
+2020-10-25 22:19:41.839 [main] INFO  mapping.Mapper - -> /v1/photos/getall
+2020-10-25 22:19:41.839 [main] INFO  mapping.Mapper - -> /v1/auth/me
+2020-10-25 22:19:41.839 [main] INFO  mapping.Mapper - -> /v1/user/forgotpassword
+2020-10-25 22:19:41.839 [main] INFO  mapping.Mapper - -> /v1/user/register
+2020-10-25 22:19:41.839 [main] INFO  mapping.Mapper - -> /v1/members/10
+2020-10-25 22:19:41.839 [main] INFO  mapping.Mapper - -> /v1/policy/agentdetails
+2020-10-25 22:19:41.839 [main] INFO  mapping.Mapper - -> /v1/photos/user/uploadBinaryImage
+2020-10-25 22:19:41.839 [main] INFO  mapping.Mapper - -> /v1/auth/login
+2020-10-25 22:19:41.840 [main] INFO  mapping.Mapper - -> /v1/members/relation
+2020-10-25 22:19:41.840 [main] INFO  mapping.Mapper - -> /v1/photos/user/profilephoto
+2020-10-25 22:19:41.840 [main] INFO  mapping.Mapper - -> /v1/photos/user/upload
+2020-10-25 22:19:41.840 [main] INFO  mapping.Mapper - -> /v1/user/ResetPassword
+2020-10-25 22:19:41.840 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:19:41.848 [main] INFO  mapping.Mapper - Resource Mapping for /v1/members:
+2020-10-25 22:19:41.848 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:41.848 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/members
+2020-10-25 22:19:41.848 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:41.848 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:41.848 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:41.848 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:41.852 [main] INFO  mapping.Mapper - Resource Mapping for /user/v1/ResetPasswordWithOTP:
+2020-10-25 22:19:41.852 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:41.852 [main] INFO  mapping.Mapper -       Operation: CREATE path=/user/v1/ResetPasswordWithOTP
+2020-10-25 22:19:41.852 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:41.852 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:41.852 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:41.852 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:41.855 [main] INFO  mapping.Mapper - Resource Mapping for /v1/members/1:
+2020-10-25 22:19:41.855 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:41.855 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:41.855 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:41.855 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:19:41.855 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/v1/members/1
+2020-10-25 22:19:41.855 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:41.856 [main] INFO  mapping.Mapper - Resource Mapping for /v1/photos/getall:
+2020-10-25 22:19:41.856 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:41.856 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:41.856 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:41.856 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:41.856 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:41.858 [main] INFO  mapping.Mapper - Resource Mapping for /v1/auth/me:
+2020-10-25 22:19:41.858 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:41.858 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/auth/me
+2020-10-25 22:19:41.858 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:41.858 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:41.858 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:41.858 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:41.861 [main] INFO  mapping.Mapper - Resource Mapping for /v1/user/forgotpassword:
+2020-10-25 22:19:41.861 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:41.861 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/user/forgotpassword
+2020-10-25 22:19:41.861 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:41.861 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:41.861 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:41.861 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:41.864 [main] INFO  mapping.Mapper - Resource Mapping for /v1/user/register:
+2020-10-25 22:19:41.864 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:41.864 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/user/register
+2020-10-25 22:19:41.865 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:41.865 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:41.865 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:41.865 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:41.867 [main] INFO  mapping.Mapper - Resource Mapping for /v1/members/10:
+2020-10-25 22:19:41.867 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:41.867 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:41.867 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:41.867 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:41.867 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:19:41.867 [main] INFO  mapping.Mapper -       Operation: DELETE path=/v1/members/10
+2020-10-25 22:19:41.867 [main] INFO  mapping.Mapper - Resource Mapping for /v1/policy/agentdetails:
+2020-10-25 22:19:41.867 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:41.867 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:41.867 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:41.867 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:41.867 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:41.871 [main] INFO  mapping.Mapper - Resource Mapping for /v1/photos/user/uploadBinaryImage:
+2020-10-25 22:19:41.871 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:41.871 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/photos/user/uploadBinaryImage
+2020-10-25 22:19:41.871 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:41.871 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:41.871 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:41.871 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:41.873 [main] INFO  mapping.Mapper - Resource Mapping for /v1/auth/login:
+2020-10-25 22:19:41.874 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:41.874 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/auth/login
+2020-10-25 22:19:41.874 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:41.874 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:41.874 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:41.874 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:41.874 [main] INFO  mapping.Mapper - Resource Mapping for /v1/members/relation:
+2020-10-25 22:19:41.874 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:41.874 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:41.874 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:41.874 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:41.874 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:41.875 [main] INFO  mapping.Mapper - Resource Mapping for /v1/photos/user/profilephoto:
+2020-10-25 22:19:41.875 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:41.875 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:41.875 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:41.875 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:41.875 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:41.877 [main] INFO  mapping.Mapper - Resource Mapping for /v1/photos/user/upload:
+2020-10-25 22:19:41.878 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:41.878 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/photos/user/upload
+2020-10-25 22:19:41.878 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:41.878 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:41.878 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:41.878 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:41.881 [main] INFO  mapping.Mapper - Resource Mapping for /v1/user/ResetPassword:
+2020-10-25 22:19:41.881 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:41.881 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/user/ResetPassword
+2020-10-25 22:19:41.881 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:41.881 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:41.881 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:41.881 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:41.881 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:19:41.889 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,47 @@
+Will overwrite mapping file
+2020-10-25 22:17:56.671 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:17:56.673 [main] INFO  mapping.Mapper - -> /cbre_api/reply
+2020-10-25 22:17:56.673 [main] INFO  mapping.Mapper - -> /rest/task
+2020-10-25 22:17:56.673 [main] INFO  mapping.Mapper - -> /rest/login
+2020-10-25 22:17:56.673 [main] INFO  mapping.Mapper - -> /rest/reply
+2020-10-25 22:17:56.673 [main] INFO  mapping.Mapper - -> /cbre_api/status
+2020-10-25 22:17:56.673 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:17:56.682 [main] INFO  mapping.Mapper - Resource Mapping for /cbre_api/reply:
+2020-10-25 22:17:56.682 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:56.682 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cbre_api/reply
+2020-10-25 22:17:56.682 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:56.682 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:56.682 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:56.682 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:56.695 [main] INFO  mapping.Mapper - Resource Mapping for /rest/task:
+2020-10-25 22:17:56.695 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:56.695 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/task
+2020-10-25 22:17:56.695 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:56.695 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:56.695 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:17:56.695 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/rest/task/{task_id}
+2020-10-25 22:17:56.695 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:17:56.695 [main] INFO  mapping.Mapper -       Operation: DELETE path=/rest/task/{task_id}
+2020-10-25 22:17:56.699 [main] INFO  mapping.Mapper - Resource Mapping for /rest/login:
+2020-10-25 22:17:56.699 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:56.699 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/login
+2020-10-25 22:17:56.699 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:56.699 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:56.699 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:56.699 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:56.704 [main] INFO  mapping.Mapper - Resource Mapping for /rest/reply:
+2020-10-25 22:17:56.704 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:17:56.704 [main] INFO  mapping.Mapper -       Operation: CREATE path=/rest/reply
+2020-10-25 22:17:56.704 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:56.704 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:56.704 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:17:56.704 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:56.708 [main] INFO  mapping.Mapper - Resource Mapping for /cbre_api/status:
+2020-10-25 22:17:56.709 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:17:56.709 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:17:56.709 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:17:56.709 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:17:56.709 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/cbre_api/status/{task_id}
+2020-10-25 22:17:56.709 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:17:56.709 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:17:56.717 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

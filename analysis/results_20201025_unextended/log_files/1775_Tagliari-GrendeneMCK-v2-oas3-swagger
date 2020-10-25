@@ -1,0 +1,44 @@
+Will overwrite mapping file
+2020-10-25 22:19:43.173 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:19:43.174 [main] INFO  mapping.Mapper - -> /homeBackground
+2020-10-25 22:19:43.174 [main] INFO  mapping.Mapper - -> /frame
+2020-10-25 22:19:43.174 [main] INFO  mapping.Mapper - -> /models
+2020-10-25 22:19:43.174 [main] INFO  mapping.Mapper - -> /colors
+2020-10-25 22:19:43.174 [main] INFO  mapping.Mapper - -> /brands
+2020-10-25 22:19:43.174 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:19:43.178 [main] INFO  mapping.Mapper - Resource Mapping for /homeBackground:
+2020-10-25 22:19:43.178 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:43.178 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:43.178 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:43.178 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:43.178 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:43.185 [main] INFO  mapping.Mapper - Resource Mapping for /frame:
+2020-10-25 22:19:43.186 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:43.186 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:43.186 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:19:43.186 [main] INFO  mapping.Mapper -       Operation: SCAN path=/frame
+2020-10-25 22:19:43.186 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:43.186 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:43.190 [main] INFO  mapping.Mapper - Resource Mapping for /models:
+2020-10-25 22:19:43.190 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:43.190 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:43.190 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:19:43.190 [main] INFO  mapping.Mapper -       Operation: SCAN path=/models
+2020-10-25 22:19:43.190 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:43.190 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:43.193 [main] INFO  mapping.Mapper - Resource Mapping for /colors:
+2020-10-25 22:19:43.194 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:43.194 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:43.194 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:19:43.194 [main] INFO  mapping.Mapper -       Operation: SCAN path=/colors
+2020-10-25 22:19:43.194 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:43.194 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:43.197 [main] INFO  mapping.Mapper - Resource Mapping for /brands:
+2020-10-25 22:19:43.197 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:43.197 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:43.197 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:19:43.197 [main] INFO  mapping.Mapper -       Operation: SCAN path=/brands
+2020-10-25 22:19:43.197 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:43.197 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:43.197 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:19:43.203 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

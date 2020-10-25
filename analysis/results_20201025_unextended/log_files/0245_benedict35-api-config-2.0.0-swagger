@@ -1,0 +1,51 @@
+Will overwrite mapping file
+2020-10-25 22:10:30.209 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:10:30.210 [main] INFO  mapping.Mapper - -> /project
+2020-10-25 22:10:30.210 [main] INFO  mapping.Mapper - -> /menu
+2020-10-25 22:10:30.210 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:10:30.226 [main] INFO  mapping.Mapper - Resource Mapping for /project:
+2020-10-25 22:10:30.226 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:30.226 [main] INFO  mapping.Mapper -       Operation: CREATE path=/project
+2020-10-25 22:10:30.226 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:10:30.227 [main] INFO  mapping.Mapper -       Operation: READ path=/project/{code}
+2020-10-25 22:10:30.227 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:10:30.227 [main] INFO  mapping.Mapper -       Operation: SCAN path=/project
+2020-10-25 22:10:30.227 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:10:30.227 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/project/{code}
+2020-10-25 22:10:30.227 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:10:30.227 [main] INFO  mapping.Mapper -       Operation: DELETE path=/project/{code}
+2020-10-25 22:10:30.238 [main] INFO  mapping.Mapper - Resource Mapping for /menu:
+2020-10-25 22:10:30.238 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:30.238 [main] INFO  mapping.Mapper -       Operation: CREATE path=/menu
+2020-10-25 22:10:30.238 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:10:30.238 [main] INFO  mapping.Mapper -       Operation: READ path=/menu/{id}
+2020-10-25 22:10:30.238 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:10:30.238 [main] INFO  mapping.Mapper -       Operation: SCAN path=/menu
+2020-10-25 22:10:30.238 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:10:30.238 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/menu/{id}
+2020-10-25 22:10:30.238 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:10:30.238 [main] INFO  mapping.Mapper -       Operation: DELETE path=/menu/{id}
+2020-10-25 22:10:30.238 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:10:30.238 [main] INFO  MatchingTool - Resource Mapping for /project:
+2020-10-25 22:10:30.239 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=10:
+2020-10-25 22:10:30.239 [main] INFO  MatchingTool -       Operation: CREATE path=/project
+2020-10-25 22:10:30.239 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=10:
+2020-10-25 22:10:30.239 [main] INFO  MatchingTool -       Operation: READ path=/project/{code}
+2020-10-25 22:10:30.239 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=10:
+2020-10-25 22:10:30.239 [main] INFO  MatchingTool -       Operation: SCAN path=/project
+2020-10-25 22:10:30.239 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=10:
+2020-10-25 22:10:30.239 [main] INFO  MatchingTool -       Operation: UPDATE path=/project/{code}
+2020-10-25 22:10:30.239 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=10:
+2020-10-25 22:10:30.239 [main] INFO  MatchingTool -       Operation: DELETE path=/project/{code}
+2020-10-25 22:10:30.239 [main] INFO  MatchingTool - Resource Mapping for /menu:
+2020-10-25 22:10:30.239 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=10:
+2020-10-25 22:10:30.239 [main] INFO  MatchingTool -       Operation: CREATE path=/menu
+2020-10-25 22:10:30.239 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=10:
+2020-10-25 22:10:30.239 [main] INFO  MatchingTool -       Operation: READ path=/menu/{id}
+2020-10-25 22:10:30.239 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=10:
+2020-10-25 22:10:30.239 [main] INFO  MatchingTool -       Operation: SCAN path=/menu
+2020-10-25 22:10:30.239 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=10:
+2020-10-25 22:10:30.239 [main] INFO  MatchingTool -       Operation: UPDATE path=/menu/{id}
+2020-10-25 22:10:30.239 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=10:
+2020-10-25 22:10:30.240 [main] INFO  MatchingTool -       Operation: DELETE path=/menu/{id}
+2020-10-25 22:10:30.244 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

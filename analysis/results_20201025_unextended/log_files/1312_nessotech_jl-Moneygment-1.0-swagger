@@ -1,0 +1,344 @@
+Will overwrite mapping file
+2020-10-25 22:16:49.161 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:16:49.163 [main] INFO  mapping.Mapper - -> /webapi/sss/realestate
+2020-10-25 22:16:49.163 [main] INFO  mapping.Mapper - -> /webapi/wallet/transactions
+2020-10-25 22:16:49.163 [main] INFO  mapping.Mapper - -> /webapi/sms/otp
+2020-10-25 22:16:49.163 [main] INFO  mapping.Mapper - -> /webapi/sms/otp/validate
+2020-10-25 22:16:49.163 [main] INFO  mapping.Mapper - -> /webapi/personal/main
+2020-10-25 22:16:49.163 [main] INFO  mapping.Mapper - -> /webapi/personal/inactive
+2020-10-25 22:16:49.163 [main] INFO  mapping.Mapper - -> /webapi/philhealth
+2020-10-25 22:16:49.163 [main] INFO  mapping.Mapper - -> /webapi/auth/refreshToken
+2020-10-25 22:16:49.163 [main] INFO  mapping.Mapper - -> /webapi/pagibig
+2020-10-25 22:16:49.163 [main] INFO  mapping.Mapper - -> /webapi/sss/salaryloan
+2020-10-25 22:16:49.164 [main] INFO  mapping.Mapper - -> /webapi/wallet
+2020-10-25 22:16:49.164 [main] INFO  mapping.Mapper - -> /webapi/level/userlevel
+2020-10-25 22:16:49.164 [main] INFO  mapping.Mapper - -> /webapi/level/requestlevel
+2020-10-25 22:16:49.164 [main] INFO  mapping.Mapper - -> /webapi/personal/deactivate
+2020-10-25 22:16:49.164 [main] INFO  mapping.Mapper - -> /webapi/pagibig/validate
+2020-10-25 22:16:49.164 [main] INFO  mapping.Mapper - -> /webapi/wallet/limit
+2020-10-25 22:16:49.164 [main] INFO  mapping.Mapper - -> /webapi/sss/prn/requestSSSPRN
+2020-10-25 22:16:49.164 [main] INFO  mapping.Mapper - -> /webapi/wallet/topup
+2020-10-25 22:16:49.164 [main] INFO  mapping.Mapper - -> /webapi/sms/email/otp
+2020-10-25 22:16:49.164 [main] INFO  mapping.Mapper - -> /webapi/personal/activate
+2020-10-25 22:16:49.164 [main] INFO  mapping.Mapper - -> /webapi/government
+2020-10-25 22:16:49.164 [main] INFO  mapping.Mapper - -> /webapi/partner/fees
+2020-10-25 22:16:49.164 [main] INFO  mapping.Mapper - -> /webapi/government/account
+2020-10-25 22:16:49.164 [main] INFO  mapping.Mapper - -> /webapi/pagibig/employer/validate
+2020-10-25 22:16:49.164 [main] INFO  mapping.Mapper - -> /webapi/wallet/cashout/route
+2020-10-25 22:16:49.164 [main] INFO  mapping.Mapper - -> /webapi/packages/services
+2020-10-25 22:16:49.164 [main] INFO  mapping.Mapper - -> /webapi/sss/prn/inquireStatusSSSPRN
+2020-10-25 22:16:49.165 [main] INFO  mapping.Mapper - -> /webapi/level/requestlevel/upload
+2020-10-25 22:16:49.165 [main] INFO  mapping.Mapper - -> /webapi/wallet/account
+2020-10-25 22:16:49.165 [main] INFO  mapping.Mapper - -> /webapi/sss/contribution
+2020-10-25 22:16:49.165 [main] INFO  mapping.Mapper - -> /webapi/support/module/config
+2020-10-25 22:16:49.165 [main] INFO  mapping.Mapper - -> /webapi/sss/prn/inquireEmployerSSSPRN
+2020-10-25 22:16:49.165 [main] INFO  mapping.Mapper - -> /webapi/verifyaccesstoken
+2020-10-25 22:16:49.165 [main] INFO  mapping.Mapper - -> /webapi/wallet/history
+2020-10-25 22:16:49.165 [main] INFO  mapping.Mapper - -> /webapi/wallet/transfer
+2020-10-25 22:16:49.165 [main] INFO  mapping.Mapper - -> /webapi/notification/notifications
+2020-10-25 22:16:49.165 [main] INFO  mapping.Mapper - -> /webapi/packages
+2020-10-25 22:16:49.165 [main] INFO  mapping.Mapper - -> /webapi/user
+2020-10-25 22:16:49.165 [main] INFO  mapping.Mapper - -> /webapi/packages/all
+2020-10-25 22:16:49.165 [main] INFO  mapping.Mapper - -> /webapi/personal
+2020-10-25 22:16:49.165 [main] INFO  mapping.Mapper - -> /webapi/packages/name
+2020-10-25 22:16:49.165 [main] INFO  mapping.Mapper - -> /webapi/personal/active
+2020-10-25 22:16:49.165 [main] INFO  mapping.Mapper - -> /webapi/wallet/cashout
+2020-10-25 22:16:49.165 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:16:49.179 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/sss/realestate:
+2020-10-25 22:16:49.179 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:49.179 [main] INFO  mapping.Mapper -       Operation: CREATE path=/webapi/sss/realestate
+2020-10-25 22:16:49.179 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.179 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:49.179 [main] INFO  mapping.Mapper -       Operation: SCAN path=/webapi/sss/realestate
+2020-10-25 22:16:49.179 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.179 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.182 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/wallet/transactions:
+2020-10-25 22:16:49.182 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.182 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.182 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:49.182 [main] INFO  mapping.Mapper -       Operation: SCAN path=/webapi/wallet/transactions
+2020-10-25 22:16:49.182 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.182 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.185 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/sms/otp:
+2020-10-25 22:16:49.185 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:49.185 [main] INFO  mapping.Mapper -       Operation: CREATE path=/webapi/sms/otp
+2020-10-25 22:16:49.185 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.185 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.185 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.185 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.188 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/sms/otp/validate:
+2020-10-25 22:16:49.188 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.188 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.188 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.188 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:16:49.188 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/webapi/sms/otp/validate
+2020-10-25 22:16:49.188 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.189 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/personal/main:
+2020-10-25 22:16:49.189 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.189 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.189 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.189 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.189 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.191 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/personal/inactive:
+2020-10-25 22:16:49.191 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.191 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.191 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:49.192 [main] INFO  mapping.Mapper -       Operation: SCAN path=/webapi/personal/inactive
+2020-10-25 22:16:49.192 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.192 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.196 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/philhealth:
+2020-10-25 22:16:49.197 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:49.197 [main] INFO  mapping.Mapper -       Operation: CREATE path=/webapi/philhealth
+2020-10-25 22:16:49.197 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.197 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:49.197 [main] INFO  mapping.Mapper -       Operation: SCAN path=/webapi/philhealth
+2020-10-25 22:16:49.197 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.197 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.198 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/auth/refreshToken:
+2020-10-25 22:16:49.198 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.198 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.198 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.198 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.198 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.202 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/pagibig:
+2020-10-25 22:16:49.202 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:49.203 [main] INFO  mapping.Mapper -       Operation: CREATE path=/webapi/pagibig
+2020-10-25 22:16:49.203 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.203 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:49.203 [main] INFO  mapping.Mapper -       Operation: SCAN path=/webapi/pagibig
+2020-10-25 22:16:49.203 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.203 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.218 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/sss/salaryloan:
+2020-10-25 22:16:49.218 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:49.218 [main] INFO  mapping.Mapper -       Operation: CREATE path=/webapi/sss/salaryloan
+2020-10-25 22:16:49.218 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.218 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:49.218 [main] INFO  mapping.Mapper -       Operation: SCAN path=/webapi/sss/salaryloan
+2020-10-25 22:16:49.218 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.218 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.219 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/wallet:
+2020-10-25 22:16:49.219 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.219 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.219 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.219 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.219 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.222 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/level/userlevel:
+2020-10-25 22:16:49.222 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.222 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:49.222 [main] INFO  mapping.Mapper -       Operation: READ path=/webapi/level/userlevel/{useraccountId}
+2020-10-25 22:16:49.222 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.223 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.223 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.226 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/level/requestlevel:
+2020-10-25 22:16:49.226 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.226 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.226 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.226 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:16:49.226 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/webapi/level/requestlevel
+2020-10-25 22:16:49.227 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.229 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/personal/deactivate:
+2020-10-25 22:16:49.229 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.229 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.229 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:49.229 [main] INFO  mapping.Mapper -       Operation: SCAN path=/webapi/personal/deactivate
+2020-10-25 22:16:49.229 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.230 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.232 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/pagibig/validate:
+2020-10-25 22:16:49.232 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:49.232 [main] INFO  mapping.Mapper -       Operation: CREATE path=/webapi/pagibig/validate
+2020-10-25 22:16:49.232 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.232 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.232 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.232 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.233 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/wallet/limit:
+2020-10-25 22:16:49.233 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.233 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.234 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.234 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.234 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.238 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/sss/prn/requestSSSPRN:
+2020-10-25 22:16:49.238 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:49.238 [main] INFO  mapping.Mapper -       Operation: CREATE path=/webapi/sss/prn/requestSSSPRN
+2020-10-25 22:16:49.238 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.238 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.238 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.238 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.242 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/wallet/topup:
+2020-10-25 22:16:49.242 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:49.243 [main] INFO  mapping.Mapper -       Operation: CREATE path=/webapi/wallet/topup
+2020-10-25 22:16:49.243 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.243 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.243 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.243 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.245 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/sms/email/otp:
+2020-10-25 22:16:49.245 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:49.245 [main] INFO  mapping.Mapper -       Operation: CREATE path=/webapi/sms/email/otp
+2020-10-25 22:16:49.245 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.245 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.245 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.245 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.247 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/personal/activate:
+2020-10-25 22:16:49.247 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.247 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.247 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:49.247 [main] INFO  mapping.Mapper -       Operation: SCAN path=/webapi/personal/activate
+2020-10-25 22:16:49.247 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.247 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.249 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/government:
+2020-10-25 22:16:49.249 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.249 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.249 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:49.249 [main] INFO  mapping.Mapper -       Operation: SCAN path=/webapi/government
+2020-10-25 22:16:49.249 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.249 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.251 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/partner/fees:
+2020-10-25 22:16:49.251 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.251 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.251 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:49.251 [main] INFO  mapping.Mapper -       Operation: SCAN path=/webapi/partner/fees
+2020-10-25 22:16:49.251 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.252 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.256 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/government/account:
+2020-10-25 22:16:49.256 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:49.256 [main] INFO  mapping.Mapper -       Operation: CREATE path=/webapi/government/account
+2020-10-25 22:16:49.257 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.257 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.257 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:16:49.257 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/webapi/government/account
+2020-10-25 22:16:49.257 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.257 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/pagibig/employer/validate:
+2020-10-25 22:16:49.257 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.257 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.257 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.257 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.258 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.258 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/wallet/cashout/route:
+2020-10-25 22:16:49.258 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.258 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.258 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.258 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.258 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.260 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/packages/services:
+2020-10-25 22:16:49.261 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.261 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.261 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:49.261 [main] INFO  mapping.Mapper -       Operation: SCAN path=/webapi/packages/services
+2020-10-25 22:16:49.261 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.261 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.262 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/sss/prn/inquireStatusSSSPRN:
+2020-10-25 22:16:49.262 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.262 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.262 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.262 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.262 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.265 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/level/requestlevel/upload:
+2020-10-25 22:16:49.265 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.265 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.265 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.265 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:16:49.265 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/webapi/level/requestlevel/upload
+2020-10-25 22:16:49.265 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.265 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/wallet/account:
+2020-10-25 22:16:49.266 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.266 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.266 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.266 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.266 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.269 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/sss/contribution:
+2020-10-25 22:16:49.269 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:49.269 [main] INFO  mapping.Mapper -       Operation: CREATE path=/webapi/sss/contribution
+2020-10-25 22:16:49.269 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.269 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:49.269 [main] INFO  mapping.Mapper -       Operation: SCAN path=/webapi/sss/contribution
+2020-10-25 22:16:49.269 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.269 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.269 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/support/module/config:
+2020-10-25 22:16:49.269 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.269 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.270 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.270 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.270 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.270 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/sss/prn/inquireEmployerSSSPRN:
+2020-10-25 22:16:49.270 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.270 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.270 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.270 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.270 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.270 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/verifyaccesstoken:
+2020-10-25 22:16:49.270 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.270 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.271 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.271 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.271 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.271 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/wallet/history:
+2020-10-25 22:16:49.271 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.271 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.271 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.271 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.271 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.273 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/wallet/transfer:
+2020-10-25 22:16:49.273 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:49.273 [main] INFO  mapping.Mapper -       Operation: CREATE path=/webapi/wallet/transfer
+2020-10-25 22:16:49.273 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.273 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.273 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.273 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.274 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/notification/notifications:
+2020-10-25 22:16:49.274 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.274 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.274 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:49.274 [main] INFO  mapping.Mapper -       Operation: SCAN path=/webapi/notification/notifications
+2020-10-25 22:16:49.274 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.274 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.274 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/packages:
+2020-10-25 22:16:49.275 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.275 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.275 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.275 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.275 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.278 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/user:
+2020-10-25 22:16:49.278 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:49.278 [main] INFO  mapping.Mapper -       Operation: CREATE path=/webapi/user
+2020-10-25 22:16:49.278 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.278 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.278 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:16:49.278 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/webapi/user
+2020-10-25 22:16:49.278 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.279 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/packages/all:
+2020-10-25 22:16:49.279 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.279 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.279 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:49.279 [main] INFO  mapping.Mapper -       Operation: SCAN path=/webapi/packages/all
+2020-10-25 22:16:49.279 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.279 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.285 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/personal:
+2020-10-25 22:16:49.286 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:49.286 [main] INFO  mapping.Mapper -       Operation: CREATE path=/webapi/personal
+2020-10-25 22:16:49.286 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.286 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:49.286 [main] INFO  mapping.Mapper -       Operation: SCAN path=/webapi/personal
+2020-10-25 22:16:49.286 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:16:49.286 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/webapi/personal
+2020-10-25 22:16:49.286 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.286 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/packages/name:
+2020-10-25 22:16:49.286 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.286 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.286 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.286 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.286 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.287 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/personal/active:
+2020-10-25 22:16:49.288 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:49.288 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.288 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:49.288 [main] INFO  mapping.Mapper -       Operation: SCAN path=/webapi/personal/active
+2020-10-25 22:16:49.288 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.288 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.290 [main] INFO  mapping.Mapper - Resource Mapping for /webapi/wallet/cashout:
+2020-10-25 22:16:49.290 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:49.290 [main] INFO  mapping.Mapper -       Operation: CREATE path=/webapi/wallet/cashout
+2020-10-25 22:16:49.290 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:49.290 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:49.290 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:49.290 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:49.290 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:16:49.309 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

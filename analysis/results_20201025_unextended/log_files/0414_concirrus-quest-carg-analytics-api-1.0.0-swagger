@@ -1,0 +1,70 @@
+Will overwrite mapping file
+2020-10-25 22:11:29.144 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:11:29.146 [main] INFO  mapping.Mapper - -> /claims/top
+2020-10-25 22:11:29.146 [main] INFO  mapping.Mapper - -> /accounts
+2020-10-25 22:11:29.146 [main] INFO  mapping.Mapper - -> /portfolio/profitability/targets
+2020-10-25 22:11:29.146 [main] INFO  mapping.Mapper - -> /portfolio/profitability/loss-ratio-graph
+2020-10-25 22:11:29.146 [main] INFO  mapping.Mapper - -> /dashboard/summary
+2020-10-25 22:11:29.146 [main] INFO  mapping.Mapper - -> /claims
+2020-10-25 22:11:29.146 [main] INFO  mapping.Mapper - -> /dashboard/top-storage-exposure
+2020-10-25 22:11:29.146 [main] INFO  mapping.Mapper - -> /dashboard/loss-ratio
+2020-10-25 22:11:29.146 [main] INFO  mapping.Mapper - -> /dashboard/upcoming-renewal
+2020-10-25 22:11:29.146 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:11:29.155 [main] INFO  mapping.Mapper - Resource Mapping for /claims/top:
+2020-10-25 22:11:29.155 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:29.155 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:29.155 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:29.155 [main] INFO  mapping.Mapper -       Operation: SCAN path=/claims/top
+2020-10-25 22:11:29.155 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:29.155 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:29.156 [main] INFO  mapping.Mapper - Resource Mapping for /accounts:
+2020-10-25 22:11:29.156 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:29.156 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:29.156 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:29.156 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:29.156 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:29.156 [main] INFO  mapping.Mapper - Resource Mapping for /portfolio/profitability/targets:
+2020-10-25 22:11:29.156 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:29.156 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:29.156 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:29.156 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:29.156 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:29.157 [main] INFO  mapping.Mapper - Resource Mapping for /portfolio/profitability/loss-ratio-graph:
+2020-10-25 22:11:29.157 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:29.157 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:29.157 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:29.157 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:29.157 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:29.157 [main] INFO  mapping.Mapper - Resource Mapping for /dashboard/summary:
+2020-10-25 22:11:29.158 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:29.158 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:29.158 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:29.158 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:29.158 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:29.158 [main] INFO  mapping.Mapper - Resource Mapping for /claims:
+2020-10-25 22:11:29.158 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:29.158 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:29.158 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:29.158 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:29.158 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:29.159 [main] INFO  mapping.Mapper - Resource Mapping for /dashboard/top-storage-exposure:
+2020-10-25 22:11:29.159 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:29.159 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:29.159 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:29.159 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:29.159 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:29.159 [main] INFO  mapping.Mapper - Resource Mapping for /dashboard/loss-ratio:
+2020-10-25 22:11:29.159 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:29.159 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:29.159 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:29.159 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:29.159 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:29.162 [main] INFO  mapping.Mapper - Resource Mapping for /dashboard/upcoming-renewal:
+2020-10-25 22:11:29.162 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:29.162 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:29.162 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:11:29.162 [main] INFO  mapping.Mapper -       Operation: SCAN path=/dashboard/upcoming-renewal
+2020-10-25 22:11:29.162 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:29.162 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:29.162 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:11:29.168 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

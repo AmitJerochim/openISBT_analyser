@@ -1,0 +1,29 @@
+Will overwrite mapping file
+2020-10-25 22:14:36.316 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:14:36.318 [main] INFO  mapping.Mapper - -> /v2/buildings
+2020-10-25 22:14:36.318 [main] INFO  mapping.Mapper - -> /v1/auth/tokenwithrefresh
+2020-10-25 22:14:36.318 [main] INFO  mapping.Mapper - -> /v1/access_management_braxos/building
+2020-10-25 22:14:36.318 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:14:36.331 [main] INFO  mapping.Mapper - Resource Mapping for /v2/buildings:
+2020-10-25 22:14:36.331 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:36.331 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:36.331 [main] INFO  mapping.Mapper -       Operation: READ path=/v2/buildings/{id}
+2020-10-25 22:14:36.331 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:14:36.331 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v2/buildings
+2020-10-25 22:14:36.331 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:36.331 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:36.334 [main] INFO  mapping.Mapper - Resource Mapping for /v1/auth/tokenwithrefresh:
+2020-10-25 22:14:36.334 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:36.334 [main] INFO  mapping.Mapper -       Operation: CREATE path=/v1/auth/tokenwithrefresh
+2020-10-25 22:14:36.334 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:36.334 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:36.334 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:36.334 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:36.334 [main] INFO  mapping.Mapper - Resource Mapping for /v1/access_management_braxos/building:
+2020-10-25 22:14:36.334 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:36.334 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:36.334 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:36.334 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:36.335 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:36.335 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:14:36.340 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

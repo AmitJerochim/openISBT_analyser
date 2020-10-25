@@ -1,0 +1,70 @@
+Will overwrite mapping file
+2020-10-25 22:08:45.516 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:08:45.517 [main] INFO  mapping.Mapper - -> /v3/info/release_versions
+2020-10-25 22:08:45.517 [main] INFO  mapping.Mapper - -> /v3/assets/feature_releases
+2020-10-25 22:08:45.517 [main] INFO  mapping.Mapper - -> /v3/assets/latest
+2020-10-25 22:08:45.517 [main] INFO  mapping.Mapper - -> /v3/binary/latest
+2020-10-25 22:08:45.517 [main] INFO  mapping.Mapper - -> /v3/info/release_names
+2020-10-25 22:08:45.517 [main] INFO  mapping.Mapper - -> /v3/info/available_releases
+2020-10-25 22:08:45.517 [main] INFO  mapping.Mapper - -> /v3/version
+2020-10-25 22:08:45.517 [main] INFO  mapping.Mapper - -> /v3/binary/version
+2020-10-25 22:08:45.517 [main] INFO  mapping.Mapper - -> /v3/assets/version
+2020-10-25 22:08:45.517 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:08:45.521 [main] INFO  mapping.Mapper - Resource Mapping for /v3/info/release_versions:
+2020-10-25 22:08:45.521 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:08:45.521 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:08:45.521 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:45.521 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:45.521 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:45.522 [main] INFO  mapping.Mapper - Resource Mapping for /v3/assets/feature_releases:
+2020-10-25 22:08:45.522 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:08:45.522 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:08:45.522 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:45.522 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:45.522 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:45.522 [main] INFO  mapping.Mapper - Resource Mapping for /v3/assets/latest:
+2020-10-25 22:08:45.522 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:08:45.522 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:08:45.522 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:45.522 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:45.522 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:45.523 [main] INFO  mapping.Mapper - Resource Mapping for /v3/binary/latest:
+2020-10-25 22:08:45.523 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:08:45.523 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:08:45.523 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:45.523 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:45.523 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:45.523 [main] INFO  mapping.Mapper - Resource Mapping for /v3/info/release_names:
+2020-10-25 22:08:45.523 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:08:45.523 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:08:45.523 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:45.523 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:45.523 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:45.524 [main] INFO  mapping.Mapper - Resource Mapping for /v3/info/available_releases:
+2020-10-25 22:08:45.524 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:08:45.524 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:08:45.524 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:45.524 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:45.524 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:45.528 [main] INFO  mapping.Mapper - Resource Mapping for /v3/version:
+2020-10-25 22:08:45.528 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:08:45.528 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:08:45.528 [main] INFO  mapping.Mapper -       Operation: READ path=/v3/version/{version}
+2020-10-25 22:08:45.528 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:45.528 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:45.528 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:45.529 [main] INFO  mapping.Mapper - Resource Mapping for /v3/binary/version:
+2020-10-25 22:08:45.529 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:08:45.529 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:08:45.529 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:08:45.529 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:45.529 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:45.538 [main] INFO  mapping.Mapper - Resource Mapping for /v3/assets/version:
+2020-10-25 22:08:45.538 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:08:45.538 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:08:45.538 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:08:45.538 [main] INFO  mapping.Mapper -       Operation: SCAN path=/v3/assets/version/{version}
+2020-10-25 22:08:45.539 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:08:45.539 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:08:45.539 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:08:45.544 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

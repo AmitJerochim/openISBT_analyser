@@ -1,0 +1,53 @@
+Will overwrite mapping file
+2020-10-25 22:14:01.863 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:14:01.864 [main] INFO  mapping.Mapper - -> /api/rpc/consent.consent.edit
+2020-10-25 22:14:01.864 [main] INFO  mapping.Mapper - -> /api/rpc/subject.dataSubject.setup
+2020-10-25 22:14:01.864 [main] INFO  mapping.Mapper - -> /api/rpc/consent.consent.fetch
+2020-10-25 22:14:01.864 [main] INFO  mapping.Mapper - -> /api/rpc/subject.dataSubject.add
+2020-10-25 22:14:01.864 [main] INFO  mapping.Mapper - -> /api/rpc/consent.consent.add
+2020-10-25 22:14:01.864 [main] INFO  mapping.Mapper - -> /health
+2020-10-25 22:14:01.864 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:14:01.873 [main] INFO  mapping.Mapper - Resource Mapping for /api/rpc/consent.consent.edit:
+2020-10-25 22:14:01.873 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:01.873 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/rpc/consent.consent.edit
+2020-10-25 22:14:01.873 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:01.873 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:01.873 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:01.874 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:01.878 [main] INFO  mapping.Mapper - Resource Mapping for /api/rpc/subject.dataSubject.setup:
+2020-10-25 22:14:01.878 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:01.878 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/rpc/subject.dataSubject.setup
+2020-10-25 22:14:01.878 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:01.878 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:01.878 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:01.878 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:01.882 [main] INFO  mapping.Mapper - Resource Mapping for /api/rpc/consent.consent.fetch:
+2020-10-25 22:14:01.882 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:01.882 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/rpc/consent.consent.fetch
+2020-10-25 22:14:01.882 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:01.882 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:01.882 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:01.882 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:01.885 [main] INFO  mapping.Mapper - Resource Mapping for /api/rpc/subject.dataSubject.add:
+2020-10-25 22:14:01.885 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:01.885 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/rpc/subject.dataSubject.add
+2020-10-25 22:14:01.885 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:01.885 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:01.885 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:01.886 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:01.889 [main] INFO  mapping.Mapper - Resource Mapping for /api/rpc/consent.consent.add:
+2020-10-25 22:14:01.889 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:01.889 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/rpc/consent.consent.add
+2020-10-25 22:14:01.889 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:01.889 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:01.889 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:01.889 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:01.892 [main] INFO  mapping.Mapper - Resource Mapping for /health:
+2020-10-25 22:14:01.892 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:01.892 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:01.892 [main] INFO  mapping.Mapper -       Operation: READ path=/health/{tenant}
+2020-10-25 22:14:01.892 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:01.892 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:01.892 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:01.892 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:14:01.897 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

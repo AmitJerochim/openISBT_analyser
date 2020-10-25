@@ -1,0 +1,46 @@
+Will overwrite mapping file
+2020-10-25 22:10:16.317 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:10:16.318 [main] INFO  mapping.Mapper - -> /tickets
+2020-10-25 22:10:16.318 [main] INFO  mapping.Mapper - -> /dashboard/_search
+2020-10-25 22:10:16.318 [main] INFO  mapping.Mapper - -> /tickets/_search
+2020-10-25 22:10:16.318 [main] INFO  mapping.Mapper - -> /filters/_search
+2020-10-25 22:10:16.319 [main] INFO  mapping.Mapper - -> /metrics
+2020-10-25 22:10:16.319 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:10:16.326 [main] INFO  mapping.Mapper - Resource Mapping for /tickets:
+2020-10-25 22:10:16.326 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:16.326 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:10:16.326 [main] INFO  mapping.Mapper -       Operation: READ path=/tickets/{id}
+2020-10-25 22:10:16.326 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:16.327 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:16.327 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:16.330 [main] INFO  mapping.Mapper - Resource Mapping for /dashboard/_search:
+2020-10-25 22:10:16.331 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:16.331 [main] INFO  mapping.Mapper -       Operation: CREATE path=/dashboard/_search
+2020-10-25 22:10:16.331 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:16.331 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:16.331 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:16.331 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:16.335 [main] INFO  mapping.Mapper - Resource Mapping for /tickets/_search:
+2020-10-25 22:10:16.335 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:16.335 [main] INFO  mapping.Mapper -       Operation: CREATE path=/tickets/_search
+2020-10-25 22:10:16.335 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:16.336 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:16.336 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:16.336 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:16.339 [main] INFO  mapping.Mapper - Resource Mapping for /filters/_search:
+2020-10-25 22:10:16.339 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:16.339 [main] INFO  mapping.Mapper -       Operation: CREATE path=/filters/_search
+2020-10-25 22:10:16.339 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:16.340 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:16.340 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:16.340 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:16.345 [main] INFO  mapping.Mapper - Resource Mapping for /metrics:
+2020-10-25 22:10:16.345 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:10:16.345 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:10:16.345 [main] INFO  mapping.Mapper -       Operation: READ path=/metrics/{id}
+2020-10-25 22:10:16.345 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:10:16.345 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:10:16.345 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/metrics
+2020-10-25 22:10:16.345 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:16.345 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:10:16.350 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,15 @@
+Will overwrite mapping file
+2020-10-25 22:10:36.003 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:10:36.005 [main] INFO  mapping.Mapper - -> /employees
+2020-10-25 22:10:36.005 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:10:36.018 [main] INFO  mapping.Mapper - Resource Mapping for /employees:
+2020-10-25 22:10:36.018 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:10:36.018 [main] INFO  mapping.Mapper -       Operation: CREATE path=/employees
+2020-10-25 22:10:36.018 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:10:36.019 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:10:36.019 [main] INFO  mapping.Mapper -       Operation: SCAN path=/employees/{id}
+2020-10-25 22:10:36.019 [main] INFO  mapping.Mapper -       Operation: SCAN path=/employees
+2020-10-25 22:10:36.019 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:10:36.019 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:10:36.019 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:10:36.023 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

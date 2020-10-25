@@ -1,0 +1,131 @@
+Will overwrite mapping file
+2020-10-25 22:14:02.869 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:14:02.870 [main] INFO  mapping.Mapper - -> /api/Employee_V4
+2020-10-25 22:14:02.871 [main] INFO  mapping.Mapper - -> /api/Shops_V4/api/Shops
+2020-10-25 22:14:02.871 [main] INFO  mapping.Mapper - -> /api/Files_V4
+2020-10-25 22:14:02.871 [main] INFO  mapping.Mapper - -> /api/SecuredEmployee_V4
+2020-10-25 22:14:02.871 [main] INFO  mapping.Mapper - -> /api/Shops_V4
+2020-10-25 22:14:02.871 [main] INFO  mapping.Mapper - -> /api/Coffees_V4
+2020-10-25 22:14:02.871 [main] INFO  mapping.Mapper - -> /api/Profiles_V4/api/Profiles
+2020-10-25 22:14:02.871 [main] INFO  mapping.Mapper - -> /api/Profiles_V4
+2020-10-25 22:14:02.871 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:14:02.882 [main] INFO  mapping.Mapper - Resource Mapping for /api/Employee_V4:
+2020-10-25 22:14:02.883 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:02.883 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:02.883 [main] INFO  mapping.Mapper -       Operation: READ path=/api/Employee_V4/{id}
+2020-10-25 22:14:02.883 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:14:02.883 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/Employee_V4
+2020-10-25 22:14:02.883 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:02.883 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/Employee_V4
+2020-10-25 22:14:02.883 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:02.883 [main] INFO  mapping.Mapper - Resource Mapping for /api/Shops_V4/api/Shops:
+2020-10-25 22:14:02.883 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:02.883 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:02.883 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:02.884 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:02.884 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:02.893 [main] INFO  mapping.Mapper - Resource Mapping for /api/Files_V4:
+2020-10-25 22:14:02.893 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:02.893 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/Files_V4
+2020-10-25 22:14:02.893 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:02.893 [main] INFO  mapping.Mapper -       Operation: READ path=/api/Files_V4/{id}
+2020-10-25 22:14:02.894 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:14:02.894 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/Files_V4
+2020-10-25 22:14:02.894 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:02.894 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/Files_V4
+2020-10-25 22:14:02.894 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:14:02.894 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/Files_V4/{id}
+2020-10-25 22:14:02.899 [main] INFO  mapping.Mapper - Resource Mapping for /api/SecuredEmployee_V4:
+2020-10-25 22:14:02.899 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:02.899 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:02.899 [main] INFO  mapping.Mapper -       Operation: READ path=/api/SecuredEmployee_V4/{id}
+2020-10-25 22:14:02.899 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:14:02.899 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/SecuredEmployee_V4
+2020-10-25 22:14:02.899 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:02.899 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/SecuredEmployee_V4
+2020-10-25 22:14:02.899 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:02.906 [main] INFO  mapping.Mapper - Resource Mapping for /api/Shops_V4:
+2020-10-25 22:14:02.906 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:02.906 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/Shops_V4
+2020-10-25 22:14:02.907 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:02.907 [main] INFO  mapping.Mapper -       Operation: READ path=/api/Shops_V4/{id}
+2020-10-25 22:14:02.907 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:14:02.907 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/Shops_V4
+2020-10-25 22:14:02.907 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:02.907 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/Shops_V4
+2020-10-25 22:14:02.907 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:14:02.907 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/Shops_V4/{id}
+2020-10-25 22:14:02.913 [main] INFO  mapping.Mapper - Resource Mapping for /api/Coffees_V4:
+2020-10-25 22:14:02.913 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:02.913 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/Coffees_V4
+2020-10-25 22:14:02.913 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:02.913 [main] INFO  mapping.Mapper -       Operation: READ path=/api/Coffees_V4/{id}
+2020-10-25 22:14:02.913 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:14:02.913 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/Coffees_V4
+2020-10-25 22:14:02.913 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:02.913 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/Coffees_V4
+2020-10-25 22:14:02.914 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:14:02.914 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/Coffees_V4/{id}
+2020-10-25 22:14:02.914 [main] INFO  mapping.Mapper - Resource Mapping for /api/Profiles_V4/api/Profiles:
+2020-10-25 22:14:02.914 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:02.914 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:02.914 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:02.914 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:02.914 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:02.920 [main] INFO  mapping.Mapper - Resource Mapping for /api/Profiles_V4:
+2020-10-25 22:14:02.920 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:02.920 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/Profiles_V4
+2020-10-25 22:14:02.920 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:14:02.920 [main] INFO  mapping.Mapper -       Operation: READ path=/api/Profiles_V4/{profileID}
+2020-10-25 22:14:02.921 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:14:02.921 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/Profiles_V4
+2020-10-25 22:14:02.921 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:02.921 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/Profiles_V4
+2020-10-25 22:14:02.921 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:14:02.921 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/Profiles_V4/{profileID}
+2020-10-25 22:14:02.921 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:14:02.921 [main] INFO  MatchingTool - Resource Mapping for /api/Files_V4:
+2020-10-25 22:14:02.921 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=5:
+2020-10-25 22:14:02.921 [main] INFO  MatchingTool -       Operation: CREATE path=/api/Files_V4
+2020-10-25 22:14:02.921 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=5:
+2020-10-25 22:14:02.921 [main] INFO  MatchingTool -       Operation: READ path=/api/Files_V4/{id}
+2020-10-25 22:14:02.921 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=5:
+2020-10-25 22:14:02.921 [main] INFO  MatchingTool -       Operation: SCAN path=/api/Files_V4
+2020-10-25 22:14:02.922 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=5:
+2020-10-25 22:14:02.922 [main] INFO  MatchingTool -       Operation: UPDATE path=/api/Files_V4
+2020-10-25 22:14:02.922 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=5:
+2020-10-25 22:14:02.922 [main] INFO  MatchingTool -       Operation: DELETE path=/api/Files_V4/{id}
+2020-10-25 22:14:02.922 [main] INFO  MatchingTool - Resource Mapping for /api/Shops_V4:
+2020-10-25 22:14:02.922 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=5:
+2020-10-25 22:14:02.922 [main] INFO  MatchingTool -       Operation: CREATE path=/api/Shops_V4
+2020-10-25 22:14:02.922 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=5:
+2020-10-25 22:14:02.922 [main] INFO  MatchingTool -       Operation: READ path=/api/Shops_V4/{id}
+2020-10-25 22:14:02.922 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=5:
+2020-10-25 22:14:02.922 [main] INFO  MatchingTool -       Operation: SCAN path=/api/Shops_V4
+2020-10-25 22:14:02.922 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=5:
+2020-10-25 22:14:02.922 [main] INFO  MatchingTool -       Operation: UPDATE path=/api/Shops_V4
+2020-10-25 22:14:02.922 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=5:
+2020-10-25 22:14:02.922 [main] INFO  MatchingTool -       Operation: DELETE path=/api/Shops_V4/{id}
+2020-10-25 22:14:02.922 [main] INFO  MatchingTool - Resource Mapping for /api/Coffees_V4:
+2020-10-25 22:14:02.922 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=5:
+2020-10-25 22:14:02.922 [main] INFO  MatchingTool -       Operation: CREATE path=/api/Coffees_V4
+2020-10-25 22:14:02.922 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=5:
+2020-10-25 22:14:02.922 [main] INFO  MatchingTool -       Operation: READ path=/api/Coffees_V4/{id}
+2020-10-25 22:14:02.922 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=5:
+2020-10-25 22:14:02.922 [main] INFO  MatchingTool -       Operation: SCAN path=/api/Coffees_V4
+2020-10-25 22:14:02.922 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=5:
+2020-10-25 22:14:02.922 [main] INFO  MatchingTool -       Operation: UPDATE path=/api/Coffees_V4
+2020-10-25 22:14:02.923 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=5:
+2020-10-25 22:14:02.923 [main] INFO  MatchingTool -       Operation: DELETE path=/api/Coffees_V4/{id}
+2020-10-25 22:14:02.923 [main] INFO  MatchingTool - Resource Mapping for /api/Profiles_V4:
+2020-10-25 22:14:02.923 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=5:
+2020-10-25 22:14:02.923 [main] INFO  MatchingTool -       Operation: CREATE path=/api/Profiles_V4
+2020-10-25 22:14:02.923 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=5:
+2020-10-25 22:14:02.923 [main] INFO  MatchingTool -       Operation: READ path=/api/Profiles_V4/{profileID}
+2020-10-25 22:14:02.923 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=5:
+2020-10-25 22:14:02.923 [main] INFO  MatchingTool -       Operation: SCAN path=/api/Profiles_V4
+2020-10-25 22:14:02.923 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=5:
+2020-10-25 22:14:02.923 [main] INFO  MatchingTool -       Operation: UPDATE path=/api/Profiles_V4
+2020-10-25 22:14:02.923 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=5:
+2020-10-25 22:14:02.923 [main] INFO  MatchingTool -       Operation: DELETE path=/api/Profiles_V4/{profileID}
+2020-10-25 22:14:02.929 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

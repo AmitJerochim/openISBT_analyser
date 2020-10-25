@@ -1,0 +1,53 @@
+Will overwrite mapping file
+2020-10-25 22:11:04.653 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:11:04.654 [main] INFO  mapping.Mapper - -> /granule
+2020-10-25 22:11:04.654 [main] INFO  mapping.Mapper - -> /flattened-granule
+2020-10-25 22:11:04.654 [main] INFO  mapping.Mapper - -> /search/flattened-granule
+2020-10-25 22:11:04.654 [main] INFO  mapping.Mapper - -> /search/collection
+2020-10-25 22:11:04.654 [main] INFO  mapping.Mapper - -> /collection
+2020-10-25 22:11:04.654 [main] INFO  mapping.Mapper - -> /search/granule
+2020-10-25 22:11:04.655 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:11:04.662 [main] INFO  mapping.Mapper - Resource Mapping for /granule:
+2020-10-25 22:11:04.662 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:04.662 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:04.662 [main] INFO  mapping.Mapper -       Operation: READ path=/granule/{id}
+2020-10-25 22:11:04.662 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:04.662 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:04.662 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:04.664 [main] INFO  mapping.Mapper - Resource Mapping for /flattened-granule:
+2020-10-25 22:11:04.665 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:04.665 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:04.665 [main] INFO  mapping.Mapper -       Operation: READ path=/flattened-granule/{id}
+2020-10-25 22:11:04.665 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:04.665 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:04.665 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:04.669 [main] INFO  mapping.Mapper - Resource Mapping for /search/flattened-granule:
+2020-10-25 22:11:04.669 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:04.669 [main] INFO  mapping.Mapper -       Operation: CREATE path=/search/flattened-granule
+2020-10-25 22:11:04.669 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:04.669 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:04.669 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:04.669 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:04.672 [main] INFO  mapping.Mapper - Resource Mapping for /search/collection:
+2020-10-25 22:11:04.672 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:04.672 [main] INFO  mapping.Mapper -       Operation: CREATE path=/search/collection
+2020-10-25 22:11:04.672 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:04.673 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:04.673 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:04.673 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:04.675 [main] INFO  mapping.Mapper - Resource Mapping for /collection:
+2020-10-25 22:11:04.675 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:04.675 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:04.675 [main] INFO  mapping.Mapper -       Operation: READ path=/collection/{id}
+2020-10-25 22:11:04.676 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:04.676 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:04.676 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:04.679 [main] INFO  mapping.Mapper - Resource Mapping for /search/granule:
+2020-10-25 22:11:04.679 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:04.679 [main] INFO  mapping.Mapper -       Operation: CREATE path=/search/granule
+2020-10-25 22:11:04.679 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:04.679 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:04.679 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:04.679 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:04.680 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:11:04.686 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

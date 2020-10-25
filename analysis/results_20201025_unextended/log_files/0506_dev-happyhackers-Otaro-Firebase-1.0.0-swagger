@@ -1,0 +1,59 @@
+Will overwrite mapping file
+2020-10-25 22:11:57.848 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:11:57.850 [main] INFO  mapping.Mapper - -> /resources/quizzes
+2020-10-25 22:11:57.850 [main] INFO  mapping.Mapper - -> /resources/quiz_sessions
+2020-10-25 22:11:57.850 [main] INFO  mapping.Mapper - -> /scripts/devscripts/authentication/
+2020-10-25 22:11:57.850 [main] INFO  mapping.Mapper - -> /resources/questions
+2020-10-25 22:11:57.850 [main] INFO  mapping.Mapper - -> /scripts/devscripts/cloudmessage
+2020-10-25 22:11:57.850 [main] INFO  mapping.Mapper - -> /scripts/devscripts/helloworld/
+2020-10-25 22:11:57.850 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:11:57.867 [main] INFO  mapping.Mapper - Resource Mapping for /resources/quizzes:
+2020-10-25 22:11:57.868 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:57.868 [main] INFO  mapping.Mapper -       Operation: CREATE path=/resources/quizzes
+2020-10-25 22:11:57.868 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:57.868 [main] INFO  mapping.Mapper -       Operation: READ path=/resources/quizzes/{id}
+2020-10-25 22:11:57.868 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:57.868 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:11:57.868 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/resources/quizzes/{id}
+2020-10-25 22:11:57.868 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:11:57.868 [main] INFO  mapping.Mapper -       Operation: DELETE path=/resources/quizzes/{id}
+2020-10-25 22:11:57.877 [main] INFO  mapping.Mapper - Resource Mapping for /resources/quiz_sessions:
+2020-10-25 22:11:57.877 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:57.877 [main] INFO  mapping.Mapper -       Operation: CREATE path=/resources/quiz_sessions
+2020-10-25 22:11:57.878 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:57.878 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:57.878 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:11:57.878 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/resources/quiz_sessions/{id}
+2020-10-25 22:11:57.878 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:11:57.878 [main] INFO  mapping.Mapper -       Operation: DELETE path=/resources/quiz_sessions/{id}
+2020-10-25 22:11:57.878 [main] INFO  mapping.Mapper - Resource Mapping for /scripts/devscripts/authentication/:
+2020-10-25 22:11:57.878 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:57.878 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:57.878 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:57.878 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:57.878 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:57.889 [main] INFO  mapping.Mapper - Resource Mapping for /resources/questions:
+2020-10-25 22:11:57.889 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:57.889 [main] INFO  mapping.Mapper -       Operation: CREATE path=/resources/questions
+2020-10-25 22:11:57.889 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:11:57.889 [main] INFO  mapping.Mapper -       Operation: READ path=/resources/questions/{id}
+2020-10-25 22:11:57.889 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:57.889 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:11:57.889 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/resources/questions/{id}
+2020-10-25 22:11:57.889 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:11:57.889 [main] INFO  mapping.Mapper -       Operation: DELETE path=/resources/questions/{id}
+2020-10-25 22:11:57.891 [main] INFO  mapping.Mapper - Resource Mapping for /scripts/devscripts/cloudmessage:
+2020-10-25 22:11:57.891 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:11:57.892 [main] INFO  mapping.Mapper -       Operation: CREATE path=/scripts/devscripts/cloudmessage/{receivertoken}
+2020-10-25 22:11:57.892 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:57.892 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:57.892 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:57.892 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:57.892 [main] INFO  mapping.Mapper - Resource Mapping for /scripts/devscripts/helloworld/:
+2020-10-25 22:11:57.892 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:11:57.892 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:11:57.892 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:11:57.892 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:11:57.892 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:11:57.892 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:11:57.899 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

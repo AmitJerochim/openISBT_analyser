@@ -1,0 +1,52 @@
+Will overwrite mapping file
+2020-10-25 22:21:15.838 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:21:15.839 [main] INFO  mapping.Mapper - -> /authenticate
+2020-10-25 22:21:15.839 [main] INFO  mapping.Mapper - -> /cashback/rescue
+2020-10-25 22:21:15.839 [main] INFO  mapping.Mapper - -> /cashback/money
+2020-10-25 22:21:15.839 [main] INFO  mapping.Mapper - -> /health
+2020-10-25 22:21:15.840 [main] INFO  mapping.Mapper - -> /cashback
+2020-10-25 22:21:15.840 [main] INFO  mapping.Mapper - -> /cashback/credit
+2020-10-25 22:21:15.840 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:21:15.851 [main] INFO  mapping.Mapper - Resource Mapping for /authenticate:
+2020-10-25 22:21:15.851 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:21:15.851 [main] INFO  mapping.Mapper -       Operation: CREATE path=/authenticate
+2020-10-25 22:21:15.851 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:15.852 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:15.852 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:15.852 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:15.858 [main] INFO  mapping.Mapper - Resource Mapping for /cashback/rescue:
+2020-10-25 22:21:15.858 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:21:15.858 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cashback/rescue
+2020-10-25 22:21:15.858 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:15.858 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:15.858 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:15.858 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:15.864 [main] INFO  mapping.Mapper - Resource Mapping for /cashback/money:
+2020-10-25 22:21:15.864 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:21:15.864 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cashback/money
+2020-10-25 22:21:15.864 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:15.864 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:15.865 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:15.865 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:15.866 [main] INFO  mapping.Mapper - Resource Mapping for /health:
+2020-10-25 22:21:15.866 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:15.866 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:15.866 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:15.866 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:15.866 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:15.871 [main] INFO  mapping.Mapper - Resource Mapping for /cashback:
+2020-10-25 22:21:15.871 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:15.871 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:15.871 [main] INFO  mapping.Mapper -       Operation: READ path=/cashback/{cpf}
+2020-10-25 22:21:15.871 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:15.871 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:15.871 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:15.877 [main] INFO  mapping.Mapper - Resource Mapping for /cashback/credit:
+2020-10-25 22:21:15.877 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:21:15.877 [main] INFO  mapping.Mapper -       Operation: CREATE path=/cashback/credit
+2020-10-25 22:21:15.877 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:15.877 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:15.877 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:15.877 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:15.878 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:21:15.883 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

@@ -1,0 +1,126 @@
+Will overwrite mapping file
+2020-10-25 22:16:17.309 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:16:17.310 [main] INFO  mapping.Mapper - -> /broker/party
+2020-10-25 22:16:17.311 [main] INFO  mapping.Mapper - -> /tpdpackage
+2020-10-25 22:16:17.311 [main] INFO  mapping.Mapper - -> /orderresponse
+2020-10-25 22:16:17.311 [main] INFO  mapping.Mapper - -> /quotationresponse
+2020-10-25 22:16:17.311 [main] INFO  mapping.Mapper - -> /bom
+2020-10-25 22:16:17.311 [main] INFO  mapping.Mapper - -> /forecast
+2020-10-25 22:16:17.311 [main] INFO  mapping.Mapper - -> /whatif
+2020-10-25 22:16:17.311 [main] INFO  mapping.Mapper - -> /orderstatus
+2020-10-25 22:16:17.311 [main] INFO  mapping.Mapper - -> /quotation
+2020-10-25 22:16:17.311 [main] INFO  mapping.Mapper - -> /invoice
+2020-10-25 22:16:17.311 [main] INFO  mapping.Mapper - -> /despatchadvice
+2020-10-25 22:16:17.311 [main] INFO  mapping.Mapper - -> /whatifresponse
+2020-10-25 22:16:17.311 [main] INFO  mapping.Mapper - -> /order
+2020-10-25 22:16:17.311 [main] INFO  mapping.Mapper - -> /file
+2020-10-25 22:16:17.311 [main] INFO  mapping.Mapper - -> /measurement
+2020-10-25 22:16:17.311 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:16:17.320 [main] INFO  mapping.Mapper - Resource Mapping for /broker/party:
+2020-10-25 22:16:17.320 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:17.320 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:17.320 [main] INFO  mapping.Mapper -       Operation: READ path=/broker/party/{PartyIdentification}
+2020-10-25 22:16:17.320 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:17.320 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:17.320 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:17.325 [main] INFO  mapping.Mapper - Resource Mapping for /tpdpackage:
+2020-10-25 22:16:17.325 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:17.325 [main] INFO  mapping.Mapper -       Operation: CREATE path=/tpdpackage
+2020-10-25 22:16:17.325 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:17.325 [main] INFO  mapping.Mapper -       Operation: READ path=/tpdpackage/{tpdId}
+2020-10-25 22:16:17.325 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:17.325 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:17.325 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:17.327 [main] INFO  mapping.Mapper - Resource Mapping for /orderresponse:
+2020-10-25 22:16:17.327 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:17.327 [main] INFO  mapping.Mapper -       Operation: CREATE path=/orderresponse
+2020-10-25 22:16:17.327 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:17.327 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:17.327 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:17.327 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:17.329 [main] INFO  mapping.Mapper - Resource Mapping for /quotationresponse:
+2020-10-25 22:16:17.329 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:17.329 [main] INFO  mapping.Mapper -       Operation: CREATE path=/quotationresponse
+2020-10-25 22:16:17.329 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:17.329 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:17.329 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:17.329 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:17.331 [main] INFO  mapping.Mapper - Resource Mapping for /bom:
+2020-10-25 22:16:17.331 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:17.331 [main] INFO  mapping.Mapper -       Operation: CREATE path=/bom
+2020-10-25 22:16:17.331 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:17.331 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:17.331 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:17.332 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:17.333 [main] INFO  mapping.Mapper - Resource Mapping for /forecast:
+2020-10-25 22:16:17.333 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:17.333 [main] INFO  mapping.Mapper -       Operation: CREATE path=/forecast
+2020-10-25 22:16:17.333 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:17.334 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:17.334 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:17.334 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:17.335 [main] INFO  mapping.Mapper - Resource Mapping for /whatif:
+2020-10-25 22:16:17.336 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:17.336 [main] INFO  mapping.Mapper -       Operation: CREATE path=/whatif
+2020-10-25 22:16:17.336 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:17.336 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:17.336 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:17.336 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:17.337 [main] INFO  mapping.Mapper - Resource Mapping for /orderstatus:
+2020-10-25 22:16:17.338 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:17.338 [main] INFO  mapping.Mapper -       Operation: CREATE path=/orderstatus
+2020-10-25 22:16:17.338 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:17.338 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:17.338 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:17.338 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:17.340 [main] INFO  mapping.Mapper - Resource Mapping for /quotation:
+2020-10-25 22:16:17.340 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:17.340 [main] INFO  mapping.Mapper -       Operation: CREATE path=/quotation
+2020-10-25 22:16:17.340 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:17.340 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:17.340 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:17.340 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:17.352 [main] INFO  mapping.Mapper - Resource Mapping for /invoice:
+2020-10-25 22:16:17.352 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:17.352 [main] INFO  mapping.Mapper -       Operation: CREATE path=/invoice
+2020-10-25 22:16:17.352 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:17.352 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:17.352 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:17.352 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:17.354 [main] INFO  mapping.Mapper - Resource Mapping for /despatchadvice:
+2020-10-25 22:16:17.354 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:17.354 [main] INFO  mapping.Mapper -       Operation: CREATE path=/despatchadvice
+2020-10-25 22:16:17.354 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:17.354 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:17.354 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:17.354 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:17.355 [main] INFO  mapping.Mapper - Resource Mapping for /whatifresponse:
+2020-10-25 22:16:17.356 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:17.356 [main] INFO  mapping.Mapper -       Operation: CREATE path=/whatifresponse
+2020-10-25 22:16:17.356 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:17.356 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:17.356 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:17.356 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:17.357 [main] INFO  mapping.Mapper - Resource Mapping for /order:
+2020-10-25 22:16:17.357 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:17.357 [main] INFO  mapping.Mapper -       Operation: CREATE path=/order
+2020-10-25 22:16:17.357 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:17.357 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:17.358 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:17.358 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:17.359 [main] INFO  mapping.Mapper - Resource Mapping for /file:
+2020-10-25 22:16:17.360 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:17.360 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:17.360 [main] INFO  mapping.Mapper -       Operation: READ path=/file/{filename}
+2020-10-25 22:16:17.360 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:17.360 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:17.360 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:17.361 [main] INFO  mapping.Mapper - Resource Mapping for /measurement:
+2020-10-25 22:16:17.361 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:17.361 [main] INFO  mapping.Mapper -       Operation: CREATE path=/measurement
+2020-10-25 22:16:17.361 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:17.361 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:17.362 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:17.362 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:17.362 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:16:17.368 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

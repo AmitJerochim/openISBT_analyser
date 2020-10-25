@@ -1,0 +1,259 @@
+Will overwrite mapping file
+2020-10-25 22:21:41.464 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:21:41.466 [main] INFO  mapping.Mapper - -> /gr/statsracejockey
+2020-10-25 22:21:41.466 [main] INFO  mapping.Mapper - -> /en/changesdeletions
+2020-10-25 22:21:41.466 [main] INFO  mapping.Mapper - -> /en/statsracetrainer
+2020-10-25 22:21:41.466 [main] INFO  mapping.Mapper - -> /en/meeting/id
+2020-10-25 22:21:41.466 [main] INFO  mapping.Mapper - -> /en/race
+2020-10-25 22:21:41.466 [main] INFO  mapping.Mapper - -> /en/racecards
+2020-10-25 22:21:41.466 [main] INFO  mapping.Mapper - -> /en/statsjockeys
+2020-10-25 22:21:41.466 [main] INFO  mapping.Mapper - -> /en/statstrainers
+2020-10-25 22:21:41.466 [main] INFO  mapping.Mapper - -> /en
+2020-10-25 22:21:41.466 [main] INFO  mapping.Mapper - -> /gr/statstrainers
+2020-10-25 22:21:41.466 [main] INFO  mapping.Mapper - -> /en/meeting
+2020-10-25 22:21:41.466 [main] INFO  mapping.Mapper - -> /gr/changesdeletions
+2020-10-25 22:21:41.466 [main] INFO  mapping.Mapper - -> /gr/race
+2020-10-25 22:21:41.466 [main] INFO  mapping.Mapper - -> /gr/statshorses
+2020-10-25 22:21:41.466 [main] INFO  mapping.Mapper - -> /en/statsracejockey
+2020-10-25 22:21:41.467 [main] INFO  mapping.Mapper - -> /gr/racecards
+2020-10-25 22:21:41.467 [main] INFO  mapping.Mapper - -> /en/statshorses
+2020-10-25 22:21:41.467 [main] INFO  mapping.Mapper - -> /gr
+2020-10-25 22:21:41.467 [main] INFO  mapping.Mapper - -> /en/changesdeletions/id
+2020-10-25 22:21:41.467 [main] INFO  mapping.Mapper - -> /en/race/id
+2020-10-25 22:21:41.467 [main] INFO  mapping.Mapper - -> /gr/statsowners
+2020-10-25 22:21:41.467 [main] INFO  mapping.Mapper - -> /en/search
+2020-10-25 22:21:41.467 [main] INFO  mapping.Mapper - -> /gr/changesdeletions/id
+2020-10-25 22:21:41.467 [main] INFO  mapping.Mapper - -> /gr/horse/id
+2020-10-25 22:21:41.467 [main] INFO  mapping.Mapper - -> /statsdistance
+2020-10-25 22:21:41.467 [main] INFO  mapping.Mapper - -> /gr/meeting/id
+2020-10-25 22:21:41.467 [main] INFO  mapping.Mapper - -> /gr/meeting
+2020-10-25 22:21:41.467 [main] INFO  mapping.Mapper - -> /gr/race/id
+2020-10-25 22:21:41.467 [main] INFO  mapping.Mapper - -> /gr/search
+2020-10-25 22:21:41.467 [main] INFO  mapping.Mapper - -> /en/statsowners
+2020-10-25 22:21:41.467 [main] INFO  mapping.Mapper - -> /gr/statsracetrainer
+2020-10-25 22:21:41.467 [main] INFO  mapping.Mapper - -> /gr/statsjockeys
+2020-10-25 22:21:41.467 [main] INFO  mapping.Mapper - -> /en/horse/id
+2020-10-25 22:21:41.467 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:21:41.471 [main] INFO  mapping.Mapper - Resource Mapping for /gr/statsracejockey:
+2020-10-25 22:21:41.471 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.471 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:41.471 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.471 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.472 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.476 [main] INFO  mapping.Mapper - Resource Mapping for /en/changesdeletions:
+2020-10-25 22:21:41.476 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.476 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:41.486 [main] INFO  mapping.Mapper -       Operation: READ path=/en/changesdeletions/{date}
+2020-10-25 22:21:41.487 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.487 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.487 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.488 [main] INFO  mapping.Mapper - Resource Mapping for /en/statsracetrainer:
+2020-10-25 22:21:41.488 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.488 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:41.488 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.488 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.488 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.490 [main] INFO  mapping.Mapper - Resource Mapping for /en/meeting/id:
+2020-10-25 22:21:41.490 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.490 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:41.490 [main] INFO  mapping.Mapper -       Operation: READ path=/en/meeting/id/{id}
+2020-10-25 22:21:41.491 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.491 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.491 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.491 [main] INFO  mapping.Mapper - Resource Mapping for /en/race:
+2020-10-25 22:21:41.491 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.491 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:41.491 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.492 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.492 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.492 [main] INFO  mapping.Mapper - Resource Mapping for /en/racecards:
+2020-10-25 22:21:41.492 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.492 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:41.492 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.492 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.493 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.494 [main] INFO  mapping.Mapper - Resource Mapping for /en/statsjockeys:
+2020-10-25 22:21:41.494 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.495 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:41.495 [main] INFO  mapping.Mapper -       Operation: READ path=/en/statsjockeys/{year}
+2020-10-25 22:21:41.495 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.495 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.495 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.497 [main] INFO  mapping.Mapper - Resource Mapping for /en/statstrainers:
+2020-10-25 22:21:41.498 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.498 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:41.498 [main] INFO  mapping.Mapper -       Operation: READ path=/en/statstrainers/{year}
+2020-10-25 22:21:41.498 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.498 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.498 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.499 [main] INFO  mapping.Mapper - Resource Mapping for /en:
+2020-10-25 22:21:41.499 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.499 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:41.499 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.499 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.499 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.501 [main] INFO  mapping.Mapper - Resource Mapping for /gr/statstrainers:
+2020-10-25 22:21:41.502 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.502 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:41.502 [main] INFO  mapping.Mapper -       Operation: READ path=/gr/statstrainers/{year}
+2020-10-25 22:21:41.502 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.502 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.502 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.505 [main] INFO  mapping.Mapper - Resource Mapping for /en/meeting:
+2020-10-25 22:21:41.505 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.505 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:41.506 [main] INFO  mapping.Mapper -       Operation: READ path=/en/meeting/{date}
+2020-10-25 22:21:41.506 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.506 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.506 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.508 [main] INFO  mapping.Mapper - Resource Mapping for /gr/changesdeletions:
+2020-10-25 22:21:41.508 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.508 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:41.509 [main] INFO  mapping.Mapper -       Operation: READ path=/gr/changesdeletions/{date}
+2020-10-25 22:21:41.509 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.509 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.509 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.509 [main] INFO  mapping.Mapper - Resource Mapping for /gr/race:
+2020-10-25 22:21:41.509 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.509 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:41.509 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.509 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.509 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.511 [main] INFO  mapping.Mapper - Resource Mapping for /gr/statshorses:
+2020-10-25 22:21:41.511 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.511 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:41.511 [main] INFO  mapping.Mapper -       Operation: READ path=/gr/statshorses/{year}
+2020-10-25 22:21:41.511 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.511 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.511 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.512 [main] INFO  mapping.Mapper - Resource Mapping for /en/statsracejockey:
+2020-10-25 22:21:41.512 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.512 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:41.512 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.512 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.512 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.513 [main] INFO  mapping.Mapper - Resource Mapping for /gr/racecards:
+2020-10-25 22:21:41.513 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.513 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:41.513 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.513 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.513 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.515 [main] INFO  mapping.Mapper - Resource Mapping for /en/statshorses:
+2020-10-25 22:21:41.516 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.516 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:41.516 [main] INFO  mapping.Mapper -       Operation: READ path=/en/statshorses/{year}
+2020-10-25 22:21:41.516 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.516 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.516 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.516 [main] INFO  mapping.Mapper - Resource Mapping for /gr:
+2020-10-25 22:21:41.516 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.517 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:41.517 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.517 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.517 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.518 [main] INFO  mapping.Mapper - Resource Mapping for /en/changesdeletions/id:
+2020-10-25 22:21:41.519 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.519 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:41.519 [main] INFO  mapping.Mapper -       Operation: READ path=/en/changesdeletions/id/{id}
+2020-10-25 22:21:41.519 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.519 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.519 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.521 [main] INFO  mapping.Mapper - Resource Mapping for /en/race/id:
+2020-10-25 22:21:41.521 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.521 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:41.521 [main] INFO  mapping.Mapper -       Operation: READ path=/en/race/id/{id}
+2020-10-25 22:21:41.521 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.521 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.521 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.522 [main] INFO  mapping.Mapper - Resource Mapping for /gr/statsowners:
+2020-10-25 22:21:41.523 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.523 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:41.523 [main] INFO  mapping.Mapper -       Operation: READ path=/gr/statsowners/{year}
+2020-10-25 22:21:41.523 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.523 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.523 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.525 [main] INFO  mapping.Mapper - Resource Mapping for /en/search:
+2020-10-25 22:21:41.525 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.525 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:41.525 [main] INFO  mapping.Mapper -       Operation: READ path=/en/search/{name}
+2020-10-25 22:21:41.525 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.525 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.525 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.527 [main] INFO  mapping.Mapper - Resource Mapping for /gr/changesdeletions/id:
+2020-10-25 22:21:41.527 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.528 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:41.528 [main] INFO  mapping.Mapper -       Operation: READ path=/gr/changesdeletions/id/{id}
+2020-10-25 22:21:41.528 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.528 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.528 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.529 [main] INFO  mapping.Mapper - Resource Mapping for /gr/horse/id:
+2020-10-25 22:21:41.529 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.530 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:41.530 [main] INFO  mapping.Mapper -       Operation: READ path=/gr/horse/id/{id}
+2020-10-25 22:21:41.530 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.530 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.530 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.532 [main] INFO  mapping.Mapper - Resource Mapping for /statsdistance:
+2020-10-25 22:21:41.532 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.532 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:41.532 [main] INFO  mapping.Mapper -       Operation: READ path=/statsdistance/{distance}
+2020-10-25 22:21:41.532 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.532 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.532 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.534 [main] INFO  mapping.Mapper - Resource Mapping for /gr/meeting/id:
+2020-10-25 22:21:41.534 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.534 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:41.534 [main] INFO  mapping.Mapper -       Operation: READ path=/gr/meeting/id/{id}
+2020-10-25 22:21:41.534 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.534 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.534 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.536 [main] INFO  mapping.Mapper - Resource Mapping for /gr/meeting:
+2020-10-25 22:21:41.536 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.536 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:41.536 [main] INFO  mapping.Mapper -       Operation: READ path=/gr/meeting/{date}
+2020-10-25 22:21:41.536 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.536 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.536 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.538 [main] INFO  mapping.Mapper - Resource Mapping for /gr/race/id:
+2020-10-25 22:21:41.539 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.539 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:41.539 [main] INFO  mapping.Mapper -       Operation: READ path=/gr/race/id/{id}
+2020-10-25 22:21:41.539 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.539 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.539 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.540 [main] INFO  mapping.Mapper - Resource Mapping for /gr/search:
+2020-10-25 22:21:41.540 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.540 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:41.540 [main] INFO  mapping.Mapper -       Operation: READ path=/gr/search/{name}
+2020-10-25 22:21:41.540 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.540 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.540 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.541 [main] INFO  mapping.Mapper - Resource Mapping for /en/statsowners:
+2020-10-25 22:21:41.541 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.541 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:41.541 [main] INFO  mapping.Mapper -       Operation: READ path=/en/statsowners/{year}
+2020-10-25 22:21:41.541 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.541 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.541 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.541 [main] INFO  mapping.Mapper - Resource Mapping for /gr/statsracetrainer:
+2020-10-25 22:21:41.541 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.541 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:21:41.542 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.542 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.542 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.543 [main] INFO  mapping.Mapper - Resource Mapping for /gr/statsjockeys:
+2020-10-25 22:21:41.543 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.543 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:41.543 [main] INFO  mapping.Mapper -       Operation: READ path=/gr/statsjockeys/{year}
+2020-10-25 22:21:41.543 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.543 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.543 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.544 [main] INFO  mapping.Mapper - Resource Mapping for /en/horse/id:
+2020-10-25 22:21:41.544 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:21:41.544 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:21:41.544 [main] INFO  mapping.Mapper -       Operation: READ path=/en/horse/id/{id}
+2020-10-25 22:21:41.544 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:21:41.544 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:21:41.544 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:21:41.545 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:21:41.559 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

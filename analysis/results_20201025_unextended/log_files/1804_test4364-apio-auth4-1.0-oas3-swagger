@@ -1,0 +1,43 @@
+Will overwrite mapping file
+2020-10-25 22:19:54.329 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:19:54.330 [main] INFO  mapping.Mapper - -> /paportodata529/odata/v1.2/Accounts
+2020-10-25 22:19:54.331 [main] INFO  mapping.Mapper - -> /paportodata529/odata/v1.2/Accounts('10010')/Addresses
+2020-10-25 22:19:54.331 [main] INFO  mapping.Mapper - -> /paportoauth529/odata2/token
+2020-10-25 22:19:54.331 [main] INFO  mapping.Mapper - -> /PAPortOdata529/odata/v1.2/Balance
+2020-10-25 22:19:54.331 [main] INFO  mapping.Mapper - -> /PAPortOdata529/odata/v1.2/RecentActivity
+2020-10-25 22:19:54.331 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:19:54.344 [main] INFO  mapping.Mapper - Resource Mapping for /paportodata529/odata/v1.2/Accounts:
+2020-10-25 22:19:54.345 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:54.345 [main] INFO  mapping.Mapper -       Operation: CREATE path=/paportodata529/odata/v1.2/Accounts
+2020-10-25 22:19:54.345 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:54.345 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:54.345 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:54.345 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:54.351 [main] INFO  mapping.Mapper - Resource Mapping for /paportodata529/odata/v1.2/Accounts('10010')/Addresses:
+2020-10-25 22:19:54.351 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:54.351 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:54.351 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:54.351 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:19:54.351 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/paportodata529/odata/v1.2/Accounts('10010')/Addresses
+2020-10-25 22:19:54.351 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:54.354 [main] INFO  mapping.Mapper - Resource Mapping for /paportoauth529/odata2/token:
+2020-10-25 22:19:54.354 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:54.355 [main] INFO  mapping.Mapper -       Operation: CREATE path=/paportoauth529/odata2/token
+2020-10-25 22:19:54.355 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:54.355 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:54.355 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:54.355 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:54.355 [main] INFO  mapping.Mapper - Resource Mapping for /PAPortOdata529/odata/v1.2/Balance:
+2020-10-25 22:19:54.355 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:54.355 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:54.355 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:54.355 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:54.355 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:54.355 [main] INFO  mapping.Mapper - Resource Mapping for /PAPortOdata529/odata/v1.2/RecentActivity:
+2020-10-25 22:19:54.356 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:54.356 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:54.356 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:54.356 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:54.356 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:54.356 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:19:54.361 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

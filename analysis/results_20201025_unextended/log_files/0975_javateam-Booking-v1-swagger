@@ -1,0 +1,308 @@
+Will overwrite mapping file
+2020-10-25 22:14:51.423 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:14:51.424 [main] INFO  mapping.Mapper - -> /booking/create-booking-type-b
+2020-10-25 22:14:51.424 [main] INFO  mapping.Mapper - -> /booking
+2020-10-25 22:14:51.424 [main] INFO  mapping.Mapper - -> /ari-update-delivery/update-process-status
+2020-10-25 22:14:51.424 [main] INFO  mapping.Mapper - -> /booking-retrieval/booking-retrieval-search
+2020-10-25 22:14:51.424 [main] INFO  mapping.Mapper - -> /reservation/search-reservations-group-by-itinerary
+2020-10-25 22:14:51.424 [main] INFO  mapping.Mapper - -> /booking/get-test-create-reservation-status
+2020-10-25 22:14:51.424 [main] INFO  mapping.Mapper - -> /ari-update-delivery/retrieve-items
+2020-10-25 22:14:51.424 [main] INFO  mapping.Mapper - -> /booking/get-room-detail-availability
+2020-10-25 22:14:51.424 [main] INFO  mapping.Mapper - -> /ari-update-delivery/update-delivery-result
+2020-10-25 22:14:51.425 [main] INFO  mapping.Mapper - -> /reservation/search-reservations
+2020-10-25 22:14:51.425 [main] INFO  mapping.Mapper - -> /reservation/search-free-text-group-by-itinerary
+2020-10-25 22:14:51.425 [main] INFO  mapping.Mapper - -> /reservation/search-reservations-database
+2020-10-25 22:14:51.425 [main] INFO  mapping.Mapper - -> /ari-update-delivery/purge-ari-update-delivery-items
+2020-10-25 22:14:51.425 [main] INFO  mapping.Mapper - -> /booking/update-room-number
+2020-10-25 22:14:51.425 [main] INFO  mapping.Mapper - -> /booking-retrieval/get-exchange-reservation-excel
+2020-10-25 22:14:51.425 [main] INFO  mapping.Mapper - -> /booking-retrieval/get-exchange-reservation
+2020-10-25 22:14:51.425 [main] INFO  mapping.Mapper - -> /booking/get-bookable-package-availability
+2020-10-25 22:14:51.425 [main] INFO  mapping.Mapper - -> /booking-retrieval/post-retry
+2020-10-25 22:14:51.425 [main] INFO  mapping.Mapper - -> /booking-retrieval/reservation-management-search
+2020-10-25 22:14:51.425 [main] INFO  mapping.Mapper - -> /booking-retrieval/reservation-management-excel-search
+2020-10-25 22:14:51.425 [main] INFO  mapping.Mapper - -> /ari-update-delivery/import-items
+2020-10-25 22:14:51.425 [main] INFO  mapping.Mapper - -> /booking/fetch-room-availability-calendar
+2020-10-25 22:14:51.425 [main] INFO  mapping.Mapper - -> /booking/amend-booking-type-b
+2020-10-25 22:14:51.425 [main] INFO  mapping.Mapper - -> /booking-retrieval/booking-retrieve-retry
+2020-10-25 22:14:51.425 [main] INFO  mapping.Mapper - -> /booking-retrieval/update-process-status
+2020-10-25 22:14:51.425 [main] INFO  mapping.Mapper - -> /booking-retrieval/get-ota-object
+2020-10-25 22:14:51.425 [main] INFO  mapping.Mapper - -> /ari-update-delivery/ari-update-delivery-search
+2020-10-25 22:14:51.425 [main] INFO  mapping.Mapper - -> /booking-retrieval/booking-retrieval-search-custom
+2020-10-25 22:14:51.425 [main] INFO  mapping.Mapper - -> /booking/get-hotel-availability
+2020-10-25 22:14:51.425 [main] INFO  mapping.Mapper - -> /reservation/search-free-text
+2020-10-25 22:14:51.425 [main] INFO  mapping.Mapper - -> /booking/batch-commit
+2020-10-25 22:14:51.425 [main] INFO  mapping.Mapper - -> /reservation/search-confirmation-number-ows
+2020-10-25 22:14:51.425 [main] INFO  mapping.Mapper - -> /booking/ota
+2020-10-25 22:14:51.426 [main] INFO  mapping.Mapper - -> /booking/cancel-booking-type-b
+2020-10-25 22:14:51.426 [main] INFO  mapping.Mapper - -> /booking/test-create-reservations
+2020-10-25 22:14:51.426 [main] INFO  mapping.Mapper - -> /booking/batch-guarantee-methods
+2020-10-25 22:14:51.426 [main] INFO  mapping.Mapper - -> /booking-retrieval/post-new
+2020-10-25 22:14:51.426 [main] INFO  mapping.Mapper - -> /booking/get-room-availability
+2020-10-25 22:14:51.426 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:14:51.437 [main] INFO  mapping.Mapper - Resource Mapping for /booking/create-booking-type-b:
+2020-10-25 22:14:51.437 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.437 [main] INFO  mapping.Mapper -       Operation: CREATE path=/booking/create-booking-type-b
+2020-10-25 22:14:51.437 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.437 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.437 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.437 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.446 [main] INFO  mapping.Mapper - Resource Mapping for /booking:
+2020-10-25 22:14:51.446 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.446 [main] INFO  mapping.Mapper -       Operation: CREATE path=/booking
+2020-10-25 22:14:51.446 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.446 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.446 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:14:51.447 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/booking/{id}
+2020-10-25 22:14:51.447 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.449 [main] INFO  mapping.Mapper - Resource Mapping for /ari-update-delivery/update-process-status:
+2020-10-25 22:14:51.450 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.450 [main] INFO  mapping.Mapper -       Operation: CREATE path=/ari-update-delivery/update-process-status
+2020-10-25 22:14:51.450 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.450 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.450 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.450 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.454 [main] INFO  mapping.Mapper - Resource Mapping for /booking-retrieval/booking-retrieval-search:
+2020-10-25 22:14:51.454 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.454 [main] INFO  mapping.Mapper -       Operation: CREATE path=/booking-retrieval/booking-retrieval-search
+2020-10-25 22:14:51.454 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.454 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.454 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.454 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.467 [main] INFO  mapping.Mapper - Resource Mapping for /reservation/search-reservations-group-by-itinerary:
+2020-10-25 22:14:51.467 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.467 [main] INFO  mapping.Mapper -       Operation: CREATE path=/reservation/search-reservations-group-by-itinerary
+2020-10-25 22:14:51.467 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.467 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.467 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.467 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.471 [main] INFO  mapping.Mapper - Resource Mapping for /booking/get-test-create-reservation-status:
+2020-10-25 22:14:51.471 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.471 [main] INFO  mapping.Mapper -       Operation: CREATE path=/booking/get-test-create-reservation-status
+2020-10-25 22:14:51.471 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.471 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.471 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.471 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.474 [main] INFO  mapping.Mapper - Resource Mapping for /ari-update-delivery/retrieve-items:
+2020-10-25 22:14:51.474 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.474 [main] INFO  mapping.Mapper -       Operation: CREATE path=/ari-update-delivery/retrieve-items
+2020-10-25 22:14:51.474 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.474 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.474 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.474 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.477 [main] INFO  mapping.Mapper - Resource Mapping for /booking/get-room-detail-availability:
+2020-10-25 22:14:51.478 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.478 [main] INFO  mapping.Mapper -       Operation: CREATE path=/booking/get-room-detail-availability
+2020-10-25 22:14:51.478 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.478 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.478 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.478 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.481 [main] INFO  mapping.Mapper - Resource Mapping for /ari-update-delivery/update-delivery-result:
+2020-10-25 22:14:51.481 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.481 [main] INFO  mapping.Mapper -       Operation: CREATE path=/ari-update-delivery/update-delivery-result
+2020-10-25 22:14:51.481 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.481 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.481 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.481 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.484 [main] INFO  mapping.Mapper - Resource Mapping for /reservation/search-reservations:
+2020-10-25 22:14:51.485 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.485 [main] INFO  mapping.Mapper -       Operation: CREATE path=/reservation/search-reservations
+2020-10-25 22:14:51.485 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.485 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.485 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.485 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.488 [main] INFO  mapping.Mapper - Resource Mapping for /reservation/search-free-text-group-by-itinerary:
+2020-10-25 22:14:51.489 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.489 [main] INFO  mapping.Mapper -       Operation: CREATE path=/reservation/search-free-text-group-by-itinerary
+2020-10-25 22:14:51.489 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.489 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.489 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.489 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.492 [main] INFO  mapping.Mapper - Resource Mapping for /reservation/search-reservations-database:
+2020-10-25 22:14:51.492 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.492 [main] INFO  mapping.Mapper -       Operation: CREATE path=/reservation/search-reservations-database
+2020-10-25 22:14:51.492 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.492 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.492 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.492 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.495 [main] INFO  mapping.Mapper - Resource Mapping for /ari-update-delivery/purge-ari-update-delivery-items:
+2020-10-25 22:14:51.495 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.495 [main] INFO  mapping.Mapper -       Operation: CREATE path=/ari-update-delivery/purge-ari-update-delivery-items
+2020-10-25 22:14:51.495 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.495 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.495 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.495 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.498 [main] INFO  mapping.Mapper - Resource Mapping for /booking/update-room-number:
+2020-10-25 22:14:51.498 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.498 [main] INFO  mapping.Mapper -       Operation: CREATE path=/booking/update-room-number
+2020-10-25 22:14:51.498 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.498 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.498 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.498 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.501 [main] INFO  mapping.Mapper - Resource Mapping for /booking-retrieval/get-exchange-reservation-excel:
+2020-10-25 22:14:51.502 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.502 [main] INFO  mapping.Mapper -       Operation: CREATE path=/booking-retrieval/get-exchange-reservation-excel
+2020-10-25 22:14:51.502 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.502 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.502 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.502 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.505 [main] INFO  mapping.Mapper - Resource Mapping for /booking-retrieval/get-exchange-reservation:
+2020-10-25 22:14:51.505 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.505 [main] INFO  mapping.Mapper -       Operation: CREATE path=/booking-retrieval/get-exchange-reservation
+2020-10-25 22:14:51.505 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.505 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.505 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.505 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.508 [main] INFO  mapping.Mapper - Resource Mapping for /booking/get-bookable-package-availability:
+2020-10-25 22:14:51.508 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.508 [main] INFO  mapping.Mapper -       Operation: CREATE path=/booking/get-bookable-package-availability
+2020-10-25 22:14:51.508 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.508 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.508 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.509 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.511 [main] INFO  mapping.Mapper - Resource Mapping for /booking-retrieval/post-retry:
+2020-10-25 22:14:51.511 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.511 [main] INFO  mapping.Mapper -       Operation: CREATE path=/booking-retrieval/post-retry
+2020-10-25 22:14:51.512 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.512 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.512 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.512 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.514 [main] INFO  mapping.Mapper - Resource Mapping for /booking-retrieval/reservation-management-search:
+2020-10-25 22:14:51.514 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.515 [main] INFO  mapping.Mapper -       Operation: CREATE path=/booking-retrieval/reservation-management-search
+2020-10-25 22:14:51.515 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.515 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.515 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.515 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.517 [main] INFO  mapping.Mapper - Resource Mapping for /booking-retrieval/reservation-management-excel-search:
+2020-10-25 22:14:51.517 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.517 [main] INFO  mapping.Mapper -       Operation: CREATE path=/booking-retrieval/reservation-management-excel-search
+2020-10-25 22:14:51.517 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.517 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.518 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.518 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.520 [main] INFO  mapping.Mapper - Resource Mapping for /ari-update-delivery/import-items:
+2020-10-25 22:14:51.521 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.521 [main] INFO  mapping.Mapper -       Operation: CREATE path=/ari-update-delivery/import-items
+2020-10-25 22:14:51.521 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.521 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.521 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.521 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.523 [main] INFO  mapping.Mapper - Resource Mapping for /booking/fetch-room-availability-calendar:
+2020-10-25 22:14:51.524 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.524 [main] INFO  mapping.Mapper -       Operation: CREATE path=/booking/fetch-room-availability-calendar
+2020-10-25 22:14:51.524 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.524 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.524 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.524 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.526 [main] INFO  mapping.Mapper - Resource Mapping for /booking/amend-booking-type-b:
+2020-10-25 22:14:51.527 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.527 [main] INFO  mapping.Mapper -       Operation: CREATE path=/booking/amend-booking-type-b
+2020-10-25 22:14:51.527 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.527 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.527 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.527 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.529 [main] INFO  mapping.Mapper - Resource Mapping for /booking-retrieval/booking-retrieve-retry:
+2020-10-25 22:14:51.529 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.529 [main] INFO  mapping.Mapper -       Operation: CREATE path=/booking-retrieval/booking-retrieve-retry
+2020-10-25 22:14:51.529 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.529 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.529 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.529 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.531 [main] INFO  mapping.Mapper - Resource Mapping for /booking-retrieval/update-process-status:
+2020-10-25 22:14:51.531 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.531 [main] INFO  mapping.Mapper -       Operation: CREATE path=/booking-retrieval/update-process-status
+2020-10-25 22:14:51.531 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.531 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.531 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.531 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.532 [main] INFO  mapping.Mapper - Resource Mapping for /booking-retrieval/get-ota-object:
+2020-10-25 22:14:51.532 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:51.532 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.532 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.532 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.532 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.534 [main] INFO  mapping.Mapper - Resource Mapping for /ari-update-delivery/ari-update-delivery-search:
+2020-10-25 22:14:51.534 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.534 [main] INFO  mapping.Mapper -       Operation: CREATE path=/ari-update-delivery/ari-update-delivery-search
+2020-10-25 22:14:51.535 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.535 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.535 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.535 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.537 [main] INFO  mapping.Mapper - Resource Mapping for /booking-retrieval/booking-retrieval-search-custom:
+2020-10-25 22:14:51.537 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.537 [main] INFO  mapping.Mapper -       Operation: CREATE path=/booking-retrieval/booking-retrieval-search-custom
+2020-10-25 22:14:51.537 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.537 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.537 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.537 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.539 [main] INFO  mapping.Mapper - Resource Mapping for /booking/get-hotel-availability:
+2020-10-25 22:14:51.540 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.540 [main] INFO  mapping.Mapper -       Operation: CREATE path=/booking/get-hotel-availability
+2020-10-25 22:14:51.540 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.540 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.540 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.540 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.542 [main] INFO  mapping.Mapper - Resource Mapping for /reservation/search-free-text:
+2020-10-25 22:14:51.542 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.542 [main] INFO  mapping.Mapper -       Operation: CREATE path=/reservation/search-free-text
+2020-10-25 22:14:51.542 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.542 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.542 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.542 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.544 [main] INFO  mapping.Mapper - Resource Mapping for /booking/batch-commit:
+2020-10-25 22:14:51.544 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.544 [main] INFO  mapping.Mapper -       Operation: CREATE path=/booking/batch-commit
+2020-10-25 22:14:51.544 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.544 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.544 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.544 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.546 [main] INFO  mapping.Mapper - Resource Mapping for /reservation/search-confirmation-number-ows:
+2020-10-25 22:14:51.546 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.547 [main] INFO  mapping.Mapper -       Operation: CREATE path=/reservation/search-confirmation-number-ows
+2020-10-25 22:14:51.547 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.547 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.547 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.547 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.547 [main] INFO  mapping.Mapper - Resource Mapping for /booking/ota:
+2020-10-25 22:14:51.547 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:14:51.547 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.547 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.547 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.547 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.549 [main] INFO  mapping.Mapper - Resource Mapping for /booking/cancel-booking-type-b:
+2020-10-25 22:14:51.549 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.549 [main] INFO  mapping.Mapper -       Operation: CREATE path=/booking/cancel-booking-type-b
+2020-10-25 22:14:51.549 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.549 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.549 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.549 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.552 [main] INFO  mapping.Mapper - Resource Mapping for /booking/test-create-reservations:
+2020-10-25 22:14:51.552 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.552 [main] INFO  mapping.Mapper -       Operation: CREATE path=/booking/test-create-reservations
+2020-10-25 22:14:51.552 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.552 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.552 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.552 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.554 [main] INFO  mapping.Mapper - Resource Mapping for /booking/batch-guarantee-methods:
+2020-10-25 22:14:51.554 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.554 [main] INFO  mapping.Mapper -       Operation: CREATE path=/booking/batch-guarantee-methods
+2020-10-25 22:14:51.554 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.554 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.554 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.554 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.556 [main] INFO  mapping.Mapper - Resource Mapping for /booking-retrieval/post-new:
+2020-10-25 22:14:51.557 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.557 [main] INFO  mapping.Mapper -       Operation: CREATE path=/booking-retrieval/post-new
+2020-10-25 22:14:51.557 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.557 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.557 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.557 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.559 [main] INFO  mapping.Mapper - Resource Mapping for /booking/get-room-availability:
+2020-10-25 22:14:51.559 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:14:51.559 [main] INFO  mapping.Mapper -       Operation: CREATE path=/booking/get-room-availability
+2020-10-25 22:14:51.559 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:14:51.559 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:14:51.559 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:14:51.559 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:14:51.559 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:14:51.572 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

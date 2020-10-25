@@ -1,0 +1,178 @@
+Will overwrite mapping file
+2020-10-25 22:16:43.691 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:16:43.692 [main] INFO  mapping.Mapper - -> /api/users
+2020-10-25 22:16:43.692 [main] INFO  mapping.Mapper - -> /api/artists
+2020-10-25 22:16:43.693 [main] INFO  mapping.Mapper - -> /api/groups
+2020-10-25 22:16:43.693 [main] INFO  mapping.Mapper - -> /api/article
+2020-10-25 22:16:43.693 [main] INFO  mapping.Mapper - -> /api/like/track
+2020-10-25 22:16:43.693 [main] INFO  mapping.Mapper - -> /api/tracks
+2020-10-25 22:16:43.693 [main] INFO  mapping.Mapper - -> /api/login
+2020-10-25 22:16:43.693 [main] INFO  mapping.Mapper - -> /api/like/artist
+2020-10-25 22:16:43.693 [main] INFO  mapping.Mapper - -> /api/roles
+2020-10-25 22:16:43.693 [main] INFO  mapping.Mapper - -> /api/playlists
+2020-10-25 22:16:43.693 [main] INFO  mapping.Mapper - -> /api/file
+2020-10-25 22:16:43.693 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:16:43.709 [main] INFO  mapping.Mapper - Resource Mapping for /api/users:
+2020-10-25 22:16:43.709 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:43.710 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/users
+2020-10-25 22:16:43.710 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:43.710 [main] INFO  mapping.Mapper -       Operation: READ path=/api/users/{user_id}
+2020-10-25 22:16:43.710 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:43.710 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/users
+2020-10-25 22:16:43.710 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:16:43.710 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/users/{user_id}
+2020-10-25 22:16:43.710 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:16:43.710 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/users/{user_id}
+2020-10-25 22:16:43.717 [main] INFO  mapping.Mapper - Resource Mapping for /api/artists:
+2020-10-25 22:16:43.718 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:43.718 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/artists
+2020-10-25 22:16:43.718 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:43.718 [main] INFO  mapping.Mapper -       Operation: READ path=/api/artists/{artist_id}
+2020-10-25 22:16:43.718 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:43.718 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/artists
+2020-10-25 22:16:43.718 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:16:43.718 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/artists/{artist_id}
+2020-10-25 22:16:43.718 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:43.725 [main] INFO  mapping.Mapper - Resource Mapping for /api/groups:
+2020-10-25 22:16:43.725 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:43.725 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/groups
+2020-10-25 22:16:43.725 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:43.725 [main] INFO  mapping.Mapper -       Operation: READ path=/api/groups/{group_id}
+2020-10-25 22:16:43.725 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:43.725 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/groups
+2020-10-25 22:16:43.725 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:16:43.725 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/groups/{group_id}
+2020-10-25 22:16:43.725 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:16:43.725 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/groups/{group_id}
+2020-10-25 22:16:43.729 [main] INFO  mapping.Mapper - Resource Mapping for /api/article:
+2020-10-25 22:16:43.729 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:16:43.729 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:43.729 [main] INFO  mapping.Mapper -       Operation: READ path=/api/article/{article_id}
+2020-10-25 22:16:43.729 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:43.729 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:16:43.729 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/article/{article_id}
+2020-10-25 22:16:43.729 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:43.733 [main] INFO  mapping.Mapper - Resource Mapping for /api/like/track:
+2020-10-25 22:16:43.733 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:43.733 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/like/track
+2020-10-25 22:16:43.733 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:43.733 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:43.733 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/like/track
+2020-10-25 22:16:43.733 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:43.733 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:16:43.733 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/like/track/{entity_id}
+2020-10-25 22:16:43.739 [main] INFO  mapping.Mapper - Resource Mapping for /api/tracks:
+2020-10-25 22:16:43.739 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:43.739 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/tracks
+2020-10-25 22:16:43.740 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:43.740 [main] INFO  mapping.Mapper -       Operation: READ path=/api/tracks/{track_id}
+2020-10-25 22:16:43.740 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:43.740 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/tracks
+2020-10-25 22:16:43.740 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:16:43.740 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/tracks/{track_id}
+2020-10-25 22:16:43.740 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:16:43.740 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/tracks/{track_id}
+2020-10-25 22:16:43.741 [main] INFO  mapping.Mapper - Resource Mapping for /api/login:
+2020-10-25 22:16:43.742 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:43.742 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/login
+2020-10-25 22:16:43.742 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:43.742 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:43.742 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:43.742 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:43.745 [main] INFO  mapping.Mapper - Resource Mapping for /api/like/artist:
+2020-10-25 22:16:43.745 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:43.745 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/like/artist
+2020-10-25 22:16:43.745 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:16:43.745 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:43.746 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/like/artist
+2020-10-25 22:16:43.746 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:16:43.746 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:16:43.746 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/like/artist/{entity_id}
+2020-10-25 22:16:43.762 [main] INFO  mapping.Mapper - Resource Mapping for /api/roles:
+2020-10-25 22:16:43.762 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:43.762 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/roles
+2020-10-25 22:16:43.762 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:43.763 [main] INFO  mapping.Mapper -       Operation: READ path=/api/roles/{role_id}
+2020-10-25 22:16:43.763 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:43.763 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/roles
+2020-10-25 22:16:43.763 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:16:43.763 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/roles/{role_id}
+2020-10-25 22:16:43.763 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:16:43.763 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/roles/{role_id}
+2020-10-25 22:16:43.769 [main] INFO  mapping.Mapper - Resource Mapping for /api/playlists:
+2020-10-25 22:16:43.770 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:43.770 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/playlists
+2020-10-25 22:16:43.770 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:43.770 [main] INFO  mapping.Mapper -       Operation: READ path=/api/playlists/{playlist_id}
+2020-10-25 22:16:43.770 [main] INFO  mapping.Mapper -   Pattern LST, supported=true, requests=0:
+2020-10-25 22:16:43.770 [main] INFO  mapping.Mapper -       Operation: SCAN path=/api/playlists
+2020-10-25 22:16:43.770 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:16:43.770 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/playlists/{playlist_id}
+2020-10-25 22:16:43.770 [main] INFO  mapping.Mapper -   Pattern DEL, supported=true, requests=0:
+2020-10-25 22:16:43.770 [main] INFO  mapping.Mapper -       Operation: DELETE path=/api/playlists/{playlist_id}
+2020-10-25 22:16:43.774 [main] INFO  mapping.Mapper - Resource Mapping for /api/file:
+2020-10-25 22:16:43.775 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:16:43.775 [main] INFO  mapping.Mapper -       Operation: CREATE path=/api/file/{track_id}
+2020-10-25 22:16:43.775 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:16:43.775 [main] INFO  mapping.Mapper -       Operation: READ path=/api/file/{track_id}
+2020-10-25 22:16:43.775 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:16:43.775 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:16:43.775 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/api/file/{track_id}
+2020-10-25 22:16:43.775 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:16:43.775 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:16:43.775 [main] INFO  MatchingTool - Resource Mapping for /api/users:
+2020-10-25 22:16:43.775 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=4:
+2020-10-25 22:16:43.775 [main] INFO  MatchingTool -       Operation: CREATE path=/api/users
+2020-10-25 22:16:43.775 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=4:
+2020-10-25 22:16:43.775 [main] INFO  MatchingTool -       Operation: READ path=/api/users/{user_id}
+2020-10-25 22:16:43.775 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=4:
+2020-10-25 22:16:43.776 [main] INFO  MatchingTool -       Operation: SCAN path=/api/users
+2020-10-25 22:16:43.776 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=4:
+2020-10-25 22:16:43.776 [main] INFO  MatchingTool -       Operation: UPDATE path=/api/users/{user_id}
+2020-10-25 22:16:43.776 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=4:
+2020-10-25 22:16:43.776 [main] INFO  MatchingTool -       Operation: DELETE path=/api/users/{user_id}
+2020-10-25 22:16:43.776 [main] INFO  MatchingTool - Resource Mapping for /api/groups:
+2020-10-25 22:16:43.776 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=4:
+2020-10-25 22:16:43.776 [main] INFO  MatchingTool -       Operation: CREATE path=/api/groups
+2020-10-25 22:16:43.776 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=4:
+2020-10-25 22:16:43.776 [main] INFO  MatchingTool -       Operation: READ path=/api/groups/{group_id}
+2020-10-25 22:16:43.776 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=4:
+2020-10-25 22:16:43.776 [main] INFO  MatchingTool -       Operation: SCAN path=/api/groups
+2020-10-25 22:16:43.776 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=4:
+2020-10-25 22:16:43.776 [main] INFO  MatchingTool -       Operation: UPDATE path=/api/groups/{group_id}
+2020-10-25 22:16:43.776 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=4:
+2020-10-25 22:16:43.776 [main] INFO  MatchingTool -       Operation: DELETE path=/api/groups/{group_id}
+2020-10-25 22:16:43.776 [main] INFO  MatchingTool - Resource Mapping for /api/tracks:
+2020-10-25 22:16:43.776 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=4:
+2020-10-25 22:16:43.776 [main] INFO  MatchingTool -       Operation: CREATE path=/api/tracks
+2020-10-25 22:16:43.776 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=4:
+2020-10-25 22:16:43.776 [main] INFO  MatchingTool -       Operation: READ path=/api/tracks/{track_id}
+2020-10-25 22:16:43.776 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=4:
+2020-10-25 22:16:43.776 [main] INFO  MatchingTool -       Operation: SCAN path=/api/tracks
+2020-10-25 22:16:43.776 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=4:
+2020-10-25 22:16:43.776 [main] INFO  MatchingTool -       Operation: UPDATE path=/api/tracks/{track_id}
+2020-10-25 22:16:43.777 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=4:
+2020-10-25 22:16:43.777 [main] INFO  MatchingTool -       Operation: DELETE path=/api/tracks/{track_id}
+2020-10-25 22:16:43.777 [main] INFO  MatchingTool - Resource Mapping for /api/roles:
+2020-10-25 22:16:43.777 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=4:
+2020-10-25 22:16:43.777 [main] INFO  MatchingTool -       Operation: CREATE path=/api/roles
+2020-10-25 22:16:43.777 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=4:
+2020-10-25 22:16:43.777 [main] INFO  MatchingTool -       Operation: READ path=/api/roles/{role_id}
+2020-10-25 22:16:43.777 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=4:
+2020-10-25 22:16:43.777 [main] INFO  MatchingTool -       Operation: SCAN path=/api/roles
+2020-10-25 22:16:43.777 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=4:
+2020-10-25 22:16:43.777 [main] INFO  MatchingTool -       Operation: UPDATE path=/api/roles/{role_id}
+2020-10-25 22:16:43.777 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=4:
+2020-10-25 22:16:43.777 [main] INFO  MatchingTool -       Operation: DELETE path=/api/roles/{role_id}
+2020-10-25 22:16:43.777 [main] INFO  MatchingTool - Resource Mapping for /api/playlists:
+2020-10-25 22:16:43.777 [main] INFO  MatchingTool -   Pattern CRE, supported=true, requests=4:
+2020-10-25 22:16:43.777 [main] INFO  MatchingTool -       Operation: CREATE path=/api/playlists
+2020-10-25 22:16:43.777 [main] INFO  MatchingTool -   Pattern REA, supported=true, requests=4:
+2020-10-25 22:16:43.777 [main] INFO  MatchingTool -       Operation: READ path=/api/playlists/{playlist_id}
+2020-10-25 22:16:43.777 [main] INFO  MatchingTool -   Pattern LST, supported=true, requests=4:
+2020-10-25 22:16:43.777 [main] INFO  MatchingTool -       Operation: SCAN path=/api/playlists
+2020-10-25 22:16:43.777 [main] INFO  MatchingTool -   Pattern  UPD, supported=true, requests=4:
+2020-10-25 22:16:43.777 [main] INFO  MatchingTool -       Operation: UPDATE path=/api/playlists/{playlist_id}
+2020-10-25 22:16:43.777 [main] INFO  MatchingTool -   Pattern DEL, supported=true, requests=4:
+2020-10-25 22:16:43.777 [main] INFO  MatchingTool -       Operation: DELETE path=/api/playlists/{playlist_id}
+2020-10-25 22:16:43.784 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json

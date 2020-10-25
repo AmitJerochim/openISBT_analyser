@@ -1,0 +1,114 @@
+Will overwrite mapping file
+2020-10-25 22:19:12.302 [main] INFO  mapping.Mapper - Top level paths:
+2020-10-25 22:19:12.304 [main] INFO  mapping.Mapper - -> /rrhh/fichas
+2020-10-25 22:19:12.304 [main] INFO  mapping.Mapper - -> /auxiliar
+2020-10-25 22:19:12.304 [main] INFO  mapping.Mapper - -> /tablas/cargo
+2020-10-25 22:19:12.304 [main] INFO  mapping.Mapper - -> /rrhh/fichas/rut
+2020-10-25 22:19:12.304 [main] INFO  mapping.Mapper - -> /tablas/sindicatos
+2020-10-25 22:19:12.304 [main] INFO  mapping.Mapper - -> /tablas/cargos
+2020-10-25 22:19:12.304 [main] INFO  mapping.Mapper - -> /tablas/jornadas
+2020-10-25 22:19:12.304 [main] INFO  mapping.Mapper - -> /tablas/jornada
+2020-10-25 22:19:12.304 [main] INFO  mapping.Mapper - -> /tablas/unidadorganizacional
+2020-10-25 22:19:12.304 [main] INFO  mapping.Mapper - -> /rrhh/ficha
+2020-10-25 22:19:12.304 [main] INFO  mapping.Mapper - -> /auxiliares
+2020-10-25 22:19:12.304 [main] INFO  mapping.Mapper - -> /tablas/sindicato
+2020-10-25 22:19:12.304 [main] INFO  mapping.Mapper - -> /tablas/unidadesorganizacionales
+2020-10-25 22:19:12.304 [main] INFO  mapping.Mapper - --------------------
+2020-10-25 22:19:12.310 [main] INFO  mapping.Mapper - Resource Mapping for /rrhh/fichas:
+2020-10-25 22:19:12.310 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:12.310 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:12.310 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:12.310 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:12.311 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:12.324 [main] INFO  mapping.Mapper - Resource Mapping for /auxiliar:
+2020-10-25 22:19:12.325 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:12.325 [main] INFO  mapping.Mapper -       Operation: CREATE path=/auxiliar/{id}
+2020-10-25 22:19:12.325 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:19:12.325 [main] INFO  mapping.Mapper -       Operation: READ path=/auxiliar/{id}
+2020-10-25 22:19:12.325 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:12.325 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:19:12.325 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/auxiliar/{id}
+2020-10-25 22:19:12.325 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:12.332 [main] INFO  mapping.Mapper - Resource Mapping for /tablas/cargo:
+2020-10-25 22:19:12.333 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:12.333 [main] INFO  mapping.Mapper -       Operation: CREATE path=/tablas/cargo
+2020-10-25 22:19:12.333 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:19:12.333 [main] INFO  mapping.Mapper -       Operation: READ path=/tablas/cargo/{id}
+2020-10-25 22:19:12.333 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:12.333 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:19:12.333 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/tablas/cargo/{id}
+2020-10-25 22:19:12.333 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:12.336 [main] INFO  mapping.Mapper - Resource Mapping for /rrhh/fichas/rut:
+2020-10-25 22:19:12.336 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:12.336 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:19:12.336 [main] INFO  mapping.Mapper -       Operation: READ path=/rrhh/fichas/rut/{rut}
+2020-10-25 22:19:12.336 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:12.336 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:12.336 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:12.337 [main] INFO  mapping.Mapper - Resource Mapping for /tablas/sindicatos:
+2020-10-25 22:19:12.337 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:12.337 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:12.337 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:12.337 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:12.337 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:12.337 [main] INFO  mapping.Mapper - Resource Mapping for /tablas/cargos:
+2020-10-25 22:19:12.338 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:12.338 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:12.338 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:12.338 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:12.338 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:12.338 [main] INFO  mapping.Mapper - Resource Mapping for /tablas/jornadas:
+2020-10-25 22:19:12.338 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:12.338 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:12.339 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:12.339 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:12.339 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:12.343 [main] INFO  mapping.Mapper - Resource Mapping for /tablas/jornada:
+2020-10-25 22:19:12.343 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:12.343 [main] INFO  mapping.Mapper -       Operation: CREATE path=/tablas/jornada
+2020-10-25 22:19:12.343 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:19:12.343 [main] INFO  mapping.Mapper -       Operation: READ path=/tablas/jornada/{id}
+2020-10-25 22:19:12.343 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:12.343 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:19:12.343 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/tablas/jornada/{id}
+2020-10-25 22:19:12.343 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:12.347 [main] INFO  mapping.Mapper - Resource Mapping for /tablas/unidadorganizacional:
+2020-10-25 22:19:12.347 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:12.347 [main] INFO  mapping.Mapper -       Operation: CREATE path=/tablas/unidadorganizacional
+2020-10-25 22:19:12.347 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:19:12.347 [main] INFO  mapping.Mapper -       Operation: READ path=/tablas/unidadorganizacional/{id}
+2020-10-25 22:19:12.347 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:12.347 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:19:12.347 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/tablas/unidadorganizacional/{id}
+2020-10-25 22:19:12.347 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:12.350 [main] INFO  mapping.Mapper - Resource Mapping for /rrhh/ficha:
+2020-10-25 22:19:12.351 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:12.351 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:19:12.351 [main] INFO  mapping.Mapper -       Operation: READ path=/rrhh/ficha/{id}
+2020-10-25 22:19:12.351 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:12.351 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:19:12.351 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/rrhh/ficha/{id}
+2020-10-25 22:19:12.351 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:12.351 [main] INFO  mapping.Mapper - Resource Mapping for /auxiliares:
+2020-10-25 22:19:12.351 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:12.351 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:12.351 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:12.351 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:12.351 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:12.355 [main] INFO  mapping.Mapper - Resource Mapping for /tablas/sindicato:
+2020-10-25 22:19:12.355 [main] INFO  mapping.Mapper -   Pattern CRE, supported=true, requests=0:
+2020-10-25 22:19:12.355 [main] INFO  mapping.Mapper -       Operation: CREATE path=/tablas/sindicato
+2020-10-25 22:19:12.355 [main] INFO  mapping.Mapper -   Pattern REA, supported=true, requests=0:
+2020-10-25 22:19:12.355 [main] INFO  mapping.Mapper -       Operation: READ path=/tablas/sindicato/{id}
+2020-10-25 22:19:12.355 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:12.355 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=true, requests=0:
+2020-10-25 22:19:12.355 [main] INFO  mapping.Mapper -       Operation: UPDATE path=/tablas/sindicato/{id}
+2020-10-25 22:19:12.355 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:12.356 [main] INFO  mapping.Mapper - Resource Mapping for /tablas/unidadesorganizacionales:
+2020-10-25 22:19:12.356 [main] INFO  mapping.Mapper -   Pattern CRE, supported=false, requests=0:
+2020-10-25 22:19:12.356 [main] INFO  mapping.Mapper -   Pattern REA, supported=false, requests=0:
+2020-10-25 22:19:12.356 [main] INFO  mapping.Mapper -   Pattern LST, supported=false, requests=0:
+2020-10-25 22:19:12.356 [main] INFO  mapping.Mapper -   Pattern  UPD, supported=false, requests=0:
+2020-10-25 22:19:12.356 [main] INFO  mapping.Mapper -   Pattern DEL, supported=false, requests=0:
+2020-10-25 22:19:12.356 [main] INFO  MatchingTool - Supported resource mappings:
+2020-10-25 22:19:12.363 [main] INFO  MatchingTool - Done. See mappings in /home/amit/openISBT_analyser/analysis/mapping.json
