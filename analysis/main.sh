@@ -27,10 +27,10 @@ OAS_FILES_DIRECTORY=../../openapi-data/oasFiles
 LOG_FILES_DIRECTORY=../log_files
 
 #setup the path for a pattern configuration file
-PATTERN_CONFIG_FILE=../../openISBT/resources/patternConfigs/amitExperiment2.json
+PATTERN_CONFIG_FILE=../../openISBTModified/resources/patternConfigs/amitExperiment2.json
 
 #setup the path for openISBT matching tool jar
-MATCHING_TOOL_JAR=../../openISBT/openISBTBackend/build/libs/matchingTool-1.0-SNAPSHOT-all.jar 
+MATCHING_TOOL_JAR=../../openISBTModified/openISBTBackend/build/libs/matchingTool-1.0-SNAPSHOT-all.jar 
 
 #setup the path to log all data
 LOGGINGS=../loggings
