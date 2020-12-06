@@ -1,0 +1,1203 @@
+####################################################################
+/home/amit/openapi-data/oasFiles/0056_affiliate-breakpoint-pawdiet-spectrum-1.0.0-swagger.json
+/reports/delete
+{ tags: [ 'Developers' ],
+  operationId: 'reportsDelete',
+  requestBody:
+   { content: { 'application/json': [Object] },
+     description:
+      '<p><b>lab_number</b> (integer, <b>REQUIRED</b>)<p> <hr> <p>Product Lists associated with lab_number will also be deleted.</p>',
+     required: true },
+  responses:
+   { '200': { description: 'report page deleted', content: [Object] },
+     '400': { description: 'bad input parameters', content: [Object] },
+     '404': { description: 'report does not exist', content: [Object] } },
+  security: [ { api_key: [] } ] }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/0056_affiliate-breakpoint-pawdiet-spectrum-1.0.0-swagger.json
+/product-lists/delete
+{ tags: [ 'Developers' ],
+  operationId: 'productListsDelete',
+  requestBody:
+   { content: { 'application/json': [Object] },
+     description: '<p><b>id</b> (integer, <b>REQUIRED</b>)<p>',
+     required: true },
+  responses:
+   { '200': { description: 'product list deleted', content: [Object] },
+     '400': { description: 'bad input parameters', content: [Object] },
+     '404':
+      { description: 'product list does not exist',
+        content: [Object] } },
+  security: [ { api_key: [] } ] }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/0267_Bluedelego-Easysign-1.0.1-swagger.json
+/login
+{ summary: 'Used to login with username and password',
+  description:
+   '<h1>IF SUCCESS</H1>\n<p>Returns the userToken.</P>\n<h2>IMPORTANT!</h2>\n<p>IF the update_link in the response is not empty, this means an updated is needed.<br/>\nIn this case, show the update screen with the link (button) in the response</strong></p>\n<h1>IF ERROR, the error codes are</h1>\n<ul>\n<li>2. Wrong username or password</li>\n<li>3. The user is not allowed to login</li>\n</ul>\n<P>Standard Errors that will be used in every API route</P>\n<ul>\n<li>0 Wrong appToken </li>\n<li>1 Wrong userToken</li>\n<li>999 Unexpected error </li>\n</ul>\n<h1>IMPLEMENTATION NOTES</h1>\n<h2>1.</h2>\n<p>When the user login with success, if there are userTokens already in the db for that user, delete them.</p>\n<h2>2.</h2>\n<p><strong>After</strong> checking email and password, and <strong>only if they are right</strong>, check the app version.</p>\n<p>--> Compare the value of admin option (for Android it\'s APP_ANDROID_VERSION; for IOS it\'s  APP_IOS_VERSION) with the version sent by the app with the param current_version</p>\n<p>----->If current_version &#60;APP_ANDROID_VERSION (or APP_IOS_VERSION) then update_link= admin option APP_ANDROID_LINK (or APP_IOS_LINK) </p>\n<p>----->Otherwise, update_link=\'\'</p>\n',
+  parameters:
+   [ { in: 'header',
+       name: 'appToken',
+       schema: [Object],
+       required: true } ],
+  requestBody: { content: { 'application/json': [Object] } },
+  responses:
+   { '200': { description: 'success login', content: [Object] },
+     '400': { description: 'request error', content: [Object] } } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/0267_Bluedelego-Easysign-1.0.1-swagger.json
+/change_password
+{ summary: 'Change users password.',
+  description:
+   '<h1>IF SUCCESS</H1>\n<p>Returns changed=1 and the new userToken.</P>\n<h1>IF ERROR, the error codes are the standard ones</h1>\n<h1>IMPLEMENTATION NOTES</h1>\n<p>1. Update the new password in the database<br/>\n<p>2. delete the \'old\' usertoken</p>\n<p>3. create a new usertoken and send it in the response</p>\n',
+  parameters:
+   [ { in: 'header',
+       name: 'appToken',
+       schema: [Object],
+       required: true },
+     { in: 'header',
+       name: 'userToken',
+       schema: [Object],
+       required: true } ],
+  requestBody:
+   { required: true, content: { 'application/json': [Object] } },
+  responses:
+   { '201': { description: 'password changed', content: [Object] },
+     '400': { description: 'request error,', content: [Object] } } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/0343_CasperLogic-sfmohd-api-2.0.0-swagger.json
+/shortForm/delete/
+{ tags: [ 'Shortform Application' ],
+  description: 'deletes specified application',
+  requestBody:
+   { description: 'id of shortform places',
+     content: { 'application/json': [Object] } },
+  responses:
+   { '200': { description: 'OK', content: {} },
+     '400': { description: 'Invalid ID supplied', content: {} },
+     '404': { description: 'Short form not found', content: {} },
+     '500': { description: 'Internal server error', content: {} } },
+  security: [ { restrictedAccess: [Array] } ] }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/0343_CasperLogic-sfmohd-api-2.0.0-swagger.json
+/shortForm/contact/delete
+{ tags: [ 'Shortform Application' ],
+  description:
+   'deletes specified contact from household  - use "delete" instead',
+  requestBody: { content: { 'application/json': [Object] } },
+  responses:
+   { '200': { description: 'OK', content: {} },
+     '400': { description: 'Invalid contactId supplied', content: {} },
+     '404': { description: 'contactId not found', content: {} },
+     '500': { description: 'Internal server error', content: {} } },
+  security: [ { restrictedAccess: [Array] } ] }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/0448_CVS-inventory-Test-1.0.0-oas3-swagger.json
+/depservices/inventory/deleteexceptionskus/1.0.0
+{ tags: [ 'Delete Exception Skus' ],
+  summary: 'To be edited',
+  description: '',
+  operationId: 'deleteExceptionSkus',
+  requestBody: { content: { 'application/json': [Object] } },
+  responses:
+   { '200': { description: 'Successfull Response', content: [Object] } } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/0452_cybernation-enabler-2.1-swagger.json
+/
+{ tags: [ 'Data Lake' ],
+  summary: 'Submit Data Instance',
+  description: 'Basic interface for submiting data into the Data Lake.',
+  operationId: 'submit-data-instance',
+  parameters:
+   [ { name: 'Date',
+       in: 'header',
+       description:
+        'The date and time that the request was originated. The format is defined by [Section 7.1.1.1 of RFC 7231](https://tools.ietf.org/html/rfc7231#section-7.1.1.1).<br/>**NOTE:** That\'s the only place where we don\'t use [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) for date-time value, just because we can\'t and have to be compliant with the orthodox HTTP standard.',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'User-Agent',
+       in: 'header',
+       description:
+        'The identification string of user agent (browser, application, etc). The format is defined by [Section 5.5.3 of RFC 7231](https://tools.ietf.org/html/rfc7231#section-5.5.3).',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'Accept-Language',
+       in: 'header',
+       description:
+        'List of acceptable human languages for response. The format is defined by [Section 5.3.5 of RFC 7231](https://tools.ietf.org/html/rfc7231#section-5.3.5).',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-HTTP-Method-Override',
+       in: 'header',
+       description:
+        'Put here the HTTP method you want, when making call by the POST method to avoid interference of nasty firewall rules (read [this](https://www.hanselman.com/blog/HTTPPUTOrDELETENotAllowedUseXHTTPMethodOverrideForYourRESTServiceWithASPNETWebAPI.aspx)).',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'Content-Length',
+       in: 'header',
+       description:
+        'Content-Length header is only required for requests with Content-Type header \'application/octet-stream\'',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'Content-Disposition',
+       in: 'header',
+       description:
+        'Content-Disposition header is only required for requests with Content-Type header \'application/octet-stream\'',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-HPACK',
+       in: 'header',
+       description:
+        'Specify this header if you want all X-Capture headers to be similar to the request where you took the term parameter from the response body. If this header is specified there is no need to set X-Capture headers directly.',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Source-Footprint',
+       in: 'header',
+       description:
+        'The source settings snapshot that may identify 3rd party system',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Source-VCS',
+       in: 'header',
+       description: 'Version control system details of the source',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Coordinates-Key',
+       in: 'header',
+       description: 'The natural key of captured object',
+       required: true,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Coordinates-Model',
+       in: 'header',
+       description: 'The logical model of captured object.',
+       required: true,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Coordinates-Type',
+       in: 'header',
+       description: 'The physical type of captured object',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Coordinates-Length',
+       in: 'header',
+       description: '\nThe length of captured object in bytes',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Coordinates-Timestamp',
+       in: 'header',
+       description:
+        'The timestamp when the captured object has been created or last modified in the 3rd party system in [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) format `YYYY-MM-DD\'T\'hh:mm:ss.ffffffZ`',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Characteristics',
+       in: 'header',
+       description:
+        'References from captured origin to another origins from 3rd party systems',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Taxonomy',
+       in: 'header',
+       description: 'The taxonomy of captured object',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Navigation-Timeframe-Duration',
+       in: 'header',
+       description:
+        'The duration of the \'Timeframe\' given in milliseconds or as a string like "4h30m", "1d", etc.',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Navigation-Timeframe-Start',
+       in: 'header',
+       description:
+        'The start of the \'Timeframe\' specified in [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) format `YYYY-MM-DD\'T\'hh:mm:ss.ffffffZ`',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Navigation-Timeframe-End',
+       in: 'header',
+       description:
+        'The start of the \'Timeframe\' specified in [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) format `YYYY-MM-DD\'T\'hh:mm:ss.ffffffZ`',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Navigation-Protocol',
+       in: 'header',
+       description: 'The protocol that was used for the capture',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Navigation-Driver',
+       in: 'header',
+       description: 'The driver that was used for the capture',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Navigation-Context',
+       in: 'header',
+       description: 'The context that conditioned the capture',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Navigation-Host',
+       in: 'header',
+       description: 'The host that was served the capture',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Navigation-Endpoint',
+       in: 'header',
+       description:
+        'The endpoint of a system API or file storage or database connection string that was used for the capture',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Navigation-Request',
+       in: 'header',
+       description: 'The request that was made for the capture',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Navigation-VCS',
+       in: 'header',
+       description:
+        'Version control system details of the service that captured the data',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Security',
+       in: 'header',
+       description:
+        'The sensitivity and access levels of captured origin from 3rd party system',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] } ],
+  requestBody:
+   { description:
+      'By design method cunsumes `any` Content-Type. Disclaimer: not method works with basic content types only: application/json and application/octet-stream.',
+     content: { '*/*': [Object] } },
+  responses:
+   { '200': { description: 'OK', headers: [Object], content: [Object] } } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/0452_cybernation-enabler-2.1-swagger.json
+/{instance}
+{ tags: [ 'Data Lake' ],
+  summary: 'Submit an Origin',
+  description:
+   'Basic interface for capturing data inside already existed Data Instance.',
+  operationId: 'post-origin',
+  parameters:
+   [ { name: 'instance',
+       in: 'path',
+       required: true,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'Date',
+       in: 'header',
+       description:
+        'The date and time that the request was originated. The format is defined by [Section 7.1.1.1 of RFC 7231](https://tools.ietf.org/html/rfc7231#section-7.1.1.1).<br/>**NOTE:** That\'s the only place where we don\'t use [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) for date-time value, just because we can\'t and have to be compliant with the orthodox HTTP standard.',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'User-Agent',
+       in: 'header',
+       description:
+        'The identification string of user agent (browser, application, etc). The format is defined by [Section 5.5.3 of RFC 7231](https://tools.ietf.org/html/rfc7231#section-5.5.3).',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'Accept-Language',
+       in: 'header',
+       description:
+        'List of acceptable human languages for response. The format is defined by [Section 5.3.5 of RFC 7231](https://tools.ietf.org/html/rfc7231#section-5.3.5).',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-HTTP-Method-Override',
+       in: 'header',
+       description:
+        'Put here the HTTP method you want, when making call by the POST method to avoid interference of nasty firewall rules (read [this](https://www.hanselman.com/blog/HTTPPUTOrDELETENotAllowedUseXHTTPMethodOverrideForYourRESTServiceWithASPNETWebAPI.aspx)).',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'Content-Length',
+       in: 'header',
+       description:
+        'Content-Length header is only required for requests with Content-Type header \'application/octet-stream\'',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'Content-Disposition',
+       in: 'header',
+       description:
+        'Content-Disposition header is only required for requests with Content-Type header \'application/octet-stream\'',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Source-Footprint',
+       in: 'header',
+       description:
+        'The source settings snapshot that may identify 3rd party system\n\n',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Source-VCS',
+       in: 'header',
+       description: 'Version control system details of the source',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Coordinates-Key',
+       in: 'header',
+       description: 'The natural key of captured object',
+       required: true,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Coordinates-Model',
+       in: 'header',
+       description: 'The logical model of captured object.',
+       required: true,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Coordinates-Type',
+       in: 'header',
+       description: 'The physical type of captured object',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Coordinates-Length',
+       in: 'header',
+       description: '\nThe length of captured object in bytes',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Coordinates-Timestamp',
+       in: 'header',
+       description:
+        'The timestamp when the captured object has been created or last modified in the 3rd party system in [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) format `YYYY-MM-DD\'T\'hh:mm:ss.ffffffZ`',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Characteristics',
+       in: 'header',
+       description:
+        'References from captured origin to another origins from 3rd party systems',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Taxonomy',
+       in: 'header',
+       description: 'The taxonomy of captured object',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Navigation-Timeframe-Duration',
+       in: 'header',
+       description:
+        'The duration of the \'Timeframe\' given in milliseconds or as a string like "4h30m", "1d", etc.',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Navigation-Timeframe-Start',
+       in: 'header',
+       description:
+        'The start of the \'Timeframe\' specified in [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) format `YYYY-MM-DD\'T\'hh:mm:ss.ffffffZ`',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Navigation-Timeframe-End',
+       in: 'header',
+       description:
+        'The start of the \'Timeframe\' specified in [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) format `YYYY-MM-DD\'T\'hh:mm:ss.ffffffZ`',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Navigation-Protocol',
+       in: 'header',
+       description: 'The protocol that was used for the capture',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Navigation-Driver',
+       in: 'header',
+       description: 'The driver that was used for the capture',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Navigation-Context',
+       in: 'header',
+       description: 'The context that conditioned the capture',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Navigation-Host',
+       in: 'header',
+       description: 'The host that was served the capture',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Navigation-Endpoint',
+       in: 'header',
+       description:
+        'The endpoint of a system API or file storage or database connection string that was used for the capture',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Navigation-Request',
+       in: 'header',
+       description: 'The request that was made for the capture',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Navigation-VCS',
+       in: 'header',
+       description:
+        'Version control system details of the service that captured the data',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] },
+     { name: 'X-Capture-Security',
+       in: 'header',
+       description:
+        'The sensitivity and access levels of captured origin from 3rd party system',
+       required: false,
+       style: 'simple',
+       explode: false,
+       schema: [Object] } ],
+  requestBody:
+   { description:
+      'By design method cunsumes `any` Content-Type. Disclaimer: not method works with basic content types only: application/json and application/octet-stream.',
+     content: { '*/*': [Object] } },
+  responses: { '200': { description: 'OK', content: [Object] } } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/0488_Daysk-DayskAPIPublic-1.0.0-swagger.json
+/calendars/sync/all
+{ tags: [ 'Calendars' ],
+  summary: 'Syncs calendars in your space from a provided json',
+  operationId: 'Sync',
+  parameters:
+   [ { in: 'header',
+       name: 'api-key',
+       schema: [Object],
+       required: true } ],
+  requestBody: { content: { 'application/json': [Object] } },
+  responses:
+   { '200':
+      { description: 'result of the sync operation',
+        content: [Object] },
+     '400': { description: 'bad input parameter' } } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/0517_Diacollc-dealerallyapi-1.0-swagger.json
+/users/delete-user
+{ tags: [ 'Users' ],
+  summary: 'Deletes an user.',
+  operationId: 'deleteUser',
+  requestBody:
+   { description: 'User to be processed.',
+     content: { 'application/json': [Object] },
+     required: true },
+  responses:
+   { '202': { description: 'User deleted.', content: [Object] } } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/0520_Diebold-Nixdorf-dn_online_mobile_api-2.2.4-swagger.json
+/deleteStandingOrder/{referenceId}
+{ tags: [ 'Account Transaction API' ],
+  summary: 'Delete an already created standing order.',
+  description: 'Delete a already created standing order.',
+  operationId: 'deleteStandingOrder',
+  parameters:
+   [ { name: 'referenceId',
+       in: 'path',
+       required: true,
+       schema: [Object] } ],
+  requestBody:
+   { '$ref': '#/components/requestBodies/deleteStandingOrderRequestBody' },
+  responses:
+   { '200':
+      { '$ref': '#/components/responses/deleteStandingOrderResponse' },
+     default: { '$ref': '#/components/responses/defaultResponse' } } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/0520_Diebold-Nixdorf-dn_online_mobile_api-2.2.4-swagger.json
+/deletePrestagedTransaction
+{ tags: [ 'Prestaged Transaction API' ],
+  summary: 'Delete an already created prestaged transaction.',
+  description:
+   'Delete a already created prestaged transaction. The transaction can be every kind of a prestaged transaction.',
+  operationId: 'deletePrestagedTransaction',
+  requestBody:
+   { content: { 'application/json': [Object] },
+     description: 'The delete prestaged transaction request',
+     required: true },
+  responses:
+   { '200':
+      { '$ref': '#/components/responses/deletePrestagedTransactionResponse' },
+     default: { '$ref': '#/components/responses/defaultResponse' } } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/0585_E8233-Evryplace-1.0.2-oas3-swagger.json
+/partners/deleteProfile
+{ tags: [ 'Profile', 'Management' ],
+  summary: 'Delete profile.',
+  operationId: 'deleteProfile_1',
+  parameters: [ { name: 'embed', in: 'query', schema: [Object] } ],
+  requestBody: { content: { 'application/json': [Object] } },
+  responses:
+   { '400':
+      { description:
+         'Incorrect JWT format (VALIDATION_ERROR) or Incorrent method parameters (VALIDATION_ERROR)' },
+     '404':
+      { description:
+         'Profile specified by id does not exist (PROFILE_DOES_NOT_EXIST)' },
+     '409':
+      { description:
+         'Secret key incorrect for partner (JWT_NOT_SIGNED_PROPERLY) or Brand/partner profile id does not match account specified by this email (PARTNER_PROFILE_ID_DOES_NOT_MATCH)' },
+     default: { description: '', content: [Object] } } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/0585_E8233-Evryplace-1.0.2-oas3-swagger.json
+/partners/deleteUser
+{ tags: [ 'User', 'Management' ],
+  summary: 'Delete user.',
+  operationId: 'deleteUser_1',
+  parameters: [ { name: 'embed', in: 'query', schema: [Object] } ],
+  requestBody: { content: { 'application/json': [Object] } },
+  responses:
+   { '400':
+      { description:
+         'Incorrect JWT format (VALIDATION_ERROR) or Incorrent method parameters (VALIDATION_ERROR)' },
+     '403':
+      { description:
+         'Specified user does not belong to specified profile (USER_DOES_NOT_BELONG_TO_PROFILE)' },
+     '404':
+      { description: 'User specified by id does not exist (USER_DOES_NOT_EXIST)' },
+     '409':
+      { description:
+         'Secret key incorrect for partner (JWT_NOT_SIGNED_PROPERLY) or Brand/partner profile id does not match account specified by this email (PARTNER_PROFILE_ID_DOES_NOT_MATCH)' },
+     default: { description: '', content: [Object] } } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/0725_gaogang-Qianshou-1.0.0-oas3-swagger.json
+/Medication/reminder
+{ tags: [ 'Medication' ],
+  summary: '设置用药提醒',
+  requestBody: { content: { 'application/json': [Object] } },
+  responses: { '200': { description: '返回保持成功的用药提醒', content: [Object] } } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/0755_gomobile5-BookingService-0.0.8-swagger.json
+/priceRequest
+{ tags: [ 'booking' ],
+  summary: 'Returns offers for a given trip.',
+  description:
+   'The offers can be accepted before they expire. If they\'re not accepted, they expire with no side effects.',
+  parameters:
+   [ { in: 'header',
+       name: 'Accept-Language',
+       schema: [Object],
+       example: 'nb-NO',
+       description:
+        'If a value is provided and the value matches a supported language, strings meant for the user are returned in the specified language. If no value is provided, or the value isn\'t supported, en-US is used instead. Only en-US and nb-NO are supported.' } ],
+  requestBody: { content: { 'application/json': [Object] } },
+  responses:
+   { '200':
+      { description: 'A structured 3D array describing the available offers.',
+        content: [Object] },
+     '400': { '$ref': '#/components/responses/ErrorModel' },
+     '401': { '$ref': '#/components/responses/UnauthorizedError' },
+     '403': { '$ref': '#/components/responses/ErrorModel' },
+     '409': { '$ref': '#/components/responses/ErrorModel' },
+     '429': { '$ref': '#/components/responses/ErrorModel' },
+     '500': { '$ref': '#/components/responses/ErrorModel' },
+     '503': { '$ref': '#/components/responses/ErrorModel' } } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/0857_i.belozerov-PT_eInvoice-0.1-swagger.json
+/http/PortugalDeleteCredentials
+{ description:
+   'Delete service provider credentials from Security Store of CPI',
+  requestBody: { content: { 'application/xml': [Object] } },
+  responses:
+   { '202': { description: 'Successful operation', content: [Object] },
+     '404': { description: 'Not found', content: [Object] } } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/1033_k4513-iqdeskAPI-1.5-swagger.json
+/webhook/delete
+{ security: [ { bearerAuth: [] } ],
+  description: 'delete webhook',
+  requestBody:
+   { content: { 'multipart/form-data': [Object] }, required: true },
+  responses: { '200': { description: 'success' } },
+  tags: [ 'Webhook' ] }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/1033_k4513-iqdeskAPI-1.5-swagger.json
+/project/delete_item
+{ security: [ { bearerAuth: [] } ],
+  description: 'delete an item',
+  requestBody:
+   { content: { 'multipart/form-data': [Object] }, required: true },
+  responses: { '200': { description: 'success' } },
+  tags: [ 'Project' ] }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/1033_k4513-iqdeskAPI-1.5-swagger.json
+/workspace/delete
+{ security: [ { bearerAuth: [] } ],
+  description: 'delete workspace',
+  requestBody:
+   { content: { 'multipart/form-data': [Object] }, required: true },
+  responses: { '200': { description: 'success' } },
+  tags: [ 'Workspace' ] }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/1033_k4513-iqdeskAPI-1.5-swagger.json
+/subscribe/delete
+{ security: [ { bearerAuth: [] } ],
+  description: 'delete subscribe',
+  requestBody:
+   { content: { 'multipart/form-data': [Object] }, required: true },
+  responses: { '200': { description: 'success' } },
+  tags: [ 'subscribe' ] }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/1033_k4513-iqdeskAPI-1.5-swagger.json
+/admin/user/delete
+{ security: [ { bearerAuth: [] } ],
+  description: 'delete user',
+  requestBody:
+   { content: { 'multipart/form-data': [Object] }, required: true },
+  responses: { '200': { description: 'success' } },
+  tags: [ 'Admin' ] }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/1033_k4513-iqdeskAPI-1.5-swagger.json
+/admin/project/delete
+{ security: [ { bearerAuth: [] } ],
+  description: 'delete user',
+  requestBody:
+   { content: { 'multipart/form-data': [Object] }, required: true },
+  responses: { '200': { description: 'success' } },
+  tags: [ 'Admin' ] }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/1033_k4513-iqdeskAPI-1.5-swagger.json
+/admin/workspace/delete
+{ security: [ { bearerAuth: [] } ],
+  description: 'delete ws',
+  requestBody:
+   { content: { 'multipart/form-data': [Object] }, required: true },
+  responses: { '200': { description: 'success' } },
+  tags: [ 'Admin' ] }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/1300_narayanprusty123-mode-api-1.0.3-swagger.json
+/api/secure/customer/bank/deactivate
+{ tags: [ 'customer bank' ],
+  summary: 'Deactivate Bank',
+  operationId: 'deactivateBank',
+  description: 'Deactivate Bank',
+  security: [ { bearerAuth: [Array] } ],
+  responses:
+   { '200': { description: 'Deactivate Bank', content: [Object] },
+     '400': { description: 'Bad Request', content: [Object] },
+     '401': { description: 'Not authenticated', content: [Object] },
+     '404': { description: 'Not Found', content: [Object] },
+     '409':
+      { description: 'Account is in use and can`t be deleted',
+        content: [Object] },
+     '500': { description: 'Server error', content: [Object] } },
+  requestBody:
+   { content: { 'application/json': [Object] },
+     description: 'Deactivate Bank' } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/1344_oalkis-mobixa-web_api-v1-oas3-swagger.json
+/api/Game/Delete
+{ tags: [ 'Game' ],
+  operationId: 'Game_Delete',
+  responses: { '200': { description: 'OK', content: [Object] } },
+  requestBody:
+   { '$ref': '#/components/requestBodies/Mobixa.Model.Dto.Game' } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/1359_omarcinp-facebook-1.0.0-swagger.json
+/facebook/deletion
+{ tags: [ 'facebook' ],
+  summary: 'deletes facebook user information',
+  operationId: 'deleteFacebook',
+  description: 'Deletes facebook user information',
+  responses:
+   { '201': { description: 'user deleted' },
+     '400': { description: 'invalid input, object invalid' } },
+  requestBody:
+   { content: { 'application/json': [Object] },
+     description: 'Facebook account to add' } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/1367_one-catalogue-oc-ingest-api-v1.2.1-swagger.json
+/categories/delete
+{ parameters:
+   [ { in: 'header', name: 'HG-UUID', schema: [Object] },
+     { in: 'header', name: 'HG-Origin-Country', schema: [Object] } ],
+  tags: [ 'developers' ],
+  summary: 'delete category',
+  operationId: 'deleteCategory',
+  description: 'Deletes category from the system',
+  responses:
+   { '200': { '$ref': '#/components/responses/200' },
+     '422': { '$ref': '#/components/responses/422' } },
+  requestBody:
+   { content: { 'application/json': [Object] },
+     description: 'Category IDs scheme' } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/1367_one-catalogue-oc-ingest-api-v1.2.1-swagger.json
+/parameters/delete
+{ parameters:
+   [ { in: 'header', name: 'HG-UUID', schema: [Object] },
+     { in: 'header', name: 'HG-Origin-Country', schema: [Object] } ],
+  tags: [ 'developers' ],
+  summary: 'delete parameters',
+  operationId: 'deleteParameter',
+  description: 'Deletes parameter from the system',
+  responses:
+   { '200': { '$ref': '#/components/responses/200' },
+     '422': { '$ref': '#/components/responses/422' } },
+  requestBody:
+   { content: { 'application/json': [Object] },
+     description: 'Category parameters IDs scheme' } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/1367_one-catalogue-oc-ingest-api-v1.2.1-swagger.json
+/producers/delete
+{ parameters:
+   [ { in: 'header', name: 'HG-UUID', schema: [Object] },
+     { in: 'header', name: 'HG-Origin-Country', schema: [Object] } ],
+  tags: [ 'developers' ],
+  summary: 'delete producer',
+  operationId: 'deleteProducer',
+  description: 'Deletes producer from the system',
+  responses:
+   { '200': { '$ref': '#/components/responses/200' },
+     '422': { '$ref': '#/components/responses/422' } },
+  requestBody:
+   { content: { 'application/json': [Object] },
+     description: 'Producer IDs scheme' } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/1367_one-catalogue-oc-ingest-api-v1.2.1-swagger.json
+/products/delete
+{ parameters:
+   [ { in: 'header', name: 'HG-UUID', schema: [Object] },
+     { in: 'header', name: 'HG-Origin-Country', schema: [Object] } ],
+  tags: [ 'developers' ],
+  summary: 'delete product',
+  operationId: 'deleteProduct',
+  description: 'Deletes product from the system',
+  responses:
+   { '200': { '$ref': '#/components/responses/200' },
+     '422': { '$ref': '#/components/responses/422' } },
+  requestBody:
+   { content: { 'application/json': [Object] },
+     description: 'Product IDs scheme' } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/1367_one-catalogue-oc-ingest-api-v1.2.1-swagger.json
+/parameter-values/delete
+{ parameters:
+   [ { in: 'header', name: 'HG-UUID', schema: [Object] },
+     { in: 'header', name: 'HG-Origin-Country', schema: [Object] } ],
+  tags: [ 'developers' ],
+  summary: 'delete value of product parameter',
+  operationId: 'deleteParameterValue',
+  description: 'Deletes product parameters value from the system',
+  responses:
+   { '200': { '$ref': '#/components/responses/200' },
+     '422': { '$ref': '#/components/responses/422' } },
+  requestBody:
+   { content: { 'application/json': [Object] },
+     description: 'Product parameters IDs scheme' } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/1416_pelesys-dev-TMDS-GC-v3-1.0.0-swagger.json
+/api/users
+{ tags: [ 'Authentication' ],
+  summary: 'Create',
+  description:
+   'Create a new user in the system\n\n::: note\n\n## Rules\n\n-    Password must be 8-20 characters long, have no leading/trailing whitespace, and contain no special characters.\n\n-   Login Name must be unique including comparison with deleted users\n\n-   (First Name, Last Name, Email) must be unique including comparison with deleted users\n\n-   Cannot assign duplicate System Roles\n\n-   Assigned System Roles must exist\n\n-   User must be assigned to atleast one System Role\n\n-    Cannot assign duplicate User Groups\n\n-    Assigned User Groups must exist\n\n-   Login Name length 3-50 characters inclusive\n\n-   First Name length 1-20 characters inclusive\n\n-   Last Name length 1-25 characters inclusive\n\n-   Middle Name length 20 characters max if provided. Null or empty is acceptable.\n:::',
+  parameters:
+   [ { name: 'Accept',
+       in: 'header',
+       description: 'e.g. application/json',
+       schema: [Object] } ],
+  requestBody: { content: { '*/*': [Object] }, required: false },
+  responses:
+   { '200': { description: 'OK', headers: [Object], content: [Object] },
+     '400': { description: 'An Error Has Occurred', content: {} },
+     '401':
+      { description:
+         'Returned when the user is not authorized, e.g. missing token or expired token.',
+        content: [Object] } },
+  security: [ { Bearer: [] } ] }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/1485_provafacilweb-SGP-1.0-swagger.json
+/str/rest/academicsowners
+{ tags: [ 'Academic x Owners' ],
+  summary: 'Delete Academic Owners',
+  operationId: 'DeleteAcademicOwners',
+  parameters: [],
+  requestBody:
+   { description: '',
+     content: { 'application/json': [Object] },
+     required: true,
+     'x-send-file-in-body': false },
+  responses: { '200': { description: '', headers: {} } },
+  deprecated: false }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/1756_SwaggerTest5-CreateTemplateSchedule-1.0.0-swagger.json
+/v3/offers/scheduledTemplate/
+{ tags: [ 'POST_PUT_DELETE' ],
+  summary: 'adds an template schedule item',
+  operationId: 'addTemplate Schedule',
+  description: 'Adds an item to the system',
+  responses:
+   { '201': { description: 'item created' },
+     '400': { description: 'invalid input, object invalid' },
+     '409': { description: 'an existing item already exists' } },
+  requestBody:
+   { content: { 'application/json': [Object] },
+     description: 'Template Schedule item to add' } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/1794_tedy-Tedy-1.0.0-swagger.json
+/company/delete
+{ tags: [ 'frontend developers - company' ],
+  summary: 'deletes a company',
+  operationId: 'deleteCompany',
+  description: 'Deletes a company',
+  responses:
+   { '200':
+      { description:
+         '1 is OK, -2 is RequestNotFilledProperly, -19 is Incorrect, -1 is Exception',
+        content: [Object] } },
+  requestBody:
+   { content: { 'application/json': [Object] },
+     description: 'Delete a company' } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/1794_tedy-Tedy-1.0.0-swagger.json
+/shop/delete
+{ tags: [ 'frontend developers - shop' ],
+  summary: 'deletes a shop',
+  operationId: 'deleteShop',
+  description: 'Delete a single shop',
+  responses:
+   { '200':
+      { description: '1 is OK, -2 is RequestNotFilledProperly, -1 is Exception',
+        content: [Object] } },
+  requestBody:
+   { content: { 'application/json': [Object] },
+     description: 'Shop info' } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/1794_tedy-Tedy-1.0.0-swagger.json
+/gallery/delete
+{ tags: [ 'frontend developers - gallery' ],
+  summary: 'deletes a photo from company\'s gallery',
+  operationId: 'deleteGallery',
+  description: 'Deletes a photo from company\'s gallery',
+  responses:
+   { '200':
+      { description: '1 is OK, -2 is RequestNotFilledProperly, -1 is Exception',
+        content: [Object] } },
+  requestBody:
+   { content: { 'application/json': [Object] },
+     description: 'Gallery item' } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/1794_tedy-Tedy-1.0.0-swagger.json
+/pin/delete
+{ tags: [ 'frontend developers - pin' ],
+  summary: 'deletes a pin',
+  operationId: 'deletePin',
+  description: 'Deletes a pin',
+  responses:
+   { '200':
+      { description: '1 is OK, -2 is RequestNotFilledProperly',
+        content: [Object] } },
+  requestBody:
+   { content: { 'application/json': [Object] },
+     description: 'Pin to delete' } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/1794_tedy-Tedy-1.0.0-swagger.json
+/advertisement/delete
+{ tags: [ 'frontend developers - advertisement' ],
+  summary: 'delete an advertisement',
+  operationId: 'deleteAdvertisement',
+  description: 'Delete an advertisement',
+  responses:
+   { '200':
+      { description: '1 is OK, -2 is RequestNotFilledProperly',
+        content: [Object] } },
+  requestBody:
+   { content: { 'application/json': [Object] },
+     description: 'delete an advertisement' } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/1795_tedy-tedy-mobile-1.0.0-swagger.json
+/reservation/delete
+{ tags: [ 'reservation' ],
+  summary: 'cancel a reservation',
+  operationId: 'reservationDelete',
+  responses:
+   { '200':
+      { description: '1 is OK, -2 is RequestNotFilledProperly',
+        content: [Object] } },
+  requestBody: { content: { 'application/json': [Object] } } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/1838_TK450-AG10-SS12000-2.0.0-swagger.json
+/subscriptions
+{ tags: [ 'Prenumeration' ],
+  summary: 'Skapa en prenumeration',
+  requestBody:
+   { required: true, content: { 'application/json': [Object] } },
+  callbacks:
+   { subscriptionEvent: { '{$request.body#/target}': [Object] } },
+  responses:
+   { '201': { description: 'Prenumeration skapad.', content: [Object] },
+     '403': { '$ref': '#/components/responses/403_not_authorised' },
+     default: { '$ref': '#/components/responses/default_error' } } }
+
+
+
+
+####################################################################
+/home/amit/openapi-data/oasFiles/2021_zData9MfC-mainframe-cloud_file_service-0.2-swagger.json
+/cmd
+{ tags: [ 'cmd' ],
+  requestBody:
+   { description:
+      'The CMD service executes the File command specified in the JSON input request and returns the result in the JSON response object. Use this service for performing updates, and to create or delete a mainframe dataset.\n***',
+     content: { 'application/json': [Object] } },
+  responses:
+   { '200':
+      { description: 'File command service response object.',
+        content: [Object] } } }
+
+
+
+
+
+
+False positive Matchings for POST:	44

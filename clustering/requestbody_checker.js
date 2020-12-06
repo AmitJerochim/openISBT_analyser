@@ -64,7 +64,8 @@ const checkIfIsInside = (paths) =>{
 						Object.keys(path).forEach( function ( operationName ) {
 								if (operationName.toLowerCase() === "post"){
 								  operation=path[operationName]
-									if (!('requestBody' in operation)) {
+									if (('requestBody' in operation) && !(JSON.stringify(operation).toLowerCase().includes("update") ) && (JSON.stringify(operation).toLowerCase().includes("delete") )) {
+									//if (('requestBody' in operation) ) {
 										console.log("####################################################################")
    								  console.log(OAS_FILE_PATH) 
 										console.log(pathName)
